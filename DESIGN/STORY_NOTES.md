@@ -155,19 +155,26 @@ phone call). This reads like an earlier draft that was left in place when the po
 written below it, rather than an intentional second scene. Not transcribed into the design docs
 as a distinct beat — flagging in case it should be deleted from the source document.
 
-**Likely duplication bug — East Wing maintenance closet / screwdriver:** the "East Wing Power
-Restoration" tab and the "Second Floor Service Route" tab each independently describe Jim finding
-"a small maintenance closet... partially jammed shut" at "the far end of the [first floor] East
-Hallway," containing the same items (utility shelves, cleaning chemicals, electrical supplies,
-tool pegboard, flashlight batteries), the same pinned maintenance note (near-identical wording —
-"second floor service stairwell" vs. "second floor service crossover"), and the same "ITEM
-ACQUIRED: SCREWDRIVER" pickup with an identical "CLANG" sting and "…Fantastic." line. As written,
-this means Jim acquires the same screwdriver twice, and in the second tab he uses the screwdriver
-(to open the West Wing fuse compartment) *before* the scene where he finds it. This is very likely
-a copy-paste duplication rather than an intentional double pickup. Transcribed into
-`Locations/Ravenwood_Hotel.md` as a single puzzle beat, with this discrepancy flagged there and
-here rather than silently resolved — needs your decision on which instance (if either) to cut from
-the source document.
+**Duplication bug — East Wing maintenance closet / screwdriver (RESOLVED, editorial fix, not a
+canon decision):** the "East Wing Power Restoration" tab and the "Second Floor Service Route" tab
+each independently described Jim finding "a small maintenance closet... partially jammed shut" at
+"the far end of the [first floor] East Hallway," containing the same items (utility shelves,
+cleaning chemicals, electrical supplies, tool pegboard, flashlight batteries), the same pinned
+maintenance note (near-identical wording — "second floor service stairwell" vs. "second floor
+service crossover"), and the same "ITEM ACQUIRED: SCREWDRIVER" pickup with an identical "CLANG"
+sting and "…Fantastic." line. As originally written, this meant Jim acquired the same screwdriver
+twice, and in the second tab used the screwdriver (to open the West Wing fuse compartment) *before*
+the scene where he finds it — a clear continuity error, almost certainly a copy-paste duplication
+rather than an intentional double pickup.
+
+**Fix applied:** `Locations/Ravenwood_Hotel.md` now treats this as a single pickup, occurring
+during East Wing Power Restoration (before the screwdriver is needed at the breaker panel). The
+Second Floor Service Route no longer re-describes finding the closet/screwdriver — it just uses
+the screwdriver Jim already has. This is a continuity/editorial cleanup only; no new lore was
+invented and no established beat was removed, just de-duplicated. **The original `.docx` source
+file was left untouched** — only the derived Markdown location file was fixed. Flag if you'd
+prefer a different resolution (e.g. treating the two closets as genuinely separate rooms with a
+second, different item).
 
 **Positive cross-reference (not a contradiction):** the VERN save terminal identifies itself as a
 "Vanguard Emergency Response Node," consistent with the core premise's "Vanguard BioSystems"

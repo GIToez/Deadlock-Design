@@ -82,12 +82,16 @@ into the streets of Ravenwood.
   auxiliary power. Jim explores the newly-opened East Wing guest hallway (blood trails, panic
   debris) and finds a maintenance closet with a **screwdriver** and a note indicating the West
   Wing fuse was relocated and the direct lobby route is unusable.
-- **Second Floor Service Route.** Using the screwdriver, Jim opens the West Wing fuse compartment
-  at the breaker panel to confirm it's burned out, then crosses through the East Wing upper floor
-  (passing a locked, blood-marked Room 106 — Cindy is unseen but a wet dragging sound is heard),
-  through a service stairwell, down into the East Wing's first floor maintenance areas, and across
-  a second-floor East–West service crossover to a **West Wing maintenance office**, recovering the
-  **auxiliary fuse** from a regulator (which powers down the immediate area on removal).
+- **Second Floor Service Route.** Using the screwdriver already recovered during East Wing Power
+  Restoration, Jim opens the West Wing fuse compartment at the breaker panel to confirm it's
+  burned out, then crosses through the East Wing upper floor (passing a locked, blood-marked Room
+  106 — Cindy is unseen but a wet dragging sound is heard), through a service stairwell, down into
+  the East Wing's industrial first-floor maintenance corridors, and across a second-floor
+  East–West service crossover to a **West Wing maintenance office**, recovering the **auxiliary
+  fuse** from a regulator (which powers down the immediate area on removal). *(Editorial fix: the
+  source material repeats an identical maintenance-closet/screwdriver pickup here; see
+  `STORY_NOTES.md` — this has been resolved to a single pickup during East Wing Power
+  Restoration, since the screwdriver is needed at the breaker panel before this route begins.)*
 - **West Wing Power Restoration.** Installing the fuse and activating the West Wing breaker
   restores power hotel-wide and brings the **courtyard access system online**. Returning upstairs,
   Jim passes Room 106 again — Cindy Sweets bursts out screaming and is violently dragged back
@@ -180,10 +184,12 @@ confirmation of which characters warrant standalone files — see chat summary /
   pressure controls, breaker reset) restores the courtyard's backup generator, re-powering the
   exterior gate — and triggers the maintenance shed breach that begins the Caretaker boss fight.
 
-> **Note:** the source material describes the East Wing maintenance closet/screwdriver pickup and
-> its accompanying note in near-identical detail *twice* (once during East Wing Power Restoration
-> and again, essentially unchanged, during the Second Floor Service Route). See `STORY_NOTES.md`
-> for this flagged as a probable duplication needing resolution rather than two distinct pickups.
+> **Resolved duplication:** the source material describes the East Wing maintenance
+> closet/screwdriver pickup twice, near-verbatim (once during East Wing Power Restoration, again
+> during the Second Floor Service Route). This document treats it as a single pickup, during East
+> Wing Power Restoration — see `STORY_NOTES.md` for the reasoning and the option to revisit if you
+> disagree. The original `.docx` source file has been left untouched; only this derived document
+> was cleaned up.
 
 ## Key Items
 
