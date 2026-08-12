@@ -1290,6 +1290,13 @@ indicator beside the breaker panel activates.
 
 ## SCENE 35 — ROOM 106 / CINDY JUMPSCARE
 
+![Cindy's Room 106 jumpscare — reference animation](../Characters/spr_cindy_jumpscare.gif)
+
+> *Reference asset: `Characters/spr_cindy_jumpscare.gif` (uploaded by the project owner,
+> 2026-08-12). Confirmed via full frame-by-frame extraction to match this scene exactly as
+> written below — see [`Characters/Cindy_Sweets.md`](../Characters/Cindy_Sweets.md) for the full
+> frame analysis.*
+
 The second floor west hallway looks worse with the lights back on. Some things are better in the
 dark. The carpet outside Room 106 has a stain that wasn't there before — thick and dark, trailing
 under the door frame from inside. The overhead light outside the room flickers rapidly — faster
