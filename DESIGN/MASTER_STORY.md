@@ -8,11 +8,14 @@
 
 ## Overall Premise
 
-Jim Mercer, a field infrastructure engineer, is driving through Appalachia during a severe storm
-when he gets stranded in the small town of Ravenwood and checks into the Ravenwood Hotel for what
-he believes will be a single overnight stay. Unknown to Jim, Ravenwood has already begun
-collapsing due to an underground Vanguard BioSystems outbreak tied to "Project Ashen." The game
-begins grounded and slow before escalating into full quarantine horror.
+Jim Mercer — retired military (communications/logistics), now a telecommunications field
+engineer — is driving alone through rural Appalachia during a severe storm, on his way to a relay
+site that has been offline for three days. Flooding and poor visibility force him off Highway 13
+into the isolated mountain town of Ravenwood, where he checks into the Ravenwood Hotel for what he
+believes will be a single overnight stay. Unknown to Jim, Ravenwood has already begun collapsing
+due to an outbreak connected to Vanguard BioSystems, "Project Ashen," and a mutagen called
+**Black Vein.** The game begins grounded and slow before escalating into full quarantine horror —
+and the entire game takes place over the course of one night.
 
 Core themes: isolation, corporate conspiracy, civil collapse, survival against overwhelming
 infection, and the gradual discovery of a hidden truth beneath Ravenwood.
@@ -21,78 +24,154 @@ infection, and the gradual discovery of a hidden truth beneath Ravenwood.
 
 ## Acts / Chapters
 
-### Act 1 — Ravenwood Hotel
+### Chapter 1 — One Night Only (Ravenwood Hotel)
 
-**Prologue — One Night Only.** Jim drives into Ravenwood through heavy rain on Highway 13,
-talking to his partner Sarah by phone. He checks into the Ravenwood Hotel and is given Room 104
-by the night clerk, Earl Whitaker. The lobby introduces the hotel's other stranded guests: Cindy
-Sweets, Maria and Richard Dalton, and Janeth Caldwell. The night is quiet, ordinary, and
-unsettling only in small, deniable ways (a distant thud, a scream that doesn't repeat).
+**Arrival.** Jim drives into Ravenwood through heavy rain on Highway 13, talking to his partner
+Sarah by phone. He checks into the Ravenwood Hotel and is given Room 104 by the night clerk, Earl
+Whitaker. The lobby introduces the hotel's other stranded guests: Cindy Sweets, Maria and Richard
+Dalton, and Janeth Caldwell. The night is quiet and ordinary — no manufactured foreshadowing;
+Earl is written as a plainly decent, unsuspecting man, and the horror should come from the
+building itself, not from anyone acting suspicious.
 
-**The Outbreak Begins.** A civil emergency siren wakes Jim. The hotel has descended into chaos
-overnight. Investigating the lobby, Jim finds Earl Whitaker feeding on a guest — the game's first
-confirmed infected. Jim grabs a baseball bat to fight Earl off. Guest Janeth Caldwell is killed
-when a crashing police cruiser blocks the hotel's front entrance, sealing off the obvious escape
-route. A police radio broadcast declares that **"Deadlock Protocol" is now in effect** — the
-game's title card.
+**The Outbreak Begins.** A civil emergency siren wakes Jim with no warning. The hotel has
+descended into chaos overnight. In the wrecked lobby, Jim finds Earl Whitaker feeding on a guest —
+the game's first confirmed infected. Jim grabs a baseball bat to fight Earl off. Guest Janeth
+Caldwell is killed when a crashing police cruiser blocks the hotel's front entrance, sealing off
+the obvious escape route. A police radio broadcast declares that **"Deadlock Protocol" is now in
+effect"** — the game's title card.
 
-**Hotel Chapter Progression.** With the front exit blocked, Jim must route power through the
-hotel to reach an alternate exit (the rear courtyard). This drives the bulk of Act 1's traversal
-and puzzle structure:
+**Escaping the Hotel.** With the front exit blocked, Jim must route power through the hotel to
+reach an alternate exit (the rear courtyard):
 
 1. Jim takes Earl's key and reaches the Manager's Office (the game's first safe room, with a VERN
-   save terminal).
-2. Restoring East Wing power opens up the East Wing guest floors.
-3. A missing fuse sends Jim through the East Wing, up through a service stairwell, and across to
-   a West Wing maintenance office to recover a replacement auxiliary fuse.
-4. Restoring West Wing power opens the West Wing (bar, recreation lounge, the Red Room, and the
-   courtyard security office) and activates the courtyard's electronic gate systems.
-5. The Red Room — an eerily undisturbed speakeasy lounge — hides a mini-boss encounter (an
-   infected lounge singer) guarding a backstage route to the courtyard security office.
-6. Returning through the lobby, Jim is ambushed by an infected police officer inside the crashed
-   cruiser, yielding the game's first firearm (a handgun).
-7. In the hotel courtyard, the exit gate is dead due to generator failure. Restoring the
-   generator triggers the chapter's boss fight: **The Caretaker**, a mutated hotel groundskeeper.
-8. Defeating the Caretaker opens the north courtyard gate — Jim's first exit from the hotel into
+   save terminal — see `CANON.md` for what VERN is).
+2. Restoring East Wing power opens the East Wing guest floors and yields a screwdriver.
+3. Using it, Jim finds the West Wing fuse is burned out, and travels a service-stairwell /
+   second-floor crossover route to a West Wing maintenance office to recover a replacement fuse.
+4. Restoring West Wing power opens the West Wing (bar, recreation lounge, the self-contained
+   **Red Room** optional area, and — via a separate **West Wing service corridor** — the
+   Courtyard Security Office) and activates the courtyard's gate systems.
+5. Passing through the lobby again, Jim is ambushed by an infected police officer (Officer Dale
+   Pruitt — the same officer seen at the start of the game) inside the crashed cruiser, yielding
+   the game's first firearm.
+6. In the hotel courtyard, the exit gate is dead due to generator failure. Restoring the
+   generator triggers the chapter's boss fight: **The Caretaker** (real name Roy Bullock, the
+   hotel's longtime maintenance man), mutated by the outbreak.
+7. Defeating the Caretaker opens the north courtyard gate — Jim's first exit from the hotel onto
    the streets of Ravenwood.
 
-### Act 2 — Ravenwood City
+*(Full scene-by-scene script: `Scripts/Chapter_1_One_Night_Only.md`. Full location design:
+`Locations/Ravenwood_Hotel.md`.)*
 
-_TBD — not yet written. A rough working-draft city layout (five outer districts, each tied to a
-crest, surrounding a central Memorial Park hub) has been logged in `STORY_NOTES.md` pending
-confirmation; nothing about Act 2's story content is established yet._
+### Chapter 2 — Ravenwood (The City)
 
-### Act 3 — Endgame
+**Crossing the Street.** Jim exits the hotel's north gate onto a public street, blocked in both
+directions by raised emergency bollards, forcing a short linear crossing to Memorial Park (visible
+just ahead) on this first pass. On return visits, once the bollards are lowered, the street opens
+freely in both directions.
 
-_TBD — not yet written._
+**Memorial Park — the Permanent Hub.** Memorial Park (est. 1891) sits directly across from the
+hotel and becomes Jim's safe hub for the rest of the game. It is walled with four gates (only the
+south gate — Jim's entry point — is open on arrival; the other three are locked from the outside
+and must be found and unlocked from the city side during exploration). A small number of infected
+have wandered into the park; Jim clears them and secures the south gate from inside. A guardhouse
+near the south gate contains the park's VERN terminal, an inventory storage chest, and a corkboard
+of documents (a park map, a groundskeeper's notes, and a bollard override keycard) that begin
+pointing Jim toward the Police Station and the five-crest mechanism (see below).
+
+**The Founders Memorial.** At the park's center stands a bronze statue holding a plaque with five
+empty pentagonal slots labeled ORDER, KNOWLEDGE, INDUSTRY, FAITH, and MEDICINE, surrounded by a
+water basin. Jim doesn't yet know what fills the slots, but the object explains itself well enough
+to imply an objective: five slots, presumably five locations.
+
+**The Five Districts.** Once Jim lowers the street bollards, all of Ravenwood opens up. The city
+is arranged as five districts around a central downtown, each home to one of the five major
+locations and its crest/emblem:
+
+- **Southwest — Authority Crest — Ravenwood Police Station** (closest to the park; the natural,
+  though not forced, first destination)
+- **Southeast — Knowledge Crest — Worthy Academy**
+- **Northeast — Medical Crest — St. Dymphna Hospital**
+- **Northwest — Industry Crest — Steelgate Refinery** (its rail yard tracks lead into the
+  mountain — the physical point Black Vein entered Ravenwood; not yet enterable)
+- **North — Faith Crest — Our Lady of Solace Monastery** (the most isolated district)
+
+Exploration order is fully open. Each district also contains 2–3 secondary locations (supplies,
+lore, optional survivors) between downtown and the main objective — see `STORY_NOTES.md` for the
+full list logged so far. A two-tier survivor system applies throughout (see `CANON.md`).
+
+**Chapter Close.** Returning all five emblems to the Founders Memorial completes the pentagon; the
+water basin drains, revealing a hidden staircase beneath the statue — the entrance to the
+underground Vanguard facility.
+
+*(Scene-by-scene script for what's written so far — the street crossing, Memorial Park, and the
+Downtown introduction — is in `Scripts/Chapter_2_Ravenwood.md`. The five districts themselves are
+planned in detail in `STORY_NOTES.md` but not yet written scene-by-scene.)*
+
+### Chapter 3 — What Was Hidden (Underground)
+
+Jim descends into the Vanguard facility beneath Memorial Park. Project Ashen and Black Vein are
+revealed. Before the finale, Jim sends one outbound message to Sarah — one-sided, uncertain
+whether it gets through. The facility is destroyed (or partially destroyed) by the end.
+**Jim's fate is left deliberately ambiguous.**
+
+*Not yet written — content beyond this summary is `_TBD_`.*
+
+### Epilogue — One More Night
+
+Sarah Mercer arrives at the outskirts of Ravenwood days later, looking for Jim, and passes through
+the quarantine perimeter anyway. No resolution of Jim's fate is given. This is an intentional
+sequel hook — the implied next game would be played from Sarah's perspective.
+
+*Not yet written — content beyond this summary is `_TBD_`.*
 
 ## Major Story Progression
 
-See **Act 1 — Ravenwood Hotel** above for the fully established progression so far. Beyond the
-hotel courtyard gate, the story has not yet been written.
+See the chapter breakdown above for the fully established progression through the start of
+Chapter 2's open-world phase. Beyond the Downtown introduction, the five districts and everything
+underground has not yet been written scene-by-scene (see `STORY_NOTES.md` for the planning
+material that exists for it).
 
 ## How Locations Connect
 
-- **Ravenwood Hotel → Ravenwood City:** the hotel's rear courtyard gate is the player's first
-  exit from the hotel into the wider city.
-- City-wide location connectivity beyond that point is not yet established as canon. A working
-  draft (five districts/crests around a central Memorial Park hub, connected by streets and a
-  sewer system) exists in `STORY_NOTES.md` but is explicitly unconfirmed and subject to change.
+- **Ravenwood Hotel → Memorial Park:** the hotel's north courtyard gate leads across a single
+  street directly to the park's south gate (linear on first crossing; open in both directions
+  afterward).
+- **Memorial Park → the five districts:** the park's four gates are **fast-travel shortcuts
+  between city sections**, not direct entrances to the five major locations — the player still
+  has to navigate the city itself to reach each one. Only the south gate is open on arrival; the
+  other three must be found and unlocked from the city side.
+- **The five districts** surround a central downtown (Pearl's Diner, the Public Library, City
+  Hall) and are laid out geographically per the map in `STORY_NOTES.md` (Southwest/Authority,
+  Southeast/Knowledge, Northeast/Medical, Northwest/Industry, North/Faith).
+- **The Northwest district's rail yard** has tracks leading into the mountain — the physical
+  entry point of Black Vein into Ravenwood, visible but not enterable during Chapter 2.
+- **Memorial Park → Underground Vanguard facility:** returning all five emblems drains the
+  Founders Memorial's water basin, revealing a staircase beneath the statue.
 
 ## Five-Crest Progression
 
-_TBD._ The five-crest concept has only appeared so far as an unconfirmed working-draft city map
-(logged in `STORY_NOTES.md`). It has not yet appeared in the written story material, and no
-crest has been tied to specific story beats, puzzles, or unlocks yet.
+See `CANON.md` ("The Founders & the Five Crests") for the full locked mechanic: five founders,
+one crest/emblem each, one civic institution each, reassembled into a pentagon at the Founders
+Memorial to open the way underground.
 
 ## Major Revelations
 
-_TBD._ The outbreak's origin (Vanguard BioSystems / "Project Ashen") is stated as fact in the
-core premise but has not yet been *revealed to the player* through story beats — the hotel
-chapter only hints at it via environmental storytelling (the VERN terminal identifying itself as
-a "Vanguard Emergency Response Node," and an incident report referencing St. Dymphna Hospital).
-Fuller revelations are not yet written.
+- The outbreak's origin (Vanguard BioSystems / "Project Ashen" / Black Vein) is stated as fact in
+  the core premise but is only hinted at during Chapter 1 (the VERN terminal's Vanguard branding,
+  an incident report mentioning St. Dymphna Hospital).
+- Chapter 2 begins surfacing the deeper history: Ravenwood and Vanguard share the same five
+  founders; the underground facility was built alongside the town itself in 1887; a geological
+  survey found in the Downtown library shows tunnel sections already circled and annotated with
+  "Black Vein" by someone before the outbreak; a newspaper clipping shows Steelgate Refinery
+  announced a "routine maintenance" closure and unusual animal deaths were reported near North
+  Ridge in the weeks before the outbreak; a City Hall audio log captures the town's emergency
+  government response collapsing in real time and Deadlock Protocol being authorized.
+- Full revelation of Project Ashen and Black Vein's true nature is reserved for Chapter 3
+  (not yet written).
 
 ## Endgame Progression
 
-_TBD — not yet written._
+Chapter 3 (underground facility, Project Ashen/Black Vein revealed, Jim's final message to Sarah,
+ambiguous ending) and the Epilogue (Sarah's arrival, sequel hook) are both locked in outline form
+(see `CANON.md`) but not yet written scene-by-scene. `_TBD_` beyond that.

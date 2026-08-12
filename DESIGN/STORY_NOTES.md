@@ -3,214 +3,224 @@
 > Brainstorming and unresolved-ideas document. Nothing here is automatically canon.
 > Nothing here should be promoted to `CANON.md` or `MASTER_STORY.md` unless explicitly approved.
 
-## Possible Story Ideas
+> **Sources referenced throughout this file:** a city layout **map image** (uploaded 2026-08-12,
+> explicitly called a rough/not-final pass by the user); `Deadlock Protocol - Story Design
+> Rebuild.docx` (uploaded 2026-08-12, Prologue + full Hotel chapter); `AI.json` (uploaded
+> 2026-08-12, a much larger older AI planning conversation covering the Hotel chapter rewrite plus
+> Memorial Park, the five districts, the crest/emblem system, and secondary locations). Where
+> sources agree independently, that's noted as a positive cross-check. Where they disagree,
+> `AI.json` — being the latest, most deliberate pass — is treated as authoritative, and the
+> conflict is recorded rather than silently resolved (see `CANON.md` → "Retcons").
 
-_TBD_
+## Resolved / Superseded Items (kept for traceability)
 
-## Alternative Scenes
+- ~~Are the location proper names (St. Dymphna Hospital, Worthy Academy, Steelgate Refinery, Our
+  Lady of Solace Monastery, Ravenwood Police Station) placeholders?~~ **Resolved — confirmed.**
+  All five names now appear consistently across three independent sources (the map image, the
+  docx's incident report, and the full city description in `AI.json`). Treated as locked; see
+  `CANON.md`.
+- ~~Vanguard Facility placement — doesn't appear on the surface city map.~~ **Resolved.** Per
+  `AI.json`, the Vanguard facility is **underground**, beneath Memorial Park's Founders Memorial
+  statue, reached only after all five emblems are returned (Chapter 3 — "What Was Hidden"). That's
+  exactly why it never appeared on a surface map. `Locations/Vanguard_Facility.md` has been
+  updated to reflect this.
+- ~~Is the East Wing screwdriver/maintenance-closet a duplication bug?~~ **Resolved — yes, and
+  independently confirmed twice.** Both this project's own audit of the docx *and* the user's own
+  later audit of the same material inside `AI.json` reached the identical conclusion and the
+  identical fix (one pickup, in the East Wing). See `CANON.md` → "Retcons."
+- ~~Is the Red Room's backstage route into the Courtyard Security Office logically sound (a
+  security office reachable only through a speakeasy lounge)?~~ **Resolved — no, and it's been
+  fixed.** Per `AI.json`, the Red Room is now fully self-contained (no backstage, no connection to
+  the Security Office), and the Security Office is reached via a separate West Wing service
+  corridor instead. The "deadbolted door" detail from the docx is removed entirely.
+  `Locations/Ravenwood_Hotel.md` reflects the fix.
+- ~~Is the officer in the crashed cruiser the same one seen in the parking lot?~~ **Resolved —
+  yes**, confirmed in `AI.json`. He's named **Officer Dale Pruitt**.
+- ~~Earl's pre-outbreak "hesitation" — intentional foreshadowing or a mistake?~~ **Resolved.** Per
+  `AI.json` (and the user's own read of it — "that was ChatGPT's crappy way of trying to create
+  something that shouldn't be there"), it's cut. Earl is now written as a plainly ordinary man
+  with zero foreknowledge.
+- ~~The muffled scream Jim hears before falling asleep in Room 104.~~ **Resolved — removed from
+  canon** per `AI.json`. The horror should arrive with no warning.
+- ~~The Red Room singer and the Caretaker were unnamed.~~ **Resolved.** Per `AI.json`: the singer
+  is **Della Marsh** ("Della M." on stage); the Caretaker's real identity is **Roy Bullock**
+  (longtime hotel maintenance man). Neither had any direct Vanguard connection — the hotel was
+  simply caught in the outbreak's radius.
+- ~~Was the mutagen called "Black Vein" or "Dark Vein"?~~ **Resolved — Black Vein**, per explicit
+  user confirmation in `AI.json`.
+- ~~Jim's occupation was never established.~~ **Resolved** — see `CANON.md`.
 
-_TBD_
+## Still-Open Questions
 
-## Unresolved Questions
-
-- **Vanguard Facility placement:** `Locations/Vanguard_Facility.md` exists, but Vanguard Facility
-  does not appear anywhere on the Ravenwood city layout draft below. Is it outside city limits
-  (e.g. out along Highway 13 toward Oakridge), hidden/underground (sewer-accessible?), or a
-  later-act location not yet placed on the map? Needs confirmation before we write anything
-  location-specific about it.
-- Should the five-crest → district → location mapping below be locked into `CANON.md` /
-  `MASTER_STORY.md` now, or held here until the city layout is more finalized (buildings are
-  still expected to move around)?
-- Do the specific proper names below (St. Dymphna Hospital, Worthy Academy, Steelgate Refinery,
-  Our Lady of Solace Monastery, Ravenwood Police Station) get adopted as the official in-world
-  names for the corresponding `Locations/` files, or are these also placeholders? **Partial
-  update:** "St. Dymphna Hospital" is now independently confirmed by a second source (an incident
-  report document in the `Deadlock Protocol - Story Design Rebuild.docx` hotel chapter), so this
-  one name looks solid. The rest are still only single-sourced from the map.
-- Is there significance to the river / Highway 13 / "Oakridge, 35 miles" beyond flavor (e.g. an
-  evacuation route, a plot thread, a sequel hook)?
-- **Is Tabs 03–12 hotel content (post check-in through the courtyard boss fight) fully locked
-  canon, or still open for revision?** Only TAB 01 (Prologue) and TAB 02 (Hotel Lobby
-  Introduction) carry an explicit `STATUS: FINALIZED CANON — LOCKED` header in the source
-  document. Everything from "Post Check-In / First Free Exploration" through "Hotel Courtyard" is
-  written at the same level of finished detail but has no explicit status marker. It has been
-  written into `Locations/Ravenwood_Hotel.md` and summarized in `MASTER_STORY.md` as strong
-  working narrative, but is not treated as formally locked pending your confirmation.
-- Exact nature of Jim & Sarah's relationship (married vs. partnered) is never stated explicitly —
-  only that they exchange "love you." Currently written into `CANON.md` as "a committed
-  relationship" to avoid inventing a detail that isn't in the source.
-- What happens to **Cindy Sweets** after her Room 106 abduction? Not stated in the source material
-  covering the hotel chapter — currently left as an open thread rather than assumed.
-- What happens to **Maria and Richard Dalton** after they vanish from the lobby once the outbreak
-  begins? Not stated — currently left as an open thread rather than assumed.
+- **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /
+  Project Ashen) is locked, but *how* containment failed and *why now* are not yet written.
+  Reserved for Chapter 3.
+- **Cindy Sweets' fate** after her Room 106 abduction — per `AI.json`, explicitly left
+  undecided ("we haven't gotten that far in the story yet"), not just unwritten.
+- **Maria & Richard Dalton's fate** — per `AI.json`, confirmed to be resolved later at **St.
+  Dymphna Hospital** once that chapter is written, but the specific outcome is not yet decided.
+- **Gerta's fate** — left undecided; she may not need resolution at all if she doesn't recur.
+- **"Something near the tree line" / "something near the cruiser"** (the two lightning-flash
+  glimpses during the Highway 13 drive and from the Room 104 window) — per `AI.json`, deliberately
+  left as an unexplained, intentional mystery for now, not yet tied to anything specific.
+- **Full nature/scope of "Deadlock Protocol" as an authority/directive** — locked as a containment
+  order triggered by the outbreak and broadcast over police radio, but who specifically authorizes
+  it beyond local Ravenwood government (city hall's own emergency response collapses fast — see
+  the Downtown audio log in `Scripts/Chapter_2_Ravenwood.md`) isn't established.
+- **The Founders Memorial's two dates don't quite reconcile:** the park's own archway reads "EST.
+  1891," but the statue's plaque is dated "1887." Is the statue older than the park's formal
+  founding (i.e., moved/rebuilt around when the park was established), or is one of these dates a
+  typo that should be unified? Not yet resolved — flagging rather than picking one.
+- **Exploration order guardrails** — fully open by design, but no specific difficulty/danger
+  tuning has been written per district yet (only that the Monastery, being farthest and most
+  isolated, is expected to be hardest).
 
 ## Concepts Being Considered
 
-_TBD_
+- A two-tier survivor system is locked as a *rule* (see `CANON.md`), but beyond the one confirmed
+  example (Police Station officer, alive-if-first / turned-if-later), no other specific
+  conditional survivors have been written yet. `AI.json` floated illustrative, **not locked**,
+  examples: a civilian barricaded near the Hospital, a Vanguard employee hiding at the Academy, someone
+  trapped in a vehicle near the Foundry — all explicitly "not locked yet, just illustrating the
+  system."
 
-## Ravenwood City Layout (Working Draft — from map reference, NOT yet confirmed as canon)
+## Ravenwood City Layout — Cross-Validated
 
-> Source: a city layout map image provided by the user (approx. 2026-08-12). The user has
-> explicitly stated this is a rough/basic pass — "not perfect," with buildings likely to move
-> around — so treat placement as provisional. Building/crest **names** below are transcribed as
-> shown on the map, but are also unconfirmed as canon until explicitly approved. The raw map
-> image itself is not stored in this repo (no file was available to save); this is a full text
-> transcription of its contents so nothing is lost.
+> Two independent sources — a map **image** (uploaded first, explicitly called rough/not-final)
+> and a **text description** given later in the `AI.json` conversation (also explicitly "not set
+> in stone" for secondary buildings/street names) — describe the same city and agree strongly on
+> the big picture. Both are logged below. Where they add complementary detail (e.g. the text
+> description adds Highway 13/the bridge/downtown grid; the image adds specific street names),
+> both are kept. Still **not formally locked into `CANON.md`** beyond the five-district/crest
+> structure itself (already locked, since it's confirmed by three independent sources including
+> the fully-scripted Chapter 2 material) — exact building placement is still explicitly subject to
+> change per the user.
 
-### Districts and Crests (five-crest structure)
+### Districts and Crests (locked structure — see `CANON.md`)
 
-The map lays out five outer districts, each tied to one of the game's five crests, surrounding a
-central core:
+| Direction | Crest | Primary Location | Other buildings in district (image map) | Matches `Locations/` file |
+|---|---|---|---|---|
+| North | Faith Crest | Our Lady of Solace Monastery | Hillside Cemetery; Bell Tower; Overlook Trail | `Monastery.md` |
+| Northwest | Industry Crest | Steelgate Refinery | Machine Shops; Warehouse District; Loading Docks; Rail Yard (tracks lead into the mountain — Black Vein's entry point) | `Foundry_Refinery.md` |
+| Northeast | Medical Crest | St. Dymphna Hospital | Doctor Offices; Parking Structure; Ambulance Bay; Medical Clinic; Quarantine Checkpoint (blocks the road out of town) | `Hospital.md` |
+| Southwest | Authority Crest | Ravenwood Police Station | Police Parking; Fire Station; Municipal Garage; Public Works; City Courthouse | `Police_Station.md` |
+| Southeast | Knowledge Crest | Worthy Academy | Academy Library; Student Housing; Athletic Field; Playgrounds | `Academy.md` |
 
-| District | Crest | Key Location(s) | Matches existing `Locations/` file |
-|---|---|---|---|
-| North District | Faith Crest | Our Lady of Solace Monastery; Hillside Cemetery; Bell Tower | `Monastery.md` |
-| Northwest District | Industry Crest | Steelgate Refinery; Machine Shops; Warehouse District; Loading Docks; Rail Yard | `Foundry_Refinery.md` |
-| Northeast District | Medical Crest | St. Dymphna Hospital; Doctor Offices; Parking Structure; Ambulance Bay; Medical Clinic; Quarantine Checkpoint | `Hospital.md` |
-| Southwest District | Authority Crest | Ravenwood Police Station; Police Parking; Fire Station; Municipal Garage; Public Works | `Police_Station.md` |
-| Southeast District | Knowledge Crest | Worthy Academy; Academy Library; Student Housing; Athletic Field; Playgrounds | `Academy.md` |
+### Central / Downtown Ravenwood
 
-### Central Core (no crest — city hub)
+- **Memorial Park** — central hub of the city, directly across the street from the Ravenwood
+  Hotel (per both sources). Matches `Memorial_Park.md`.
+- **Ravenwood Hotel** — sits just north of Ravenwood Bridge / just south of Memorial Park —
+  effectively the first major building reached from Highway 13. Matches `Ravenwood_Hotel.md`.
+- Downtown itself (regular street grid) contains: City Hall, the Public Library, the Post Office,
+  a bookstore, cafés, small shops, offices, older apartments. Three of these are now fully
+  scripted secondary locations — **Pearl's Diner, the Ravenwood Public Library, and City Hall** —
+  see `Scripts/Chapter_2_Ravenwood.md`.
 
-- **Memorial Park** — explicitly called out in the map's own notes as "the central hub of
-  Ravenwood." Surrounded by City Hall, Public Library, and a small business strip (Bookstore,
-  Post Office). Matches `Memorial_Park.md`.
-- **Ravenwood Hotel** — sits just south of Memorial Park, along the main north–south corridor
-  (Northgate Ave → Carrington St → Malden Ave → Warren St → Ashland St). Matches
-  `Ravenwood_Hotel.md`.
-- A small mixed-business strip south of the Hotel: Movie Theater, Café, Flower Shop, Tax Office,
-  Bank.
+### Edges of the Map / Terrain
 
-### Edges of the Map
+- **Highway 13** runs east–west along the southern edge of the city; a single road crosses
+  **Ravenwood Bridge** over the river and is the only way into town from the south. Nothing
+  significant exists south of the river. (The image map additionally shows a sign reading "To
+  Oakridge, 35 miles" past the bridge — not contradicted by the text description, just not
+  repeated in it.)
+- A **river** runs through Ravenwood (enters near the northwest, bends around the city, exits
+  south), with smaller drainage channels/tributaries, plus rail cuts, retaining walls, fences,
+  collapsed roads, police barricades, flooded channels, and locked gates acting as natural
+  progression barriers throughout.
+- The **Northwest district's rail yard** has tracks that lead into the mountain — confirmed as the
+  physical point Black Vein entered Ravenwood. Visible from the rail yard, not enterable during
+  Chapter 2 (reserved for later).
 
-- **Highway 13** runs east–west along the southern edge of the city, crossing a river via a
-  bridge, with a road sign reading "To Oakridge, 35 miles" — implying the wider world beyond
-  Ravenwood.
-- A **river** cuts through the city.
+### Secondary Locations (per district — 2–3 each, "enough to not feel boring," per the user)
 
-### Map Notes (as stated on the map itself)
+Fully planned in `AI.json` but **not yet scripted** except Downtown's three (see above). Kept here
+as a working list for whenever the five districts get written:
 
-- Memorial Park is the central hub of Ravenwood.
-- The sewer system connects key buildings and districts.
-- Many buildings have multiple entry points.
-- Gates/locks and vaults unlock as the player progresses.
-- Police barricades can be cleared with key items.
-- Multiple safe rooms are placed throughout the city.
-
-### Map Legend (gameplay icons shown)
-
-Safe Room, Save Point, Puzzle Hub, Sewer Entrance, Locked Gate, Unlocked Gate, Police Barricade,
-One-Way Path, Stairs/Ladder, Sawhorse/Alley, Train Tracks, Building Entry.
-
-### Cross-Check Against Existing `Locations/` Files
-
-7 of the 8 existing location files line up with a named structure on this map:
-
-- `Ravenwood_Hotel.md` ↔ Ravenwood Hotel (central core)
-- `Memorial_Park.md` ↔ Memorial Park (central core / hub)
-- `Police_Station.md` ↔ Ravenwood Police Station (Southwest / Authority Crest)
-- `Hospital.md` ↔ St. Dymphna Hospital (Northeast / Medical Crest)
-- `Academy.md` ↔ Worthy Academy (Southeast / Knowledge Crest)
-- `Foundry_Refinery.md` ↔ Steelgate Refinery (Northwest / Industry Crest)
-- `Monastery.md` ↔ Our Lady of Solace Monastery (North / Faith Crest)
-- `Vanguard_Facility.md` ↔ **no match found on this map** — see Unresolved Questions above.
-
-## Things That Still Need Development
-
-- Act 2 (Ravenwood City) and Act 3 (Endgame) have no written story content yet — only the
-  unconfirmed working-draft city map above.
-- The five-crest progression mechanic has not been tied to any actual story beats, puzzles, or
-  unlocks yet — it currently exists only as district labels on the working-draft map.
-- Fate/resolution of Cindy Sweets and the Dalton family (see Unresolved Questions above).
-- The exact cause/mechanism of the Vanguard BioSystems / "Project Ashen" outbreak, beyond the
-  attribution stated in the core premise.
-- Placement and story role of Vanguard Facility (see Unresolved Questions above).
-
-## Audit — `Deadlock Protocol - Story Design Rebuild.docx` (uploaded 2026-08-12)
-
-> The user uploaded this document directly to the GitHub branch (58KB, 12 narrative "tabs"
-> covering the Prologue and the entire Ravenwood Hotel chapter). It has been read in full and
-> transcribed into `CANON.md`, `MASTER_STORY.md`, and `Locations/Ravenwood_Hotel.md`. The
-> original `.docx` file remains in `DESIGN/` as an archival source reference. Findings from this
-> pass:
-
-**Structural inconsistency:** the document's own opening Table of Contents (TAB 01 — Core Story
-Overview, TAB 02 — Prologue, TAB 03 — Chapter 1: Ravenwood Hotel, TAB 04 — Hotel Room Directory,
-TAB 05 — NPC Registry, TAB 06 — Puzzle & Key Item Flow, TAB 07 — Cutscenes & Jumpscares, TAB 08 —
-Creature Encounters, TAB 09 — Memorial Park Hub, TAB 10 — City Districts, TAB 11 — Chapter Flow &
-Progression, TAB 12 — Gameplay Systems, TAB 13 — Audio & Atmosphere, TAB 14 — Art Direction, TAB
-15 — Implementation Notes) does **not** match the actual tab numbering used in the document body
-(body TAB 01 = Prologue, body TAB 02 = Hotel Lobby Introduction, ... body TAB 12 = Hotel
-Courtyard). The body instead tells the hotel chapter as one continuous scene-by-scene script,
-with rooms/NPCs/puzzles/creatures woven in rather than broken out into the separate reference
-tables the Table of Contents implies. This document's structure has effectively been superseded
-by the `DESIGN/` folder structure (`MASTER_STORY.md` / `Locations/` / `Characters/` /
-`Creatures/`), which already separates these concerns — flagging in case the original ToC
-represented separate intended content that hasn't been written yet.
-
-**Leftover draft duplication:** immediately before the polished, explicitly-locked "TAB 01 —
-PROLOGUE / ONE NIGHT ONLY," the document contains a shorter, rougher, near-identical draft of the
-same opening scene (a "PROLOGUE: ONE NIGHT ONLY" / "SCENE P1" fragment covering only the Sarah
-phone call). This reads like an earlier draft that was left in place when the polished version was
-written below it, rather than an intentional second scene. Not transcribed into the design docs
-as a distinct beat — flagging in case it should be deleted from the source document.
-
-**Duplication bug — East Wing maintenance closet / screwdriver (RESOLVED, editorial fix, not a
-canon decision):** the "East Wing Power Restoration" tab and the "Second Floor Service Route" tab
-each independently described Jim finding "a small maintenance closet... partially jammed shut" at
-"the far end of the [first floor] East Hallway," containing the same items (utility shelves,
-cleaning chemicals, electrical supplies, tool pegboard, flashlight batteries), the same pinned
-maintenance note (near-identical wording — "second floor service stairwell" vs. "second floor
-service crossover"), and the same "ITEM ACQUIRED: SCREWDRIVER" pickup with an identical "CLANG"
-sting and "…Fantastic." line. As originally written, this meant Jim acquired the same screwdriver
-twice, and in the second tab used the screwdriver (to open the West Wing fuse compartment) *before*
-the scene where he finds it — a clear continuity error, almost certainly a copy-paste duplication
-rather than an intentional double pickup.
-
-**Fix applied:** `Locations/Ravenwood_Hotel.md` now treats this as a single pickup, occurring
-during East Wing Power Restoration (before the screwdriver is needed at the breaker panel). The
-Second Floor Service Route no longer re-describes finding the closet/screwdriver — it just uses
-the screwdriver Jim already has. This is a continuity/editorial cleanup only; no new lore was
-invented and no established beat was removed, just de-duplicated. **The original `.docx` source
-file was left untouched** — only the derived Markdown location file was fixed. Flag if you'd
-prefer a different resolution (e.g. treating the two closets as genuinely separate rooms with a
-second, different item).
-
-**Positive cross-reference (not a contradiction):** the VERN save terminal identifies itself as a
-"Vanguard Emergency Response Node," consistent with the core premise's "Vanguard BioSystems"
-antagonist and with the existing `Locations/Vanguard_Facility.md` file — no conflict found, just
-noting the connection.
-
-**Passing reference to an established base enemy type:** the Caretaker boss design notes say
-"Unlike shamblers: the caretaker is intelligent enough to pursue and corner the player
-aggressively," implying a standard/base infected enemy type called a **"Shambler"** already exists
-as a concept, even though no Shambler encounter is directly depicted in the transcribed hotel
-material. Flagging as a likely `Creatures/` candidate — see the character/creature proposal below.
+- **Southwest / Authority (Police Station):** Ravenwood Fire Station; Municipal Garage / Impound
+  Lot; City Courthouse.
+- **Southeast / Knowledge (Academy):** a residential block (Elm Street or similar); a
+  neighborhood pharmacy; the Academy athletic field/bleachers.
+- **Northeast / Medical (Hospital):** all reworked to be physically part of the hospital complex
+  rather than standalone buildings (the user pointed out a town this size wouldn't have a separate
+  urgent care *and* a hospital) — the **Hospital Parking Structure**, **Ravenwood EMS /
+  Ambulance Bay** (across the street from the hospital), and a small, separate **Ravenwood Animal
+  Clinic** (whose vet notebook is meant to foreshadow that animal behavior changed *before* the
+  human outbreak — important Chapter 3 foreshadowing).
+- **Northwest / Industry (Refinery):** the Ravenwood Rail Yard (sealed freight car, tunnel into
+  the mountain); a Worker Housing Block; the Steelgate Loading Docks.
+- **North / Faith (Monastery):** a Hillside Residential Street (an unsent letter warning the
+  monastery about Black Vein; a calm, living dog on a porch as a deliberate emotional beat); the
+  Hillside Cemetery (disturbed graves, one very recent unmarked grave); the Overlook Trail (a
+  quiet vista of the whole burning city — meant to reframe the scale of the disaster for the
+  player).
 
 ## Character / Creature File Candidates (proposed — NOT yet created)
 
-Based on the Prologue + Ravenwood Hotel chapter material now transcribed, these are the
-significant recurring characters and creatures that appear well-established enough to warrant
-their own file, per your "no random background NPCs" rule. Nothing has been created yet — this is
-a proposal awaiting your go-ahead:
+Updated with names confirmed since the original proposal. Nothing has been created yet — still
+awaiting explicit go-ahead:
 
 **Characters/ (proposed):**
 - Jim Mercer (protagonist)
-- Sarah Mercer (Jim's partner)
+- Sarah Mercer (Jim's partner — arc now runs through the Epilogue)
 - Earl Whitaker (hotel night clerk → first infected)
 - Cindy Sweets (guest, Room 106)
 - Maria Dalton (guest, Room 118)
 - Richard Dalton (guest, Room 118)
-- Janeth Caldwell (guest, Room 112 — dies in this chapter)
+- Janeth Caldwell (guest, Room 112 — dies in Chapter 1)
+- Officer Dale Pruitt (parking-lot officer → infected police officer)
 - *Borderline:* Gerta (hotel maid) — appears only once, very briefly, with no plot function yet.
   Recommend holding off unless she recurs later.
 
 **Creatures/ (proposed):**
-- The Caretaker (hotel courtyard boss)
-- Red Room Singer (hotel Red Room mini-boss)
-- Shambler (implied base infected type — referenced by name but not yet directly depicted; may
-  be worth a placeholder entry once more material confirms its role)
-- *Not proposed as separate creature entries:* Earl Whitaker and the infected police officer are
-  named/one-off infected tied to specific characters/scenes rather than a distinct creature type,
-  so they're covered under their character entries (Earl) or as a scripted one-off (the officer)
-  rather than needing their own `Creatures/` file.
+- The Caretaker / Roy Bullock (hotel courtyard boss)
+- Della Marsh / "the Red Room Singer" (hotel Red Room mini-boss)
+- Shambler (standard infected type — now directly depicted on-screen during the Chapter 2 street
+  crossing, not just referenced in passing)
+
+## Things That Still Need Development
+
+- The five districts (Police Station, Hospital, Academy, Refinery, Monastery) are planned in
+  outline/secondary-location form (above) but **not yet scripted scene-by-scene**.
+- Chapter 3 ("What Was Hidden" — the underground Vanguard facility, Project Ashen, Black Vein's
+  full reveal, Jim's final message to Sarah, the ambiguous ending) is locked only at the outline
+  level in `CANON.md` — no scenes written.
+- The Epilogue ("One More Night" — Sarah's arrival, sequel hook) is likewise outline-only.
+- Fate/resolution of Cindy Sweets, the Daltons, and Gerta (see "Still-Open Questions" above).
+- The precise mechanism/cause of the Black Vein outbreak.
+
+## Audit — `Deadlock Protocol - Story Design Rebuild.docx` (uploaded 2026-08-12)
+
+> Read in full and transcribed into `CANON.md`, `MASTER_STORY.md`, and
+> `Locations/Ravenwood_Hotel.md`. The original `.docx` remains in `DESIGN/` as an archival source
+> reference.
+
+**Structural inconsistency:** the document's own opening Table of Contents (TAB 01 — Core Story
+Overview ... TAB 15 — Implementation Notes) does not match the actual tab numbering used in the
+document body (body TAB 01 = Prologue, ... body TAB 12 = Hotel Courtyard). The body instead tells
+the hotel chapter as one continuous scene-by-scene script. This is effectively superseded by the
+`DESIGN/` folder structure and, further, by the cleaner "Scenes not Tabs" numbering adopted in
+`Scripts/` per your explicit instruction.
+
+**Leftover draft duplication:** the docx contains a shorter, rougher, near-identical draft of the
+opening Highway 13 scene immediately before the polished, locked version. Not transcribed as a
+distinct beat — flagging in case it's worth deleting from the source `.docx` itself (which has
+been left otherwise untouched).
+
+## Audit — `AI.json` (uploaded 2026-08-12)
+
+> A ~200-message, ~500,000-character AI planning conversation (NovelCrafter Q&A assistant), read
+> in full. It covers: a full rewrite/audit of the Prologue + Hotel chapter (now folded into
+> "Chapter 1 — One Night Only"), Jim & Sarah's character voices and full dialogue rewrites, the
+> chapter structure (Ch.1/Ch.2/Ch.3/Epilogue), Memorial Park and the Founders Memorial/five-crest
+> mechanic in full, the citywide map, and secondary locations for all five districts plus Downtown
+> (three of which — Pearl's Diner, the Library, City Hall — are fully scripted). All of this has
+> been transcribed into `CANON.md`, `MASTER_STORY.md`, the relevant `Locations/` files, and
+> `Scripts/`.
+>
+> **Not transcribed:** a long stretch of the conversation (roughly the back third) is not story
+> content at all — it's the user and the AI going back and forth about whether the AI could
+> directly write into the user's NovelCrafter document (it could not; NovelCrafter's Q&A chat is
+> read-only against the project, separate from the document's own inline AI writing tool). That
+> back-and-forth is a tooling/platform issue, not lore, and has been deliberately left out of the
+> design docs.

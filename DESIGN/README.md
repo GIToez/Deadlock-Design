@@ -11,7 +11,8 @@ DESIGN/
 ├── STORY_NOTES.md        # Brainstorming / unresolved ideas — not canon
 ├── Characters/           # One file per significant recurring character
 ├── Creatures/             # One file per important creature type / major unique creature
-└── Locations/             # One file per major location (complete design for that location)
+├── Locations/             # One file per major location (complete design for that location)
+└── Scripts/               # Programmer-facing, scene-by-scene game scripts (dialogue + actions)
 ```
 
 ## AI Story Rules
