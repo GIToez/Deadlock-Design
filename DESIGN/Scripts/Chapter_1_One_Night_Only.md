@@ -1210,7 +1210,13 @@ closed door of Room 106.
 
 > **JIM:** *"...Jesus Christ."*
 
-Nothing moves behind the door. No sound. No light beneath the frame.
+Nothing moves behind the door. No sound. No light beneath the frame. Then — slowly, unhurried —
+a dark line of blood begins spreading out from beneath it across the carpet. Jim backs away from
+the door. Whatever is on the other side doesn't follow.
+
+> *Design note: this is the Maw's most notable confirmed encounter — see `Creatures/The_Maw.md`.
+> The creature itself is never seen here, and it disappears afterward. Seeing the aftermath of
+> the Maw is not the same as fighting it.*
 
 ---
 
@@ -1280,15 +1286,19 @@ Jim crouches beside her for a moment. Doesn't touch her.
 It isn't, and he knows it isn't, and he says it anyway, the way people say things to the dead that
 they'd say to the living, because the alternative is saying nothing at all.
 
-A sound — wet, low, receding — moves somewhere beyond the laundry room's far wall. Not toward Jim.
+A scrape of something dragging against metal — low, deliberate — comes from beyond the far wall,
+past a gap where a service panel has been pried loose. For half a second, low to the ground and
+folding itself through the gap, something moves that is not quite the right shape for a person —
+long arms, a hunched and narrow torso, gone before Jim's eyes can hold onto it. Not toward Jim.
 Away from him. Whatever did this isn't finished being somewhere else tonight.
 
 > *Design/story note: this is the same presence that dragged Cindy Sweets back into Room 106 (see
 > Scene 35) — barely glimpsed there as "something," "fast — too fast to properly see." It's since
-> been named **The Maw** (see `Creatures/The_Maw.md`). This is currently the only confirmed kill
-> attributed to it; Cindy's own fate remains a separate, still-open question — see
-> `STORY_NOTES.md`. The Maw itself is not fought or clearly seen in this scene, by design — it
-> stays a glimpsed, receding threat here, not a boss encounter.*
+> been fully designed as **The Maw** (see `Creatures/The_Maw.md`) — a heavily mutated Ashen Mutant
+> whose torso splits open into a feeding mouth, ordinarily kept hidden by its hunched, "closed"
+> posture. This glimpse is intentionally brief and unclear, consistent with its design: seeing it
+> does not mean fighting it. This is currently the only confirmed kill attributed to it; Cindy's
+> own fate remains a separate, still-open question — see `STORY_NOTES.md`.*
 
 *ITEM AVAILABLE (optional): a spare laundry-room master key on Gerta's belt, usable as a minor
 convenience item for any staff-only doors the player hasn't already opened by another route (no

@@ -128,6 +128,14 @@ early hint that Vanguard's reach into the town predates the outbreak.
   pulled over in the parking lot was already in early infection stages (his exposure point); that
   person is never named or seen clearly and remains anonymous.
 
+## Creature Classification: Ashen Mutant
+
+**The Maw** — a heavily mutated, territorial stalker/ambush predator encountered in the Ravenwood
+Hotel, classified as an "Ashen Mutant" — is the first confirmed example of this classification
+tier. It's responsible for both Cindy Sweets' Room 106 abduction and Gerta's death. Full design in
+`Creatures/The_Maw.md`. Whether "Ashen Mutant" applies more broadly (e.g. to the Caretaker) is not
+yet confirmed.
+
 ## Survivor System (design rule, applies from Chapter 2 onward)
 
 - **Tier 1 — Key story survivors:** a small number of fully developed characters, essential to the

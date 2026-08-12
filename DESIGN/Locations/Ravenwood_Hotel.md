@@ -190,9 +190,10 @@ confirmation of which characters warrant standalone files — see `STORY_NOTES.m
 - **Della Marsh ("the Red Room Singer," infected)** — optional mini-boss in the Red Room.
 - **The Caretaker / Roy Bullock (infected)** — the chapter's boss, fought in the courtyard. See
   full AI/phase design below.
-- **The Maw** — an unseen, ambush-type presence, glimpsed only in fragments; responsible for
-  dragging Cindy Sweets into Room 106 and for killing Gerta in the Laundry Room. Not fought or
-  clearly seen in Chapter 1 by design. See `Creatures/The_Maw.md`.
+- **The Maw** — classification: Ashen Mutant; a heavily mutated, territorial stalker/ambush
+  predator whose torso splits open into an enormous feeding mouth. Glimpsed only in fragments;
+  responsible for dragging Cindy Sweets into Room 106 and for killing Gerta in the Laundry Room.
+  Not directly fought in Chapter 1 by design. See `Creatures/The_Maw.md` for the full design.
 - The source material also references a base infected type by name in passing ("Unlike
   shamblers: the caretaker is intelligent enough to pursue and corner the player aggressively"),
   confirming a standard enemy type called a **"Shambler"** exists in the game (later confirmed
