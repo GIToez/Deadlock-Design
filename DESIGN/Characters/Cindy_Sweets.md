@@ -34,16 +34,21 @@ Introduced in the lobby (Room 106) → a second, uneasy conversation at her door
 retires for the night (she's already picking up on "scratching" sounds Jim brushes off) → during
 the outbreak, Jim finds her door blood-marked and hears a wet dragging sound from inside but
 doesn't see her → later, once West Wing power is restored, she bursts out of Room 106 calling for
-help and is violently dragged back inside before Jim can reach her; the door slams. **Her fate
-beyond this scene is explicitly unresolved** — per `AI.json`, this was left open on purpose ("we
-haven't gotten that far in the story yet"), not simply unwritten. Do not invent a resolution for
-her without explicit approval.
+help and is violently dragged back inside before Jim can reach her; the door slams. Whatever
+grabbed her has since been identified — per explicit direction from the project owner
+(2026-08-12) — as **The Maw**, the same presence later confirmed to have killed Gerta in the hotel
+Laundry Room (see `Creatures/The_Maw.md`). **Cindy's own ultimate fate remains explicitly
+unresolved**, however — identifying her abductor is not the same as resolving what happened to
+her. Per `AI.json`, this was left open on purpose ("we haven't gotten that far in the story yet"),
+not simply unwritten. Do not invent a resolution for her without explicit approval.
 
 ## Important Scenes
 
 - Lobby introduction / optional dialogue — `Scripts/Chapter_1_One_Night_Only.md`, Scenes 5, 8.
 - Pre-outbreak hallway encounter (Room 106 doorway) — Scene 19.
 - Room 106 jumpscare/abduction — Scene 35.
+- (Not her scene, but relevant) Gerta's death, confirming the same creature — **The Maw** — is
+  responsible for both incidents — Scene 37.
 
 ## Dialogue Characteristics
 

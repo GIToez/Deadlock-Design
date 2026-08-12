@@ -47,7 +47,7 @@ Single, one-off encounter — not a repeating enemy type.
 
 ## Major Appearances
 
-- `Scripts/Chapter_1_One_Night_Only.md`, Scene 39.
+- `Scripts/Chapter_1_One_Night_Only.md`, Scene 40.
 
 ## Story Significance
 

@@ -13,6 +13,10 @@
 >
 > Status: this chapter's content is marked `FINALIZED CANON — LOCKED` in its source. Treat it as
 > ready to implement against, not as a draft.
+>
+> **Scene 37 ("The Laundry Room")** is new material, approved directly by the project owner
+> (not sourced from `AI.json` or the docx) — it introduces **The Maw** and resolves Gerta's fate.
+> All scenes after it were renumbered (+1) to make room.
 
 ---
 
@@ -1224,8 +1228,10 @@ through it carefully and quickly.
 The bar Jim passed through hours ago pre-outbreak is barely lit now — a few overhead fixtures
 still flickering, the neon alcohol signs behind the counter buzzing unevenly. Broken glass covers
 the floor behind the bar. Several stools lie overturned. A large blood smear trails from the
-counter toward a staff storage door standing partially open at the back. Jim doesn't follow it.
-The room is too quiet for what it looks like.
+counter toward a staff storage door standing partially open at the back. The room is too quiet
+for what it looks like.
+
+*The blood trail continues through the staff storage door — see Scene 37.*
 
 ### Optional — room searches
 
@@ -1239,7 +1245,58 @@ this for hours and will keep doing it until the power dies again.
 
 ---
 
-## SCENE 37 — WEST WING SERVICE CORRIDOR
+## SCENE 37 — THE LAUNDRY ROOM
+
+*Optional. Reached by following the blood trail through the staff storage door behind the hotel
+bar (Scene 36).*
+
+The staff storage door opens onto a short, low-ceilinged utility corridor that Jim didn't know
+existed a few hours ago — the kind of space guests never see and staff barely think about.
+Warmer back here than the rest of the hotel; the air is thick with the smell of detergent and hot,
+stale steam that hasn't fully cleared. The corridor ends at the hotel laundry room.
+
+Industrial washers and dryers line one wall, a couple of them still running — one thumping
+rhythmically through an unbalanced load nobody's coming back to fix. Rolling laundry carts sit
+half-loaded with towels and sheets. A rack of staff uniforms hangs along the far wall, undisturbed.
+
+The blood trail doesn't stop at the doorway. It continues across the floor, between two of the
+carts, and ends at a housekeeping uniform crumpled against the base of a dryer.
+
+It's **Gerta.**
+
+She's on her back, one arm still tangled in the strap of the bucket she was carrying earlier that
+same night. Whatever came for her didn't leave much time for her to understand what was happening —
+there's no barricade attempted, no sign of a struggle that went anywhere. Just the one location,
+and the aftermath.
+
+The wound pattern doesn't match Earl. Doesn't match anything Jim's fought so far. Something about
+it is wrong in a different, more specific way — less like teeth and hands, more like something
+closed around her all at once.
+
+Jim crouches beside her for a moment. Doesn't touch her.
+
+> **JIM:** *"...Hey. Hey, it's alright."*
+
+It isn't, and he knows it isn't, and he says it anyway, the way people say things to the dead that
+they'd say to the living, because the alternative is saying nothing at all.
+
+A sound — wet, low, receding — moves somewhere beyond the laundry room's far wall. Not toward Jim.
+Away from him. Whatever did this isn't finished being somewhere else tonight.
+
+> *Design/story note: this is the same presence that dragged Cindy Sweets back into Room 106 (see
+> Scene 35) — barely glimpsed there as "something," "fast — too fast to properly see." It's since
+> been named **The Maw** (see `Creatures/The_Maw.md`). This is currently the only confirmed kill
+> attributed to it; Cindy's own fate remains a separate, still-open question — see
+> `STORY_NOTES.md`. The Maw itself is not fought or clearly seen in this scene, by design — it
+> stays a glimpsed, receding threat here, not a boss encounter.*
+
+*ITEM AVAILABLE (optional): a spare laundry-room master key on Gerta's belt, usable as a minor
+convenience item for any staff-only doors the player hasn't already opened by another route (no
+mandatory content is gated behind it).*
+
+---
+
+## SCENE 38 — WEST WING SERVICE CORRIDOR
 
 At the rear of the west wing a staff door marked **AUTHORIZED ACCESS** opens into a service
 corridor that runs along the back of the building. The walls here are bare — conduit and pipe runs
@@ -1255,7 +1312,7 @@ corridor.
 
 ---
 
-## SCENE 38 — COURTYARD SECURITY OFFICE
+## SCENE 39 — COURTYARD SECURITY OFFICE
 
 The Security Office is small and functional — exactly the kind of room that exists to do one job
 and does it without apology. A desk. A bank of monitors. Security terminals. Emergency lockdown
@@ -1275,7 +1332,7 @@ through the window, through the rain — the gate mechanism CLUNKS as the lock d
 
 ---
 
-## SCENE 39 — THE RED ROOM (OPTIONAL)
+## SCENE 40 — THE RED ROOM (OPTIONAL)
 
 *This area is accessible from the west wing hallway and is fully self-contained — it does not
 connect to anywhere else. Not required for progression.*
@@ -1310,7 +1367,7 @@ keeps going past where smiles stop. She rises from the stage.
 
 ---
 
-## SCENE 40 — INFECTED OFFICER / HANDGUN
+## SCENE 41 — INFECTED OFFICER / HANDGUN
 
 Jim crosses the lobby again. The cruiser. The rain. The destroyed entrance. He moves past the hood
 of the cruiser — and the passenger door explodes outward. No warning. No sound from inside. Just
@@ -1340,7 +1397,7 @@ enough that it doesn't require thought. Chamber. Safety. Weight.
 
 ---
 
-## SCENE 41 — HOTEL COURTYARD
+## SCENE 42 — HOTEL COURTYARD
 
 The exterior security gate opens into the storm. Jim steps outside for the first time since he
 parked the Jeep. The rain hits him immediately — cold and heavy, the kind that soaks through in
@@ -1366,7 +1423,7 @@ inside. Jim looks at the shed for a moment. Then he goes to work on the generato
 
 ---
 
-## SCENE 42 — GENERATOR RESTORATION
+## SCENE 43 — GENERATOR RESTORATION
 
 The generator hasn't been started in a while — that much is obvious. Fuel valve partially closed.
 Pressure dropped. Ignition contacts corroded at the terminals. Jim works through it methodically.
@@ -1386,7 +1443,7 @@ Then — **BANG.**
 
 ---
 
-## SCENE 43 — THE CARETAKER (ROY BULLOCK) — BOSS ENCOUNTER
+## SCENE 44 — THE CARETAKER (ROY BULLOCK) — BOSS ENCOUNTER
 
 The maintenance shed doors buckle outward. The chain pulls taut — holds — then snaps. The doors
 come open. He fills the doorway before he steps through it. Maintenance overalls, darkened with
@@ -1434,7 +1491,7 @@ and Roy Bullock's maintenance log (see `Locations/Ravenwood_Hotel.md`) are avail
 
 ---
 
-## SCENE 44 — NORTH GATE / EXIT INTO RAVENWOOD
+## SCENE 45 — NORTH GATE / EXIT INTO RAVENWOOD
 
 The north gate system is fully active now.
 

@@ -17,7 +17,7 @@ early on, since earlier source material used a confusing dual "Tab"/"Scene" numb
 
 ## Current files
 
-- `Chapter_1_One_Night_Only.md` — the Ravenwood Hotel, in full (44 scenes). Locked.
+- `Chapter_1_One_Night_Only.md` — the Ravenwood Hotel, in full (45 scenes). Locked.
 - `Chapter_2_Ravenwood.md` — the street crossing, Memorial Park, and the Downtown introduction (21
   scenes written so far). The five districts beyond Downtown are planned in `STORY_NOTES.md` but
   not yet scripted.

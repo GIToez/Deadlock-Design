@@ -40,7 +40,7 @@ treated as a Deadlock-Protocol-level event before Jim ever checked in.
 ## Important Scenes
 
 - Parking lot introduction — `Scripts/Chapter_1_One_Night_Only.md`, Scene 2.
-- Infected reveal / combat / handgun — Scene 40.
+- Infected reveal / combat / handgun — Scene 41.
 
 ## Dialogue Characteristics
 

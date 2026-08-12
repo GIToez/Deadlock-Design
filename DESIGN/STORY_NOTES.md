@@ -49,17 +49,24 @@
 - ~~Was the mutagen called "Black Vein" or "Dark Vein"?~~ **Resolved — Black Vein**, per explicit
   user confirmation in `AI.json`.
 - ~~Jim's occupation was never established.~~ **Resolved** — see `CANON.md`.
+- ~~Gerta's fate was left undecided.~~ **Resolved, approved directly by the project owner
+  (2026-08-12):** she's killed by a previously-unnamed, now-named creature, **The Maw** — the same
+  presence that dragged Cindy Sweets into Room 106 earlier in Chapter 1. Her body is discovered in
+  a new location, the hotel **Laundry Room**, reached by following a blood trail through a staff
+  storage door behind the Main Bar. See `Creatures/The_Maw.md`, `Characters/Gerta.md`, and
+  `Scripts/Chapter_1_One_Night_Only.md` (new Scene 37; all scenes after it renumbered +1).
 
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /
   Project Ashen) is locked, but *how* containment failed and *why now* are not yet written.
   Reserved for Chapter 3.
-- **Cindy Sweets' fate** after her Room 106 abduction — per `AI.json`, explicitly left
-  undecided ("we haven't gotten that far in the story yet"), not just unwritten.
+- **Cindy Sweets' fate** after her Room 106 abduction — her abductor is now identified (**The
+  Maw** — see below), but what actually happened to her (alive / dead / turned / something else)
+  remains explicitly undecided per the project owner. Do not infer a resolution from the Gerta
+  reveal — they are two separate open/closed questions.
 - **Maria & Richard Dalton's fate** — per `AI.json`, confirmed to be resolved later at **St.
   Dymphna Hospital** once that chapter is written, but the specific outcome is not yet decided.
-- **Gerta's fate** — left undecided; she may not need resolution at all if she doesn't recur.
 - **"Something near the tree line" / "something near the cruiser"** (the two lightning-flash
   glimpses during the Highway 13 drive and from the Room 104 window) — per `AI.json`, deliberately
   left as an unexplained, intentional mystery for now, not yet tied to anything specific.
@@ -180,7 +187,8 @@ none of those chapters have named characters yet.
   full reveal, Jim's final message to Sarah, the ambiguous ending) is locked only at the outline
   level in `CANON.md` — no scenes written.
 - The Epilogue ("One More Night" — Sarah's arrival, sequel hook) is likewise outline-only.
-- Fate/resolution of Cindy Sweets, the Daltons, and Gerta (see "Still-Open Questions" above).
+- Fate/resolution of Cindy Sweets and the Daltons (see "Still-Open Questions" above). Gerta's fate
+  is now resolved (see "Resolved / Superseded Items" above).
 - The precise mechanism/cause of the Black Vein outbreak.
 
 ## Audit — `Deadlock Protocol - Story Design Rebuild.docx` (uploaded 2026-08-12)

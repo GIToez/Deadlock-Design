@@ -19,6 +19,8 @@ A creature document may contain:
 - `Shambler.md` — the standard/base infected encountered throughout the game.
 - `The_Caretaker.md` (Roy Bullock) — Chapter 1's boss, hotel courtyard.
 - `Della_Marsh.md` (the Red Room Singer) — Chapter 1's optional mini-boss.
+- `The_Maw.md` — an unseen, ambush-type presence responsible for Cindy Sweets' abduction and
+  Gerta's death; deliberately not fully described yet.
 
 Not included as separate creature entries: Earl Whitaker and Officer Dale Pruitt are named,
 recurring characters who become infected as part of their own arc — covered in `Characters/`

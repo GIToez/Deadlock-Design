@@ -136,7 +136,10 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 - **Room 104** — Jim's guest room; the "night before" scene.
 - **Room 106** — Cindy Sweets' room; site of her abduction jumpscare.
 - **Main Bar** — unattended pre-outbreak; revisited later, wrecked, with a blood trail toward a
-  staff storage door.
+  staff storage door leading to the Laundry Room.
+- **The Laundry Room** — a staff area reached via the staff storage door behind the Main Bar;
+  industrial washers/dryers, laundry carts. Site of Gerta's death (killed by **The Maw**) — see
+  Creatures/Major Scripted Events below and `Creatures/The_Maw.md`.
 - **Recreation Room** — pool table, dart board, empty; minor pre-outbreak atmosphere beat.
 - **The Red Room** — self-contained optional speakeasy lounge, entrance/exit both from the West
   Wing hallway; site of the Della Marsh encounter. Does not connect to the Security Office.
@@ -171,7 +174,8 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   intended to be resolved later, at the hospital, once that chapter is written.
 - **Janeth Caldwell** — guest, Room 112; present pre-outbreak and during the initial panic; killed
   on-screen by the crashing police cruiser.
-- **Gerta** — hotel maid; a single brief, ordinary hallway encounter pre-outbreak.
+- **Gerta** — hotel maid; a single brief, ordinary hallway encounter pre-outbreak. Later found
+  dead in the Laundry Room, killed by The Maw — see below.
 - **Officer Dale Pruitt** — Ravenwood PD; seen at the parking lot at the start of the chapter, and
   again (infected) inside the crashed cruiser later.
 
@@ -186,6 +190,9 @@ confirmation of which characters warrant standalone files — see `STORY_NOTES.m
 - **Della Marsh ("the Red Room Singer," infected)** — optional mini-boss in the Red Room.
 - **The Caretaker / Roy Bullock (infected)** — the chapter's boss, fought in the courtyard. See
   full AI/phase design below.
+- **The Maw** — an unseen, ambush-type presence, glimpsed only in fragments; responsible for
+  dragging Cindy Sweets into Room 106 and for killing Gerta in the Laundry Room. Not fought or
+  clearly seen in Chapter 1 by design. See `Creatures/The_Maw.md`.
 - The source material also references a base infected type by name in passing ("Unlike
   shamblers: the caretaker is intelligent enough to pursue and corner the player aggressively"),
   confirming a standard enemy type called a **"Shambler"** exists in the game (later confirmed
@@ -240,7 +247,8 @@ confirmation of which characters warrant standalone files — see `STORY_NOTES.m
 - Police cruiser crashes through the front entrance, killing Janeth Caldwell and blocking the
   main exit.
 - "Deadlock Protocol is now in effect" radio announcement / title card.
-- Cindy Sweets' Room 106 jumpscare and abduction.
+- Cindy Sweets' Room 106 jumpscare and abduction (by The Maw).
+- Gerta's death, discovered in the Laundry Room (by The Maw) — see `Characters/Gerta.md`.
 - Della Marsh (Red Room singer) reveal — appears to be a survivor, then turns.
 - Officer Pruitt jumpscare from inside the crashed cruiser.
 - Maintenance shed breach revealing The Caretaker (Roy Bullock).

@@ -52,7 +52,7 @@ gate and ends Chapter 1.
 
 ## Major Appearances
 
-- `Scripts/Chapter_1_One_Night_Only.md`, Scenes 41–43 (maintenance shed breach through the boss
+- `Scripts/Chapter_1_One_Night_Only.md`, Scenes 42–44 (maintenance shed breach through the boss
   fight).
 
 ## Story Significance

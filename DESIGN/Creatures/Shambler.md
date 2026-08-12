@@ -52,7 +52,7 @@ world (avoid vs. engage, as established explicitly in Chapter 2's street crossin
 ## Major Appearances
 
 - `Scripts/Chapter_2_Ravenwood.md`, Scenes 3 and 6.
-- Referenced by name (not shown) in `Scripts/Chapter_1_One_Night_Only.md`, Scene 43 (Caretaker
+- Referenced by name (not shown) in `Scripts/Chapter_1_One_Night_Only.md`, Scene 44 (Caretaker
   boss design notes).
 
 ## Story Significance

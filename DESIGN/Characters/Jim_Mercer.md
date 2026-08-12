@@ -54,7 +54,7 @@ deliberately left ambiguous** at the end of the game — this is locked canon, n
 - The Highway 13 phone call (establishes voice, relationship, occupation) — `Scripts/Chapter_1_One_Night_Only.md`, Scene 1.
 - Hotel check-in and the "thud" (establishes Jim as an observant but not paranoid outsider) — Scene 6.
 - First combat vs. Earl Whitaker (Jim's first violent act in the game) — Scene 22.
-- The Caretaker boss fight — Scene 43 — the first time his competence (not heroism) under pressure
+- The Caretaker boss fight — Scene 44 — the first time his competence (not heroism) under pressure
   is really tested.
 
 ## Dialogue Characteristics

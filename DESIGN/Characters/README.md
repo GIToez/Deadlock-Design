@@ -27,9 +27,8 @@ A character document may contain:
 - `Richard_Dalton.md`
 - `Janeth_Caldwell.md`
 - `Dale_Pruitt.md`
-
-**Gerta** (the hotel maid) does not have a file yet — she appears only once, very briefly, with no
-plot function beyond atmosphere. Add one if she recurs later.
+- `Gerta.md` — added once her death scene (killed by The Maw) was approved; see
+  `Creatures/The_Maw.md` and `Scripts/Chapter_1_One_Night_Only.md`, Scene 37.
 
 Characters for locations beyond the hotel (Memorial Park, the five districts, etc.) will be added
 once those chapters are written — see `STORY_NOTES.md`.
