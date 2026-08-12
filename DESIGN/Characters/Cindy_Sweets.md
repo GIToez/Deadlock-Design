@@ -24,9 +24,9 @@ deliberately there to make her later abduction land harder.
 
 ## Relationships
 
-Friendly, slightly flirtatious-but-casual rapport with Jim, built across the pre-outbreak lobby
-scene and a second encounter at her door before Jim goes to bed. No other established
-relationships.
+Friendly, slightly flirtatious-but-casual rapport with [Jim](Jim_Mercer.md), built across the
+pre-outbreak lobby scene and a second encounter at her door before Jim goes to bed. No other
+established relationships.
 
 ## Story Arc
 
@@ -37,14 +37,14 @@ doesn't see her → later, once West Wing power is restored, she bursts out of R
 help and is violently dragged back inside before Jim can reach her; the door slams. Whatever
 grabbed her has since been identified — per explicit direction from the project owner
 (2026-08-12) — as **The Maw**, the same presence later confirmed to have killed Gerta in the hotel
-Laundry Room (see `Creatures/The_Maw.md`). **Cindy's own ultimate fate remains explicitly
+Laundry Room (see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md)). **Cindy's own ultimate fate remains explicitly
 unresolved**, however — identifying her abductor is not the same as resolving what happened to
-her. Per `AI.json`, this was left open on purpose ("we haven't gotten that far in the story yet"),
+her. Per [`AI.json`](../AI.json), this was left open on purpose ("we haven't gotten that far in the story yet"),
 not simply unwritten. Do not invent a resolution for her without explicit approval.
 
 ## Important Scenes
 
-- Lobby introduction / optional dialogue — `Scripts/Chapter_1_One_Night_Only.md`, Scenes 5, 8.
+- Lobby introduction / optional dialogue — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 5, 8.
 - Pre-outbreak hallway encounter (Room 106 doorway) — Scene 19.
 - Room 106 jumpscare/abduction — Scene 35.
 - (Not her scene, but relevant) Gerta's death, confirming the same creature — **The Maw** — is
@@ -58,10 +58,10 @@ shows through specificity rather than panic (*"You hear that scratching?"*).
 
 ## Established Facts
 
-See `STORY_NOTES.md` → "Still-Open Questions." Her fate is explicitly undecided as of the current
+See [`STORY_NOTES.md`](../STORY_NOTES.md) → "Still-Open Questions." Her fate is explicitly undecided as of the current
 material — treat as an open thread, not a mystery with a hidden answer waiting to be inferred.
 
 ## Unresolved Ideas
 
 - What actually happens to her after Room 106's door slams. Not to be invented without explicit
-  approval — flagged clearly in `STORY_NOTES.md`.
+  approval — flagged clearly in [`STORY_NOTES.md`](../STORY_NOTES.md).

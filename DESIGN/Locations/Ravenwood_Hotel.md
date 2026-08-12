@@ -1,10 +1,11 @@
 # Ravenwood Hotel
 
-> Content in this file is compiled from two sources: `Deadlock Protocol - Story Design
-> Rebuild.docx` (original material) and `AI.json` (a later planning conversation that revisited
-> and fixed several issues in the docx). Where they disagree, `AI.json`'s resolution is used — see
-> `CANON.md` ("Retcons") for the specific list. The full scene-by-scene script for this chapter
-> lives in `Scripts/Chapter_1_One_Night_Only.md`; this file is the higher-level design summary.
+> Content in this file is compiled from two sources:
+> [`Deadlock Protocol - Story Design Rebuild.docx`](../Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx)
+> (original material) and [`AI.json`](../AI.json) (a later planning conversation that revisited
+> and fixed several issues in the docx). Where they disagree, [`AI.json`](../AI.json)'s resolution is used — see
+> [`CANON.md`](../CANON.md) ("Retcons") for the specific list. The full scene-by-scene script for this chapter
+> lives in [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md); this file is the higher-level design summary.
 >
 > Note: earlier material referred to this content as a "Prologue" followed by a separate
 > "Chapter 1." Per a later structural decision, **the Prologue has been folded into Chapter 1 —
@@ -79,7 +80,7 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   start of the chapter's second half.
 - **Manager's Office.** Jim searches Earl's body for a **Manager's Key**, unlocks the staff
   hallway, and reaches the **Manager's Office** — the chapter's first safe room, containing a
-  **VERN** terminal (see `CANON.md` — VERN is a city-wide save network, not hotel-specific) that
+  **VERN** terminal (see [`CANON.md`](../CANON.md) — VERN is a city-wide save network, not hotel-specific) that
   unlocks save functionality. Optional reads here include the guest ledger (confirming room
   numbers for Jim, Cindy, Janeth, and the Daltons) and an unsigned incident report noting a guest
   (Maria Dalton) was transported to **St. Dymphna Hospital** — the first in-fiction reference to a
@@ -139,7 +140,7 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   staff storage door leading to the Laundry Room.
 - **The Laundry Room** — a staff area reached via the staff storage door behind the Main Bar;
   industrial washers/dryers, laundry carts. Site of Gerta's death (killed by **The Maw**) — see
-  Creatures/Major Scripted Events below and `Creatures/The_Maw.md`.
+  Creatures/Major Scripted Events below and [`Creatures/The_Maw.md`](../Creatures/The_Maw.md).
 - **Recreation Room** — pool table, dart board, empty; minor pre-outbreak atmosphere beat.
 - **The Red Room** — self-contained optional speakeasy lounge, entrance/exit both from the West
   Wing hallway; site of the Della Marsh encounter. Does not connect to the Security Office.
@@ -160,44 +161,46 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 
 ## Characters Encountered
 
-- **Jim Mercer** — protagonist/player character. Retired military (comms/logistics), now a
-  telecommunications field engineer.
-- **Sarah Mercer** — Jim's partner; phone contact only, ending after the parking-lot call (see
-  `CANON.md` — no contact resumes until the Epilogue).
-- **Earl Whitaker** — hotel night clerk; checks Jim in; becomes the chapter's first infected. An
-  ordinary, unsuspecting man with no foreknowledge of the outbreak — his death should land harder
-  for it.
-- **Cindy Sweets** — guest, Room 106; present pre-outbreak, later heard/glimpsed during the
-  outbreak, dragged away in a jumpscare mid-chapter. Fate beyond that scene is not yet established.
-- **Maria Dalton** and **Richard Dalton** — guests, Room 118, expecting a child; leave for St.
-  Dymphna Hospital shortly before the outbreak begins (per the incident report). Their fate is
-  intended to be resolved later, at the hospital, once that chapter is written.
-- **Janeth Caldwell** — guest, Room 112; present pre-outbreak and during the initial panic; killed
-  on-screen by the crashing police cruiser.
-- **Gerta** — hotel maid; a single brief, ordinary hallway encounter pre-outbreak. Later found
-  dead in the Laundry Room, killed by The Maw — see below.
-- **Officer Dale Pruitt** — Ravenwood PD; seen at the parking lot at the start of the chapter, and
-  again (infected) inside the crashed cruiser later.
-
-*(Detailed per-character documents will be created separately in `Characters/`, pending
-confirmation of which characters warrant standalone files — see `STORY_NOTES.md`.)*
+- **[Jim Mercer](../Characters/Jim_Mercer.md)** — protagonist/player character. Retired military
+  (comms/logistics), now a telecommunications field engineer.
+- **[Sarah Mercer](../Characters/Sarah_Mercer.md)** — Jim's partner; phone contact only, ending
+  after the parking-lot call (see [`CANON.md`](../CANON.md) — no contact resumes until the
+  Epilogue).
+- **[Earl Whitaker](../Characters/Earl_Whitaker.md)** — hotel night clerk; checks Jim in; becomes
+  the chapter's first infected. An ordinary, unsuspecting man with no foreknowledge of the
+  outbreak — his death should land harder for it.
+- **[Cindy Sweets](../Characters/Cindy_Sweets.md)** — guest, Room 106; present pre-outbreak, later
+  heard/glimpsed during the outbreak, dragged away in a jumpscare mid-chapter. Fate beyond that
+  scene is not yet established.
+- **[Maria Dalton](../Characters/Maria_Dalton.md)** and **[Richard Dalton](../Characters/Richard_Dalton.md)** —
+  guests, Room 118, expecting a child; leave for St. Dymphna Hospital shortly before the outbreak
+  begins (per the incident report). Their fate is intended to be resolved later, at the hospital,
+  once that chapter is written.
+- **[Janeth Caldwell](../Characters/Janeth_Caldwell.md)** — guest, Room 112; present pre-outbreak
+  and during the initial panic; killed on-screen by the crashing police cruiser.
+- **[Gerta](../Characters/Gerta.md)** — hotel maid; a single brief, ordinary hallway encounter
+  pre-outbreak. Later found dead in the Laundry Room, killed by The Maw — see below.
+- **[Officer Dale Pruitt](../Characters/Dale_Pruitt.md)** — Ravenwood PD; seen at the parking lot
+  at the start of the chapter, and again (infected) inside the crashed cruiser later.
 
 ## Creatures Encountered
 
 - **Earl Whitaker (infected)** — the chapter's first infected; a named character rather than a
-  generic creature type.
-- **Officer Dale Pruitt (infected)** — named character, not a generic creature type.
-- **Della Marsh ("the Red Room Singer," infected)** — optional mini-boss in the Red Room.
-- **The Caretaker / Roy Bullock (infected)** — the chapter's boss, fought in the courtyard. See
-  full AI/phase design below.
-- **The Maw** — classification: Ashen Mutant; a heavily mutated, territorial stalker/ambush
-  predator whose torso splits open into an enormous feeding mouth. Glimpsed only in fragments;
-  responsible for dragging Cindy Sweets into Room 106 and for killing Gerta in the Laundry Room.
-  Not directly fought in Chapter 1 by design. See `Creatures/The_Maw.md` for the full design.
+  generic creature type — see [`Characters/Earl_Whitaker.md`](../Characters/Earl_Whitaker.md).
+- **Officer Dale Pruitt (infected)** — named character, not a generic creature type — see
+  [`Characters/Dale_Pruitt.md`](../Characters/Dale_Pruitt.md).
+- **[Della Marsh](../Creatures/Della_Marsh.md)** ("the Red Room Singer," infected) — optional
+  mini-boss in the Red Room.
+- **[The Caretaker](../Creatures/The_Caretaker.md) / Roy Bullock** (infected) — the chapter's
+  boss, fought in the courtyard. See full AI/phase design below.
+- **[The Maw](../Creatures/The_Maw.md)** — classification: Ashen Mutant; a heavily mutated,
+  territorial stalker/ambush predator whose torso splits open into an enormous feeding mouth.
+  Glimpsed only in fragments; responsible for dragging Cindy Sweets into Room 106 and for killing
+  Gerta in the Laundry Room. Not directly fought in Chapter 1 by design.
 - The source material also references a base infected type by name in passing ("Unlike
   shamblers: the caretaker is intelligent enough to pursue and corner the player aggressively"),
-  confirming a standard enemy type called a **"Shambler"** exists in the game (later confirmed
-  directly on-screen in Chapter 2's street-crossing scene). See `STORY_NOTES.md`.
+  confirming a standard enemy type called a **[Shambler](../Creatures/Shambler.md)** exists in the
+  game (later confirmed directly on-screen in Chapter 2's street-crossing scene).
 
 ## Puzzles
 
@@ -224,7 +227,7 @@ confirmation of which characters warrant standalone files — see `STORY_NOTES.m
 - **Handgun (+ ammunition)** — the game's first firearm, taken from Officer Pruitt inside the
   crashed cruiser.
 
-### Documents (full text written — see `Scripts/Chapter_1_One_Night_Only.md` for verbatim content)
+### Documents (full text written — see [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md) for verbatim content)
 
 - Emergency lockdown notice (breaker panel) — courtyard is the evacuation route, requires full
   auxiliary power.
@@ -249,7 +252,7 @@ confirmation of which characters warrant standalone files — see `STORY_NOTES.m
   main exit.
 - "Deadlock Protocol is now in effect" radio announcement / title card.
 - Cindy Sweets' Room 106 jumpscare and abduction (by The Maw).
-- Gerta's death, discovered in the Laundry Room (by The Maw) — see `Characters/Gerta.md`.
+- Gerta's death, discovered in the Laundry Room (by The Maw) — see [`Characters/Gerta.md`](../Characters/Gerta.md).
 - Della Marsh (Red Room singer) reveal — appears to be a survivor, then turns.
 - Officer Pruitt jumpscare from inside the crashed cruiser.
 - Maintenance shed breach revealing The Caretaker (Roy Bullock).
@@ -276,11 +279,11 @@ Unlike baseline infected ("shamblers"), the Caretaker actively pursues and corne
 
 ## Crest Progression
 
-Not applicable to this location directly. The five-crest structure (see `CANON.md`) applies to
+Not applicable to this location directly. The five-crest structure (see [`CANON.md`](../CANON.md)) applies to
 five outer districts of Ravenwood reached via Memorial Park, not to the Hotel itself.
 
 ## Exit / Progression to Next Area
 
 Defeating the Caretaker restores the north courtyard gate. Jim exits the hotel grounds through
 this gate onto a public street, directly across from **Memorial Park** — the chapter's end and
-the start of Chapter 2. See `Locations/Memorial_Park.md`.
+the start of Chapter 2. See [`Locations/Memorial_Park.md`](Memorial_Park.md).

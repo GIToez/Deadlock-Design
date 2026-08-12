@@ -1,13 +1,13 @@
 # Chapter 2 — Ravenwood
 
-> Scene-by-scene script, continuing the numbering convention from `Chapter_1_One_Night_Only.md`
+> Scene-by-scene script, continuing the numbering convention from [`Chapter_1_One_Night_Only.md`](Chapter_1_One_Night_Only.md)
 > (numbering restarts at Scene 1 for this chapter). Covers everything currently written:
 > the street crossing, Memorial Park (clearing it, the guardhouse, the Founders Memorial), and the
 > Downtown introduction (Pearl's Diner, the Public Library, City Hall). **The five districts
 > (Police Station, Hospital, Academy, Refinery, Monastery) are planned but not yet scripted** —
-> see `STORY_NOTES.md` for what's locked about them so far.
+> see [`STORY_NOTES.md`](../STORY_NOTES.md) for what's locked about them so far.
 >
-> Status: this material is marked `FINALIZED CANON — LOCKED` in its source (`AI.json`).
+> Status: this material is marked `FINALIZED CANON — LOCKED` in its source ([`AI.json`](../AI.json)).
 
 ---
 
@@ -133,7 +133,7 @@ Turns slowly toward Jim. It sees him.
 *Either path leads to the park entrance. The choice is the player's.*
 
 > *Design note: this is the game's first confirmed on-screen depiction of a standard "shambler"
-> infected — see `CANON.md`.*
+> infected — see [`CANON.md`](../CANON.md).*
 
 ---
 
@@ -653,7 +653,7 @@ The recorder clicks off. Jim sets it down slowly.
 
 **END OF WRITTEN MATERIAL FOR CHAPTER 2**
 
-*What comes next (planned, not yet scripted — see `STORY_NOTES.md`): the five open-order
+*What comes next (planned, not yet scripted — see [`STORY_NOTES.md`](../STORY_NOTES.md)): the five open-order
 districts (Southwest/Authority/Police Station; Southeast/Knowledge/Academy;
 Northeast/Medical/Hospital; Northwest/Industry/Refinery; North/Faith/Monastery), each with 2–3
 secondary locations, leading to all five founders' emblems being returned to the Founders

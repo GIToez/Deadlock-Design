@@ -24,8 +24,9 @@ be careful."*
 
 ## Relationships
 
-- **Jim Mercer** — see his file. Married/partnered; long enough together to have running jokes and
-  shorthand (the Ohio cornfield GPS incident, referenced but never fully explained on-screen).
+- **[Jim Mercer](Jim_Mercer.md)** — see his file. Married/partnered; long enough together to have
+  running jokes and shorthand (the Ohio cornfield GPS incident, referenced but never fully
+  explained on-screen).
 
 ## Story Arc
 
@@ -42,7 +43,7 @@ be careful."*
 
 ## Important Scenes
 
-- Phone Call 1 — Highway 13 — `Scripts/Chapter_1_One_Night_Only.md`, Scene 1.
+- Phone Call 1 — Highway 13 — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 1.
 - Phone Call 2 — hotel parking lot — Scene 3. Last contact of the game (until Chapter 3's message
   and the Epilogue).
 
@@ -50,11 +51,11 @@ be careful."*
 
 Teasing but affectionate; calls out Jim's deflections without belaboring them (*"Jim."* as a
 complete, sufficient sentence). Ends calls on her own terms (*"...Goodnight Jim."* — hangs up
-before he can answer, per the earlier draft dialogue in `AI.json`).
+before he can answer, per the earlier draft dialogue in [`AI.json`](../AI.json)).
 
 ## Established Facts
 
-See `CANON.md`. Locked: no contact with Jim after the hotel parking lot call until a single
+See [`CANON.md`](../CANON.md). Locked: no contact with Jim after the hotel parking lot call until a single
 outbound message before Chapter 3's finale; arrives in Ravenwood in the Epilogue; Jim's fate is
 unknown to her (and to the player) when she arrives.
 
@@ -63,4 +64,4 @@ unknown to her (and to the player) when she arrives.
 - Content of Jim's final message to her (not yet written).
 - What she finds/experiences on arrival in the Epilogue (not yet written).
 - Whether a sequel starring Sarah is a firm plan or just a hook left open — treated here as
-  "intended," per `AI.json`, but worth confirming before committing further material to it.
+  "intended," per [`AI.json`](../AI.json), but worth confirming before committing further material to it.

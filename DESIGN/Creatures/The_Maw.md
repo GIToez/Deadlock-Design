@@ -66,7 +66,7 @@ establishes an important rule for the Maw: **seeing it does not necessarily mean
 much of the hotel sequence, the player is being hunted by something they cannot reliably pursue.
 
 > *Continuity note: Cindy's earlier, pre-outbreak line to Jim — "You hear that scratching?" (see
-> `Scripts/Chapter_1_One_Night_Only.md`, Scene 19) — reads, in hindsight, as the first hint that
+> [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 19) — reads, in hindsight, as the first hint that
 > something (the Maw) was already active in the hotel's walls before the outbreak fully began.
 > Not an explicit confirmation, just a consistent, intentional-feeling echo.*
 
@@ -92,10 +92,10 @@ make it closer to a recurring mini-boss predator than a standard enemy.
 
 1. **Pre-outbreak foreshadowing (unconfirmed, retroactive)** — Cindy Sweets mentions hearing
    "scratching" in the walls before the outbreak begins (Scene 19).
-2. **Room 106 (Cindy Sweets' abduction)** — `Scripts/Chapter_1_One_Night_Only.md`, Scene 35. The
+2. **Room 106 (Cindy Sweets' abduction)** — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 35. The
    Maw's most notable confirmed encounter: seizes Cindy from the hallway, drags her back inside,
    blood spreads beneath the door, the creature disappears. No direct fight.
-3. **The Laundry Room (Gerta's death)** — `Scripts/Chapter_1_One_Night_Only.md`, Scene 37. The
+3. **The Laundry Room (Gerta's death)** — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 37. The
    same presence, confirmed by the project owner to be the identical creature; again not directly
    fought — only heard withdrawing.
 
@@ -104,7 +104,7 @@ it is not yet decided — see Open Design Gaps below.
 
 ## Major Appearances
 
-- `Scripts/Chapter_1_One_Night_Only.md`, Scenes 19 (foreshadowing, retroactive), 35, and 37.
+- [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 19 (foreshadowing, retroactive), 35, and 37.
 
 ## Story Significance
 
@@ -114,8 +114,8 @@ transformed and behave like true predators rather than shuffling threats. Also e
 specific horror-design rule for the rest of the game: **a glimpsed or implied monster doesn't
 have to be an imminent boss fight** — the Maw is deliberately something the player is hunted *by*,
 not something the player is meant to hunt, for most (all, so far) of its appearances. Cindy
-Sweets' ultimate fate remains a separate, still-open question (see `Characters/Cindy_Sweets.md`
-and `STORY_NOTES.md`) — the Maw being her confirmed abductor does not, on its own, resolve whether
+Sweets' ultimate fate remains a separate, still-open question (see [`Characters/Cindy_Sweets.md`](../Characters/Cindy_Sweets.md)
+and [`STORY_NOTES.md`](../STORY_NOTES.md)) — the Maw being her confirmed abductor does not, on its own, resolve whether
 she's alive, dead, or something in between.
 
 ## Open Design Gaps

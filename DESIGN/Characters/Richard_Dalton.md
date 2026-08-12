@@ -24,7 +24,7 @@ than he lets on.
 
 ## Relationships
 
-- **Maria Dalton** — wife. See her file.
+- **[Maria Dalton](Maria_Dalton.md)** — wife. See her file.
 
 ## Story Arc
 
@@ -35,7 +35,7 @@ the lobby. Fate beyond that point is reserved for the Hospital chapter, not yet 
 
 ## Important Scenes
 
-- Lobby introduction / optional dialogue — `Scripts/Chapter_1_One_Night_Only.md`, Scenes 5, 8.
+- Lobby introduction / optional dialogue — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 5, 8.
 
 ## Dialogue Characteristics
 
@@ -44,7 +44,7 @@ Maria without ever landing unkindly.
 
 ## Established Facts
 
-See `CANON.md`/`STORY_NOTES.md`. Locked: leaves for St. Dymphna Hospital with Maria at 11:42 PM.
+See [`CANON.md`](../CANON.md)/[`STORY_NOTES.md`](../STORY_NOTES.md). Locked: leaves for St. Dymphna Hospital with Maria at 11:42 PM.
 
 ## Unresolved Ideas
 

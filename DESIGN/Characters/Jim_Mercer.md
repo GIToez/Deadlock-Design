@@ -34,11 +34,12 @@ why he thrives.
 
 ## Relationships
 
-- **Sarah Mercer** — wife/partner. See her file for the full arc. Their dynamic is built on
-  shorthand, unfinished sentences, and running jokes ("It was a field." / "The road was
-  technically—" / "It was a field.").
-- Everyone else in Chapter 1 (Earl, Cindy, the Daltons, Janeth, Gerta, Officer Pruitt) is met for
-  the first time during the events of the game.
+- **[Sarah Mercer](Sarah_Mercer.md)** — wife/partner. See her file for the full arc. Their dynamic
+  is built on shorthand, unfinished sentences, and running jokes ("It was a field." / "The road
+  was technically—" / "It was a field.").
+- Everyone else in Chapter 1 ([Earl](Earl_Whitaker.md), [Cindy](Cindy_Sweets.md), the
+  [Daltons](Maria_Dalton.md), [Janeth](Janeth_Caldwell.md), [Gerta](Gerta.md),
+  [Officer Pruitt](Dale_Pruitt.md)) is met for the first time during the events of the game.
 
 ## Story Arc
 
@@ -51,7 +52,7 @@ deliberately left ambiguous** at the end of the game — this is locked canon, n
 
 ## Important Scenes
 
-- The Highway 13 phone call (establishes voice, relationship, occupation) — `Scripts/Chapter_1_One_Night_Only.md`, Scene 1.
+- The Highway 13 phone call (establishes voice, relationship, occupation) — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 1.
 - Hotel check-in and the "thud" (establishes Jim as an observant but not paranoid outsider) — Scene 6.
 - First combat vs. Earl Whitaker (Jim's first violent act in the game) — Scene 22.
 - The Caretaker boss fight — Scene 44 — the first time his competence (not heroism) under pressure
@@ -66,7 +67,7 @@ load-bearing."*
 
 ## Established Facts
 
-See `CANON.md` for the version of record. Locked: occupation, military background, reason for
+See [`CANON.md`](../CANON.md) for the version of record. Locked: occupation, military background, reason for
 being in Ravenwood, relationship with Sarah, "not a chosen hero" framing.
 
 ## Unresolved Ideas

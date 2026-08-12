@@ -1,7 +1,7 @@
 # Memorial Park
 
-> Content in this file is drawn from `AI.json` (planning conversation), which is the only source
-> covering this location. Full scene-by-scene script: `Scripts/Chapter_2_Ravenwood.md` (covers the
+> Content in this file is drawn from [`AI.json`](../AI.json) (planning conversation), which is the only source
+> covering this location. Full scene-by-scene script: [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md) (covers the
 > street crossing, the park, the guardhouse, and the Founders Memorial in full; the interior of
 > Memorial Park itself is fully scripted — the five districts reached from it are not yet).
 
@@ -43,7 +43,7 @@ player returns to constantly between districts to save, restock, and fast-travel
   INFRASTRUCTURE OVERRIDE — SECTOR 4 — MEMORIAL PARK PERIMETER") sits on the desk.
 - **The Founders Memorial.** Jim approaches the central monument: a ~10-foot bronze female civic
   statue in a water basin, holding a large plaque with five recessed pentagonal slots, each with a
-  faint engraved label (ORDER, KNOWLEDGE, INDUSTRY, FAITH, MEDICINE — see `CANON.md` for the
+  faint engraved label (ORDER, KNOWLEDGE, INDUSTRY, FAITH, MEDICINE — see [`CANON.md`](../CANON.md) for the
   crest/location mapping). An inscription runs the plaque's outer edge: *"WHAT WAS DIVIDED SHALL
   BE WHOLE. WHAT WAS HIDDEN SHALL BE OPENED. — THE FOUNDERS OF RAVENWOOD — 1887 —"* All five slots
   are empty. Examining the water basin, Jim notices a faint seam in the submerged stone base — the
@@ -63,7 +63,7 @@ player returns to constantly between districts to save, restock, and fast-travel
   documents, bollard override keycard.
 - **The Founders Memorial / central water basin** — the five-emblem mechanism; will eventually
   drain to reveal a staircase underground (Chapter 3).
-- Per the wider city map (`STORY_NOTES.md`), Memorial Park also contains benches, walking paths,
+- Per the wider city map ([`STORY_NOTES.md`](../STORY_NOTES.md)), Memorial Park also contains benches, walking paths,
   and public restrooms per its own park map, though these are not individually scripted.
 
 ## Characters Encountered
@@ -93,7 +93,7 @@ eerie" first impression.
 - **Bollard Override Keycard** — found on the guardhouse desk; lowers the street bollards.
 - **Ravenwood Memorial Park Map** — found on the guardhouse corkboard; added to inventory.
 
-### Documents (full text — see `Scripts/Chapter_2_Ravenwood.md`)
+### Documents (full text — see [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md))
 
 - Road closure barrier notice (street, on the way to the park).
 - Park maintenance schedule (guardhouse corkboard).
@@ -116,7 +116,7 @@ None at Memorial Park itself.
 ## Crest Progression
 
 Memorial Park is the **return point** for the five-crest mechanic, not a source of a crest
-itself. See `CANON.md` ("The Founders & the Five Crests") for the full system. All five emblems
+itself. See [`CANON.md`](../CANON.md) ("The Founders & the Five Crests") for the full system. All five emblems
 must be recovered from the five districts and inserted into the Founders Memorial plaque to drain
 the water basin and reveal the staircase into the underground Vanguard facility (Chapter 3).
 
@@ -124,6 +124,6 @@ the water basin and reveal the staircase into the underground Vanguard facility 
 
 Once the street bollards are lowered, all of Ravenwood opens up. Exploration order for the five
 districts is fully open, though the Police Station (Southwest, closest to the park) is the
-natural first destination given the guardhouse note and its proximity. See `STORY_NOTES.md` for
+natural first destination given the guardhouse note and its proximity. See [`STORY_NOTES.md`](../STORY_NOTES.md) for
 the city map and the secondary-location list for each district, none of which are written
 scene-by-scene yet.

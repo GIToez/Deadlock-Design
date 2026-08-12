@@ -52,7 +52,7 @@ gate and ends Chapter 1.
 
 ## Major Appearances
 
-- `Scripts/Chapter_1_One_Night_Only.md`, Scenes 42–44 (maintenance shed breach through the boss
+- [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 42–44 (maintenance shed breach through the boss
   fight).
 
 ## Story Significance
@@ -60,7 +60,7 @@ gate and ends Chapter 1.
 Establishes, early and physically rather than through exposition, that Black Vein's infection
 progresses in stages and can produce monstrous mutation given enough time/severity — a fact the
 game will keep building on. His own maintenance log (found in the shed after the fight — full text
-in `Locations/Ravenwood_Hotel.md`) is the only place his ordinary, pre-infection humanity is shown
+in [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md)) is the only place his ordinary, pre-infection humanity is shown
 on the page: years of mundane entries about broken ice machines and squeaky pipes, ending with him
 noticing "something in the air" the night of the outbreak and deciding to lock up the shed and
 wait it out — which is exactly where Jim finds him.

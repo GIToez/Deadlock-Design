@@ -20,16 +20,16 @@ jaw hanging at an unnatural angle; stiff, deliberate, animalistic movement.
 
 Tired, plainly decent, unremarkable in the best way — a man doing an ordinary job on an
 extraordinary night, with **zero foreknowledge** of what's coming and **nothing suspicious about
-his behavior.** This is an explicit, locked design choice (see `CANON.md` → "Retcons"): earlier
+his behavior.** This is an explicit, locked design choice (see [`CANON.md`](../CANON.md) → "Retcons"): earlier
 drafts gave him a knowing hesitation and a line that "landed wrong," implying he suspected
 something. That's been deliberately cut. His death is meant to land harder specifically *because*
 he was never written as a villain, or even as someone who saw it coming.
 
 ## Relationships
 
-Meets Jim for the first time at check-in. No established relationships with other hotel guests
-beyond ordinary desk-clerk familiarity (he clearly recognizes/greets guests routinely, e.g. brief
-asides with Richard Dalton).
+Meets [Jim](Jim_Mercer.md) for the first time at check-in. No established relationships with other
+hotel guests beyond ordinary desk-clerk familiarity (he clearly recognizes/greets guests routinely,
+e.g. brief asides with [Richard Dalton](Richard_Dalton.md)).
 
 ## Story Arc
 
@@ -40,7 +40,7 @@ fight → his body yields the Manager's Key, opening the rest of Chapter 1's pro
 
 ## Important Scenes
 
-- Check-in / the "thud" — `Scripts/Chapter_1_One_Night_Only.md`, Scene 6.
+- Check-in / the "thud" — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 6.
 - Optional dialogue — Scene 8.
 - Lobby reveal (first infected) — Scene 21.
 - First combat — Scene 22.
@@ -54,7 +54,7 @@ he genuinely believes, not performing calm.
 
 ## Established Facts
 
-See `CANON.md`. Locked: 32 years at the hotel; first infected encounter; drops the Manager's Key;
+See [`CANON.md`](../CANON.md). Locked: 32 years at the hotel; first infected encounter; drops the Manager's Key;
 no foreknowledge of the outbreak.
 
 ## Unresolved Ideas

@@ -2,20 +2,20 @@
 
 > **What this document is:** a programmer/implementation-ready, scene-by-scene script for
 > Chapter 1 (the Ravenwood Hotel), compiled from the fully-written and approved material in
-> `AI.json`. Scenes are numbered sequentially (**Scene 1, Scene 2, ...** — not "Tabs") per your
+> [`AI.json`](../AI.json). Scenes are numbered sequentially (**Scene 1, Scene 2, ...** — not "Tabs") per your
 > instruction. Each scene includes: a slugline, the action/description text, full dialogue, and
 > explicit interaction prompts / gameplay notes where they occur in the source material.
 >
-> This is the detailed script. For the narrative summary, see `MASTER_STORY.md`. For the
+> This is the detailed script. For the narrative summary, see [`MASTER_STORY.md`](../MASTER_STORY.md). For the
 > structured location design (rooms, items, puzzles, bosses as reference lists rather than
-> prose), see `Locations/Ravenwood_Hotel.md`. For open questions and cut/changed material, see
-> `STORY_NOTES.md` and `CANON.md` ("Retcons").
+> prose), see [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md). For open questions and cut/changed material, see
+> [`STORY_NOTES.md`](../STORY_NOTES.md) and [`CANON.md`](../CANON.md) ("Retcons").
 >
 > Status: this chapter's content is marked `FINALIZED CANON — LOCKED` in its source. Treat it as
 > ready to implement against, not as a draft.
 >
 > **Scene 37 ("The Laundry Room")** is new material, approved directly by the project owner
-> (not sourced from `AI.json` or the docx) — it introduces **The Maw** and resolves Gerta's fate.
+> (not sourced from [`AI.json`](../AI.json) or the docx) — it introduces **The Maw** and resolves Gerta's fate.
 > All scenes after it were renumbered (+1) to make room.
 
 ---
@@ -397,7 +397,7 @@ Earl is already reaching for the next piece of paperwork.
 *Player control returns.*
 
 > *Design note: Earl is written here with zero foreknowledge and zero suspicious behavior — see
-> `CANON.md` → "Retcons." The thud should unsettle the player because nobody investigates it
+> [`CANON.md`](../CANON.md) → "Retcons." The thud should unsettle the player because nobody investigates it
 > strongly enough, not because Earl acts like he's hiding something.*
 
 ---
@@ -725,7 +725,7 @@ stares at the ceiling. Closes his eyes.
 
 **Fade to black.**
 
-> *Design note: no scream, no warning sound plays here — see `CANON.md` → "Retcons." The outbreak
+> *Design note: no scream, no warning sound plays here — see [`CANON.md`](../CANON.md) → "Retcons." The outbreak
 > should hit with nothing to brace against.*
 
 ---
@@ -1117,7 +1117,7 @@ From somewhere above — a metallic clang through the ceiling vents. Jim goes st
 
 > **JIM:** *"...Fantastic."*
 
-> *Design note: this is the screwdriver's only pickup. See `CANON.md` → "Retcons" — an earlier
+> *Design note: this is the screwdriver's only pickup. See [`CANON.md`](../CANON.md) → "Retcons" — an earlier
 > draft duplicated this exact beat later in the sequence; it has been removed.*
 
 ---
@@ -1214,7 +1214,7 @@ Nothing moves behind the door. No sound. No light beneath the frame. Then — sl
 a dark line of blood begins spreading out from beneath it across the carpet. Jim backs away from
 the door. Whatever is on the other side doesn't follow.
 
-> *Design note: this is the Maw's most notable confirmed encounter — see `Creatures/The_Maw.md`.
+> *Design note: this is the Maw's most notable confirmed encounter — see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md).
 > The creature itself is never seen here, and it disappears afterward. Seeing the aftermath of
 > the Maw is not the same as fighting it.*
 
@@ -1294,11 +1294,11 @@ Away from him. Whatever did this isn't finished being somewhere else tonight.
 
 > *Design/story note: this is the same presence that dragged Cindy Sweets back into Room 106 (see
 > Scene 35) — barely glimpsed there as "something," "fast — too fast to properly see." It's since
-> been fully designed as **The Maw** (see `Creatures/The_Maw.md`) — a heavily mutated Ashen Mutant
+> been fully designed as **The Maw** (see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md)) — a heavily mutated Ashen Mutant
 > whose torso splits open into a feeding mouth, ordinarily kept hidden by its hunched, "closed"
 > posture. This glimpse is intentionally brief and unclear, consistent with its design: seeing it
 > does not mean fighting it. This is currently the only confirmed kill attributed to it; Cindy's
-> own fate remains a separate, still-open question — see `STORY_NOTES.md`.*
+> own fate remains a separate, still-open question — see [`STORY_NOTES.md`](../STORY_NOTES.md).*
 
 *ITEM AVAILABLE (optional): a spare laundry-room master key on Gerta's belt, usable as a minor
 convenience item for any staff-only doors the player hasn't already opened by another route (no
@@ -1318,7 +1318,7 @@ Ravenwood. Jim looks at it for a moment. Then he finds the Security Office door 
 corridor.
 
 > *Design note: this corridor — not the Red Room — is the route into the Courtyard Security
-> Office. See `CANON.md` → "Retcons."*
+> Office. See [`CANON.md`](../CANON.md) → "Retcons."*
 
 ---
 
@@ -1373,7 +1373,7 @@ keeps going past where smiles stop. She rises from the stage.
 *Optional combat encounter begins. The jazz continues throughout.*
 
 *After the encounter — optional supplies and documents available in the Red Room and stage area
-(see Key Items / Documents in `Locations/Ravenwood_Hotel.md`).*
+(see Key Items / Documents in [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md)).*
 
 ---
 
@@ -1403,7 +1403,7 @@ enough that it doesn't require thought. Chamber. Safety. Weight.
 > **JIM:** *"About damn time."*
 
 > *Design note: Pruitt also carries a field notepad and a printed dispatch advisory — full text in
-> `Locations/Ravenwood_Hotel.md`.*
+> [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md).*
 
 ---
 
@@ -1497,7 +1497,7 @@ wet stone and the overturned furniture of the fight and breathes. He looks at wh
 Caretaker. He doesn't look long.
 
 *The player may now explore the maintenance shed. Optional supplies, ammunition, healing items,
-and Roy Bullock's maintenance log (see `Locations/Ravenwood_Hotel.md`) are available.*
+and Roy Bullock's maintenance log (see [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md)) are available.*
 
 ---
 
@@ -1520,4 +1520,4 @@ The rain doesn't answer. He steps through the gate.
 
 **END OF CHAPTER 1 — ONE NIGHT ONLY**
 
-*Continues in `Chapter_2_Ravenwood.md`.*
+*Continues in [`Chapter_2_Ravenwood.md`](Chapter_2_Ravenwood.md).*

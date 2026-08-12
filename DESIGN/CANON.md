@@ -1,16 +1,17 @@
 # Deadlock Protocol — Canon
 
 > Only important, established facts that must not be casually changed belong here.
-> Keep this document concise. Do not duplicate the entire storyline — see `MASTER_STORY.md`
+> Keep this document concise. Do not duplicate the entire storyline — see [`MASTER_STORY.md`](MASTER_STORY.md)
 > for the full narrative.
 >
 > If another document contradicts this file, report the contradiction rather than silently
 > changing canon.
 
-> **Source note:** Two source materials exist for this game: `Deadlock Protocol - Story Design
-> Rebuild.docx` (uploaded first) and `AI.json` (an older AI planning conversation, uploaded
+> **Source note:** Two source materials exist for this game:
+> [`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx)
+> (uploaded first) and [`AI.json`](AI.json) (an older AI planning conversation, uploaded
 > second, covering the same material plus much more — Memorial Park, the five districts, the
-> crest/emblem system, and character names). Where the two disagree, **`AI.json` is treated as the
+> crest/emblem system, and character names). Where the two disagree, **[`AI.json`](AI.json) is treated as the
 > newer, more authoritative source**, because it is a later iterative pass that explicitly revisits
 > and fixes problems found in the earlier material (see "Retcons" below for the specific list).
 
@@ -32,11 +33,12 @@ share the same five founders (see "The Founders & the Five Crests" below) — th
 incidental host; it was built by the same people who built Vanguard, and the underground facility
 beneath Memorial Park was constructed at the same time as the town itself (1887). The exact
 mechanism of the outbreak (how containment failed, why it happened now) is not yet established —
-see `STORY_NOTES.md`.
+see [`STORY_NOTES.md`](STORY_NOTES.md).
 
 ## Major Character Relationships
 
-- Jim Mercer is married/partnered to **Sarah Mercer** ("love you" is exchanged on both sides of
+- [Jim Mercer](Characters/Jim_Mercer.md) is married/partnered to
+  **[Sarah Mercer](Characters/Sarah_Mercer.md)** ("love you" is exchanged on both sides of
   every call). Sarah is off-site for the events of the game, reachable only by phone during the
   drive and at the hotel parking lot — after that, **Deadlock Protocol cuts all external
   communication in and out of Ravenwood**, and there is no contact between them for the rest of
@@ -67,15 +69,16 @@ The story is told in three chapters plus an epilogue:
    for Jim, and goes through the quarantine perimeter anyway. No resolution of Jim's fate — a
    clean hook for a sequel starring Sarah.
 
-See `MASTER_STORY.md` for the full progression and `Locations/Ravenwood_Hotel.md` for complete
+See [`MASTER_STORY.md`](MASTER_STORY.md) for the full progression and [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md) for complete
 hotel-chapter detail.
 
 ## The Founders & the Five Crests
 
-- **Memorial Park** (est. 1891 per its own archway; the central Founders Memorial statue is
-  dated 1887 — the statue predates the park's formal establishment, or the park was built around
-  it — not yet reconciled, see `STORY_NOTES.md`) is Ravenwood's central hub, reached directly
-  across the street from the Ravenwood Hotel.
+- **[Memorial Park](Locations/Memorial_Park.md)** (est. 1891 per its own archway; the central
+  Founders Memorial statue is dated 1887 — the statue predates the park's formal establishment, or
+  the park was built around it — not yet reconciled, see [`STORY_NOTES.md`](STORY_NOTES.md)) is
+  Ravenwood's central hub, reached directly across the street from the
+  [Ravenwood Hotel](Locations/Ravenwood_Hotel.md).
 - At its center stands the **Founders Memorial**: a ~10-foot bronze female civic statue holding a
   large plaque with **five recessed pentagonal slots**. Inscription: *"WHAT WAS DIVIDED SHALL BE
   WHOLE. WHAT WAS HIDDEN SHALL BE OPENED. — THE FOUNDERS OF RAVENWOOD — 1887 —"* Each slot bears
@@ -95,11 +98,11 @@ hotel-chapter detail.
 
 | Direction | Crest Name | Location | Statue Slot Label | Institution Symbol |
 |---|---|---|---|---|
-| Southwest | Authority Crest | Ravenwood Police Station | ORDER | Key |
-| Southeast | Knowledge Crest | Worthy Academy | KNOWLEDGE | Torch |
-| Northeast | Medical Crest | St. Dymphna Hospital | MEDICINE | Serpent/Caduceus |
-| Northwest | Industry Crest | Steelgate Refinery | INDUSTRY | Anvil |
-| North | Faith Crest | Our Lady of Solace Monastery | FAITH | Cross (or similar) |
+| Southwest | Authority Crest | [Ravenwood Police Station](Locations/Police_Station.md) | ORDER | Key |
+| Southeast | Knowledge Crest | [Worthy Academy](Locations/Academy.md) | KNOWLEDGE | Torch |
+| Northeast | Medical Crest | [St. Dymphna Hospital](Locations/Hospital.md) | MEDICINE | Serpent/Caduceus |
+| Northwest | Industry Crest | [Steelgate Refinery](Locations/Foundry_Refinery.md) | INDUSTRY | Anvil |
+| North | Faith Crest | [Our Lady of Solace Monastery](Locations/Monastery.md) | FAITH | Cross (or similar) |
 
 - Jim learns about the emblems through **environmental discovery, not exposition**: guardhouse
   notes at Memorial Park (written by a park groundskeeper who never understood the statue, but
@@ -118,23 +121,25 @@ early hint that Vanguard's reach into the town predates the outbreak.
 
 ## Named Characters Confirmed (beyond the core hotel cast)
 
-- **Della Marsh** ("Della M." on stage) — the Red Room lounge singer; local Ravenwood performer,
-  four-year weekly residency. Infected/deceased by the time Jim finds her.
-- **Roy Bullock** — real name of "the Caretaker," the hotel's longtime maintenance man, mutated by
-  the outbreak. The hotel had **no direct Vanguard presence** — it was simply caught in the
-  outbreak's radius like the rest of town.
-- **Officer Dale Pruitt** — Ravenwood PD, night shift; the same officer seen at the hotel parking
-  lot at the start of the game and later found infected inside the crashed cruiser. The person he
-  pulled over in the parking lot was already in early infection stages (his exposure point); that
-  person is never named or seen clearly and remains anonymous.
+- **[Della Marsh](Creatures/Della_Marsh.md)** ("Della M." on stage) — the Red Room lounge singer;
+  local Ravenwood performer, four-year weekly residency. Infected/deceased by the time Jim finds
+  her.
+- **Roy Bullock** — real name of "[the Caretaker](Creatures/The_Caretaker.md)," the hotel's
+  longtime maintenance man, mutated by the outbreak. The hotel had **no direct Vanguard
+  presence** — it was simply caught in the outbreak's radius like the rest of town.
+- **[Officer Dale Pruitt](Characters/Dale_Pruitt.md)** — Ravenwood PD, night shift; the same
+  officer seen at the hotel parking lot at the start of the game and later found infected inside
+  the crashed cruiser. The person he pulled over in the parking lot was already in early
+  infection stages (his exposure point); that person is never named or seen clearly and remains
+  anonymous.
 
 ## Creature Classification: Ashen Mutant
 
-**The Maw** — a heavily mutated, territorial stalker/ambush predator encountered in the Ravenwood
-Hotel, classified as an "Ashen Mutant" — is the first confirmed example of this classification
-tier. It's responsible for both Cindy Sweets' Room 106 abduction and Gerta's death. Full design in
-`Creatures/The_Maw.md`. Whether "Ashen Mutant" applies more broadly (e.g. to the Caretaker) is not
-yet confirmed.
+**[The Maw](Creatures/The_Maw.md)** — a heavily mutated, territorial stalker/ambush predator
+encountered in the Ravenwood Hotel, classified as an "Ashen Mutant" — is the first confirmed
+example of this classification tier. It's responsible for both Cindy Sweets' Room 106 abduction
+and Gerta's death. Whether "Ashen Mutant" applies more broadly (e.g. to the Caretaker) is not yet
+confirmed.
 
 ## Survivor System (design rule, applies from Chapter 2 onward)
 
@@ -147,10 +152,10 @@ yet confirmed.
   either way (directly from the survivor, or via notes/environmental clues from the dead version);
   no survivor's death ever hard-blocks progression; the game never explicitly blames the player.
 
-## Retcons — superseded docx content (per `AI.json`, the newer source)
+## Retcons — superseded docx content (per [`AI.json`](AI.json), the newer source)
 
-These items appeared in `Deadlock Protocol - Story Design Rebuild.docx` and have been explicitly
-revised or removed in the later `AI.json` planning pass. Recorded here rather than silently
+These items appeared in [`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx) and have been explicitly
+revised or removed in the later [`AI.json`](AI.json) planning pass. Recorded here rather than silently
 changed, per the "report contradictions" rule:
 
 - **Earl Whitaker's pre-outbreak "hesitation"/foreshadowing** (listening for something, his
@@ -161,9 +166,9 @@ changed, per the "report contradictions" rule:
 - **The muffled scream** Jim hears before falling asleep in Room 104 is removed from canon — Room
   104 now ends on rain/thunder/fade-to-black with no warning before the outbreak wakes him.
 - **The East Wing maintenance-closet/screwdriver duplication** (flagged independently during this
-  project's own audit, and by the user during the `AI.json` session) is resolved the same way in
+  project's own audit, and by the user during the [`AI.json`](AI.json) session) is resolved the same way in
   both places: **one pickup only, in the East Wing** (matches what's already written in
-  `Locations/Ravenwood_Hotel.md`).
+  [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)).
 - **The Red Room no longer connects to the Courtyard Security Office.** In the docx, the Red
   Room's backstage was the route into the Security Office (making it secretly mandatory despite
   being labeled optional, and architecturally implausible — a security office reachable only
@@ -171,13 +176,13 @@ changed, per the "report contradictions" rule:
   entrance and exit from the West Wing hallway, no backstage route to anywhere) and the
   **Courtyard Security Office is reached via a separate West Wing service corridor.** The
   "deadbolted front door" detail from the docx is removed entirely — see
-  `Locations/Ravenwood_Hotel.md` for the corrected room layout.
+  [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md) for the corrected room layout.
 - Jim's occupation (**not established at all in the docx**) is now locked: retired military
   (comms/logistics) turned telecommunications field engineer.
 - The mutagen name is locked as **Black Vein** (a "Dark Vein" variant name was briefly considered
   and rejected in favor of the original term).
 
-*Sources: `Deadlock Protocol - Story Design Rebuild.docx` (original material); `AI.json` (the
+*Sources: [`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx) (original material); [`AI.json`](AI.json) (the
 planning conversation that produced the retcons and the Memorial Park / district / crest system
-above — see `STORY_NOTES.md` for open questions raised by that same conversation, and
+above — see [`STORY_NOTES.md`](STORY_NOTES.md) for open questions raised by that same conversation, and
 `Scripts/` for the scene-by-scene material it produced).*

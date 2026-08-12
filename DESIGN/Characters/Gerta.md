@@ -26,7 +26,8 @@ the kind of non-interaction that makes a hotel feel staffed and lived-in without
 
 ## Relationships
 
-None established. A single, brief, wordless-except-for-a-greeting encounter with Jim.
+None established. A single, brief, wordless-except-for-a-greeting encounter with
+[Jim](Jim_Mercer.md).
 
 ## Story Arc
 
@@ -40,7 +41,7 @@ witnessed kill).
 
 ## Important Scenes
 
-- Pre-outbreak hallway glimpse — `Scripts/Chapter_1_One_Night_Only.md`, Scene 12.
+- Pre-outbreak hallway glimpse — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 12.
 - Death scene (the Laundry Room) — Scene 37.
 
 ## Dialogue Characteristics

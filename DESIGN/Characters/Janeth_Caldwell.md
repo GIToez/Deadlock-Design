@@ -21,8 +21,8 @@ talking to her). Her wit is understated (*"Depends how it ends."* / *"Haven't de
 
 ## Relationships
 
-No established relationships beyond ordinary lobby proximity to the other guests. Meets Jim for
-the first time in the lobby.
+No established relationships beyond ordinary lobby proximity to the other guests. Meets
+[Jim](Jim_Mercer.md) for the first time in the lobby.
 
 ## Story Arc
 
@@ -36,7 +36,7 @@ death isn't just a plot device.
 
 ## Important Scenes
 
-- Lobby introduction / optional dialogue — `Scripts/Chapter_1_One_Night_Only.md`, Scenes 5, 8.
+- Lobby introduction / optional dialogue — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 5, 8.
 - Second Floor Hallway (found terrified) — Scene 18.
 - First Combat (calls out from the stairs, then breaks and runs) — Scene 22.
 - Police Cruiser Crash / her death — Scene 23.
@@ -48,7 +48,7 @@ with him—?!"*) land as a real break from her established composure rather than
 
 ## Established Facts
 
-See `CANON.md`. Locked: dies in the police cruiser crash; her death permanently blocks the hotel's
+See [`CANON.md`](../CANON.md). Locked: dies in the police cruiser crash; her death permanently blocks the hotel's
 front exit; this is the story's title-card beat ("Deadlock Protocol").
 
 ## Unresolved Ideas

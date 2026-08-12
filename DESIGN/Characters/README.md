@@ -19,16 +19,16 @@ A character document may contain:
 
 ## Current files (Chapter 1 — Ravenwood Hotel)
 
-- `Jim_Mercer.md` — protagonist
-- `Sarah_Mercer.md`
-- `Earl_Whitaker.md`
-- `Cindy_Sweets.md`
-- `Maria_Dalton.md`
-- `Richard_Dalton.md`
-- `Janeth_Caldwell.md`
-- `Dale_Pruitt.md`
-- `Gerta.md` — added once her death scene (killed by The Maw) was approved; see
-  `Creatures/The_Maw.md` and `Scripts/Chapter_1_One_Night_Only.md`, Scene 37.
+- [`Jim_Mercer.md`](Jim_Mercer.md) — protagonist
+- [`Sarah_Mercer.md`](Sarah_Mercer.md)
+- [`Earl_Whitaker.md`](Earl_Whitaker.md)
+- [`Cindy_Sweets.md`](Cindy_Sweets.md)
+- [`Maria_Dalton.md`](Maria_Dalton.md)
+- [`Richard_Dalton.md`](Richard_Dalton.md)
+- [`Janeth_Caldwell.md`](Janeth_Caldwell.md)
+- [`Dale_Pruitt.md`](Dale_Pruitt.md)
+- [`Gerta.md`](Gerta.md) — added once her death scene (killed by The Maw) was approved; see
+  [`Creatures/The_Maw.md`](../Creatures/The_Maw.md) and [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 37.
 
 Characters for locations beyond the hotel (Memorial Park, the five districts, etc.) will be added
-once those chapters are written — see `STORY_NOTES.md`.
+once those chapters are written — see [`STORY_NOTES.md`](../STORY_NOTES.md).

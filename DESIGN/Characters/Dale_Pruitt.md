@@ -23,8 +23,9 @@ person he's pulled over, even mid-conversation.
 
 ## Relationships
 
-No established personal relationships. His only interactions are with Jim (parking lot, then
-combat) and, implicitly, with the anonymous person he pulled over (his own exposure point).
+No established personal relationships. His only interactions are with [Jim](Jim_Mercer.md)
+(parking lot, then combat) and, implicitly, with the anonymous person he pulled over (his own
+exposure point).
 
 ## Story Arc
 
@@ -33,13 +34,13 @@ driver (never named, never seen clearly, and not otherwise identified) was alrea
 infection stages; this is the implied moment Pruitt was exposed. He's not seen again until much
 later in Chapter 1, when he bursts, infected, from the crashed police cruiser in the lobby and
 attacks Jim. Defeating him yields the game's first firearm, plus his field notepad and a printed
-Ravenwood PD dispatch advisory (see `Locations/Ravenwood_Hotel.md` for full document text) — the
+Ravenwood PD dispatch advisory (see [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md) for full document text) — the
 player's first real documentation of how fast and how officially the outbreak was already being
 treated as a Deadlock-Protocol-level event before Jim ever checked in.
 
 ## Important Scenes
 
-- Parking lot introduction — `Scripts/Chapter_1_One_Night_Only.md`, Scene 2.
+- Parking lot introduction — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 2.
 - Infected reveal / combat / handgun — Scene 41.
 
 ## Dialogue Characteristics
@@ -50,7 +51,7 @@ stress, not a horror-movie authority figure.
 
 ## Established Facts
 
-See `CANON.md`. Locked: same officer in both scenes; source of the game's first firearm.
+See [`CANON.md`](../CANON.md). Locked: same officer in both scenes; source of the game's first firearm.
 
 ## Unresolved Ideas
 

@@ -17,10 +17,10 @@ early on, since earlier source material used a confusing dual "Tab"/"Scene" numb
 
 ## Current files
 
-- `Chapter_1_One_Night_Only.md` — the Ravenwood Hotel, in full (45 scenes). Locked.
-- `Chapter_2_Ravenwood.md` — the street crossing, Memorial Park, and the Downtown introduction (21
-  scenes written so far). The five districts beyond Downtown are planned in `STORY_NOTES.md` but
+- [`Chapter_1_One_Night_Only.md`](Chapter_1_One_Night_Only.md) — the Ravenwood Hotel, in full (45 scenes). Locked.
+- [`Chapter_2_Ravenwood.md`](Chapter_2_Ravenwood.md) — the street crossing, Memorial Park, and the Downtown introduction (21
+  scenes written so far). The five districts beyond Downtown are planned in [`STORY_NOTES.md`](../STORY_NOTES.md) but
   not yet scripted.
 
-Chapter 3 ("What Was Hidden") and the Epilogue ("One More Night") are outlined in `CANON.md` and
-`MASTER_STORY.md` but have no script content yet.
+Chapter 3 ("What Was Hidden") and the Epilogue ("One More Night") are outlined in [`CANON.md`](../CANON.md) and
+[`MASTER_STORY.md`](../MASTER_STORY.md) but have no script content yet.

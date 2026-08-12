@@ -36,9 +36,9 @@ of the hotel's more chaotic encounters.
 ## Gameplay Role
 
 Optional mini-boss, entirely self-contained within the Red Room (which does not connect to
-anywhere else in the hotel — see `CANON.md` → "Retcons"). Skippable entirely; rewards exploration
+anywhere else in the hotel — see [`CANON.md`](../CANON.md) → "Retcons"). Skippable entirely; rewards exploration
 with optional supplies and two documents (a booking slip and a personal, unfinished note to her
-mother — full text in `Locations/Ravenwood_Hotel.md`) that are the only place her ordinary,
+mother — full text in [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md)) that are the only place her ordinary,
 pre-infection humanity is shown on the page.
 
 ## Encounter Progression
@@ -47,7 +47,7 @@ Single, one-off encounter — not a repeating enemy type.
 
 ## Major Appearances
 
-- `Scripts/Chapter_1_One_Night_Only.md`, Scene 40.
+- [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 40.
 
 ## Story Significance
 
