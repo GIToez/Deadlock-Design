@@ -90,32 +90,44 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   (Maria Dalton) was transported to **St. Dymphna Hospital** — the first in-fiction reference to a
   location beyond the hotel.
 - **East Wing Power Restoration.** A breaker panel has three switches (Lobby / East Wing / West
-  Wing). East Wing powers up cleanly; West Wing immediately trips a blown fuse. A maintenance
-  notice reveals the courtyard is the intended emergency evacuation route, but requires full
-  auxiliary power. Jim explores the newly-opened East Wing guest hallway (blood trails, panic
-  debris) and finds a maintenance closet with a **screwdriver** and a note indicating the West
-  Wing fuse was relocated.
-- **Second Floor Service Route.** Using the screwdriver, Jim opens the West Wing fuse compartment
-  at the breaker panel to confirm it's burned out, then crosses through the East Wing upper floor
-  (passing a locked, blood-marked Room 106 — Cindy is unseen but a wet dragging sound is heard),
-  through a service stairwell, down into the East Wing's industrial first-floor maintenance
-  corridors, and across a second-floor East–West service crossover to a **West Wing maintenance
-  office**, recovering the **auxiliary fuse** from a regulator (which powers down the immediate
-  area on removal).
-- **West Wing Power Restoration.** Installing the fuse and activating the West Wing breaker
-  restores power hotel-wide and brings the **courtyard access system online**. Returning upstairs,
-  Jim passes Room 106 again — Cindy Sweets bursts out screaming and is violently dragged back
-  inside before Jim can reach her; the door slams. West Wing guest security doors now open into
-  the hotel bar, the (self-contained, optional) Red Room, the recreation lounge, additional guest
-  rooms, and — via a separate service corridor — the courtyard security office.
-- **Courtyard Security Office.** Reached via the **West Wing service corridor** (a staff-only
-  route at the rear of the West Wing), not through the Red Room. Jim activates the courtyard
-  access system remotely from here.
-- **The Red Room (optional).** A separate, self-contained speakeasy lounge accessible from the
-  West Wing hallway. Untouched by the outbreak's chaos — an eerily undisturbed room with a
-  solitary singer, **Della Marsh** ("Della M." on stage — a four-year weekly Red Room performer),
-  at the microphone. She's revealed, on approach, to be dead and infected; she attacks once Jim
-  gets close (an optional mini-boss encounter). The Red Room has its own entrance and exit — it
+  Wing). East Wing powers up cleanly; West Wing immediately trips a blown fuse — Jim will need a
+  **screwdriver** to open the fuse housing and a replacement fuse before it can be fixed. A
+  maintenance notice reveals the courtyard is the intended emergency evacuation route, but
+  requires full auxiliary power.
+- **East Wing Retrieval Loop.** East Wing power unlocks the **East Public Stairwell** at the far
+  end of the second-floor east hallway. Jim descends it into the East Wing's ground-floor service
+  areas — the **Dining Hall**, the **Kitchen**, and its adjoining **Pantry/Storage** and **Walk-in
+  Freezer** — finding a **screwdriver** in the **Utility Room**, then the **Laundry/Linen Room**
+  (see "Gerta's Death," below), and finally the **East Wing Maintenance Closet**, where a
+  handwritten note explains the replacement fuse was relocated to the West Wing. A barricaded
+  service door behind the closet clears by hand, opening a **permanent shortcut straight back to
+  the Lobby** — Jim never has to walk this loop again.
+- **Gerta's Death.** In the Laundry/Linen Room, Jim finds Gerta's body — killed by **The Maw** —
+  see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md) and
+  [`Characters/Gerta.md`](../Characters/Gerta.md).
+- **Room 106 / Cindy's Abduction.** Back in the Lobby, Jim heads up the Grand Staircase and across
+  the second-floor **west** hallway toward the West Wing Maintenance Room. Passing Room 106, the
+  door bursts open — Cindy Sweets, barefoot and bleeding, reaches for Jim before something drags
+  her violently back inside; the door slams. See Scene 34 in
+  [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md) for the full beat.
+- **West Wing Maintenance Room.** A small, unlocked room near the **West Public Stairwell** on the
+  guest floor (not power-gated — it was simply shut, not locked). Jim recovers the **auxiliary
+  fuse** here.
+- **West Wing Power Restoration.** Back at the breaker panel, the screwdriver opens the fuse
+  housing; Jim installs the fuse and activates the West Wing breaker, restoring power hotel-wide
+  and bringing the **courtyard access system online**.
+- **West Wing Ground Floor.** With West Wing power on, the **West Public Stairwell** (locked until
+  now) opens, leading down to the **Lounge/Recreation** area. Jim moves through the West Wing's
+  ground floor — **Piano Area**, **Lounge**, the **Main Bar** (with the **Red Room** opening
+  directly off it), **Liquor Storage** — and its back-of-house (**Boiler Room**, **Staff
+  Room/Storage**) — to the **West Wing Service Corridor** at the rear.
+- **Courtyard Security Office.** Reached via the **West Wing Service Corridor**. Jim activates the
+  courtyard access system remotely from here.
+- **The Red Room (optional).** A self-contained speakeasy lounge opening directly off the **Main
+  Bar**. Untouched by the outbreak's chaos — an eerily undisturbed room with a solitary singer,
+  **Della Marsh** ("Della M." on stage — a four-year weekly Red Room performer), at the microphone.
+  She's revealed, on approach, to be dead and infected; she attacks once Jim gets close (an
+  optional mini-boss encounter). The Red Room has its own entrance and exit off the Bar — it
   doesn't lead anywhere else.
 - **First Firearm.** Passing back through the lobby near the crashed cruiser, an infected police
   officer — **Officer Dale Pruitt**, the same officer seen at the start of the game — bursts from
@@ -136,30 +148,58 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 
 ## Important Rooms / Areas
 
-- **Lobby** — West Lounge (Cindy), East Waiting Area (the Daltons), Reception (Earl), main
-  stairs. Wrecked mid-chapter by the police cruiser crash.
-- **Room 104** — Jim's guest room; the "night before" scene.
-- **Room 106** — Cindy Sweets' room; site of her abduction jumpscare.
-- **Main Bar** — unattended pre-outbreak; revisited later, wrecked, with a blood trail toward a
-  staff storage door leading to the Laundry Room.
-- **The Laundry Room** — a staff area reached via the staff storage door behind the Main Bar;
-  industrial washers/dryers, laundry carts. Site of Gerta's death (killed by **The Maw**) — see
-  Creatures/Major Scripted Events below and [`Creatures/The_Maw.md`](../Creatures/The_Maw.md).
-- **Recreation Room** — pool table, dart board, empty; minor pre-outbreak atmosphere beat.
-- **The Red Room** — self-contained optional speakeasy lounge, entrance/exit both from the West
-  Wing hallway; site of the Della Marsh encounter. Does not connect to the Security Office.
+**Ground floor — Lobby / center**
+
+- **Lobby** — West Lounge (Cindy), East Waiting Area (the Daltons), Reception (Earl), the Grand
+  Staircase up to the guest floor. Wrecked mid-chapter by the police cruiser crash.
 - **Manager's Office** — the chapter's first safe room; VERN save terminal, guest ledger,
-  incident report, breaker panel.
+  incident report, breaker panel. Reached via the Staff Hallway off the Lobby (Manager's Key).
 - **Breaker Panel** (inside Manager's Office) — Lobby / East Wing / West Wing power switches;
   central hub for the power-restoration puzzle.
-- **East Wing** (guest floors + first floor maintenance areas) — opened by East Wing power;
-  contains the maintenance closet/screwdriver and a service stairwell.
-- **West Wing Maintenance Office** — reached via a screwed-shut access panel; source of the
-  replacement auxiliary fuse.
-- **West Wing Service Corridor** — a separate staff-only route at the rear of the West Wing
-  leading to the Courtyard Security Office (this replaces the earlier "Red Room backstage" route).
+- **Grand Staircase** — the main stairs between the Lobby and the guest floor above; used
+  repeatedly during the power-restoration puzzle in both directions.
+
+**Guest floor (accessible the whole chapter — not power-gated)**
+
+- **Room 104** — Jim's guest room; the "night before" scene.
+- **Room 106** — Cindy Sweets' room; site of her abduction jumpscare, triggered while crossing the
+  west hallway toward the West Wing Maintenance Room.
+- **Room 112** — Janeth Caldwell's room. **Room 118** — Maria & Richard Dalton's room.
+- **West Wing Maintenance Room** — a small, simply-shut (not locked) room near the West Public
+  Stairwell; source of the replacement **auxiliary fuse**.
+- **East Public Stairwell** — at the end of the guest floor's east hallway; unlocked by East Wing
+  power; the only way down into the East Wing's ground-floor service areas on the first trip.
+- **West Public Stairwell** — at the end of the guest floor's west hallway, beside the Maintenance
+  Room; locked until West Wing power is restored, then opens onto the West Wing's ground floor.
+
+**East Wing — ground floor, service areas (reached via the East Public Stairwell)**
+
+- **Dining Hall**, **Kitchen**, **Pantry/Storage**, **Walk-in Freezer** — the hotel's dining and
+  food-service wing; minor exploration content.
+- **Utility Room** — source of the **screwdriver**.
+- **Laundry/Linen Room** — industrial washers/dryers, laundry carts. Site of Gerta's death (killed
+  by **The Maw**) — see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md) and
+  [`Characters/Gerta.md`](../Characters/Gerta.md).
+- **East Wing Maintenance Closet** — a handwritten note here reveals the auxiliary fuse was
+  relocated to the West Wing. A barricaded service door behind it clears by hand, opening a
+  **permanent shortcut straight back to the Lobby**.
+
+**West Wing — ground floor (reached via the West Public Stairwell, once unlocked)**
+
+- **Lounge/Recreation** — pool table, dart board; minor pre-outbreak atmosphere beat.
+- **Piano Area** — a small nook off the Lounge.
+- **Main Bar** — unattended pre-outbreak; wrecked later.
+- **The Red Room** — self-contained optional speakeasy lounge opening directly off the Main Bar;
+  site of the Della Marsh encounter. Does not connect to the Security Office.
+- **Liquor Storage** — off the Bar; minor exploration content.
+- **Boiler Room**, **Staff Room/Storage** — West Wing back-of-house.
+- **West Wing Service Corridor** — a staff-only route at the rear of the West Wing leading to the
+  Courtyard Security Office.
 - **Courtyard Security Office** — controls courtyard gate access; reached via the West Wing
   Service Corridor.
+
+**Exterior**
+
 - **Hotel Courtyard** — fountain, maintenance shed, backup generator, north exit gate to the
   street/Memorial Park; site of the Caretaker (Roy Bullock) boss fight.
 
@@ -189,7 +229,12 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 > - ⚪ **dashed grey pill** — a pointer back to a node that's defined in full on another diagram
 >   (e.g. "(see Diagram 1)") — not a new physical space, just a stitch point between diagrams.
 
-### 1. Exterior → Lobby → East Wing (ground floor)
+> **Floor note:** the hotel is two floors only — a ground floor and a guest floor above it — no
+> second guest-inaccessible floor, no service crossover between wings. The guest floor is freely
+> walkable the entire chapter; the *stairwells* down to the ground floor are what's power-gated
+> (see Diagram 2).
+
+### 1. Exterior → Lobby (ground floor, center)
 
 ```mermaid
 flowchart TD
@@ -197,96 +242,125 @@ flowchart TD
     LOT["Parking Lot<br/>👤 Officer Pruitt + stopped driver"]
     ENTRY(["Hotel Entry"])
     LOBBY["🏨 LOBBY<br/>👤 Cindy · Maria · Richard · Janeth · Earl<br/>☠️ Earl & Officer Pruitt turn infected<br/>🗝️ Baseball Bat · Manager's Key · Handgun<br/>💥 cruiser crash blocks front exit"]
-    STAIRM(["Main Stairwell<br/>↓ to Diagram 3 (2nd Floor)"])
     STAFFH(["Staff Hallway<br/>needs Manager's Key"])
     MGROFF["🛡️ MANAGER'S OFFICE — safe room<br/>💾 VERN Terminal · ⚡ Breaker Panel<br/>📄 Guest Ledger · Incident Report"]
-    EHALL(["East Wing Hallway"])
-    CLOSET["Maintenance Closet<br/>🗝️ Screwdriver"]
-    SVCSTAIR(["Service Stairwell<br/>↓ to Diagram 3 (2nd Floor)"])
+    GRANDSTAIR(["Grand Staircase<br/>↕ to Diagram 2 (Guest Floor)"])
+    ECLOSETREF(["East Wing Maintenance Closet<br/>(see Diagram 3 — shortcut once cleared)"])
 
     HWY --> LOT --> ENTRY --> LOBBY
-    LOBBY --> STAIRM
     LOBBY --> STAFFH --> MGROFF
-    LOBBY -. East Wing power .-> EHALL
-    EHALL --> CLOSET
-    EHALL --> SVCSTAIR
+    LOBBY --> GRANDSTAIR
+    LOBBY <-. barricade cleared by hand .-> ECLOSETREF
 
     classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
     classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
     classDef safe fill:#DFF5E1,stroke:#2E9E4F,color:#0d2b12,stroke-width:2px
     classDef exterior fill:#E3F0FF,stroke:#4A76C9,color:#0d1f3a
+    classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
     class HWY,LOT exterior
-    class ENTRY,STAIRM,STAFFH,EHALL,SVCSTAIR hallway
-    class LOBBY,CLOSET room
+    class ENTRY,STAFFH,GRANDSTAIR hallway
+    class LOBBY room
     class MGROFF safe
+    class ECLOSETREF ref
 ```
 
-### 2. Lobby → West Wing (ground floor)
+### 2. Guest Floor (not power-gated — freely walkable all chapter)
 
 ```mermaid
 flowchart TD
-    LOBBYREF(["🏨 Lobby<br/>(see Diagram 1)"])
-    WHALL(["West Hallway<br/>👤 Gerta — roaming"])
-    BAR["Main Bar<br/>wrecked later"]
-    RECROOM["Recreation Room"]
-    REDROOM["🎤 Red Room — optional<br/>☠️ Della Marsh — mini-boss<br/>📄 Booking slip · Personal note"]
-    LAUNDRY["🧺 Laundry Room<br/>☠️ Gerta's body — killed by The Maw<br/>🗝️ Laundry Master Key"]
-    WCORR(["West Wing Service Corridor"])
-    SECOFF["Courtyard Security Office<br/>🚪 activates courtyard gate<br/>↓ to Diagram 4 (Courtyard)"]
+    GRANDSTAIRREF(["Grand Staircase<br/>(up from Diagram 1)"])
+    EHALL(["East Hallway"])
+    R112["Room 112 — Janeth"]
+    R118["Room 118 — Maria & Richard"]
+    EPUBSTAIR(["East Public Stairwell<br/>🚪 East Wing power<br/>↓ to Diagram 3"])
+    WHALL(["West Hallway"])
+    R104["Room 104<br/>Jim's room"]
+    R106["Room 106<br/>☠️ The Maw — Cindy's abduction"]
+    WMAINTROOM["West Wing Maintenance Room<br/>🗝️ Auxiliary Fuse<br/>(unlocked — just shut, not power-gated)"]
+    WPUBSTAIR(["West Public Stairwell<br/>🚪 West Wing power<br/>↓ to Diagram 4"])
 
-    LOBBYREF --> WHALL
-    WHALL --> BAR
-    WHALL --> RECROOM
-    WHALL --> REDROOM
-    BAR -. blood trail, post-outbreak .-> LAUNDRY
-    WHALL -. West Wing power .-> WCORR --> SECOFF
+    GRANDSTAIRREF --> EHALL
+    GRANDSTAIRREF --> WHALL
+    EHALL --> R112
+    EHALL --> R118
+    EHALL -. East Wing power .-> EPUBSTAIR
+    WHALL --> R104
+    WHALL --> R106
+    WHALL --> WMAINTROOM
+    WHALL -. West Wing power .-> WPUBSTAIR
+
+    classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
+    classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
+    classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
+    class GRANDSTAIRREF ref
+    class EHALL,WHALL,EPUBSTAIR,WPUBSTAIR hallway
+    class R104,R106,R112,R118,WMAINTROOM room
+```
+
+### 3. East Wing — ground floor (reached via the East Public Stairwell)
+
+```mermaid
+flowchart TD
+    EPUBSTAIRREF(["East Public Stairwell<br/>(down from Diagram 2)"])
+    DINING["Dining Hall"]
+    KITCHEN["Kitchen"]
+    PANTRY["Pantry/Storage"]
+    FREEZER["Walk-in Freezer"]
+    UTILITY["Utility Room<br/>🗝️ Screwdriver"]
+    LAUNDRY["🧺 Laundry/Linen Room<br/>☠️ Gerta's body — killed by The Maw"]
+    ECLOSET["East Wing Maintenance Closet<br/>📄 Note: fuse relocated to West Wing"]
+    LOBBYREF(["🏨 Lobby<br/>(see Diagram 1 — shortcut once cleared)"])
+
+    EPUBSTAIRREF --> DINING --> KITCHEN
+    KITCHEN --> PANTRY
+    KITCHEN --> FREEZER
+    KITCHEN --> UTILITY --> LAUNDRY --> ECLOSET
+    ECLOSET <-. barricade cleared by hand .-> LOBBYREF
+
+    classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
+    classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
+    classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
+    class EPUBSTAIRREF,LOBBYREF ref
+    class DINING,KITCHEN,PANTRY,FREEZER,UTILITY,LAUNDRY,ECLOSET room
+```
+
+### 4. West Wing — ground floor (reached via the West Public Stairwell, once unlocked)
+
+```mermaid
+flowchart TD
+    WPUBSTAIRREF(["West Public Stairwell<br/>(down from Diagram 2)"])
+    LOUNGE["Lounge/Recreation"]
+    PIANO["Piano Area"]
+    BAR["Main Bar<br/>wrecked later"]
+    REDROOM["🎤 Red Room — optional, off the Bar<br/>☠️ Della Marsh — mini-boss<br/>📄 Booking slip · Personal note"]
+    LIQUOR["Liquor Storage"]
+    BOILER["Boiler Room"]
+    STAFFRM["Staff Room/Storage"]
+    WCORR(["West Wing Service Corridor"])
+    SECOFF["Courtyard Security Office<br/>🚪 activates courtyard gate<br/>↓ to Diagram 5 (Courtyard)"]
+
+    WPUBSTAIRREF --> LOUNGE
+    LOUNGE --> PIANO
+    LOUNGE --> BAR
+    BAR --> REDROOM
+    BAR --> LIQUOR
+    LOUNGE --> BOILER --> STAFFRM --> WCORR --> SECOFF
 
     classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
     classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
     classDef boss fill:#FFE0E0,stroke:#C0392B,color:#3a0d0d,stroke-width:2px
     classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
-    class LOBBYREF ref
-    class WHALL,WCORR hallway
-    class BAR,RECROOM,LAUNDRY,SECOFF room
+    class WPUBSTAIRREF ref
+    class WCORR hallway
+    class LOUNGE,PIANO,BAR,LIQUOR,BOILER,STAFFRM,SECOFF room
     class REDROOM boss
 ```
 
-### 3. Second Floor & Service Route
+### 5. Courtyard
 
 ```mermaid
 flowchart TD
-    STAIRMREF(["Main Stairwell<br/>(up from Diagram 1)"])
-    F2W(["2F West Hallway"])
-    R104["Room 104<br/>Jim's room"]
-    R106["Room 106<br/>☠️ The Maw glimpsed — Cindy's abduction"]
-    F2E(["2F East Hallway"])
-    R112["Room 112 — Janeth"]
-    R118["Room 118 — Maria & Richard"]
-    SVCSTAIRREF(["Service Stairwell<br/>(up from Diagram 1)"])
-    CROSS(["2F East–West Service Crossover"])
-    WMAINT["West Wing Maintenance Office<br/>🗝️ Auxiliary Fuse<br/>⚡ carry fuse to Breaker Panel (Diagram 1)"]
-
-    STAIRMREF --> F2W
-    F2W --> R104
-    F2W --> R106
-    F2W --- F2E
-    F2E --> R112
-    F2E --> R118
-    SVCSTAIRREF --> CROSS --> WMAINT
-
-    classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
-    classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
-    classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
-    class STAIRMREF,SVCSTAIRREF ref
-    class F2W,F2E,CROSS hallway
-    class R104,R106,R112,R118,WMAINT room
-```
-
-### 4. Courtyard
-
-```mermaid
-flowchart TD
-    SECOFFREF(["Courtyard Security Office<br/>(from Diagram 2)"])
+    SECOFFREF(["Courtyard Security Office<br/>(from Diagram 4)"])
     COURT["Hotel Courtyard<br/>⚙️ Generator · Fountain"]
     SHED["Maintenance Shed<br/>☠️ THE CARETAKER / Roy Bullock — BOSS<br/>📄 Maintenance log"]
     GATE(["North Gate<br/>→ Ravenwood streets / Memorial Park, Chapter 2"])
@@ -348,12 +422,16 @@ flowchart TD
 
 ## Puzzles
 
-- **Power Restoration (East Wing → West Wing).** Restore East Wing power at the breaker panel →
-  find a screwdriver in an East Wing maintenance closet → open the West Wing fuse compartment to
-  discover it's burned out → traverse a service-stairwell / second-floor crossover route into the
-  West Wing maintenance office → recover a replacement auxiliary fuse → return to the breaker
-  panel, install the fuse, and activate West Wing power (which also brings courtyard access
-  systems online).
+- **Power Restoration (East Wing → West Wing).** Flip East Wing power at the breaker panel →
+  descend the newly-unlocked East Public Stairwell → work through the East Wing's ground-floor
+  service areas (Dining Hall → Kitchen → Pantry/Freezer → Utility Room, where the **screwdriver**
+  is found → Laundry/Linen Room → East Wing Maintenance Closet, where a note reveals the fuse was
+  relocated to the West Wing) → clear the barricaded shortcut door back to the Lobby by hand →
+  head back up to the guest floor and across to the **West Wing Maintenance Room** (near the West
+  Public Stairwell, simply shut, not power-gated) to recover the **auxiliary fuse** → return to
+  the breaker panel, use the screwdriver to open the fuse housing, install the fuse, and activate
+  West Wing power. This also unlocks the **West Public Stairwell**, opening the route down into
+  the West Wing's ground floor and, eventually, the Courtyard Security Office.
 - **Courtyard Generator Restoration.** A short mechanical sequence (fuel valve, ignition switch,
   pressure controls, breaker reset) restores the courtyard's backup generator, re-powering the
   exterior gate — and triggers the maintenance shed breach that begins the Caretaker boss fight.
@@ -364,15 +442,13 @@ flowchart TD
   Office.
 - **Baseball Bat** — Jim's first weapon, grabbed from wrecked lobby furniture during the Earl
   Whitaker attack.
-- **Screwdriver** — found in an East Wing maintenance closet; used to open the West Wing fuse
-  compartment and a screwed-shut maintenance office access panel.
-- **Auxiliary Fuse** — recovered from a regulator in the West Wing maintenance office; installed
-  at the breaker panel to restore West Wing power.
+- **Screwdriver** — found in the East Wing's Utility Room; its only use is opening the fuse
+  housing at the breaker panel (both to confirm the blown West Wing fuse and to install the
+  replacement).
+- **Auxiliary Fuse** — recovered from the West Wing Maintenance Room (guest floor, near the West
+  Public Stairwell); installed at the breaker panel to restore West Wing power.
 - **Handgun (+ ammunition)** — the game's first firearm, taken from Officer Pruitt inside the
   crashed cruiser.
-- **Laundry-Room Master Key** (optional) — found on Gerta's body; a minor convenience item for
-  any staff-only doors not already opened by another route. No mandatory content is gated behind
-  it.
 
 ### Documents (full text written — see [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md) for verbatim content)
 
@@ -380,11 +456,10 @@ flowchart TD
   auxiliary power.
 - Guest ledger (Manager's Office) — room assignments for Jim, Cindy, Janeth, Maria & Richard.
 - Incident report (Manager's Office) — Maria Dalton transported to St. Dymphna Hospital, 11:42 PM.
-- Maintenance note (East Wing closet) — points to the West Wing fuse relocation.
-- Maintenance warning (West Wing office) — do not remove the fuse except on power failure.
+- Maintenance note (East Wing Maintenance Closet) — points to the West Wing fuse relocation.
 - VERN terminal label (Manager's Office) — "RAVENWOOD MUNICIPAL EMERGENCY NETWORK / VANGUARD
   EMERGENCY RESPONSE NODE — TERMINAL 07."
-- **Della Marsh's booking slip and personal note** (Red Room backstage, Scene 40) — establishes
+- **Della Marsh's booking slip and personal note** (Red Room backstage, Scene 38) — establishes
   her as a real person (four-year residency; a note to her mother, written as she began feeling
   unwell).
 - **Roy Bullock's maintenance log** (courtyard shed, post-Caretaker fight, Scene 44) — years of

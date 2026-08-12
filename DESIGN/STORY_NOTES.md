@@ -52,10 +52,11 @@
 - ~~Jim's occupation was never established.~~ **Resolved** — see [`CANON.md`](CANON.md).
 - ~~Gerta's fate was left undecided.~~ **Resolved, approved directly by the project owner
   (2026-08-12):** she's killed by a previously-unnamed, now-named creature, **The Maw** — the same
-  presence that dragged Cindy Sweets into Room 106 earlier in Chapter 1. Her body is discovered in
-  a new location, the hotel **Laundry Room**, reached by following a blood trail through a staff
-  storage door behind the Main Bar. See [`Creatures/The_Maw.md`](Creatures/The_Maw.md), [`Characters/Gerta.md`](Characters/Gerta.md), and
-  [`Scripts/Chapter_1_One_Night_Only.md`](Scripts/Chapter_1_One_Night_Only.md) (new Scene 37; all scenes after it renumbered +1).
+  presence that drags Cindy Sweets into Room 106 later in Chapter 1. Her body is discovered in the
+  hotel **Laundry Room**, now placed in the East Wing's ground-floor service area (see the hotel
+  layout resolution below — this room moved from its original West Wing/behind-the-bar placement).
+  See [`Creatures/The_Maw.md`](Creatures/The_Maw.md), [`Characters/Gerta.md`](Characters/Gerta.md), and
+  [`Scripts/Chapter_1_One_Night_Only.md`](Scripts/Chapter_1_One_Night_Only.md) (Scene 32).
 
 ## Direction Log
 
@@ -73,6 +74,41 @@
   Perspective" in [`CANON.md`](CANON.md). The existing Chapter 1/2 scripts have **not** been
   audited yet for language that reads too cinematic/wide-shot for this camera — flagged as
   optional follow-up work, not yet done.
+- **Ravenwood Hotel real floor plan reference + full power-restoration route rebuild —
+  2026-08-12.** The project owner shared an AI-generated architectural floor plan (ground floor +
+  guest floor) for the hotel. It was explicitly flagged as imperfect/AI-rendered (missing some
+  rooms, not gospel) but gave the project a real two-floor layout to reconcile against the earlier,
+  purely relational room-connectivity diagrams. Through several rounds of back-and-forth, the
+  following was locked as the hotel's real architecture and the exact East/West Wing
+  power-restoration route:
+  - **Two floors only** — a ground floor and a guest floor above it. No second,
+    player-inaccessible service floor, and no crossover corridor between wings (the earlier
+    "second-floor service crossover" and "West Wing Maintenance Office reached via service
+    stairwell" design is fully retired — see [`CANON.md`](CANON.md) → "Retcons").
+  - The guest floor is freely walkable the entire chapter; the **Public Stairwells** at the end of
+    each guest hallway (down to the ground floor) are what's power-gated per wing.
+  - **The Laundry Room moved from the West Wing (behind the Main Bar) to the East Wing**, next to
+    the Utility Room/Kitchen/Dining Hall — this is where Gerta's death scene now lives.
+  - **The Red Room is explicitly tied to the Main Bar** (an entrance directly off it), not a
+    generic hallway branch.
+  - The rear **Courtyard is a single space**, reachable from the West Wing, the East Wing, and a
+    passage under the Lobby's Grand Staircase — though only the West Wing route (via the Courtyard
+    Security Office) is actually used/opened in Chapter 1.
+  - The East Wing retrieval loop (Dining Hall → Kitchen → Pantry/Freezer → Utility Room →
+    Laundry/Linen Room → East Wing Maintenance Closet) ends in a barricaded door that Jim clears
+    by hand, opening a **permanent shortcut straight back to the Lobby** — no tool needed for that
+    door; the screwdriver's only job is opening the fuse housing at the breaker panel.
+  - The auxiliary fuse itself is in a small, simply-shut **West Wing Maintenance Room** on the
+    guest floor (near the West Public Stairwell) — not power-gated, just closed. Reaching it is
+    what re-anchors **Cindy's Room 106 jumpscare**, which now triggers while crossing the guest
+    floor's west hallway to get there (previously it was anchored to a return trip through a
+    since-removed second-floor route).
+  - `Locations/Ravenwood_Hotel.md` (storyline, room list, all 5 blueprint diagrams, puzzles, key
+    items), `Scripts/Chapter_1_One_Night_Only.md` (Scenes 28–40 fully rewritten), `MASTER_STORY.md`,
+    and the affected character/creature files (`Characters/Gerta.md`, `Characters/Cindy_Sweets.md`,
+    `Characters/README.md`, `Creatures/The_Maw.md`, `Creatures/Della_Marsh.md`) were all updated to
+    match. Scene numbering from Scene 41 onward (Officer Pruitt, Courtyard, Generator, Caretaker)
+    is unchanged.
 - The two reference screenshots (lobby layout + gameplay viewport combat shot) were shared inline
   in chat only — not saved to the repo, since inline chat images aren't accessible as real files.
   If they should become permanent reference material, they need to be pushed as actual files

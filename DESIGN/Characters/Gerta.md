@@ -33,16 +33,16 @@ None established. A single, brief, wordless-except-for-a-greeting encounter with
 
 Glimpsed once, pre-outbreak, pushing her cart through the west hallway, then continuing on and
 disappearing around a corner — a background beat, not a conversation. During the outbreak, Jim
-finds her body in the hotel **Laundry Room** (a staff area reached by following a blood trail
-through a staff storage door behind the hotel bar), killed by The Maw — the same presence that
-dragged Cindy Sweets into Room 106 earlier in the chapter. Unlike Cindy, whose fate is left
+finds her body in the hotel **Laundry Room**, in the East Wing's ground-floor service area
+(reached via the Utility Room, during the East Wing power-restoration loop), killed by The Maw —
+the same presence that later drags Cindy Sweets into Room 106. Unlike Cindy, whose fate is left
 explicitly open, Gerta's death is confirmed and shown on-screen (as a discovered aftermath, not a
 witnessed kill).
 
 ## Important Scenes
 
 - Pre-outbreak hallway glimpse — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 12.
-- Death scene (the Laundry Room) — Scene 37.
+- Death scene (the Laundry Room) — Scene 32.
 
 ## Dialogue Characteristics
 

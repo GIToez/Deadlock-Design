@@ -196,15 +196,27 @@ changed, per the "report contradictions" rule:
 - **The Red Room no longer connects to the Courtyard Security Office.** In the docx, the Red
   Room's backstage was the route into the Security Office (making it secretly mandatory despite
   being labeled optional, and architecturally implausible — a security office reachable only
-  through a speakeasy lounge). This is fixed: the **Red Room is fully self-contained** (its own
-  entrance and exit from the West Wing hallway, no backstage route to anywhere) and the
-  **Courtyard Security Office is reached via a separate West Wing service corridor.** The
-  "deadbolted front door" detail from the docx is removed entirely — see
+  through a speakeasy lounge). This is fixed: the **Red Room is fully self-contained**, entered
+  directly off the Main Bar, with no backstage route to anywhere, and the **Courtyard Security
+  Office is reached via a separate West Wing service corridor.** The "deadbolted front door"
+  detail from the docx is removed entirely — see
   [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md) for the corrected room layout.
 - Jim's occupation (**not established at all in the docx**) is now locked: retired military
   (comms/logistics) turned telecommunications field engineer.
 - The mutagen name is locked as **Black Vein** (a "Dark Vein" variant name was briefly considered
   and rejected in favor of the original term).
+- **The hotel's second-floor service crossover and "West Wing Maintenance Office" are retired
+  (2026-08-12).** This was an interim design (written into this project's own scripts, not sourced
+  from the docx or [`AI.json`](AI.json)) that assumed a player-inaccessible service floor
+  connecting the East and West Wings. After the project owner shared a real architectural floor
+  plan for the hotel (ground floor + guest floor only), the entire East/West Wing
+  power-restoration route was rebuilt to match: no second floor, no crossover, a barricaded
+  East Wing shortcut door back to the Lobby, and a small unlocked **West Wing Maintenance Room**
+  on the guest floor (not the old "West Wing Maintenance Office," which is gone). The **Laundry
+  Room also moved from the West Wing (behind the Main Bar) to the East Wing**, next to the Utility
+  Room — Gerta's death scene moved with it. See [`STORY_NOTES.md`](STORY_NOTES.md) → "Direction
+  Log" for the full resolution and [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)
+  for the corrected room list and blueprint diagrams.
 
 *Sources: [`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx) (original material); [`AI.json`](AI.json) (the
 planning conversation that produced the retcons and the Memorial Park / district / crest system

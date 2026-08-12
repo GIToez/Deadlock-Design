@@ -61,12 +61,17 @@ reach an alternate exit (the rear courtyard):
 
 1. Jim takes Earl's key and reaches the Manager's Office (the game's first safe room, with a VERN
    save terminal — see [`CANON.md`](CANON.md) for what VERN is).
-2. Restoring East Wing power opens the East Wing guest floors and yields a screwdriver.
-3. Using it, Jim finds the West Wing fuse is burned out, and travels a service-stairwell /
-   second-floor crossover route to a West Wing maintenance office to recover a replacement fuse.
-4. Restoring West Wing power opens the West Wing (bar, recreation lounge, the self-contained
-   **Red Room** optional area, and — via a separate **West Wing service corridor** — the
-   Courtyard Security Office) and activates the courtyard's gate systems.
+2. Restoring East Wing power unlocks the East Public Stairwell down to the East Wing's
+   ground-floor service areas (Dining Hall, Kitchen, Utility Room), where Jim finds a screwdriver
+   and a note pointing to the West Wing for the replacement fuse — and clears a barricaded
+   shortcut straight back to the Lobby.
+3. Crossing to the guest floor's west hallway to reach the West Wing Maintenance Room, Cindy
+   Sweets is dragged away by an unseen creature (see below) — Jim then recovers the replacement
+   fuse there.
+4. Installing the fuse restores West Wing power, unlocking the West Public Stairwell down into the
+   West Wing's ground floor (bar, recreation lounge, the self-contained **Red Room** optional area
+   off the bar, and — via a separate **West Wing service corridor** — the Courtyard Security
+   Office), activating the courtyard's gate systems.
 5. Passing through the lobby again, Jim is ambushed by an infected police officer
    ([Officer Dale Pruitt](Characters/Dale_Pruitt.md) — the same officer seen at the start of the
    game) inside the crashed cruiser, yielding the game's first firearm.

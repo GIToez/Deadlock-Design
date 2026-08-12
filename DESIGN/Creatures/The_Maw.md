@@ -94,12 +94,13 @@ make it closer to a recurring mini-boss predator than a standard enemy.
 1. **Pre-outbreak foreshadowing (unconfirmed, retroactive)** — Cindy Sweets mentions hearing
    "scratching" in the walls before the outbreak begins, during the optional "Cindy's Door" scene
    (Scene 14).
-2. **Room 106 (Cindy Sweets' abduction)** — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 35. The
-   Maw's most notable confirmed encounter: seizes Cindy from the hallway, drags her back inside,
-   blood spreads beneath the door, the creature disappears. No direct fight.
-3. **The Laundry Room (Gerta's death)** — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 37. The
-   same presence, confirmed by the project owner to be the identical creature; again not directly
-   fought — only heard withdrawing.
+2. **The Laundry Room (Gerta's death)** — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 32,
+   during the East Wing power-restoration loop. Only heard withdrawing, not seen or fought
+   directly.
+3. **Room 106 (Cindy Sweets' abduction)** — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 34,
+   shortly after, during the crossing to the West Wing Maintenance Room. The Maw's most notable
+   confirmed encounter: seizes Cindy from the hallway, drags her back inside, blood spreads
+   beneath the door, the creature disappears. No direct fight.
 
 Both incidents are confirmed to be the same specimen. Whether/when the player ever directly fights
 it is not yet decided — see Open Design Gaps below.

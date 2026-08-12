@@ -14,9 +14,16 @@
 > Status: this chapter's content is marked `FINALIZED CANON — LOCKED` in its source. Treat it as
 > ready to implement against, not as a draft.
 >
-> **Scene 37 ("The Laundry Room")** is new material, approved directly by the project owner
-> (not sourced from [`AI.json`](../AI.json) or the docx) — it introduces **The Maw** and resolves Gerta's fate.
-> All scenes after it were renumbered (+1) to make room.
+> **The Laundry Room scene** (Scene 32) is new material, approved directly by the project owner
+> (not sourced from [`AI.json`](../AI.json) or the docx) — it introduces **The Maw** and resolves
+> Gerta's fate.
+>
+> **Hotel layout note (2026-08-12):** Scenes 28–40 (the East/West Wing power-restoration sequence)
+> were restructured to match the hotel's real two-floor architecture (ground floor + guest floor
+> only — no second service floor, no crossover corridor). See
+> [`STORY_NOTES.md`](../STORY_NOTES.md) for the resolution history and
+> [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md) for the current room list and
+> blueprint diagrams.
 >
 > **Camera/perspective note (per reference screenshots, 2026-08-12 — see
 > [`CANON.md`](../CANON.md) → "Presentation & Perspective"):** this is a 2.5D top-down game with a
@@ -1144,237 +1151,98 @@ Jim reads it twice.
 
 > **JIM:** *"Courtyard."*
 
-He looks at the panel. East Wing first — West Wing has a blown fuse, that much is obvious from the
-scorch marks around the housing. He'll need a screwdriver to get at it and a replacement fuse to
-fix it. One thing at a time.
+He looks at the panel. West Wing has a blown fuse, that much is obvious from the scorch marks
+around the housing — he'll need a screwdriver to get at the housing and a replacement fuse before
+he can do anything about it. East Wing, at least, looks straightforward.
 
 *Interaction prompt: [ACTIVATE EAST WING]*
 
 Jim flips the switch. It locks into place. Somewhere deeper in the hotel — the sound of electronic
-locks disengaging. Distant lights flickering on through the east side of the building. A heavy
-security door near the lobby unlocks with a solid metallic clunk.
+locks disengaging, distant lights flickering on through the east side of the building.
 
 **ACCESS GRANTED: EAST WING**
 
----
-
-## SCENE 29 — EAST WING EXPLORATION
-
-*Jim exits the Manager's Office and returns to the lobby. The wrecked cruiser. The rain. Janeth's
-book. Jim doesn't look at any of it longer than he has to.*
-
-The east wing security door stands open — the first time it has since the outbreak started.
-Emergency lighting flickers down the corridor beyond.
-
-*Interaction prompt: [ENTER EAST WING]*
+> **JIM:** *"Alright. One thing at a time."*
 
 ---
 
-## SCENE 30 — EAST WING HALLWAY
+## SCENE 29 — EAST PUBLIC STAIRWELL
 
-The east hallway is quieter than the lobby. Too quiet in the way that means the things that were
-making noise here are finished making noise. Guest room doors line both sides — some shut, some
-hanging partially open in ways that suggest they weren't opened from the outside. Abandoned
-luggage sits against one wall — a suitcase on its side, clothes spilling out, like someone packed
-in a hurry and then stopped mid-thought. A housekeeping cart lies overturned near the far end,
-towels and miniature shampoo bottles scattered across the carpet.
+Back through the lobby — the wrecked cruiser, rain blowing in through the ruined doors, Janeth's
+book still lying where it fell. Jim doesn't look at any of it longer than he has to. Up the Grand
+Staircase, two steps at a time.
 
-Blood on the floor — not everywhere, not dramatic, just present. Smeared. A trail rather than a
-pool. The warm hotel the lobby used to be is completely gone back here. Jim moves through it
-carefully.
+The second-floor east hallway is the same as he left it — quiet, torn up, doors he's already
+checked. At the far end, a door marked **EAST STAIRWELL — GUEST ACCESS** sits behind a keycard
+reader. The indicator light, dead a few minutes ago, now glows a steady green.
 
-*The player may search several east wing guest rooms.*
+*Interaction prompt: [OPEN STAIRWELL DOOR]*
 
-### Optional — room search
-
-One room — television still on. An emergency broadcast loops through static.
-
-> **EMERGENCY BROADCAST:** *"—residents are advised to shelter in place and await further
-> instruction from emergency management authorities—"*
-
-Static. Loop. Again. Another room — bathroom door damaged from the inside. The handle is gone.
-Long parallel gouges run down the wood of the door frame at shoulder height. Whatever made them
-came from inside the bathroom going out. Jim doesn't open the bathroom door.
+The door releases with an electronic click. Bare concrete stairs descend into the dark below, lit
+only by a single emergency light at the halfway landing. Jim heads down.
 
 ---
 
-## SCENE 31 — MAINTENANCE CLOSET / SCREWDRIVER
+## SCENE 30 — DINING HALL / KITCHEN
 
-At the far end of the east hallway — a maintenance closet door sits jammed in its frame. Jim
-forces it. Inside — shelves of cleaning chemicals, electrical supplies, a pegboard covered in
-tools. A single fluorescent tube flickers overhead. A handwritten maintenance note is pinned beside
-the pegboard. Jim reads it.
+The stairwell lets out into part of the hotel Jim's never seen — the guest dining hall. Round
+tables under sheet-covered light fixtures, half of them still set for a service that never
+happened. A buffet station along one wall lies overturned, chafing dishes scattered cold across
+the floor. One table near the center sits untouched, chairs squared, place settings perfectly
+lined up, like whatever came through here walked around it on purpose. Jim doesn't like that table
+more than he dislikes the mess.
 
-> *Replacement auxiliary fuse moved to West Wing maintenance office after repeated overload
-> incidents. Temporary access rerouted through second floor service stairwell.*
+Swinging double doors at the far end lead into the kitchen — stainless steel counters, hanging pots
+swaying slightly, a chopping block with a knife still driven into it at an angle nobody would
+choose on purpose. A radio on the counter plays static under a thin, looping tone that used to be a
+station identifier.
 
-> **JIM:** *"Of course it is."*
+### Optional — Pantry
 
-He pulls the screwdriver from the pegboard.
+A door off the kitchen opens into a narrow pantry — canned goods, dry storage, a shelf knocked over
+across the floor. A case of bottled water sits mostly intact.
+
+*ITEM AVAILABLE (optional): bottled water — minor healing item.*
+
+### Optional — Walk-in Freezer
+
+The freezer door stands open a few inches, cold air still rolling out into the kitchen's warmth.
+Hanging meat, shelved boxes, frost thick on every surface. A staff clipboard hangs just inside the
+door — temperature logs filled in neatly right up until they stop, mid-week, mid-entry. Jim doesn't
+go in any farther than he has to.
+
+---
+
+## SCENE 31 — UTILITY ROOM / SCREWDRIVER
+
+Past the kitchen, a service corridor lined with pipe runs and secondary breaker boxes leads to the
+hotel's main utility room — pumps, water heaters, a wall of electrical panels separate from the one
+in the Manager's Office. Tools hang from a pegboard along one wall, most of them still in place.
+
+Jim finds what he needs quickly enough — a flathead screwdriver, worn wooden handle, sitting in a
+tray like someone set it down mid-task and never came back for it.
 
 *ITEM ACQUIRED: SCREWDRIVER*
 
-From somewhere above — a metallic clang through the ceiling vents. Jim goes still. Silence follows.
+> **JIM:** *"There you are."*
 
-> **JIM:** *"...Fantastic."*
-
-> *Design note: this is the screwdriver's only pickup. See [`CANON.md`](../CANON.md) → "Retcons" — an earlier
-> draft duplicated this exact beat later in the sequence; it has been removed.*
-
----
-
-## SCENE 32 — SERVICE STAIRWELL
-
-Back up to the second floor. The service stairwell door near the north end of the east hallway is
-now unlocked — east wing power handled that. A faded sign reads: **STAFF ACCESS ONLY.** Jim pulls
-it open. Cold air drifts through the gap. The stairwell goes both up and down through the hotel
-interior — dark except for the faint emergency light pulsing from somewhere below. The walls in
-here are bare concrete. No carpet. No wallpaper. Just the building's bones. He descends.
+> *Design note: this is the screwdriver's only pickup — its only use is opening the fuse housing
+> at the breaker panel. See [`CANON.md`](../CANON.md) → "Retcons" for the earlier version of this
+> sequence.*
 
 ---
 
-## SCENE 33 — WEST WING MAINTENANCE OFFICE
+## SCENE 32 — THE LAUNDRY ROOM
 
-The service crossover on the second floor connects the east and west wings through a maintenance
-corridor — manual locks only, no electronics required. The farther Jim moves into the west wing the
-more the building feels like it's been through something the east side only heard about.
-Waterlogged carpet. A ceiling panel hanging loose. A wall sconce ripped partially from the bracket.
-The smell of something chemical underneath the damp.
-
-The maintenance office is behind a screwed access panel near the end of the corridor.
-
-*Interaction prompt: [USE SCREWDRIVER]*
-
-The screws come out. The panel falls away. Jim climbs through. Inside — emergency utility
-lighting, electrical equipment, a portable auxiliary regulator humming against the far wall. A
-warning document hangs beside it.
-
-> *Temporary fuse reroute installed for backup utility control. DO NOT REMOVE unless auxiliary
-> wing power failure occurs.*
-
-Jim looks at the regulator.
-
-> **JIM:** *"Well."*
-
-*Interaction prompt: [REMOVE FUSE]*
-
-He pulls the fuse carefully from the housing.
-
-*ITEM ACQUIRED: AUXILIARY FUSE*
-
-The regulator powers down immediately. The utility lights shut off. The humming dies. The room
-drops into near-darkness — just the flashlight and whatever lightning makes it through the small
-high window.
-
-> **JIM:** *"Hope that wasn't load-bearing."*
-
----
-
-## SCENE 34 — WEST WING POWER RESTORED
-
-Back to the Manager's Office. Jim fits the replacement fuse into the West Wing housing.
-
-*Interaction prompt: [ACTIVATE WEST WING]*
-
-The switch goes up. This time it holds. A deep electrical thunk moves through the hotel walls like
-a slow heartbeat finding its rhythm. Somewhere in the building — locks disengaging, fluorescent
-lights finding their feet, ventilation stuttering back to life. Powered signs buzz back online in
-the west wing corridors. The hotel comes back alive. Just in a different way than before. A small
-indicator beside the breaker panel activates.
-
-> **COURTYARD ACCESS — ONLINE**
->
-> **JIM:** *"...Courtyard."*
-
----
-
-## SCENE 35 — ROOM 106 / CINDY JUMPSCARE
-
-![Cindy's Room 106 jumpscare — reference animation](../Characters/spr_cindy_jumpscare.gif)
-
-> *Reference asset: `Characters/spr_cindy_jumpscare.gif` (uploaded by the project owner,
-> 2026-08-12). Confirmed via full frame-by-frame extraction to match this scene exactly as
-> written below — see [`Characters/Cindy_Sweets.md`](../Characters/Cindy_Sweets.md) for the full
-> frame analysis.*
-
-The second floor west hallway looks worse with the lights back on. Some things are better in the
-dark. The carpet outside Room 106 has a stain that wasn't there before — thick and dark, trailing
-under the door frame from inside. The overhead light outside the room flickers rapidly — faster
-than the others. Jim slows.
-
-> **JIM:** *"...Cindy?"*
-
-Silence. Then — from inside the room — a faint wet sound. Dragging. It stops. Silence again. Then
-— the door explodes open. Cindy Sweets hits the hallway frame and catches it with both hands —
-barefoot, still in her robe, blood on her face and neck and the front of the robe. Her eyes find
-Jim immediately.
-
-> **CINDY:** *"HELP ME—!"*
-
-She reaches toward him. Something from inside the room grabs her. Fast — too fast — one violent
-motion that snaps her backward off her feet. She screams. The door slams shut between them.
-**BANG.** The hallway light stops flickering. Steady now. Humming. Jim stands looking at the
-closed door of Room 106.
-
-> **JIM:** *"...Jesus Christ."*
-
-Nothing moves behind the door. No sound. No light beneath the frame. Then — slowly, unhurried —
-a dark line of blood begins spreading out from beneath it across the carpet. Jim backs away from
-the door. Whatever is on the other side doesn't follow.
-
-> *Design note: this is the Maw's most notable confirmed encounter — see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md).
-> The creature itself is never seen here, and it disappears afterward. Seeing the aftermath of
-> the Maw is not the same as fighting it.*
-
----
-
-## SCENE 36 — WEST WING EXPLORATION
-
-The west wing tells a different story than the east wing. The east wing looked like people fled.
-The west wing looks like something moved through it after they did. Smashed guest room doors — not
-damaged, smashed, the frames splintered outward. Overturned furniture visible through the open
-doorways. A section of carpet near the far end is dark and wet and Jim doesn't investigate what
-from. A neon exit sign above a stairwell door buzzes erratically — on, off, on, off. Jim moves
-through it carefully and quickly.
-
-### Optional — the hotel bar, revisited
-
-The bar Jim passed through hours ago pre-outbreak is barely lit now — a few overhead fixtures
-still flickering, the neon alcohol signs behind the counter buzzing unevenly. Broken glass covers
-the floor behind the bar. Several stools lie overturned. A large blood smear trails from the
-counter toward a staff storage door standing partially open at the back. The room is too quiet
-for what it looks like.
-
-*The blood trail continues through the staff storage door — see Scene 37.*
-
-### Optional — room searches
-
-One room — bathroom mirror shattered. Blood on the sink and on the largest piece of mirror still in
-the frame. Whatever happened here happened fast and at close range. Another room — the door has
-been barricaded from the inside. A dresser wedged under the handle. Scratch marks on the interior
-side of the door — long, frantic, working down from handle height. The barricade held. Whatever
-made the scratches did not get out this way. Jim doesn't try the door. Another room — a television
-looping an emergency broadcast. Same words. Same static break. Same words again. It has been doing
-this for hours and will keep doing it until the power dies again.
-
----
-
-## SCENE 37 — THE LAUNDRY ROOM
-
-*Optional. Reached by following the blood trail through the staff storage door behind the hotel
-bar (Scene 36).*
-
-The staff storage door opens onto a short, low-ceilinged utility corridor that Jim didn't know
-existed a few hours ago — the kind of space guests never see and staff barely think about.
-Warmer back here than the rest of the hotel; the air is thick with the smell of detergent and hot,
-stale steam that hasn't fully cleared. The corridor ends at the hotel laundry room.
+Past the utility room, a short corridor thick with the smell of detergent and old steam leads to
+the hotel laundry room.
 
 Industrial washers and dryers line one wall, a couple of them still running — one thumping
 rhythmically through an unbalanced load nobody's coming back to fix. Rolling laundry carts sit
 half-loaded with towels and sheets. A rack of staff uniforms hangs along the far wall, undisturbed.
 
-The blood trail doesn't stop at the doorway. It continues across the floor, between two of the
-carts, and ends at a housekeeping uniform crumpled against the base of a dryer.
+Blood on the floor — not everywhere, not dramatic, just present. It continues across the floor,
+between two of the carts, and ends at a housekeeping uniform crumpled against the base of a dryer.
 
 It's **Gerta.**
 
@@ -1404,65 +1272,180 @@ folding itself through the gap, something moves that is not quite the right shap
 long arms, a hunched and narrow torso, gone before Jim's eyes can hold onto it. Not toward Jim.
 Away from him. Whatever did this isn't finished being somewhere else tonight.
 
-> *Design/story note: this is the same presence that dragged Cindy Sweets back into Room 106 (see
-> Scene 35) — barely glimpsed there as "something," "fast — too fast to properly see." It's since
-> been fully designed as **The Maw** (see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md)) — a heavily mutated Ashen Mutant
-> whose torso splits open into a feeding mouth, ordinarily kept hidden by its hunched, "closed"
-> posture. This glimpse is intentionally brief and unclear, consistent with its design: seeing it
-> does not mean fighting it. This is currently the only confirmed kill attributed to it; Cindy's
-> own fate remains a separate, still-open question — see [`STORY_NOTES.md`](../STORY_NOTES.md).*
-
-*ITEM AVAILABLE (optional): a spare laundry-room master key on Gerta's belt, usable as a minor
-convenience item for any staff-only doors the player hasn't already opened by another route (no
-mandatory content is gated behind it).*
+> *Design/story note: this is the same presence that later drags Cindy Sweets back into Room 106
+> (see Scene 34) — barely glimpsed there as "something," "fast — too fast to properly see." It's
+> since been fully designed as **The Maw** (see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md))
+> — a heavily mutated Ashen Mutant whose torso splits open into a feeding mouth, ordinarily kept
+> hidden by its hunched, "closed" posture. This glimpse is intentionally brief and unclear,
+> consistent with its design: seeing it does not mean fighting it. This is currently the only
+> confirmed kill attributed to it; Cindy's own fate remains a separate, still-open question — see
+> [`STORY_NOTES.md`](../STORY_NOTES.md).*
 
 ---
 
-## SCENE 38 — WEST WING SERVICE CORRIDOR
+## SCENE 33 — EAST WING MAINTENANCE CLOSET
 
-At the rear of the west wing a staff door marked **AUTHORIZED ACCESS** opens into a service
-corridor that runs along the back of the building. The walls here are bare — conduit and pipe runs
-exposed overhead, junction boxes at intervals, a fire extinguisher in its bracket that nobody has
-touched. A narrow window at the far end looks out over the hotel courtyard. Rain against the glass.
-Emergency lights mounted along the hotel's exterior walls throwing pale light across the courtyard
-pavement below. Beyond the courtyard — a heavy gate. And beyond that — the dark streets of
-Ravenwood. Jim looks at it for a moment. Then he finds the Security Office door at the end of the
-corridor.
+At the end of the corridor beyond the laundry room, a door marked **MAINTENANCE — STAFF ONLY** sits
+half-open. Inside — shelves of cleaning chemicals, spare parts, a corkboard with schedules nobody's
+followed in weeks. A handwritten note is pinned front and center, like whoever wrote it wanted it
+to be the first thing anyone saw.
 
-> *Design note: this corridor — not the Red Room — is the route into the Courtyard Security
-> Office. See [`CANON.md`](../CANON.md) → "Retcons."*
+> *Auxiliary fuse relocated to West Wing maintenance storage after the East Wing panel incident
+> last spring. Do NOT attempt repair without replacement on hand. — R.B.*
 
----
+> **JIM:** *"West Wing. Of course it's the West Wing."*
 
-## SCENE 39 — COURTYARD SECURITY OFFICE
+A service door at the back of the closet is blocked — not locked, just barricaded, a stack of
+folding chairs and a fallen shelving unit wedged against it from this side. Jim clears it by hand,
+dragging the debris aside piece by piece.
 
-The Security Office is small and functional — exactly the kind of room that exists to do one job
-and does it without apology. A desk. A bank of monitors. Security terminals. Emergency lockdown
-hardware mounted to one wall. A window overlooking the courtyard directly. Most of the monitors
-show static. One flickers intermittently — the courtyard camera, grainy and rain-washed, showing
-the dark pavement below and the outline of the maintenance shed in the corner and the gate beyond.
-The gate is closed.
+*Interaction prompt: [CLEAR BARRICADE]*
 
-Jim finds the courtyard access control panel mounted beside the desk.
+Beyond it — a short, plain corridor leading directly back toward the lobby.
 
-*Interaction prompt: [ACTIVATE COURTYARD ACCESS]*
-
-A system engages somewhere outside. Relays clicking through sequence. And then — distantly,
-through the window, through the rain — the gate mechanism CLUNKS as the lock disengages.
-
-> **JIM:** *"Finally."*
+> *Design note: this is a one-time barricade-clearing interaction; the door stays open for the
+> rest of the chapter, giving the player a direct route between the Lobby and this entire East
+> Wing service loop (Dining Hall through here) from here on — Jim never has to walk the long way
+> through the east hallway and stairwell again.*
 
 ---
 
-## SCENE 40 — THE RED ROOM (OPTIONAL)
+## SCENE 34 — ROOM 106 / CINDY'S ABDUCTION
 
-*This area is accessible from the west wing hallway and is fully self-contained — it does not
-connect to anywhere else. Not required for progression.*
+![Cindy's Room 106 jumpscare — reference animation](../Characters/spr_cindy_jumpscare.gif)
 
-The west wing hallway sign points toward **RED ROOM LOUNGE** — a short corridor branching off the
-main hall. The door at the end glows faintly at the bottom — deep red, warm and wrong. Inside. The
-Red Room is untouched in the way that doesn't make sense. The rest of the hotel has been through
-something. This room looks like whatever happened outside walked past it without going in.
+> *Reference asset: `Characters/spr_cindy_jumpscare.gif` (uploaded by the project owner,
+> 2026-08-12). Confirmed via full frame-by-frame extraction to match this scene exactly as
+> written below — see [`Characters/Cindy_Sweets.md`](../Characters/Cindy_Sweets.md) for the full
+> frame analysis.*
+
+Through the shortcut and back into the lobby, Jim heads up the Grand Staircase again — faster this
+time — and across the second-floor hallway, west side now, toward the far end where the West Wing
+Maintenance Room ought to be.
+
+The second floor west hallway looks worse than he remembers it. Some things are better in the dark.
+The carpet outside Room 106 has a stain that wasn't there before — thick and dark, trailing under
+the door frame from inside. The overhead light outside the room flickers rapidly — faster than the
+others. Jim slows.
+
+> **JIM:** *"...Cindy?"*
+
+Silence. Then — from inside the room — a faint wet sound. Dragging. It stops. Silence again. Then
+— the door explodes open. Cindy Sweets hits the hallway frame and catches it with both hands —
+barefoot, still in her robe, blood on her face and neck and the front of the robe. Her eyes find
+Jim immediately.
+
+> **CINDY:** *"HELP ME—!"*
+
+She reaches toward him. Something from inside the room grabs her. Fast — too fast — one violent
+motion that snaps her backward off her feet. She screams. The door slams shut between them.
+**BANG.** The hallway light stops flickering. Steady now. Humming. Jim stands looking at the
+closed door of Room 106.
+
+> **JIM:** *"...Jesus Christ."*
+
+Nothing moves behind the door. No sound. No light beneath the frame. Then — slowly, unhurried —
+a dark line of blood begins spreading out from beneath it across the carpet. Jim backs away from
+the door. Whatever is on the other side doesn't follow.
+
+> *Design note: this is the Maw's most notable confirmed encounter — see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md).
+> The creature itself is never seen here, and it disappears afterward. Seeing the aftermath of
+> the Maw is not the same as fighting it.*
+
+---
+
+## SCENE 35 — WEST WING MAINTENANCE ROOM
+
+A few doors past Room 106, near the west stairwell landing, a door marked **MAINTENANCE** sits
+closed — not locked, just shut, the way service doors usually are when nobody's using them. Jim
+pushes it open.
+
+Inside — a cramped storage room, shelved supplies, a small workbench. A box of electrical parts
+sits open on the bench, and inside it, still wrapped in its original paper sleeve, a replacement
+fuse.
+
+*ITEM ACQUIRED: AUXILIARY FUSE*
+
+> **JIM:** *"There you are."*
+
+A maintenance log sits beside the box, most of its pages routine. The most recent entry, dated
+weeks ago: *"Pulled spare fuse stock up to 2F storage after basement flooding damaged the east
+supply closet. Note for whoever finds this — check up here first."* Jim sets it back down.
+
+> **JIM:** *"Wish I'd read that first."*
+
+---
+
+## SCENE 36 — WEST WING POWER RESTORED
+
+Back down to the lobby, back to the Manager's Office. Jim uses the screwdriver to open the fuse
+housing at the breaker panel — confirms what the scorch marks already told him — then fits the
+replacement fuse into place.
+
+*Interaction prompt: [ACTIVATE WEST WING]*
+
+The switch goes up. This time it holds. A deep electrical thunk moves through the hotel walls like
+a slow heartbeat finding its rhythm. Somewhere in the building — locks disengaging, fluorescent
+lights finding their feet, ventilation stuttering back to life. The hotel comes back alive. Just in
+a different way than before. A small indicator beside the breaker panel activates.
+
+> **COURTYARD ACCESS — ONLINE**
+>
+> **JIM:** *"...Courtyard."*
+
+---
+
+## SCENE 37 — WEST WING GROUND FLOOR
+
+With West Wing power on, the stairwell door at the end of the second-floor west hallway — locked
+since the outbreak began — releases with a soft electronic chime. Jim takes it down.
+
+The stairwell lets out into the Lounge — a space that used to be comfortable. Couches overturned, a
+coffee table on its side, a bookshelf emptied across the floor. A small upright piano sits in the
+corner, untouched, oddly. Broken glass from somewhere overhead crunches underfoot as Jim crosses
+toward the sound of dripping liquid.
+
+### Optional — Piano
+
+Jim can sit at the bench and press a few keys — a handful of notes, slightly out of tune, that
+don't resolve into anything. He doesn't linger.
+
+### Optional — Main Bar
+
+The bar Jim passed through hours ago pre-outbreak is barely lit now — a few overhead fixtures still
+flickering, the neon alcohol signs behind the counter buzzing unevenly. Broken glass covers the
+floor behind the bar. Several stools lie overturned. Behind the counter, a narrow door glows
+faintly red at the bottom — the Red Room, tucked in behind the bar like it always has been,
+undisturbed by anything that's happened tonight.
+
+*The Red Room is accessible from here — see Scene 38 (optional).*
+
+### Optional — Liquor Storage
+
+A small room off the bar, shelved bottles mostly intact, one shattered against the floor in a wide
+dark stain that isn't blood, just wasted whiskey. Nothing useful here beyond atmosphere.
+
+### Boiler Room / Staff Room
+
+Deeper into the West Wing's back-of-house — the boiler room, loud with mechanical groaning even
+now, heat radiating off equipment that doesn't know the hotel's had a bad night. Past it, a cramped
+staff room — lockers, a coffee maker still plugged in, a bulletin board with a shift schedule
+nobody's going to work again. A door at the far end, marked **AUTHORIZED ACCESS**, leads deeper
+still.
+
+*Interaction prompt: [CONTINUE TO SERVICE CORRIDOR]*
+
+---
+
+## SCENE 38 — THE RED ROOM (OPTIONAL)
+
+*This area is accessible directly from behind the Main Bar and is fully self-contained — it does
+not connect to anywhere else. Not required for progression.*
+
+Behind the bar, a narrow door glows faintly at the bottom — deep red, warm and wrong. Jim pushes
+through. The Red Room is untouched in the way that doesn't make sense. The rest of the hotel has
+been through something. This room looks like whatever happened outside walked past it without
+going in.
 
 Deep red ambient lighting. Velvet curtains along one wall. Table lamps at low burn. Drinks still
 sitting on tables — some knocked over, some not. A slow ceiling fan turning lazily overhead.
