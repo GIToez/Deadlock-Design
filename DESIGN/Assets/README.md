@@ -16,6 +16,10 @@ visual reference material, not story content — cross-link to them from the rel
   something written elsewhere, flag it rather than silently rewriting the screenshot's intent.
 - **`Reference/`** — concept art, mood boards, or AI-generated placeholder visuals used for
   discussion rather than as ground truth.
+- **Directly alongside a character/creature/location file** is also fine and used in practice —
+  e.g. `Characters/spr_cindy_jumpscare.gif` sits right next to `Characters/Cindy_Sweets.md` and is
+  embedded directly in it. Use whichever placement makes more sense for a given asset; there's no
+  requirement to funnel everything into this folder specifically.
 
 ## How to add a file
 
@@ -27,4 +31,6 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
 
 ## Current files
 
-_None yet — first uploads pending._
+_None in this folder yet._ One asset has been uploaded so far, placed directly alongside its
+character file instead: `Characters/spr_cindy_jumpscare.gif`, embedded in
+[`Characters/Cindy_Sweets.md`](../Characters/Cindy_Sweets.md).

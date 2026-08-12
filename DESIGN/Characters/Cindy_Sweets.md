@@ -1,5 +1,16 @@
 # Cindy Sweets
 
+![Cindy's Room 106 jumpscare — reference animation](spr_cindy_jumpscare.gif)
+
+> Reference asset uploaded by the project owner (2026-08-12). Confirmed sequence (51 frames):
+> closed door → opens → Cindy leans out reaching/calling for help → The Maw's hand closes over the
+> top of her head from inside the room (he's simply very tall, standing inside — not clinging to
+> the ceiling/doorframe as an earlier read of a single still frame suggested) → she's wrenched back
+> and dragged out of view, thrashing → door swings shut. No blood is visible in this specific sprite
+> — confirmed by the project owner to be a separate animation layer that does exist in-game, just
+> not part of this asset. This matches `Scripts/Chapter_1_One_Night_Only.md` Scene 35 as written;
+> no changes were needed to the script after reviewing the actual animation.
+
 ## Role
 
 Hotel guest, Room 106. Stranded traveler; briefly a friendly presence for Jim pre-outbreak, later

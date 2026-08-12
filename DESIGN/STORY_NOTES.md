@@ -73,10 +73,21 @@
   Perspective" in [`CANON.md`](CANON.md). The existing Chapter 1/2 scripts have **not** been
   audited yet for language that reads too cinematic/wide-shot for this camera — flagged as
   optional follow-up work, not yet done.
-- Both reference screenshots (lobby layout + gameplay viewport) were shared inline in chat only —
-  not saved to the repo, since inline chat images aren't accessible as real files. If they should
-  become permanent reference material, they need to be pushed as actual files into
-  [`Assets/`](Assets/README.md) (same workflow as `AI.json` and the story `.docx`).
+- The two reference screenshots (lobby layout + gameplay viewport combat shot) were shared inline
+  in chat only — not saved to the repo, since inline chat images aren't accessible as real files.
+  If they should become permanent reference material, they need to be pushed as actual files
+  (same workflow as `AI.json` and the story `.docx`).
+- **Update (2026-08-12):** the project owner did push a real file — `spr_cindy_jumpscare.gif` —
+  directly into `Characters/` (embedded in `Characters/Cindy_Sweets.md`). Confirmed via full
+  frame-by-frame extraction (51 frames) that it matches `Scripts/Chapter_1_One_Night_Only.md`
+  Scene 35 as written; no script changes were needed. Also confirmed: the lobby combat screenshot
+  showed **The Maw**, not a generic Shambler, but it was explicitly a tech/engine demo, not a
+  planned encounter — The Maw is not fought in Chapter 1, matching what's already documented.
+- **Chapter 1 camera-consistency pass done (2026-08-12):** fixed Scene 1 (no player driving
+  control on Highway 13 — it's a fixed shot; control begins at the hotel exterior, Scene 2) and
+  softened one sightline claim in Scene 3. Added a documented convention (in the script's header
+  note) for how full-room descriptions (Lobby, Courtyard) and multi-NPC simultaneous reaction
+  beats relate to the actual constrained camera, rather than rewriting every atmospheric line.
 
 ## Still-Open Questions
 

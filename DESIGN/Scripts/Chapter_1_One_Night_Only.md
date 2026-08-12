@@ -17,6 +17,22 @@
 > **Scene 37 ("The Laundry Room")** is new material, approved directly by the project owner
 > (not sourced from [`AI.json`](../AI.json) or the docx) — it introduces **The Maw** and resolves Gerta's fate.
 > All scenes after it were renumbered (+1) to make room.
+>
+> **Camera/perspective note (per reference screenshots, 2026-08-12 — see
+> [`CANON.md`](../CANON.md) → "Presentation & Perspective"):** this is a 2.5D top-down game with a
+> camera that stays close to the player, showing roughly a room's-width of space, not a full-room
+> wide shot. Full-room descriptions in this script (e.g. the initial Lobby reveal in Scene 5, the
+> Courtyard in Scene 42) describe the overall layout for the reader/implementer's benefit — in
+> actual gameplay these reveal progressively as Jim moves through the space, not all at once in a
+> single frame. Similarly, beats where multiple NPCs across a room react simultaneously to
+> something (e.g. Scene 6's thunder crack and "the thud" — Cindy, Maria, Richard, and Janeth all
+> reacting while Jim is at reception) are written as omniscient narration for the reader; in
+> practice this would most likely play as a quick sequence of camera cuts to each reacting NPC
+> during that scripted beat, not one continuous wide shot holding all of them at once. Specific
+> "Jim notices/looks at X" beats outside of scripted story moments have been checked against this
+> and corrected where they assumed sight of something that wouldn't plausibly be in frame during
+> normal exploration (see Scene 1's driving-control fix and Scene 3's sightline softening, both
+> from this pass).
 
 ---
 
@@ -28,8 +44,9 @@ Black screen. The storm arrives before anything else does. Rain hammering asphal
 wipers working hard and barely keeping up. The low roll of thunder somewhere ahead in the dark.
 Tires pushing through standing water on a road that keeps threatening to disappear entirely.
 
-Fade in. Jim Mercer's Jeep moves through the storm along Highway 13. The headlights don't reach
-far. Road signs appear and vanish in the rain: **BLACKWATER. COUNTY LINE. RAVENWOOD — 2 MILES.**
+Fade in. **No player control yet** — this plays as a fixed shot: Jim Mercer's Jeep moving through
+the storm along Highway 13, crossing the screen east to west. The headlights don't reach far. Road
+signs appear and vanish in the rain: **BLACKWATER. COUNTY LINE. RAVENWOOD — 2 MILES.**
 
 A radio station cuts weakly through static — barely holding its signal against the weather.
 
@@ -42,8 +59,6 @@ silence immediately.
 Lightning splits the sky somewhere over the tree line to the east. **For a fraction of a second —
 something stands near the trees at the edge of the road.** Gone before the eye can find it
 properly. Jim doesn't notice. His eyes are on the road. The Jeep pushes on through the dark.
-
-*Gameplay note: the player has light driving control during this scene.*
 
 The phone connects through the Jeep speakers. Caller ID: **SARAH.**
 
@@ -109,7 +124,7 @@ offers nothing back. Then — through the trees — the faint orange glow of a n
 through the storm. The Jeep slows. A highway exit sign catches the headlights for just a moment:
 **RAVENWOOD EXIT.** Jim takes it.
 
-*Full driving control ends. Transition to Scene 2.*
+*Still no player control. Transition to Scene 2.*
 
 ---
 
@@ -210,8 +225,8 @@ rain blows sideways off the edge and soaks the left side of him anyway. He answe
 >
 > **JIM:** *"Probably both."*
 
-He glances back toward the cruiser. The officer still hasn't moved far from the stopped vehicle.
-The red and blue light keeps its slow pulse across the wet lot.
+Behind him, the police lights keep their slow red-and-blue pulse across the wet lot — visible as
+color and glow rather than detail from this distance.
 
 > **SARAH:** *"You sound tired."*
 >
@@ -316,6 +331,11 @@ Static takes it briefly. The broadcast returns.
 Jim crosses the lobby toward the reception desk.
 
 *Player control returns. The player may explore the lobby before approaching the desk.*
+
+> *Camera note: the paragraphs above describe the whole lobby for the reader's orientation — in
+> practice, the camera reveals West Lounge / East Waiting Area / reception progressively as Jim
+> actually moves toward and past them, not simultaneously in one shot. See the header note on this
+> document.*
 
 ---
 
@@ -1655,6 +1675,10 @@ In the rear corner of the courtyard — a fenced maintenance area contains a sil
 backup generator. Electrical conduit running from it toward the gate system. Beside the
 generator — a maintenance shed. Heavy padlocked doors. Something has warped them badly from
 inside. Jim looks at the shed for a moment. Then he goes to work on the generator.
+
+> *Camera note: as with the Lobby (Scene 5), the courtyard description above covers the whole
+> space for orientation — the gate, the generator/shed corner, and the fountain reveal
+> progressively as Jim walks the courtyard, not all at once.*
 
 ---
 
