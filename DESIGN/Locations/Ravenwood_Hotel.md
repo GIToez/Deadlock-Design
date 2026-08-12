@@ -163,6 +163,87 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 - **Hotel Courtyard** — fountain, maintenance shed, backup generator, north exit gate to the
   street/Memorial Park; site of the Caretaker (Roy Bullock) boss fight.
 
+## Blueprint (Room Connectivity)
+
+> Not a to-scale architectural floor plan — a **relational** diagram of how rooms connect, and
+> what's in each one, derived directly from `Storyline` and `Scripts/Chapter_1_One_Night_Only.md`
+> above. Solid arrows are direct, always-available connections; dashed arrows are connections
+> gated behind a story condition (a key, restored power, a blood trail appearing post-outbreak,
+> etc.) — the label on the arrow says what unlocks it.
+>
+> Legend: 👤 NPC · ☠️ enemy/infected/boss · 🗝️ key item · 📄 document · 💾 save point (VERN) ·
+> ⚡ power/breaker · 🚪 gate/access control · ⚙️ generator/mechanical.
+
+```mermaid
+flowchart TD
+    subgraph EXT["EXTERIOR"]
+        HWY["Highway 13<br/>(fixed shot — no player control)"]
+        LOT["Parking Lot<br/>👤 Officer Pruitt + stopped driver"]
+        ENTRY["Hotel Entry"]
+    end
+    HWY --> LOT --> ENTRY --> LOBBY
+
+    subgraph GF["GROUND FLOOR — CENTRAL / EAST"]
+        LOBBY["🏨 LOBBY<br/>👤 Cindy · Maria · Richard · Janeth · Earl<br/>🗝️ Baseball Bat<br/>🗝️ Manager's Key (Earl's body)<br/>☠️ Earl → infected<br/>☠️ Officer Pruitt infected, crashed cruiser<br/>🗝️ Handgun (Pruitt's body)<br/>💥 police cruiser crash blocks front exit"]
+        STAIRM["Main Stairwell ↕ 2F"]
+        STAFFH["Staff Hallway<br/>(needs Manager's Key)"]
+        MGROFF["🛡️ MANAGER'S OFFICE — safe room<br/>💾 VERN Terminal · ⚡ Breaker Panel<br/>📄 Guest Ledger · Incident Report"]
+        EHALL["East Wing Hallway"]
+        CLOSET["Maintenance Closet<br/>🗝️ Screwdriver"]
+        SVCSTAIR["Service Stairwell ↕ 2F"]
+
+        LOBBY --> STAIRM
+        LOBBY --> STAFFH --> MGROFF
+        LOBBY -. East Wing power .-> EHALL
+        EHALL --> CLOSET
+        EHALL --> SVCSTAIR
+    end
+
+    subgraph GFW["GROUND FLOOR — WEST WING"]
+        WHALL["West Hallway<br/>👤 Gerta (roaming)"]
+        BAR["Main Bar<br/>(wrecked later)"]
+        RECROOM["Recreation Room"]
+        REDROOM["🎤 Red Room — optional<br/>☠️ Della Marsh (mini-boss)<br/>📄 Booking slip · Personal note"]
+        LAUNDRY["🧺 Laundry Room<br/>☠️ Gerta's body — killed by The Maw<br/>🗝️ Laundry Master Key"]
+        WCORR["West Wing Service Corridor"]
+        SECOFF["Courtyard Security Office<br/>🚪 activates courtyard gate"]
+
+        LOBBY --> WHALL
+        WHALL --> BAR
+        WHALL --> RECROOM
+        WHALL --> REDROOM
+        BAR -. blood trail, post-outbreak .-> LAUNDRY
+        WHALL -. West Wing power .-> WCORR --> SECOFF
+    end
+
+    subgraph F2["2ND FLOOR"]
+        F2W["2F West Hallway<br/>Room 104 · Room 106"]
+        R104["Room 104 — Jim's room"]
+        R106["Room 106<br/>☠️ The Maw glimpsed — Cindy's abduction"]
+        F2E["2F East Hallway<br/>Room 112 · Room 118"]
+        CROSS["2F East–West Service Crossover"]
+        WMAINT["West Wing Maintenance Office<br/>🗝️ Auxiliary Fuse"]
+
+        STAIRM --> F2W
+        F2W --> R104
+        F2W --> R106
+        F2W --- F2E
+        SVCSTAIR --> CROSS --> WMAINT
+    end
+
+    subgraph CY["COURTYARD"]
+        COURT["Hotel Courtyard<br/>⚙️ Generator · Fountain"]
+        SHED["Maintenance Shed<br/>☠️ THE CARETAKER / Roy Bullock — BOSS<br/>📄 Maintenance log"]
+        GATE["North Gate → Ravenwood streets / Memorial Park"]
+
+        SECOFF --> COURT
+        COURT --> SHED
+        SHED --> GATE
+    end
+
+    WMAINT -. fuse installed .-> MGROFF
+```
+
 ## Characters Encountered
 
 - **[Jim Mercer](../Characters/Jim_Mercer.md)** — protagonist/player character. Retired military
