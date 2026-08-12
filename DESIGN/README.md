@@ -32,3 +32,15 @@ When working on Deadlock story content:
 11. Prioritize story continuity over inventing something new.
 12. This is a survival-horror **video game**, not a novel — story development should consider
     gameplay, exploration, pacing, puzzles, encounters, and player agency.
+
+## Repository / Workflow Rules
+
+13. **Never create a new branch for Deadlock design work unless explicitly told to.** All design
+    documentation changes should continue landing on the existing working branch/PR
+    (`cursor/design-docs-structure-e231` →
+    [PR #1](https://github.com/GIToez/Deadlock-Design/pull/1)) rather than spinning up a fresh
+    branch per request.
+    - Note: as a Cursor cloud agent, changes still go through a pull request rather than being
+      pushed straight to `main` directly — that review step is a platform-level constraint, not a
+      per-task choice. "No new branches" is honored by continuing to reuse one branch/PR for all
+      of this work instead of creating additional ones.
