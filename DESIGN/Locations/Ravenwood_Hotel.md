@@ -167,81 +167,140 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 
 > Not a to-scale architectural floor plan — a **relational** diagram of how rooms connect, and
 > what's in each one, derived directly from `Storyline` and `Scripts/Chapter_1_One_Night_Only.md`
-> above. Solid arrows are direct, always-available connections; dashed arrows are connections
-> gated behind a story condition (a key, restored power, a blood trail appearing post-outbreak,
-> etc.) — the label on the arrow says what unlocks it.
+> above. Split into one diagram per floor/area (a single combined diagram rendered too cramped to
+> read clearly) — read them top to bottom; each one notes where it picks up from the previous.
+> Solid arrows are direct, always-available connections; dashed arrows are connections gated
+> behind a story condition (a key, restored power, a blood trail appearing post-outbreak, etc.) —
+> the label on the arrow says what unlocks it.
 >
 > Legend: 👤 NPC · ☠️ enemy/infected/boss · 🗝️ key item · 📄 document · 💾 save point (VERN) ·
 > ⚡ power/breaker · 🚪 gate/access control · ⚙️ generator/mechanical.
+>
+> **Shape/color key** — every hallway/corridor/stairwell is its own node (nothing is folded into
+> a single "West Wing" black box); the shape and color just tell you *what kind* of node you're
+> looking at at a glance:
+>
+> - 🟣 **rectangle, purple** — a room with actual content (NPCs, items, enemies, events).
+> - 🟡 **pill/stadium, amber** — a hallway, corridor, stairwell, or crossover — a pure connector
+>   you pass through, not a destination.
+> - 🟢 **rectangle, green** — a safe room (save point).
+> - 🔴 **rectangle, red** — a boss or mini-boss encounter room.
+> - 🔵 **pill, blue** — exterior space (street, gate, parking lot approach).
+> - ⚪ **dashed grey pill** — a pointer back to a node that's defined in full on another diagram
+>   (e.g. "(see Diagram 1)") — not a new physical space, just a stitch point between diagrams.
+
+### 1. Exterior → Lobby → East Wing (ground floor)
 
 ```mermaid
 flowchart TD
-    subgraph EXT["EXTERIOR"]
-        HWY["Highway 13<br/>(fixed shot — no player control)"]
-        LOT["Parking Lot<br/>👤 Officer Pruitt + stopped driver"]
-        ENTRY["Hotel Entry"]
-    end
+    HWY(["Highway 13<br/>fixed shot — no player control"])
+    LOT["Parking Lot<br/>👤 Officer Pruitt + stopped driver"]
+    ENTRY(["Hotel Entry"])
+    LOBBY["🏨 LOBBY<br/>👤 Cindy · Maria · Richard · Janeth · Earl<br/>☠️ Earl & Officer Pruitt turn infected<br/>🗝️ Baseball Bat · Manager's Key · Handgun<br/>💥 cruiser crash blocks front exit"]
+    STAIRM(["Main Stairwell<br/>↓ to Diagram 3 (2nd Floor)"])
+    STAFFH(["Staff Hallway<br/>needs Manager's Key"])
+    MGROFF["🛡️ MANAGER'S OFFICE — safe room<br/>💾 VERN Terminal · ⚡ Breaker Panel<br/>📄 Guest Ledger · Incident Report"]
+    EHALL(["East Wing Hallway"])
+    CLOSET["Maintenance Closet<br/>🗝️ Screwdriver"]
+    SVCSTAIR(["Service Stairwell<br/>↓ to Diagram 3 (2nd Floor)"])
+
     HWY --> LOT --> ENTRY --> LOBBY
+    LOBBY --> STAIRM
+    LOBBY --> STAFFH --> MGROFF
+    LOBBY -. East Wing power .-> EHALL
+    EHALL --> CLOSET
+    EHALL --> SVCSTAIR
 
-    subgraph GF["GROUND FLOOR — CENTRAL / EAST"]
-        LOBBY["🏨 LOBBY<br/>👤 Cindy · Maria · Richard · Janeth · Earl<br/>🗝️ Baseball Bat<br/>🗝️ Manager's Key (Earl's body)<br/>☠️ Earl → infected<br/>☠️ Officer Pruitt infected, crashed cruiser<br/>🗝️ Handgun (Pruitt's body)<br/>💥 police cruiser crash blocks front exit"]
-        STAIRM["Main Stairwell ↕ 2F"]
-        STAFFH["Staff Hallway<br/>(needs Manager's Key)"]
-        MGROFF["🛡️ MANAGER'S OFFICE — safe room<br/>💾 VERN Terminal · ⚡ Breaker Panel<br/>📄 Guest Ledger · Incident Report"]
-        EHALL["East Wing Hallway"]
-        CLOSET["Maintenance Closet<br/>🗝️ Screwdriver"]
-        SVCSTAIR["Service Stairwell ↕ 2F"]
+    classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
+    classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
+    classDef safe fill:#DFF5E1,stroke:#2E9E4F,color:#0d2b12,stroke-width:2px
+    classDef exterior fill:#E3F0FF,stroke:#4A76C9,color:#0d1f3a
+    class HWY,LOT exterior
+    class ENTRY,STAIRM,STAFFH,EHALL,SVCSTAIR hallway
+    class LOBBY,CLOSET room
+    class MGROFF safe
+```
 
-        LOBBY --> STAIRM
-        LOBBY --> STAFFH --> MGROFF
-        LOBBY -. East Wing power .-> EHALL
-        EHALL --> CLOSET
-        EHALL --> SVCSTAIR
-    end
+### 2. Lobby → West Wing (ground floor)
 
-    subgraph GFW["GROUND FLOOR — WEST WING"]
-        WHALL["West Hallway<br/>👤 Gerta (roaming)"]
-        BAR["Main Bar<br/>(wrecked later)"]
-        RECROOM["Recreation Room"]
-        REDROOM["🎤 Red Room — optional<br/>☠️ Della Marsh (mini-boss)<br/>📄 Booking slip · Personal note"]
-        LAUNDRY["🧺 Laundry Room<br/>☠️ Gerta's body — killed by The Maw<br/>🗝️ Laundry Master Key"]
-        WCORR["West Wing Service Corridor"]
-        SECOFF["Courtyard Security Office<br/>🚪 activates courtyard gate"]
+```mermaid
+flowchart TD
+    LOBBYREF(["🏨 Lobby<br/>(see Diagram 1)"])
+    WHALL(["West Hallway<br/>👤 Gerta — roaming"])
+    BAR["Main Bar<br/>wrecked later"]
+    RECROOM["Recreation Room"]
+    REDROOM["🎤 Red Room — optional<br/>☠️ Della Marsh — mini-boss<br/>📄 Booking slip · Personal note"]
+    LAUNDRY["🧺 Laundry Room<br/>☠️ Gerta's body — killed by The Maw<br/>🗝️ Laundry Master Key"]
+    WCORR(["West Wing Service Corridor"])
+    SECOFF["Courtyard Security Office<br/>🚪 activates courtyard gate<br/>↓ to Diagram 4 (Courtyard)"]
 
-        LOBBY --> WHALL
-        WHALL --> BAR
-        WHALL --> RECROOM
-        WHALL --> REDROOM
-        BAR -. blood trail, post-outbreak .-> LAUNDRY
-        WHALL -. West Wing power .-> WCORR --> SECOFF
-    end
+    LOBBYREF --> WHALL
+    WHALL --> BAR
+    WHALL --> RECROOM
+    WHALL --> REDROOM
+    BAR -. blood trail, post-outbreak .-> LAUNDRY
+    WHALL -. West Wing power .-> WCORR --> SECOFF
 
-    subgraph F2["2ND FLOOR"]
-        F2W["2F West Hallway<br/>Room 104 · Room 106"]
-        R104["Room 104 — Jim's room"]
-        R106["Room 106<br/>☠️ The Maw glimpsed — Cindy's abduction"]
-        F2E["2F East Hallway<br/>Room 112 · Room 118"]
-        CROSS["2F East–West Service Crossover"]
-        WMAINT["West Wing Maintenance Office<br/>🗝️ Auxiliary Fuse"]
+    classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
+    classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
+    classDef boss fill:#FFE0E0,stroke:#C0392B,color:#3a0d0d,stroke-width:2px
+    classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
+    class LOBBYREF ref
+    class WHALL,WCORR hallway
+    class BAR,RECROOM,LAUNDRY,SECOFF room
+    class REDROOM boss
+```
 
-        STAIRM --> F2W
-        F2W --> R104
-        F2W --> R106
-        F2W --- F2E
-        SVCSTAIR --> CROSS --> WMAINT
-    end
+### 3. Second Floor & Service Route
 
-    subgraph CY["COURTYARD"]
-        COURT["Hotel Courtyard<br/>⚙️ Generator · Fountain"]
-        SHED["Maintenance Shed<br/>☠️ THE CARETAKER / Roy Bullock — BOSS<br/>📄 Maintenance log"]
-        GATE["North Gate → Ravenwood streets / Memorial Park"]
+```mermaid
+flowchart TD
+    STAIRMREF(["Main Stairwell<br/>(up from Diagram 1)"])
+    F2W(["2F West Hallway"])
+    R104["Room 104<br/>Jim's room"]
+    R106["Room 106<br/>☠️ The Maw glimpsed — Cindy's abduction"]
+    F2E(["2F East Hallway"])
+    R112["Room 112 — Janeth"]
+    R118["Room 118 — Maria & Richard"]
+    SVCSTAIRREF(["Service Stairwell<br/>(up from Diagram 1)"])
+    CROSS(["2F East–West Service Crossover"])
+    WMAINT["West Wing Maintenance Office<br/>🗝️ Auxiliary Fuse<br/>⚡ carry fuse to Breaker Panel (Diagram 1)"]
 
-        SECOFF --> COURT
-        COURT --> SHED
-        SHED --> GATE
-    end
+    STAIRMREF --> F2W
+    F2W --> R104
+    F2W --> R106
+    F2W --- F2E
+    F2E --> R112
+    F2E --> R118
+    SVCSTAIRREF --> CROSS --> WMAINT
 
-    WMAINT -. fuse installed .-> MGROFF
+    classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
+    classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
+    classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
+    class STAIRMREF,SVCSTAIRREF ref
+    class F2W,F2E,CROSS hallway
+    class R104,R106,R112,R118,WMAINT room
+```
+
+### 4. Courtyard
+
+```mermaid
+flowchart TD
+    SECOFFREF(["Courtyard Security Office<br/>(from Diagram 2)"])
+    COURT["Hotel Courtyard<br/>⚙️ Generator · Fountain"]
+    SHED["Maintenance Shed<br/>☠️ THE CARETAKER / Roy Bullock — BOSS<br/>📄 Maintenance log"]
+    GATE(["North Gate<br/>→ Ravenwood streets / Memorial Park, Chapter 2"])
+
+    SECOFFREF --> COURT --> SHED --> GATE
+
+    classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
+    classDef boss fill:#FFE0E0,stroke:#C0392B,color:#3a0d0d,stroke-width:2px
+    classDef exterior fill:#E3F0FF,stroke:#4A76C9,color:#0d1f3a
+    classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
+    class SECOFFREF ref
+    class COURT room
+    class SHED boss
+    class GATE exterior
 ```
 
 ## Characters Encountered
