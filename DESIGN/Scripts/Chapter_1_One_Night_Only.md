@@ -1219,6 +1219,14 @@ doorways. A section of carpet near the far end is dark and wet and Jim doesn't i
 from. A neon exit sign above a stairwell door buzzes erratically — on, off, on, off. Jim moves
 through it carefully and quickly.
 
+### Optional — the hotel bar, revisited
+
+The bar Jim passed through hours ago pre-outbreak is barely lit now — a few overhead fixtures
+still flickering, the neon alcohol signs behind the counter buzzing unevenly. Broken glass covers
+the floor behind the bar. Several stools lie overturned. A large blood smear trails from the
+counter toward a staff storage door standing partially open at the back. Jim doesn't follow it.
+The room is too quiet for what it looks like.
+
 ### Optional — room searches
 
 One room — bathroom mirror shattered. Blood on the sink and on the largest piece of mirror still in

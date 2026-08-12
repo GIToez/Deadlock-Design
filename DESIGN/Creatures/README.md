@@ -14,5 +14,14 @@ A creature document may contain:
 - Major appearances
 - Story significance
 
-No creature files have been created yet. These will be added after the existing story is
-analyzed, so we do not create unnecessary or incorrect entries.
+## Current files
+
+- `Shambler.md` — the standard/base infected encountered throughout the game.
+- `The_Caretaker.md` (Roy Bullock) — Chapter 1's boss, hotel courtyard.
+- `Della_Marsh.md` (the Red Room Singer) — Chapter 1's optional mini-boss.
+
+Not included as separate creature entries: Earl Whitaker and Officer Dale Pruitt are named,
+recurring characters who become infected as part of their own arc — covered in `Characters/`
+rather than here, per the "no random background NPCs, and named characters belong in
+`Characters/`" rule. Creatures for locations beyond the hotel will be added once those chapters
+are written — see `STORY_NOTES.md`.

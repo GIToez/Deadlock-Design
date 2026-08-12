@@ -155,28 +155,22 @@ as a working list for whenever the five districts get written:
   quiet vista of the whole burning city — meant to reframe the scale of the disaster for the
   player).
 
-## Character / Creature File Candidates (proposed — NOT yet created)
+## Character / Creature Files — Created
 
-Updated with names confirmed since the original proposal. Nothing has been created yet — still
-awaiting explicit go-ahead:
+The Chapter 1 cast now has files in `Characters/` and `Creatures/` (created after the story
+analysis + `AI.json` review, per the original "analyze first, then create" instruction):
 
-**Characters/ (proposed):**
-- Jim Mercer (protagonist)
-- Sarah Mercer (Jim's partner — arc now runs through the Epilogue)
-- Earl Whitaker (hotel night clerk → first infected)
-- Cindy Sweets (guest, Room 106)
-- Maria Dalton (guest, Room 118)
-- Richard Dalton (guest, Room 118)
-- Janeth Caldwell (guest, Room 112 — dies in Chapter 1)
-- Officer Dale Pruitt (parking-lot officer → infected police officer)
-- *Borderline:* Gerta (hotel maid) — appears only once, very briefly, with no plot function yet.
-  Recommend holding off unless she recurs later.
+**Characters/:** Jim Mercer, Sarah Mercer, Earl Whitaker, Cindy Sweets, Maria Dalton, Richard
+Dalton, Janeth Caldwell, Officer Dale Pruitt.
 
-**Creatures/ (proposed):**
-- The Caretaker / Roy Bullock (hotel courtyard boss)
-- Della Marsh / "the Red Room Singer" (hotel Red Room mini-boss)
-- Shambler (standard infected type — now directly depicted on-screen during the Chapter 2 street
-  crossing, not just referenced in passing)
+**Creatures/:** The Caretaker (Roy Bullock), Della Marsh (the Red Room Singer), and **Shambler**
+(the standard/base infected type — this was a real documentation gap: referenced by name in the
+Caretaker's design notes since the original docx audit, but never given its own write-up until
+now).
+
+**Still not created:** Gerta (hotel maid) — appears once, very briefly, with no plot function;
+recommend holding off unless she recurs later. Anything for Memorial Park or the five districts —
+none of those chapters have named characters yet.
 
 ## Things That Still Need Development
 
