@@ -61,10 +61,22 @@
 
 - **Content rating confirmed as mature (M) — 2026-08-12.** Explicit violence/gore, strong
   profanity, and nudity are all permitted; writing should not self-censor by default going
-  forward. Locked as rule 13 in [`README.md`](README.md). Existing Chapter 1 script was written
-  before this direction and reads comparatively restrained — not rewritten retroactively per the
-  "preserve existing material unless a rewrite is specifically requested" rule, but flagged here
-  in case a punch-up pass is wanted later.
+  forward. Locked as rule 13 in [`README.md`](README.md). A situational (not blanket) tone
+  punch-up pass was subsequently done on `Scripts/Chapter_1_One_Night_Only.md`.
+- **Presentation/camera clarified via reference screenshots — 2026-08-12.** Deadlock Protocol is
+  2.5D top-down (a fact that existed in `AI.json` from its very first message but was never
+  actually written into a design doc until now — genuine documentation gap, now fixed). The
+  in-game camera stays close to the player and shows roughly a room's-width of space, not a wide
+  cinematic view — confirmed against two reference screenshots (a full Ravenwood Hotel lobby
+  layout, and an actual gameplay-viewport screenshot showing a Shambler attacking Jim near the
+  reception desk). Locked as rule 14 in [`README.md`](README.md) and under "Presentation &
+  Perspective" in [`CANON.md`](CANON.md). The existing Chapter 1/2 scripts have **not** been
+  audited yet for language that reads too cinematic/wide-shot for this camera — flagged as
+  optional follow-up work, not yet done.
+- Both reference screenshots (lobby layout + gameplay viewport) were shared inline in chat only —
+  not saved to the repo, since inline chat images aren't accessible as real files. If they should
+  become permanent reference material, they need to be pushed as actual files into
+  [`Assets/`](Assets/README.md) (same workflow as `AI.json` and the story `.docx`).
 
 ## Still-Open Questions
 

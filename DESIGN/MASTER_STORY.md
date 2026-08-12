@@ -25,6 +25,10 @@ infection, and the gradual discovery of a hidden truth beneath Ravenwood.
 permitted where a scene calls for it; writing should not self-censor by default. See
 [`README.md`](README.md) → "Content Rating & Tone."
 
+**Presentation:** 2.5D top-down. The camera stays close to the player rather than showing a wide,
+cinematic view of a whole room — write scenes accordingly. See [`README.md`](README.md) →
+"Presentation & Camera" and [`CANON.md`](CANON.md) → "Presentation & Perspective."
+
 *(See [`CANON.md`](CANON.md) for locked facts underpinning this premise.)*
 
 ## Acts / Chapters

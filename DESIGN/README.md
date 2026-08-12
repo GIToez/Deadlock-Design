@@ -49,9 +49,20 @@ When working on Deadlock story content:
       the page is "...Jesus Christ."). Per rule 10, it hasn't been rewritten to match — ask if you
       want a punch-up pass on it specifically.
 
+## Presentation & Camera
+
+14. **This is a 2.5D top-down game — write scenes accordingly.** The camera stays close to the
+    player and shows roughly a room's-width of space at a time, not a wide cinematic view of an
+    entire location, and there is no implied 3D camera movement (no pans, dollies, over-the-
+    shoulder shots). When describing a scene, favor what's near/visible to Jim as he moves rather
+    than an omniscient wide shot — unless a moment is explicitly meant to be a deliberate wider
+    vista/cutscene beat (rare; flag it as such when it happens). See
+    [`CANON.md`](CANON.md) → "Presentation & Perspective" for the full note and reference
+    screenshots in [`Assets/`](Assets/README.md) once uploaded.
+
 ## Repository / Workflow Rules
 
-14. **Never create a new branch for Deadlock design work unless explicitly told to.** All design
+15. **Never create a new branch for Deadlock design work unless explicitly told to.** All design
     documentation changes should continue landing on the existing working branch/PR
     (`cursor/design-docs-structure-e231` →
     [PR #1](https://github.com/GIToez/Deadlock-Design/pull/1)) rather than spinning up a fresh

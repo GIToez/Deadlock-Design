@@ -15,6 +15,30 @@
 > newer, more authoritative source**, because it is a later iterative pass that explicitly revisits
 > and fixes problems found in the earlier material (see "Retcons" below for the specific list).
 
+## Presentation & Perspective
+
+Deadlock Protocol is a **2.5D top-down survival horror game** (this was stated as early as the
+first message of `AI.json`'s planning conversation but never actually made it into a design
+document until now — flagging that gap here for traceability). Two concrete implications for
+future writing, confirmed by reference screenshots from the project owner (2026-08-12):
+
+- **The camera does not show a wide, cinematic view of a room.** It stays close to the player
+  character — in the reference screenshots, roughly half of the Ravenwood Hotel lobby is visible
+  at once, not the whole room. Scene descriptions should generally reflect what's near/visible to
+  Jim as he moves, not an omniscient wide shot of an entire space, unless a moment is explicitly
+  meant to be a wider vista/cutscene beat (e.g. the Overlook Trail scene in Chapter 2, which is
+  already written as a deliberate, singular exception).
+- **There is no implied 3D camera movement** (pans, dollies, over-the-shoulder shots, etc.).
+  Description should read as what's visible from a fixed top-down/isometric perspective near the
+  player, not as film-style shot direction.
+- This does not mean characters/creatures lack visual detail on-screen — the reference
+  screenshots show clearly readable character and creature sprites (clothing, posture, attack
+  animation) even at this camera distance — it specifically means **scale of visibility**, not
+  detail fidelity, is the thing to watch for in future prose.
+
+See [`README.md`](README.md) → "Presentation & Camera" for the corresponding writing rule, and
+[`Assets/`](Assets/README.md) for reference screenshots once uploaded.
+
 ## Fundamental Premise
 
 Deadlock Protocol follows **Jim Mercer** — retired military (communications/logistics), now a
