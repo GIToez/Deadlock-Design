@@ -56,7 +56,7 @@
   hotel **Laundry Room**, now placed in the East Wing's ground-floor service area (see the hotel
   layout resolution below — this room moved from its original West Wing/behind-the-bar placement).
   See [`Creatures/The_Maw.md`](Creatures/The_Maw.md), [`Characters/Gerta.md`](Characters/Gerta.md), and
-  [`Scripts/Chapter_1_One_Night_Only.md`](Scripts/Chapter_1_One_Night_Only.md) (Scene 32).
+  [`Scripts/Chapter_1_One_Night_Only.md`](Scripts/Chapter_1_One_Night_Only.md) (Scene 33).
 
 ## Direction Log
 
@@ -109,6 +109,13 @@
     `Characters/README.md`, `Creatures/The_Maw.md`, `Creatures/Della_Marsh.md`) were all updated to
     match. Scene numbering from Scene 41 onward (Officer Pruitt, Courtyard, Generator, Caretaker)
     is unchanged.
+  - **Follow-up (same day):** Cindy's Room 106 jumpscare was moved to trigger **before** Gerta's
+    death rather than after — Jim now swings by Cindy's room right after flipping the East Wing
+    breaker (Scene 29), before heading to the East Wing stairwell, rather than during the later
+    trip to get the auxiliary fuse. Gerta's death (in the East Wing Laundry Room) is now Scene 33.
+    This only reordered/renumbered Scenes 29–35; Scene 36 onward is unaffected. Also caught and
+    fixed in the process: Scenes 39–40 (West Wing Service Corridor, Courtyard Security Office) had
+    been accidentally dropped during the initial rewrite and were restored.
 - The two reference screenshots (lobby layout + gameplay viewport combat shot) were shared inline
   in chat only — not saved to the repo, since inline chat images aren't accessible as real files.
   If they should become permanent reference material, they need to be pushed as actual files
@@ -116,7 +123,7 @@
 - **Update (2026-08-12):** the project owner did push a real file — `spr_cindy_jumpscare.gif` —
   directly into `Characters/` (embedded in `Characters/Cindy_Sweets.md`). Confirmed via full
   frame-by-frame extraction (51 frames) that it matches `Scripts/Chapter_1_One_Night_Only.md`
-  Scene 35 as written; no script changes were needed. Also confirmed: the lobby combat screenshot
+  Scene 29 as written; no script changes were needed. Also confirmed: the lobby combat screenshot
   showed **The Maw**, not a generic Shambler, but it was explicitly a tech/engine demo, not a
   planned encounter — The Maw is not fought in Chapter 1, matching what's already documented.
 - **Chapter 1 camera-consistency pass done (2026-08-12):** fixed Scene 1 (no player driving

@@ -52,22 +52,24 @@ the obvious escape route. A police radio broadcast declares that **"Deadlock Pro
 effect"** — the game's title card.
 
 *(Two other hotel deaths/disappearances are worth noting here even though they happen slightly
-later in the chapter: [Gerta](Characters/Gerta.md), the hotel maid, is killed by
-[The Maw](Creatures/The_Maw.md); guest [Cindy Sweets](Characters/Cindy_Sweets.md) is dragged away
-by the same creature, her fate left explicitly unresolved. See [`STORY_NOTES.md`](STORY_NOTES.md).)*
+later in the chapter: guest [Cindy Sweets](Characters/Cindy_Sweets.md) is dragged away by
+[The Maw](Creatures/The_Maw.md), her fate left explicitly unresolved; shortly after,
+[Gerta](Characters/Gerta.md), the hotel maid, is killed by the same creature. See
+[`STORY_NOTES.md`](STORY_NOTES.md).)*
 
 **Escaping the Hotel.** With the front exit blocked, Jim must route power through the hotel to
 reach an alternate exit (the rear courtyard):
 
 1. Jim takes Earl's key and reaches the Manager's Office (the game's first safe room, with a VERN
    save terminal — see [`CANON.md`](CANON.md) for what VERN is).
-2. Restoring East Wing power unlocks the East Public Stairwell down to the East Wing's
-   ground-floor service areas (Dining Hall, Kitchen, Utility Room), where Jim finds a screwdriver
-   and a note pointing to the West Wing for the replacement fuse — and clears a barricaded
-   shortcut straight back to the Lobby.
-3. Crossing to the guest floor's west hallway to reach the West Wing Maintenance Room, Cindy
-   Sweets is dragged away by an unseen creature (see below) — Jim then recovers the replacement
-   fuse there.
+2. After flipping the East Wing breaker, Jim swings by Cindy Sweets' room on the guest floor
+   before heading east — she's dragged away by an unseen creature (see below).
+3. Descending the newly-unlocked East Public Stairwell into the East Wing's ground-floor service
+   areas (Dining Hall, Kitchen, Utility Room, Laundry Room), Jim finds a screwdriver, discovers
+   Gerta's body (killed by the same creature), and reaches a note pointing to the West Wing for
+   the replacement fuse — clearing a barricaded shortcut straight back to the Lobby on the way.
+   Crossing back to the guest floor's west hallway, he recovers the fuse from the West Wing
+   Maintenance Room.
 4. Installing the fuse restores West Wing power, unlocking the West Public Stairwell down into the
    West Wing's ground floor (bar, recreation lounge, the self-contained **Red Room** optional area
    off the bar, and — via a separate **West Wing service corridor** — the Courtyard Security

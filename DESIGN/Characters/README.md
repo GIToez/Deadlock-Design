@@ -28,7 +28,7 @@ A character document may contain:
 - [`Janeth_Caldwell.md`](Janeth_Caldwell.md)
 - [`Dale_Pruitt.md`](Dale_Pruitt.md)
 - [`Gerta.md`](Gerta.md) — added once her death scene (killed by The Maw) was approved; see
-  [`Creatures/The_Maw.md`](../Creatures/The_Maw.md) and [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 32.
+  [`Creatures/The_Maw.md`](../Creatures/The_Maw.md) and [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 33.
 
 Characters for locations beyond the hotel (Memorial Park, the five districts, etc.) will be added
 once those chapters are written — see [`STORY_NOTES.md`](../STORY_NOTES.md).

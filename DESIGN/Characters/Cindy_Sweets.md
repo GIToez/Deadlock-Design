@@ -8,7 +8,7 @@
 > the ceiling/doorframe as an earlier read of a single still frame suggested) → she's wrenched back
 > and dragged out of view, thrashing → door swings shut. No blood is visible in this specific sprite
 > — confirmed by the project owner to be a separate animation layer that does exist in-game, just
-> not part of this asset. This matches `Scripts/Chapter_1_One_Night_Only.md` Scene 34 as written;
+> not part of this asset. This matches `Scripts/Chapter_1_One_Night_Only.md` Scene 29 as written;
 > no changes were needed to the script after reviewing the actual animation.
 
 ## Role
@@ -63,9 +63,9 @@ her without explicit approval.
 
 - Lobby introduction / optional dialogue — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 5, 8.
 - Cindy's Door (optional, player-initiated) — Scene 14.
-- Room 106 jumpscare/abduction — Scene 34.
+- Room 106 jumpscare/abduction — Scene 29.
 - (Not her scene, but relevant) Gerta's death, confirming the same creature — **The Maw** — is
-  responsible for both incidents — Scene 32.
+  responsible for both incidents — Scene 33.
 
 ## Dialogue Characteristics
 

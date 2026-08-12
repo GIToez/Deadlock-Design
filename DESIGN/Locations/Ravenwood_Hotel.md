@@ -94,6 +94,11 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   **screwdriver** to open the fuse housing and a replacement fuse before it can be fixed. A
   maintenance notice reveals the courtyard is the intended emergency evacuation route, but
   requires full auxiliary power.
+- **Room 106 / Cindy's Abduction.** Before heading to the East Wing, Jim goes up the Grand
+  Staircase and swings by Cindy's room on the second-floor **west** hallway to check on her. The
+  door bursts open — Cindy Sweets, barefoot and bleeding, reaches for Jim before something drags
+  her violently back inside; the door slams. See Scene 29 in
+  [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md) for the full beat.
 - **East Wing Retrieval Loop.** East Wing power unlocks the **East Public Stairwell** at the far
   end of the second-floor east hallway. Jim descends it into the East Wing's ground-floor service
   areas — the **Dining Hall**, the **Kitchen**, and its adjoining **Pantry/Storage** and **Walk-in
@@ -102,17 +107,14 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   handwritten note explains the replacement fuse was relocated to the West Wing. A barricaded
   service door behind the closet clears by hand, opening a **permanent shortcut straight back to
   the Lobby** — Jim never has to walk this loop again.
-- **Gerta's Death.** In the Laundry/Linen Room, Jim finds Gerta's body — killed by **The Maw** —
-  see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md) and
+- **Gerta's Death.** In the Laundry/Linen Room, Jim finds Gerta's body — killed by **The Maw**, the
+  same presence that dragged Cindy Sweets into Room 106 shortly before — see
+  [`Creatures/The_Maw.md`](../Creatures/The_Maw.md) and
   [`Characters/Gerta.md`](../Characters/Gerta.md).
-- **Room 106 / Cindy's Abduction.** Back in the Lobby, Jim heads up the Grand Staircase and across
-  the second-floor **west** hallway toward the West Wing Maintenance Room. Passing Room 106, the
-  door bursts open — Cindy Sweets, barefoot and bleeding, reaches for Jim before something drags
-  her violently back inside; the door slams. See Scene 34 in
-  [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md) for the full beat.
-- **West Wing Maintenance Room.** A small, unlocked room near the **West Public Stairwell** on the
-  guest floor (not power-gated — it was simply shut, not locked). Jim recovers the **auxiliary
-  fuse** here.
+- **West Wing Maintenance Room.** Back through the Lobby shortcut and up to the second-floor west
+  hallway again — quiet now, Room 106 undisturbed since Jim last stood there — to a small, unlocked
+  room near the **West Public Stairwell** (not power-gated — it was simply shut, not locked). Jim
+  recovers the **auxiliary fuse** here.
 - **West Wing Power Restoration.** Back at the breaker panel, the screwdriver opens the fuse
   housing; Jim installs the fuse and activates the West Wing breaker, restoring power hotel-wide
   and bringing the **courtyard access system online**.
@@ -422,7 +424,8 @@ flowchart TD
 
 ## Puzzles
 
-- **Power Restoration (East Wing → West Wing).** Flip East Wing power at the breaker panel →
+- **Power Restoration (East Wing → West Wing).** Flip East Wing power at the breaker panel → head
+  up to check on Cindy Sweets in Room 106 first (see "Room 106 / Cindy's Abduction," above) →
   descend the newly-unlocked East Public Stairwell → work through the East Wing's ground-floor
   service areas (Dining Hall → Kitchen → Pantry/Freezer → Utility Room, where the **screwdriver**
   is found → Laundry/Linen Room → East Wing Maintenance Closet, where a note reveals the fuse was

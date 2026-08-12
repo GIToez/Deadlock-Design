@@ -14,7 +14,7 @@
 > Status: this chapter's content is marked `FINALIZED CANON — LOCKED` in its source. Treat it as
 > ready to implement against, not as a draft.
 >
-> **The Laundry Room scene** (Scene 32) is new material, approved directly by the project owner
+> **The Laundry Room scene** (Scene 33) is new material, approved directly by the project owner
 > (not sourced from [`AI.json`](../AI.json) or the docx) — it introduces **The Maw** and resolves
 > Gerta's fate.
 >
@@ -1166,11 +1166,55 @@ locks disengaging, distant lights flickering on through the east side of the bui
 
 ---
 
-## SCENE 29 — EAST PUBLIC STAIRWELL
+## SCENE 29 — ROOM 106 / CINDY'S ABDUCTION
+
+![Cindy's Room 106 jumpscare — reference animation](../Characters/spr_cindy_jumpscare.gif)
+
+> *Reference asset: `Characters/spr_cindy_jumpscare.gif` (uploaded by the project owner,
+> 2026-08-12). Confirmed via full frame-by-frame extraction to match this scene exactly as
+> written below — see [`Characters/Cindy_Sweets.md`](../Characters/Cindy_Sweets.md) for the full
+> frame analysis.*
 
 Back through the lobby — the wrecked cruiser, rain blowing in through the ruined doors, Janeth's
 book still lying where it fell. Jim doesn't look at any of it longer than he has to. Up the Grand
-Staircase, two steps at a time.
+Staircase, two steps at a time. East wing can wait thirty seconds — Cindy's room is right here on
+this floor, and he hasn't checked on her since everything went wrong.
+
+The second floor west hallway looks worse than he remembers it from a few hours ago. Some things
+are better in the dark. The carpet outside Room 106 has a stain that wasn't there before — thick
+and dark, trailing under the door frame from inside. The overhead light outside the room flickers
+rapidly — faster than the others. Jim slows.
+
+> **JIM:** *"...Cindy?"*
+
+Silence. Then — from inside the room — a faint wet sound. Dragging. It stops. Silence again. Then
+— the door explodes open. Cindy Sweets hits the hallway frame and catches it with both hands —
+barefoot, still in her robe, blood on her face and neck and the front of the robe. Her eyes find
+Jim immediately.
+
+> **CINDY:** *"HELP ME—!"*
+
+She reaches toward him. Something from inside the room grabs her. Fast — too fast — one violent
+motion that snaps her backward off her feet. She screams. The door slams shut between them.
+**BANG.** The hallway light stops flickering. Steady now. Humming. Jim stands looking at the
+closed door of Room 106.
+
+> **JIM:** *"...Jesus Christ."*
+
+Nothing moves behind the door. No sound. No light beneath the frame. Then — slowly, unhurried —
+a dark line of blood begins spreading out from beneath it across the carpet. Jim backs away from
+the door. Whatever is on the other side doesn't follow.
+
+> *Design note: this is the Maw's most notable confirmed encounter — see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md).
+> The creature itself is never seen here, and it disappears afterward. Seeing the aftermath of
+> the Maw is not the same as fighting it.*
+
+---
+
+## SCENE 30 — EAST PUBLIC STAIRWELL
+
+Jim forces himself away from Room 106's door — nothing left to do here — and continues down the
+hallway toward the guest floor's east side.
 
 The second-floor east hallway is the same as he left it — quiet, torn up, doors he's already
 checked. At the far end, a door marked **EAST STAIRWELL — GUEST ACCESS** sits behind a keycard
@@ -1183,7 +1227,7 @@ only by a single emergency light at the halfway landing. Jim heads down.
 
 ---
 
-## SCENE 30 — DINING HALL / KITCHEN
+## SCENE 31 — DINING HALL / KITCHEN
 
 The stairwell lets out into part of the hotel Jim's never seen — the guest dining hall. Round
 tables under sheet-covered light fixtures, half of them still set for a service that never
@@ -1213,7 +1257,7 @@ go in any farther than he has to.
 
 ---
 
-## SCENE 31 — UTILITY ROOM / SCREWDRIVER
+## SCENE 32 — UTILITY ROOM / SCREWDRIVER
 
 Past the kitchen, a service corridor lined with pipe runs and secondary breaker boxes leads to the
 hotel's main utility room — pumps, water heaters, a wall of electrical panels separate from the one
@@ -1232,7 +1276,7 @@ tray like someone set it down mid-task and never came back for it.
 
 ---
 
-## SCENE 32 — THE LAUNDRY ROOM
+## SCENE 33 — THE LAUNDRY ROOM
 
 Past the utility room, a short corridor thick with the smell of detergent and old steam leads to
 the hotel laundry room.
@@ -1272,9 +1316,9 @@ folding itself through the gap, something moves that is not quite the right shap
 long arms, a hunched and narrow torso, gone before Jim's eyes can hold onto it. Not toward Jim.
 Away from him. Whatever did this isn't finished being somewhere else tonight.
 
-> *Design/story note: this is the same presence that later drags Cindy Sweets back into Room 106
-> (see Scene 34) — barely glimpsed there as "something," "fast — too fast to properly see." It's
-> since been fully designed as **The Maw** (see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md))
+> *Design/story note: this is the same presence that dragged Cindy Sweets back into Room 106
+> shortly before (see Scene 29) — barely glimpsed there as "something," "fast — too fast to
+> properly see." It's since been fully designed as **The Maw** (see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md))
 > — a heavily mutated Ashen Mutant whose torso splits open into a feeding mouth, ordinarily kept
 > hidden by its hunched, "closed" posture. This glimpse is intentionally brief and unclear,
 > consistent with its design: seeing it does not mean fighting it. This is currently the only
@@ -1283,7 +1327,7 @@ Away from him. Whatever did this isn't finished being somewhere else tonight.
 
 ---
 
-## SCENE 33 — EAST WING MAINTENANCE CLOSET
+## SCENE 34 — EAST WING MAINTENANCE CLOSET
 
 At the end of the corridor beyond the laundry room, a door marked **MAINTENANCE — STAFF ONLY** sits
 half-open. Inside — shelves of cleaning chemicals, spare parts, a corkboard with schedules nobody's
@@ -1310,53 +1354,11 @@ Beyond it — a short, plain corridor leading directly back toward the lobby.
 
 ---
 
-## SCENE 34 — ROOM 106 / CINDY'S ABDUCTION
-
-![Cindy's Room 106 jumpscare — reference animation](../Characters/spr_cindy_jumpscare.gif)
-
-> *Reference asset: `Characters/spr_cindy_jumpscare.gif` (uploaded by the project owner,
-> 2026-08-12). Confirmed via full frame-by-frame extraction to match this scene exactly as
-> written below — see [`Characters/Cindy_Sweets.md`](../Characters/Cindy_Sweets.md) for the full
-> frame analysis.*
-
-Through the shortcut and back into the lobby, Jim heads up the Grand Staircase again — faster this
-time — and across the second-floor hallway, west side now, toward the far end where the West Wing
-Maintenance Room ought to be.
-
-The second floor west hallway looks worse than he remembers it. Some things are better in the dark.
-The carpet outside Room 106 has a stain that wasn't there before — thick and dark, trailing under
-the door frame from inside. The overhead light outside the room flickers rapidly — faster than the
-others. Jim slows.
-
-> **JIM:** *"...Cindy?"*
-
-Silence. Then — from inside the room — a faint wet sound. Dragging. It stops. Silence again. Then
-— the door explodes open. Cindy Sweets hits the hallway frame and catches it with both hands —
-barefoot, still in her robe, blood on her face and neck and the front of the robe. Her eyes find
-Jim immediately.
-
-> **CINDY:** *"HELP ME—!"*
-
-She reaches toward him. Something from inside the room grabs her. Fast — too fast — one violent
-motion that snaps her backward off her feet. She screams. The door slams shut between them.
-**BANG.** The hallway light stops flickering. Steady now. Humming. Jim stands looking at the
-closed door of Room 106.
-
-> **JIM:** *"...Jesus Christ."*
-
-Nothing moves behind the door. No sound. No light beneath the frame. Then — slowly, unhurried —
-a dark line of blood begins spreading out from beneath it across the carpet. Jim backs away from
-the door. Whatever is on the other side doesn't follow.
-
-> *Design note: this is the Maw's most notable confirmed encounter — see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md).
-> The creature itself is never seen here, and it disappears afterward. Seeing the aftermath of
-> the Maw is not the same as fighting it.*
-
----
-
 ## SCENE 35 — WEST WING MAINTENANCE ROOM
 
-A few doors past Room 106, near the west stairwell landing, a door marked **MAINTENANCE** sits
+Through the shortcut and back into the lobby, Jim heads up the Grand Staircase once more and back
+across the west hallway — quiet now, Room 106's door shut and still since he last stood in front
+of it. A few doors past it, near the west stairwell landing, a door marked **MAINTENANCE** sits
 closed — not locked, just shut, the way service doors usually are when nobody's using them. Jim
 pushes it open.
 
@@ -1522,6 +1524,41 @@ writing quickly or her hands weren't cooperating.
 > Please tell my mother I was thinking about her.
 
 Jim sets the note down carefully on the dressing table. He doesn't say anything.
+
+---
+
+## SCENE 39 — WEST WING SERVICE CORRIDOR
+
+The door releases into a service corridor that runs along the back of the building. The walls here
+are bare — conduit and pipe runs exposed overhead, junction boxes at intervals, a fire extinguisher
+in its bracket that nobody has touched. A narrow window at the far end looks out over the hotel
+courtyard. Rain against the glass. Emergency lights mounted along the hotel's exterior walls
+throwing pale light across the courtyard pavement below. Beyond the courtyard — a heavy gate. And
+beyond that — the dark streets of Ravenwood. Jim looks at it for a moment. Then he finds the
+Security Office door at the end of the corridor.
+
+> *Design note: this corridor — not the Red Room — is the route into the Courtyard Security
+> Office. See [`CANON.md`](../CANON.md) → "Retcons."*
+
+---
+
+## SCENE 40 — COURTYARD SECURITY OFFICE
+
+The Security Office is small and functional — exactly the kind of room that exists to do one job
+and does it without apology. A desk. A bank of monitors. Security terminals. Emergency lockdown
+hardware mounted to one wall. A window overlooking the courtyard directly. Most of the monitors
+show static. One flickers intermittently — the courtyard camera, grainy and rain-washed, showing
+the dark pavement below and the outline of the maintenance shed in the corner and the gate beyond.
+The gate is closed.
+
+Jim finds the courtyard access control panel mounted beside the desk.
+
+*Interaction prompt: [ACTIVATE COURTYARD ACCESS]*
+
+A system engages somewhere outside. Relays clicking through sequence. And then — distantly,
+through the window, through the rain — the gate mechanism CLUNKS as the lock disengages.
+
+> **JIM:** *"Finally."*
 
 ---
 
