@@ -632,11 +632,108 @@ murmurs through a thin wall — too quiet to make out. Two rooms down, a brief e
 arguing — a man's voice, a woman's voice, sharp and short. Then silence. Whatever it was, it
 resolved itself or stopped trying.
 
-Jim finds Room 104 at the end of the west corridor. He fits the key. The lock turns.
+Jim finds Room 104 at the end of the west corridor. Room 106 sits a few doors back the way he
+came.
+
+*The player may optionally detour to Room 106 before entering Room 104 — see Scene 14. Otherwise,
+Jim fits the key to 104. The lock turns.*
 
 ---
 
-## SCENE 14 — ROOM 104 ENTRY
+## SCENE 14 — CINDY'S DOOR (OPTIONAL)
+
+*Optional. Reachable once Jim is on the second floor, any time before he goes to bed — not tied to
+a specific path through the hallway.*
+
+Room 106. Jim knocks.
+
+A beat. Footsteps. The door opens on the chain first — Cindy checking who it is — then swings the
+rest of the way.
+
+She's changed out of what she was wearing in the lobby. Robe, hotel-issue, cinched loosely enough
+that it's clearly not for anyone's benefit but her own comfort. Hair down. She leans in the
+doorway like she's been expecting someone more interesting than housekeeping and has decided to
+be gracious about the disappointment anyway.
+
+> **CINDY:** *"Well. Look who found the stairs."*
+>
+> **JIM:** *"Wanted to make sure Room 104 hasn't collapsed into the parking lot yet."*
+>
+> **CINDY:** *"Very heroic of you."*
+
+She looks him over, unhurried, the kind of look that isn't subtle about being a look.
+
+> **CINDY:** *"You clean up alright for a guy who's been driving through a hurricane."*
+>
+> **JIM:** *"Low bar tonight."*
+>
+> **CINDY:** *"I like a low bar."*
+
+A beat. She tips her head slightly toward the room behind her — not quite an invitation, close
+enough to one that Jim clocks it.
+
+> **CINDY:** *"Storm's not letting up. Room's got a second chair, if the west lounge got old."*
+
+Jim holds up the room key between two fingers, easy, no offense taken and none intended.
+
+> **JIM:** *"Tempting. I've got a wife who'd know exactly what I was thinking about ten seconds
+> before I thought it."*
+
+Cindy laughs — a real one, not offended, more like she respects the answer.
+
+> **CINDY:** *"Smart and taken. Rare combination."*
+>
+> **JIM:** *"I get that a lot."*
+>
+> **CINDY:** *"Liar."*
+
+She leans against the door frame, arms crossed now, the flirtation settling into something easier
+— still warm, just not going anywhere, and both of them fine with that.
+
+> **CINDY:** *"For what it's worth — you're better company than the vending machine."*
+>
+> **JIM:** *"High praise."*
+>
+> **CINDY:** *"Don't let it go to your head."*
+
+The hallway light overhead buzzes and dips — the same flicker the whole floor's been doing all
+night. Cindy glances up at it, and something in her expression shifts, the flirtation dropping
+away for a second underneath a genuine, smaller unease.
+
+> **CINDY:** *"...You hear all that noise downstairs earlier?"*
+>
+> **JIM:** *"Probably pipes."*
+>
+> **CINDY:** *"You hear that scratching?"*
+
+Jim pauses.
+
+> **JIM:** *"Old building."*
+>
+> **CINDY:** *"Didn't sound old."*
+
+A beat. Then she shakes it off, half a smile coming back, more for her own benefit than his.
+
+> **CINDY:** *"Seriously though — get some sleep. You look like hell."*
+>
+> **JIM:** *"Working on it."*
+>
+> **CINDY:** *"Night, Jim."*
+
+She steps back inside. The door doesn't fully shut — just eases most of the way closed, robe-and-
+storm-light warm behind it for a second before the latch finally clicks.
+
+> *Design/story note: keep this grounded rather than gratuitous — Cindy is genuinely flirting,
+> Jim genuinely (and easily, without moralizing about it) doesn't take her up on it because he's
+> established as devoted to Sarah, not because the scene is shying away from adult subject matter.
+> This is the version of the "Cindy at her door" beat that plays if the player seeks her out
+> proactively. If the player instead simply walks past Room 106 on their way to 104 without
+> knocking, nothing plays here — see [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md)
+> for how this optional scene fits into the room list.*
+
+---
+
+## SCENE 15 — ROOM 104 ENTRY
 
 **NIGHT — STORM OUTSIDE**
 
@@ -713,7 +810,7 @@ the storm. Nothing that demands attention. Everything that earns a second glance
 
 ---
 
-## SCENE 15 — ATTEMPTING TO SLEEP
+## SCENE 16 — ATTEMPTING TO SLEEP
 
 *Interaction prompt: [GO TO BED]*
 
@@ -730,7 +827,7 @@ stares at the ceiling. Closes his eyes.
 
 ---
 
-## SCENE 16 — THE WAKE-UP
+## SCENE 17 — THE WAKE-UP
 
 **NIGHT — OUTBREAK HAS BEGUN**
 
@@ -748,12 +845,15 @@ a loudspeaker, distant and distorted and wrong:
 
 > **LOUDSPEAKER:** *"ATTENTION. THIS AREA IS NOW UNDER EMERGENCY QUARANTINE—"*
 
-Static takes it. A gunshot outside. Then another. Jim is already sitting up. Boots already in his
-hands.
+Static takes it. A gunshot outside. Then another.
+
+> **JIM:** *"What the fuck—"*
+
+The sentence doesn't get to finish. He's already sitting up. Boots already in his hands.
 
 ---
 
-## SCENE 17 — SECOND FLOOR HALLWAY
+## SCENE 18 — SECOND FLOOR HALLWAY
 
 *Interaction prompt: [OPEN DOOR]*
 
@@ -767,7 +867,7 @@ hallway.
 
 ---
 
-## SCENE 18 — JANETH CALDWELL
+## SCENE 19 — JANETH CALDWELL
 
 Janeth is pressed against the wall beside her room door — Room 112 — still in her clothes from the
 lobby. Still holding her book. Her knuckles are white around the spine.
@@ -788,43 +888,6 @@ A crash from below. Close enough to vibrate the hallway floor. Janeth flinches h
 wall.
 
 > **JANETH:** *"I'm not going down there."*
-
----
-
-## SCENE 19 — CINDY SWEETS' PRE-OUTBREAK HALLWAY ENCOUNTER
-
-> *Trigger note: this scene occurs BEFORE Jim goes to bed (see Scene 13/14) — it's triggered when
-> the player passes Room 106 on the way to Room 104, not during the outbreak. Placed here in the
-> script only because that's where it originally appeared in the source material — implement it
-> earlier in the actual sequence, immediately after Scene 13.*
-
-Room 106. The door is open a few inches. Cindy leans in the gap wearing a robe, arms crossed,
-watching the hallway lights do their flickering thing with an expression somewhere between annoyed
-and uneasy. She spots Jim.
-
-> **CINDY:** *"Please tell me the lights dying every ten minutes is normal here."*
->
-> **JIM:** *"Starting to think nothing here's normal."*
-
-Cindy smirks faintly.
-
-> **CINDY:** *"Well if the power goes out completely I'm blaming you."*
-
-A brief laugh between them. Then the lights dip again and Cindy's expression fades.
-
-> **CINDY:** *"...You hear all that noise downstairs earlier?"*
->
-> **JIM:** *"Probably pipes."*
->
-> **CINDY:** *"You hear that scratching?"*
-
-Jim pauses.
-
-> **JIM:** *"Old building."*
->
-> **CINDY:** *"Didn't sound old."*
-
-She watches him for a moment. Then retreats back into Room 106 and pulls the door shut.
 
 ---
 
@@ -850,16 +913,23 @@ shadows move.
 Near the reception desk — near where Earl was standing with his paperwork — something crouches over
 a shape on the floor. Jim's eyes find it and take a moment to understand what they're seeing. The
 shape on the floor is a person. A hotel guest — one of the ones Jim doesn't recognize from the
-lobby earlier. They're still moving. Weakly. One hand opening and closing against the carpet.
+lobby earlier. They're still moving. Weakly. One hand opening and closing against the carpet. The
+sound coming from the thing above them is wet and rhythmic — not chewing, exactly, more like
+something tearing loose and being worked free.
 
-The thing crouching over them lifts its head. **It's Earl.** Blood covers his mouth. His chin. The
-front of his vest. His eyes are wrong — pale and flat and lit with something that has nothing to do
-with recognition. His jaw hangs at an angle that jaws don't hang at. He looks at Jim. Jim doesn't
-move.
+The thing crouching over them lifts its head. **It's Earl.** Blood covers his mouth, his chin, the
+front of his vest — a dark, glistening mess that's soaked through the fabric. There's a wound at
+the guest's throat that Jim's brain refuses to fully render for a second, the visual arriving in
+pieces rather than all at once. Earl's eyes are wrong — pale and flat and lit with something that
+has nothing to do with recognition. His jaw hangs at an angle that jaws don't hang at, unhinged
+and loose like the muscle holding it in place gave up hours ago.
 
-> **JIM:** *"...Jesus Christ."*
+He looks at Jim. Jim doesn't move.
 
-Earl rises from the body. Slow. Stiff. Like a man learning to stand again.
+> **JIM:** *"Earl — Jesus, what the fuck—"*
+
+The rest of the sentence doesn't come. There isn't one. Earl rises from the body. Slow. Stiff.
+Like a man learning to stand again.
 
 ---
 
@@ -874,6 +944,11 @@ sound comes out of it that Jim will not be able to describe afterward.
 > **JIM:** *"...You've gotta be kidding me."*
 
 *First combat begins.*
+
+The bat connects on the first swing with a sound Jim's never heard a human body make — a wet,
+solid crack that should drop a man and doesn't. Earl staggers, rights himself, keeps coming. It
+takes three more full swings before he goes down and stays down — the last one caving in something
+that shouldn't cave that easily. Jim's hands are shaking on the grip. He doesn't let go of it.
 
 *Mid-combat — from the top of the staircase:*
 
@@ -905,9 +980,15 @@ and there is just the hiss of the engine and the rain pouring through the destro
 the slow creaking of something structural deciding whether or not to hold.
 
 Janeth had been three steps from the door. She is pinned between the pillar and the cruiser's
-crumpled hood. Her book lies on the wet carpet four feet away, soaking through, the pages going
-dark. She doesn't move. The front exit is gone. The emergency siren outside cuts off. Silence —
-real silence — drops over Ravenwood for just a moment.
+crumpled hood — bent at an angle a body isn't built to bend at, blood already spreading dark and
+fast across the front of her coat and pooling on the marble beneath her. Her book lies on the wet
+carpet four feet away, soaking through, the pages going dark. She doesn't move. The front exit is
+gone. The emergency siren outside cuts off. Silence — real silence — drops over Ravenwood for just
+a moment.
+
+> **JIM:** *"...No. No, no — "*
+
+He doesn't finish it either. There's nothing to finish it with.
 
 Then the police radio in the wrecked cruiser crackles.
 
@@ -1273,11 +1354,15 @@ It's **Gerta.**
 She's on her back, one arm still tangled in the strap of the bucket she was carrying earlier that
 same night. Whatever came for her didn't leave much time for her to understand what was happening —
 there's no barricade attempted, no sign of a struggle that went anywhere. Just the one location,
-and the aftermath.
+and the aftermath. Her uniform is torn open across the torso in a way that isn't a tear so much as
+an absence — a section of her simply isn't there anymore, the edges of it wrong in a way that
+doesn't read as claws or teeth.
 
 The wound pattern doesn't match Earl. Doesn't match anything Jim's fought so far. Something about
 it is wrong in a different, more specific way — less like teeth and hands, more like something
 closed around her all at once.
+
+> **JIM:** *"Oh — Jesus. Jesus Christ."*
 
 Jim crouches beside her for a moment. Doesn't touch her.
 
@@ -1436,9 +1521,15 @@ Jim crosses the lobby again. The cruiser. The rain. The destroyed entrance. He m
 of the cruiser — and the passenger door explodes outward. No warning. No sound from inside. Just
 the door hitting its hinges hard and a shape coming through it fast — a police officer, uniform
 dark with blood, one eye clouded completely white, moving with the same locked-in wrongness as
-Earl but faster, more recent, less settled into it. Jim swings the bat.
+Earl but faster, more recent, less settled into it.
 
-*Combat.*
+> **JIM:** *"Son of a—"*
+
+He swings the bat.
+
+*Combat.* It's faster and meaner than Earl was, and it costs Jim a torn sleeve and a graze along
+the forearm before it goes down for good, blood — his and the officer's both — spattered across
+the wrecked reception counter.
 
 After. Jim crouches beside the officer. He looks at the face for a moment. The parking lot. The
 stopped vehicle. The officer who told him to get inside.
@@ -1616,6 +1707,13 @@ of before it starts. A shoulder charge that covers ground faster than the rest o
 suggests is possible. The recovery windows are real. The attacks have weight — they commit the
 full mass of him to the motion and then they have to stop. That's when Jim moves.
 
+A glancing hit from the mutated arm still throws Jim off his feet and into the fountain's edge
+hard enough to knock the air out of him.
+
+> **JIM:** *"—Christ! Okay. Okay, come on then."*
+
+He's back up before the next swing.
+
 ### Phase 3 — Enraged
 
 At some threshold the patience breaks. The deliberate stalking becomes something more reckless —
@@ -1624,11 +1722,16 @@ movement that stops caring about obstacles and goes through them instead. The ge
 flicker. The courtyard dims and blazes in uneven intervals. Lightning overhead. The rain driving
 sideways now. Jim doesn't stop moving.
 
+The last exchange is close range — the handgun emptied point-blank into the exposed, distended
+mass of his throat and chest until whatever's holding him upright finally gives out. He goes down
+hard, the impact splitting stone, and doesn't get back up.
+
 *The Caretaker goes down.*
 
 The courtyard falls quiet except for the generator and the rain. Jim stands in the middle of the
-wet stone and the overturned furniture of the fight and breathes. He looks at what's left of the
-Caretaker. He doesn't look long.
+wet stone and the overturned furniture of the fight, breathing hard, blood — some of it his, most
+of it not — running off him in the downpour. He looks at what's left of the Caretaker. He doesn't
+look long.
 
 *The player may now explore the maintenance shed. Optional supplies, ammunition, and healing items
 are available.*

@@ -66,9 +66,10 @@ establishes an important rule for the Maw: **seeing it does not necessarily mean
 much of the hotel sequence, the player is being hunted by something they cannot reliably pursue.
 
 > *Continuity note: Cindy's earlier, pre-outbreak line to Jim — "You hear that scratching?" (see
-> [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 19) — reads, in hindsight, as the first hint that
-> something (the Maw) was already active in the hotel's walls before the outbreak fully began.
-> Not an explicit confirmation, just a consistent, intentional-feeling echo.*
+> [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 14, the
+> optional "Cindy's Door" scene) — reads, in hindsight, as the first hint that something (the
+> Maw) was already active in the hotel's walls before the outbreak fully began. Not an explicit
+> confirmation, just a consistent, intentional-feeling echo.*
 
 ## Gameplay Role / Combat Role
 
@@ -91,7 +92,8 @@ make it closer to a recurring mini-boss predator than a standard enemy.
 ## Encounter Progression
 
 1. **Pre-outbreak foreshadowing (unconfirmed, retroactive)** — Cindy Sweets mentions hearing
-   "scratching" in the walls before the outbreak begins (Scene 19).
+   "scratching" in the walls before the outbreak begins, during the optional "Cindy's Door" scene
+   (Scene 14).
 2. **Room 106 (Cindy Sweets' abduction)** — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 35. The
    Maw's most notable confirmed encounter: seizes Cindy from the hallway, drags her back inside,
    blood spreads beneath the door, the creature disappears. No direct fight.
@@ -104,7 +106,7 @@ it is not yet decided — see Open Design Gaps below.
 
 ## Major Appearances
 
-- [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 19 (foreshadowing, retroactive), 35, and 37.
+- [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 14 (foreshadowing, retroactive, optional), 35, and 37.
 
 ## Story Significance
 

@@ -50,7 +50,11 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 - **Free Exploration.** The player can freely revisit and talk to Cindy, the Daltons, Janeth, and
   Earl (all optional, deepening characterization before the outbreak), and explore the **Main
   Bar** (unattended), the **Recreation Room** (pool table, dart board, empty), and find **The Red
-  Room** speakeasy lounge locked behind a "PRIVATE EVENT CLOSED" placard. A hallway glimpse of
+  Room** speakeasy lounge locked behind a "PRIVATE EVENT CLOSED" placard. The player can also
+  proactively knock on **Room 106** any time before going to bed — Cindy answers in her robe for
+  an optional, genuinely flirtatious scene that settles into an easier rapport once she learns
+  he's married, before the mood shifts into her mentioning hearing "scratching" in the walls (an
+  early, deniable hint of The Maw). A hallway glimpse of
   the hotel maid **Gerta** pushing a cleaning cart is a brief, ordinary, non-interactive beat.
 - **Room 104.** Jim settles into his room (double bed, TV, rotary phone, small bathroom). Optional
   interactions include looking out the window (briefly seeing something move near the

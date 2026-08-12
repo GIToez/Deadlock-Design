@@ -37,7 +37,7 @@ death isn't just a plot device.
 ## Important Scenes
 
 - Lobby introduction / optional dialogue — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 5, 8.
-- Second Floor Hallway (found terrified) — Scene 18.
+- Second Floor Hallway (found terrified) — Scene 19.
 - First Combat (calls out from the stairs, then breaks and runs) — Scene 22.
 - Police Cruiser Crash / her death — Scene 23.
 
