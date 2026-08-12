@@ -1372,8 +1372,61 @@ keeps going past where smiles stop. She rises from the stage.
 
 *Optional combat encounter begins. The jazz continues throughout.*
 
-*After the encounter — optional supplies and documents available in the Red Room and stage area
-(see Key Items / Documents in [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md)).*
+*After the encounter — optional supplies and two documents are available backstage.*
+
+### Optional interaction — booking slip
+
+Pinned to the wall of the small backstage area behind the stage, slightly curled at the corners.
+A stamp in the top right corner reads: **RAVENWOOD HOTEL — ENTERTAINMENT BOOKING.**
+
+*Interaction prompt: [READ BOOKING SLIP]*
+
+> **RAVENWOOD HOTEL**
+>
+> **RED ROOM LOUNGE — ENTERTAINMENT BOOKING**
+>
+> Performer: Della M.
+>
+> Date: Friday — Saturday weekly residency
+>
+> Set times: 9:00 PM / 11:00 PM
+>
+> Rate: Agreed upon — see attached
+>
+> Notes: Della has been with us four years running. No issues. Guests love her. Earl says keep the
+> booking open-ended until she says otherwise.
+>
+> — H. Garnett, Events & Hospitality
+
+### Optional interaction — personal note
+
+Folded on the small dressing table behind the stage beside a compact mirror and a half-finished
+glass of water. Written in a woman's handwriting — neat but rushed toward the end, like she was
+writing quickly or her hands weren't cooperating.
+
+*Interaction prompt: [READ NOTE]*
+
+> Tried calling Mama again before the first set. Lines are all down or busy.
+>
+> Something is wrong in town tonight. I could feel it before I even came in.
+>
+> Nobody showed up for the eleven o'clock. Not one person.
+>
+> Earl came back to check on me around midnight — said stay put, stay in the building, don't go
+> outside for any reason. Wouldn't tell me why. His face was —
+>
+> I don't feel right. Throat's been hurting since the second set.
+>
+> Probably nothing.
+>
+> Probably just nerves.
+>
+> If anyone finds this — my name is Della Marsh. I live on Cutter Road, the yellow house at the
+> end.
+>
+> Please tell my mother I was thinking about her.
+
+Jim sets the note down carefully on the dressing table. He doesn't say anything.
 
 ---
 
@@ -1381,9 +1434,9 @@ keeps going past where smiles stop. She rises from the stage.
 
 Jim crosses the lobby again. The cruiser. The rain. The destroyed entrance. He moves past the hood
 of the cruiser — and the passenger door explodes outward. No warning. No sound from inside. Just
-the door hitting its hinges hard and a shape coming through it fast — a police officer (**Dale
-Pruitt**), uniform dark with blood, one eye clouded completely white, moving with the same
-locked-in wrongness as Earl but faster, more recent, less settled into it. Jim swings the bat.
+the door hitting its hinges hard and a shape coming through it fast — a police officer, uniform
+dark with blood, one eye clouded completely white, moving with the same locked-in wrongness as
+Earl but faster, more recent, less settled into it. Jim swings the bat.
 
 *Combat.*
 
@@ -1402,8 +1455,89 @@ enough that it doesn't require thought. Chamber. Safety. Weight.
 
 > **JIM:** *"About damn time."*
 
-> *Design note: Pruitt also carries a field notepad and a printed dispatch advisory — full text in
-> [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md).*
+### Optional interaction — field notepad
+
+A standard police field notepad, spiral bound, pocket sized, worn at the corners, sits in the
+officer's breast pocket. The cover is stamped **OFFICER D. PRUITT — RAVENWOOD PD** — the first (and
+only) place his name is actually confirmed on the page, rather than assumed.
+
+*Interaction prompt: [READ NOTEPAD]*
+
+Most pages are routine — traffic stops, a noise complaint, a welfare check on Elm Street that
+turned out to be nothing. The last entry is different. The handwriting starts neat and gets worse
+as it goes.
+
+> **11:14 PM**
+>
+> Traffic stop — Highway 13 southbound approaching Ravenwood exit.
+>
+> Vehicle: Blue sedan, partial plate — RW4 —
+>
+> Reason for stop: Severe erratic driving. Nearly left the road twice before I caught up.
+>
+> Driver: Female. Adult. No ID presented.
+>
+> Would not make eye contact.
+>
+> Unresponsive to verbal commands.
+>
+> Possible DUI or medical episode.
+>
+> Requested backup and medical at 11:19.
+>
+> Dispatch acknowledged. Said units were — dispatch said something I didn't catch. Lot of
+> interference on the radio tonight.
+>
+> Driver became agitated when I approached the window a second time.
+>
+> Something wrong with her eyes.
+>
+> I don't know how to write what I mean by that so I'm just writing it —
+>
+> something was wrong with her eyes.
+>
+> Pulled her out of the vehicle at 11:34.
+>
+> She —
+>
+> Requesting immediate medical. Requesting immediate —
+
+The entry ends mid-sentence. The next page is blank.
+
+### Optional interaction — printed dispatch note
+
+A small folded printout, the kind that comes off a patrol car's onboard system, creased like it
+was shoved into a pocket fast.
+
+*Interaction prompt: [READ DISPATCH NOTE]*
+
+> **RAVENWOOD PD — DISPATCH ADVISORY**
+>
+> **TIME: 11:52 PM**
+>
+> ALL UNITS — Effective immediately.
+>
+> County has declared a Class 4 public health emergency.
+>
+> Civilian quarantine perimeter being established along Highway 13 and Route 9 north corridor.
+>
+> Do not engage civilians exhibiting aggressive behavioral symptoms without backup present.
+>
+> Do not attempt medical intervention without PPE.
+>
+> Await further instruction from command.
+>
+> DEADLOCK PROTOCOL standing by pending county authorization.
+>
+> — Ravenwood PD Dispatch
+
+Jim reads the dispatch note twice. Folds it. Puts it in his pocket.
+
+> **JIM:** *"Deadlock Protocol."*
+
+He looks down at the officer's notepad, the name still visible on the cover.
+
+> **JIM:** *"...You had no idea what you were pulling over, did you, Pruitt."*
 
 ---
 
@@ -1496,8 +1630,52 @@ The courtyard falls quiet except for the generator and the rain. Jim stands in t
 wet stone and the overturned furniture of the fight and breathes. He looks at what's left of the
 Caretaker. He doesn't look long.
 
-*The player may now explore the maintenance shed. Optional supplies, ammunition, healing items,
-and Roy Bullock's maintenance log (see [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md)) are available.*
+*The player may now explore the maintenance shed. Optional supplies, ammunition, and healing items
+are available.*
+
+### Optional interaction — the maintenance log
+
+Pinned to a corkboard above a workbench covered in tools and hardware. The shed smells of motor
+oil and rain-soaked wood. A single battery lantern on the workbench still burns faintly. A
+spiral-bound maintenance log — the kind with pre-printed date fields — has been filled in by hand
+for years. The last several entries are visible. The handwriting is plain and unhurried, a man who
+wrote the same kinds of things every day and never expected anyone else to read them.
+
+*Interaction prompt: [READ LOG]*
+
+> **MON** — Fixed east wing ice machine again. Third time this year. Told Earl we need a new one.
+> Earl said put in a request. Put in a request.
+>
+> **TUE** — Replaced two bulbs in the second floor west hallway. One of them was fine actually.
+> Replaced it anyway because I was already up there.
+>
+> **WED** — Generator in the courtyard is low on fuel. Topped it off. Noted the shed doors are
+> warping on the left hinge — humidity probably. Will re-hang next week if the weather breaks.
+>
+> **THU** — Noise complaint from Room 118 about pipes. Checked the pipes. Pipes are fine. Told
+> Earl. Earl told the guests. Guests didn't believe him. Nobody ever believes him.
+>
+> **FRI** — Storm coming in off the ridge. Battened down the courtyard furniture. Checked the
+> generator again. Checked the gate mechanism on the north wall. Everything holding.
+>
+> Heard sirens around midnight. Lot of them.
+>
+> Came outside to check.
+>
+> Something in the air tonight that I don't have a word for.
+>
+> Going to lock up the shed and stay inside until morning.
+>
+> Probably nothing.
+>
+> — Roy
+
+The log ends there. The pen is still clipped to the last page. Jim closes it and sets it back on
+the workbench.
+
+> *Design note: this is the only place the Caretaker's real name — Roy (Bullock, per
+> [`Creatures/The_Caretaker.md`](../Creatures/The_Caretaker.md); surname not shown on the page
+> itself) — is confirmed on-screen.*
 
 ---
 

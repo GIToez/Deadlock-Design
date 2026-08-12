@@ -226,6 +226,9 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   at the breaker panel to restore West Wing power.
 - **Handgun (+ ammunition)** — the game's first firearm, taken from Officer Pruitt inside the
   crashed cruiser.
+- **Laundry-Room Master Key** (optional) — found on Gerta's body; a minor convenience item for
+  any staff-only doors not already opened by another route. No mandatory content is gated behind
+  it.
 
 ### Documents (full text written — see [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md) for verbatim content)
 
@@ -237,13 +240,17 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 - Maintenance warning (West Wing office) — do not remove the fuse except on power failure.
 - VERN terminal label (Manager's Office) — "RAVENWOOD MUNICIPAL EMERGENCY NETWORK / VANGUARD
   EMERGENCY RESPONSE NODE — TERMINAL 07."
-- **Della Marsh's booking slip and personal note** (Red Room backstage) — establishes her as a
-  real person (four-year residency; a note to her mother, written as she began feeling unwell).
-- **Roy Bullock's maintenance log** (courtyard shed, post-Caretaker fight) — years of routine
-  entries ending with him noticing sirens and "something in the air" the night of the outbreak.
-- **Officer Pruitt's field notepad and a printed dispatch advisory** (found on his body) — his own
-  account of the traffic stop that exposed him, and Ravenwood PD's Class 4 public-health-emergency
-  advisory referencing "Deadlock Protocol" standing by pending authorization.
+- **Della Marsh's booking slip and personal note** (Red Room backstage, Scene 40) — establishes
+  her as a real person (four-year residency; a note to her mother, written as she began feeling
+  unwell).
+- **Roy Bullock's maintenance log** (courtyard shed, post-Caretaker fight, Scene 44) — years of
+  routine entries ending with him noticing sirens and "something in the air" the night of the
+  outbreak; the only place his name ("Roy") is confirmed on-screen.
+- **Officer Pruitt's field notepad and a printed dispatch advisory** (found on his body, Scene 41)
+  — his own account of the traffic stop that exposed him, and Ravenwood PD's Class 4
+  public-health-emergency advisory referencing "Deadlock Protocol" standing by pending
+  authorization. The notepad's cover ("OFFICER D. PRUITT — RAVENWOOD PD") is the only place his
+  full name is confirmed on-screen.
 
 ## Major Scripted Events
 
