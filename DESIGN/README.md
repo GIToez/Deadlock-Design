@@ -34,9 +34,24 @@ When working on Deadlock story content:
 12. This is a survival-horror **video game**, not a novel — story development should consider
     gameplay, exploration, pacing, puzzles, encounters, and player agency.
 
+## Content Rating & Tone
+
+13. **Deadlock Protocol is a mature-rated (M) game. Do not self-censor by default.** Explicit
+    violence, blood, and gore; strong profanity in dialogue; and nudity are all permitted where
+    the scene calls for it — this is a survival-horror game, not a "teen"-rated one, and
+    sanitized reactions to horrific things read as less real, not more tasteful. This applies to
+    all future scene and dialogue writing (new districts, Chapter 3, the Epilogue, and any
+    revisions).
+    - This does not mean escalating content gratuitously for its own sake — it means not
+      dialing back intensity, language, or physical detail that the scene already calls for.
+    - Existing "locked" material (`Scripts/Chapter_1_One_Night_Only.md`) was written before this
+      direction was given and reads comparatively restrained (e.g. Jim's strongest reaction on
+      the page is "...Jesus Christ."). Per rule 10, it hasn't been rewritten to match — ask if you
+      want a punch-up pass on it specifically.
+
 ## Repository / Workflow Rules
 
-13. **Never create a new branch for Deadlock design work unless explicitly told to.** All design
+14. **Never create a new branch for Deadlock design work unless explicitly told to.** All design
     documentation changes should continue landing on the existing working branch/PR
     (`cursor/design-docs-structure-e231` →
     [PR #1](https://github.com/GIToez/Deadlock-Design/pull/1)) rather than spinning up a fresh

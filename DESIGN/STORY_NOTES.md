@@ -57,6 +57,15 @@
   storage door behind the Main Bar. See [`Creatures/The_Maw.md`](Creatures/The_Maw.md), [`Characters/Gerta.md`](Characters/Gerta.md), and
   [`Scripts/Chapter_1_One_Night_Only.md`](Scripts/Chapter_1_One_Night_Only.md) (new Scene 37; all scenes after it renumbered +1).
 
+## Direction Log
+
+- **Content rating confirmed as mature (M) — 2026-08-12.** Explicit violence/gore, strong
+  profanity, and nudity are all permitted; writing should not self-censor by default going
+  forward. Locked as rule 13 in [`README.md`](README.md). Existing Chapter 1 script was written
+  before this direction and reads comparatively restrained — not rewritten retroactively per the
+  "preserve existing material unless a rewrite is specifically requested" rule, but flagged here
+  in case a punch-up pass is wanted later.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /

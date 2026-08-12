@@ -21,6 +21,10 @@ and the entire game takes place over the course of one night.
 Core themes: isolation, corporate conspiracy, civil collapse, survival against overwhelming
 infection, and the gradual discovery of a hidden truth beneath Ravenwood.
 
+**Content rating:** mature (M) — graphic violence/gore, strong profanity, and nudity are all
+permitted where a scene calls for it; writing should not self-censor by default. See
+[`README.md`](README.md) → "Content Rating & Tone."
+
 *(See [`CANON.md`](CANON.md) for locked facts underpinning this premise.)*
 
 ## Acts / Chapters
