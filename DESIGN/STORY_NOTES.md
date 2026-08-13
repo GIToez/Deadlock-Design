@@ -254,6 +254,23 @@
   document yet. The one specific named-in-concept character still pending is the conditional
   Police Station survivor officer (see `CANON.md` → "Survivor System") — still an unnamed
   placeholder, which is expected since the Police Station itself hasn't been written yet.
+- **Sarah/Jim call dialogue fixed (2026-08-13).** Two issues flagged by the project owner while
+  reviewing Chapter 1: (1) neither of the two Sarah phone calls (Scene 1, Scene 3) ever included an
+  "I love you" — added to both, and given real weight in Scene 3 specifically since that's their
+  actual last real-time contact before Deadlock Protocol cuts communications until the Epilogue;
+  (2) a logic mismatch where Sarah says "text me when you stop" in Scene 1 but then *calls* Jim in
+  Scene 3 rather than receiving a text — fixed by adding a short exchange in Scene 3 where Sarah
+  explicitly calls this out as a known pattern ("You always say that. Then twenty minutes go by and
+  I end up calling you anyway. I've started skipping the twenty minutes."), turning what was a
+  continuity gap into an established character trait instead.
+- **Chapter 2 opening: Cindy's blood trail and robe (2026-08-13).** New content, approved directly
+  by the project owner, continuing (not resolving) Cindy Sweets' unresolved Chapter 1 thread: a
+  blood trail starts right at the courtyard gate as Jim steps onto the street (Scene 1), runs
+  roughly parallel to his path, thins out, and — rather than leading directly to the park's south
+  gate — goes wide of it and ends at her torn, empty, hotel-issue robe in the hedges along the
+  fence line (end of Scene 3, right before the park). No body, no further trail. Explicitly
+  designed as an escalation of dread, not a resolution — see the "Cindy Sweets' fate" entry above.
+  Updated `Characters/Cindy_Sweets.md` and `Locations/Memorial_Park.md` to reflect it.
 - **Founders Memorial plaque redesigned as a circular medallion (2026-08-13).** The project owner
   shared a rough reference image of the emblem/plaque and asked for an improved version. This
   changed the physical shape from what `CANON.md` previously said (a flat plaque that the five
@@ -306,7 +323,11 @@
 - **Cindy Sweets' fate** after her Room 106 abduction — her abductor is now identified (**The
   Maw** — see below), but what actually happened to her (alive / dead / turned / something else)
   remains explicitly undecided per the project owner. Do not infer a resolution from the Gerta
-  reveal — they are two separate open/closed questions.
+  reveal — they are two separate open/closed questions. **Update (2026-08-13):** Chapter 2's
+  opening street crossing adds a blood trail and her torn, empty robe near Memorial Park's south
+  gate (see [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scene 3) —
+  deliberately more dread, not a resolution. Still no body, still nothing confirming alive, dead,
+  or turned.
 - **Maria & Richard Dalton's fate** — per [`AI.json`](AI.json), confirmed to be resolved later at **St.
   Dymphna Hospital** once that chapter is written, but the specific outcome is not yet decided.
 - **"Something near the tree line" / "something near the cruiser"** (the two lightning-flash

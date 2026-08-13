@@ -122,6 +122,10 @@ Static briefly swallows the line.
 >
 > **SARAH:** *"Not until you text me."*
 >
+> **JIM:** *"Love you."*
+>
+> **SARAH:** *"Love you too. Text me."*
+>
 > **JIM:** *"Goodnight Sarah."*
 >
 > **SARAH:** *"Goodnight."*
@@ -237,6 +241,15 @@ rain blows sideways off the edge and soaks the left side of him anyway. He answe
 > **SARAH:** *"That's either charming or a tetanus risk."*
 >
 > **JIM:** *"Probably both."*
+>
+> **SARAH:** *"You said you'd text."*
+>
+> **JIM:** *"I was getting to it."*
+>
+> **SARAH:** *"You always say that. Then twenty minutes go by and I end up calling you anyway. I've
+> started skipping the twenty minutes."*
+>
+> **JIM:** *"...That's fair."*
 
 Behind him, the police lights keep their slow red-and-blue pulse across the wet lot — visible as
 color and glow rather than detail from this distance.
@@ -275,6 +288,12 @@ Just that. The way she says it when she's decided not to push.
 > **JIM:** *"You called me."*
 >
 > **SARAH:** *"...Goodnight Jim."*
+
+A beat. Long enough that she waits for it, because she always does.
+
+> **JIM:** *"Love you."*
+>
+> **SARAH:** *"Love you too. Get some sleep."*
 >
 > **JIM:** *"Night."*
 

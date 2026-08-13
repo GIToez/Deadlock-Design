@@ -20,6 +20,12 @@ player returns to constantly between districts to save, restock, and fast-travel
   SYSTEM — ACTIVE — AUTHORIZATION REQUIRED" panel denies him), forcing a short **linear** street
   crossing straight ahead to the park. A lone standard infected ("shambler") is encountered along
   the way — avoidable or engageable, player's choice.
+- **A blood trail**, starting right at the courtyard gate, runs roughly parallel to Jim's path
+  toward the park before thinning out and going wide of the south gate itself, ending at
+  **[Cindy Sweets](../Characters/Cindy_Sweets.md)'s** torn, empty, hotel-issue robe in the hedges
+  along the outer fence. No body, no further trail — this continues her unresolved Chapter 1
+  thread without answering it. See
+  [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 3.
 - The park's south gate stands open beneath a stone archway reading "MEMORIAL PARK — EST. 1891."
   Jim enters.
 

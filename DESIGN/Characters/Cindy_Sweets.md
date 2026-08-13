@@ -53,11 +53,14 @@ sound from inside but doesn't see her → later, once West Wing power is restore
 Room 106 calling for help and is violently dragged back inside before Jim can reach her; the door
 slams. Whatever grabbed her has since been identified — per explicit direction from the project
 owner (2026-08-12) — as **The Maw**, the same presence later confirmed to have killed Gerta in the
-hotel Laundry Room (see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md)). **Cindy's own ultimate
-fate remains explicitly unresolved**, however — identifying her abductor is not the same as
-resolving what happened to her. Per [`AI.json`](../AI.json), this was left open on purpose ("we
-haven't gotten that far in the story yet"), not simply unwritten. Do not invent a resolution for
-her without explicit approval.
+hotel Laundry Room (see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md)). Chapter 2 continues the
+thread without resolving it: crossing the street from the courtyard to Memorial Park, Jim follows a
+blood trail leading away from the hotel that thins out near the park's south gate, ending at her
+torn, empty, hotel-issue robe in the hedges along the fence line — no body, no further trail. **Her
+own ultimate fate remains explicitly unresolved**, however — identifying her abductor, and now this
+trail, is not the same as resolving what happened to her. Per [`AI.json`](../AI.json), this was
+left open on purpose ("we haven't gotten that far in the story yet"), not simply unwritten. Do not
+invent a resolution for her without explicit approval.
 
 ## Important Scenes
 
@@ -66,6 +69,9 @@ her without explicit approval.
 - Room 106 jumpscare/abduction — Scene 29.
 - (Not her scene, but relevant) Gerta's death, confirming the same creature — **The Maw** — is
   responsible for both incidents — Scene 33.
+- The blood trail and her torn, empty robe found along the street to Memorial Park —
+  [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 3. Continues the
+  thread; does not resolve it.
 
 ## Dialogue Characteristics
 
@@ -79,9 +85,12 @@ scratching?"*).
 
 See [`STORY_NOTES.md`](../STORY_NOTES.md) → "Still-Open Questions." Her fate is explicitly
 undecided as of the current material — treat as an open thread, not a mystery with a hidden
-answer waiting to be inferred.
+answer waiting to be inferred. Locked: the Chapter 2 street-crossing blood trail leads to her torn,
+empty robe near Memorial Park's south gate, confirming she (or her robe, at least) was carried this
+far from the hotel — this is new information, not a resolution.
 
 ## Unresolved Ideas
 
-- What actually happens to her after Room 106's door slams. Not to be invented without explicit
-  approval — flagged clearly in [`STORY_NOTES.md`](../STORY_NOTES.md).
+- What actually happens to her after Room 106's door slams, and after the trail found in Chapter 2
+  ends. Not to be invented without explicit approval — flagged clearly in
+  [`STORY_NOTES.md`](../STORY_NOTES.md).

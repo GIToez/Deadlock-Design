@@ -24,6 +24,16 @@ distance before dying.*
 
 Jim stops just outside the gate. Takes it in. The street runs east to west in front of him.
 
+At his feet, right at the threshold of the gate — a dark stain smears across the wet pavement,
+thinning under the rain but not gone yet. Not his. It leads away from the hotel wall, roughly
+parallel to the direction he needs to go, and disappears into the dark ahead. Jim looks at it a
+second longer than he means to.
+
+> **JIM:** *"...Okay."*
+
+He doesn't say anything else about it. He starts walking, and without quite deciding to, he starts
+following it.
+
 To his left: a row of parked vehicles sits abandoned along the curb. One has its doors hanging
 open. A purse lies in the gutter beside it — contents scattered across the wet asphalt.
 
@@ -136,6 +146,39 @@ Turns slowly toward Jim. It sees him.
 
 > *Design note: this is the game's first confirmed on-screen depiction of a standard "shambler"
 > infected — see [`CANON.md`](../CANON.md).*
+
+The trail thins as it goes — rain doing what rain does to anything it's given enough time
+with — and by now it's little more than scattered dark spots, easy to miss if Jim wasn't already
+looking for them. It doesn't lead to the park gate. It goes wide of the archway, angling off toward
+a stretch of low hedges along the outer fence line, and stops.
+
+There, half-flattened into the wet grass — a robe. Hotel-issue, pale, soaked through and gone
+heavy with rain. Torn open down one side, the fabric pulled rather than cut, like something forced
+its way out of it or forced its way in. Empty.
+
+Jim crouches beside it. Doesn't touch it, not at first.
+
+> **JIM:** *"...Cindy."*
+
+He says it quietly — not a question, not really an announcement either. More like confirming
+something to himself that he already suspected the moment he saw the color of it. No body. No
+trail continuing past this point — whatever went this way either doubled back toward the street or
+stopped needing the ground under it. Jim stays crouched there a beat longer than the rain gives
+him any reason to.
+
+> **JIM:** *"I'm sorry."*
+
+He doesn't know what exactly he's apologizing for. He stands up anyway, leaves the robe where it
+is, and looks toward the park gate a few dozen feet ahead.
+
+> *Design/story note: this deliberately does NOT resolve Cindy Sweets' fate — see
+> [`CANON.md`](../CANON.md) and [`STORY_NOTES.md`](../STORY_NOTES.md), where it remains an
+> explicitly open question. This is an escalation of dread, not a resolution: confirmation that
+> whatever took her came this way, with no body and no further trail to say what happened after.
+> The robe is identifiable as hers by design — hotel-issue, matching both her Scene 14
+> characterization and the Scene 29 abduction in
+> [`Chapter_1_One_Night_Only.md`](Chapter_1_One_Night_Only.md) — but nothing here should be read as
+> confirming she's dead, alive, or turned.*
 
 ---
 
