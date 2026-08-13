@@ -124,13 +124,25 @@
   everyday-carry, not a pickup. Locked in [`CANON.md`](CANON.md) → "Player Starting Equipment" and
   [`Characters/Jim_Mercer.md`](Characters/Jim_Mercer.md). Chapter 2's police-flashlight beat (Scene
   2) was changed from an `ITEM ACQUIRED: FLASHLIGHT` pickup to `ITEM ACQUIRED: FLASHLIGHT
-  BATTERIES` instead, since he already has his own. Two other items surfaced by the same audit are
-  still open, not yet decided: (1) Chapter 1's combat roster is very sparse for its length — only
-  Earl, Officer Pruitt, and the optional Della Marsh fight before the Caretaker boss, with no
-  generic Shambler encounters (those start in Chapter 2) — flagging in case that's worth changing
-  rather than confirmed intentional; (2) no standardized healing/consumable item name exists yet
-  across chapters (Chapter 1 says "bottled water," Chapter 2 says "basic medical supplies") — likely
-  a systems-doc concern rather than a story one.
+  BATTERIES` instead, since he already has his own.
+- **Chapter 1 combat/loot pass (2026-08-13), resolving the other two audit items.** Approved
+  directly by the project owner:
+  - **Shamblers now populate the hotel itself**, not just referenced by name (retconning the
+    earlier "not fought until Chapter 2" design). Seven placed throughout the East/West Wing
+    power-restoration loop — second-floor east hallway, Dining Hall, Utility Room (timed to the
+    screwdriver pickup), Lounge/Recreation, Main Bar, Boiler Room, and the West Wing Service
+    Corridor — deliberately not in every room, so the placement stays unpredictable. Kept clear of
+    the emotionally heavier beats (Gerta, Cindy, both fuse pickups) and the Red Room. See
+    [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md) → "Creatures Encountered" and
+    [`Creatures/Shambler.md`](Creatures/Shambler.md) for the full list.
+  - **Healing items standardized as "Medkit"** across both chapters (replacing the ad hoc "bottled
+    water" / "basic medical supplies" phrasing). Four placed in Chapter 1: second-floor east
+    hallway suitcase, East Wing Pantry, West Wing Liquor Storage, West Wing Staff Room locker.
+  - **Handgun Ammunition** is now also findable before the handgun itself (Utility Room supply
+    drawer, West Wing Staff Room locker, Courtyard Security Office desk) — a deliberate
+    genre-standard pattern (stockpile ready for when the gun arrives); it loads into the handgun
+    automatically once Jim gets it from Officer Pruitt (Scene 41), so nothing is wasted or requires
+    justifying bullets with no gun to put them in.
 - The two reference screenshots (lobby layout + gameplay viewport combat shot) were shared inline
   in chat only — not saved to the repo, since inline chat images aren't accessible as real files.
   If they should become permanent reference material, they need to be pushed as actual files

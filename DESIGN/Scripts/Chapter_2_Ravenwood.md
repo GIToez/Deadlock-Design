@@ -575,8 +575,8 @@ the register.
 
 Jim lowers the note slowly. The jukebox quietly moves to the next song.
 
-*Available supplies: food items; basic medical supplies behind the counter; a flashlight in the
-lost-and-found box beneath the register.*
+*Available supplies: food items; a Medkit behind the counter; a flashlight in the lost-and-found
+box beneath the register.*
 
 ---
 

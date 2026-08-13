@@ -419,10 +419,23 @@ flowchart TD
   territorial stalker/ambush predator whose torso splits open into an enormous feeding mouth.
   Glimpsed only in fragments; responsible for dragging Cindy Sweets into Room 106 and for killing
   Gerta in the Laundry Room. Not directly fought in Chapter 1 by design.
-- The source material also references a base infected type by name in passing ("Unlike
-  shamblers: the caretaker is intelligent enough to pursue and corner the player aggressively"),
-  confirming a standard enemy type called a **[Shambler](../Creatures/Shambler.md)** exists in the
-  game (later confirmed directly on-screen in Chapter 2's street-crossing scene).
+- **[Shambler](../Creatures/Shambler.md)** — the game's standard base-tier infected, populating the
+  hotel throughout the East and West Wing power-restoration loops (not just referenced by name, as
+  originally written — see [`STORY_NOTES.md`](../STORY_NOTES.md) for that retcon). Deliberately not
+  in every room, to keep the placement unpredictable rather than a checklist. Confirmed placements,
+  one Shambler each unless noted:
+  - Second-floor east hallway (Scene 30, before the East Public Stairwell).
+  - Dining Hall (Scene 31).
+  - Utility Room (Scene 32) — ambushes the player right as the screwdriver is picked up.
+  - Lounge/Recreation (Scene 37, first room reached off the West Public Stairwell).
+  - Main Bar (Scene 37).
+  - Boiler Room (Scene 37).
+  - West Wing Service Corridor (Scene 39) — the last one in the hotel.
+  - Not placed in: Manager's Office, Kitchen, Pantry, Walk-in Freezer, Laundry/Linen Room, East
+    Wing Maintenance Closet, either guest-floor hallway near Room 106, the West Wing Maintenance
+    Room, Piano Area, Liquor Storage, Staff Room, or the Red Room — kept clear so the emotionally
+    heavier beats (Gerta, Cindy, the fuse pickups) and quieter breather rooms aren't crowded out by
+    combat.
 
 ## Puzzles
 
@@ -452,8 +465,19 @@ flowchart TD
   replacement).
 - **Auxiliary Fuse** — recovered from the West Wing Maintenance Room (guest floor, near the West
   Public Stairwell); installed at the breaker panel to restore West Wing power.
-- **Handgun (+ ammunition)** — the game's first firearm, taken from Officer Pruitt inside the
-  crashed cruiser.
+- **Handgun** — the game's first firearm, taken from Officer Pruitt inside the crashed cruiser
+  (Scene 41). Any Handgun Ammunition collected earlier automatically loads into it — see below.
+
+### Consumables (optional, non-mandatory)
+
+- **Medkit** — the game's standardized healing item name (see
+  [`STORY_NOTES.md`](../STORY_NOTES.md) for the naming decision). Found in: a guest-room suitcase
+  on the second-floor east hallway (Scene 30), the East Wing Pantry (Scene 31), the West Wing
+  Liquor Storage (Scene 37), and the West Wing Staff Room locker (Scene 37) — four total.
+- **Handgun Ammunition** — found before the handgun itself, which is a deliberate genre-standard
+  pattern (stockpile ready for when the gun arrives). Found in: the East Wing Utility Room supply
+  drawer (Scene 32), the West Wing Staff Room locker (Scene 37), and the Courtyard Security Office
+  desk drawer (Scene 40) — three total, plus what's taken directly from Officer Pruitt's body.
 
 ### Documents (full text written — see [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md) for verbatim content)
 

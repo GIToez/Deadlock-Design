@@ -1223,7 +1223,28 @@ Jim forces himself away from Room 106's door — nothing left to do here — and
 hallway toward the guest floor's east side.
 
 The second-floor east hallway is the same as he left it — quiet, torn up, doors he's already
-checked. At the far end, a door marked **EAST STAIRWELL — GUEST ACCESS** sits behind a keycard
+checked. Halfway down, one of the "checked" doors isn't as checked as he thought — a guest in a
+torn bathrobe rises off the floor where he'd been slumped against the baseboard, head snapping up
+too fast, and comes at Jim with the same stiff, locked-in wrongness as Earl.
+
+> **JIM:** *"—okay. Okay, come on then."*
+
+*Combat: Shambler.* Manageable one-on-one with the bat, same as Earl, but Jim doesn't get the
+luxury of surprise this time — he saw this one coming, but there'll be others he doesn't.
+
+> *Design note: this is the first of several Shamblers placed throughout the hotel from this point
+> on — see [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md) → "Creatures
+> Encountered" for the full distribution list. Not every room has one; that unpredictability is the
+> point.*
+
+### Optional — room search
+
+One of the guest rooms along this hallway has a suitcase thrown open across the bed, still half
+packed. Tucked inside a folded shirt — a small first-aid kit, unopened.
+
+*ITEM AVAILABLE (optional): Medkit.*
+
+At the far end, a door marked **EAST STAIRWELL — GUEST ACCESS** sits behind a keycard
 reader. The indicator light, dead a few minutes ago, now glows a steady green.
 
 *Interaction prompt: [OPEN STAIRWELL DOOR]*
@@ -1243,6 +1264,14 @@ the floor. One table near the center sits untouched, chairs squared, place setti
 lined up, like whatever came through here walked around it on purpose. Jim doesn't like that table
 more than he dislikes the mess.
 
+A chair scrapes against tile somewhere between the tables — the untouched one, the one Jim didn't
+like. A guest, still in evening clothes, unfolds up out of it too slowly to be anything but wrong,
+and comes around the table toward him.
+
+> **JIM:** *"Of course you were sitting there."*
+
+*Combat: Shambler.*
+
 Swinging double doors at the far end lead into the kitchen — stainless steel counters, hanging pots
 swaying slightly, a chopping block with a knife still driven into it at an angle nobody would
 choose on purpose. A radio on the counter plays static under a thin, looping tone that used to be a
@@ -1251,9 +1280,9 @@ station identifier.
 ### Optional — Pantry
 
 A door off the kitchen opens into a narrow pantry — canned goods, dry storage, a shelf knocked over
-across the floor. A case of bottled water sits mostly intact.
+across the floor. A small first-aid kit sits on the shelf beside a case of bottled water.
 
-*ITEM AVAILABLE (optional): bottled water — minor healing item.*
+*ITEM AVAILABLE (optional): Medkit.*
 
 ### Optional — Walk-in Freezer
 
@@ -1280,6 +1309,21 @@ tray like someone set it down mid-task and never came back for it.
 > *Design note: this is the screwdriver's only pickup — its only use is opening the fuse housing
 > at the breaker panel. See [`CANON.md`](../CANON.md) → "Retcons" for the earlier version of this
 > sequence.*
+
+His hand's barely off the pegboard when something shifts behind the water heater — a maintenance
+worker's coveralls, a shape that had been folded into the gap between the tank and the wall,
+unfolding now, faster than it has any business moving.
+
+> **JIM:** *"Jesus—!"*
+
+*Combat: Shambler.*
+
+### Optional — supply drawer
+
+A metal drawer under the workbench, unlocked. Inside, wrapped in a shop rag — a box of handgun
+rounds someone kept on hand for the property's old varmint rifle, long since sold off.
+
+*ITEM AVAILABLE (optional): Handgun Ammunition.*
 
 ---
 
@@ -1414,6 +1458,11 @@ coffee table on its side, a bookshelf emptied across the floor. A small upright 
 corner, untouched, oddly. Broken glass from somewhere overhead crunches underfoot as Jim crosses
 toward the sound of dripping liquid.
 
+One of the overturned couches isn't as empty as it looks — something pinned underneath it since the
+outbreak started finally works itself free, dragging itself upright against the armrest.
+
+*Combat: Shambler.*
+
 ### Optional — Piano
 
 Jim can sit at the bench and press a few keys — a handful of notes, slightly out of tune, that
@@ -1423,24 +1472,47 @@ don't resolve into anything. He doesn't linger.
 
 The bar Jim passed through hours ago pre-outbreak is barely lit now — a few overhead fixtures still
 flickering, the neon alcohol signs behind the counter buzzing unevenly. Broken glass covers the
-floor behind the bar. Several stools lie overturned. Behind the counter, a narrow door glows
-faintly red at the bottom — the Red Room, tucked in behind the bar like it always has been,
-undisturbed by anything that's happened tonight.
+floor behind the bar. Several stools lie overturned. Something moves behind the counter — the
+bartender, still in his vest, rising up from where he'd been slumped against the register.
+
+> **JIM:** *"Not what I meant by 'one for the road.'"*
+
+*Combat: Shambler.*
+
+Behind the counter, a narrow door glows faintly red at the bottom — the Red Room, tucked in behind
+the bar like it always has been, undisturbed by anything that's happened tonight.
 
 *The Red Room is accessible from here — see Scene 38 (optional).*
 
 ### Optional — Liquor Storage
 
 A small room off the bar, shelved bottles mostly intact, one shattered against the floor in a wide
-dark stain that isn't blood, just wasted whiskey. Nothing useful here beyond atmosphere.
+dark stain that isn't blood, just wasted whiskey. A half-used first-aid kit sits on a low shelf
+under the register receipts — bar first aid for cut glass and worse hangovers, before tonight.
+
+*ITEM AVAILABLE (optional): Medkit.*
 
 ### Boiler Room / Staff Room
 
 Deeper into the West Wing's back-of-house — the boiler room, loud with mechanical groaning even
-now, heat radiating off equipment that doesn't know the hotel's had a bad night. Past it, a cramped
-staff room — lockers, a coffee maker still plugged in, a bulletin board with a shift schedule
-nobody's going to work again. A door at the far end, marked **AUTHORIZED ACCESS**, leads deeper
-still.
+now, heat radiating off equipment that doesn't know the hotel's had a bad night. A figure crouched
+near the base of the boiler, motionless long enough that Jim almost walks past it, uncoils and comes
+up fast in the heat-haze and the noise.
+
+> **JIM:** *"—of course you were in here."*
+
+*Combat: Shambler.*
+
+Past it, a cramped staff room — lockers, a coffee maker still plugged in, a bulletin board with a
+shift schedule nobody's going to work again. One locker, tagged with a name badge (**SEC. — R.
+FENNIMORE**), isn't quite shut. Inside — a small first-aid kit and a half-box of handgun rounds, the
+kind of thing a night-shift security guard keeps around and never has to use, until now he isn't
+around to use them.
+
+*ITEM AVAILABLE (optional): Medkit.*
+*ITEM AVAILABLE (optional): Handgun Ammunition.*
+
+A door at the far end, marked **AUTHORIZED ACCESS**, leads deeper still.
 
 *Interaction prompt: [CONTINUE TO SERVICE CORRIDOR]*
 
@@ -1538,11 +1610,19 @@ Jim sets the note down carefully on the dressing table. He doesn't say anything.
 
 The door releases into a service corridor that runs along the back of the building. The walls here
 are bare — conduit and pipe runs exposed overhead, junction boxes at intervals, a fire extinguisher
-in its bracket that nobody has touched. A narrow window at the far end looks out over the hotel
-courtyard. Rain against the glass. Emergency lights mounted along the hotel's exterior walls
-throwing pale light across the courtyard pavement below. Beyond the courtyard — a heavy gate. And
-beyond that — the dark streets of Ravenwood. Jim looks at it for a moment. Then he finds the
-Security Office door at the end of the corridor.
+in its bracket that nobody has touched. Halfway down, one of the junction box alcoves is deep enough
+to hide a person — and does. It comes out low and fast, catching Jim off guard for the first time
+since Earl.
+
+> **JIM:** *"—where the hell do you people keep coming from."*
+
+*Combat: Shambler.* The last one in the hotel, though Jim has no way of knowing that yet.
+
+A narrow window at the far end looks out over the hotel courtyard. Rain against the glass.
+Emergency lights mounted along the hotel's exterior walls throwing pale light across the courtyard
+pavement below. Beyond the courtyard — a heavy gate. And beyond that — the dark streets of
+Ravenwood. Jim looks at it for a moment. Then he finds the Security Office door at the end of the
+corridor.
 
 > *Design note: this corridor — not the Red Room — is the route into the Courtyard Security
 > Office. See [`CANON.md`](../CANON.md) → "Retcons."*
@@ -1557,6 +1637,14 @@ hardware mounted to one wall. A window overlooking the courtyard directly. Most 
 show static. One flickers intermittently — the courtyard camera, grainy and rain-washed, showing
 the dark pavement below and the outline of the maintenance shed in the corner and the gate beyond.
 The gate is closed.
+
+### Optional — desk drawer
+
+A locked drawer under the security desk gives way with a little effort. Inside — a spare box of
+handgun rounds, standard department-issue, next to a logbook that hasn't been signed since before
+the outbreak.
+
+*ITEM AVAILABLE (optional): Handgun Ammunition.*
 
 Jim finds the courtyard access control panel mounted beside the desk.
 
@@ -1599,6 +1687,9 @@ Jim checks the weapon with the automatic efficiency of someone who has handled f
 enough that it doesn't require thought. Chamber. Safety. Weight.
 
 > **JIM:** *"About damn time."*
+
+*If the player collected ammunition earlier in the East or West Wing without a weapon to use it in,
+it loads into the handgun automatically here — no wasted pickups.*
 
 ### Optional interaction — field notepad
 
