@@ -128,6 +128,13 @@ hotel-chapter detail.
   control system; over generations the original purpose was forgotten and the emblems became
   civic artifacts, kept out of tradition. A short founding-record document at the Academy covers
   this in-world.
+- **Each emblem is a physical compass pointer.** Its angled/pointed edge aligns with the
+  park–district axis it belongs to — held up at the district where it's found, the point faces
+  back toward Memorial Park (this is how Jim first puts it together, at the Police Station: he
+  recognizes the shape from the guardhouse notes, sees the point aiming back toward the park, and
+  doesn't need it explained further). The same alignment works in reverse once emblems are
+  brought back to the statue: an incomplete pentagon's remaining gaps point outward toward the
+  districts still unrecovered. A deliberate, built-in hint system rather than a UI marker.
 - **Crest / district / slot reference table:**
 
 | Direction | Crest Name | Location | Statue Slot Label | Institution Symbol |
