@@ -7,6 +7,11 @@
 > real-world firearm analog — see [`Sentinel_9_Service_Pistol.md`](Sentinel_9_Service_Pistol.md)
 > and [`STORY_NOTES.md`](../STORY_NOTES.md) for the settled naming convention.
 
+![CRN-09 Decimator Beam — concept icon](../Assets/Reference/weapon_crn09_decimator_beam_concept.png)
+
+*AI-generated inventory-icon concept (2026-08-13), style-anchored to the real uploaded weapon
+sprites.*
+
 ## Description
 
 An unstable energy projector that fires a short-range beam of concentrated ionized particles.

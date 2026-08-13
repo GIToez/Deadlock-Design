@@ -146,8 +146,9 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   doesn't lead anywhere else.
 - **First Firearm.** Passing back through the lobby near the crashed cruiser, an infected police
   officer — **Officer Dale Pruitt**, the same officer seen at the start of the game — bursts from
-  the vehicle and attacks. Defeating him yields the game's **first firearm** (a handgun) and
-  ammunition, plus his field notepad and a printed dispatch advisory (see Key Items/Documents).
+  the vehicle and attacks. Defeating him yields the game's **first firearm** — a handgun, confirmed
+  (2026-08-13) as the **["Sentinel-9" Service Pistol](../Weapons/Sentinel_9_Service_Pistol.md)** —
+  and ammunition, plus his field notepad and a printed dispatch advisory (see Key Items/Documents).
 - **Hotel Courtyard / Fennimore's Body.** Jim exits the hotel into the courtyard for the first
   time — the player's first time outdoors since the outbreak began. The north gate's manual
   release is missing its crank handle. Near the gate, Jim finds the body of **Fennimore**, the
@@ -721,14 +722,19 @@ flowchart TD
 - **Manager's Key** — taken from Earl Whitaker's body; opens the staff hallway to the Manager's
   Office.
 - **Baseball Bat** — Jim's first weapon, grabbed from wrecked lobby furniture during the Earl
-  Whitaker attack.
+  Whitaker attack. Confirmed (2026-08-13) as the
+  **["Roadwrecker" Baseball Bat](../Weapons/Roadwrecker_Baseball_Bat.md)** — a wooden bat, not
+  aluminum as the source weapons document originally stated; corrected there to match this file's
+  and the script's "smooth worn wood" description.
 - **Screwdriver** — found in the East Wing's Utility Room; its only use is opening the fuse
   housing at the breaker panel (both to confirm the blown West Wing fuse and to install the
   replacement).
 - **Auxiliary Fuse** — recovered from the West Wing Maintenance Room (guest floor, near the West
   Public Stairwell); installed at the breaker panel to restore West Wing power.
 - **Handgun** — the game's first firearm, taken from Officer Pruitt inside the crashed cruiser
-  (Scene 41). Any Handgun Ammunition collected earlier automatically loads into it — see below.
+  (Scene 41). Confirmed (2026-08-13) as the
+  **["Sentinel-9" Service Pistol](../Weapons/Sentinel_9_Service_Pistol.md)**. Any Handgun
+  Ammunition collected earlier automatically loads into it — see below.
 - **Housekeeping Closet Key** — taken from Fennimore's body in the courtyard (Scene 42); opens the
   Housekeeping Closet on the guest floor's east hallway, between Rooms 114 and 116 (Scene 43).
 - **Gate Crank Handle** — found in the Housekeeping Closet (Scene 43); the manual override needed

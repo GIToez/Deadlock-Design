@@ -13,6 +13,11 @@
 > industrial machine gun salvaged from a Steelgate factory security cache." Flavor/grounding detail
 > only.
 
+![Steelstorm M60 — concept icon](../Assets/Reference/weapon_steelstorm_m60_concept.png)
+
+*AI-generated inventory-icon concept (2026-08-13), style-anchored to the real uploaded weapon
+sprites.*
+
 ## Description
 
 A belt-fed industrial machine gun salvaged from a Steelgate factory security cache. Exceptional

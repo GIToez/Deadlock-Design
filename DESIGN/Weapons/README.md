@@ -88,10 +88,16 @@ block below:
 - [`Titanbreaker_RLR7_Rocket_Launcher.md`](Titanbreaker_RLR7_Rocket_Launcher.md) — single-shot
   anti-bio-weapon rocket launcher.
 
-Only the Baseball Bat and the two shown firearms above (Sentinel-9, Ranger 870) currently have a
-confirmed placement in scripted content; the rest are documented per the source material but not
-yet placed in a specific chapter/district — see each file's "Story Placement" section and
-[`STORY_NOTES.md`](../STORY_NOTES.md) for the full list of open questions.
+Only the Baseball Bat and the two firearms above marked with a real sprite (Sentinel-9, Ranger
+870) currently have a **confirmed** placement in scripted content (approved 2026-08-13 — see each
+file's "Story Placement" section); the rest are documented per the source material but not yet
+placed in a specific chapter/district — see [`STORY_NOTES.md`](../STORY_NOTES.md) for the full
+list of open questions.
+
+**Concept art status (2026-08-13): every weapon now has art.** The four with a real in-game sprite
+are noted above; the remaining seven (Ironback .357, Steelstorm M60, Longview .308, Cleaverborn,
+Thunderlance, CRN-09, Titanbreaker RLR-7) each have an AI-generated inventory-icon concept,
+style-anchored to the real sprites.
 
 ## Convention: concept art for weapons
 

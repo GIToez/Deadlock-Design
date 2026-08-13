@@ -858,6 +858,31 @@ the next entry for the current final numbering (Scenes 22–40).
     asset filename) without confirming it's actually meaningful — ask or wait for confirmation
     before a full rename pass, since three of the four rename passes here turned out to be
     unnecessary churn once the full picture (calibers, the Samurai Edge precedent) was in.
+- **Three weapon placements confirmed; one material contradiction caught and fixed (2026-08-13).**
+  The project owner confirmed explicitly: the Sentinel-9 Service Pistol *is* Jim's handgun from
+  Officer Pruitt (Chapter 1); the Ranger 870 Pump Shotgun *is* the Police Station Armory's shotgun
+  (Chapter 2); and the Roadwrecker Baseball Bat *is* Jim's bat from the wrecked lobby furniture
+  (Chapter 1) — upgrading all three "Story Placement" sections from hedged proposals to confirmed
+  facts, and adding named cross-links from `Locations/Ravenwood_Hotel.md`,
+  `Locations/Police_Station.md`, and `Characters/Dale_Pruitt.md` back to their `Weapons/` files.
+  In the process, caught a real contradiction: the source weapons document calls the bat an
+  "Aluminum Baseball Bat," but the already-locked
+  [`Scripts/Chapter_1_One_Night_Only.md`](Scripts/Chapter_1_One_Night_Only.md) (Scene 22)
+  specifically describes "the smooth worn wood of a baseball bat." Per the project owner, the
+  locked script wins — corrected `Roadwrecker_Baseball_Bat.md` to describe a wooden bat (dropping
+  "Aluminum" from the title/Description; stats unchanged). The locked script prose itself was left
+  untouched (still says "a baseball bat" / "the handgun" / "the shotgun" generically) per the
+  project's "preserve existing material unless a rewrite is requested" rule — only the
+  higher-level `Locations/`/`Characters/`/`Weapons/` docs got the specific names.
+- **Concept art generated for the remaining 7 weapons (2026-08-13).** Generated inventory-icon
+  concepts for the Ironback .357 Revolver, Steelstorm M60, Longview .308 Sniper Rifle, Cleaverborn
+  Survival Sword, Thunderlance Railgun, CRN-09 Decimator Beam, and Titanbreaker RLR-7 Rocket
+  Launcher, style-anchored to the four real uploaded sprites. The Cleaverborn Survival Sword's
+  first two generation attempts both failed (HTTP 400, likely a content-safety trip on "machete"
+  phrasing combined with the baseball-bat sprite as a reference image); succeeded on a third
+  attempt after rephrasing to "camping machete-style tool" and dropping the reference image.
+  **Every weapon in [`Weapons/`](Weapons/README.md) now has concept art** — four real sprites, and
+  seven AI-generated icons.
 
 ## Still-Open Questions
 

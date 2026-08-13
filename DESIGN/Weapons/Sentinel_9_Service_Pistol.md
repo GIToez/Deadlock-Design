@@ -42,16 +42,14 @@ to drop low-tier mutants if aimed well.
 
 ## Story Placement
 
-**Strong, unconfirmed match — flagged, not silently applied:** [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md)
-and [`Characters/Dale_Pruitt.md`](../Characters/Dale_Pruitt.md) both already establish that Jim's
-**first firearm** is "a handgun" taken from **Officer Dale Pruitt** — a Ravenwood PD officer —
-after defeating his infected form inside the crashed cruiser (Chapter 1, Scene 41). The
-Sentinel-9's own description ("standard-issue sidearm used by the Ravenwood Police Department") is
-a near-perfect fit for an RPD officer's duty weapon. **This is very likely meant to be that same
-handgun**, but no existing location/character/script file actually names the model — it's only ever
-called "a handgun" or "the handgun." Treating this as the confirmed identity of Jim's first firearm
-is a proposal pending explicit approval, not a locked fact; once approved, the generic "handgun"
-references in `Ravenwood_Hotel.md`, `Characters/Dale_Pruitt.md`, and
-`Scripts/Chapter_1_One_Night_Only.md` should be updated to name it specifically.
+**Confirmed — approved by the project owner (2026-08-13).** This is Jim's **first firearm**,
+taken from **Officer Dale Pruitt** — a Ravenwood PD officer — after defeating his infected form
+inside the crashed cruiser (Chapter 1, Scene 41). Matches the Sentinel-9's own description
+("standard-issue sidearm used by the Ravenwood Police Department") closely — a near-perfect fit
+for an RPD officer's duty weapon. [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md)
+and [`Characters/Dale_Pruitt.md`](../Characters/Dale_Pruitt.md) now name it specifically and link
+here (the locked script prose in `Scripts/Chapter_1_One_Night_Only.md` still just says "the
+handgun," left as-is per the project's "preserve existing material unless a rewrite is requested"
+rule).
 
 No other placement currently exists (e.g. as a separate pickup elsewhere).

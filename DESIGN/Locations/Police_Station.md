@@ -415,7 +415,8 @@ flowchart TD
 - **Old Station Skeleton Key** — Chief's Office desk; opens the breezeway door into the old station
   house.
 - **Armory Key** — from Corporal Reyes' body (K-9 Unit Room); opens the armory.
-- **Shotgun** + **Shotgun Shells x12** — armory.
+- **Shotgun** + **Shotgun Shells x12** — armory. Confirmed (2026-08-13) as the
+  **["Ranger 870" Pump Shotgun](../Weapons/Ranger_870_Pump_Shotgun.md)**.
 - **Pocketknife** (optional) — Booking & Processing; utility/flavor item, no confirmed mechanical
   use yet.
 - **Bolt Cutters** — Fire Station; opens the Property & Evidence Room's padlock.

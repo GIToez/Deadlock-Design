@@ -1,4 +1,4 @@
-# "Roadwrecker" Aluminum Baseball Bat (Melee)
+# "Roadwrecker" Baseball Bat (Melee)
 
 > Transcribed from [`Deadlock Weapons and Items.docx`](../Deadlock%20Weapons%20and%20Items.docx),
 > uploaded 2026-08-13. Category: Melee.
@@ -8,6 +8,14 @@
 > naming convention rather than the "real-world basis" side — see
 > [`Sentinel_9_Service_Pistol.md`](Sentinel_9_Service_Pistol.md) and
 > [`STORY_NOTES.md`](../STORY_NOTES.md) for the full rationale.
+>
+> **Material corrected 2026-08-13:** the source document called this an "Aluminum Baseball Bat,"
+> but the already-locked [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md)
+> (Scene 22) specifically describes Jim finding "the smooth worn wood of a baseball bat" — a direct
+> material contradiction. Per the project owner, the locked script wins: this is a **wooden**
+> baseball bat, not aluminum. "Aluminum" dropped from the title and Description; stats are
+> unchanged (the document's numbers were kept as-is, since nothing suggests they were
+> aluminum-specific).
 
 ![Baseball Bat — in-game sprite](spr_baseballBat.gif)
 
@@ -15,8 +23,9 @@
 
 ## Description
 
-A battered baseball bat wrapped with electrical tape. Lightweight and dependable; a survivor's best
-friend when ammo runs dry. Fast swings, low stamina cost, no noise.
+A battered wooden baseball bat, worn smooth with age and use, its handle wrapped with electrical
+tape for grip. Lightweight and dependable; a survivor's best friend when ammo runs dry. Fast swings,
+low stamina cost, no noise.
 
 ## Stats
 
@@ -34,11 +43,9 @@ friend when ammo runs dry. Fast swings, low stamina cost, no noise.
 
 ## Story Placement
 
-**Confirmed match.** This is Jim's already-established first weapon — [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md)
-and [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md) (Scene 22) both
-describe Jim grabbing "a baseball bat" from the wrecked lobby furniture to fight off the newly-
-infected Earl Whitaker — the game's first combat encounter. No other candidate fits "battered
-baseball bat," so this is treated as a direct link rather than a hedged proposal, unlike the
-Sentinel-9/Ranger 870 entries above. The existing location/script files still just say "baseball
-bat" generically — naming it "Roadwrecker" specifically in those files is a small follow-up, not
-done here without explicit sign-off, per the same reasoning as the other cross-referenced weapons.
+**Confirmed — approved by the project owner (2026-08-13).** This is Jim's already-established
+first weapon — [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md) and
+[`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md) (Scene 22) both
+describe Jim grabbing a baseball bat from the wrecked lobby furniture to fight off the newly-
+infected Earl Whitaker — the game's first combat encounter. `Ravenwood_Hotel.md` now names it
+specifically and links here.

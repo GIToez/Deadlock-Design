@@ -39,14 +39,12 @@ dispatching Shamblers, and delivering devastating takedowns when cornered.
 
 ## Story Placement
 
-**Strong, unconfirmed match — flagged, not silently applied:** [`Locations/Police_Station.md`](../Locations/Police_Station.md)
-already establishes the Police Station Armory's reward as "a clamped-down shotgun and two boxes of
-shells" (the game's **second firearm**, per [`MASTER_STORY.md`](../MASTER_STORY.md) and
-[`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md)) — described there generically
-as a "pump-action shotgun." The Ranger 870's own description ("a rugged 12-gauge shotgun... manual
-pump") matches that beat closely, including the pump-action detail. **This is very likely meant to
-be that same shotgun**, but no existing file names the model — it's only ever called "the shotgun."
-Treating this as confirmed is a proposal pending explicit approval; once approved, the generic
-"shotgun" references in `Police_Station.md`, `Creatures/Ashen_Hound.md`,
-`Creatures/Zombie_Conglomerate.md`, and `Scripts/Chapter_2_Ravenwood.md` should be updated to name
-it specifically.
+**Confirmed — approved by the project owner (2026-08-13).** This is the Police Station Armory's
+equipment reward — "a clamped-down shotgun and two boxes of shells" (the game's **second
+firearm**, per [`MASTER_STORY.md`](../MASTER_STORY.md) and
+[`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md)). Matches the Ranger 870's
+own description ("a rugged 12-gauge shotgun... manual pump") closely, including the pump-action
+detail. [`Locations/Police_Station.md`](../Locations/Police_Station.md) now names it specifically
+and links here (the locked script prose in `Scripts/Chapter_2_Ravenwood.md` still just says "the
+shotgun," left as-is per the project's "preserve existing material unless a rewrite is requested"
+rule).

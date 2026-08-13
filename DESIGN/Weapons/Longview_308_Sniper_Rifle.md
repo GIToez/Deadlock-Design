@@ -12,6 +12,11 @@
 > 700**-style platform — consistent with "a precision long-range rifle designed for hunting large
 > game." Flavor/grounding detail only; caliber is recorded in the Stats table below, not the name.
 
+![Longview .308 — concept icon](../Assets/Reference/weapon_longview_308_sniper_concept.png)
+
+*AI-generated inventory-icon concept (2026-08-13), style-anchored to the real uploaded weapon
+sprites.*
+
 ## Description
 
 A precision long-range rifle designed for hunting large game. When scoped in, enemies at great

@@ -13,6 +13,11 @@
 > hunters." Flavor/grounding detail only; caliber is recorded in the Stats table below, not the
 > name.
 
+![Ironback .357 — concept icon](../Assets/Reference/weapon_ironback_357_revolver_concept.png)
+
+*AI-generated inventory-icon concept (2026-08-13), style-anchored to the real uploaded weapon
+sprites.*
+
 ## Description
 
 A brutally powerful six-shot revolver favored by old-school hunters. Every trigger pull hits like a

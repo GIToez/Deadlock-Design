@@ -7,6 +7,11 @@
 > an improvised melee weapon — see [`Sentinel_9_Service_Pistol.md`](Sentinel_9_Service_Pistol.md)
 > and [`STORY_NOTES.md`](../STORY_NOTES.md) for the settled naming convention.
 
+![Cleaverborn — concept icon](../Assets/Reference/weapon_cleaverborn_sword_concept.png)
+
+*AI-generated inventory-icon concept (2026-08-13), style-anchored to the real uploaded weapon
+sprites.*
+
 ## Description
 
 A cut-down machete forged from a broken industrial saw blade. Delivers deep cleaving damage with

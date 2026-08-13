@@ -7,6 +7,11 @@
 > with no real-world firearm analog — see [`Sentinel_9_Service_Pistol.md`](Sentinel_9_Service_Pistol.md)
 > and [`STORY_NOTES.md`](../STORY_NOTES.md) for the settled naming convention.
 
+![Titanbreaker RLR-7 — concept icon](../Assets/Reference/weapon_titanbreaker_rlr7_concept.png)
+
+*AI-generated inventory-icon concept (2026-08-13), style-anchored to the real uploaded weapon
+sprites.*
+
 ## Description
 
 A single-shot, shoulder-fired anti-bio-weapon launcher reverse-engineered from Vanguard emergency
