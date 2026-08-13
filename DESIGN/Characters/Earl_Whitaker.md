@@ -1,5 +1,12 @@
 # Earl Whitaker
 
+![Earl Whitaker — reference portrait](spr_earl_normal_portrait.png)
+
+> Reference portrait uploaded by the project owner (2026-08-13): older man, cardigan vest and name
+> tag over hotel-clerk attire — matches the "settled into itself completely" description below.
+> Labeled "normal" to distinguish from his post-infection appearance, which is not yet portrayed
+> in reference art.
+
 ## Role
 
 Ravenwood Hotel night desk clerk. Checks Jim in. Becomes the game's first confirmed infected.

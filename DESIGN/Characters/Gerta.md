@@ -1,5 +1,12 @@
 # Gerta
 
+![Gerta — reference portrait](spr_greta_portrait.png)
+
+> Reference portrait uploaded by the project owner (2026-08-13) — heavy-set, housekeeping uniform
+> and apron, matching the Appearance entry below. Filename spells her name "Greta"; the character
+> is documented throughout this project as "Gerta" — treated as the same person, spelling
+> inconsistency noted rather than silently resolved either way.
+
 ## Role
 
 Ravenwood Hotel night housekeeping staff. Briefly seen alive pre-outbreak; later found dead during

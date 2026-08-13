@@ -1,5 +1,10 @@
 # Maria Dalton
 
+![Maria Dalton — reference portrait](spr_maria_portrait.png)
+
+> Reference portrait uploaded by the project owner (2026-08-13) — visibly pregnant, travel bag over
+> one shoulder, matching her established Appearance and pregnancy detail below.
+
 ## Role
 
 Hotel guest, Room 118, sharing the room with her husband Richard. Visibly pregnant; her medical

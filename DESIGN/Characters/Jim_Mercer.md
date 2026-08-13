@@ -1,5 +1,12 @@
 # Jim Mercer
 
+![Jim Mercer — reference portrait](spr_jim_portrait.png)
+
+> Reference portrait uploaded by the project owner (2026-08-13), confirmed as Jim (initially
+> uploaded with a generic filename alongside the other Chapter 1 NPC portraits, since corrected to
+> `spr_jim_portrait.png`). Brown hair, beard, casual green button-up shirt, mid-shout/alarmed
+> expression — the first real visual reference for him; previously "not yet described in detail."
+
 ## Role
 
 Player protagonist.
@@ -29,8 +36,8 @@ a found police flashlight was changed to spare batteries instead, since he alrea
 
 ## Appearance
 
-Not yet described in detail beyond general "exhausted, unshaven" self-assessment in the mirror
-(Chapter 1). Age not established.
+Brown hair, beard, casual build — per the reference portrait above (2026-08-13). Consistent with
+his own "exhausted, unshaven" self-assessment in the mirror (Chapter 1). Age not established.
 
 ## Personality
 

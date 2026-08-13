@@ -1,5 +1,13 @@
 # Cindy Sweets
 
+![Cindy Sweets — reference portrait](spr_cindy_portrait.png)
+![Cindy Sweets in her robe — reference portrait](spr_cindy_robe_portrait.png)
+
+> Reference portraits uploaded by the project owner (2026-08-13): her lobby/pre-outbreak look
+> (yellow polka-dot dress) and her Room 106 robe (cream, worn open) — matching both her established
+> Appearance entries below almost exactly. The robe portrait is also the visual reference for the
+> torn, empty robe found in Chapter 2 (see [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 3).
+
 ![Cindy's Room 106 jumpscare — reference animation](spr_cindy_jumpscare.gif)
 
 > Reference asset uploaded by the project owner (2026-08-12). Confirmed sequence (51 frames):

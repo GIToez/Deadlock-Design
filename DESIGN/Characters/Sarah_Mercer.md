@@ -1,5 +1,12 @@
 # Sarah Mercer
 
+![Sarah Mercer — reference portrait](spr_sarah_portrait.png)
+
+> Reference asset uploaded by the project owner (2026-08-13). First visual reference for Sarah —
+> previously "not established (only heard, never seen, until the Epilogue)." Red hair, glasses,
+> teal tank top. This is her general design reference; not necessarily a literal depiction of any
+> single scene, since she's never physically on-screen before the Epilogue.
+
 ## Role
 
 Jim's wife/partner. Remote contact during Chapter 1 (phone only); physically present in the
@@ -12,7 +19,9 @@ game.
 
 ## Appearance
 
-Not established (only heard, never seen, until the Epilogue — which is not yet written).
+Red hair, glasses, teal tank top — per the reference portrait above (2026-08-13). She's still only
+*heard*, not physically seen on-screen, until the Epilogue (not yet written) — this portrait is
+reference art for that eventual appearance, not a scene that's actually been scripted yet.
 
 ## Personality
 

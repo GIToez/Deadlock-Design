@@ -1,5 +1,12 @@
 # Janeth Caldwell
 
+![Janeth Caldwell — reference portrait](spr_janeth_normal_portrait.png)
+
+> Reference portrait uploaded by the project owner (2026-08-13): reserved, professional look —
+> glasses, blazer, books in hand — consistent with her established "quiet reader" characterization
+> below, if a bit more formally dressed than the casual lobby-reading scene as written. Labeled
+> "normal" to distinguish from any future distressed/death-scene depiction, not yet portrayed.
+
 ## Role
 
 Hotel guest, Room 112. Present throughout the pre-outbreak lobby scenes and the initial outbreak
