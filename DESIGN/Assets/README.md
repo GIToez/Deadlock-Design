@@ -66,6 +66,19 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   invented an unprompted "CHIEF E. WHITAKER" nameplate (flagged, not canon); the first attempt at
   the Old Station House main hall rendered the wrong emblem shape and invented chief names and was
   regenerated.
+- **`Reference/hotel_lobby_concept.png`, `hotel_room106_concept.png`, `hotel_courtyard_concept.png`,
+  `hotel_red_room_concept.png`, `hotel_laundry_room_concept.png`,
+  `hotel_housekeeping_closet_concept.png`, `hotel_main_bar_concept.png`,
+  `hotel_utility_room_concept.png`, `hotel_security_office_concept.png`,
+  `hotel_west_maintenance_room_concept.png`** (AI-generated, 2026-08-13) — the remaining
+  Ravenwood Hotel rooms of real narrative weight that didn't already have a real in-engine
+  screenshot: the Lobby, Room 106 (Cindy), the Hotel Courtyard, the Red Room (Della Marsh), the
+  Laundry Room (Gerta's death), the Housekeeping Closet (Gate Crank Handle), the Main Bar, the
+  Utility Room (screwdriver), the Courtyard Security Office, and the West Wing Maintenance Room
+  (auxiliary fuse). All embedded in
+  [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md) at their matching rooms. The
+  Housekeeping Closet render invented a "305" door number that contradicts its canonical location
+  (2F, between Rooms 114/116) — flagged there, not canon.
 
 Several other assets have been uploaded, placed directly alongside their character files instead:
 
@@ -82,6 +95,10 @@ Several other assets have been uploaded, placed directly alongside their charact
   generator was replaced).
 
 ## Convention: room concept art
+
+> **This is now a permanent rule, not a one-off pass** (locked 2026-08-13 — see
+> [`README.md`](../README.md) rule 16): every new scene/room gets a matching concept render as
+> part of finishing it, going forward, not as a separate follow-up task.
 
 The project owner's uploaded Hotel screenshots (`Screenshots/ravenwood_hotel_*`) are genuine
 in-engine mockups and now the definitive visual-style reference for the whole project — a warm,
@@ -109,6 +126,10 @@ in-engine work. Guidelines:
   not a one-time exhaustive sweep.
 
 ## Convention: concept art for new enemies and bosses
+
+> **This is now a permanent rule, not a one-off pass** (locked 2026-08-13 — see
+> [`README.md`](../README.md) rule 16): every new enemy/creature gets concept art as part of
+> finishing its design, going forward, not as a separate follow-up task.
 
 Once a new enemy or boss creature's design is written up in `Creatures/`, generate one piece of
 concept art for it as standard practice going forward (not just for one-off cases like the

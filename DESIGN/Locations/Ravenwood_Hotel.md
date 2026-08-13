@@ -179,6 +179,13 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 
 - **Lobby** — West Lounge (Cindy), East Waiting Area (the Daltons), Reception (Earl), the Grand
   Staircase up to the guest floor. Wrecked mid-chapter by the police cruiser crash.
+
+  ![Lobby concept — west lounge, reception desk, east waiting area, grand staircase](../Assets/Reference/hotel_lobby_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Manager's Office/Dining Hall
+  > reference screenshots — see [`Assets/README.md`](../Assets/README.md) → "Convention: room
+  > concept art." Rough staging idea for the room's layout described in Scene 5, not a locked
+  > floor plan.
 - **Manager's Office** — the chapter's first safe room; VERN save terminal, guest ledger,
   incident report, breaker panel. Reached via the Staff Hallway off the Lobby (Manager's Key).
 
@@ -210,6 +217,12 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   > Scene 15 almost exactly (rotary phone, lamp, TV, bathroom mirror all present as scripted).
 - **Room 106** — Cindy Sweets' room; site of her abduction jumpscare, triggered while crossing the
   west hallway toward the West Wing Maintenance Room.
+
+  ![Room 106 concept — Cindy's guest room, suitcase, robe, personal effects](../Assets/Reference/hotel_room106_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Room 104 reference screenshots.
+  > Same base guest-room layout as 104, personalized with Cindy's belongings — not a scripted
+  > inventory of her room's contents.
 - **Room 112** — Janeth Caldwell's room. **Room 118** — Maria & Richard Dalton's room.
 - **Rooms 114 and 116** — otherwise-unremarkable guest rooms flanking the Housekeeping Closet;
   source of the second-floor east hallway's two-Shambler pincer ambush on the *second* pass through
@@ -217,8 +230,21 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 - **Housekeeping Closet** — between Rooms 114 and 116, on the guest floor's east hallway. Locked on
   the first pass (Scene 30); unlocked later with the key taken off Fennimore's body. Source of the
   **Gate Crank Handle** needed to open the courtyard's north gate.
+
+  ![Housekeeping Closet concept — linen shelves, locked wire cage with the gate crank handle](../Assets/Reference/hotel_housekeeping_closet_concept.png)
+
+  > AI-generated concept art (2026-08-13). Flagged inaccuracy: the render put a door number
+  > ("305") on the closet door, which doesn't fit its canonical location — a supply closet on the
+  > guest floor (2F) between Rooms 114/116, not a numbered guest room on a third floor. Ignore the
+  > door number; everything else (linen shelves, the locked wire cage holding the crank handle,
+  > the maintenance tag) matches the scripted contents.
 - **West Wing Maintenance Room** — a small, simply-shut (not locked) room near the West Public
   Stairwell; source of the replacement **auxiliary fuse**.
+
+  ![West Wing Maintenance Room concept — supply shelves, workbench, box of electrical parts with the replacement fuse](../Assets/Reference/hotel_west_maintenance_room_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Manager's Office breaker-panel
+  > reference screenshot.
 - **East Public Stairwell** — at the end of the guest floor's east hallway; unlocked by East Wing
   power; the only way down into the East Wing's ground-floor service areas on the first trip.
 - **West Public Stairwell** — at the end of the guest floor's west hallway, beside the Maintenance
@@ -238,9 +264,20 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   > the Dining Hall/Kitchen connection exactly as scripted (Scene 31) and visibly place a Medkit
   > icon on the Kitchen's wall, consistent with the game's established item iconography.
 - **Utility Room** — source of the **screwdriver**.
+
+  ![Utility Room concept — water heater, pumps, breaker panels, pegboard tools, workbench](../Assets/Reference/hotel_utility_room_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Manager's Office reference
+  > screenshots.
 - **Laundry/Linen Room** — industrial washers/dryers, laundry carts. Site of Gerta's death (killed
   by **The Maw**) — see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md) and
   [`Characters/Gerta.md`](../Characters/Gerta.md).
+
+  ![Laundry Room concept — washers/dryers, laundry carts, staff uniform rack](../Assets/Reference/hotel_laundry_room_concept.png)
+
+  > AI-generated concept art (2026-08-13). Kept deliberately restrained on Gerta's body/wound
+  > detail for this reference render — see [`Characters/Gerta.md`](../Characters/Gerta.md) for the
+  > scripted description of the scene itself.
 - **East Wing Maintenance Closet** — a handwritten note here reveals the auxiliary fuse was
   relocated to the West Wing. A barricaded service door behind it clears by hand, opening a
   **permanent shortcut straight back to the Lobby**.
@@ -250,14 +287,30 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 - **Lounge/Recreation** — pool table, dart board; minor pre-outbreak atmosphere beat.
 - **Piano Area** — a small nook off the Lounge.
 - **Main Bar** — unattended pre-outbreak; wrecked later.
+
+  ![Main Bar concept — bar counter, neon signs, overturned stools, wrecked lounge seating](../Assets/Reference/hotel_main_bar_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Dining Hall reference screenshot.
 - **The Red Room** — self-contained optional speakeasy lounge opening directly off the Main Bar;
   site of the Della Marsh encounter. Does not connect to the Security Office.
+
+  ![Red Room concept — velvet curtains, cocktail tables, spotlighted stage, ceiling fan](../Assets/Reference/hotel_red_room_concept.png)
+
+  > AI-generated concept art (2026-08-13). Della Marsh herself intentionally left out of this
+  > render — see [`Characters/Della_Marsh.md`](../Characters/Della_Marsh.md) if/when it exists, or
+  > [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md) Scene 38 for her
+  > scripted description.
 - **Liquor Storage** — off the Bar; minor exploration content.
 - **Boiler Room**, **Staff Room/Storage** — West Wing back-of-house.
 - **West Wing Service Corridor** — a staff-only route at the rear of the West Wing leading to the
   Courtyard Security Office.
 - **Courtyard Security Office** — controls courtyard gate access; reached via the West Wing
   Service Corridor.
+
+  ![Courtyard Security Office concept — CCTV monitor bank, security terminal, emergency lockdown panel, courtyard access control](../Assets/Reference/hotel_security_office_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Manager's Office breaker-panel
+  > reference screenshot.
 
 **Exterior**
 
@@ -266,6 +319,12 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   the hotel's designated fire-code emergency exit — electrically motorized, with a required manual
   crank override for exactly this kind of power-failure scenario. Site of Fennimore's body (and
   later his reanimation) and the Caretaker (Roy Bullock) boss fight.
+
+  ![Hotel Courtyard concept — rain, fountain, perimeter fence, north gate with manual release, maintenance shed](../Assets/Reference/hotel_courtyard_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the exterior reference screenshots.
+  > Fennimore's body and the shed's warped doors are present but small at this framing — see
+  > Scene 42 for the scripted beat-by-beat reveal.
 
 ## Blueprint (Room Connectivity)
 

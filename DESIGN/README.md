@@ -71,3 +71,23 @@ When working on Deadlock story content:
       pushed straight to `main` directly — that review step is a platform-level constraint, not a
       per-task choice. "No new branches" is honored by continuing to reuse one branch/PR for all
       of this work instead of creating additional ones.
+
+## Visual Asset Pipeline (locked 2026-08-13)
+
+16. **Every new scene/room, new enemy/creature, and new named character gets a matching visual
+    render as part of finishing it — not as a separate follow-up pass.** This is a permanent rule,
+    not a one-off request, so animators/artists always have something concrete to work from and
+    the whole cast/world stays visually consistent as it grows:
+    - **New room or scene** → a room concept image, following the convention in
+      [`Assets/README.md`](Assets/README.md) → "Convention: room concept art" (style-anchored to
+      the real in-engine Hotel screenshots in `Assets/Screenshots/`).
+    - **New enemy or creature** → concept art, following [`Assets/README.md`](Assets/README.md) →
+      "Convention: concept art for new enemies and bosses."
+    - **New named character** (including ones never seen alive on-screen) → a reference portrait,
+      following [`Characters/README.md`](Characters/README.md) → "Convention: reference portraits
+      for named characters" — this is the PixelLab `create_image_pro` two-step pipeline
+      specifically, confirmed 2026-08-13 to be what actually matches the project's house style;
+      don't substitute a generic image generator for it.
+    - Each convention document is the source of truth for exact style/technical details (filename
+      patterns, sizes, prompt templates) — this rule just states that the step is mandatory, not
+      optional, going forward.

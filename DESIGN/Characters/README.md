@@ -47,6 +47,10 @@ once those are written — see [`STORY_NOTES.md`](../STORY_NOTES.md).
 
 ## Convention: reference portraits for named characters
 
+> **This is now a permanent rule, not a one-off pass** (locked 2026-08-13 — see
+> [`../README.md`](../README.md) rule 16): every new named character/NPC gets a reference portrait
+> as part of finishing them, going forward, not as a separate follow-up task.
+
 The project owner began uploading pixel-art reference portraits (2026-08-13) for the Chapter 1
 cast, in the visual style the actual game will use. Generating a matching portrait for every named
 character — existing and future — is now standard practice, not a one-off.

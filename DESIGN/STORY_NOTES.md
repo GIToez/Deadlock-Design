@@ -584,6 +584,28 @@ the next entry for the current final numbering (Scenes 22–40).
     Chapter 1/2's other locations still don't have concept art and should be generated
     incrementally going forward, prioritizing narratively significant rooms first per the new
     convention.
+  - **Concept/portrait rendering made a permanent rule (2026-08-13, same day).** Per the project
+    owner's explicit instruction, this is no longer a case-by-case request: *any* new scene/room,
+    new enemy/creature, or new named character now gets a matching concept render or portrait as
+    part of finishing it, in the established house style, so animators/artists always have
+    something concrete to work from. Codified as rule 16 in [`README.md`](README.md) → "Visual
+    Asset Pipeline," with pointers into the three convention sections (`Assets/README.md` ×2,
+    `Characters/README.md`) that hold the actual style/technical details.
+  - **Chapter 1 Hotel room concept sweep (2026-08-13, same day).** Generated the ten remaining
+    Hotel rooms of real narrative weight that didn't already have a real in-engine screenshot:
+    the Lobby, Room 106 (Cindy), the Hotel Courtyard, the Red Room (Della Marsh), the Laundry Room
+    (Gerta's death), the Housekeeping Closet (Gate Crank Handle), the Main Bar, the Utility Room
+    (screwdriver), the Courtyard Security Office, and the West Wing Maintenance Room (auxiliary
+    fuse) — all style-anchored to the real uploaded screenshots per the room concept art
+    convention. All embedded in `Locations/Ravenwood_Hotel.md` at their matching rooms. One
+    flagged issue: the Housekeeping Closet render put a "305" door number on the closet door,
+    which doesn't fit its canonical location (guest floor, between Rooms 114/116, not a numbered
+    room on a third floor) — noted inline as non-canonical rather than silently accepted. Remaining
+    Chapter 1 rooms without concept art are all minor pass-through/atmosphere spaces (Pantry,
+    Walk-in Freezer, East Wing Maintenance Closet, Lounge/Recreation, Piano Area, Liquor Storage,
+    Boiler Room, Staff Room/Storage, the public stairwells) — deliberately deprioritized per the
+    convention's "narrative weight over minor pass-through spaces" guidance rather than skipped by
+    oversight.
 
 ## Still-Open Questions
 
