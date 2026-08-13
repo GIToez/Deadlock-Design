@@ -255,6 +255,28 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   standard Shamblers, per the project owner's explicit framing that the Academy's horror is about
   people, not a new monster.
 
+- **`Reference/monastery_*.png`** (15 files, AI-generated, 2026-08-13) — full room-concept coverage
+  for [`Locations/Monastery.md`](../Locations/Monastery.md), the North District's newly-written
+  main location and the last surface location before Chapter 3:
+  `monastery_gate_approach_concept.png`, `monastery_chapel_concept.png`,
+  `monastery_guest_quarters_concept.png`, `monastery_spring_well_chamber_concept.png`,
+  `monastery_library_archive_concept.png`, `monastery_hidden_archive_concept.png`,
+  `monastery_cloister_concept.png`, `monastery_bell_tower_concept.png`,
+  `monastery_crypt_antechamber_concept.png`, `monastery_old_seal_crypt_depths_concept.png`,
+  `monastery_reliquary_concept.png` (the district's crest payoff room),
+  `monastery_sealed_passage_old_caves_concept.png` (the game's final surface-world scene before
+  Chapter 3), and three secondary-location renders: `monastery_hillside_residential_street_concept.png`,
+  `monastery_hillside_cemetery_concept.png`, and `monastery_overlook_trail_concept.png`.
+  Style-anchored to existing Police Station/Hospital/Foundry/Academy room concepts throughout. Two
+  flagged generation errors: the Chapel carried over a "Dr. Edward Halloway" portrait and caduceus
+  stained glass from its Hospital style-reference image, and the Hillside Cemetery's sign reads
+  "Steelgate Cemetery" — Steelgate is the Foundry's own name. Several renders (the Gate/Approach's
+  weathered "V" plaque echoing the Founders Memorial, the Hidden Archive's journal text matching
+  its canon quote verbatim, and the Reliquary's "Abbot Matthias Kane, Founder" portrait/plaque)
+  landed exactly on the intended canon details unprompted. This district deliberately leaves its
+  signature-encounter creature type an open question rather than locking a new one, per the source
+  material's own framing.
+
 Several other assets have been uploaded, placed directly alongside their character files instead:
 
 - `Characters/spr_cindy_jumpscare.gif` — embedded in

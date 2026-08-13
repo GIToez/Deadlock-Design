@@ -569,6 +569,11 @@ flowchart TD
   workers noticed for years.
 - **The final Foundry broadcast** (the Black Vein Cavern) — *"They didn't find this thing tonight.
   They've been digging at it for years."*
+- **A hand-drawn cave map fragment matching a tunnel junction and Vanguard access designation**
+  (Old Mine Workings, optional, added 2026-08-13) — the same junction an injured worker recognizes
+  on an old monastery map after reaching the ridge; see
+  [`Locations/Monastery.md`](Monastery.md), beat 13, for the moment the Foundry and Monastery cave
+  systems are confirmed to be physically connected.
 - **A torn evacuation slip listing a Foundry worker, his wife, and their teenage son** (Exposure
   Records Room, optional, added 2026-08-13) — the Foundry-side paper trail behind the Harris
   family, later removed from Worthy Academy's shelter roster by Vanguard under "potential secondary

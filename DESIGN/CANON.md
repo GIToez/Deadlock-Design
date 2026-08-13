@@ -117,6 +117,26 @@ separate, decades-long industrial exploitation/exposure operation at the Foundry
 [`Locations/Foundry_Refinery.md`](Locations/Foundry_Refinery.md) → "Outbreak Night"), both
 converging on the same underlying phenomenon.
 
+**Ravenwood encountered Black Vein's effects generations before either Vanguard access point
+existed (proposed 2026-08-13, pending review).** [Our Lady of Solace Monastery](Locations/Monastery.md),
+built on the northern ridge around a natural spring and cave system centuries before the modern
+town, documented strange occurrences in its own archives — malformed/aggressive animals, unnaturally
+rapid wound healing, hardened growths, survivable injuries that should have been fatal — long
+before anyone had the scientific language to describe them, recorded instead as religious/folkloric
+language ("The Mercy That Should Not Be Asked For," "the stone that mends wrongly"). At some
+unrecorded point, the monks deliberately sealed the deepest of those caves and let the practical
+memory fade into forbidden-crypt tradition. This makes the Monastery's ridge caves a **third,
+much older point of human contact with the same underlying cave system** — distinct from, and
+originally unconnected to, both the 1887 Memorial Park facility and the 1968 Foundry excavation.
+Vanguard later obtained the monastery's historical archives (see
+[`Locations/Monastery.md`](Locations/Monastery.md) → "Outbreak Night") and covertly tunneled from
+the Foundry side to bypass the monks' old seal entirely — the only case where two of Ravenwood's
+Black Vein sites become physically connected, and only because Vanguard deliberately built that
+connection. This does not change the 1887/1968 sites' own compartmentalization from each other,
+above; it adds a third thread, reframing Vanguard's culpability from "made an unforeseeable
+scientific discovery" to "found generations of documented warnings, understood them, and proceeded
+anyway."
+
 ## Major Character Relationships
 
 - [Jim Mercer](Characters/Jim_Mercer.md) is married/partnered to
@@ -202,6 +222,15 @@ hotel-chapter detail.
 | Southwest | Authority Crest | [Ravenwood Police Station](Locations/Police_Station.md) | ORDER | Key | Lower-left |
 | Northwest | Industry Crest | [Steelgate Refinery](Locations/Foundry_Refinery.md) | INDUSTRY | Anvil | Upper-left |
 
+- **The Faith Crest's founder, Abbot Matthias Kane, did not found the Monastery building itself —
+  he formally established its current religious order in 1887 (proposed 2026-08-13, pending
+  review).** Per [`Locations/Monastery.md`](Locations/Monastery.md), the physical monastery, its
+  spring, and its cave system predate the founders' era by centuries; Kane's 1887 role (matching
+  the other four founders' own institution-founding year) was consolidating and formally
+  chartering "Our Lady of Solace" as the monastery's modern order atop that much older site,
+  which is why he's credited on the Faith Crest despite the building predating him — a deliberate,
+  flagged reconciliation, same convention as Memorial Park's own unresolved 1887/1891 date
+  tension (see [`STORY_NOTES.md`](STORY_NOTES.md)).
 - Jim learns about the emblems through **environmental discovery, not exposition**: guardhouse
   notes at Memorial Park (written by a park groundskeeper who never understood the statue, but
   recalls a historian once telling him to "look at the police station... there's something on the
@@ -338,17 +367,25 @@ early hint that Vanguard's reach into the town predates the outbreak.
 - **Eleanor Worthy** — Worthy Academy's founder (1887); one of Ravenwood/Vanguard's five founders,
   the source of the school's own name. Her name and portrait appear on the **Knowledge Crest**,
   recovered from a display case in the Academy's own Founder's Hall — see
-  [`Locations/Academy.md`](Locations/Academy.md). All five founders' names are now established:
-  Josiah Hale (Order), Nathaniel Voss (Medicine), Elias Thorne (Industry), Eleanor Worthy
-  (Knowledge), and one remaining unnamed founder (Faith — see
-  [`Locations/Police_Station.md`](Locations/Police_Station.md)'s damaged town-charter page, and
-  [`Locations/Monastery.md`](Locations/Monastery.md) once written).
+  [`Locations/Academy.md`](Locations/Academy.md).
 - **Principal Diane Ashford** — Worthy Academy's principal on the night of the outbreak, the
   closest thing the shelter has to a single leader across its ensemble of teachers, officers, and
   parents; makes the Academy's final, unanswered emergency broadcast. See
   [`Locations/Academy.md`](Locations/Academy.md) → "Outbreak Night." Her ultimate fate is
   deliberately unresolved, same convention as Fitch, the Police Station's Chief, and the
   Hospital's Liaison.
+- **Abbot Matthias Kane** — Our Lady of Solace Monastery's founder (1887, in the reconciled sense
+  described under "The Founders & the Five Crests," above — the monastery building and caves
+  predate him by centuries). His name and portrait appear on the **Faith Crest**, recovered from
+  the Monastery's own Reliquary — see [`Locations/Monastery.md`](Locations/Monastery.md). **All
+  five founders' names are now established:** Josiah Hale (Order), Nathaniel Voss (Medicine),
+  Elias Thorne (Industry), Eleanor Worthy (Knowledge), and Matthias Kane (Faith).
+- **Brother Cormac** — the Monastery's senior monk and archivist on the night of the outbreak; the
+  one who secretly built the hidden archive proving Vanguard's decades of documented Black Vein
+  warnings, and who stays behind to keep the old crypt seal closed and the archive out of
+  Vanguard's hands. See [`Locations/Monastery.md`](Locations/Monastery.md) → "Outbreak Night." His
+  ultimate fate is deliberately unresolved, same convention as Fitch, Ashford, the Police
+  Station's Chief, and the Hospital's Liaison.
 - (The character/founder additions above are new as of 2026-08-13 — see
   [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–40, and
   [`STORY_NOTES.md`](STORY_NOTES.md) for context on what was proposed versus already locked.)

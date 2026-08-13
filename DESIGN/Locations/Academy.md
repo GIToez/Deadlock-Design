@@ -591,6 +591,11 @@ flowchart TD
   unanswered.
 - **Personal effects naming displaced households, including the Harrises** (Student Housing,
   optional) — humanizes the family removed in beat 8.
+- **A fragment of the Academy's own emergency broadcast, "Do not enter the east hallway,"
+  overheard distantly through the storm** (Bus Loading Area, optional, added 2026-08-13) —
+  cross-referenced at [`Locations/Monastery.md`](Monastery.md), beat 26: the monastery's own
+  emergency bells were rung specifically because modern communications like this one were already
+  failing citywide.
 
 ## Major Scripted Events
 

@@ -1283,6 +1283,97 @@ the next entry for the current final numbering (Scenes 22–40).
     [`Locations/Academy.md`](Locations/Academy.md) → "Unresolved Ideas" in case that's reconsidered
     later for pacing).
 
+- **Our Lady of Solace Monastery — the North district's main location, written in full
+  (2026-08-13), and the last surface location before Chapter 3.** The project owner supplied a
+  33-beat outbreak-night account for the Monastery, explicitly framed as fundamentally different
+  from the previous four districts: *"Those places reveal what Vanguard did to Ravenwood in the
+  modern era. The Monastery reveals something much older: Ravenwood had encountered the effects of
+  the Black Vein long before Vanguard ever arrived... The Monastery isn't about religion defeating
+  science. It's about memory versus arrogance."* [`Locations/Monastery.md`](Locations/Monastery.md)
+  was rewritten from its original `_TBD_` placeholder into a full main-location file matching the
+  other four districts' density, per [`CANON.md`](CANON.md) → "District Main-Location Design
+  Standard":
+  - **"Outbreak Night — What Actually Happened"** — a 33-beat timeline (the monastery's centuries
+    of pre-Vanguard Black Vein observation recorded as religious language, the first ancient
+    sealing, Vanguard's 1968 polite archive-access requests turning into bureaucratic pressure and
+    covert underground surveying, Brother Cormac's secret hidden archive proving Vanguard was
+    making the phenomenon worse, the spring water turning on Outbreak Night, Vanguard's "DO NOT
+    ENTER THE LOWER MONASTERY" order, the Foundry tremor reaching the ridge and revealing Vanguard's
+    illicit excavation behind the old seal, a Foundry survivor confirming the two cave systems
+    connect, the monks refusing to surrender him, the hospital/monastery cross-confirmation that
+    trauma worsens mutation, the Vanguard standoff and the police officer's reversal after seeing an
+    old Vanguard memorandum, the crypt breach and re-sealing ("do not open the gate for the voice of
+    a friend"), the monastery's division into survivor zones, Vanguard's attempt to burn the
+    archive, the bells rung as a citywide warning, the discovery of the oldest record ("a vein
+    without end"), proof Vanguard had monastery records before Project Ashen's modern form, the
+    failed evacuation, Brother Cormac's refusal to leave, the crypt seal finally breaking, and his
+    final broadcast: *"The source is beneath us. It was here before Vanguard. Do not believe they
+    discovered it. They opened what others had already learned to close."*) — explicitly
+    cross-referenced against [`Locations/Police_Station.md`](Locations/Police_Station.md),
+    [`Locations/Hospital.md`](Locations/Hospital.md), [`Locations/Foundry_Refinery.md`](Locations/Foundry_Refinery.md),
+    and [`Locations/Academy.md`](Locations/Academy.md)'s own timelines via a new "How the Monastery
+    Connects to the Other Locations" table, plus a project-owner-supplied "What the Five Surface
+    Locations Now Reveal" summary tying all five districts' thematic identities together as Jim
+    completes the last crest.
+  - **Full room/blueprint build:** Monastery Gate → Chapel (hub, gating the Library/Archive, the
+    Cloister, the Bell Tower, and the Crypt Antechamber) → Guest Quarters (signature single
+    encounter) → Library/Archive, plus a second branch (needs an Archive Key from the secondary
+    Overlook Trail location) → the Hidden Archive → the Cloister → the Bell Tower, plus a third,
+    deepest branch (needs a Crypt Antechamber Key from the secondary Hillside Cemetery location) →
+    Crypt Antechamber (Vanguard's hidden excavation equipment) → the Old Seal / Crypt Depths (needs
+    a Breaching Tool; this district's signature pack encounter) → the Reliquary (Faith Crest) → the
+    Sealed Passage / Old Caves (a mandatory, non-combat climax reached only *after* the crest, not
+    gating it — **the final surface-world scene in the game**), plus a non-gating Spring/Well
+    Chamber and three secondary locations (Hillside Residential Street, Hillside Cemetery, Overlook
+    Trail — pulled directly from this district's already-established city-layout notes). Five
+    mermaid blueprint diagrams, same convention as the Hotel, Police Station, Hospital, Foundry, and
+    Academy.
+  - **New founder named: Abbot Matthias Kane**, Our Lady of Solace Monastery's founder, keeper of
+    the Faith Crest — added to [`CANON.md`](CANON.md) → "Named Characters Confirmed," completing
+    all five founders (Hale, Voss, Thorne, Worthy, Kane). Because the source material explicitly
+    states the monastery predates the modern town, Kane's 1887 "founding" is reconciled as
+    formally chartering the *current religious order* atop a much older site, not building the
+    physical monastery itself — flagged explicitly in [`CANON.md`](CANON.md) rather than silently
+    contradicting the "predates the town" detail. **New named character: Brother Cormac** — the
+    Monastery's own Chief/Fitch/Ashford-equivalent, whose fate is deliberately left unresolved,
+    same convention.
+  - **Major `CANON.md` addition: a third, much older point of human contact with the Black Vein
+    cave system**, predating both the 1887 Memorial Park facility and the 1968 Foundry excavation
+    by generations — the monastery's own sealed ridge caves. Vanguard later covertly tunneled from
+    the Foundry side to bypass the monks' seal, making this the **one case where two of
+    Ravenwood's three Black Vein sites do become physically connected**, and only because Vanguard
+    deliberately built that connection; this doesn't reopen the existing Memorial Park/Foundry
+    non-connection, it adds a third thread. This reframes Vanguard's culpability across the whole
+    game: Project Ashen wasn't an unforeseeable discovery, it was documented generations-old
+    warnings that Vanguard found, catalogued, and ignored.
+  - **Direct crossover documents added to
+    [`Locations/Police_Station.md`](Locations/Police_Station.md),
+    [`Locations/Hospital.md`](Locations/Hospital.md),
+    [`Locations/Foundry_Refinery.md`](Locations/Foundry_Refinery.md), and
+    [`Locations/Academy.md`](Locations/Academy.md):** the Monastery standoff/Vanguard memorandum
+    (Police Station), the hospital/monastery regeneration-findings exchange (Hospital), the
+    matching cave-map tunnel-junction fragment (Foundry), and the Academy's own failing PA
+    broadcasts cross-referenced against the monastery's emergency bells (Academy) — satisfying the
+    project owner's explicit request that all five locations' records overlap directly.
+  - **15 new AI-generated room concepts** — full visual coverage for the entire new location in one
+    pass (12 main-building rooms/areas plus 3 secondary locations), logged in
+    [`Assets/README.md`](Assets/README.md). Two flagged generation errors: the Chapel carried over
+    a "Dr. Edward Halloway" portrait and caduceus stained glass from its Hospital style-reference
+    image, and the Hillside Cemetery's sign reads "Steelgate Cemetery" instead of an
+    unrelated name. Several renders (the Gate/Approach's own weathered "V" plaque, the Hidden
+    Archive's journal text matching its canon quote verbatim, and the Reliquary's "Abbot Matthias
+    Kane, Founder" portrait/plaque) landed exactly on the intended canon details unprompted.
+  - **Not done in this pass:** individual `Items/Key_Items/` writeups for this district's eight new
+    key items (Library Key, Archive Key, Cloister Key, Bell Tower Key, Crypt Antechamber Key,
+    Breaching Tool, Reliquary Key, Faith Crest) — flagged as the next natural pass, matching the
+    Police Station, Hospital, Foundry, and Academy's own pattern. Also not done: scene-by-scene
+    scripting into a `Scripts/` file, and a unique named boss creature (deliberately left open per
+    the source material's own framing that "the exact creature can depend on what enemy roster
+    eventually fits the location" — flagged in [`Locations/Monastery.md`](Locations/Monastery.md) →
+    "Unresolved Ideas" for a final decision once the full Chapter 2 enemy roster is reviewed
+    together). **This completes all five Chapter 2 main locations** (Police Station, Hospital,
+    Foundry, Academy, Monastery) and all five founders/crests.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /

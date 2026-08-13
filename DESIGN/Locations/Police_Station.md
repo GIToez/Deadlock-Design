@@ -760,6 +760,12 @@ flowchart TD
   respond."* Nothing. *"Anybody?"* Static. Nobody at the station is left to answer it. See
   [`Locations/Academy.md`](Academy.md), beat 28, for the same transmission from the shelter's
   side.
+- **Radio traffic from the Monastery standoff: an officer sent to investigate armed Vanguard
+  personnel attempting forced entry, and his own later note that a monk handed him "an old
+  Vanguard memorandum"** (Records/Dispatch, added 2026-08-13) — the police-side half of a
+  crossover discoverable at [`Locations/Monastery.md`](Monastery.md), beats 18–20; that same
+  memorandum is what turns him against Vanguard before the Chief's citywide broadcast even
+  reaches him.
 - Marshal Josiah Hale's display-case nameplate (old station house).
 - Damaged 1887 town-charter page listing five "Incorporators of Ravenwood" (old holding cells;
   only Hale's name is legible).

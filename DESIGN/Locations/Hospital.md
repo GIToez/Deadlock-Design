@@ -606,6 +606,11 @@ flowchart TD
   added 2026-08-13) — the hospital's first, uncontextualized cases from Steelgate Refinery, before
   anyone realized what was happening underground there; see
   [`Locations/Foundry_Refinery.md`](Foundry_Refinery.md) → "Outbreak Night," beats 4–7.
+- **A physician's own confused transcript of an incoming call: "Who is this?" / "We have records." /
+  "Cellular activity increases after tissue damage." / "Yes." / "How the hell do you know that?" /
+  "Because you're not the first people to see it."** (Administration, added 2026-08-13) — the
+  hospital-side half of the Monastery's independent, centuries-earlier confirmation of the same
+  regeneration findings; see [`Locations/Monastery.md`](Monastery.md), beats 16–17.
 
 ## Major Scripted Events
 
