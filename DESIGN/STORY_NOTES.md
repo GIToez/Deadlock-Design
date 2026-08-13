@@ -379,6 +379,33 @@
   softened one sightline claim in Scene 3. Added a documented convention (in the script's header
   note) for how full-room descriptions (Lobby, Courtyard) and multi-NPC simultaneous reaction
   beats relate to the actual constrained camera, rather than rewriting every atmospheric line.
+- **Room concept art style-consistency pass (2026-08-13, same day).** Project owner feedback: "Make
+  sure all room concepts follow the in game screenshots. Some don't." Audited every existing room
+  concept against the real in-engine `Assets/Screenshots/` references and found the drift: several
+  renders had leaned toward an isometric/painterly "3D diorama" look instead of the flat, directly-
+  overhead, tile-based retro RPG style the actual screenshots use. Affected: `hotel_courtyard_concept.png`,
+  `hotel_red_room_concept.png`, and all 16 Police Station room concepts. Fixed by rewriting the
+  generation prompt to explicitly require "Strictly flat 2D top-down retro RPG tileset pixel art,
+  viewed directly from above, NOT isometric and NOT a 3D diorama," validating it with two test
+  renders, then re-generating and overwriting all 18 affected files in place. Incidentally fixed
+  three of the previously flagged non-canonical details in the new renders (Records/Dispatch's
+  invented "DET. HARRIS" nameplate, the Break Room locker's wrong name, and the Municipal Garage
+  sign's wrong city name); the Old Station House medallion still isn't the exact canonical wedge
+  shape but reads close enough for mood reference. Every other existing hotel/police-station room
+  concept was re-checked against the screenshots and confirmed already consistent — no further
+  regenerations needed. See [`Assets/README.md`](Assets/README.md) for the full file list.
+- **Creature concept-art coverage completed (2026-08-13, same day).** Project owner: "Let's also do
+  renders for creatures we don't have all. Make sure to do it for all future as well" — the second
+  half of rule 16 in `README.md` (every new enemy/creature gets concept art) plus a backfill pass
+  for the four creature files that predated that rule: the [Shambler](Creatures/Shambler.md),
+  [The Caretaker](Creatures/The_Caretaker.md), [Della Marsh](Creatures/Della_Marsh.md), and
+  [The Maw](Creatures/The_Maw.md). Generated one moody digital concept-art painting for each,
+  consistent with the Ashen Hound's existing convention, and embedded each in its own file. Two
+  minor approximations flagged in `The_Caretaker.md` rather than treated as canon: the render
+  doesn't clearly distinguish hotel-maintenance overalls from generic dark workwear, and doesn't
+  show a distinctly off-color glowing eye. Every creature in `Creatures/` now has concept art;
+  going forward, rule 16 means this happens automatically as part of writing up any new creature,
+  not as a separate catch-up pass.
 
 ## Implemented — Police Station Restructure (RE-style, approved and written 2026-08-13)
 

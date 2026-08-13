@@ -1,5 +1,11 @@
 # Della Marsh (the Red Room Singer)
 
+![Della Marsh concept art — the Red Room Singer, seated at the microphone](../Assets/Reference/della_marsh_concept.png)
+
+*Concept art (2026-08-13), for visual reference only — not a literal in-game screenshot. Depicts
+Della seated on the Red Room's small stage under a red spotlight, microphone stand in hand, with the
+slumped audience visible in the background — the surreal, dreamlike tone the design calls for.*
+
 ## Concept
 
 An optional mini-boss encounter designed to feel "surreal, dreamlike, deeply uncomfortable" —

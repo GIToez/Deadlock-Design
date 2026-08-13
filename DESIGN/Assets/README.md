@@ -95,6 +95,22 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   Break Room labeled Corporal Reyes' locker "K. HARRISON" instead of "E. REYES," and the Municipal
   Garage's wall sign reads "CITY OF RAVENCROFT" instead of the locked city name Ravenwood — all
   non-canonical.
+- **Room concept art style-consistency pass (2026-08-13, same day)** — after project-owner feedback
+  that some room concepts didn't match the in-engine `Screenshots/` reference (they'd drifted toward
+  an isometric/painterly look), re-rendered `hotel_courtyard_concept.png`, `hotel_red_room_concept.png`,
+  and all 16 Police Station room concepts with a stricter "flat 2D top-down, NOT isometric, NOT a 3D
+  diorama" prompt, overwriting the old files. Incidentally resolved three of the previously flagged
+  non-canonical details (Records/Dispatch's "DET. HARRIS," the Break Room locker name, and the
+  Municipal Garage's "RAVENCROFT" sign) in the new renders; the Old Station House's Authority Crest
+  medallion still isn't the exact canonical wedge shape (a rounded shield/badge instead) but is close
+  enough for mood reference — flagged in [`Locations/Police_Station.md`](../Locations/Police_Station.md).
+- **`Reference/shambler_concept.png`, `the_caretaker_concept.png`, `della_marsh_concept.png`,
+  `the_maw_concept.png`** (AI-generated, 2026-08-13) — creature concept art for the four remaining
+  creature writeups that didn't have one yet, completing visual coverage for every creature in
+  `Creatures/`. Moody digital concept-art painting style, per the convention below. Embedded in their
+  matching `Creatures/` files. Two approximations flagged there rather than treated as canon: the
+  Caretaker's render doesn't clearly show hotel-maintenance overalls or a distinctly off-color glowing
+  eye.
 
 Several other assets have been uploaded, placed directly alongside their character files instead:
 

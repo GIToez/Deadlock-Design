@@ -1,5 +1,12 @@
 # Shambler
 
+![Shambler concept art — standard infected in a hotel corridor](../Assets/Reference/shambler_concept.png)
+
+*Concept art (2026-08-13), for visual reference only — not a literal in-game screenshot. Depicts the
+baseline infected: pale, waxy skin, clouded eyes, a jaw hanging at an unnatural angle, and the
+stiff, locked-in posture described below — deliberately generic/unnamed clothing, since this is the
+default population, not a scripted individual.*
+
 ## Concept
 
 The game's **standard, base-tier infected** — the ordinary "zombie" the player will encounter

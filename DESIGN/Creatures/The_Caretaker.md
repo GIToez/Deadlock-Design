@@ -1,5 +1,14 @@
 # The Caretaker (Roy Bullock)
 
+![The Caretaker concept art — Roy Bullock, mutated, in the Ravenwood Hotel courtyard](../Assets/Reference/the_caretaker_concept.png)
+
+*Concept art (2026-08-13), for visual reference only — not a literal in-game screenshot. Depicts Roy
+Bullock's mutated form in the courtyard under the floodlight: heavy, asymmetrical build, one
+oversized arm, and dark work clothing with a utility belt. Two approximations worth flagging rather
+than silently treating as locked: the render doesn't clearly distinguish "hotel maintenance
+overalls" from generic dark workwear, and doesn't show one eye glowing a distinct off-color as
+described below — the general silhouette/scale/mood is the useful part here.*
+
 ## Concept
 
 The game's first boss and first demonstration that infection can produce severe physical

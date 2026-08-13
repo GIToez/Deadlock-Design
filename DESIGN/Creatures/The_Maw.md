@@ -8,6 +8,13 @@
 **Encounter Type:** Stalker / Ambush Predator
 **Known Population:** One confirmed specimen within the Ravenwood Hotel
 
+![The Maw concept art — vertical torso-mouth mutation, low crouched posture, hotel hallway](../Assets/Reference/the_maw_concept.png)
+
+*Concept art (2026-08-13), for visual reference only — not a literal in-game screenshot. Depicts the
+defining mutation described below: the torso split into a vertical, tooth-lined mouth, the small
+recessed head above it, and the long-armed, low crouched posture in a dark hotel hallway — half-lit
+and half-glimpsed, consistent with "seeing it does not necessarily mean fighting it."*
+
 ## Concept
 
 The Maw is intended to teach the player that the creatures created by Ashen are not simply
