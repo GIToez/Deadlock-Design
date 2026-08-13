@@ -380,7 +380,7 @@
   note) for how full-room descriptions (Lobby, Courtyard) and multi-NPC simultaneous reaction
   beats relate to the actual constrained camera, rather than rewriting every atmospheric line.
 
-## Pending Plan — Police Station Restructure (RE-style, proposed 2026-08-13, awaiting approval)
+## Pending Plan — Police Station Restructure (RE-style, revised 2026-08-13, awaiting approval)
 
 Per the new "District Main-Location Design Standard" locked in [`CANON.md`](CANON.md), the
 just-written Police Station (`Scripts/Chapter_2_Ravenwood.md`, Scenes 22–33) is too short and
@@ -389,51 +389,70 @@ districts are written, so all five are built to the same standard. **Nothing bel
 written into the script yet** — this is a structural plan only, laid out for review the same way
 Memorial Park's layout was decision-logged before it was scripted.
 
+> **Revision note:** the first draft of this plan put the Ashen Hound encounter at the Municipal
+> Garage and an "evidence room" at the Courthouse. The project owner flagged both as ungrounded —
+> a K-9 unit's actual home is the station itself, not a general vehicle yard, and a courthouse
+> doesn't run long-term evidence storage (that's the department's own Property & Evidence Room).
+> Both are corrected below by moving weight into the main station building itself, which also
+> better fits the design standard's intent (the main location should carry the district's densest
+> content, not its secondary stops).
+
 **What stays the same:** Sergeant Calloway as the survivor, the shotgun as the equipment reward,
 the Authority Crest's location/appearance (old station house display case, Marshal Josiah Hale),
-the Ashen Hound encounter at the Municipal Garage, and all four buildings (Station, Fire Station,
+Diesel and Baxter as the Ashen Hound encounter, and all four buildings (Station, Fire Station,
 Municipal Garage, Courthouse).
 
-**What changes — a proposed 4-key backtracking loop across all four buildings, instead of a mostly
-linear station visit plus three separate optional side stops:**
+**What changes:**
 
-1. **Bullpen (hub).** Established as before, but now visibly gates *three* locked things at once
-   instead of unlocking in sequence: the **Armory** (keyed lock), the **Chief's Office** (keyed
-   lock), and a padlocked **evidence locker** (currently just "open" — proposed to be sealed,
-   requiring bolt cutters). Calloway is barricaded in Records/Dispatch, same as now.
-2. **Calloway** no longer hands over the armory key directly. Instead she: (a) gives Jim the
-   **Chief's Office key** (department protocol — the desk sergeant holds it), and (b) explains the
-   armory key was on **Corporal Reyes'** duty belt — he went out on a call to the Municipal Garage
-   about the K-9 unit acting up and never came back. She also mentions the evidence locker's been
-   sealed for months and "bolt cutters would do it, we just never got around to it."
-3. **Chief's Office** (new room, unlocked with Calloway's key): confirms Reyes' last known
-   location (the Garage), plus a minor optional reward.
-4. **Fire Station** (existing secondary location, now load-bearing instead of fully optional):
-   adds a pair of **bolt cutters** to its existing supplies/lore.
-5. **Return to Bullpen:** bolt cutters open the evidence locker → **Evidence Room Key** (as
-   already written, but now requires the Fire Station trip first instead of being a cold pickup).
-6. **Municipal Garage** (existing Ashen Hound fight, unchanged) + new addition: **Corporal Reyes'
-   body**, killed by the same Ashen Hounds he was sent to check on, found after the fight — the
-   **Armory Key** is on his belt. This gives Diesel/Baxter's encounter a direct narrative reason to
-   exist in the critical path (Reyes is why Jim has to go there at all) rather than being a
-   stand-alone combat detour.
-7. **Return to Bullpen/Armory:** Reyes' key opens it → shotgun + shells (as already written).
-8. **Courthouse** (existing secondary location, now load-bearing): Evidence Room Key (from step 5)
-   opens the evidence room as already written, but the locked personal lockbox inside now also
-   contains a new item — the **Old Station Skeleton Key** — alongside the existing optional
-   ammo/medkit.
-9. **Breezeway:** the antique deadbolt into the old station house — currently bypassed by an
-   exterior "pried boards" workaround — is proposed to instead require the **Skeleton Key** from
-   step 8 as the real, single solution (removing the workaround, which was a placeholder solved
-   before this loop existed).
-10. **Old Station House** (Main Hall + Holding Cells) — unchanged: the Authority Crest and the
-    damaged founders' document, now reached only after the full loop above.
+1. **Bullpen (hub).** Visibly gates three locked things at once instead of unlocking in sequence:
+   the **Armory** (keyed lock), the **Chief's Office** (keyed lock), and a padlocked **Property &
+   Evidence Room** (a proper room now, not just a wall locker — sealed, requires bolt cutters).
+   Calloway is barricaded in Records/Dispatch, same as now.
+2. **Calloway** gives Jim the **Chief's Office key** (department protocol — the desk sergeant
+   holds it) and explains that **Corporal Reyes** — who had the armory key on his belt — went to
+   check on the **K-9 unit**, kenneled in its own room at the back of the station, when the dogs
+   started acting up, and never came back. She also mentions the Property Room's been padlocked
+   for months and "bolt cutters would do it."
+3. **Chief's Office** (new room, unlocked with Calloway's key): confirms Reyes went to check the
+   kennels; contains the **Old Station Skeleton Key** — kept here specifically because the Chief,
+   not the desk sergeant, is the one responsible for the old building — plus a minor reward.
+4. **K-9 Unit Room** (new area, off a back hallway of the annex itself — not the Garage, not
+   locked, just somewhere Calloway's lead points Jim toward): Corporal Reyes' body, the **Armory
+   Key** on his belt, and the Ashen Hound fight (Diesel and Baxter) right there in their own
+   kennel room. This keeps the encounter in the main building, where a K-9 unit actually would be,
+   and gives it a direct narrative reason to be on the critical path (Reyes is why Jim has to go
+   there at all) rather than a stand-alone side-building detour.
+5. **Armory** (Reyes' key): shotgun + shells, as already written.
+6. **Fire Station** (secondary, now load-bearing): adds a pair of **bolt cutters** to its existing
+   supplies/lore — needed back at the Bullpen.
+7. **Property & Evidence Room** (bolt cutters): a real evidence-storage room at the station,
+   containing the **Evidence Room Key** (same item as before, same flavor text — the key itself
+   was evidence "release pending" to the municipal court) plus optional loot.
+8. **Municipal Garage** (secondary, now optional rather than load-bearing): keeps its existing
+   supplies, mechanic's office note, and shortcut gate; the K-9 transport van/Hound fight is
+   removed from here. Proposed small addition: Reyes' own patrol cruiser, door open, radio still
+   crackling — parked here rather than at the K-9 room, implying he walked back into the station
+   on foot to check the kennels and never returned to the car. A light connective breadcrumb, not
+   a requirement.
+9. **Courthouse** (secondary, optional): the Evidence Room Key now opens a renamed **Clerk's
+   Exhibit Storage** room — a small room holding an active trial exhibit rather than long-term
+   evidence, a distinct and realistic reason for a courthouse to have a locked, key-gated room at
+   all — with the same ammo/medkit-tier reward as before. The jury deliberation room survivor-camp
+   beat is unchanged.
+10. **Breezeway.** The antique deadbolt into the old station house — previously bypassed by an
+    exterior "pried boards" workaround — now requires the **Skeleton Key** from the Chief's Office
+    (step 3) as the one real solution, removing the workaround entirely.
+11. **Old Station House** (Main Hall + Holding Cells) — unchanged: the Authority Crest and the
+    damaged founders' document, reached only after the loop above.
 
-This turns all four buildings into one interlocking structure (closer to 2–3 hours of exploration)
-instead of a station visit plus three quick, independent side stops. **Awaiting explicit approval
-before `Scripts/Chapter_2_Ravenwood.md` Scenes 22–33, `Locations/Police_Station.md`, and
-`Characters/Ruth_Calloway.md` are rewritten to match** — this is exactly the kind of large,
-already-written-once revision the project's own rules say shouldn't happen silently.
+Net effect: the **main station building** now contains Lobby, Bullpen, Records/Dispatch, Chief's
+Office, K-9 Unit Room, Property & Evidence Room, Armory, Breezeway, Old Station Main Hall, and
+Holding Cells — ten distinct areas carrying real exploration/combat weight, matching the "2–3
+hours, hotel-comparable" bar. The three secondary locations become lighter, more clearly optional
+supply/lore stops (Fire Station mandatory for bolt cutters; Garage and Courthouse worthwhile but
+not gating), which is a more honest split than forcing all four buildings to be equally load-
+bearing. **Awaiting explicit approval before `Scripts/Chapter_2_Ravenwood.md` Scenes 22–33,
+`Locations/Police_Station.md`, and `Characters/Ruth_Calloway.md` are rewritten to match.**
 
 ## Still-Open Questions
 
