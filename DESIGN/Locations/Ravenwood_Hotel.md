@@ -186,6 +186,13 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   > it. No such screenshot has actually been committed to the repo yet, though — see
   > [`Assets/README.md`](../Assets/README.md) → "How to add a file" for how to push one in. Once
   > uploaded, embed it here in place of this note.
+- **Staff Hallway** — a short staff-only corridor off the Lobby, unlocked with the Manager's Key;
+  leads directly to the Manager's Office.
+
+  ![Staff Hallway concept — narrow staff corridor, key rack, cleaning cart, "Manager's Office" door sign](../Assets/Reference/hotel_staff_hallway_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Manager's Office reference
+  > screenshots.
 - **Manager's Office** — the chapter's first safe room; VERN save terminal, guest ledger,
   incident report, breaker panel. Reached via the Staff Hallway off the Lobby (Manager's Key).
 
@@ -205,8 +212,21 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 - **Grand Staircase** — the main stairs between the Lobby and the guest floor above; used
   repeatedly during the power-restoration puzzle in both directions.
 
+  ![Grand Staircase concept — wide carpeted staircase, brass railings, landing window](../Assets/Reference/hotel_grand_staircase_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Lobby-adjacent reference material
+  > and the general hotel look established by the other room screenshots.
+
 **Guest floor (accessible the whole chapter — not power-gated)**
 
+- **East Hallway** and **West Hallway** — the second-floor guest corridors branching off the Grand
+  Staircase landing; freely walkable the whole chapter, the setting for the second-floor chaos
+  during the outbreak's opening and (east hallway, second pass) the Rooms 114/116 pincer ambush.
+
+  ![East Hallway concept — guest-floor corridor, room doors, wall sconces, patterned carpet](../Assets/Reference/hotel_east_hallway_concept.png)
+  ![West Hallway concept — guest-floor corridor, room doors, wall sconces, patterned carpet](../Assets/Reference/hotel_west_hallway_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Room 104 reference screenshots.
 - **Room 104** — Jim's guest room; the "night before" scene.
 
   ![Room 104 — bed, nightstand, rotary phone](../Assets/Screenshots/ravenwood_hotel_room104_bedroom_a.webp)
@@ -223,10 +243,30 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   > AI-generated concept art (2026-08-13), style-anchored to the Room 104 reference screenshots.
   > Same base guest-room layout as 104, personalized with Cindy's belongings — not a scripted
   > inventory of her room's contents.
-- **Room 112** — Janeth Caldwell's room. **Room 118** — Maria & Richard Dalton's room.
+- **Room 112** — Janeth Caldwell's room.
+
+  ![Room 112 concept — Janeth's guest room, books, reading lamp, personal effects](../Assets/Reference/hotel_room112_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Room 104 reference screenshots.
+  > Same base guest-room layout as 104, personalized with Janeth's belongings — not a scripted
+  > inventory of her room's contents.
+- **Room 118** — Maria & Richard Dalton's room.
+
+  ![Room 118 concept — the Daltons' guest room, packed bags, baby-prep items](../Assets/Reference/hotel_room118_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Room 104 reference screenshots.
+  > Flagged inaccuracy: a pillow is embroidered with the monogram "H&R," which doesn't match either
+  > Dalton's initials (Maria and Richard) — ignore the monogram; everything else (packed bags,
+  > baby-prep items) matches the Daltons' expecting-parents characterization.
 - **Rooms 114 and 116** — otherwise-unremarkable guest rooms flanking the Housekeeping Closet;
   source of the second-floor east hallway's two-Shambler pincer ambush on the *second* pass through
   (see "Housekeeping Closet," below). Closed and uneventful on the first pass.
+
+  ![Rooms 114 & 116 concept — matching guest-room doors flanking the Housekeeping Closet door](../Assets/Reference/hotel_rooms114_116_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Room 104 reference screenshots —
+  > shown from the hallway, since both rooms are otherwise unremarkable/interchangeable and their
+  > narrative purpose is the pincer ambush's staging, not their interiors.
 - **Housekeeping Closet** — between Rooms 114 and 116, on the guest floor's east hallway. Locked on
   the first pass (Scene 30); unlocked later with the key taken off Fennimore's body. Source of the
   **Gate Crank Handle** needed to open the courtyard's north gate.
@@ -249,8 +289,16 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   > reference screenshot.
 - **East Public Stairwell** — at the end of the guest floor's east hallway; unlocked by East Wing
   power; the only way down into the East Wing's ground-floor service areas on the first trip.
+
+  ![East Public Stairwell concept — locked stairwell door, power-status placard, descending stairs](../Assets/Reference/hotel_east_public_stairwell_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Room 104 reference screenshots.
 - **West Public Stairwell** — at the end of the guest floor's west hallway, beside the Maintenance
   Room; locked until West Wing power is restored, then opens onto the West Wing's ground floor.
+
+  ![West Public Stairwell concept — locked stairwell door, power-status placard, descending stairs](../Assets/Reference/hotel_west_public_stairwell_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Room 104 reference screenshots.
 
 **East Wing — ground floor, service areas (reached via the East Public Stairwell)**
 
@@ -265,6 +313,11 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   > Reference screenshots uploaded by the project owner (2026-08-13) — in-engine mockups. Confirm
   > the Dining Hall/Kitchen connection exactly as scripted (Scene 31) and visibly place a Medkit
   > icon on the Kitchen's wall, consistent with the game's established item iconography.
+
+  ![Pantry/Storage concept — dry-goods shelving, canned goods, delivery crates](../Assets/Reference/hotel_pantry_concept.png)
+  ![Walk-in Freezer concept — hanging meat, frost-covered shelving, cold-storage racks](../Assets/Reference/hotel_walkin_freezer_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Kitchen reference screenshots.
 - **Utility Room** — source of the **screwdriver**.
 
   ![Utility Room concept — water heater, pumps, breaker panels, pegboard tools, workbench](../Assets/Reference/hotel_utility_room_concept.png)
@@ -287,35 +340,74 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   relocated to the West Wing. A barricaded service door behind it clears by hand, opening a
   **permanent shortcut straight back to the Lobby**.
 
+  ![East Wing Maintenance Closet concept — supply shelves, the handwritten fuse-relocation note, barricaded service door](../Assets/Reference/hotel_east_maintenance_closet_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the West Wing Maintenance Room concept
+  > to keep the hotel's two maintenance-closet spaces visually consistent.
+
 **West Wing — ground floor (reached via the West Public Stairwell, once unlocked)**
 
 - **Lounge/Recreation** — pool table, dart board; minor pre-outbreak atmosphere beat.
+
+  ![Lounge/Recreation concept — pool table, dart board, worn couches, jukebox](../Assets/Reference/hotel_lounge_recreation_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Dining Hall reference screenshot.
 - **Piano Area** — a small nook off the Lounge.
+
+  ![Piano Area concept — upright piano, sheet music, small stage lighting](../Assets/Reference/hotel_piano_area_concept.png)
+
+  > AI-generated concept art (2026-08-13, regenerated once — the first attempt rendered blank; a
+  > second pass using the same prompt succeeded), style-anchored to the Lounge/Recreation concept.
 - **Main Bar** — unattended pre-outbreak; wrecked later.
 
   ![Main Bar concept — bar counter, neon signs, overturned stools, wrecked lounge seating](../Assets/Reference/hotel_main_bar_concept.png)
 
-  > AI-generated concept art (2026-08-13), style-anchored to the Dining Hall reference screenshot.
+  > AI-generated concept art (2026-08-13, regenerated once — the first attempt rendered an
+  > unscripted door directly behind the bar, between the liquor shelves, which doesn't correspond to
+  > any door described in the script; this version fixes it to continuous back-bar shelving),
+  > style-anchored to the Dining Hall reference screenshot.
 - **The Red Room** — self-contained optional speakeasy lounge opening directly off the Main Bar;
   site of the Della Marsh encounter. Does not connect to the Security Office.
 
   ![Red Room concept — velvet curtains, cocktail tables, spotlighted stage, ceiling fan](../Assets/Reference/hotel_red_room_concept.png)
 
-  > AI-generated concept art (2026-08-13). Della Marsh herself intentionally left out of this
+  > AI-generated concept art (2026-08-13, regenerated once — the first attempt used a full
+  > diorama-style corner/isometric room shape instead of the flat-back-wall framing every other room
+  > concept uses; this version corrects it). Della Marsh herself intentionally left out of this
   > render — see [`Characters/Della_Marsh.md`](../Characters/Della_Marsh.md) if/when it exists, or
   > [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md) Scene 38 for her
-  > scripted description.
+  > scripted description. Flagged inaccuracy: the backstage neon sign misspells "The Red Room" as
+  > "The Red Roam" — an AI text-rendering error, ignore the typo.
 - **Liquor Storage** — off the Bar; minor exploration content.
+
+  ![Liquor Storage concept — bottle racks, kegs, inventory clipboard, door through to the West Wing Service Corridor](../Assets/Reference/hotel_liquor_storage_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Main Bar concept.
 - **Boiler Room**, **Staff Room/Storage** — West Wing back-of-house.
+
+  ![Boiler Room concept — hot-water heater, boiler unit, tool bench, warning placards](../Assets/Reference/hotel_boiler_room_concept.png)
+  ![Staff Room/Storage concept — employee lockers, break table, linen/supply shelving](../Assets/Reference/hotel_staff_room_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Utility Room concept. The Staff
+  > Room's lockers are labeled with generic staff surnames (Patel, Nguyen, Baker, O'Connor, Wilson)
+  > — none of them correspond to a named character; **Fennimore's** locker specifically is not
+  > pictured here and hasn't been placed among these — treat this render as unlabeled/generic staff
+  > storage, not a confirmation of whose locker is whose.
 - **West Wing Service Corridor** — a staff-only route at the rear of the West Wing leading to the
   Courtyard Security Office.
+
+  ![West Wing Service Corridor concept — narrow staff corridor, supply shelving, "Security Office" door sign](../Assets/Reference/hotel_west_service_corridor_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Staff Hallway concept.
 - **Courtyard Security Office** — controls courtyard gate access; reached via the West Wing
   Service Corridor.
 
   ![Courtyard Security Office concept — CCTV monitor bank, security terminal, emergency lockdown panel, courtyard access control](../Assets/Reference/hotel_security_office_concept.png)
 
-  > AI-generated concept art (2026-08-13), style-anchored to the Manager's Office breaker-panel
-  > reference screenshot.
+  > AI-generated concept art (2026-08-13, regenerated once — the first attempt was cropped too
+  > tightly around the desk/monitors and didn't show the room's full walls/floor/border the way
+  > every other room concept does; this version shows the complete room), style-anchored to the
+  > Manager's Office breaker-panel reference screenshot.
 
 **Exterior**
 
@@ -327,9 +419,22 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 
   ![Hotel Courtyard concept — rain, fountain, perimeter fence, north gate with manual release, maintenance shed](../Assets/Reference/hotel_courtyard_concept.png)
 
-  > AI-generated concept art (2026-08-13), style-anchored to the exterior reference screenshots.
-  > Fennimore's body and the shed's warped doors are present but small at this framing — see
-  > Scene 42 for the scripted beat-by-beat reveal.
+  > AI-generated concept art (2026-08-13, regenerated once — the first attempt showed too much of
+  > the hotel wing's rooftop from a directly-overhead angle, unlike the exterior reference
+  > screenshots' convention of a mostly-upright building facade with only a small roof sliver
+  > visible; this version corrects it), style-anchored to the exterior reference screenshots.
+  > Fennimore's body and the shed's warped doors are omitted at this framing — see Scene 42 for the
+  > scripted beat-by-beat reveal.
+- **Maintenance Shed** — the small wooden structure visible in the corner of the Courtyard render
+  above; chained shut by Fennimore once he found Roy Bullock transforming inside. The Caretaker
+  boss fight's starting location (he bursts out mid-crank, drawn by the gate mechanism's noise).
+
+  ![Maintenance Shed concept — interior, garden tools, workbench, overturned chair, "Maintenance Log" clipboard](../Assets/Reference/hotel_maintenance_shed_concept.png)
+
+  > AI-generated concept art (2026-08-13), style-anchored to the Hotel Courtyard concept (same shed
+  > seen from outside) and the Caretaker's own character concept, kept deliberately free of the
+  > Caretaker himself and of Fennimore's body — a pure environment render for the moment just before
+  > the boss reveal.
 
 ## Blueprint (Room Connectivity)
 

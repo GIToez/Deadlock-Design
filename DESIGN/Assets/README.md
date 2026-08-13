@@ -148,6 +148,29 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   [`Creatures/Unnamed_Hospital_Boss.md`](../Creatures/Unnamed_Hospital_Boss.md) for the full writeup
   and the "Reference Material" section describing the uploaded images in detail, since they couldn't
   be saved into this repo directly.
+- **`Reference/hotel_red_room_concept.png` (v3), `hotel_main_bar_concept.png` (v2),
+  `hotel_security_office_concept.png` (v2)** (AI-generated, 2026-08-13) — targeted fixes for
+  project-owner-flagged perspective/content issues: the Red Room's framing corrected to
+  flat-back-wall (and its backstage sign's "The Red Roam" typo flagged, not fixed — cosmetic AI
+  text-rendering noise), the Main Bar's unscripted door behind the bar removed, and the Security
+  Office's too-tight desk crop replaced with a full-room view. See
+  [`STORY_NOTES.md`](../STORY_NOTES.md) → "Red Room / Main Bar / Security Office / Courtyard render
+  fixes" and the updated captions in
+  [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md).
+- **Full room/hallway gap-fill sweep (AI-generated, 2026-08-13) — 21 new renders, completing every
+  room and named connector in both locations' blueprint diagrams.** Hotel (18): Staff Hallway,
+  Grand Staircase, East Hallway, West Hallway, Room 112, Room 118, Rooms 114 & 116, East Public
+  Stairwell, West Public Stairwell, West Wing Service Corridor, Pantry, Walk-in Freezer, East Wing
+  Maintenance Closet, Lounge/Recreation, Piano Area, Liquor Storage, Boiler Room, Staff
+  Room/Storage, and the Maintenance Shed's interior (the Caretaker boss fight's starting location —
+  the one genuine narrative-weight gap found in the sweep). Police Station (3): the Back Hallway,
+  the Booking Corridor (regenerated once — the first attempt drifted into the flat vector-cartoon
+  look flagged elsewhere in this file), and the Breezeway. All embedded in
+  [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md) and
+  [`Locations/Police_Station.md`](../Locations/Police_Station.md) at their matching rooms; full
+  rationale in [`STORY_NOTES.md`](../STORY_NOTES.md) → "Full room/hallway gap-fill sweep." One
+  flagged inaccuracy: Room 118's concept embroiders a pillow "H&R," matching neither Dalton's
+  initials.
 
 Several other assets have been uploaded, placed directly alongside their character files instead:
 

@@ -86,7 +86,13 @@ to the Ravenwood Hotel.
   > nameplate already seen in the Hotel's Manager's Office reference screenshot (used as a style
   > reference here), not an intentional connection between the Chief and Earl Whitaker. Do not
   > treat this as confirming the Chief's name/identity without an explicit decision.
-- **The K-9 Unit Room.** Down a back hallway: Corporal Reyes' body, one kennel gate already bent
+- **The Back Hallway.** A short, quiet corridor off the Bullpen leading to the Break Room and the
+  K-9 Unit Room.
+
+  ![Back Hallway — room concept](../Assets/Reference/police_station_back_hallway_concept.png)
+
+  > AI-generated room concept (2026-08-13).
+- **The K-9 Unit Room.** Down the back hallway: Corporal Reyes' body, one kennel gate already bent
   open, the **Armory Key** still on his belt. Investigating triggers the district's signature
   encounter — two Ashen Hounds (Diesel and Baxter, Reyes' own K-9 partners) — in a tight concrete
   room with nowhere to retreat to.
@@ -116,6 +122,14 @@ to the Ravenwood Hotel.
   > AI-generated room concept (2026-08-13). Note: the image labeled Reyes' locker "K. HARRISON"
   > instead of "E. REYES" — flagged as a generation error, not canon; the K-9 graduation photo
   > and dog paw-print detailing inside the open locker are otherwise exactly the scripted beat.
+- **The Booking Corridor.** A wider hallway off the Bullpen with a directory sign pointing toward
+  Booking, the Interview Room, and the Modern Holding Cells.
+
+  ![Booking Corridor — room concept](../Assets/Reference/police_station_booking_corridor_concept.png)
+
+  > AI-generated room concept (2026-08-13, regenerated once — the first attempt drifted into a flat
+  > vector-cartoon look instead of the project's painterly 2.5D pixel-art style; this version
+  > corrects it, style-anchored directly to the Booking & Processing and Bullpen renders).
 - **Booking & Processing.** A fingerprint station, mugshot backdrop, and personal-effects lockers —
   two still tagged and closed, one yielding an optional pocketknife.
 
@@ -167,6 +181,13 @@ to the Ravenwood Hotel.
 - **The Breezeway / Navigation Puzzle.** The direct connecting door into the old station house is
   locked with an antique deadbolt. The Old Station Skeleton Key (from the Chief's Office) opens it
   directly — no workaround needed.
+
+  ![Breezeway — room concept](../Assets/Reference/police_station_breezeway_concept.png)
+
+  > AI-generated room concept (2026-08-13). Deliberately shows the architectural transition from the
+  > modern annex's cinderblock/steel door to the old station house's stone and antique deadbolt door
+  > — the visual cue for the split the groundskeeper's note refers to ("not the annex... the original
+  > 1890s structure").
 - **The Old Station House.** A single hushed room, stone walls, a wall of every chief/marshal's
   photograph going back to 1887. A dusty glass display case holds the **Authority Crest** — a
   bronze, wedge-shaped medallion bearing a relief portrait of Marshal Josiah Hale, his name and
@@ -205,9 +226,11 @@ to the Ravenwood Hotel.
 - Bullpen (hub — visibly gates the Armory, Chief's Office, and Property Room from the start)
 - Records / Dispatch (Sergeant Calloway)
 - Chief's Office (Old Station Skeleton Key; Reyes/Chief logbook)
+- Back Hallway (connector — Bullpen to Break Room and K-9 Unit Room)
 - Break Room (optional; Reyes' locker/photo; Medkit + ammo)
 - K-9 Unit Room (Corporal Reyes' body; Armory Key; Ashen Hound fight)
 - Armory (locked; shotgun + shells)
+- Booking Corridor (connector — Bullpen to Booking, Interview Room, and Modern Holding Cells)
 - Booking & Processing (optional pocketknife; personal-effects lockers)
 - Interview Room (optional lore: pre-outbreak animal-behavior report, filed and forgotten)
 - Modern Holding Cells (optional; one empty, one holding a safely-caged shambler)
