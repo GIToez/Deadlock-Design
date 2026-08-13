@@ -20,18 +20,19 @@ Warmer than Jim on the surface but equally dry underneath. Worries practically, 
 she doesn't perform concern, she just quietly declines to let something go until she's satisfied.
 Finishes his sentences sometimes; doesn't finish her own when the emotion gets close (*"I know. I
 know. Just—"* / doesn't finish it). The kind of person who says *"I know"* when she means *"please
-be careful."* Also a little sneaky in a way she's completely unashamed of: she's had
-[Jim](Jim_Mercer.md)'s location shared to her phone since March without telling him, and openly
-admits it the moment he notices — "watching the little dot" is how she keeps tabs on him, and it's
-how she knows he's stopped for the night before he ever texts her. It's presented as endearing
-rather than controlling; Jim's reaction is closer to amused resignation than annoyance.
+be careful."* Keeps loose tabs on [Jim](Jim_Mercer.md)'s location while he's traveling — a
+practical, long-since-agreed-on arrangement rather than a secret or a joke at his expense, born out
+of how often his job puts him on back roads and out of signal. Neither of them treats it as
+remarkable; it's just how she'd know where to send help if a night like this one ever actually went
+wrong. It's also, incidentally, why she calls instead of waiting for a text (Scene 3) and how she
+knew about the infamous Ohio cornfield detour (Scene 1) — both left as a known, unbelabored fact of
+their relationship rather than a reveal.
 
 ## Relationships
 
 - **[Jim Mercer](Jim_Mercer.md)** — see his file. Married/partnered; long enough together to have
-  running jokes and shorthand (the Ohio cornfield GPS incident — she found him by watching his
-  location live, which is also the reveal behind the "little dot" bit; referenced in both Chapter
-  1 phone calls).
+  running jokes and shorthand (the Ohio cornfield GPS incident, referenced but never fully
+  explained on-screen — see Personality, above, for the mechanism behind it).
 
 ## Story Arc
 
@@ -49,7 +50,8 @@ rather than controlling; Jim's reaction is closer to amused resignation than ann
 ## Important Scenes
 
 - Phone Call 1 — Highway 13 — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 1.
-  Establishes the location-sharing "little dot" running joke and her personality in full.
+  Establishes her voice and rhythm with Jim; the Ohio cornfield joke lands here unexplained, on
+  purpose.
 - Phone Call 2 — hotel parking lot — Scene 3. The last real-time contact of the game (until
   Chapter 3's one-sided message and the Epilogue). Ends on a full, unabbreviated "I love you"
   exchange, deliberately written to be the moment the player carries into the Epilogue.
@@ -58,12 +60,11 @@ rather than controlling; Jim's reaction is closer to amused resignation than ann
 
 Teasing but affectionate; calls out Jim's deflections without belaboring them (*"Jim."* as a
 complete, sufficient sentence). Decides when a call's substance is over on her own terms (she's
-the one who says "goodnight" first, both calls) — but on the second call, the one that turns out
-to be their last real-time conversation of the game, she deliberately doesn't hang up right after,
-leaving room for Jim to say the full "I love you" rather than the usual shorthand "love you." He
-does. This is the one place in Chapter 1 where the dry, deflecting rhythm both of them use
-everywhere else drops for a beat — see
-[`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 3.
+the one who says "goodnight" first, both calls). In Scene 1 the "love you" that closes the call is
+their usual shorthand; in Scene 3 — the one that turns out to be their last real-time conversation
+of the game — Jim says the full "I love you" instead, plainly, with no joke immediately after to
+cut the tension. Neither of them treats it as a big moment on-screen; it's meant to land that way
+for the player instead.
 
 ## Established Facts
 

@@ -254,29 +254,33 @@
   document yet. The one specific named-in-concept character still pending is the conditional
   Police Station survivor officer (see `CANON.md` → "Survivor System") — still an unnamed
   placeholder, which is expected since the Police Station itself hasn't been written yet.
-- **Sarah/Jim call dialogue fully rewritten, two passes (2026-08-13).** First pass fixed two issues
+- **Sarah/Jim call dialogue rewritten, three passes (2026-08-13).** First pass fixed two issues
   flagged by the project owner: missing "I love you" in both calls, and a logic mismatch where
   Sarah says "text me when you stop" (Scene 1) but then *calls* Jim in Scene 3 rather than
   receiving a text. Second pass, prompted by the project owner pointing out that Scene 3 is the
   **only real-time impression the player ever gets of Sarah before she reappears in the
-  [`Epilogue`](Locations/Epilogue.md)**, went further than a line-level patch:
-  - **"Little dot" running joke** — Sarah has had Jim's location shared to her phone since March,
-    without telling him; she's openly unashamed of it once he notices ("I'm your wife. Watching
-    the little dot is basically the job"). This does double duty: it retroactively explains the
-    pre-existing "GPS took you through a field in Ohio" joke (established in Scene 1, now paid off
-    instead of just referenced), and it cleanly resolves the text-vs-call mismatch — she calls
-    Scene 3 because she watched the dot stop, not because she ignored his "I'll text you."
-  - **Full "I love you," not the shorthand "love you," in Scene 3** — per explicit project owner
-    request ("the I is very important"). Scene 1's exchange stays as the shorter, more casual
-    "love you" (their normal register); Scene 3 is written as the one place in the chapter where
-    that dry, deflecting rhythm drops for a beat, specifically because — unknown to either of
-    them — it's their last real-time conversation of the game.
-  - **Quiet foreshadowing line** — Sarah's closing "I'll be right here either way" is deliberate
-    dramatic irony for a player who later reaches the Epilogue: she isn't there when it matters:
-    once Chapter 3 ends, she leaves home and comes to Ravenwood herself.
+  [`Epilogue`](Locations/Epilogue.md)**, added a "little dot" location-tracking explanation as a
+  dialogue reveal in Scene 1 — but the project owner flagged this third draft as feeling
+  artificial/over-explained, on two specific points: (1) the pre-existing "GPS took you through a
+  field in Ohio" joke works better **unexplained**, as a pure running-joke callback, not spelled
+  out with a full tracking-app conversation; (2) Jim already knowing and being fine with Sarah
+  tracking his location reads as more natural than a "gotcha" reveal where he's surprised/mildly
+  scandalized — and the *reason* it exists should be practical safety (he travels for work; she'd
+  know where to send help if something ever happened), not a "sneaky/cute" quirk. Third pass fixed
+  both:
+  - Scene 1's cornfield joke reverted to fully unexplained — no GPS/tracking mechanism mentioned
+    there at all, just the callback line itself.
+  - Scene 3 now establishes the tracking arrangement in one short piece of **narration**, once,
+    stated as a mundane, already-settled fact of their relationship (practical/safety-motivated,
+    not secretive) — no dialogue "reveal," no surprise from Jim. The dialogue itself was also
+    trimmed to reduce joke-per-line density and read more like a real, slightly mundane phone
+    call.
+  - The ending was simplified too — cut an overly neat, on-the-nose foreshadowing line ("I'll be
+    right here either way") that read as written for the audience rather than something a person
+    would actually say; the full "I love you" now lands on its own, unadorned.
   - Updated `Characters/Sarah_Mercer.md` (Personality, Relationships, Dialogue Characteristics,
-    Important Scenes) to lock in the location-sharing trait and the Scene 3 exception to her
-    usual "ends calls on her own terms" pattern.
+    Important Scenes) to match — tracking is now described as a known, practical safety habit, not
+    a secret or a "reveal."
 - **Chapter 2 opening: Cindy's blood trail and robe (2026-08-13).** New content, approved directly
   by the project owner, continuing (not resolving) Cindy Sweets' unresolved Chapter 1 thread: a
   blood trail starts right at the courtyard gate as Jim steps onto the street (Scene 1), runs

@@ -82,19 +82,6 @@ The phone connects through the Jeep speakers. Caller ID: **SARAH.**
 > **JIM:** *"The road was technically—"*
 >
 > **SARAH:** *"It was a field."*
->
-> **JIM:** *"How do you even know that. You're two states away."*
->
-> **SARAH:** *"I can see the little dot, Jim. I've been watching you zigzag for an hour."*
->
-> **JIM:** *"That's not — you're not supposed to just watch that."*
->
-> **SARAH:** *"I'm your wife. Watching the little dot is basically the job."*
->
-> **JIM:** *"Since when do you have that turned on?"*
->
-> **SARAH:** *"March. You never checked your settings. I could find you in a cornfield in the
-> dark, and did, so."*
 
 He almost laughs. Almost. Lightning flashes again across the tree line. Something near the road.
 Gone.
@@ -123,7 +110,7 @@ He almost laughs again. Lightning flashes across the tree line a second time.
 >
 > **JIM:** *"I will."*
 >
-> **SARAH:** *"I mean it. I'll be watching the dot either way, but text me."*
+> **SARAH:** *"I mean it."*
 >
 > **JIM:** *"I know you mean it."*
 
@@ -135,9 +122,9 @@ Static briefly swallows the line.
 >
 > **SARAH:** *"Not until you text me."*
 >
-> **JIM:** *"I love you."*
+> **JIM:** *"Love you."*
 >
-> **SARAH:** *"I love you too. Now text me."*
+> **SARAH:** *"Love you too. Now text me."*
 >
 > **JIM:** *"Goodnight Sarah."*
 >
@@ -247,19 +234,25 @@ about to get significantly worse.
 Jim stops under the narrow overhang above the hotel entrance. It barely qualifies as shelter —
 rain blows sideways off the edge and soaks the left side of him anyway. He answers.
 
+She's calling, not waiting for his text — not unusual, and not something either of them makes a
+thing of anymore. His work keeps him on back roads and out of signal more nights than either of
+them likes, and a few years into that they'd settled into it without much of a conversation:
+she keeps half an eye on where he is, mostly so that if something ever actually happened out
+there, she'd be the one calling for help instead of the last one to find out.
+
 > **SARAH:** *"Please tell me that's you stopping somewhere."*
 >
 > **JIM:** *"Ravenwood Hotel. Est. 1956."*
 >
-> **SARAH:** *"I know. I watched the dot stop twenty minutes ago."*
+> **SARAH:** *"You've been sitting still a few minutes. Figured."*
 >
-> **JIM:** *"You could've just waited for the text."*
+> **JIM:** *"Was gonna text."*
 >
-> **SARAH:** *"I could have. I don't like waiting."*
+> **SARAH:** *"You always say that."*
 >
-> **JIM:** *"Fair enough."*
+> **JIM:** *"...Fair."*
 >
-> **SARAH:** *"That's either charming or a tetanus risk, by the way."*
+> **SARAH:** *"Either way — that's either charming or a tetanus risk."*
 >
 > **JIM:** *"Probably both."*
 
@@ -287,7 +280,7 @@ Just that. The way she says it when she's decided not to push.
 
 > **JIM:** *"I'll text you when I'm checked in."*
 >
-> **SARAH:** *"You'd better. I'll still be watching the dot, but you'd better."*
+> **SARAH:** *"You'd better."*
 >
 > **JIM:** *"Hey."*
 >
@@ -299,27 +292,15 @@ Just that. The way she says it when she's decided not to push.
 >
 > **JIM:** *"You called me."*
 >
-> **SARAH:** *"...Fine. Goodnight, Jim."*
+> **SARAH:** *"...Goodnight, Jim."*
 
-A beat. She doesn't hang up. She never quite does, not on this one.
+A beat. She's still on the line when he says it.
 
-> **JIM:** *"Sarah."*
->
-> **SARAH:** *"Still here."*
->
 > **JIM:** *"I love you."*
-
-He says the whole thing. Not the shorthand version.
-
-> **SARAH:** *"I love you too. Go get some sleep, and text me the second you're up."*
 >
-> **JIM:** *"I will. I'm not going anywhere."*
+> **SARAH:** *"I love you too. Go to sleep."*
 >
-> **SARAH:** *"I know. I'll be right here either way."*
->
-> **JIM:** *"Goodnight, Sarah."*
->
-> **SARAH:** *"Goodnight."*
+> **JIM:** *"Night."*
 
 The call ends. Jim stands under the overhang a moment longer, the phone still warm against his
 ear after she's already gone. The police lights pulse across the lot. The rain keeps coming. He
@@ -329,11 +310,8 @@ turns toward the hotel doors.
 > Deadlock Protocol severs outside contact within the hour, and the only thing she hears from him
 > again is a single one-sided message near the end of Chapter 3 (see
 > [`MASTER_STORY.md`](../MASTER_STORY.md)). Everything the player knows about Sarah going into the
-> [`Epilogue`](../Locations/Epilogue.md) comes from these two calls, so both are written to
-> establish her as a specific person — practical, a little sneaky, funny under pressure — rather
-> than a generic worried voice on the phone. "I'll be right here either way" is deliberate,
-> quietly ironic dramatic weight in hindsight: she isn't, once Chapter 3 ends; she comes to
-> Ravenwood herself.*
+> [`Epilogue`](../Locations/Epilogue.md) comes from these two calls, so the full "I love you" here
+> — plainly stated, no deflection — is meant to be the moment the player carries with them.*
 
 ---
 
