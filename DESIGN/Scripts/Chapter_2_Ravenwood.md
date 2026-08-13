@@ -443,11 +443,12 @@ He lowers his eyes to the plaque.
 
 Jim steps carefully along the narrow stone edge of the basin to reach the plaque directly. It
 faces outward toward the approach path. Large. Circular. Dark metal — the same bronze as the
-statue herself. A small pentagon sits at the exact center, a single weathered letter cast into
-it — a **"V"**, worn nearly smooth, easy to miss if you're not looking for it. Around that center
-hub, five recessed wedge-shaped slots ring outward like a compass rose, each precisely
-machined — beveled edges — an exact trapezoidal section of the whole. Currently: all five are
-empty.
+statue herself. A small five-sided pentagon sits at the exact center, a single weathered letter
+cast into it — a **"V"**, worn nearly smooth, easy to miss if you're not looking for it. Around
+that center hub, five recessed wedge-shaped sockets ring outward like a compass rose, each
+precisely machined — beveled edges — an exact trapezoidal cavity, empty and waiting for something
+that clearly used to sit there. Not a marking. An absence — like a missing puzzle piece. Currently:
+all five are empty.
 
 Around the outer rim of the plaque — cast into the metal in small capital letters — a single line
 of text runs the full circumference:

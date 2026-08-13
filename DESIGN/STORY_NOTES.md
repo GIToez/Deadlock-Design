@@ -270,6 +270,18 @@
   fixed the plaque's physical description) to match. The directional-hint mechanic itself
   (corrected earlier the same day, see above) is unaffected — the wedge positions still map to the
   same five compass directions and districts.
+- **Concept art refined, v2 (2026-08-13, same day).** Two fixes to the first pass, approved by the
+  project owner: (1) the center hub rendered as a six-sided shape instead of a proper five-sided
+  pentagon — regenerated correctly; (2) more importantly, **each emblem needs to read as a
+  separate physical piece that fully fills its recess**, not just a small glowing icon on the same
+  continuous stone surface as the empty slots. Regenerated
+  `Assets/Reference/founders_memorial_plaque_concept.png` (replacing the original in place) with a
+  visibly different, lighter-colored metal for the two filled wedges and a clear raised
+  seam/lip where each inserted piece meets the surrounding frame, versus bare dark recessed cavities
+  (with only a faint engraved silhouette) for the three empty ones. Tightened the wording in
+  `CANON.md`, `Locations/Memorial_Park.md`, and `Scripts/Chapter_2_Ravenwood.md` Scene 14 to match:
+  emblems are explicitly "a separate, physical wedge-shaped piece that inserts into and completely
+  fills its matching recess... like a puzzle piece," not a marking that appears on existing stone.
 - The two reference screenshots (lobby layout + gameplay viewport combat shot) were shared inline
   in chat only — not saved to the repo, since inline chat images aren't accessible as real files.
   If they should become permanent reference material, they need to be pushed as actual files
