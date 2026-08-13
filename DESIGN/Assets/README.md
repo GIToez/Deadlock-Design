@@ -41,9 +41,21 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   encounter, Chapter 2). Regenerated 2026-08-13 to match the encounter's move from the Municipal
   Garage into the station itself. Referenced from `Creatures/Ashen_Hound.md`.
 
-One other asset has been uploaded, placed directly alongside its character file instead:
-`Characters/spr_cindy_jumpscare.gif`, embedded in
-[`Characters/Cindy_Sweets.md`](../Characters/Cindy_Sweets.md).
+Several other assets have been uploaded, placed directly alongside their character files instead:
+
+- `Characters/spr_cindy_jumpscare.gif` — embedded in
+  [`Characters/Cindy_Sweets.md`](../Characters/Cindy_Sweets.md).
+- **Chapter 1 NPC reference portraits** (2026-08-13): `spr_sarah_portrait.png`,
+  `spr_cindy_portrait.png`, `spr_cindy_robe_portrait.png`, `spr_earl_normal_portrait.png`,
+  `spr_greta_portrait.png`, `spr_janeth_normal_portrait.png`, `spr_maria_portrait.png`, and
+  `spr_jim_portrait.png` — each embedded in its matching character file
+  ([`Sarah_Mercer.md`](../Characters/Sarah_Mercer.md), [`Cindy_Sweets.md`](../Characters/Cindy_Sweets.md),
+  [`Earl_Whitaker.md`](../Characters/Earl_Whitaker.md), [`Gerta.md`](../Characters/Gerta.md),
+  [`Janeth_Caldwell.md`](../Characters/Janeth_Caldwell.md), [`Maria_Dalton.md`](../Characters/Maria_Dalton.md),
+  [`Jim_Mercer.md`](../Characters/Jim_Mercer.md)). Two filenames were corrected after upload: a
+  stray space in the Sarah portrait's filename (which would have broken its Markdown link), and a
+  generic `spr_male_portrait_A.png` name that was confirmed by the project owner to be Jim and
+  renamed to `spr_jim_portrait.png` accordingly.
 
 ## Convention: concept art for new enemies and bosses
 
