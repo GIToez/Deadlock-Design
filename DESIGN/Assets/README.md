@@ -40,6 +40,32 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   [Ashen Hound](../Creatures/Ashen_Hound.md) ("Diesel," the Police Station's K-9 Unit Room
   encounter, Chapter 2). Regenerated 2026-08-13 to match the encounter's move from the Municipal
   Garage into the station itself. Referenced from `Creatures/Ashen_Hound.md`.
+- **`Screenshots/ravenwood_hotel_*.png` / `.webp`** (11 files, uploaded by the project owner,
+  2026-08-13) — in-engine room mockups for the Ravenwood Hotel: the exterior/parking lot, the
+  Manager's Office (including the VERN terminal exactly as described in `CANON.md`), Room 104
+  (bedroom + bathroom), and the Dining Hall/Kitchen. These are the most reliable art-style
+  reference in the whole project so far — real room mockups, not concept sketches. Renamed from
+  generic upload filenames (`image-2.webp`, `file_0000...png`, etc.) to descriptive ones; all
+  embedded directly in [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md) at their
+  matching rooms, with any new details not already in the script flagged inline rather than
+  silently written in as fact.
+- **`Reference/zombie_conglomerate_dossier.png`, `zombie_conglomerate_closeup.png`,
+  `zombie_conglomerate_roll_animation.gif`** (uploaded by the project owner, 2026-08-13) — concept
+  art and an animation test for **the Zombie Conglomerate** (the "Zombie King"), a new roaming
+  creature — see [`Creatures/Zombie_Conglomerate.md`](../Creatures/Zombie_Conglomerate.md) for the
+  full writeup, including a locked-canon conflict in the dossier's own timeline that's flagged
+  there rather than silently imported.
+- **`Reference/vern_terminal_icon.gif`** (uploaded by the project owner, 2026-08-13) — a small
+  pixel-art icon of the VERN terminal itself, consistent with its wall-mounted appearance in the
+  Manager's Office screenshot above.
+- **`Reference/police_station_bullpen_concept.png`, `police_station_chiefs_office_concept.png`,
+  `police_station_k9_room_concept.png`, `police_station_old_main_hall_concept.png`** (AI-generated,
+  2026-08-13) — the first batch of room concept art under the new convention below, covering the
+  Police Station's most narratively significant rooms. Embedded in
+  [`Locations/Police_Station.md`](../Locations/Police_Station.md). The Chief's Office concept
+  invented an unprompted "CHIEF E. WHITAKER" nameplate (flagged, not canon); the first attempt at
+  the Old Station House main hall rendered the wrong emblem shape and invented chief names and was
+  regenerated.
 
 Several other assets have been uploaded, placed directly alongside their character files instead:
 
@@ -52,6 +78,33 @@ Several other assets have been uploaded, placed directly alongside their charact
   filenames corrected after upload — a stray space, and a generic name confirmed to be Jim);
   Richard Dalton, Officer Dale Pruitt, Sergeant Ruth Calloway, Corporal Eli Reyes, and Fennimore
   were AI-generated (2026-08-13) to match.
+
+## Convention: room concept art
+
+The project owner's uploaded Hotel screenshots (`Screenshots/ravenwood_hotel_*`) are genuine
+in-engine mockups and now the definitive visual-style reference for the whole project — a warm,
+detailed, isometric-leaning 2.5D top-down pixel art style with a high density of readable props.
+Generating a matching room concept for scenes/locations that don't have a real mockup yet is now
+standard practice, to give the team a general sense of "how that room should look" ahead of actual
+in-engine work. Guidelines:
+
+- **Filename:** `Reference/<location>_<room>_concept.png`, lowercase with underscores (e.g.
+  `police_station_bullpen_concept.png`).
+- **Always pass at least one existing Hotel screenshot as a style reference** when generating —
+  these are AI-generated approximations, not real game assets, so staying visually anchored to the
+  one style reference we know is accurate matters more than for mood-board concept art (like the
+  creature concept art convention below, which allows more painterly latitude).
+- **Base the prompt strictly on what's already written** in the room's own scene text (props,
+  layout, key items visible) — don't invent new canon-affecting layout details in the image prompt
+  alone. If the generated image suggests something worth keeping (an item placement, a detail),
+  fold it back into the script/location file rather than leaving it only in the image.
+- **Label these clearly as concept approximations, not locked layouts** — they're meant to
+  communicate a general feeling and prop density, not dictate exact in-engine placement.
+- **Embed directly in the relevant `Locations/` file** near the room's description, and log it in
+  the "Current files" list above.
+- Prioritize rooms with real narrative weight (hubs, signature encounters, key-item rooms) over
+  minor pass-through spaces — this is meant to be an ongoing, iterative pass across all locations,
+  not a one-time exhaustive sweep.
 
 ## Convention: concept art for new enemies and bosses
 

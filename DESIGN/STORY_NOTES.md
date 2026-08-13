@@ -512,6 +512,63 @@ the next entry for the current final numbering (Scenes 22–40).
   and Reyes can still get a portrait as an internal design tool). Every currently-written named
   character now has a reference portrait.
 
+- **Zombie Conglomerate ("the Zombie King") introduced + Hotel reference screenshots organized
+  (2026-08-13).** The project owner uploaded a large asset batch to `DESIGN/Assets/` — most of it
+  in-engine room mockups for the Ravenwood Hotel (exterior/parking lot, Manager's Office, Room 104,
+  Dining Hall/Kitchen), plus concept art and an animation test for a new creature, "the Zombie
+  King" — "think of it as a rat king... it rolls around the town randomly, first displays after you
+  collect your first emblem."
+  - **Hotel screenshots** were renamed from generic upload filenames to descriptive ones, sorted
+    into `Assets/Screenshots/`, and embedded directly in
+    [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md) at their matching rooms. These
+    are genuine in-engine mockups (not concept sketches) and are now the most reliable art-style
+    reference in the project. One new detail surfaced that wasn't in the original script — a
+    circular fountain courtyard/walkway at the hotel's front entrance — flagged inline as additive
+    rather than contradictory (a hotel plausibly has both a parking lot and a separate fountain
+    drive), and a "E. Whitaker" desk nameplate in the Manager's Office, plausibly Earl's own desk
+    but not confirmed in any script.
+  - **The Zombie Conglomerate** ("ZK" in its own concept dossier — Vanguard's technical designation
+    for "Zombie Conglomerate," which the write-up treats as a deliberate in-world coincidence with
+    the player-facing nickname "the Zombie King," rather than a naming conflict) is a new,
+    **unkillable, un-fightable roaming hazard** — a mass of dozens of fused infected bodies, closer
+    to an environmental hazard than a combat encounter. Full writeup at
+    [`Creatures/Zombie_Conglomerate.md`](Creatures/Zombie_Conglomerate.md).
+  - **Flagged rather than silently imported:** the uploaded concept dossier includes a "Recorded
+    Sightings" log spanning **Day 18 through Day 45**, which directly contradicts the locked
+    one-night timeline (`CANON.md`: *"the entire game takes place over the course of one night"*).
+    Proposed (not yet approved) resolution: treat that log as a **secret, Vanguard-internal**
+    history — the creature existed and grew for weeks before Jim's arrival, but entirely within
+    Vanguard's own containment, only becoming a public, citywide threat the same night as the main
+    outbreak, when that containment fails along with everything else. This preserves nearly all of
+    the dossier's flavor text (including its unsettling "we do not study it anymore, we survive it"
+    Vanguard notes) while resolving the contradiction. The dossier's location names (e.g. "St.
+    Michael Church") don't match the game's actual five districts and should be reconciled if this
+    material is ever written into an actual found document in-game.
+  - **Not yet integrated as an actual scripted encounter** — `Creatures/Zombie_Conglomerate.md`
+    proposes a first-appearance size (Stage 3, "Consumption," blocking a street/pathway) and a
+    design intent (never fightable, forces detours/avoidance during open-world city exploration),
+    but this needs approval before being written into `Scripts/Chapter_2_Ravenwood.md`.
+  - Updated `CANON.md` (new "Apex Mutation" classification), `Creatures/README.md`,
+    `MASTER_STORY.md`, and `Assets/README.md` to reference it.
+  - **Room concept art started (same day).** Per the project owner's request ("generate room
+    concepts for each scene, how that room should look, at least the general idea"), documented a
+    new "room concept art" convention in `Assets/README.md` using the uploaded Hotel screenshots as
+    the definitive style anchor, and generated a first batch covering the Police Station's most
+    narratively significant rooms: the Bullpen, the Chief's Office, the K-9 Unit Room, and the Old
+    Station House main hall. Two generation issues came up and are worth remembering for future
+    batches: (1) the Chief's Office concept unprompted invented a "CHIEF E. WHITAKER" desk
+    nameplate, almost certainly echoing the "E. Whitaker" nameplate visible in the Hotel's Manager's
+    Office reference screenshot used as a style guide — flagged as non-canonical rather than a
+    hint; (2) the first attempt at the Old Station House main hall rendered the emblem as a
+    triangle/pyramid and invented eight unrelated chief names, both contradicting the already-
+    locked wedge-shaped Authority Crest and Marshal Josiah Hale specifically — this was
+    regenerated with a much more constrained prompt (explicit shape description, explicit
+    instruction to keep the photo wall illegible/generic) and came out correct. **This is the start
+    of an ongoing pass, not a complete sweep** — the remaining Police Station rooms and all of
+    Chapter 1/2's other locations still don't have concept art and should be generated
+    incrementally going forward, prioritizing narratively significant rooms first per the new
+    convention.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /

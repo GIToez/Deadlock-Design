@@ -27,6 +27,17 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   talking to Sarah by phone. Road signs pass: BLACKWATER, COUNTY LINE, RAVENWOOD — 2 MILES.
 - The neon Ravenwood Hotel sign ("EST. 1956 — VACANCY") emerges through the rain. Jim parks his
   Jeep in the hotel lot.
+
+  ![Hotel exterior — wide parking lot, Jim's Jeep, the police cruiser near the street](../Assets/Screenshots/ravenwood_hotel_exterior_parking_lot.webp)
+  ![Hotel exterior — front entrance, circular fountain courtyard/walkway](../Assets/Screenshots/ravenwood_hotel_exterior_fountain_entrance.webp)
+
+  > Reference screenshots uploaded by the project owner (2026-08-13) — in-engine mockups. The
+  > second image adds a specific detail not previously scripted: a circular fountain courtyard
+  > forming the pedestrian walkway between the parking lot and the front doors (with a carved
+  > "RAVENWOOD HOTEL" sign at its base, separate from the neon marquee already established). This
+  > reads as additive detail rather than a contradiction — a large hotel plausibly has both a
+  > parking lot and a fountain drive/walkway — but flagging it here since it wasn't in the original
+  > script.
 - A police cruiser is seen pulled over near the entrance — **Officer Dale Pruitt** dealing with an
   unclearly-seen, subtly-twitching detained driver (Pruitt's unnamed exposure point) — an early,
   deniable hint of the outbreak.
@@ -170,6 +181,18 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   Staircase up to the guest floor. Wrecked mid-chapter by the police cruiser crash.
 - **Manager's Office** — the chapter's first safe room; VERN save terminal, guest ledger,
   incident report, breaker panel. Reached via the Staff Hallway off the Lobby (Manager's Key).
+
+  ![Manager's Office — VERN terminal, Employee Records, safe, desk reference](../Assets/Screenshots/ravenwood_hotel_managers_office_vern.webp)
+  ![Manager's Office — breaker/generator panel and duty reports board](../Assets/Screenshots/ravenwood_hotel_managers_office_breaker.webp)
+
+  > Reference screenshots uploaded by the project owner (2026-08-13) — in-engine mockups, the most
+  > reliable source of truth for art style and prop density in this room. Confirms the wall-mounted
+  > VERN terminal exactly as described in [`CANON.md`](../CANON.md), plus an Employee Records
+  > filing cabinet, a safe, and a desk nameplate reading "E. Whitaker" (not previously scripted —
+  > plausibly Earl's own desk, given his 32-year tenure, though this isn't confirmed in the script
+  > and shouldn't be treated as locked without follow-up). The second image shows a large panel
+  > that's very likely the breaker panel described in the script, though it wasn't explicitly
+  > labeled as such in the reference.
 - **Breaker Panel** (inside Manager's Office) — Lobby / East Wing / West Wing power switches;
   central hub for the power-restoration puzzle.
 - **Grand Staircase** — the main stairs between the Lobby and the guest floor above; used
@@ -178,6 +201,13 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 **Guest floor (accessible the whole chapter — not power-gated)**
 
 - **Room 104** — Jim's guest room; the "night before" scene.
+
+  ![Room 104 — bed, nightstand, rotary phone](../Assets/Screenshots/ravenwood_hotel_room104_bedroom_a.webp)
+  ![Room 104 — TV, radiator, chair](../Assets/Screenshots/ravenwood_hotel_room104_bedroom_b.webp)
+  ![Room 104 — bathroom](../Assets/Screenshots/ravenwood_hotel_room104_bathroom.webp)
+
+  > Reference screenshots uploaded by the project owner (2026-08-13) — in-engine mockups matching
+  > Scene 15 almost exactly (rotary phone, lamp, TV, bathroom mirror all present as scripted).
 - **Room 106** — Cindy Sweets' room; site of her abduction jumpscare, triggered while crossing the
   west hallway toward the West Wing Maintenance Room.
 - **Room 112** — Janeth Caldwell's room. **Room 118** — Maria & Richard Dalton's room.
@@ -198,6 +228,15 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 
 - **Dining Hall**, **Kitchen**, **Pantry/Storage**, **Walk-in Freezer** — the hotel's dining and
   food-service wing; minor exploration content.
+
+  ![Dining Hall — full room, round table set for service, buffet counter](../Assets/Screenshots/ravenwood_hotel_dining_hall.png)
+  ![Dining Hall — buffet detail and the door through to the Kitchen](../Assets/Screenshots/ravenwood_hotel_dining_hall_kitchen_door.png)
+  ![Kitchen — wall fixtures (stove, walk-in freezer, sinks)](../Assets/Screenshots/ravenwood_hotel_kitchen_fixtures.png)
+  ![Kitchen — full room, with the door through to the Dining Hall](../Assets/Screenshots/ravenwood_hotel_kitchen_full.png)
+
+  > Reference screenshots uploaded by the project owner (2026-08-13) — in-engine mockups. Confirm
+  > the Dining Hall/Kitchen connection exactly as scripted (Scene 31) and visibly place a Medkit
+  > icon on the Kitchen's wall, consistent with the game's established item iconography.
 - **Utility Room** — source of the **screwdriver**.
 - **Laundry/Linen Room** — industrial washers/dryers, laundry carts. Site of Gerta's death (killed
   by **The Maw**) — see [`Creatures/The_Maw.md`](../Creatures/The_Maw.md) and

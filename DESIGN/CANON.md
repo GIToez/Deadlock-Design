@@ -251,6 +251,17 @@ baseline. Shares the "Ashen" naming convention (tied to Black Vein's visual/them
 is not itself a variant of "Ashen Mutant," which this document uses specifically for human
 mutation-stage creatures.
 
+## Creature Classification: Apex Mutation
+
+**[The Zombie Conglomerate ("the Zombie King")](Creatures/Zombie_Conglomerate.md)** — a new,
+separate classification tier (proposed 2026-08-13): a mass of dozens (eventually many more)
+individually-infected bodies fused together by unchecked Ashen mutation into a single rolling,
+grasping entity, "not born, but built." Unlike every other creature so far, it is explicitly
+**unkillable and un-fightable by design** — a roaming, unpredictable environmental hazard rather
+than a combat encounter, first appearing in Chapter 2 after Jim recovers his first emblem. See its
+file for a locked-canon conflict in its source concept art (an incompatible multi-week sighting
+timeline) and a proposed resolution, not yet approved.
+
 ## Survivor System (design rule, applies from Chapter 2 onward)
 
 - **Tier 1 — Key story survivors:** a small number of fully developed characters, essential to the

@@ -141,6 +141,12 @@ example. The Police Station also delivers the game's second firearm (a shotgun) 
 **Ashen Hound** (see [`Creatures/Ashen_Hound.md`](Creatures/Ashen_Hound.md)) — a fast,
 pack-hunting infected-animal type distinct from the slow Shambler baseline.
 
+**The Zombie Conglomerate.** Once Jim recovers his first emblem, a new, unkillable roaming hazard —
+[the Zombie Conglomerate, "the Zombie King"](Creatures/Zombie_Conglomerate.md) — begins appearing
+unpredictably in the city streets between districts: a mass of dozens of fused infected bodies,
+avoidable but never fightable, that grows more dangerous the further the outbreak has progressed.
+Not yet integrated into the scripted city exploration — see [`STORY_NOTES.md`](STORY_NOTES.md).
+
 **Chapter Close.** Returning all five emblems to the Founders Memorial fills all five wedges of
 the medallion; the water basin drains, revealing a hidden staircase beneath the statue — the
 entrance to the underground [Vanguard Facility](Locations/Vanguard_Facility.md).

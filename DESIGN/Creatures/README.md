@@ -22,7 +22,10 @@ A creature document may contain:
 - [`The_Maw.md`](The_Maw.md) — an unseen, ambush-type presence responsible for Cindy Sweets' abduction and
   Gerta's death; deliberately not fully described yet.
 - [`Ashen_Hound.md`](Ashen_Hound.md) — Diesel and Baxter, mutated K-9 unit dogs; the game's first
-  fast, pack-hunting infected type, introduced at the Police Station's Municipal Garage (Chapter 2).
+  fast, pack-hunting infected type, introduced at the Police Station's K-9 Unit Room (Chapter 2).
+- [`Zombie_Conglomerate.md`](Zombie_Conglomerate.md) — "the Zombie King," a roaming, unkillable
+  mass of fused infected bodies; first appears in Chapter 2 after Jim's first emblem. Flags a
+  locked-canon conflict in its own source concept art (see the file for details).
 
 Not included as separate creature entries: Earl Whitaker and Officer Dale Pruitt are named,
 recurring characters who become infected as part of their own arc — covered in `Characters/`

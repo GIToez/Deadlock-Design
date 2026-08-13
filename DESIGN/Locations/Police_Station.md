@@ -47,6 +47,13 @@ to the Ravenwood Hotel.
   points at once: the **Armory** (keyed lock), the **Chief's Office** (keyed lock), and the
   **Property & Evidence Room** (padlocked shut). Sergeant Calloway's voice is heard from the
   barricaded Records/Dispatch room at the back.
+
+  ![Bullpen — room concept](../Assets/Reference/police_station_bullpen_concept.png)
+
+  > AI-generated room concept (2026-08-13), styled to match the uploaded Hotel screenshots — a
+  > general approximation of layout/mood, not a locked floor plan. Matches the scripted room
+  > closely (all four labeled doors, the tactical map, the coffee station, the overturned-desk
+  > barricade).
 - **Sergeant Calloway.** If the station is visited first, she's alive, barricaded in
   Records/Dispatch. She confirms Deadlock Protocol's scope (sealed at the county line, not just
   Ravenwood), gives Jim the **Chief's Office Key**, explains that **Corporal Eli Reyes** — who has
@@ -59,10 +66,23 @@ to the Ravenwood Hotel.
   fate is left unresolved, a deliberate loose thread). The desk holds the **Old Station Skeleton
   Key** — kept here specifically because the old building has historically been the Chief's
   responsibility, not the desk sergeant's.
+
+  ![Chief's Office — room concept](../Assets/Reference/police_station_chiefs_office_concept.png)
+
+  > AI-generated room concept (2026-08-13). Note: the image invented a desk nameplate reading
+  > "CHIEF E. WHITAKER" — unprompted, and **not confirmed anywhere in the script**. This is
+  > flagged rather than treated as a hint: it's plausibly the generator echoing the "E. Whitaker"
+  > nameplate already seen in the Hotel's Manager's Office reference screenshot (used as a style
+  > reference here), not an intentional connection between the Chief and Earl Whitaker. Do not
+  > treat this as confirming the Chief's name/identity without an explicit decision.
 - **The K-9 Unit Room.** Down a back hallway: Corporal Reyes' body, one kennel gate already bent
   open, the **Armory Key** still on his belt. Investigating triggers the district's signature
   encounter — two Ashen Hounds (Diesel and Baxter, Reyes' own K-9 partners) — in a tight concrete
   room with nowhere to retreat to.
+
+  ![K-9 Unit Room — room concept](../Assets/Reference/police_station_k9_room_concept.png)
+
+  > AI-generated room concept (2026-08-13).
 - **The Armory.** Reyes' key opens a room of mostly-emptied gun racks; one still holds a clamped-
   down shotgun and two boxes of shells, freed with a tool from Jim's own kit. The district's key
   equipment reward, deliberately recovered only after the Ashen Hound fight rather than before it.
@@ -94,6 +114,13 @@ to the Ravenwood Hotel.
   bronze, wedge-shaped medallion bearing a relief portrait of Marshal Josiah Hale, his name and
   title, and a small relief of a skeleton key. Breaking the case (old, brittle glass) retrieves it —
   the direct payoff of the Memorial Park guardhouse note.
+
+  ![Old Station House Main Hall — room concept](../Assets/Reference/police_station_old_main_hall_concept.png)
+
+  > AI-generated room concept (2026-08-13) — regenerated once after a first attempt rendered the
+  > emblem as a triangular/pyramid shape and invented several unrelated chief names, both of which
+  > contradict the locked wedge-shaped medallion and Marshal Josiah Hale specifically. This version
+  > corrects the shape and keeps the photo wall generic/illegible rather than inventing names.
 - **The Old Holding Cells.** A small optional area behind the main hall — disused cells repurposed
   for records storage. A damaged 1887 town-charter document lists Hale among five "Incorporators of
   Ravenwood," the other four names illegible from water damage — a deliberate, honest way to defer
