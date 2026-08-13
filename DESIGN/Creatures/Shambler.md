@@ -37,22 +37,27 @@ can sometimes be avoided in the open rather than fought (see the Chapter 2 stree
 The bread-and-butter combat encounter of the entire game — manageable one-on-one, meant to be
 handled with the baseball bat and, later, the handgun. In the Ravenwood Hotel (Chapter 1), they're
 placed as corridor/room encounters — sometimes an ambush timed to an item pickup (the Utility
-Room screwdriver), sometimes just a room the player wasn't expecting one in — rather than an open
-avoid-or-engage choice, since the hotel's tight interiors don't really allow for that. Once the
-game opens up outdoors (Chapter 2 onward), that changes: used to gate/populate open spaces (e.g.
-the four shamblers inside Memorial Park on first arrival) and to give the player real agency (avoid
-vs. engage, as established explicitly in Chapter 2's street crossing).
+Room screwdriver), sometimes just a room the player wasn't expecting one in, and once, deliberately,
+as a **two-Shambler pincer** (second-floor west hallway, Scene 35) that removes the player's usual
+option to just retreat — rather than an open avoid-or-engage choice, since the hotel's tight
+interiors don't really allow for that. Once the game opens up outdoors (Chapter 2 onward), that
+changes: used to gate/populate open spaces (e.g. the four shamblers inside Memorial Park on first
+arrival) and to give the player real agency (avoid vs. engage, as established explicitly in Chapter
+2's street crossing).
 
 ## Encounter Progression
 
 - First **directly depicted on-screen**: throughout the Ravenwood Hotel during the East/West Wing
-  power-restoration loop (Chapter 1) — seven placements spread across both wings (second-floor
-  east hallway, Dining Hall, Utility Room, Lounge/Recreation, Main Bar, Boiler Room, West Wing
-  Service Corridor), deliberately not in every room so placement stays unpredictable rather than a
-  checklist. See [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md) → "Creatures
-  Encountered" for the full room-by-room list. (This retcons an earlier draft where Shamblers were
-  only referenced by name in Chapter 1, not actually fought — see
-  [`STORY_NOTES.md`](../STORY_NOTES.md), approved directly by the project owner, 2026-08-13.)
+  power-restoration loop (Chapter 1) — nine total, spread across both wings: seven one-on-one
+  placements (second-floor east hallway, Dining Hall, Utility Room, Lounge/Recreation, Main Bar,
+  Boiler Room, West Wing Service Corridor) plus a **two-Shambler pincer ambush** in the
+  second-floor west hallway (Scene 35) — the chapter's first no-clean-retreat combat moment,
+  sprung from two guest-room doors on opposite sides of the player. Deliberately not in every room,
+  so placement stays unpredictable rather than a checklist. See
+  [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md) → "Creatures Encountered" for
+  the full room-by-room list. (This retcons an earlier draft where Shamblers were only referenced
+  by name in Chapter 1, not actually fought — see [`STORY_NOTES.md`](../STORY_NOTES.md), approved
+  directly by the project owner, 2026-08-13.)
 - Also referenced by name during the Caretaker's design notes in the same chapter, contrasting the
   Caretaker's pursuit intelligence against baseline Shambler behavior.
 - The lone infected during the Chapter 2 street crossing
@@ -64,8 +69,8 @@ vs. engage, as established explicitly in Chapter 2's street crossing).
 
 ## Major Appearances
 
-- [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 30, 31, 32, 37 (×3), and 39 — seven
-  corridor/room encounters throughout the hotel.
+- [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 30, 31, 32, 35 (×2, pincer ambush),
+  37 (×3), and 39 — nine total corridor/room encounters throughout the hotel.
 - Referenced by name (not shown) in [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 44 (Caretaker
   boss design notes).
 - [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scenes 3 and 6.

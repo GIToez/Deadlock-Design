@@ -1287,9 +1287,15 @@ across the floor. A small first-aid kit sits on the shelf beside a case of bottl
 ### Optional — Walk-in Freezer
 
 The freezer door stands open a few inches, cold air still rolling out into the kitchen's warmth.
-Hanging meat, shelved boxes, frost thick on every surface. A staff clipboard hangs just inside the
-door — temperature logs filled in neatly right up until they stop, mid-week, mid-entry. Jim doesn't
-go in any farther than he has to.
+Hanging meat, shelved boxes, frost thick on every surface. As Jim steps in, a stack of boxes on a
+rack near the back — top-heavy, undermined by melt from the door being left open — lets go all at
+once and comes down in a crash that echoes off every hard surface in the room.
+
+> **JIM:** *"—Jesus. It's boxes. It's just boxes."*
+
+Nothing follows the noise. A staff clipboard hangs just inside the door — temperature logs filled
+in neatly right up until they stop, mid-week, mid-entry. Jim doesn't go in any farther than he has
+to.
 
 ---
 
@@ -1390,6 +1396,11 @@ to be the first thing anyone saw.
 
 > **JIM:** *"West Wing. Of course it's the West Wing."*
 
+From somewhere above — a metallic clang through the ceiling vents, loud enough to freeze him mid-
+reach. Jim goes still, waits it out. Silence follows. Whatever it was, it isn't coming down here.
+
+> **JIM:** *"...Fantastic."*
+
 A service door at the back of the closet is blocked — not locked, just barricaded, a stack of
 folding chairs and a fallen shelving unit wedged against it from this side. Jim clears it by hand,
 dragging the debris aside piece by piece.
@@ -1409,7 +1420,30 @@ Beyond it — a short, plain corridor leading directly back toward the lobby.
 
 Through the shortcut and back into the lobby, Jim heads up the Grand Staircase once more and back
 across the west hallway — quiet now, Room 106's door shut and still since he last stood in front
-of it. A few doors past it, near the west stairwell landing, a door marked **MAINTENANCE** sits
+of it.
+
+Halfway down, a door he'd already mentally filed as "checked" — one of the ones he passed without a
+second look on the way to Cindy's — bangs open hard enough to hit the wall, and something comes
+through it fast, low, and wrong. Jim's first move is the obvious one: he steps back, putting
+distance between himself and it, the way anyone would.
+
+Which is exactly when the door directly behind him does the same thing.
+
+> **JIM:** *"—oh, come ON—"*
+
+*Combat: Shambler ×2 (pincer).* The two of them close from opposite doors at the same time — no
+clean retreat line, no room to just back away from both. First real "surrounded" moment of the
+chapter; the player has to commit to one side and clear it fast rather than kite either one down
+the hallway.
+
+> *Design note: this is a deliberate escalation from every earlier Shambler encounter in the
+> chapter (all one-on-one so far) — the hallway's the tightest space Jim's fought in yet, and it's
+> the first time the game removes the option to just walk away from a fight. Placed here
+> specifically because the player already walked this exact hallway once, uneventfully, on the way
+> to check on Cindy (Scene 29) — this is the second pass, and the game punishes the assumption that
+> "already checked" means "still clear."*
+
+A few doors past it, near the west stairwell landing, a door marked **MAINTENANCE** sits
 closed — not locked, just shut, the way service doors usually are when nobody's using them. Jim
 pushes it open.
 
@@ -1466,7 +1500,13 @@ outbreak started finally works itself free, dragging itself upright against the 
 ### Optional — Piano
 
 Jim can sit at the bench and press a few keys — a handful of notes, slightly out of tune, that
-don't resolve into anything. He doesn't linger.
+don't resolve into anything. As he stands to leave, a framed photo on the shelf above the piano —
+loosened by whatever's already come through this room — finally lets go and hits the floor behind
+him, glass cracking across a picture of hotel staff at some long-past holiday party.
+
+> **JIM:** *"...Okay."*
+
+He doesn't pick it up. He doesn't linger.
 
 ### Optional — Main Bar
 

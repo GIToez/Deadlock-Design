@@ -427,15 +427,19 @@ flowchart TD
   - Second-floor east hallway (Scene 30, before the East Public Stairwell).
   - Dining Hall (Scene 31).
   - Utility Room (Scene 32) — ambushes the player right as the screwdriver is picked up.
+  - **Second-floor west hallway (Scene 35) — two Shamblers, a pincer ambush.** One bursts from a
+    guest room Jim already "cleared" mentally on the way to Cindy's room; the player's instinctive
+    retreat puts them directly in front of a second door, which opens the same way. First
+    surrounded/no-clean-retreat moment of the chapter — everything before this is one-on-one.
   - Lounge/Recreation (Scene 37, first room reached off the West Public Stairwell).
   - Main Bar (Scene 37).
   - Boiler Room (Scene 37).
   - West Wing Service Corridor (Scene 39) — the last one in the hotel.
   - Not placed in: Manager's Office, Kitchen, Pantry, Walk-in Freezer, Laundry/Linen Room, East
-    Wing Maintenance Closet, either guest-floor hallway near Room 106, the West Wing Maintenance
-    Room, Piano Area, Liquor Storage, Staff Room, or the Red Room — kept clear so the emotionally
-    heavier beats (Gerta, Cindy, the fuse pickups) and quieter breather rooms aren't crowded out by
-    combat.
+    Wing Maintenance Closet, either guest-floor hallway near Room 106 on the *first* pass, the West
+    Wing Maintenance Room, Piano Area, Liquor Storage, Staff Room, or the Red Room — kept clear so
+    the emotionally heavier beats (Gerta, Cindy, the fuse pickups) and quieter breather rooms
+    aren't crowded out by combat.
 
 ## Puzzles
 
@@ -513,9 +517,24 @@ flowchart TD
 - "Deadlock Protocol is now in effect" radio announcement / title card.
 - Cindy Sweets' Room 106 jumpscare and abduction (by The Maw).
 - Gerta's death, discovered in the Laundry Room (by The Maw) — see [`Characters/Gerta.md`](../Characters/Gerta.md).
+- **Second-floor west hallway pincer ambush** (Scene 35) — two Shamblers from opposite guest-room
+  doors, the chapter's first no-clean-retreat combat moment.
 - Della Marsh (Red Room singer) reveal — appears to be a survivor, then turns.
 - Officer Pruitt jumpscare from inside the crashed cruiser.
 - Maintenance shed breach revealing The Caretaker (Roy Bullock).
+
+## False Alarms / Tension Beats (no threat, no combat)
+
+A handful of noise/object scares placed in otherwise-quiet optional rooms, so tension stays up even
+where there's nothing to fight — the player shouldn't be able to tell "empty room" from "real
+threat" purely from the buildup:
+
+- **Walk-in Freezer** (Scene 31) — a stack of boxes, undermined by melt, collapses loudly as Jim
+  enters. Nothing follows the noise.
+- **East Wing Maintenance Closet** (Scene 34) — a metallic clang through the ceiling vents while
+  Jim reads the fuse-relocation note. Whatever it is, it doesn't come down here.
+- **Piano Area** (Scene 37) — a loosened framed photo falls off a shelf behind Jim as he stands up
+  from the piano bench.
 
 ## Boss Encounters
 

@@ -143,6 +143,19 @@
     genre-standard pattern (stockpile ready for when the gun arrives); it loads into the handgun
     automatically once Jim gets it from Officer Pruitt (Scene 41), so nothing is wasted or requires
     justifying bullets with no gun to put them in.
+- **Pincer ambush + false-alarm scares added (2026-08-13).** Approved directly by the project
+  owner:
+  - **Two-Shambler pincer ambush** in the second-floor west hallway (Scene 35) — one bursts from a
+    guest room Jim already mentally "cleared" on the way to check on Cindy (Scene 29); his
+    instinctive retreat puts him directly in front of a second door, which opens the same way.
+    First no-clean-retreat combat moment in the chapter (everything before it is one-on-one with
+    room to back away). Brings the hotel's total Shambler count to nine.
+  - **Three no-threat "false alarm" tension beats** added to otherwise-quiet optional rooms, so
+    empty rooms don't telegraph themselves as safe purely by lacking buildup: a collapsing stack of
+    boxes in the Walk-in Freezer (Scene 31), a metallic clang through the vents in the East Wing
+    Maintenance Closet (Scene 34), and a photo falling off a shelf in the Piano Area (Scene 37).
+    None of these have any payoff — they're pure atmosphere/pacing, not foreshadowing anything
+    specific.
 - The two reference screenshots (lobby layout + gameplay viewport combat shot) were shared inline
   in chat only — not saved to the repo, since inline chat images aren't accessible as real files.
   If they should become permanent reference material, they need to be pushed as actual files
