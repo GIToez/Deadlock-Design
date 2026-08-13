@@ -1068,13 +1068,62 @@ the next entry for the current final numbering (Scenes 22–40).
   [`Locations/Hospital.md`](Locations/Hospital.md) → "Outbreak Night" beat 15, whose organs kept
   malformed-regenerating no matter what the surgical team tried — and a staff nickname, **"The
   Surgeon,"** distinct from a confirmed real identity.
-- **St. Dymphna Hospital — the Northeast district's main location, written in full.** The project
-  owner supplied a very detailed outbreak-night account for the hospital (mirroring the Police
-  Station's own outbreak-night timeline in tone and structure: institutions trying to do their
-  jobs while Vanguard's contradictory orders and active obstruction made it impossible), plus the
-  Maria/Richard Dalton fate above and an explicit request that the two locations' records overlap
-  (shared radio calls, shared officers, the same Highway 13 shutdown). Full build logged separately
-  below once written — see "St. Dymphna Hospital — full build," further down this file.
+- **St. Dymphna Hospital — the Northeast district's main location, written in full (2026-08-13).**
+  The project owner supplied a very detailed 20-beat outbreak-night account for the hospital,
+  explicitly mirroring the Police Station's own timeline in tone and structure — institutions
+  trying to do their jobs while Vanguard's contradictory orders and active obstruction made it
+  impossible — distinguished thematically as *"Police Station: we followed orders until we
+  realized they were killing the town. Hospital: we tried to save everyone until we realized
+  Vanguard never wanted everyone saved."* Combined with the Maria/Richard Dalton fate (see above)
+  and an explicit request that the two locations' records overlap directly (shared radio calls,
+  shared officers, the same Highway 13 shutdown), [`Locations/Hospital.md`](Locations/Hospital.md)
+  was rewritten from its original `_TBD_` placeholder into a full main-location file matching the
+  Police Station's density, per [`CANON.md`](CANON.md) → "District Main-Location Design
+  Standard":
+  - **"Outbreak Night — What Actually Happened"** — a 20-beat timeline (first unexplained cases,
+    Vanguard's hospital-specific V-CASE protocol, Vanguard quietly removing patients, the ER
+    overflowing, the lab's independent "necrosis provokes regeneration" discovery, the Radiology
+    transformation, staff hiding patients from Vanguard, the maternity-ward problem, the ~20-minute
+    police/hospital cooperation window, Vanguard's remote biohazard lockdown, the Ambulance Bay
+    firefight, the Surgical Wing horror that produces the boss creature, the zone-by-zone building
+    collapse, the morgue's "one of these people isn't dead" reveal, the paired final transmission
+    with the Police Station, the failed evacuation, and Vanguard's final act of cutting power to
+    everywhere except its own areas) — mirroring
+    [`Locations/Police_Station.md`](Locations/Police_Station.md)'s own timeline directly.
+  - **Full room/blueprint build:** Ambulance Bay → Emergency Department (hub, gating the
+    Laboratory, Administration, Surgical Wing, and the Psychiatric Ward) → Radiology → Laboratory
+    → Administration → the Morgue (optional) → Surgical Wing (boss fight) → ICU → St. Dymphna
+    Chapel (Medical Crest) → Maternity Ward → NICU → Psychiatric Ward (optional), plus three
+    secondary locations (Medical Arts Building, Hospital Parking Structure, Vanguard Quarantine
+    Checkpoint) pulled from the already-cross-validated city map. Six mermaid blueprint diagrams,
+    same convention as the Hotel and Police Station.
+  - **Richard Dalton's fate resolved as a new "Tier 2b" survivor mechanic** (see
+    [`CANON.md`](CANON.md) → "Survivor System"): gated on *emblem count* (0–1 = alive, 2+ = dead)
+    rather than strict visit order, the first variant on the existing Tier 2 rule. Maria Dalton's
+    death is not conditional — only whether Richard survives to grieve it is.
+  - **New creature, the Broodling**, and a corrected, art-verified rewrite of the previously
+    text-only **Unnamed Hospital Boss** (now nicknamed "The Surgeon," with a proposed origin tying
+    it directly to this timeline's Surgical Wing beat) — both logged in detail earlier in this
+    same Direction Log entry, above.
+  - **Direct crossover documents added to [`Locations/Police_Station.md`](Locations/Police_Station.md):**
+    the "Unit Twelve, respond Ravenwood Memorial, violent patient, radiology" dispatch call, and a
+    recorded RPD/Memorial radio exchange immediately preceding the Chief's final broadcast — both
+    appear on both locations' "Documents" lists, satisfying the project owner's explicit request
+    for the two locations' records to overlap.
+  - **New founder named: Dr. Nathaniel Voss**, St. Dymphna Hospital's founding physician, keeper of
+    the Medical Crest — added to [`CANON.md`](CANON.md) → "Named Characters Confirmed" alongside
+    Marshal Josiah Hale, following the same period-appropriate-naming convention.
+  - **15 new AI-generated room concepts** — full visual coverage for the entire new location in one
+    pass, logged in [`Assets/README.md`](Assets/README.md). Several renders invented wrong
+    hospital/founder names (echoing the same "generation invents a name" pattern seen throughout
+    the Police Station's own concept art); flagged in each render's caption rather than adopted.
+  - **Not done in this pass:** individual `Items/Key_Items/` writeups for this district's seven new
+    key items (Fire Axe, Laboratory Key, Administration Key, Surgical Wing Access Card, Pry Bar,
+    Chapel Key, Medical Crest) — flagged as the next natural pass once this location's overall
+    shape is confirmed, matching how the Police Station's own `Items/` audit followed its location
+    write-up rather than happening simultaneously. Also not done: scene-by-scene scripting into a
+    `Scripts/` file (this location is at the same location-design/prose level the Police Station
+    was at before its own scripting pass).
 
 ## Still-Open Questions
 

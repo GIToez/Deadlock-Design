@@ -302,10 +302,14 @@ early hint that Vanguard's reach into the town predates the outbreak.
   Ravenwood PD," above.
 - **Marshal Josiah Hale** — the Ravenwood Police Department's first peace officer (1887); one of
   Ravenwood/Vanguard's five founders. His name and portrait appear on the **Authority Crest**,
-  recovered from a display case in the old 1887 station house. The other four founders' names are
-  not yet decided (a damaged in-world document defers them intentionally — see
+  recovered from a display case in the old 1887 station house.
+- **Dr. Nathaniel Voss** — St. Dymphna Hospital's founding physician (1887); one of
+  Ravenwood/Vanguard's five founders. His name and portrait appear on the **Medical Crest**,
+  recovered from a display case in the hospital's own chapel — see
+  [`Locations/Hospital.md`](Locations/Hospital.md). The remaining three founders' names are not
+  yet decided (a damaged in-world document at the Police Station defers them intentionally — see
   [`Locations/Police_Station.md`](Locations/Police_Station.md)); when chosen, they should feel
-  consistent with Hale's period-appropriate naming.
+  consistent with Hale's and Voss's period-appropriate naming.
 - (The character/founder additions above are new as of 2026-08-13 — see
   [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–40, and
   [`STORY_NOTES.md`](STORY_NOTES.md) for context on what was proposed versus already locked.)

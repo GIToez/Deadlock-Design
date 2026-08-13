@@ -191,6 +191,26 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   a jammed emergency shutter, a parked cruiser with its door left open, a dropped shotgun. Embedded
   in [`Locations/Police_Station.md`](../Locations/Police_Station.md).
 
+- **`Reference/hospital_*.png`** (15 files, AI-generated, 2026-08-13) — full room-concept coverage
+  for [`Locations/Hospital.md`](../Locations/Hospital.md), the Northeast District's newly-written
+  main location: `hospital_ambulance_bay_concept.png`, `hospital_ed_triage_hall_concept.png`,
+  `hospital_radiology_concept.png`, `hospital_laboratory_concept.png`,
+  `hospital_administration_concept.png`, `hospital_morgue_concept.png`,
+  `hospital_surgical_wing_concept.png`, `hospital_icu_concept.png`, `hospital_chapel_concept.png`,
+  `hospital_maternity_ward_concept.png`, `hospital_nicu_concept.png`,
+  `hospital_psychiatric_ward_concept.png`, `hospital_medical_arts_building_concept.png`,
+  `hospital_parking_structure_concept.png`, and `hospital_quarantine_checkpoint_concept.png`.
+  Style-anchored to existing Police Station/Hotel room concepts throughout. Several invented wrong
+  hospital/founder names (e.g. "RAVENCROFT COUNTY HOSPITAL," "GREENVIEW HOSPITAL," "Dr. Edward
+  Halloway") — flagged as generation errors in each render's caption in
+  [`Locations/Hospital.md`](../Locations/Hospital.md) rather than adopted; this district's hospital
+  and founder are locked as **St. Dymphna Hospital** and **Dr. Nathaniel Voss**. Also see
+  [`Creatures/ref_hospital_boss_sheet.png`](../Creatures/ref_hospital_boss_sheet.png) (real
+  reference art, not AI-generated) and
+  [`Creatures/spr_broodling.gif`](../Creatures/spr_broodling.gif) /
+  [`spr_broodling_alt.gif`](../Creatures/spr_broodling_alt.gif) (real sprites) for this district's
+  two new creatures.
+
 Several other assets have been uploaded, placed directly alongside their character files instead:
 
 - `Characters/spr_cindy_jumpscare.gif` — embedded in

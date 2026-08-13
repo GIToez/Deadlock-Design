@@ -30,6 +30,13 @@
 > Chief's final broadcast recording, the Cold Cells' destroyed door and handwritten note) woven
 > into existing rooms. Nothing already locked changed; this only adds texture to how/why the
 > station fell.
+>
+> **Fourth revision note (2026-08-13, same day):** two small crossover documents were added to the
+> "Documents" list, below, linking this district's shared outbreak night directly to
+> [St. Dymphna Hospital](Hospital.md), the Northeast district's own newly-written main location —
+> per the project owner's explicit request that the two locations' records overlap (the same
+> radio calls, the same missing ambulances, the same Highway 13 shutdown). Nothing else in this
+> file changed.
 
 ## Purpose in the Overall Story
 
@@ -709,8 +716,20 @@ flowchart TD
   above.
 - **"Emergency Public Safety Directive 7"** (Bullpen) — the Vanguard-issued order to seal Ravenwood
   rather than evacuate it, framed as preventing chemical exposure from spreading.
+- **Dispatch radio log, "Unit Twelve, respond Ravenwood Memorial, violent patient, radiology"**
+  (Bullpen/Records-Dispatch, added 2026-08-13) — sounds like just another bizarre disturbance from
+  this side of the radio; the other half of the same event — the CT-suite patient who tore free
+  and killed an orderly — is what Jim actually finds at
+  [`Locations/Hospital.md`](Hospital.md) → "Radiology." One of several direct crossover documents
+  between the two locations' shared night.
 - **The Chief's final broadcast** (Records/Dispatch, audio recording) — publicly overriding
-  Vanguard's containment order over the emergency network; ends on gunfire and static.
+  Vanguard's containment order over the emergency network; ends on gunfire and static. Immediately
+  preceded (added 2026-08-13) by a recorded exchange with St. Dymphna Hospital — *"RPD, are you
+  receiving?" / "Memorial, go ahead." / "We have forty-plus civilians and can't move them." /
+  "We're trying to open Highway 13."* — and, later, unanswered: *"RPD?"* Static. *"Ravenwood
+  Police, please respond."* Nothing. See
+  [`Locations/Hospital.md`](Hospital.md) → "Outbreak Night," beat 18, for the same exchange from
+  the hospital's side.
 - Chief's logbook (Chief's Office) — confirms the Reyes/K-9 timeline; his own fate left open.
 - Commendation wall (Chief's Office) — background references to Marshal Hale's founding-era name.
 - Interview recording (Interview Room) — a pre-outbreak report of unsettling animal behavior near
