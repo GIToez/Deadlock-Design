@@ -87,6 +87,13 @@ eerie" first impression.
   the main hall you might find interesting." Combined with the plaque's five empty, labeled slots
   and the park map's four gates, this is enough for the player (and Jim) to reasonably head to the
   Police Station — the closest district — without ever being told outright what to do.
+- **The statue's slots are the game's built-in directional hint.** Each empty wedge's position on
+  the pentagon points in the general compass direction of the district its emblem belongs to (e.g.
+  the wedge facing southwest belongs to the Police Station) — see [`CANON.md`](../CANON.md) →
+  "The Founders & the Five Crests" for the full slot/direction/district table. This is readable
+  directly off the statue on the very first visit, not something that only unlocks after finding
+  an emblem elsewhere — the player can, in principle, work out the general direction of all five
+  districts before ever leaving the park.
 
 ## Key Items
 

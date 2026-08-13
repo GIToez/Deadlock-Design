@@ -223,6 +223,37 @@
     the script, `Locations/Ravenwood_Hotel.md`, and `Creatures/Shambler.md`; all character/creature
     file scene-number cross-references are correct; all 5 blueprint diagrams re-rendered without
     errors; the chapter's scene list is a clean, gap-free sequence of 46.
+- **Emblem direction mechanic corrected (2026-08-13).** The compass-pointer fix logged above (same
+  day, earlier entry) was itself wrong — approved correction from the project owner: the
+  directional hint is **not** a property of the individual carried emblem. It's the **empty wedge
+  slot on the statue itself** — each slot's position on the pentagon (top, upper-right, lower-right,
+  lower-left, upper-left) points in the general compass direction of the district its emblem
+  belongs to, readable directly off the statue from the very first visit, before collecting
+  anything. Fixed in `CANON.md`. This also surfaced a real, separate bug while fixing it:
+  `Scripts/Chapter_2_Ravenwood.md` Scene 15's slot-position labels (ORDER at "top," KNOWLEDGE at
+  "upper right," etc.) didn't actually correspond to the compass directions in `CANON.md`'s
+  crest/district table at all — they were arbitrary. Corrected to a consistent mapping (regular
+  pentagon, one vertex due north): FAITH (Monastery, North) at top, MEDICINE (Hospital, Northeast)
+  upper-right, KNOWLEDGE (Academy, Southeast) lower-right, ORDER (Police, Southwest) lower-left,
+  INDUSTRY (Refinery, Northwest) upper-left. Also updated `Locations/Memorial_Park.md`'s Puzzles
+  section to document the mechanic.
+- **`Locations/Epilogue.md` created (2026-08-13).** No dedicated file existed for the Epilogue
+  before this — only the short summary already in `MASTER_STORY.md`. Consolidated everything known
+  (including richer closing-image prose from `AI.json` — "Sarah's silhouette moving through the
+  rain toward the city" — that never made it past the outline) into a proper Location-template
+  file, with an explicit "Unresolved Ideas" list (time elapsed, whether the player controls Sarah
+  at all, whether any creatures appear, what she believes about Jim's fate) so nothing gets
+  silently assumed later. `MASTER_STORY.md` now links to it in both places it mentions the
+  Epilogue.
+- **Chapter 2 NPC documentation check (2026-08-13).** Confirmed the Chapter 2 content written so
+  far (`Scripts/Chapter_2_Ravenwood.md`) has **zero on-screen, interactive named NPCs** — Pearl and
+  "the Hargrove family" (Pearl's Diner) and the unnamed park groundskeeper (Memorial Park
+  guardhouse note) are all name-drops via documents only, never met in person, which is fully
+  consistent with the "no random background NPCs get files" rule (same pattern as "H. Garnett" on
+  Della Marsh's booking slip in Chapter 1). Nothing is missing here — there's simply nobody to
+  document yet. The one specific named-in-concept character still pending is the conditional
+  Police Station survivor officer (see `CANON.md` → "Survivor System") — still an unnamed
+  placeholder, which is expected since the Police Station itself hasn't been written yet.
 - The two reference screenshots (lobby layout + gameplay viewport combat shot) were shared inline
   in chat only — not saved to the repo, since inline chat images aren't accessible as real files.
   If they should become permanent reference material, they need to be pushed as actual files

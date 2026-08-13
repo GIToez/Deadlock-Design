@@ -156,7 +156,8 @@ looking for Jim, and passes through the quarantine perimeter anyway. No resoluti
 is given. This is an intentional sequel hook — the implied next game would be played from Sarah's
 perspective.
 
-*Not yet written — content beyond this summary is `_TBD_`.*
+*Not yet written scene-by-scene — see [`Locations/Epilogue.md`](Locations/Epilogue.md) for the
+fuller outline (everything currently known, including what's still unresolved).*
 
 ## Major Story Progression
 
@@ -207,5 +208,6 @@ Memorial to open the way underground.
 ## Endgame Progression
 
 Chapter 3 (underground facility, Project Ashen/Black Vein revealed, Jim's final message to Sarah,
-ambiguous ending) and the Epilogue (Sarah's arrival, sequel hook) are both locked in outline form
-(see [`CANON.md`](CANON.md)) but not yet written scene-by-scene. `_TBD_` beyond that.
+ambiguous ending) and the Epilogue (Sarah's arrival, sequel hook — see
+[`Locations/Epilogue.md`](Locations/Epilogue.md) for the full outline) are both locked in outline
+form (see [`CANON.md`](CANON.md)) but not yet written scene-by-scene. `_TBD_` beyond that.

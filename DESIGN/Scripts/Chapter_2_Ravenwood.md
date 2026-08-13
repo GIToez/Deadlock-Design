@@ -468,24 +468,31 @@ if you look closely. Jim leans in.
 
 Jim examines each slot in turn. The engravings beneath each one read:
 
-- **Slot 1 — top of the pentagon:** ORDER
-- **Slot 2 — upper right:** KNOWLEDGE
-- **Slot 3 — lower right:** INDUSTRY
-- **Slot 4 — lower left:** FAITH
-- **Slot 5 — upper left:** MEDICINE
+- **Slot 1 — top of the pentagon:** FAITH
+- **Slot 2 — upper right:** MEDICINE
+- **Slot 3 — lower right:** KNOWLEDGE
+- **Slot 4 — lower left:** ORDER
+- **Slot 5 — upper left:** INDUSTRY
 
-Jim straightens up slowly. He looks at the five words arranged around the empty pentagon. Then he
-looks back toward the guardhouse. Thinks about the note. *Look at the police station. The old
-building.* His eyes move to the park map still in his inventory. The four district gates marked at
-the compass points of the park fence. The city beyond each one.
+Jim straightens up slowly. He looks at the five words arranged around the empty pentagon — and
+then at how they're arranged. It isn't random. The slot at the top faces due north, roughly toward
+the hills. The one at the lower left faces southwest. Each wedge on this statue is pointed the same
+direction as whatever it's missing.
 
 > **JIM:** *"Five slots."*
 
-A beat.
+A beat. He looks at the lower-left wedge — ORDER — and the direction it's facing, then back toward
+the guardhouse. Thinks about the note. *Look at the police station. The old building.*
 
-> **JIM:** *"Five locations."*
+> **JIM:** *"Five directions."*
 
 He looks up at the statue's face. The rain runs down her expression unchanged.
+
+> *Design note: this is the game's built-in hint system for the five districts — each empty
+> wedge's position on the statue points in the general compass direction of the district its
+> emblem belongs to (see [`CANON.md`](../CANON.md) → "The Founders & the Five Crests"). It's read
+> directly off the statue, available from the very first visit, not something that unlocks only
+> after finding an emblem elsewhere.*
 
 ---
 
