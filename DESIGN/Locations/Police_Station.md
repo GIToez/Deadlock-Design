@@ -46,10 +46,8 @@ to the Ravenwood Hotel.
 
   ![Station Lobby — room concept](../Assets/Reference/police_station_lobby_concept.png)
 
-  > AI-generated room concept (2026-08-13, re-rendered same day as a flat top-down camera to match
-  > the Hotel reference screenshots — see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art
-  > style-consistency pass"). Matches the scripted beat closely (glass-shielded shambler,
-  > waiting-room seating, directory sign, "RAVENWOOD POLICE DEPARTMENT" seal).
+  > AI-generated room concept (2026-08-13). Matches the scripted beat closely (glass-shielded
+  > shambler, waiting-room seating, directory sign).
 - **The Bullpen (hub).** One shambler encounter. From here, Jim can see three locked/sealed
   points at once: the **Armory** (keyed lock), the **Chief's Office** (keyed lock), and the
   **Property & Evidence Room** (padlocked shut). Sergeant Calloway's voice is heard from the
@@ -57,11 +55,10 @@ to the Ravenwood Hotel.
 
   ![Bullpen — room concept](../Assets/Reference/police_station_bullpen_concept.png)
 
-  > AI-generated room concept (2026-08-13, re-rendered same day as a flat top-down camera to match
-  > the Hotel reference screenshots exactly — see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room
-  > concept art style-consistency pass"), styled as a general approximation of layout/mood, not a
-  > locked floor plan. Matches the scripted room closely (all four labeled doors, the tactical map,
-  > the coffee station, the overturned-desk barricade).
+  > AI-generated room concept (2026-08-13), styled to match the uploaded Hotel screenshots — a
+  > general approximation of layout/mood, not a locked floor plan. Matches the scripted room
+  > closely (all four labeled doors, the tactical map, the coffee station, the overturned-desk
+  > barricade).
 - **Sergeant Calloway.** If the station is visited first, she's alive, barricaded in
   Records/Dispatch. She confirms Deadlock Protocol's scope (sealed at the county line, not just
   Ravenwood), gives Jim the **Chief's Office Key**, explains that **Corporal Eli Reyes** — who has
@@ -72,10 +69,9 @@ to the Ravenwood Hotel.
 
   ![Records/Dispatch — room concept](../Assets/Reference/police_station_dispatch_concept.png)
 
-  > AI-generated room concept (2026-08-13, re-rendered same day as a flat top-down camera and with
-  > the wall map corrected to read "RAVENWOOD" — the first pass had invented an unrelated desk
-  > nameplate reading "DET. HARRIS" and an incorrect city name on the map, both fixed in this
-  > version; see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art style-consistency pass").
+  > AI-generated room concept (2026-08-13). Note: the image invented a second, unrelated desk
+  > nameplate reading "DET. HARRIS" — flagged as non-canonical filler, not a new character; this
+  > district has no detective named Harris in any script or character file.
 - **The Chief's Office.** Calloway's key opens it. The Chief's own logbook confirms Reyes went to
   check on the K-9 unit and never returned — and that the Chief went after him in turn (his own
   fate is left unresolved, a deliberate loose thread). The desk holds the **Old Station Skeleton
@@ -84,12 +80,12 @@ to the Ravenwood Hotel.
 
   ![Chief's Office — room concept](../Assets/Reference/police_station_chiefs_office_concept.png)
 
-  > AI-generated room concept (2026-08-13, re-rendered same day as a flat top-down camera to match
-  > the Hotel reference screenshots — see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art
-  > style-consistency pass"). This version's desk nameplate reads only "CHIEF" (no name) —
-  > deliberately generic; the Chief's actual identity is still undecided. An earlier draft of this
-  > render had invented "CHIEF E. WHITAKER," echoing the Hotel Manager's Office reference
-  > screenshot; that was flagged as non-canonical and is now moot.
+  > AI-generated room concept (2026-08-13). Note: the image invented a desk nameplate reading
+  > "CHIEF E. WHITAKER" — unprompted, and **not confirmed anywhere in the script**. This is
+  > flagged rather than treated as a hint: it's plausibly the generator echoing the "E. Whitaker"
+  > nameplate already seen in the Hotel's Manager's Office reference screenshot (used as a style
+  > reference here), not an intentional connection between the Chief and Earl Whitaker. Do not
+  > treat this as confirming the Chief's name/identity without an explicit decision.
 - **The K-9 Unit Room.** Down a back hallway: Corporal Reyes' body, one kennel gate already bent
   open, the **Armory Key** still on his belt. Investigating triggers the district's signature
   encounter — two Ashen Hounds (Diesel and Baxter, Reyes' own K-9 partners) — in a tight concrete
@@ -97,19 +93,17 @@ to the Ravenwood Hotel.
 
   ![K-9 Unit Room — room concept](../Assets/Reference/police_station_k9_room_concept.png)
 
-  > AI-generated room concept (2026-08-13, re-rendered same day as a flat top-down camera to match
-  > the Hotel reference screenshots — see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art
-  > style-consistency pass").
+  > AI-generated room concept (2026-08-13).
 - **The Armory.** Reyes' key opens a room of mostly-emptied gun racks; one still holds a clamped-
   down shotgun and two boxes of shells, freed with a tool from Jim's own kit. The district's key
   equipment reward, deliberately recovered only after the Ashen Hound fight rather than before it.
 
   ![Armory — room concept](../Assets/Reference/police_station_armory_concept.png)
 
-  > AI-generated room concept (2026-08-13, re-rendered same day as a flat top-down camera to match
-  > the Hotel reference screenshots — see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art
-  > style-consistency pass"). Matches the scripted "mostly-emptied racks, one clamped-down shotgun"
-  > beat closely.
+  > AI-generated room concept (2026-08-13, regenerated same day — the first version had drifted into
+  > a flat vector-cartoon look instead of the project's painterly 2.5D pixel-art style; see
+  > [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art style correction, take two"). Matches the
+  > scripted "mostly-emptied racks, one clamped-down shotgun" beat closely.
 - **The Break Room.** A small, deliberately quiet optional stop off the same back hallway as the
   K-9 Unit Room — Corporal Reyes' employee locker holds an old photo of him with Diesel and Baxter
   at their K-9 graduation, a small emotional beat added after his death is already known, plus a
@@ -117,65 +111,55 @@ to the Ravenwood Hotel.
 
   ![Break Room — room concept](../Assets/Reference/police_station_break_room_concept.png)
 
-  > AI-generated room concept (2026-08-13, re-rendered same day as a flat top-down camera to match
-  > the Hotel reference screenshots — see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art
-  > style-consistency pass"). Lockers are unlabeled in this version rather than carrying an
-  > incorrect name; an earlier draft had mislabeled Reyes' locker "K. HARRISON" instead of
-  > "E. REYES," which is now moot.
+  > AI-generated room concept (2026-08-13). Note: the image labeled Reyes' locker "K. HARRISON"
+  > instead of "E. REYES" — flagged as a generation error, not canon; the K-9 graduation photo
+  > and dog paw-print detailing inside the open locker are otherwise exactly the scripted beat.
 - **Booking & Processing.** A fingerprint station, mugshot backdrop, and personal-effects lockers —
   two still tagged and closed, one yielding an optional pocketknife.
 
   ![Booking & Processing — room concept](../Assets/Reference/police_station_booking_concept.png)
 
-  > AI-generated room concept (2026-08-13, re-rendered same day as a flat top-down camera to match
-  > the Hotel reference screenshots — see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art
-  > style-consistency pass").
+  > AI-generated room concept (2026-08-13).
 - **The Interview Room.** A recorder left running holds an old interview about unsettling animal
   behavior near North Ridge before the outbreak — cross-referencing the newspaper clipping already
   found at Downtown's library — filed and forgotten rather than acted on.
 
   ![Interview Room — room concept](../Assets/Reference/police_station_interview_room_concept.png)
 
-  > AI-generated room concept (2026-08-13, re-rendered same day as a flat top-down camera to match
-  > the Hotel reference screenshots — see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art
-  > style-consistency pass").
+  > AI-generated room concept (2026-08-13, regenerated same day — the first version had drifted into
+  > a flat vector-cartoon look instead of the project's painterly 2.5D pixel-art style; see
+  > [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art style correction, take two").
 - **Modern Holding Cells.** Two working cells, in contrast with the old station house's disused
   ones — one empty with a torn, discarded uniform shirt; one holding a shambler safely behind bars,
   the same "visible but harmless" convention as the lobby's glass-shielded shambler.
 
   ![Modern Holding Cells — room concept](../Assets/Reference/police_station_modern_cells_concept.png)
 
-  > AI-generated room concept (2026-08-13, re-rendered same day as a flat top-down camera to match
-  > the Hotel reference screenshots — see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art
-  > style-consistency pass"). Matches the scripted "one empty, one caged shambler" beat closely.
+  > AI-generated room concept (2026-08-13). Matches the scripted "one empty, one caged shambler"
+  > beat closely.
 - **The Fire Station** (secondary, load-bearing). Supplies, timeline lore via a dispatch call-sheet
   board that cuts off mid-sentence — and a pair of **bolt cutters**, needed back at the station.
 
   ![Ravenwood Fire Station — room concept](../Assets/Reference/police_station_fire_station_concept.png)
 
-  > AI-generated room concept (2026-08-13, re-rendered same day as a flat top-down camera to match
-  > the exterior parking-lot reference screenshot — see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room
-  > concept art style-consistency pass"). Matches the scripted dispatch call-sheet board and bolt
-  > cutters closely.
+  > AI-generated room concept (2026-08-13). Matches the scripted dispatch call-sheet board and
+  > bolt cutters closely.
 - **The Property & Evidence Room.** Bolt cutters open the padlock. A proper long-term evidence
   storage room (not just a wall locker) containing the **Evidence Room Key** (itself tagged as
   evidence, "release pending" to the municipal court) plus optional loot.
 
   ![Property & Evidence Room — room concept](../Assets/Reference/police_station_evidence_room_concept.png)
 
-  > AI-generated room concept (2026-08-13, re-rendered same day as a flat top-down camera to match
-  > the Hotel reference screenshots — see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art
-  > style-consistency pass").
+  > AI-generated room concept (2026-08-13).
 - **The Municipal Garage** (secondary, now optional). Supplies, a mechanic's office note, a
   navigation shortcut gate, and Corporal Reyes' own parked patrol cruiser — a light connective
   detail (he walked the rest of the way in on foot) rather than a combat encounter.
 
   ![Municipal Garage / Impound Lot — room concept](../Assets/Reference/police_station_municipal_garage_concept.png)
 
-  > AI-generated room concept (2026-08-13, re-rendered same day as a flat top-down aerial to match
-  > the exterior parking-lot reference screenshot — see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room
-  > concept art style-consistency pass"). The wall sign now correctly reads "CITY OF RAVENWOOD
-  > MUNICIPAL GARAGE"; an earlier draft had misspelled it "RAVENCROFT," which is now moot.
+  > AI-generated room concept (2026-08-13). Note: the wall sign reads "CITY OF RAVENCROFT" instead
+  > of Ravenwood — flagged as a generation error, not a new city name; the game's city is locked
+  > as **Ravenwood** in [`CANON.md`](../CANON.md).
 - **The Breezeway / Navigation Puzzle.** The direct connecting door into the old station house is
   locked with an antique deadbolt. The Old Station Skeleton Key (from the Chief's Office) opens it
   directly — no workaround needed.
@@ -187,14 +171,10 @@ to the Ravenwood Hotel.
 
   ![Old Station House Main Hall — room concept](../Assets/Reference/police_station_old_main_hall_concept.png)
 
-  > AI-generated room concept (2026-08-13) — regenerated twice: once after a first attempt rendered
-  > the emblem as a triangular/pyramid shape and invented several unrelated chief names (both
-  > contradicting the locked wedge-shaped medallion and Marshal Josiah Hale specifically), and again
-  > the same day as a flat top-down camera to match the Hotel reference screenshots (see
-  > [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art style-consistency pass"). This version
-  > keeps the photo wall generic/illegible and shows the display case medallion as a rounded
-  > shield/badge shape rather than a sharp wedge — close enough for mood reference, but the shape
-  > itself is not canon; only Marshal Hale's association with the case is.
+  > AI-generated room concept (2026-08-13) — regenerated once after a first attempt rendered the
+  > emblem as a triangular/pyramid shape and invented several unrelated chief names, both of which
+  > contradict the locked wedge-shaped medallion and Marshal Josiah Hale specifically. This version
+  > corrects the shape and keeps the photo wall generic/illegible rather than inventing names.
 - **The Old Holding Cells.** A small optional area behind the main hall — disused cells repurposed
   for records storage. A damaged 1887 town-charter document lists Hale among five "Incorporators of
   Ravenwood," the other four names illegible from water damage — a deliberate, honest way to defer
@@ -202,10 +182,8 @@ to the Ravenwood Hotel.
 
   ![Old Holding Cells — room concept](../Assets/Reference/police_station_old_cells_concept.png)
 
-  > AI-generated room concept (2026-08-13, re-rendered same day as a flat top-down camera, still
-  > style-anchored to the Old Station House main hall render to keep the antique-stone-building
-  > look consistent — see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art style-consistency
-  > pass").
+  > AI-generated room concept (2026-08-13), style-anchored to the Old Station House main hall
+  > render to keep the antique-stone-building look consistent.
 - **The City Courthouse** (secondary, optional). An unresolved survivor-camp environmental beat,
   plus a **Clerk's Exhibit Storage** room (renamed and re-purposed from an earlier draft's
   "evidence room" — a courthouse holds active trial exhibits, not long-term evidence, which is the
@@ -213,10 +191,8 @@ to the Ravenwood Hotel.
 
   ![City Courthouse — room concept](../Assets/Reference/police_station_courthouse_concept.png)
 
-  > AI-generated room concept (2026-08-13, re-rendered same day as a flat top-down camera to match
-  > the Hotel reference screenshots — see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art
-  > style-consistency pass"). Depicts the courtroom itself; the abandoned survivor-camp alcove and
-  > the Clerk's Exhibit Storage door are described in the script rather than shown at this framing.
+  > AI-generated room concept (2026-08-13). Depicts the courtroom itself plus the abandoned
+  > survivor-camp alcove and the Clerk's Exhibit Storage door together for one combined reference.
 
 ## Important Rooms / Areas
 

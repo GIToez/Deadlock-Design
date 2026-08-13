@@ -95,15 +95,27 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   Break Room labeled Corporal Reyes' locker "K. HARRISON" instead of "E. REYES," and the Municipal
   Garage's wall sign reads "CITY OF RAVENCROFT" instead of the locked city name Ravenwood — all
   non-canonical.
-- **Room concept art style-consistency pass (2026-08-13, same day)** — after project-owner feedback
-  that some room concepts didn't match the in-engine `Screenshots/` reference (they'd drifted toward
-  an isometric/painterly look), re-rendered `hotel_courtyard_concept.png`, `hotel_red_room_concept.png`,
-  and all 16 Police Station room concepts with a stricter "flat 2D top-down, NOT isometric, NOT a 3D
-  diorama" prompt, overwriting the old files. Incidentally resolved three of the previously flagged
-  non-canonical details (Records/Dispatch's "DET. HARRIS," the Break Room locker name, and the
-  Municipal Garage's "RAVENCROFT" sign) in the new renders; the Old Station House's Authority Crest
-  medallion still isn't the exact canonical wedge shape (a rounded shield/badge instead) but is close
-  enough for mood reference — flagged in [`Locations/Police_Station.md`](../Locations/Police_Station.md).
+- **Room concept art style correction, take one — reverted (2026-08-13, same day).** First reading
+  of project-owner feedback ("Make sure all room concepts follow the in game screenshots. Some
+  don't.") wrongly concluded the real in-engine screenshots were a *flat, directly-overhead* style,
+  and re-rendered `hotel_courtyard_concept.png`, `hotel_red_room_concept.png`, and all 16 Police
+  Station room concepts as flat top-down. Corrected feedback ("2.5d room not flat, look at the
+  uploaded screenshots. The older renders looked better than these new ones") confirmed the
+  screenshots are actually **2.5D / isometric-leaning** (an elevated three-quarter angle that shows
+  the fronts of furniture and walls, not a straight overhead view) — the *original* renders had this
+  right, and the "fix" was itself the regression. Reverted all 18 files back to their pre-"fix"
+  versions.
+- **Room concept art style correction, take two (2026-08-13, same day).** Follow-up feedback ("Only
+  like 2 maps didn't render right off the old") narrowed the actual problem to just two of the
+  reverted files — `police_station_armory_concept.png` and `police_station_interview_room_concept.png`
+  — which, on inspection, had rendered in a flat vector-cartoon style (thick black outlines, no
+  pixel-art grain) unlike every other room concept's painterly 2.5D pixel-art look. Regenerated only
+  those two, anchored to a known-good existing room concept plus a real Hotel screenshot, keeping the
+  other 16 reverted files as-is. Net result: the three previously-fixed non-canonical details
+  (Records/Dispatch's "DET. HARRIS," the Break Room locker name, and the Municipal Garage's
+  "RAVENCROFT" sign) are back in their original flagged state, since those renders reverted along
+  with everything else — see the original flagged notes in
+  [`Locations/Police_Station.md`](../Locations/Police_Station.md).
 - **`Reference/shambler_concept.png`, `the_caretaker_concept.png`, `della_marsh_concept.png`,
   `the_maw_concept.png`** (AI-generated, 2026-08-13) — creature concept art for the four remaining
   creature writeups that didn't have one yet, completing visual coverage for every creature in

@@ -379,21 +379,36 @@
   softened one sightline claim in Scene 3. Added a documented convention (in the script's header
   note) for how full-room descriptions (Lobby, Courtyard) and multi-NPC simultaneous reaction
   beats relate to the actual constrained camera, rather than rewriting every atmospheric line.
-- **Room concept art style-consistency pass (2026-08-13, same day).** Project owner feedback: "Make
-  sure all room concepts follow the in game screenshots. Some don't." Audited every existing room
-  concept against the real in-engine `Assets/Screenshots/` references and found the drift: several
-  renders had leaned toward an isometric/painterly "3D diorama" look instead of the flat, directly-
-  overhead, tile-based retro RPG style the actual screenshots use. Affected: `hotel_courtyard_concept.png`,
-  `hotel_red_room_concept.png`, and all 16 Police Station room concepts. Fixed by rewriting the
-  generation prompt to explicitly require "Strictly flat 2D top-down retro RPG tileset pixel art,
-  viewed directly from above, NOT isometric and NOT a 3D diorama," validating it with two test
-  renders, then re-generating and overwriting all 18 affected files in place. Incidentally fixed
-  three of the previously flagged non-canonical details in the new renders (Records/Dispatch's
+- **Room concept art style correction, take one — wrong diagnosis, reverted (2026-08-13, same
+  day).** Project owner feedback: "Make sure all room concepts follow the in game screenshots. Some
+  don't." Misread the real in-engine `Assets/Screenshots/` references as a *flat, directly-overhead*
+  retro-RPG style and "corrected" `hotel_courtyard_concept.png`, `hotel_red_room_concept.png`, and
+  all 16 Police Station room concepts to match that (wrong) reading, overwriting all 18 files.
+  Immediate follow-up feedback: "2.5d room not flat, look at the uploaded screenshots. The older
+  renders looked better than these new ones." Re-examined the screenshots (e.g.
+  `ravenwood_hotel_room104_bedroom_a.webp`, `ravenwood_hotel_exterior_fountain_entrance.webp`) and
+  confirmed they're actually **2.5D / isometric-leaning** — an elevated three-quarter angle showing
+  the fronts of furniture, walls, and building facades, not a strict top-down view of rooftops/floor
+  only. The *original* pre-"fix" renders had this right all along; the "fix" was the actual
+  regression. Reverted all 18 files to their pre-"fix" versions (`git checkout` from the commits
+  before the flat re-render) and reverted the matching captions in `Locations/Ravenwood_Hotel.md` and
+  `Locations/Police_Station.md` back to their original text. This also brought back the three
+  non-canonical details those "fixed" renders had incidentally corrected (Records/Dispatch's
   invented "DET. HARRIS" nameplate, the Break Room locker's wrong name, and the Municipal Garage
-  sign's wrong city name); the Old Station House medallion still isn't the exact canonical wedge
-  shape but reads close enough for mood reference. Every other existing hotel/police-station room
-  concept was re-checked against the screenshots and confirmed already consistent — no further
-  regenerations needed. See [`Assets/README.md`](Assets/README.md) for the full file list.
+  sign's wrong city name) — restored their original flagged-error captions rather than silently
+  losing that context.
+- **Room concept art style correction, take two (2026-08-13, same day).** Further feedback: "Only
+  like 2 maps didn't render right off the old." Reviewed all 18 reverted files side-by-side and found
+  the actual outliers: `police_station_armory_concept.png` and
+  `police_station_interview_room_concept.png` had rendered in a flat vector-cartoon look (thick black
+  outlines, no pixel-art grain, flatter shading) that doesn't match the painterly 2.5D pixel-art
+  style every other room concept (and the real screenshots) uses. Regenerated only those two, using
+  an existing correctly-styled render (`police_station_booking_concept.png`) plus a real Hotel
+  screenshot as style anchors, and updated their captions in `Locations/Police_Station.md`. The other
+  16 reverted files were left as-is — already correct. Lesson for future room concept generation:
+  the house style is 2.5D/isometric-leaning with visible object fronts, not flat top-down — see the
+  (already-correct) description in [`Assets/README.md`](Assets/README.md) → "Convention: room
+  concept art."
 - **Creature concept-art coverage completed (2026-08-13, same day).** Project owner: "Let's also do
   renders for creatures we don't have all. Make sure to do it for all future as well" — the second
   half of rule 16 in `README.md` (every new enemy/creature gets concept art) plus a backfill pass
