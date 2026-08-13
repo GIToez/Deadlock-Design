@@ -1,0 +1,323 @@
+# Deadlock Protocol — Canon
+
+> Only important, established facts that must not be casually changed belong here.
+> Keep this document concise. Do not duplicate the entire storyline — see [`MASTER_STORY.md`](MASTER_STORY.md)
+> for the full narrative.
+>
+> If another document contradicts this file, report the contradiction rather than silently
+> changing canon.
+
+> **Source note:** Two source materials exist for this game:
+> [`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx)
+> (uploaded first) and [`AI.json`](AI.json) (an older AI planning conversation, uploaded
+> second, covering the same material plus much more — Memorial Park, the five districts, the
+> crest/emblem system, and character names). Where the two disagree, **[`AI.json`](AI.json) is treated as the
+> newer, more authoritative source**, because it is a later iterative pass that explicitly revisits
+> and fixes problems found in the earlier material (see "Retcons" below for the specific list).
+
+## Presentation & Perspective
+
+Deadlock Protocol is a **2.5D top-down survival horror game** (this was stated as early as the
+first message of `AI.json`'s planning conversation but never actually made it into a design
+document until now — flagging that gap here for traceability). Two concrete implications for
+future writing, confirmed by reference screenshots from the project owner (2026-08-12):
+
+- **The camera does not show a wide, cinematic view of a room.** It stays close to the player
+  character — in the reference screenshots, roughly half of the Ravenwood Hotel lobby is visible
+  at once, not the whole room. Scene descriptions should generally reflect what's near/visible to
+  Jim as he moves, not an omniscient wide shot of an entire space, unless a moment is explicitly
+  meant to be a wider vista/cutscene beat (e.g. the Overlook Trail scene in Chapter 2, which is
+  already written as a deliberate, singular exception).
+- **There is no implied 3D camera movement** (pans, dollies, over-the-shoulder shots, etc.).
+  Description should read as what's visible from a fixed top-down/isometric perspective near the
+  player, not as film-style shot direction.
+- This does not mean characters/creatures lack visual detail on-screen — the reference
+  screenshots show clearly readable character and creature sprites (clothing, posture, attack
+  animation) even at this camera distance — it specifically means **scale of visibility**, not
+  detail fidelity, is the thing to watch for in future prose.
+
+See [`README.md`](README.md) → "Presentation & Camera" for the corresponding writing rule, and
+[`Assets/`](Assets/README.md) for reference screenshots once uploaded.
+
+## District Main-Location Design Standard (locked 2026-08-13)
+
+Each of the five districts' **main location** (Police Station, Hospital, Academy, Refinery,
+Monastery) is a substantial, interconnected, key-item-gated exploration space — explicitly modeled
+on classic survival-horror "mansion/police station" design (Resident Evil's Spencer Mansion and
+RPD are the direct reference points), not a short, mostly-linear pass. Concrete implications:
+
+- **Target scope: roughly 2–3 hours of gameplay per main location** — comparable in depth to the
+  Ravenwood Hotel (Chapter 1's 46-scene main location), not to the shorter, faster secondary
+  locations within the same district.
+- **Multiple specific key items, not one or two.** Progression should require finding several
+  distinct, named key items — each opening a specific door/container elsewhere, the way RE's
+  suit-symbol keys (spade/diamond/club/heart) each open exactly one thing. Avoid single
+  do-everything keys or purely dialogue-gated progression.
+- **Backtracking across the whole district is the point, not a flaw.** A main location's secondary
+  locations (e.g. the Police Station's Fire Station, Municipal Garage, City Courthouse) should be
+  woven into the **same interlocking puzzle**, not fully separate optional side content — an item
+  found at one building should often be required to progress at another, forcing the player to
+  physically walk the district multiple times, the way RE2's RPD, the adjoining gun shop kiosk, and
+  the surrounding zones all feed into one connected lock-and-key structure.
+- **A central hub room the player returns to repeatedly** (RE's mansion foyer / RPD main hall
+  equivalent) that visibly gates several locked doors at once from the start, so the player can see
+  the shape of what's left to solve.
+- **The emblem itself is the last thing found**, behind the deepest/most gated point of the
+  location — a reward for finishing the loop, not something encountered early or in passing.
+- This standard is **retroactive**: the Police Station, originally scripted before this standard
+  was locked, has since been rewritten to match it (2026-08-13) —
+  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–40, including a
+  full room-connectivity blueprint at [`Locations/Police_Station.md`](Locations/Police_Station.md)
+  matching [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)'s existing convention.
+  The remaining four districts should be written to the same bar (dense main location, multiple
+  named keys, a full blueprint) from the start. See [`STORY_NOTES.md`](STORY_NOTES.md) for the
+  full restructuring history.
+
+## Fundamental Premise
+
+Deadlock Protocol follows **Jim Mercer** — retired military (communications/logistics), now a
+civilian **telecommunications field engineer** for a regional contractor — traveling alone through
+rural Appalachia during a severe storm, headed to a relay site that has been offline for three
+days. Flooding and poor visibility force him off Highway 13 into the isolated mountain town of
+**Ravenwood**, where he checks into the **Ravenwood Hotel** for what he believes will be a single
+overnight stay. The town has already begun collapsing due to an outbreak, and the game escalates
+from grounded, slow-burn horror into full quarantine horror over the course of one night.
+
+## Player Starting Equipment
+
+Jim carries a **heavy-duty flashlight** clipped to his belt from the very start of the game — part
+of his default loadout as a field engineer's everyday-carry, not something picked up in play. This
+was locked (2026-08-12) specifically to close a gap where he had no personal light source for
+Chapter 1's dark, powerless spaces despite the hotel's outage. Established in
+[`Scripts/Chapter_1_One_Night_Only.md`](Scripts/Chapter_1_One_Night_Only.md) (Scene 2); Chapter 2's
+originally-planned "first flashlight" pickup ([`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scene 2) was
+changed to spare flashlight batteries instead, since he already has his own.
+
+## Origin of the Outbreak
+
+The collapse of Ravenwood is tied to an outbreak connected to **Vanguard BioSystems** and
+**"Project Ashen."** The mutagen/infectious agent is named **Black Vein**. Ravenwood and Vanguard
+share the same five founders (see "The Founders & the Five Crests" below) — the town was not an
+incidental host; it was built by the same people who built Vanguard, and the underground facility
+beneath Memorial Park was constructed at the same time as the town itself (1887). The exact
+mechanism of the outbreak (how containment failed, why it happened now) is not yet established —
+see [`STORY_NOTES.md`](STORY_NOTES.md).
+
+## Major Character Relationships
+
+- [Jim Mercer](Characters/Jim_Mercer.md) is married/partnered to
+  **[Sarah Mercer](Characters/Sarah_Mercer.md)** ("love you" is exchanged on both sides of
+  every call). Sarah is off-site for the events of the game, reachable only by phone during the
+  drive and at the hotel parking lot — after that, **Deadlock Protocol cuts all external
+  communication in and out of Ravenwood**, and there is no contact between them for the rest of
+  the game. The whole game takes place over one night; Sarah is asleep for most of it, unaware.
+- Late in the game, before descending into the underground facility (Chapter 3), Jim finds a way
+  to send **one outbound message** to Sarah — one-sided, he doesn't know if it gets through. He
+  sends it anyway.
+- Sarah arrives in Ravenwood days later, looking for Jim — this is the game's **Epilogue** and a
+  sequel hook (the intended sequel would be played from Sarah's perspective).
+
+## Major Story Structure
+
+The story is told in three chapters plus an epilogue:
+
+1. **Chapter 1 — One Night Only.** The Ravenwood Hotel (absorbs what earlier material called the
+   "Prologue" — driving in, checking in, the outbreak beginning — the whole thing is now Chapter
+   1, not a separate prologue). Opens on Highway 13; closes on Jim stepping through the hotel's
+   north courtyard gate onto the street.
+2. **Chapter 2 — Ravenwood.** The city. Jim crosses the street into Memorial Park (the permanent
+   safe hub), then explores five open-order districts recovering five founders' emblems. Closes
+   on all five emblems being returned to the Founders Memorial statue, the water basin draining,
+   and a hidden staircase being revealed.
+3. **Chapter 3 — What Was Hidden.** The underground Vanguard facility beneath Memorial Park.
+   Project Ashen and Black Vein are revealed. Jim sends his one message to Sarah before the
+   finale. The facility is destroyed (or partially destroyed). **Jim's fate is left deliberately
+   ambiguous.**
+4. **Epilogue — One More Night.** Sarah arrives at the outskirts of Ravenwood days later, looking
+   for Jim, and goes through the quarantine perimeter anyway. No resolution of Jim's fate — a
+   clean hook for a sequel starring Sarah.
+
+See [`MASTER_STORY.md`](MASTER_STORY.md) for the full progression and [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md) for complete
+hotel-chapter detail.
+
+## The Founders & the Five Crests
+
+- **[Memorial Park](Locations/Memorial_Park.md)** (est. 1891 per its own archway; the central
+  Founders Memorial statue is dated 1887 — the statue predates the park's formal establishment, or
+  the park was built around it — not yet reconciled, see [`STORY_NOTES.md`](STORY_NOTES.md)) is
+  Ravenwood's central hub, reached directly across the street from the
+  [Ravenwood Hotel](Locations/Ravenwood_Hotel.md).
+- At its center stands the **Founders Memorial**: a ~10-foot bronze female civic statue holding a
+  large circular medallion-plaque, divided into a small central **five-sided pentagon hub**
+  surrounded by **five trapezoidal wedge-shaped recesses** arranged like a compass rose (one wedge
+  sits due north/top, the rest spaced evenly around it at the other four confirmed directions).
+  Inscription: *"WHAT WAS DIVIDED SHALL BE WHOLE. WHAT WAS HIDDEN SHALL BE OPENED. — THE FOUNDERS
+  OF RAVENWOOD — 1887 —"* Each recess bears a faint engraved label: **ORDER, KNOWLEDGE, INDUSTRY,
+  FAITH, MEDICINE.** The small central hub bears a single weathered letter **"V"** — an
+  unexplained, deniable early visual hint at the Vanguard connection, sitting in plain sight on an
+  1887 civic monument. See concept art:
+  [`Assets/Reference/founders_memorial_plaque_concept.png`](Assets/Reference/founders_memorial_plaque_concept.png)
+  (two wedges shown filled, three shown empty, for reference — not a literal screenshot). The
+  statue sits in a water basin; draining the basin (by filling all five recesses) reveals a
+  submerged door/staircase beneath it, descending into the Vanguard facility.
+- **Each of the five founders built one civic institution and kept one emblem.** The five
+  founders of Ravenwood are the same five founders of Vanguard BioSystems — the town and the
+  company are one shared history, not two that later collided.
+- **Each emblem is a separate, physical wedge-shaped piece that inserts into and completely fills
+  its matching recess** — not a marking that appears on the existing stone, but a distinct object
+  slotted into an empty socket, like a puzzle piece. Once inserted, a visible seam/lip remains
+  where the emblem's edge meets the surrounding medallion frame, so it always reads as something
+  placed there rather than part of the original surface. Each emblem bears a relief portrait of
+  its founder, the founder's name, and a symbol of their institution. They were made together with
+  the statue as the facility's original (crude, deliberate) access control system; over
+  generations the original purpose was forgotten and the emblems became civic artifacts, kept out
+  of tradition. A short founding-record document at the Academy covers this in-world.
+- **The directional hint lives in the statue's empty wedge slots, not in the emblems themselves.**
+  Each wedge's position on the medallion (top/north, upper-right/northeast, lower-right/southeast,
+  lower-left/southwest, upper-left/northwest) points in the general compass direction of the
+  district its emblem belongs to. Jim can read this directly off the statue at Memorial Park at
+  any time, before collecting anything — it's a hint built into the monument itself, not something
+  revealed only after finding a given emblem.
+- **Crest / district / slot reference table:**
+
+| Direction | Crest Name | Location | Statue Slot Label | Institution Symbol | Wedge Position |
+|---|---|---|---|---|---|
+| North | Faith Crest | [Our Lady of Solace Monastery](Locations/Monastery.md) | FAITH | Cross | Top |
+| Northeast | Medical Crest | [St. Dymphna Hospital](Locations/Hospital.md) | MEDICINE | Serpent/Caduceus | Upper-right |
+| Southeast | Knowledge Crest | [Worthy Academy](Locations/Academy.md) | KNOWLEDGE | Torch | Lower-right |
+| Southwest | Authority Crest | [Ravenwood Police Station](Locations/Police_Station.md) | ORDER | Key | Lower-left |
+| Northwest | Industry Crest | [Steelgate Refinery](Locations/Foundry_Refinery.md) | INDUSTRY | Anvil | Upper-left |
+
+- Jim learns about the emblems through **environmental discovery, not exposition**: guardhouse
+  notes at Memorial Park (written by a park groundskeeper who never understood the statue, but
+  recalls a historian once telling him to "look at the police station... there's something on the
+  wall inside the main hall") plus finding the first emblem himself at the Police Station — the
+  natural first destination, being closest to the park.
+- District exploration order is **fully open** from the start of Chapter 2. The single unlocked
+  south park gate creates only a soft suggestion (Police Station first), never a hard requirement.
+
+## VERN Terminals
+
+**VERN** = *Vanguard Emergency Response Node*. VERN terminals are a **city-wide save-point
+network** found throughout Ravenwood (not hotel-specific) — the game's only save mechanic. They
+are part of pre-existing Ravenwood emergency infrastructure, which itself is a subtle, unexplained
+early hint that Vanguard's reach into the town predates the outbreak.
+
+## Named Characters Confirmed (beyond the core hotel cast)
+
+- **[Della Marsh](Creatures/Della_Marsh.md)** ("Della M." on stage) — the Red Room lounge singer;
+  local Ravenwood performer, four-year weekly residency. Infected/deceased by the time Jim finds
+  her.
+- **Roy Bullock** — real name of "[the Caretaker](Creatures/The_Caretaker.md)," the hotel's
+  longtime maintenance man, mutated by the outbreak. The hotel had **no direct Vanguard
+  presence** — it was simply caught in the outbreak's radius like the rest of town.
+- **[Officer Dale Pruitt](Characters/Dale_Pruitt.md)** — Ravenwood PD, night shift; the same
+  officer seen at the hotel parking lot at the start of the game and later found infected inside
+  the crashed cruiser. The person he pulled over in the parking lot was already in early
+  infection stages (his exposure point); that person is never named or seen clearly and remains
+  anonymous.
+- **[Fennimore](Characters/Fennimore.md)** — the hotel's night-shift security guard. Never seen
+  alive; found dead near the courtyard's north gate after chaining the maintenance shed shut on
+  discovering Roy Bullock transforming. Reanimates and is fought as a Shambler when Jim returns to
+  the courtyard. His full first name is never confirmed on-screen.
+- **[Sergeant Ruth Calloway](Characters/Ruth_Calloway.md)** — Ravenwood PD desk sergeant; the
+  Southwest District's Tier 2 conditional survivor (see "Survivor System," below). Alive and
+  interactive if the Police Station is Jim's first district; already turned otherwise.
+- **[Corporal Eli Reyes](Characters/Eli_Reyes.md)** — Ravenwood PD's K-9 unit handler. Never seen
+  alive; found dead in the station's K-9 Unit Room, the Armory Key still on his belt, killed by his
+  own K-9 partners (see Ashen Hound, below) after they turned.
+- **Marshal Josiah Hale** — the Ravenwood Police Department's first peace officer (1887); one of
+  Ravenwood/Vanguard's five founders. His name and portrait appear on the **Authority Crest**,
+  recovered from a display case in the old 1887 station house. The other four founders' names are
+  not yet decided (a damaged in-world document defers them intentionally — see
+  [`Locations/Police_Station.md`](Locations/Police_Station.md)); when chosen, they should feel
+  consistent with Hale's period-appropriate naming.
+- (The character/founder additions above are new as of 2026-08-13 — see
+  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–40, and
+  [`STORY_NOTES.md`](STORY_NOTES.md) for context on what was proposed versus already locked.)
+
+## Creature Classification: Ashen Mutant
+
+**[The Maw](Creatures/The_Maw.md)** — a heavily mutated, territorial stalker/ambush predator
+encountered in the Ravenwood Hotel, classified as an "Ashen Mutant" — is the first confirmed
+example of this classification tier. It's responsible for both Cindy Sweets' Room 106 abduction
+and Gerta's death. Whether "Ashen Mutant" applies more broadly (e.g. to the Caretaker) is not yet
+confirmed.
+
+**[Ashen Hound](Creatures/Ashen_Hound.md)** — a distinct, separate classification (new,
+2026-08-13): Black Vein's presentation in an infected animal (specifically a domestic dog) rather
+than a human, producing a fast, pack-hunting profile instead of the slow "Ashen Mutant"/Shambler
+baseline. Shares the "Ashen" naming convention (tied to Black Vein's visual/thematic signature) but
+is not itself a variant of "Ashen Mutant," which this document uses specifically for human
+mutation-stage creatures.
+
+## Creature Classification: Apex Mutation
+
+**[The Zombie Conglomerate ("the Zombie King")](Creatures/Zombie_Conglomerate.md)** — a new,
+separate classification tier (proposed 2026-08-13): a mass of dozens (eventually many more)
+individually-infected bodies fused together by unchecked Ashen mutation into a single rolling,
+grasping entity, "not born, but built." Unlike every other creature so far, it is explicitly
+**unkillable and un-fightable by design** — a roaming, unpredictable environmental hazard rather
+than a combat encounter, first appearing in Chapter 2 after Jim recovers his first emblem. See its
+file for a locked-canon conflict in its source concept art (an incompatible multi-week sighting
+timeline) and a proposed resolution, not yet approved.
+
+## Survivor System (design rule, applies from Chapter 2 onward)
+
+- **Tier 1 — Key story survivors:** a small number of fully developed characters, essential to the
+  narrative, whose existence and role are fixed regardless of player action.
+- **Tier 2 — Conditional survivors:** existence/condition/fate depends on player sequencing.
+  Confirmed example: **[Sergeant Ruth Calloway](Characters/Ruth_Calloway.md)**, the Police
+  Station's desk sergeant, is alive (interactive, has information) if Jim visits the Police Station
+  first; if Jim visits another district first, she has turned by the time Jim reaches the station.
+  Rule: the player always gets the needed information either way (directly from the survivor, or
+  via notes/environmental clues from the dead version); no survivor's death ever hard-blocks
+  progression; the game never explicitly blames the player. (Her alternate/"already turned" scene
+  is described but not yet scripted — see [`Locations/Police_Station.md`](Locations/Police_Station.md).)
+
+## Retcons — superseded docx content (per [`AI.json`](AI.json), the newer source)
+
+These items appeared in [`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx) and have been explicitly
+revised or removed in the later [`AI.json`](AI.json) planning pass. Recorded here rather than silently
+changed, per the "report contradictions" rule:
+
+- **Earl Whitaker's pre-outbreak "hesitation"/foreshadowing** (listening for something, his
+  dismissal "landing wrong") is removed. Earl is now written as a plainly ordinary, unsuspecting
+  night clerk with no foreknowledge — his death is meant to land harder *because* he was never
+  suspicious. His "town gets strange when the weather turns" line is likewise cut as a horror
+  cliché.
+- **The muffled scream** Jim hears before falling asleep in Room 104 is removed from canon — Room
+  104 now ends on rain/thunder/fade-to-black with no warning before the outbreak wakes him.
+- **The East Wing maintenance-closet/screwdriver duplication** (flagged independently during this
+  project's own audit, and by the user during the [`AI.json`](AI.json) session) is resolved the same way in
+  both places: **one pickup only, in the East Wing** (matches what's already written in
+  [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)).
+- **The Red Room no longer connects to the Courtyard Security Office.** In the docx, the Red
+  Room's backstage was the route into the Security Office (making it secretly mandatory despite
+  being labeled optional, and architecturally implausible — a security office reachable only
+  through a speakeasy lounge). This is fixed: the **Red Room is fully self-contained**, entered
+  directly off the Main Bar, with no backstage route to anywhere, and the **Courtyard Security
+  Office is reached via a separate West Wing service corridor.** The "deadbolted front door"
+  detail from the docx is removed entirely — see
+  [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md) for the corrected room layout.
+- Jim's occupation (**not established at all in the docx**) is now locked: retired military
+  (comms/logistics) turned telecommunications field engineer.
+- The mutagen name is locked as **Black Vein** (a "Dark Vein" variant name was briefly considered
+  and rejected in favor of the original term).
+- **The hotel's second-floor service crossover and "West Wing Maintenance Office" are retired
+  (2026-08-12).** This was an interim design (written into this project's own scripts, not sourced
+  from the docx or [`AI.json`](AI.json)) that assumed a player-inaccessible service floor
+  connecting the East and West Wings. After the project owner shared a real architectural floor
+  plan for the hotel (ground floor + guest floor only), the entire East/West Wing
+  power-restoration route was rebuilt to match: no second floor, no crossover, a barricaded
+  East Wing shortcut door back to the Lobby, and a small unlocked **West Wing Maintenance Room**
+  on the guest floor (not the old "West Wing Maintenance Office," which is gone). The **Laundry
+  Room also moved from the West Wing (behind the Main Bar) to the East Wing**, next to the Utility
+  Room — Gerta's death scene moved with it. See [`STORY_NOTES.md`](STORY_NOTES.md) → "Direction
+  Log" for the full resolution and [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)
+  for the corrected room list and blueprint diagrams.
+
+*Sources: [`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx) (original material); [`AI.json`](AI.json) (the
+planning conversation that produced the retcons and the Memorial Park / district / crest system
+above — see [`STORY_NOTES.md`](STORY_NOTES.md) for open questions raised by that same conversation, and
+`Scripts/` for the scene-by-scene material it produced).*
