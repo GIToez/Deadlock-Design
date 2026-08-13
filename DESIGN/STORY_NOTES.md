@@ -380,6 +380,61 @@
   note) for how full-room descriptions (Lobby, Courtyard) and multi-NPC simultaneous reaction
   beats relate to the actual constrained camera, rather than rewriting every atmospheric line.
 
+## Pending Plan — Police Station Restructure (RE-style, proposed 2026-08-13, awaiting approval)
+
+Per the new "District Main-Location Design Standard" locked in [`CANON.md`](CANON.md), the
+just-written Police Station (`Scripts/Chapter_2_Ravenwood.md`, Scenes 22–33) is too short and
+linear — it needs a Resident Evil RPD-style key-and-lock restructure before the remaining four
+districts are written, so all five are built to the same standard. **Nothing below has been
+written into the script yet** — this is a structural plan only, laid out for review the same way
+Memorial Park's layout was decision-logged before it was scripted.
+
+**What stays the same:** Sergeant Calloway as the survivor, the shotgun as the equipment reward,
+the Authority Crest's location/appearance (old station house display case, Marshal Josiah Hale),
+the Ashen Hound encounter at the Municipal Garage, and all four buildings (Station, Fire Station,
+Municipal Garage, Courthouse).
+
+**What changes — a proposed 4-key backtracking loop across all four buildings, instead of a mostly
+linear station visit plus three separate optional side stops:**
+
+1. **Bullpen (hub).** Established as before, but now visibly gates *three* locked things at once
+   instead of unlocking in sequence: the **Armory** (keyed lock), the **Chief's Office** (keyed
+   lock), and a padlocked **evidence locker** (currently just "open" — proposed to be sealed,
+   requiring bolt cutters). Calloway is barricaded in Records/Dispatch, same as now.
+2. **Calloway** no longer hands over the armory key directly. Instead she: (a) gives Jim the
+   **Chief's Office key** (department protocol — the desk sergeant holds it), and (b) explains the
+   armory key was on **Corporal Reyes'** duty belt — he went out on a call to the Municipal Garage
+   about the K-9 unit acting up and never came back. She also mentions the evidence locker's been
+   sealed for months and "bolt cutters would do it, we just never got around to it."
+3. **Chief's Office** (new room, unlocked with Calloway's key): confirms Reyes' last known
+   location (the Garage), plus a minor optional reward.
+4. **Fire Station** (existing secondary location, now load-bearing instead of fully optional):
+   adds a pair of **bolt cutters** to its existing supplies/lore.
+5. **Return to Bullpen:** bolt cutters open the evidence locker → **Evidence Room Key** (as
+   already written, but now requires the Fire Station trip first instead of being a cold pickup).
+6. **Municipal Garage** (existing Ashen Hound fight, unchanged) + new addition: **Corporal Reyes'
+   body**, killed by the same Ashen Hounds he was sent to check on, found after the fight — the
+   **Armory Key** is on his belt. This gives Diesel/Baxter's encounter a direct narrative reason to
+   exist in the critical path (Reyes is why Jim has to go there at all) rather than being a
+   stand-alone combat detour.
+7. **Return to Bullpen/Armory:** Reyes' key opens it → shotgun + shells (as already written).
+8. **Courthouse** (existing secondary location, now load-bearing): Evidence Room Key (from step 5)
+   opens the evidence room as already written, but the locked personal lockbox inside now also
+   contains a new item — the **Old Station Skeleton Key** — alongside the existing optional
+   ammo/medkit.
+9. **Breezeway:** the antique deadbolt into the old station house — currently bypassed by an
+   exterior "pried boards" workaround — is proposed to instead require the **Skeleton Key** from
+   step 8 as the real, single solution (removing the workaround, which was a placeholder solved
+   before this loop existed).
+10. **Old Station House** (Main Hall + Holding Cells) — unchanged: the Authority Crest and the
+    damaged founders' document, now reached only after the full loop above.
+
+This turns all four buildings into one interlocking structure (closer to 2–3 hours of exploration)
+instead of a station visit plus three quick, independent side stops. **Awaiting explicit approval
+before `Scripts/Chapter_2_Ravenwood.md` Scenes 22–33, `Locations/Police_Station.md`, and
+`Characters/Ruth_Calloway.md` are rewritten to match** — this is exactly the kind of large,
+already-written-once revision the project's own rules say shouldn't happen silently.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /

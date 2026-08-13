@@ -39,6 +39,37 @@ future writing, confirmed by reference screenshots from the project owner (2026-
 See [`README.md`](README.md) → "Presentation & Camera" for the corresponding writing rule, and
 [`Assets/`](Assets/README.md) for reference screenshots once uploaded.
 
+## District Main-Location Design Standard (locked 2026-08-13)
+
+Each of the five districts' **main location** (Police Station, Hospital, Academy, Refinery,
+Monastery) is a substantial, interconnected, key-item-gated exploration space — explicitly modeled
+on classic survival-horror "mansion/police station" design (Resident Evil's Spencer Mansion and
+RPD are the direct reference points), not a short, mostly-linear pass. Concrete implications:
+
+- **Target scope: roughly 2–3 hours of gameplay per main location** — comparable in depth to the
+  Ravenwood Hotel (Chapter 1's 46-scene main location), not to the shorter, faster secondary
+  locations within the same district.
+- **Multiple specific key items, not one or two.** Progression should require finding several
+  distinct, named key items — each opening a specific door/container elsewhere, the way RE's
+  suit-symbol keys (spade/diamond/club/heart) each open exactly one thing. Avoid single
+  do-everything keys or purely dialogue-gated progression.
+- **Backtracking across the whole district is the point, not a flaw.** A main location's secondary
+  locations (e.g. the Police Station's Fire Station, Municipal Garage, City Courthouse) should be
+  woven into the **same interlocking puzzle**, not fully separate optional side content — an item
+  found at one building should often be required to progress at another, forcing the player to
+  physically walk the district multiple times, the way RE2's RPD, the adjoining gun shop kiosk, and
+  the surrounding zones all feed into one connected lock-and-key structure.
+- **A central hub room the player returns to repeatedly** (RE's mansion foyer / RPD main hall
+  equivalent) that visibly gates several locked doors at once from the start, so the player can see
+  the shape of what's left to solve.
+- **The emblem itself is the last thing found**, behind the deepest/most gated point of the
+  location — a reward for finishing the loop, not something encountered early or in passing.
+- This standard is **retroactive**: the Police Station as scripted in
+  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md) (Scenes 22–33) was written
+  before this standard was locked and is comparatively short/linear — it needs to be expanded to
+  match before the remaining four districts are written, so all five are consistent. See
+  [`STORY_NOTES.md`](STORY_NOTES.md) for the specific restructuring plan.
+
 ## Fundamental Premise
 
 Deadlock Protocol follows **Jim Mercer** — retired military (communications/logistics), now a
