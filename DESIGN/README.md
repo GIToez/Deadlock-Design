@@ -12,6 +12,8 @@ DESIGN/
 ├── Characters/           # One file per significant recurring character
 ├── Creatures/             # One file per important creature type / major unique creature
 ├── Locations/             # One file per major location (complete design for that location)
+├── Weapons/               # One file per weapon (stats, description, concept art)
+├── Items/                 # One file per consumable/utility item (effects, description, concept art)
 └── Scripts/               # Programmer-facing, scene-by-scene game scripts (dialogue + actions)
 ```
 
@@ -74,10 +76,10 @@ When working on Deadlock story content:
 
 ## Visual Asset Pipeline (locked 2026-08-13)
 
-16. **Every new scene/room, new enemy/creature, and new named character gets a matching visual
-    render as part of finishing it — not as a separate follow-up pass.** This is a permanent rule,
-    not a one-off request, so animators/artists always have something concrete to work from and
-    the whole cast/world stays visually consistent as it grows:
+16. **Every new scene/room, new enemy/creature, new named character, new weapon, and new item gets
+    a matching visual render as part of finishing it — not as a separate follow-up pass.** This is
+    a permanent rule, not a one-off request, so animators/artists always have something concrete to
+    work from and the whole cast/world stays visually consistent as it grows:
     - **New room or scene** → a room concept image, following the convention in
       [`Assets/README.md`](Assets/README.md) → "Convention: room concept art" (style-anchored to
       the real in-engine Hotel screenshots in `Assets/Screenshots/`).
@@ -88,6 +90,14 @@ When working on Deadlock story content:
       for named characters" — this is the PixelLab `create_image_pro` two-step pipeline
       specifically, confirmed 2026-08-13 to be what actually matches the project's house style;
       don't substitute a generic image generator for it.
+    - **New weapon or item** → a small pixel-art inventory icon, following
+      [`Weapons/README.md`](Weapons/README.md) → "Convention: concept art for weapons" or
+      [`Items/README.md`](Items/README.md) → "Convention: concept art for items" — a distinct,
+      simpler icon style from the room/creature painterly convention above, confirmed against
+      actual in-game item-icon references (2026-08-13, see
+      [`STORY_NOTES.md`](STORY_NOTES.md)). The project owner may also upload real in-game icons
+      directly for specific weapons/items instead of generating them — check each file/folder's
+      current status before generating one, so a generated placeholder doesn't get made redundant.
     - Each convention document is the source of truth for exact style/technical details (filename
       patterns, sizes, prompt templates) — this rule just states that the step is mandatory, not
       optional, going forward.

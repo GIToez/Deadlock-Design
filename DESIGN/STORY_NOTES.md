@@ -756,6 +756,56 @@ the next entry for the current final numbering (Scenes 22–40).
     [`Locations/Police_Station.md`](Locations/Police_Station.md).
   - Every room *and* named connector/hallway in both locations' blueprint diagrams now has either a
     real in-engine screenshot or AI concept art, with no remaining gaps.
+- **Weapons and Items document — audit and folder buildout (2026-08-13).** Project owner uploaded
+  [`Deadlock Weapons and Items.docx`](Deadlock%20Weapons%20and%20Items.docx) directly to the repo
+  (pushed straight to `main`, per the new "main only" workflow rule) and asked for the same
+  folder/file/concept-art treatment already used for `Characters/`, `Creatures/`, and `Locations/`.
+  Read in full (13 entries: 11 weapons, 2 throwables) and built out new
+  [`Weapons/`](Weapons/README.md) and [`Items/`](Items/README.md) folders, one file per
+  weapon/item, transcribing each Description/Stats block verbatim. Cross-referenced every entry
+  against already-scripted content rather than treating the new doc as a blank slate:
+  - **Strong, flagged (not silently applied) matches:** the "Sentinel-9" Service Pistol's
+    description (RPD-issue sidearm) matches Jim's already-established first firearm — "a handgun"
+    taken from Officer Dale Pruitt, Chapter 1; the "Ranger 870" Pump Shotgun's description (rugged
+    12-gauge, manual pump) matches the Police Station Armory's already-established shotgun reward,
+    Chapter 2. Both are treated as **very likely** the same items, but neither existing script/
+    location file actually names a model, so the connection is documented as a pending-approval
+    proposal in each weapon's own "Story Placement" section rather than silently renaming "the
+    handgun"/"the shotgun" everywhere they're mentioned.
+  - **Confirmed exact match:** the "Roadwrecker" Aluminum Baseball Bat matches Jim's already-
+    established first weapon (grabbed from wrecked lobby furniture, Chapter 1) closely enough
+    (baseball bat, no other candidate) to link directly without the same hedging.
+  - **Plausible future placement, not locked:** the "Steelstorm M60" LMG's description ("salvaged
+    from a Steelgate factory security cache") lines up with the Northwest/Refinery district's
+    planned secondary location, the **Steelgate Loading Docks** (see `MASTER_STORY.md` → "Secondary
+    Locations") — noted as a good fit for whoever writes that district, not a decision made here.
+  - **No placement yet, by design:** the Vanguard M-15 AR Platform, Ironback .357 Revolver,
+    Longview .308 Sniper Rifle, Cleaverborn Survival Sword, Thunderlance Railgun, CRN-09 Decimator
+    Beam, Titanbreaker RLR-7 Rocket Launcher, Molotov Cocktail, and Pipe Bomb have no scripted
+    pickup location anywhere yet — expected, since only two chapters (Hotel, Police Station) are
+    written. Documented as available inventory for future chapters rather than force-placed.
+  - **Minor doc-structure note:** the source docx's "🧪 Vanguard Experimental Prototype Set"
+    heading appears in the raw text *after* the Thunderlance Railgun's own entry, even though the
+    Railgun's flavor text ("A Vanguard anti-bio-weapon prototype...") clearly belongs to that set
+    alongside the CRN-09 Decimator Beam. Treated as a loose paragraph-ordering artifact in the
+    original document, not a content contradiction — grouped both under "Vanguard Experimental
+    Prototype Set" in [`Weapons/README.md`](Weapons/README.md)'s file list.
+- **In-game item icon references uploaded — style correction before any renders were made
+  (2026-08-13).** Immediately after the folder buildout above, and before generating any weapon/
+  item concept art, the project owner uploaded eight actual in-game item-icon sprites (inline in
+  chat only, same file-access limitation as previous inline uploads — not saved directly into this
+  repo) specifically to correct the reference style. Described here since they couldn't be saved as
+  files: three black, simple, mostly-monochrome firearm silhouette icons (a compact SMG/rifle held
+  at a slight angle, a handgun, and a longer shotgun/carbine); two dark maroon/red elongated
+  melee-weapon-shaped icons (differing slightly in silhouette from each other); one small
+  red-orange round icon; one tan/khaki soft pouch-or-bag icon; and one gray metal box with a
+  handle (toolbox/case silhouette). All are small, flat-shaded, simple pixel-art **inventory
+  icons** — much closer to the existing `Assets/Reference/vern_terminal_icon.gif` than to the
+  painterly digital-concept-art style used for room and creature renders. **Corrected the
+  `Weapons/README.md` and `Items/README.md` concept-art conventions to this icon style before any
+  weapon/item renders were generated**, avoiding the same mistake made earlier with room concepts
+  (see the "Room concept art style correction" entries above) — this time the style reference
+  arrived before generation started, not after.
 
 ## Still-Open Questions
 
