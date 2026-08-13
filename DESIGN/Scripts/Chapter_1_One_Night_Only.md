@@ -82,8 +82,22 @@ The phone connects through the Jeep speakers. Caller ID: **SARAH.**
 > **JIM:** *"The road was technically—"*
 >
 > **SARAH:** *"It was a field."*
+>
+> **JIM:** *"How do you even know that. You're two states away."*
+>
+> **SARAH:** *"I can see the little dot, Jim. I've been watching you zigzag for an hour."*
+>
+> **JIM:** *"That's not — you're not supposed to just watch that."*
+>
+> **SARAH:** *"I'm your wife. Watching the little dot is basically the job."*
+>
+> **JIM:** *"Since when do you have that turned on?"*
+>
+> **SARAH:** *"March. You never checked your settings. I could find you in a cornfield in the
+> dark, and did, so."*
 
-Thunder rolls overhead. Jim adjusts his grip on the wheel.
+He almost laughs. Almost. Lightning flashes again across the tree line. Something near the road.
+Gone.
 
 > **JIM:** *"Visibility's bad. I'll stop if it gets worse."*
 >
@@ -97,8 +111,7 @@ Thunder rolls overhead. Jim adjusts his grip on the wheel.
 >
 > **SARAH:** *"Twelve counties survived before cell phones."*
 
-He almost laughs. Almost. Lightning flashes again across the tree line. Something near the road.
-Gone.
+He almost laughs again. Lightning flashes across the tree line a second time.
 
 > **JIM:** *"There's a town coming up. I'll grab a room if it looks decent."*
 >
@@ -110,7 +123,7 @@ Gone.
 >
 > **JIM:** *"I will."*
 >
-> **SARAH:** *"I mean it."*
+> **SARAH:** *"I mean it. I'll be watching the dot either way, but text me."*
 >
 > **JIM:** *"I know you mean it."*
 
@@ -122,9 +135,9 @@ Static briefly swallows the line.
 >
 > **SARAH:** *"Not until you text me."*
 >
-> **JIM:** *"Love you."*
+> **JIM:** *"I love you."*
 >
-> **SARAH:** *"Love you too. Text me."*
+> **SARAH:** *"I love you too. Now text me."*
 >
 > **JIM:** *"Goodnight Sarah."*
 >
@@ -238,18 +251,17 @@ rain blows sideways off the edge and soaks the left side of him anyway. He answe
 >
 > **JIM:** *"Ravenwood Hotel. Est. 1956."*
 >
-> **SARAH:** *"That's either charming or a tetanus risk."*
+> **SARAH:** *"I know. I watched the dot stop twenty minutes ago."*
+>
+> **JIM:** *"You could've just waited for the text."*
+>
+> **SARAH:** *"I could have. I don't like waiting."*
+>
+> **JIM:** *"Fair enough."*
+>
+> **SARAH:** *"That's either charming or a tetanus risk, by the way."*
 >
 > **JIM:** *"Probably both."*
->
-> **SARAH:** *"You said you'd text."*
->
-> **JIM:** *"I was getting to it."*
->
-> **SARAH:** *"You always say that. Then twenty minutes go by and I end up calling you anyway. I've
-> started skipping the twenty minutes."*
->
-> **JIM:** *"...That's fair."*
 
 Behind him, the police lights keep their slow red-and-blue pulse across the wet lot — visible as
 color and glow rather than detail from this distance.
@@ -275,7 +287,7 @@ Just that. The way she says it when she's decided not to push.
 
 > **JIM:** *"I'll text you when I'm checked in."*
 >
-> **SARAH:** *"You'd better."*
+> **SARAH:** *"You'd better. I'll still be watching the dot, but you'd better."*
 >
 > **JIM:** *"Hey."*
 >
@@ -287,18 +299,41 @@ Just that. The way she says it when she's decided not to push.
 >
 > **JIM:** *"You called me."*
 >
-> **SARAH:** *"...Goodnight Jim."*
+> **SARAH:** *"...Fine. Goodnight, Jim."*
 
-A beat. Long enough that she waits for it, because she always does.
+A beat. She doesn't hang up. She never quite does, not on this one.
 
-> **JIM:** *"Love you."*
+> **JIM:** *"Sarah."*
 >
-> **SARAH:** *"Love you too. Get some sleep."*
+> **SARAH:** *"Still here."*
 >
-> **JIM:** *"Night."*
+> **JIM:** *"I love you."*
 
-The call ends. Jim stands under the overhang a moment longer. The police lights pulse across the
-lot. The rain keeps coming. He turns toward the hotel doors.
+He says the whole thing. Not the shorthand version.
+
+> **SARAH:** *"I love you too. Go get some sleep, and text me the second you're up."*
+>
+> **JIM:** *"I will. I'm not going anywhere."*
+>
+> **SARAH:** *"I know. I'll be right here either way."*
+>
+> **JIM:** *"Goodnight, Sarah."*
+>
+> **SARAH:** *"Goodnight."*
+
+The call ends. Jim stands under the overhang a moment longer, the phone still warm against his
+ear after she's already gone. The police lights pulse across the lot. The rain keeps coming. He
+turns toward the hotel doors.
+
+> *Design/story note: this is the last real-time conversation between Jim and Sarah in the game —
+> Deadlock Protocol severs outside contact within the hour, and the only thing she hears from him
+> again is a single one-sided message near the end of Chapter 3 (see
+> [`MASTER_STORY.md`](../MASTER_STORY.md)). Everything the player knows about Sarah going into the
+> [`Epilogue`](../Locations/Epilogue.md) comes from these two calls, so both are written to
+> establish her as a specific person — practical, a little sneaky, funny under pressure — rather
+> than a generic worried voice on the phone. "I'll be right here either way" is deliberate,
+> quietly ironic dramatic weight in hindsight: she isn't, once Chapter 3 ends; she comes to
+> Ravenwood herself.*
 
 ---
 
