@@ -380,14 +380,15 @@
   note) for how full-room descriptions (Lobby, Courtyard) and multi-NPC simultaneous reaction
   beats relate to the actual constrained camera, rather than rewriting every atmospheric line.
 
-## Pending Plan — Police Station Restructure (RE-style, revised 2026-08-13, awaiting approval)
+## Implemented — Police Station Restructure (RE-style, approved and written 2026-08-13)
 
 Per the new "District Main-Location Design Standard" locked in [`CANON.md`](CANON.md), the
-just-written Police Station (`Scripts/Chapter_2_Ravenwood.md`, Scenes 22–33) is too short and
-linear — it needs a Resident Evil RPD-style key-and-lock restructure before the remaining four
-districts are written, so all five are built to the same standard. **Nothing below has been
-written into the script yet** — this is a structural plan only, laid out for review the same way
-Memorial Park's layout was decision-logged before it was scripted.
+originally-written Police Station (`Scripts/Chapter_2_Ravenwood.md`, then Scenes 22–33) was too
+short and linear — it needed a Resident Evil RPD-style key-and-lock restructure before the
+remaining four districts are written, so all five are built to the same standard. **This plan was
+approved by the project owner and has been written into the script**, now Scenes 22–36 — laid out
+below (kept in its original planning form for traceability) the same way Memorial Park's layout
+was decision-logged before it was scripted.
 
 > **Revision note:** the first draft of this plan put the Ashen Hound encounter at the Municipal
 > Garage and an "evidence room" at the Courthouse. The project owner flagged both as ungrounded —
@@ -448,11 +449,23 @@ Municipal Garage, Courthouse).
 Net effect: the **main station building** now contains Lobby, Bullpen, Records/Dispatch, Chief's
 Office, K-9 Unit Room, Property & Evidence Room, Armory, Breezeway, Old Station Main Hall, and
 Holding Cells — ten distinct areas carrying real exploration/combat weight, matching the "2–3
-hours, hotel-comparable" bar. The three secondary locations become lighter, more clearly optional
-supply/lore stops (Fire Station mandatory for bolt cutters; Garage and Courthouse worthwhile but
+hours, hotel-comparable" bar. The three secondary locations are now lighter, more clearly optional
+supply/lore stops (Fire Station load-bearing for bolt cutters; Garage and Courthouse worthwhile but
 not gating), which is a more honest split than forcing all four buildings to be equally load-
-bearing. **Awaiting explicit approval before `Scripts/Chapter_2_Ravenwood.md` Scenes 22–33,
-`Locations/Police_Station.md`, and `Characters/Ruth_Calloway.md` are rewritten to match.**
+bearing.
+
+**Implementation notes:** `Scripts/Chapter_2_Ravenwood.md` Scenes 22–36 were rewritten in full to
+match this plan exactly, with one new character added along the way — **Corporal Eli Reyes**
+(`Characters/Eli_Reyes.md`), the K-9 unit's handler, needed to justify why the armory key and the
+Ashen Hound fight are found together in the same room. `Locations/Police_Station.md` was rewritten
+in full to match. `Characters/Ruth_Calloway.md` was updated (she now gives the Chief's Office key
+and the Reyes/K-9 lead, not the armory key directly). `Creatures/Ashen_Hound.md` was updated to
+reflect the new K-9 Unit Room location, and its concept art
+(`Assets/Reference/ashen_hound_concept.png`) was regenerated to show the indoor kennel-room setting
+instead of the original outdoor impound lot, per the concept-art convention's own rule that art
+should stay in sync with the prose it depicts. `CANON.md` was updated (Reyes added to Named
+Characters Confirmed; the design standard's retroactive note updated from "needs expansion" to
+"done").
 
 ## Still-Open Questions
 

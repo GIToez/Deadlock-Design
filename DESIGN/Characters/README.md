@@ -38,6 +38,9 @@ A character document may contain:
 - [`Ruth_Calloway.md`](Ruth_Calloway.md) — Ravenwood PD desk sergeant; the Police Station's Tier 2
   conditional survivor — see [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md),
   Scene 26.
+- [`Eli_Reyes.md`](Eli_Reyes.md) — Ravenwood PD's K-9 unit handler, never seen alive; found dead in
+  the station's K-9 Unit Room, killed by his own K-9 partners — see
+  [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scenes 26–28.
 
 Characters for the remaining four districts (Hospital, Academy, Refinery, Monastery) will be added
 once those are written — see [`STORY_NOTES.md`](../STORY_NOTES.md).

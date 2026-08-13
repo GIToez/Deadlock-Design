@@ -64,11 +64,11 @@ RPD are the direct reference points), not a short, mostly-linear pass. Concrete 
   the shape of what's left to solve.
 - **The emblem itself is the last thing found**, behind the deepest/most gated point of the
   location — a reward for finishing the loop, not something encountered early or in passing.
-- This standard is **retroactive**: the Police Station as scripted in
-  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md) (Scenes 22–33) was written
-  before this standard was locked and is comparatively short/linear — it needs to be expanded to
-  match before the remaining four districts are written, so all five are consistent. See
-  [`STORY_NOTES.md`](STORY_NOTES.md) for the specific restructuring plan.
+- This standard is **retroactive**: the Police Station, originally scripted before this standard
+  was locked, has since been rewritten to match it (2026-08-13) —
+  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–36. The remaining
+  four districts should be written to the same bar from the start. See
+  [`STORY_NOTES.md`](STORY_NOTES.md) for the full restructuring history.
 
 ## Fundamental Premise
 
@@ -220,6 +220,9 @@ early hint that Vanguard's reach into the town predates the outbreak.
 - **[Sergeant Ruth Calloway](Characters/Ruth_Calloway.md)** — Ravenwood PD desk sergeant; the
   Southwest District's Tier 2 conditional survivor (see "Survivor System," below). Alive and
   interactive if the Police Station is Jim's first district; already turned otherwise.
+- **[Corporal Eli Reyes](Characters/Eli_Reyes.md)** — Ravenwood PD's K-9 unit handler. Never seen
+  alive; found dead in the station's K-9 Unit Room, the Armory Key still on his belt, killed by his
+  own K-9 partners (see Ashen Hound, below) after they turned.
 - **Marshal Josiah Hale** — the Ravenwood Police Department's first peace officer (1887); one of
   Ravenwood/Vanguard's five founders. His name and portrait appear on the **Authority Crest**,
   recovered from a display case in the old 1887 station house. The other four founders' names are
@@ -227,7 +230,7 @@ early hint that Vanguard's reach into the town predates the outbreak.
   [`Locations/Police_Station.md`](Locations/Police_Station.md)); when chosen, they should feel
   consistent with Hale's period-appropriate naming.
 - (The character/founder additions above are new as of 2026-08-13 — see
-  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–33, and
+  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–36, and
   [`STORY_NOTES.md`](STORY_NOTES.md) for context on what was proposed versus already locked.)
 
 ## Creature Classification: Ashen Mutant

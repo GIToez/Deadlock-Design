@@ -29,16 +29,22 @@ or was lost earlier in the night — not shown on-screen).
 Dry, fast-assessing, entirely unsentimental about her own situation. Sizes Jim up in seconds and
 doesn't relitigate the decision once made. Doesn't perform toughness — she's just been doing an
 unglamorous, procedural job for thirty years and treats the outbreak as an extension of that rather
-than a break from it ("I've held worse rooms for less reason"). Gives Jim what he needs (the armory
-key, the "old key thing" lead) without asking for anything back, then goes right back to a job that
-no longer has anyone to report to.
+than a break from it ("I've held worse rooms for less reason"). Gives Jim what she actually has —
+the Chief's Office key, the lead on Reyes and the K-9 unit, the "old key thing" hint, the bolt-
+cutter fix for the Property Room padlock — without asking for anything back, then goes right back
+to a job that no longer has anyone to report to. Visibly less certain talking about Corporal Reyes
+than about anything else in the scene — the one place her otherwise total composure has a crack in
+it.
 
 ## Relationships
 
 - **[Jim Mercer](Jim_Mercer.md)** — meets him only in this one scene. No prior relationship;
-  functions as this district's information/equipment gatekeeper, in the same structural role
+  functions as this district's information gatekeeper, in the same structural role
   [Fennimore](Fennimore.md) played for the hotel's courtyard endgame, but alive and able to speak
   for herself instead of being reconstructed after the fact.
+- **[Corporal Eli Reyes](Eli_Reyes.md)** — coworker; she's the one who sent him to check on the K-9
+  unit (or at least didn't stop him going) and hasn't heard from him since. She doesn't know he's
+  dead when she talks to Jim, only that it's been too long. They never interact on-screen.
 - No other named relationships established. Implicitly commanded/worked alongside
   [Officer Dale Pruitt](Dale_Pruitt.md) and the department's other now-dead or turned officers, but
   no specific connection to him is written.
@@ -47,16 +53,19 @@ no longer has anyone to report to.
 
 - **If the Police Station is visited first:** found alive, barricaded in the Records/Dispatch room
   behind the bullpen. Gives Jim the department's situation report (Deadlock Protocol confirmed
-  sealing the county line, not just the town — she'd assumed otherwise), the armory key, and the
-  "old key thing" lead pointing him at the display case in the old station house's main hall. Stays
-  behind to hold the dispatch room rather than leave with him.
+  sealing the county line, not just the town — she'd assumed otherwise), the **Chief's Office key**
+  (not the armory key directly — that's on Corporal Reyes' belt, and she doesn't know where he
+  ended up), the "old key thing" lead pointing him at the display case in the old station house's
+  main hall, and the bolt-cutter fix for the padlocked Property & Evidence Room. Stays behind to
+  hold the dispatch room rather than leave with him.
 - **If another district is visited first:** dead and turned by the time Jim reaches the station. Per
   the survivor system's rule that no death ever hard-blocks progression, this alternate version
-  needs to still deliver the armory key and the Marshal Josiah Hale lead through the environment
-  instead of dialogue — proposed (not yet scripted) staging: her body/shambler form is found in the
-  same Records/Dispatch room, the armory key still on her duty belt, and a handwritten note on the
-  dispatch desk (in her own hand, written earlier in the night while she was still able to) covering
-  the same information her live dialogue gives in Scene 26. Not yet written scene-by-scene.
+  needs to still deliver the Chief's Office key, the Reyes/K-9 lead, and the bolt-cutter hint
+  through the environment instead of dialogue — proposed (not yet scripted) staging: her body/
+  shambler form is found in the same Records/Dispatch room, the Chief's Office key still on a hook
+  by the dispatch desk, and a handwritten note (in her own hand, written earlier in the night while
+  she was still able to) covering the same information her live dialogue gives in Scene 26. Not yet
+  written scene-by-scene.
 
 ## Important Scenes
 

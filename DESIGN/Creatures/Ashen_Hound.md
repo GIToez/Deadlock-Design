@@ -1,15 +1,17 @@
 # Ashen Hound
 
 > Proposed (2026-08-13) as the game's second infected-creature classification, introduced in the
-> Southwest District (Municipal Garage) to answer the "at least one major encounter" requirement
-> each district needs per [`AI.json`](../AI.json)'s city-design notes. Treat this as a draft pending
-> review, same as any new creature type.
+> Southwest District's **K-9 Unit Room, inside the main Police Station building itself** (moved
+> here from an earlier draft that placed it at the Municipal Garage — see
+> [`STORY_NOTES.md`](../STORY_NOTES.md) for why) to answer the "at least one major encounter"
+> requirement each district needs per [`AI.json`](../AI.json)'s city-design notes. Treat this as a
+> draft pending review, same as any new creature type.
 
-![Ashen Hound concept art — "Diesel," Ravenwood PD K-9, Municipal Garage](../Assets/Reference/ashen_hound_concept.png)
+![Ashen Hound concept art — "Diesel," Ravenwood PD K-9, K-9 Unit Room](../Assets/Reference/ashen_hound_concept.png)
 
 *Concept art (2026-08-13), for visual reference only — not a literal in-game screenshot. Depicts
-"Diesel," one of the two Ashen Hounds fought at the Municipal Garage
-([`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 32): ash-gray,
+"Diesel," one of the two Ashen Hounds fought in the Police Station's K-9 Unit Room
+([`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 28): ash-gray,
 cracked hide over visibly wrong musculature, faint dark vein-like discoloration beneath the skin,
 pale clouded eyes, low predatory stance, and the tattered RAVENWOOD PD K-9 UNIT collar that
 identifies what it used to be.
@@ -27,7 +29,9 @@ A domestic animal (specifically, in this first appearance, a police service dog)
 **Black Vein** (see [`CANON.md`](../CANON.md)). Presented as evidence that Black Vein isn't
 exclusively a human-infection agent — it crosses to at least some animals, and does so with a
 different mutation profile than it produces in humans: speed and aggression over the Shambler's
-slow-and-relentless presentation.
+slow-and-relentless presentation. Diesel and Baxter were Ravenwood PD's own K-9 unit, partnered
+with handler **[Corporal Eli Reyes](../Characters/Eli_Reyes.md)**, kenneled at the station itself —
+they turned in their own kennel room rather than out in the field.
 
 ## Appearance
 
@@ -52,34 +56,38 @@ approach.
 ## Gameplay Role
 
 The Southwest District's signature encounter (per [`AI.json`](../AI.json)'s "at least one major
-encounter or boss" rule for each district) — a genuine difficulty/pacing spike introduced right
-after the player has just been rewarded with the shotgun (see
-[`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 27), so the timing is
-deliberate: new weapon, immediately tested against an enemy type the bat and handgun alone would
-struggle with. Not framed as a full boss fight on the Caretaker's scale — no phases, no unique
-arena mechanic — just a hard, fast, two-on-one fight in a cluttered vehicle yard that punishes
-standing still.
+encounter or boss" rule for each district) — deliberately placed **inside the main station
+building** rather than a secondary location, so the district's densest content also carries its
+hardest fight. It happens immediately after finding Corporal Reyes' body and *before* the shotgun
+(see [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scenes 28–29) — Jim has
+to survive it with whatever he's already carrying, and the shotgun that follows reads as a reward
+for getting through it rather than a tool handed out in advance. Not framed as a full boss fight on
+the Caretaker's scale — no phases, no unique arena mechanic — just a hard, fast, two-on-one fight in
+a tight concrete kennel room that gives the player nowhere to retreat to.
 
 ## Encounter Progression
 
-- First (and so far only) appearance: Municipal Garage / Impound Lot, Southwest District
-  ([`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 32) — found via
-  their unit transport van, kennel doors open, leash chewed through.
+- First (and so far only) appearance: the Police Station's K-9 Unit Room, Southwest District
+  ([`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 28) — encountered
+  immediately after finding Corporal Reyes' body, one kennel gate already bent open and the second
+  straining as Jim investigates.
 - Expected to recur as a creature class in later districts (not yet decided which ones); this file
   establishes the baseline for any future Ashen Hound encounters so they don't need to be
   redesigned from scratch.
 
 ## Major Appearances
 
-- [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 32 (Diesel and
-  Baxter, Municipal Garage).
+- [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 28 (Diesel and
+  Baxter, K-9 Unit Room).
 
 ## Story Significance
 
 Minor but deliberate: confirms Black Vein affects animals as well as humans, without turning that
 into a larger plot point yet. Diesel's collar tag gives the encounter a small, specific moment of
 sadness (Jim reads it; doesn't check the second dog's) consistent with the game's general approach
-to infected who were people — or, here, someone's working animal — before the outbreak.
+to infected who were people — or, here, someone's working animal — before the outbreak. Finding
+them right after Corporal Reyes' body, still holding his leash, sharpens that into something more
+specific: he didn't abandon them, and it cost him.
 
 ## Open Design Gap
 

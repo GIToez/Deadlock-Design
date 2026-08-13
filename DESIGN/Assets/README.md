@@ -37,8 +37,9 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   not a literal in-game screenshot. Referenced from
   [`CANON.md`](../CANON.md) and [`Locations/Memorial_Park.md`](../Locations/Memorial_Park.md).
 - **`Reference/ashen_hound_concept.png`** — AI-generated concept art for the
-  [Ashen Hound](../Creatures/Ashen_Hound.md) ("Diesel," the Municipal Garage K-9 encounter,
-  Chapter 2). Referenced from `Creatures/Ashen_Hound.md`.
+  [Ashen Hound](../Creatures/Ashen_Hound.md) ("Diesel," the Police Station's K-9 Unit Room
+  encounter, Chapter 2). Regenerated 2026-08-13 to match the encounter's move from the Municipal
+  Garage into the station itself. Referenced from `Creatures/Ashen_Hound.md`.
 
 One other asset has been uploaded, placed directly alongside its character file instead:
 `Characters/spr_cindy_jumpscare.gif`, embedded in
