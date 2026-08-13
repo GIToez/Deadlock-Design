@@ -294,10 +294,12 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 - **The Red Room** — self-contained optional speakeasy lounge opening directly off the Main Bar;
   site of the Della Marsh encounter. Does not connect to the Security Office.
 
-  ![Red Room concept — velvet curtains, cocktail tables, spotlighted stage, ceiling fan](../Assets/Reference/hotel_red_room_concept.png)
+  ![Red Room concept — velvet curtains, cocktail tables, spotlighted stage, upright piano](../Assets/Reference/hotel_red_room_concept.png)
 
-  > AI-generated concept art (2026-08-13). Della Marsh herself intentionally left out of this
-  > render — see [`Characters/Della_Marsh.md`](../Characters/Della_Marsh.md) if/when it exists, or
+  > AI-generated concept art (2026-08-13, re-rendered same day to fix a flat top-down camera
+  > mismatch — see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art style-consistency pass").
+  > Della Marsh herself intentionally left out of this render — see
+  > [`Characters/Della_Marsh.md`](../Characters/Della_Marsh.md) if/when it exists, or
   > [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md) Scene 38 for her
   > scripted description.
 - **Liquor Storage** — off the Bar; minor exploration content.
@@ -322,9 +324,11 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 
   ![Hotel Courtyard concept — rain, fountain, perimeter fence, north gate with manual release, maintenance shed](../Assets/Reference/hotel_courtyard_concept.png)
 
-  > AI-generated concept art (2026-08-13), style-anchored to the exterior reference screenshots.
-  > Fennimore's body and the shed's warped doors are present but small at this framing — see
-  > Scene 42 for the scripted beat-by-beat reveal.
+  > AI-generated concept art (2026-08-13, re-rendered same day as a straight top-down aerial to
+  > match the exterior parking-lot/fountain-entrance reference screenshots exactly — see
+  > [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art style-consistency pass"). Fennimore's
+  > body and the shed's warped doors are not visible at this framing — see Scene 42 for the
+  > scripted beat-by-beat reveal.
 
 ## Blueprint (Room Connectivity)
 
