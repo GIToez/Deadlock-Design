@@ -920,6 +920,63 @@ the next entry for the current final numbering (Scenes 22–40).
     location's own "Documents" section (guest ledger, incident reports, maintenance logs, etc.) —
     those are lore text, not inventory items, and stay where they are rather than getting `Items/`
     files.
+- **Vanguard's Grip on Ravenwood PD — a deeper reframe of the Police Station (2026-08-13).** The
+  project owner supplied substantial older design material reframing the district: the officers
+  aren't secretly Vanguard villains — they're real Ravenwood cops who believe they're protecting
+  their town while Vanguard spent years quietly turning the department into an unofficial
+  containment arm around them, most of them never fully realizing how far they'd already crossed
+  the line. Explicitly asked to use judgment on how much this should expand the location, "trying
+  to give it more depth" — treated as approval to actually integrate it, not just log it as a
+  brainstorm. A follow-up clarified the key structural detail before any rooms were built: Vanguard
+  has an office *inside* the station (the Liaison Program), but actual containment happens
+  off-site, at the hidden underground facility already established in
+  [`Locations/Vanguard_Facility.md`](Locations/Vanguard_Facility.md) (Chapter 3's Project Ashen
+  reveal) — the station's basement holding area is a transfer point, not the destination.
+  - **Added to [`CANON.md`](CANON.md)** as a new "Vanguard's Grip on Ravenwood PD" section (world
+    lore bigger than just this one district): the Ravenwood–Vanguard Public Safety Agreement
+    (funding that created dependency without technical ownership), the Vanguard Public Safety
+    Liaison Program, V-CASE classification (the cover story given to officers, and the actual
+    isolate/restrain/surrender-to-Vanguard/seal-footage procedure), the confidential watchlist and
+    its traffic-stop radio code convention, Vanguard's hidden interrogation-room experiments, and
+    the "town as a field study" thread — offered as a strong *contributing* factor toward the
+    already-flagged-open "how containment failed / why now" question, explicitly not a full
+    answer, since that's reserved for Chapter 3.
+  - **New character: [`Characters/Aaron_Cole.md`](Characters/Aaron_Cole.md)** — a detective who
+    connected a string of local disappearances to Vanguard's V-CASE program, got discredited via a
+    fabricated internal-affairs case once Vanguard noticed, and disappeared *before* the outbreak
+    (a deliberately older wound than Fennimore's or Corporal Reyes' outbreak-night deaths — signals
+    the corruption predates Black Vein escaping containment). Never seen alive or dead; reconstructed
+    entirely through his abandoned office and hidden investigation, per the game's established
+    "environmental discovery, not exposition" convention. Got a reference portrait via the standard
+    two-step PixelLab pipeline (generic/unremarkable appearance, since nothing about his looks was
+    otherwise established).
+  - **Four new optional rooms in [`Locations/Police_Station.md`](Locations/Police_Station.md)**,
+    added as a parallel discovery track that does **not** gate the Authority Crest or any part of
+    the mandatory critical path: Detective Cole's Office (unlocked; hidden investigation +
+    Vanguard Access Card), the Vanguard Liaison Office (corporate furniture starkly out of place;
+    the V-CASE protocol binder and confidential watchlist), the Cold Cells (Vanguard's renovated
+    basement holding area), and the Vanguard Observation Booth (the hidden other side of the
+    Interview Room's one-way glass). All four gated behind a single new key item, the
+    [Vanguard Access Card](Items/Key_Items/Vanguard_Access_Card.md) — a deliberate "one key opens
+    a whole hidden layer" design, distinct from the main critical path's one-key-per-door
+    convention, meant to land as a gut-punch once the player realizes how much of the station
+    Vanguard could already move through freely. Blueprint updated: new nodes in the Annex Core and
+    Booking Wing diagrams, plus a new Diagram 5 for the Basement/Cold Cells (the old Diagram 5,
+    Secondary Locations, renumbered to Diagram 6) — all four new rooms use a new purple "Vanguard"
+    node color, visually distinct on purpose.
+  - Generated four new room concepts and one new item icon; the Vanguard Liaison Office's render
+    got its own wall "V" emblem, which the location file explicitly notes is a deliberate echo of
+    the Founders Memorial's own weathered "V" rather than a coincidence introduced by the
+    generator.
+  - Added a small cross-reference to
+    [`Characters/Ruth_Calloway.md`](Characters/Ruth_Calloway.md) flagging a possible (not yet
+    scripted) restrained dialogue hook about Cole/the Cold Cells, kept deliberately minor per the
+    "environmental discovery" convention.
+  - **Not done in this pass:** full scene-by-scene scripting into
+    `Scripts/Chapter_2_Ravenwood.md` — everything above is at the location-design/prose level,
+    matching the status of several other not-yet-fully-scripted beats already in that file (e.g.
+    Calloway's alternate death scene). See `Locations/Police_Station.md` → "Unresolved Ideas" for
+    the complete list of what's still open.
 
 ## Still-Open Questions
 

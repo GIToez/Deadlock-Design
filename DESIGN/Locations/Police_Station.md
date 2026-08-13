@@ -15,6 +15,13 @@
 > Courthouse; both were corrected (K-9 unit moved into the station itself; the Courthouse's room
 > renamed and re-purposed) after review — see [`STORY_NOTES.md`](../STORY_NOTES.md) for the full
 > before/after rationale.
+>
+> **Second revision note (2026-08-13, same day):** the project owner supplied a much deeper
+> reframe of the department's relationship with Vanguard — see [`CANON.md`](../CANON.md) →
+> "Vanguard's Grip on Ravenwood PD." Four new optional rooms and a new never-seen character
+> ([Detective Aaron Cole](../Characters/Aaron_Cole.md)) were added as a parallel discovery track;
+> see "The Vanguard Sub-Plot," below. Nothing already locked about this district (Calloway, the
+> shotgun, the Authority Crest, Diesel/Baxter, or the four existing buildings) changed.
 
 ## Purpose in the Overall Story
 
@@ -219,6 +226,69 @@ to the Ravenwood Hotel.
   > AI-generated room concept (2026-08-13). Depicts the courtroom itself plus the abandoned
   > survivor-camp alcove and the Clerk's Exhibit Storage door together for one combined reference.
 
+### The Vanguard Sub-Plot (optional, proposed 2026-08-13)
+
+> Per [`CANON.md`](../CANON.md) → "Vanguard's Grip on Ravenwood PD": the officers here aren't
+> secretly Vanguard villains — they're real cops who believed they were protecting Ravenwood while
+> Vanguard quietly turned the department into an unofficial containment arm around them. This
+> entire sub-plot is **optional and does not gate the Authority Crest** or any part of the
+> mandatory critical path — it's a parallel discovery track for players who dig, built to reward
+> the district's already-established "backtracking is the point" design standard with a second,
+> darker layer once the Vanguard Access Card is found. Delivered primarily through environmental
+> discovery (found documents, an abandoned office, a hidden room), per the game's established
+> storytelling convention — not through NPC dialogue dumps.
+
+- **Detective Cole's Office.** A small, undisturbed detective's office off the Bullpen — a coffee
+  cup left on the desk, a family photograph, a coat still hanging on a hook, and a corkboard case-
+  map connecting a string of local disappearances. Unlocked; anyone can walk in. Searching the
+  desk (or the ceiling tiles above it) turns up **Aaron Cole's hidden investigation** — the
+  documents that connect every disappearance to a shared "V-CASE TRANSFERRED" marking — and a
+  duplicate **Vanguard Access Card** he used to get as far as he did before Vanguard had him
+  discredited and removed. See [`Characters/Aaron_Cole.md`](../Characters/Aaron_Cole.md).
+
+  ![Detective Cole's Office — room concept](../Assets/Reference/police_station_coles_office_concept.png)
+
+  > AI-generated room concept (2026-08-13).
+- **The Vanguard Public Safety Liaison Office.** One of the doors the Bullpen visibly gates from
+  the start, alongside the Armory, Chief's Office, and Property Room — but this one bears a
+  corporate placard instead of a police one, a deliberate "what is this doing here" hook. Opens
+  with the Vanguard Access Card. Inside: sleek, cold, out-of-place corporate furniture; a
+  glass-topped desk; a laptop; a filing cabinet holding the **V-CASE classification protocol
+  binder** and the department's **confidential watchlist**. The Liaison himself is absent — his
+  fate on the night of the outbreak is deliberately unresolved.
+
+  ![Vanguard Public Safety Liaison Office — room concept](../Assets/Reference/police_station_vanguard_liaison_office_concept.png)
+
+  > AI-generated room concept (2026-08-13). The wall display's "V" emblem is a deliberate echo of
+  > the same weathered "V" at the center of the Founders Memorial's medallion (see
+  > [`CANON.md`](../CANON.md)) — reinforcing the Vanguard connection visually, not a new detail
+  > introduced by the render.
+- **The Basement Stairwell → the Cold Cells.** A door off the Booking Corridor, easy to walk past —
+  it just looks like basement storage access. Opens with the Vanguard Access Card, revealing a
+  stairwell down into the station's old drunk-tank/evidence-storage basement, quietly renovated by
+  Vanguard: heavy riveted steel doors, a floor drain, restraint rings bolted into the walls,
+  negative-pressure ventilation, and a small sign reading "TEMPORARY MEDICAL HOLDING" — officially
+  documented that way, nicknamed "the Cold Cells" by the cops who used them. This is where V-CASEs
+  were held until Vanguard arrived at night and the prisoner disappeared, with no transfer
+  paperwork, no court appearance, no hospital record.
+
+  ![The Cold Cells — room concept](../Assets/Reference/police_station_cold_cells_concept.png)
+
+  > AI-generated room concept (2026-08-13).
+- **The Vanguard Observation Booth.** A hidden space behind the Interview Room's one-way glass —
+  reachable via a separate door off the Booking Corridor, also opened with the Vanguard Access
+  Card. What looks from the interview-room side like an ordinary observation room is revealed from
+  behind the glass to be a small Vanguard control booth: injectors, blood-collection supplies, a
+  monitor bank on the interview room feed, and a chair with restraints hidden underneath it.
+  Vanguard requested certain suspects be questioned in that room, ostensibly gathering information
+  about "industrial accidents" — in fact testing whether extreme stress can trigger Black Vein
+  exposure symptoms. Some of the "interrogations" were experiments.
+
+  ![Vanguard Observation Booth — room concept](../Assets/Reference/police_station_vanguard_observation_booth_concept.png)
+
+  > AI-generated room concept (2026-08-13), deliberately framed as the reverse angle of the
+  > existing Interview Room render — the same one-way glass, seen from the other side.
+
 ## Important Rooms / Areas
 
 **Modern Annex:**
@@ -236,6 +306,13 @@ to the Ravenwood Hotel.
 - Modern Holding Cells (optional; one empty, one holding a safely-caged shambler)
 - Property & Evidence Room (padlocked; Evidence Room Key)
 - Breezeway (connects annex to the old station house; opened with the Skeleton Key)
+- Detective Cole's Office (optional; unlocked; hidden investigation + Vanguard Access Card)
+- Vanguard Public Safety Liaison Office (optional; needs Vanguard Access Card; V-CASE protocol
+  binder, confidential watchlist)
+- Basement Stairwell → the Cold Cells (optional; needs Vanguard Access Card; Vanguard's hidden
+  holding area)
+- Vanguard Observation Booth (optional; needs Vanguard Access Card; hidden behind the Interview
+  Room's one-way glass)
 
 **Original 1887 Station House:**
 - Main Hall (photograph wall; the Authority Crest display case)
@@ -267,6 +344,9 @@ to the Ravenwood Hotel.
 > - 🔴 **rectangle, red** — a boss or signature-encounter room.
 > - 🔵 **pill, blue** — exterior space (street, district entry, parking lot).
 > - ⚪ **dashed grey pill** — a pointer back to a node defined in full on another diagram.
+> - 🟪 **rectangle, purple** — part of the optional Vanguard sub-plot (see "The Vanguard Sub-Plot,"
+>   above) — visually distinct on purpose, the same way the room concepts themselves read as
+>   incongruous with the rest of the station.
 
 ### 1. District Entry → Station Exterior → Lobby → Bullpen (hub)
 
@@ -297,6 +377,8 @@ flowchart TD
     K9ROOM["🐕 K-9 UNIT ROOM<br/>☠️☠️ Diesel & Baxter — signature encounter<br/>👤 Cpl. Reyes' body<br/>🗝️ Armory Key"]
     ARMORY["Armory<br/>🗝️ Shotgun + Shells"]
     BACKHALL(["Back Hallway"])
+    COLE["Detective Cole's Office<br/>📄 hidden investigation<br/>🗝️ Vanguard Access Card"]
+    VLIAISON["Vanguard Liaison Office<br/>📄 V-CASE protocol binder<br/>📄 confidential watchlist"]
 
     BULLPENREF --> DISPATCH
     BULLPENREF -. Chief's Office Key .-> CHIEF
@@ -304,15 +386,19 @@ flowchart TD
     BACKHALL --> BREAK
     BACKHALL --> K9ROOM
     BULLPENREF -. Armory Key, from Reyes .-> ARMORY
+    BULLPENREF --> COLE
+    BULLPENREF -. Vanguard Access Card, from Cole's Office .-> VLIAISON
 
     classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
     classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
     classDef boss fill:#FFE0E0,stroke:#C0392B,color:#3a0d0d,stroke-width:2px
     classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
+    classDef vanguard fill:#E0D6EC,stroke:#6A3FA0,color:#2a1a3a,stroke-width:2px
     class BULLPENREF ref
     class BACKHALL hallway
     class DISPATCH,CHIEF,BREAK,ARMORY room
     class K9ROOM boss
+    class COLE,VLIAISON vanguard
 ```
 
 ### 3. The Booking Wing (branches off the Bullpen)
@@ -323,20 +409,26 @@ flowchart TD
     BOOKCORR(["Booking Corridor"])
     BOOKING["Booking & Processing<br/>🗝️ Pocketknife (optional)"]
     INTERVIEW["Interview Room<br/>📄 Interview recording"]
+    OBSBOOTH["Vanguard Observation Booth<br/>📄 evidence of Black Vein stress-trigger testing"]
     CELLS["Modern Holding Cells<br/>☠️ shambler — behind bars, bypassable"]
     PROPERTY["Property & Evidence Room<br/>🔧 padlock — needs Bolt Cutters<br/>🗝️ Evidence Room Key"]
+    BASEMENTREF(["🔒 Basement Stairwell / Cold Cells<br/>(see Diagram 6)"])
 
     BULLPENREF2 --> BOOKCORR
     BOOKCORR --> BOOKING --> INTERVIEW
+    BOOKCORR -. Vanguard Access Card, from Cole's Office .-> OBSBOOTH
     BOOKCORR --> CELLS
+    BOOKCORR -. Vanguard Access Card, from Cole's Office .-> BASEMENTREF
     BULLPENREF2 -. Bolt Cutters, from Fire Station .-> PROPERTY
 
     classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
     classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
     classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
-    class BULLPENREF2 ref
+    classDef vanguard fill:#E0D6EC,stroke:#6A3FA0,color:#2a1a3a,stroke-width:2px
+    class BULLPENREF2,BASEMENTREF ref
     class BOOKCORR hallway
     class BOOKING,INTERVIEW,CELLS,PROPERTY room
+    class OBSBOOTH vanguard
 ```
 
 ### 4. Breezeway → Old Station House
@@ -358,7 +450,31 @@ flowchart TD
     class MAINHALL,OLDCELLS room
 ```
 
-### 5. Secondary Locations (reached from the District Entry, not the station directly)
+### 5. The Basement / Cold Cells (branches off the Booking Corridor)
+
+```mermaid
+flowchart TD
+    BOOKCORRREF(["Booking Corridor<br/>(from Diagram 3)"])
+    STAIRS(["Basement Stairwell<br/>🔧 needs Vanguard Access Card"])
+    COLDCELLS["⚠️ THE COLD CELLS<br/>officially 'TEMPORARY MEDICAL HOLDING'<br/>heavy steel doors · floor drain · restraint rings<br/>negative-pressure vents"]
+
+    BOOKCORRREF -. Vanguard Access Card, from Cole's Office .-> STAIRS --> COLDCELLS
+
+    classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
+    classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
+    classDef vanguard fill:#E0D6EC,stroke:#6A3FA0,color:#2a1a3a,stroke-width:2px
+    class BOOKCORRREF ref
+    class STAIRS hallway
+    class COLDCELLS vanguard
+```
+
+> Kept in the Vanguard-purple color, not boss-encounter red, since this isn't a combat encounter —
+> it's the sub-plot's thematic capstone, the physical proof of everything Cole's investigation and
+> the Liaison Office's documents describe. No unique enemy is placed here by design; an ordinary
+> Shambler encounter here is optional, not required — see "Unresolved Ideas," below, for whether it
+> should stay empty for atmosphere or hold one.
+
+### 6. Secondary Locations (reached from the District Entry, not the station directly)
 
 ```mermaid
 flowchart TD
@@ -384,6 +500,9 @@ flowchart TD
   only if this is the first district visited.
 - **[Corporal Eli Reyes](../Characters/Eli_Reyes.md)** — never seen alive; found dead in the K-9
   Unit Room, still holding one of his dogs' leashes.
+- **[Detective Aaron Cole](../Characters/Aaron_Cole.md)** — never seen alive or dead; disappeared
+  before the outbreak (a deliberately older wound than the rest of the district's losses), known
+  entirely through his abandoned office and hidden investigation.
 
 ## Creatures Encountered
 
@@ -408,6 +527,12 @@ flowchart TD
 - **The Skeleton Key / Breezeway.** The connecting door into the old station house requires the Old
   Station Skeleton Key from the Chief's Office — a specific, single-purpose key rather than a
   generic workaround.
+- **The Vanguard Access Card chain (optional).** Searching Detective Cole's desk/ceiling tiles
+  yields a single card that opens three separate doors across the station (the Liaison Office, the
+  Basement Stairwell, and the Observation Booth) — a deliberate "one key, whole hidden layer"
+  reveal, distinct from the main critical path's one-key-per-door convention, meant to land as a
+  gut-punch once the player realizes how much of the station Vanguard could already move through
+  freely.
 
 ## Key Items
 
@@ -428,6 +553,10 @@ flowchart TD
   & Evidence Room; opens the Courthouse's Clerk's Exhibit Storage.
 - **Authority Crest** ([full item writeup](../Items/Key_Items/Authority_Crest.md)) — the
   district's founder's emblem; old station house display case.
+- **Vanguard Access Card** ([full item writeup](../Items/Key_Items/Vanguard_Access_Card.md),
+  optional) — found searching Detective Cole's desk/ceiling tiles; opens the Vanguard Liaison
+  Office, the Basement Stairwell/Cold Cells, and the Vanguard Observation Booth. Does not gate the
+  Authority Crest.
 
 ### Documents
 
@@ -442,6 +571,26 @@ flowchart TD
 - Fire Station dispatch call-sheet board (cuts off mid-call, night of the outbreak).
 - Municipal Garage mechanic's maintenance log / personal note (birthday cake reminder, never used).
 - Courthouse judge's-bench case file (an ordinary pre-outbreak property dispute).
+- **Detective Cole's case board and hidden investigation** (his office, optional) — connects a
+  string of local disappearances via the shared "V-CASE TRANSFERRED" marking; includes a Vanguard
+  security image proving at least one "transferred" person was still alive months later but
+  monstrously mutated, and an internal email exchange (a mother calling repeatedly about her
+  missing son; an officer named Daniels pushing back on the department's Vanguard-referral policy;
+  the Chief shutting the exchange down — "Refer all inquiries to Vanguard" / "That's enough,
+  Daniels."; Daniels is later "transferred," with no record he ever joined another department).
+  Ends with Cole's own note: *"We thought Vanguard was helping us protect Ravenwood. I think
+  Ravenwood is what they've been studying."* See
+  [`Characters/Aaron_Cole.md`](../Characters/Aaron_Cole.md).
+- **V-CASE classification protocol binder** (Vanguard Liaison Office, optional) — the "acute
+  industrial neurochemical exposure resulting in violent psychosis" cover story given to officers,
+  and the isolate/restrain/avoid-hospitals/surrender-to-Vanguard/seal-footage procedure for anyone
+  classified a V-CASE.
+- **Confidential watchlist** (Vanguard Liaison Office, optional) — people flagged for repeated
+  hospital visits, unusual injuries, neurological symptoms, mine/refinery employment,
+  homelessness, or reporting strange things near Vanguard property; includes the traffic-stop radio
+  code convention (e.g. "confirm a 13-Black") officers used to flag a match.
+- **Evidence of Black Vein stress-trigger testing** (Vanguard Observation Booth, optional) — ties
+  the "industrial accident interviews" cover story to actual experimentation on interview subjects.
 
 ## Major Scripted Events
 
@@ -451,6 +600,9 @@ flowchart TD
 - The Fire Station → Property Room bolt-cutter chain (optional).
 - Unlocking the breezeway with the Old Station Skeleton Key and breaking the display case to
   retrieve the Authority Crest — direct payoff of the Memorial Park guardhouse note.
+- (Optional) Discovering Detective Cole's hidden investigation and the Vanguard Access Card, then
+  using it to uncover the Liaison Office, the Cold Cells, and the Vanguard Observation Booth — see
+  "The Vanguard Sub-Plot," above.
 
 ## Boss Encounters
 
@@ -484,3 +636,24 @@ any order) — not yet scripted, but now expected to follow this same main-locat
 - Who was in the modern holding cells' empty cell, and where they ended up — deliberately unstated.
 - Who reported the North Ridge animal-behavior sighting on the Interview Room's recorder — left
   anonymous, consistent with how the game generally treats early-warning-sign witnesses.
+- **The Vanguard sub-plot (all new 2026-08-13, proposal pending full review):**
+  - Whether Sergeant Calloway (first-visit version) gets a small, deliberately restrained
+    dialogue hook acknowledging Cole/the Cold Cells if asked — not yet scripted; per the game's
+    "environmental discovery, not exposition" convention, the bulk of this story should stay
+    document-driven even if she gets one line.
+  - The Vanguard Liaison's name and what happened to him the night of the outbreak — deliberately
+    unresolved, matching the Chief's own unresolved fate elsewhere in this district.
+  - Detective Cole's own fate (alive elsewhere, dead, or himself a V-CASE) — deliberately left
+    open, same convention as Fennimore and the Chief.
+  - Whether the Cold Cells should hold an optional Shambler encounter (an "occupant" who never got
+    collected) or stay an empty, purely atmospheric reveal — not decided.
+  - Whether Officer Daniels' disappearance (referenced in Cole's email trail) ever gets more than
+    a background-document mention, or stays a deliberate parallel data point implying this has
+    happened more than once.
+  - Full scene-by-scene scripting of the whole sub-plot into
+    [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md) — currently written at
+    the location-design/prose level only, same status as several other not-yet-fully-scripted
+    beats in this file.
+  - Whether this sub-plot's "town as a field study" thread should eventually connect explicitly to
+    Chapter 3's reveal of how containment failed — see [`CANON.md`](../CANON.md) → "Vanguard's Grip
+    on Ravenwood PD," which frames it as a strong contributing thread, not a full answer.

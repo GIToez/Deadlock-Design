@@ -98,3 +98,7 @@ rule it's built to satisfy. Her fate is explicitly conditional on player sequenc
   decided, not necessary to decide.
 - First name origin/backstory beyond "three years from a pension" — not needed narratively right
   now.
+- **Added 2026-08-13:** whether her live-version dialogue gets one small, deliberately restrained
+  line acknowledging [Detective Cole](Aaron_Cole.md)/the Cold Cells if Jim asks — per
+  [`Locations/Police_Station.md`](../Locations/Police_Station.md) → "The Vanguard Sub-Plot," this
+  should stay a hook at most, not a retelling of the full story in her own words; not yet scripted.

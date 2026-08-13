@@ -172,6 +172,18 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   flagged inaccuracy: Room 118's concept embroiders a pillow "H&R," matching neither Dalton's
   initials.
 
+- **`Reference/police_station_coles_office_concept.png`,
+  `police_station_vanguard_liaison_office_concept.png`, `police_station_cold_cells_concept.png`,
+  `police_station_vanguard_observation_booth_concept.png`, `item_vanguard_access_card_concept.png`**
+  (AI-generated, 2026-08-13) — four new Police Station room concepts and one item icon for the new
+  optional "Vanguard Sub-Plot" (see [`STORY_NOTES.md`](../STORY_NOTES.md) for the full addition):
+  Detective Cole's abandoned office, the incongruously corporate Vanguard Liaison Office (its wall
+  "V" emblem deliberately echoes the Founders Memorial's own weathered "V"), the Cold Cells
+  basement, and the Vanguard Observation Booth (framed as the reverse angle of the existing
+  Interview Room render). All embedded in
+  [`Locations/Police_Station.md`](../Locations/Police_Station.md); the item icon embedded in
+  [`Items/Key_Items/Vanguard_Access_Card.md`](../Items/Key_Items/Vanguard_Access_Card.md).
+
 Several other assets have been uploaded, placed directly alongside their character files instead:
 
 - `Characters/spr_cindy_jumpscare.gif` — embedded in
@@ -179,12 +191,13 @@ Several other assets have been uploaded, placed directly alongside their charact
 - **Character reference portraits** — every named character now has one; see
   [`Characters/README.md`](../Characters/README.md) → "Convention: reference portraits for named
   characters" for the full file list, the confirmed two-step PixelLab generation pipeline, and
-  status. Sarah, Cindy (two states), Earl, Gerta, Janeth, Maria, and Jim were uploaded directly by
+  status.   Sarah, Cindy (two states), Earl, Gerta, Janeth, Maria, and Jim were uploaded directly by
   the project owner (two filenames corrected after upload — a stray space, and a generic name
   confirmed to be Jim); Richard Dalton, Officer Dale Pruitt, Sergeant Ruth Calloway, Corporal Eli
-  Reyes, and Fennimore were generated (2026-08-13) to match, via PixelLab's `create_image_pro`
-  tool once that was confirmed as the correct pipeline (an earlier attempt using a generic image
-  generator was replaced).
+  Reyes, Fennimore, and (2026-08-13, alongside the Police Station's new "Vanguard Sub-Plot")
+  Detective Aaron Cole were generated to match, via PixelLab's `create_image_pro` tool once that
+  was confirmed as the correct pipeline (an earlier attempt using a generic image generator was
+  replaced).
 
 ## Convention: room concept art
 

@@ -41,6 +41,10 @@ A character document may contain:
 - [`Eli_Reyes.md`](Eli_Reyes.md) — Ravenwood PD's K-9 unit handler, never seen alive; found dead in
   the station's K-9 Unit Room, killed by his own K-9 partners — see
   [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scenes 26–28.
+- [`Aaron_Cole.md`](Aaron_Cole.md) — Ravenwood PD detective, never seen alive or dead; disappeared
+  before the outbreak after secretly investigating Vanguard's role in the department — see
+  [`CANON.md`](../CANON.md) → "Vanguard's Grip on Ravenwood PD" and
+  [`Locations/Police_Station.md`](../Locations/Police_Station.md) → "The Vanguard Sub-Plot."
 
 Characters for the remaining four districts (Hospital, Academy, Refinery, Monastery) will be added
 once those are written — see [`STORY_NOTES.md`](../STORY_NOTES.md).

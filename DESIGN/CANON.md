@@ -203,6 +203,75 @@ network** found throughout Ravenwood (not hotel-specific) — the game's only sa
 are part of pre-existing Ravenwood emergency infrastructure, which itself is a subtle, unexplained
 early hint that Vanguard's reach into the town predates the outbreak.
 
+## Vanguard's Grip on Ravenwood PD (proposed 2026-08-13, pending review)
+
+> Proposed by the project owner as a deliberate reframe of the Police Station: **the officers are
+> not secretly Vanguard villains.** They're real Ravenwood cops who believe they're protecting
+> their town. Vanguard spent years turning the department into an unofficial containment arm
+> without most officers realizing how far they'd already crossed the line. See
+> [`Locations/Police_Station.md`](Locations/Police_Station.md) for where this is physically
+> discovered in-game, and [`Characters/Aaron_Cole.md`](Characters/Aaron_Cole.md) for the detective
+> whose investigation is the primary discovery trail. Treat this whole section as a proposal
+> pending full review, same as any new canon addition — but built to not contradict anything
+> already locked (Sergeant Calloway, the shotgun, the Authority Crest, Diesel/Baxter, and all four
+> buildings are all explicitly unchanged).
+
+- **The Ravenwood–Vanguard Public Safety Agreement.** Years before the outbreak, Vanguard began
+  funding the Ravenwood Police Department — not cartoonishly, but through completely reasonable-
+  looking support: new cruisers, upgraded radios, body armor, station renovations, overtime
+  reimbursement, medical coverage, donations to injured officers' families, and a Vanguard-funded
+  emergency-response training program. A small town's department became quietly dependent on that
+  money — Vanguard ends up effectively owning the department's emergency-response capability
+  without ever technically owning the department itself.
+- **The Vanguard Public Safety Liaison Program.** A non-sworn Vanguard liaison is permanently
+  stationed inside the police station, with his own office — and, per department legend, a badge
+  that opens more doors than the Chief's. Not yet named; his own fate on the night of the outbreak
+  is deliberately unresolved (see `Locations/Police_Station.md`).
+- **V-CASE classification.** Police are never told what Black Vein actually is. Vanguard trains
+  officers to recognize "acute industrial neurochemical exposure resulting in violent psychosis" —
+  anyone displaying specific symptoms is classified a **V-CASE (Vanguard Containment Case)** and
+  stops being treated as an ordinary citizen: isolated, restrained, kept away from hospitals,
+  handed directly to a Vanguard response team, filed under a generic public-intoxication/
+  psychiatric-hold charge, with body-camera footage destroyed or sealed. Officers believe Vanguard
+  is taking these people for specialized medical treatment. They're actually being fed into
+  **Project Ashen**.
+- **The Cold Cells.** The station's old basement holding area — originally drunk tanks and
+  evidence storage — was quietly renovated by Vanguard (officially "TEMPORARY MEDICAL HOLDING,"
+  nicknamed "the Cold Cells" by the cops): heavy steel doors, floor drains, no windows, restraint
+  rings built into the walls, negative-pressure ventilation, all Vanguard-supplied. V-CASEs were
+  held there until Vanguard arrived at night and the prisoner disappeared — no transfer paperwork,
+  no court appearance, no hospital record. See `Locations/Police_Station.md` for its in-game
+  placement (gated behind a **Vanguard Access Card**, not part of the mandatory Authority Crest
+  chain).
+- **The confidential watchlist.** Vanguard supplies the department a watchlist of people flagged
+  for repeated hospital visits, unusual injuries, neurological symptoms, mine/refinery employment,
+  homelessness, or reporting strange things near Vanguard property — framed to officers as
+  possible industrial theft/sabotage suspects. During routine stops, officers check names against
+  it and radio a code (e.g. *"Dispatch, confirm a 13-Black"*) if there's a match; Vanguard is
+  notified and sometimes requests a hold. The department has unknowingly spent years feeding
+  people into Project Ashen this way.
+- **Vanguard's own interrogation room.** An ordinary-looking interview room (table, two chairs,
+  camera, one-way glass) conceals a small Vanguard control booth behind the observation glass —
+  medical equipment, injectors, blood-collection supplies, restraints hidden under the chair.
+  Vanguard requested certain suspects be questioned there, ostensibly gathering information about
+  "industrial accidents." In fact, some of the "interrogations" were testing whether extreme
+  stress can trigger Black Vein exposure symptoms — experiments, not interviews.
+- **The town as a field study.** In neighborhoods near Black Vein contamination zones,
+  Vanguard-directed police to *increase* patrols rather than evacuate — deliberately gathering data
+  on how early-stage exposure affects aggression under environmental stress, while residents'
+  complaints about strange behavior were dismissed by the department itself as an ordinary drug
+  problem. **This is offered as a strong contributing thread toward the still-open "how containment
+  failed / why now" question** (see "Origin of the Outbreak," above) — plausible, not a full
+  answer; the exact mechanism remains explicitly reserved for Chapter 3.
+- **Discovery trail:** primarily [Detective Aaron Cole's](Characters/Aaron_Cole.md) abandoned
+  investigation — missing-persons cases he connected via the shared "V-CASE TRANSFERRED" marking,
+  a Vanguard security image proving at least one "transferred" person was still alive but
+  monstrously mutated, and his own disappearance after Vanguard used an internal-affairs
+  investigation to discredit and remove him rather than risk a more visible move against him. Per
+  the game's established "environmental discovery, not exposition" convention (see "The Founders &
+  the Five Crests," above), this is meant to be pieced together through found documents/notes, not
+  delivered via an NPC dialogue dump.
+
 ## Named Characters Confirmed (beyond the core hotel cast)
 
 - **[Della Marsh](Creatures/Della_Marsh.md)** ("Della M." on stage) — the Red Room lounge singer;
@@ -226,6 +295,11 @@ early hint that Vanguard's reach into the town predates the outbreak.
 - **[Corporal Eli Reyes](Characters/Eli_Reyes.md)** — Ravenwood PD's K-9 unit handler. Never seen
   alive; found dead in the station's K-9 Unit Room, the Armory Key still on his belt, killed by his
   own K-9 partners (see Ashen Hound, below) after they turned.
+- **[Detective Aaron Cole](Characters/Aaron_Cole.md)** — Ravenwood PD detective who secretly
+  investigated Vanguard's role in a string of local disappearances; discredited via an internal-
+  affairs setup and disappeared before the outbreak. Never seen alive or dead — known only through
+  his abandoned office and the investigation he hid from Vanguard. See "Vanguard's Grip on
+  Ravenwood PD," above.
 - **Marshal Josiah Hale** — the Ravenwood Police Department's first peace officer (1887); one of
   Ravenwood/Vanguard's five founders. His name and portrait appear on the **Authority Crest**,
   recovered from a display case in the old 1887 station house. The other four founders' names are
