@@ -140,7 +140,7 @@ to the Ravenwood Hotel.
 > arrow says what unlocks it.
 >
 > Legend: 👤 NPC · ☠️ enemy/infected/boss · 🗝️ key item · 📄 document · 🔧 manual/mechanical
-> (non-power) puzzle.
+> (non-power) puzzle · 🚪 gate/access control/shortcut.
 >
 > **Shape/color key** — same as the Hotel's blueprint:
 >
