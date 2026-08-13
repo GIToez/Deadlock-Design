@@ -5,6 +5,15 @@
 > each district needs per [`AI.json`](../AI.json)'s city-design notes. Treat this as a draft pending
 > review, same as any new creature type.
 
+![Ashen Hound concept art — "Diesel," Ravenwood PD K-9, Municipal Garage](../Assets/Reference/ashen_hound_concept.png)
+
+*Concept art (2026-08-13), for visual reference only — not a literal in-game screenshot. Depicts
+"Diesel," one of the two Ashen Hounds fought at the Municipal Garage
+([`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 32): ash-gray,
+cracked hide over visibly wrong musculature, faint dark vein-like discoloration beneath the skin,
+pale clouded eyes, low predatory stance, and the tattered RAVENWOOD PD K-9 UNIT collar that
+identifies what it used to be.
+
 ## Concept
 
 The game's first **fast** infected type — a deliberate contrast to the [Shambler](Shambler.md)'s
@@ -23,9 +32,13 @@ slow-and-relentless presentation.
 ## Appearance
 
 Larger than the source animal, musculature visibly wrong beneath a hide gone patchy and
-ash-gray — the same "wrong" quality as human infected, expressed differently. Eyes carry the same
-pale, clouded look established across every other infected creature. Moves low to the ground, head
-level with its shoulders rather than raised.
+ash-gray — the same "wrong" quality as human infected, expressed differently. Faint dark
+vein-like discoloration branches visibly beneath the cracked skin — a literal, visual nod to
+**Black Vein** itself, not yet described this explicitly for any other infected creature but worth
+considering as a consistent visual motif going forward (see concept art, below). Eyes carry the
+same pale, clouded look established across every other infected creature. Moves low to the ground,
+head level with its shoulders rather than raised. A tattered **RAVENWOOD PD K-9 UNIT** collar is
+the only remaining trace of what it used to be.
 
 ## Behavior
 

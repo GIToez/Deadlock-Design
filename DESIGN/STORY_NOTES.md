@@ -310,6 +310,15 @@
     K-9 unit dogs (Diesel and Baxter) at the Municipal Garage, the game's first fast/pack-hunting
     enemy, introduced as this district's "major encounter" per [`AI.json`](AI.json)'s per-district
     design rule, and established as a reusable creature class (not a one-off) for later districts.
+  - **Concept art generated (same day):** `Assets/Reference/ashen_hound_concept.png`, depicting
+    Diesel at the Municipal Garage. The generated image suggested a good visual detail not
+    previously written down — faint dark vein-like discoloration visible beneath the cracked
+    hide, a literal nod to Black Vein itself — folded back into `Creatures/Ashen_Hound.md`'s
+    Appearance section so the art and the prose stay in sync. Per the project owner's request,
+    `Assets/README.md` now documents a standing convention for generating concept art for future
+    enemies/bosses (filename pattern, style consistency, and the rule that any new visual detail
+    an image suggests gets written back into the creature's own file rather than living only in
+    the image).
   - The three secondary locations (Fire Station, Municipal Garage, City Courthouse) were written
     to match [`AI.json`](AI.json)'s own outline notes for them fairly closely — dispatch board,
     mechanic's office, courthouse survivor camp — with the courthouse's evidence room deliberately
