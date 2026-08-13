@@ -511,6 +511,22 @@ the next entry for the current final numbering (Scenes 22–40).
   image guidance, and an explicit rule that "never seen alive on-screen" characters like Fennimore
   and Reyes can still get a portrait as an internal design tool). Every currently-written named
   character now has a reference portrait.
+- **Portrait pipeline corrected (2026-08-13, same day).** The project owner clarified that the
+  five portraits above (Richard, Dale, Ruth, Eli, Fennimore) needed to be redone — the *originally
+  uploaded* portraits were already correct and didn't need touching. The project owner then
+  provided the exact prompt template and confirmed settings (PixelLab.ai's "Create Image (Pro)"
+  tool, 256×256 output) used to make the original uploads. Replaced all five: generated a clean
+  semi-realistic "source" photo per character with the given template, then ran each through
+  PixelLab's `create_image_pro` MCP tool (the same tool, confirmed) with that photo as a labelled
+  reference. Two practical issues worked through, now documented in
+  [`Characters/README.md`](Characters/README.md) for future use: (1) the reference-image base64
+  payload truncates unpredictably above roughly 2–3 KB via this transport, so the source photo
+  needs to be shrunk to ~40–48px/16–24 colors before sending, which loses enough detail that 2 of
+  the first 5 attempts came back as unrelated generic people rather than the intended character;
+  (2) retrying with a more explicit text description (spelling out hair, skin tone, and clothing
+  rather than relying on the reference alone) fixed both failed attempts. All five final portraits
+  replace the earlier generic-image-generator versions in place and now genuinely match the
+  uploaded set's house style rather than approximating it.
 
 - **Zombie Conglomerate ("the Zombie King") introduced + Hotel reference screenshots organized
   (2026-08-13).** The project owner uploaded a large asset batch to `DESIGN/Assets/` — most of it

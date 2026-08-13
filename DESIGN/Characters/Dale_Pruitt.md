@@ -2,11 +2,11 @@
 
 ![Officer Dale Pruitt — reference portrait](spr_dale_portrait.png)
 
-> AI-generated reference portrait (2026-08-13), matching the uploaded Chapter 1 portrait set's
-> style — pre-infection appearance only. Also incidentally produced a plausible Ravenwood PD badge
-> design (a star within a shield, "RAVENWOOD POLICE") and shoulder patch (a mountain range) —
-> useful as loose visual reference for department insignia generally, not formally locked as the
-> department's official design.
+> Portrait generated 2026-08-13 with PixelLab's Create Image (Pro) tool — the same tool/pipeline
+> used for the originally-uploaded Chapter 1 portraits — pre-infection appearance only. Also
+> incidentally produced a plausible Ravenwood PD badge design (a star within a shield, "RAVENWOOD
+> POLICE") and shoulder patch — useful as loose visual reference for department insignia generally,
+> not formally locked as the department's official design.
 
 ## Role
 

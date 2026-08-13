@@ -2,9 +2,10 @@
 
 ![Fennimore — reference portrait](spr_fennimore_portrait.png)
 
-> AI-generated reference portrait (2026-08-13) — a design/continuity reference only, consistent
-> with the [`Characters/README.md`](README.md) convention that "never seen alive on-screen"
-> characters can still get one. No specific appearance was previously established; this loosely
+> Portrait generated 2026-08-13 with PixelLab's Create Image (Pro) tool — the same tool/pipeline
+> used for the originally-uploaded Chapter 1 portraits — a design/continuity reference only,
+> consistent with the [`Characters/README.md`](README.md) convention that "never seen alive
+> on-screen" characters can still get one. No specific appearance was previously established; this
 > interprets him as an older, methodical hotel security guard rather than locking new canon.
 
 ## Role

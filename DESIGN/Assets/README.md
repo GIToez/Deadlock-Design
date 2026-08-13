@@ -73,11 +73,13 @@ Several other assets have been uploaded, placed directly alongside their charact
   [`Characters/Cindy_Sweets.md`](../Characters/Cindy_Sweets.md).
 - **Character reference portraits** — every named character now has one; see
   [`Characters/README.md`](../Characters/README.md) → "Convention: reference portraits for named
-  characters" for the full file list, generation convention, and status. Sarah, Cindy (two
-  states), Earl, Gerta, Janeth, Maria, and Jim were uploaded directly by the project owner (two
-  filenames corrected after upload — a stray space, and a generic name confirmed to be Jim);
-  Richard Dalton, Officer Dale Pruitt, Sergeant Ruth Calloway, Corporal Eli Reyes, and Fennimore
-  were AI-generated (2026-08-13) to match.
+  characters" for the full file list, the confirmed two-step PixelLab generation pipeline, and
+  status. Sarah, Cindy (two states), Earl, Gerta, Janeth, Maria, and Jim were uploaded directly by
+  the project owner (two filenames corrected after upload — a stray space, and a generic name
+  confirmed to be Jim); Richard Dalton, Officer Dale Pruitt, Sergeant Ruth Calloway, Corporal Eli
+  Reyes, and Fennimore were generated (2026-08-13) to match, via PixelLab's `create_image_pro`
+  tool once that was confirmed as the correct pipeline (an earlier attempt using a generic image
+  generator was replaced).
 
 ## Convention: room concept art
 

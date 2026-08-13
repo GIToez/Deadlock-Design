@@ -2,9 +2,10 @@
 
 ![Sergeant Ruth Calloway — reference portrait](spr_ruth_portrait.png)
 
-> AI-generated reference portrait (2026-08-13), matching the uploaded Chapter 1 portrait set's
-> style — built directly from the Appearance/Personality entries below (mid-fifties, gray hair
-> pulled back tight, uniform correctly buttoned).
+> Portrait generated 2026-08-13 with PixelLab's Create Image (Pro) tool — the same tool/pipeline
+> used for the originally-uploaded Chapter 1 portraits — built directly from the
+> Appearance/Personality entries below (mid-fifties, gray hair pulled back tight, uniform correctly
+> buttoned).
 
 ## Role
 

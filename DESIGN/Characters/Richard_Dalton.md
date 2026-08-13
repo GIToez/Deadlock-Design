@@ -2,10 +2,12 @@
 
 ![Richard Dalton — reference portrait](spr_richard_portrait.png)
 
-> AI-generated reference portrait (2026-08-13), matching the uploaded Chapter 1 portrait set's
-> style. No specific hair/build/age was previously established for him — this loosely interprets
-> the Appearance/Personality entries below (calm, steady, "focused attention... needs something to
-> do with his hands") rather than confirming new canon; treat the physical specifics as a proposal.
+> Portrait generated 2026-08-13 with PixelLab's Create Image (Pro) tool — the same tool/pipeline
+> used for the originally-uploaded Chapter 1 portraits — so this matches the project's actual art
+> style rather than approximating it. No specific hair/build/age was previously established for
+> him; this interprets the Appearance/Personality entries below (calm, steady, "focused attention...
+> needs something to do with his hands") rather than confirming new canon — treat the physical
+> specifics as a proposal.
 
 ## Role
 
