@@ -62,15 +62,15 @@ When working on Deadlock story content:
 
 ## Repository / Workflow Rules
 
-15. **Never create a new branch for Deadlock design work unless explicitly told to.** All design
-    documentation changes should continue landing on the existing working branch/PR
-    (`cursor/design-docs-structure-e231` →
-    [PR #1](https://github.com/GIToez/Deadlock-Design/pull/1)) rather than spinning up a fresh
-    branch per request.
-    - Note: as a Cursor cloud agent, changes still go through a pull request rather than being
-      pushed straight to `main` directly — that review step is a platform-level constraint, not a
-      per-task choice. "No new branches" is honored by continuing to reuse one branch/PR for all
-      of this work instead of creating additional ones.
+15. **Work directly on `main`, and only `main` (locked 2026-08-13, supersedes the original
+    branch/PR-based version of this rule).** The project owner explicitly instructed: "From now on
+    we work on the main branch in only the main branch." All design documentation changes —
+    including new folders/files, edits, and asset additions — should be committed and pushed
+    straight to `main`. Do not create feature branches or pull requests for this work going
+    forward. (The earlier working branch, `cursor/design-docs-structure-e231`, was merged into
+    `main` via [PR #1](https://github.com/GIToez/Deadlock-Design/pull/1) and
+    [PR #2](https://github.com/GIToez/Deadlock-Design/pull/2) and then deleted — there is no longer
+    a separate working branch to reuse.)
 
 ## Visual Asset Pipeline (locked 2026-08-13)
 
