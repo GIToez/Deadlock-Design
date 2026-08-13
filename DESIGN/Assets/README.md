@@ -79,6 +79,22 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md) at their matching rooms. The
   Housekeeping Closet render invented a "305" door number that contradicts its canonical location
   (2F, between Rooms 114/116) — flagged there, not canon.
+- **`Reference/police_station_lobby_concept.png`, `police_station_dispatch_concept.png`,
+  `police_station_armory_concept.png`, `police_station_evidence_room_concept.png`,
+  `police_station_fire_station_concept.png`, `police_station_municipal_garage_concept.png`,
+  `police_station_courthouse_concept.png`, `police_station_break_room_concept.png`,
+  `police_station_booking_concept.png`, `police_station_interview_room_concept.png`,
+  `police_station_modern_cells_concept.png`, `police_station_old_cells_concept.png`**
+  (AI-generated, 2026-08-13) — the remaining Police Station rooms, completing full room-concept
+  coverage for the district: the Lobby, Records/Dispatch, the Armory, the Property & Evidence
+  Room, the three secondary locations (Fire Station, Municipal Garage, City Courthouse), the
+  Break Room, Booking & Processing, the Interview Room, the Modern Holding Cells, and the Old
+  Holding Cells. All embedded in
+  [`Locations/Police_Station.md`](../Locations/Police_Station.md) at their matching rooms. Three
+  flagged generation errors: Records/Dispatch invented an unrelated "DET. HARRIS" nameplate, the
+  Break Room labeled Corporal Reyes' locker "K. HARRISON" instead of "E. REYES," and the Municipal
+  Garage's wall sign reads "CITY OF RAVENCROFT" instead of the locked city name Ravenwood — all
+  non-canonical.
 
 Several other assets have been uploaded, placed directly alongside their character files instead:
 

@@ -43,6 +43,11 @@ to the Ravenwood Hotel.
 
 - **The Lobby.** A bulletproof-glass reception window (intact) traps a lone shambler behind it — a
   deliberate non-threat, meant to be seen and bypassed rather than fought.
+
+  ![Station Lobby — room concept](../Assets/Reference/police_station_lobby_concept.png)
+
+  > AI-generated room concept (2026-08-13). Matches the scripted beat closely (glass-shielded
+  > shambler, waiting-room seating, directory sign).
 - **The Bullpen (hub).** One shambler encounter. From here, Jim can see three locked/sealed
   points at once: the **Armory** (keyed lock), the **Chief's Office** (keyed lock), and the
   **Property & Evidence Room** (padlocked shut). Sergeant Calloway's voice is heard from the
@@ -57,10 +62,16 @@ to the Ravenwood Hotel.
 - **Sergeant Calloway.** If the station is visited first, she's alive, barricaded in
   Records/Dispatch. She confirms Deadlock Protocol's scope (sealed at the county line, not just
   Ravenwood), gives Jim the **Chief's Office Key**, explains that **Corporal Eli Reyes** — who has
-  the armory key — went to check on the K-9 unit around midnight and never came back, and mentions
+  the armory key —   went to check on the K-9 unit around midnight and never came back, and mentions
   the Property Room's padlock needs bolt cutters, available at the Fire Station. She stays behind.
   If a different district is visited first, she doesn't survive; see her character file for the
   (not yet scripted) alternate version of this beat.
+
+  ![Records/Dispatch — room concept](../Assets/Reference/police_station_dispatch_concept.png)
+
+  > AI-generated room concept (2026-08-13). Note: the image invented a second, unrelated desk
+  > nameplate reading "DET. HARRIS" — flagged as non-canonical filler, not a new character; this
+  > district has no detective named Harris in any script or character file.
 - **The Chief's Office.** Calloway's key opens it. The Chief's own logbook confirms Reyes went to
   check on the K-9 unit and never returned — and that the Chief went after him in turn (his own
   fate is left unresolved, a deliberate loose thread). The desk holds the **Old Station Skeleton
@@ -86,26 +97,65 @@ to the Ravenwood Hotel.
 - **The Armory.** Reyes' key opens a room of mostly-emptied gun racks; one still holds a clamped-
   down shotgun and two boxes of shells, freed with a tool from Jim's own kit. The district's key
   equipment reward, deliberately recovered only after the Ashen Hound fight rather than before it.
+
+  ![Armory — room concept](../Assets/Reference/police_station_armory_concept.png)
+
+  > AI-generated room concept (2026-08-13). Matches the scripted "mostly-emptied racks, one
+  > clamped-down shotgun" beat closely.
 - **The Break Room.** A small, deliberately quiet optional stop off the same back hallway as the
   K-9 Unit Room — Corporal Reyes' employee locker holds an old photo of him with Diesel and Baxter
   at their K-9 graduation, a small emotional beat added after his death is already known, plus a
   Medkit and ammunition.
+
+  ![Break Room — room concept](../Assets/Reference/police_station_break_room_concept.png)
+
+  > AI-generated room concept (2026-08-13). Note: the image labeled Reyes' locker "K. HARRISON"
+  > instead of "E. REYES" — flagged as a generation error, not canon; the K-9 graduation photo
+  > and dog paw-print detailing inside the open locker are otherwise exactly the scripted beat.
 - **Booking & Processing.** A fingerprint station, mugshot backdrop, and personal-effects lockers —
   two still tagged and closed, one yielding an optional pocketknife.
+
+  ![Booking & Processing — room concept](../Assets/Reference/police_station_booking_concept.png)
+
+  > AI-generated room concept (2026-08-13).
 - **The Interview Room.** A recorder left running holds an old interview about unsettling animal
   behavior near North Ridge before the outbreak — cross-referencing the newspaper clipping already
   found at Downtown's library — filed and forgotten rather than acted on.
+
+  ![Interview Room — room concept](../Assets/Reference/police_station_interview_room_concept.png)
+
+  > AI-generated room concept (2026-08-13).
 - **Modern Holding Cells.** Two working cells, in contrast with the old station house's disused
   ones — one empty with a torn, discarded uniform shirt; one holding a shambler safely behind bars,
   the same "visible but harmless" convention as the lobby's glass-shielded shambler.
+
+  ![Modern Holding Cells — room concept](../Assets/Reference/police_station_modern_cells_concept.png)
+
+  > AI-generated room concept (2026-08-13). Matches the scripted "one empty, one caged shambler"
+  > beat closely.
 - **The Fire Station** (secondary, load-bearing). Supplies, timeline lore via a dispatch call-sheet
   board that cuts off mid-sentence — and a pair of **bolt cutters**, needed back at the station.
+
+  ![Ravenwood Fire Station — room concept](../Assets/Reference/police_station_fire_station_concept.png)
+
+  > AI-generated room concept (2026-08-13). Matches the scripted dispatch call-sheet board and
+  > bolt cutters closely.
 - **The Property & Evidence Room.** Bolt cutters open the padlock. A proper long-term evidence
   storage room (not just a wall locker) containing the **Evidence Room Key** (itself tagged as
   evidence, "release pending" to the municipal court) plus optional loot.
+
+  ![Property & Evidence Room — room concept](../Assets/Reference/police_station_evidence_room_concept.png)
+
+  > AI-generated room concept (2026-08-13).
 - **The Municipal Garage** (secondary, now optional). Supplies, a mechanic's office note, a
   navigation shortcut gate, and Corporal Reyes' own parked patrol cruiser — a light connective
   detail (he walked the rest of the way in on foot) rather than a combat encounter.
+
+  ![Municipal Garage / Impound Lot — room concept](../Assets/Reference/police_station_municipal_garage_concept.png)
+
+  > AI-generated room concept (2026-08-13). Note: the wall sign reads "CITY OF RAVENCROFT" instead
+  > of Ravenwood — flagged as a generation error, not a new city name; the game's city is locked
+  > as **Ravenwood** in [`CANON.md`](../CANON.md).
 - **The Breezeway / Navigation Puzzle.** The direct connecting door into the old station house is
   locked with an antique deadbolt. The Old Station Skeleton Key (from the Chief's Office) opens it
   directly — no workaround needed.
@@ -125,10 +175,20 @@ to the Ravenwood Hotel.
   for records storage. A damaged 1887 town-charter document lists Hale among five "Incorporators of
   Ravenwood," the other four names illegible from water damage — a deliberate, honest way to defer
   naming the remaining four founders until their districts are written.
+
+  ![Old Holding Cells — room concept](../Assets/Reference/police_station_old_cells_concept.png)
+
+  > AI-generated room concept (2026-08-13), style-anchored to the Old Station House main hall
+  > render to keep the antique-stone-building look consistent.
 - **The City Courthouse** (secondary, optional). An unresolved survivor-camp environmental beat,
   plus a **Clerk's Exhibit Storage** room (renamed and re-purposed from an earlier draft's
   "evidence room" — a courthouse holds active trial exhibits, not long-term evidence, which is the
   station's job) openable with the Evidence Room Key.
+
+  ![City Courthouse — room concept](../Assets/Reference/police_station_courthouse_concept.png)
+
+  > AI-generated room concept (2026-08-13). Depicts the courtroom itself plus the abandoned
+  > survivor-camp alcove and the Clerk's Exhibit Storage door together for one combined reference.
 
 ## Important Rooms / Areas
 

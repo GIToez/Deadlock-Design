@@ -606,6 +606,19 @@ the next entry for the current final numbering (Scenes 22–40).
     Boiler Room, Staff Room/Storage, the public stairwells) — deliberately deprioritized per the
     convention's "narrative weight over minor pass-through spaces" guidance rather than skipped by
     oversight.
+  - **Police Station room concept sweep completed (2026-08-13, same day).** Generated the twelve
+    remaining Police Station rooms, completing full concept-art coverage for the district: the
+    Lobby, Records/Dispatch, the Armory, the Property & Evidence Room, the three secondary
+    locations (Fire Station, Municipal Garage, City Courthouse), the Break Room, Booking &
+    Processing, the Interview Room, the Modern Holding Cells, and the Old Holding Cells — all
+    style-anchored to the earlier Police Station renders (Bullpen / Chief's Office / K-9 Room /
+    Old Main Hall). All embedded in `Locations/Police_Station.md`. Three flagged generation
+    errors, none promoted to canon: Records/Dispatch invented an unrelated "DET. HARRIS"
+    nameplate; the Break Room labeled Corporal Reyes' locker "K. HARRISON" instead of "E. REYES";
+    the Municipal Garage's wall sign reads "CITY OF RAVENCROFT" instead of the locked city name
+    Ravenwood. Every room in both the Ravenwood Hotel and the Police Station now has either a real
+    in-engine screenshot or AI concept art, except the Hotel's deliberately-deprioritized minor
+    pass-through spaces noted above.
 
 ## Still-Open Questions
 
