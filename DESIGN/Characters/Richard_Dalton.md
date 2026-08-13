@@ -1,5 +1,12 @@
 # Richard Dalton
 
+![Richard Dalton — reference portrait](spr_richard_portrait.png)
+
+> AI-generated reference portrait (2026-08-13), matching the uploaded Chapter 1 portrait set's
+> style. No specific hair/build/age was previously established for him — this loosely interprets
+> the Appearance/Personality entries below (calm, steady, "focused attention... needs something to
+> do with his hands") rather than confirming new canon; treat the physical specifics as a proposal.
+
 ## Role
 
 Hotel guest, Room 118, sharing the room with his wife Maria. Accompanies her to St. Dymphna
@@ -14,7 +21,8 @@ No biography established beyond his marriage to Maria.
 Seen standing near/checking the vending machine in the east waiting area, "the focused attention of
 someone who needs something to do with his hands." Straightens up alertly when Jim approaches — "the
 reflexive alertness of someone who has been waiting for something to happen and keeps finding it
-isn't yet."
+isn't yet." Per the reference portrait above: early thirties, short dark brown hair, clean-shaven,
+dressed casually for a long drive (button-up shirt, sleeves rolled up) rather than formally.
 
 ## Personality
 

@@ -496,6 +496,22 @@ the next entry for the current final numbering (Scenes 22–40).
     legend/shape/color convention (District Entry → Lobby → Bullpen; the Annex Core; the Booking
     Wing; Breezeway → Old Station House; the three Secondary Locations).
 
+- **AI-generated portraits for remaining named characters (2026-08-13).** Following the uploaded
+  Chapter 1 portrait batch, the project owner asked for portraits for the still-missing named
+  characters and for this to become standard practice for all future characters too. Generated
+  five, matching the uploaded set's pixel-art style via reference-image-guided generation:
+  **Richard Dalton, Officer Dale Pruitt, Sergeant Ruth Calloway, Corporal Eli Reyes, and
+  Fennimore.** The first attempt at Richard Dalton came out wrong (the reference image pull was too
+  strong and it regenerated something close to Earl instead of a distinct younger character) and
+  was redone with a more detailed, specific prompt. Dale Pruitt's and Eli Reyes' generations
+  incidentally produced a plausible Ravenwood PD badge/patch design (star-in-shield "RAVENWOOD
+  POLICE" badge, mountain-range shoulder patch, K-9 Unit patch) — kept as loose visual reference,
+  not formally locked as the department's official insignia. Documented the full generation
+  convention in [`Characters/README.md`](Characters/README.md) (filename pattern, style/reference-
+  image guidance, and an explicit rule that "never seen alive on-screen" characters like Fennimore
+  and Reyes can still get a portrait as an internal design tool). Every currently-written named
+  character now has a reference portrait.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /

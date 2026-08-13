@@ -1,5 +1,13 @@
 # Officer Dale Pruitt
 
+![Officer Dale Pruitt — reference portrait](spr_dale_portrait.png)
+
+> AI-generated reference portrait (2026-08-13), matching the uploaded Chapter 1 portrait set's
+> style — pre-infection appearance only. Also incidentally produced a plausible Ravenwood PD badge
+> design (a star within a shield, "RAVENWOOD POLICE") and shoulder patch (a mountain range) —
+> useful as loose visual reference for department insignia generally, not formally locked as the
+> department's official design.
+
 ## Role
 
 Ravenwood PD, night shift. Seen twice in Chapter 1: alive at the hotel parking lot at the start of
@@ -11,7 +19,8 @@ Ravenwood PD, night shift. No further biography established.
 
 ## Appearance
 
-Pre-infection: in uniform, controlled and professional even under pressure. Post-infection: uniform
+Pre-infection: in uniform, controlled and professional even under pressure — per the reference
+portrait above, clean-cut short dark hair, alert focused eyes. Post-infection: uniform
 dark with blood, one eye clouded completely white, twitchy/erratic movement — "the same locked-in
 wrongness as Earl but faster, more recent, less settled into it."
 

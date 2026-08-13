@@ -1,5 +1,11 @@
 # Sergeant Ruth Calloway
 
+![Sergeant Ruth Calloway — reference portrait](spr_ruth_portrait.png)
+
+> AI-generated reference portrait (2026-08-13), matching the uploaded Chapter 1 portrait set's
+> style — built directly from the Appearance/Personality entries below (mid-fifties, gray hair
+> pulled back tight, uniform correctly buttoned).
+
 ## Role
 
 Ravenwood PD desk sergeant. The Southwest District's Tier 2 conditional survivor (see

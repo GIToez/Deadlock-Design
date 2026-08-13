@@ -1,5 +1,12 @@
 # Fennimore
 
+![Fennimore — reference portrait](spr_fennimore_portrait.png)
+
+> AI-generated reference portrait (2026-08-13) — a design/continuity reference only, consistent
+> with the [`Characters/README.md`](README.md) convention that "never seen alive on-screen"
+> characters can still get one. No specific appearance was previously established; this loosely
+> interprets him as an older, methodical hotel security guard rather than locking new canon.
+
 ## Role
 
 Ravenwood Hotel night-shift security guard. Never seen alive on-screen — established only through
@@ -20,9 +27,11 @@ stash of a medkit and spare ammunition in his locker that he never got the chanc
 
 ## Appearance
 
-Not directly described while alive. In death (Scene 42): security uniform, badge still pinned,
-found near the courtyard's north gate. Reanimated (Scene 44): the same uniform, soaked through,
-eyes gone the same "wrong pale" as every other infected Jim has fought.
+Not directly described while alive beyond the reference portrait above (older, graying, average
+build — a methodical, unremarkable-looking career security guard). In death (Scene 42): security
+uniform, badge still pinned, found near the courtyard's north gate. Reanimated (Scene 44): the
+same uniform, soaked through, eyes gone the same "wrong pale" as every other infected Jim has
+fought.
 
 ## Personality
 

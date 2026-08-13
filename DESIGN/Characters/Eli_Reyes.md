@@ -1,5 +1,13 @@
 # Corporal Eli Reyes
 
+![Corporal Eli Reyes — reference portrait](spr_eli_portrait.png)
+
+> AI-generated reference portrait (2026-08-13) — a design/continuity reference only, consistent
+> with the [`Characters/README.md`](README.md) convention that "never seen alive on-screen"
+> characters can still get one. No specific appearance was previously established; this loosely
+> interprets his role (athletic K-9 handler build, a K-9 Unit shoulder patch) rather than locking
+> new canon.
+
 ## Role
 
 Ravenwood PD's K-9 unit handler — Diesel and Baxter's partner and, per the Chief's own logbook,
@@ -21,7 +29,8 @@ found — unwilling to abandon them even once things had clearly gone wrong.
 
 ## Appearance
 
-Not directly described while alive. In death (Police Station, K-9 Unit Room): uniform torn open
+Not directly described while alive beyond the reference portrait above (athletic build, short dark
+hair, K-9 Unit patch on his uniform). In death (Police Station, K-9 Unit Room): uniform torn open
 across one shoulder, slumped against the kennel wall, a leash still wrapped twice around his fist.
 
 ## Personality
