@@ -17,6 +17,16 @@ Driving to a relay site that's been offline for three days; the company has been
 reach it. Flooding and poor visibility on Highway 13 force him off the road and into Ravenwood,
 where he stops at the Ravenwood Hotel for what he intends to be a single overnight stay.
 
+## Starting Equipment
+
+Jim carries a **heavy-duty flashlight** clipped to his belt from the very start of the game —
+everyday-carry from years of working relay towers and crawl spaces at odd hours, not a pickup. This
+is locked (2026-08-12) specifically to avoid an earlier gap where he had no light source of his own
+for Chapter 1's darker spaces despite the hotel losing power. See
+[`CANON.md`](../CANON.md) and [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md)
+(Scene 2) and [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md) (Scene 2, where
+a found police flashlight was changed to spare batteries instead, since he already has his own).
+
 ## Appearance
 
 Not yet described in detail beyond general "exhausted, unshaven" self-assessment in the mirror

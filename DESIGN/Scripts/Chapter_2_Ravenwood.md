@@ -61,13 +61,15 @@ He sets it back down.
 
 ### Optional interaction — police flashlight
 
-*Interaction prompt: [TAKE FLASHLIGHT]*
+Jim already has his own clipped to his belt, but he checks this one anyway — cracked lens,
+still lit, rolling in slow half-circles against the curb. He pockets the batteries and leaves the
+rest.
 
-Jim picks up the flashlight from the gutter. Still working.
+*Interaction prompt: [TAKE BATTERIES]*
 
-*ITEM ACQUIRED: FLASHLIGHT*
+*ITEM ACQUIRED: FLASHLIGHT BATTERIES*
 
-> **JIM:** *"Better than nothing."*
+> **JIM:** *"Can always use more of these."*
 
 ### Optional interaction — traffic barrier / bollard notice
 

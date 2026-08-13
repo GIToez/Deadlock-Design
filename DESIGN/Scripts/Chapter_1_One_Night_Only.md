@@ -171,12 +171,18 @@ Jim gets out of the Jeep.
 
 Jim pops the Jeep's rear hatch. Inside — a duffel bag shoved against one side. A hard case for
 survey equipment. A toolbox with a broken latch held shut with a bungee cord. Road flares. A rain
-jacket balled up in the corner that he keeps meaning to hang up properly. He looks at it for a
-moment.
+jacket balled up in the corner that he keeps meaning to hang up properly. His heavy-duty flashlight
+sits clipped into a foam cutout in the toolbox lid — already on his belt, really, more habit than
+choice after years of climbing into relay towers and crawl spaces at odd hours. He looks at the
+rest of it for a moment.
 
 > **JIM:** *"Not unpacking in this."*
 
 He closes the hatch.
+
+> *Design note: the flashlight is part of Jim's default loadout from the start of the game, not a
+> pickup — he has it in Chapter 1 for every dark space in the hotel (the East Wing stairwell, the
+> West Wing Maintenance Room, etc.). See [`CANON.md`](../CANON.md) for the locked note on this.*
 
 ### Optional interaction — examine hotel sign
 
@@ -1223,7 +1229,8 @@ reader. The indicator light, dead a few minutes ago, now glows a steady green.
 *Interaction prompt: [OPEN STAIRWELL DOOR]*
 
 The door releases with an electronic click. Bare concrete stairs descend into the dark below, lit
-only by a single emergency light at the halfway landing. Jim heads down.
+only by a single emergency light at the halfway landing. Jim clicks on his flashlight and heads
+down.
 
 ---
 

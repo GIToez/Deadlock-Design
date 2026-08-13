@@ -30,9 +30,11 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 - A police cruiser is seen pulled over near the entrance — **Officer Dale Pruitt** dealing with an
   unclearly-seen, subtly-twitching detained driver (Pruitt's unnamed exposure point) — an early,
   deniable hint of the outbreak.
-- Optional parking-lot interactions: open the trunk (survey equipment, tools — reflecting Jim's
-  job), examine the hotel sign, examine a storm drain (metallic rattling echoes below, then
-  silence), approach the police stop (Pruitt waves Jim inside).
+- Optional parking-lot interactions: open the trunk (survey equipment, tools, and Jim's own
+  belt-clipped flashlight — his standard field-engineer everyday-carry, part of his starting
+  loadout rather than a pickup — see [`CANON.md`](../CANON.md) → "Player Starting Equipment"),
+  examine the hotel sign, examine a storm drain (metallic rattling echoes below, then silence),
+  approach the police stop (Pruitt waves Jim inside).
 - A second phone call with Sarah occurs under the hotel awning before Jim enters.
 - Jim enters through heavy (non-automatic) glass double doors into the lobby.
 

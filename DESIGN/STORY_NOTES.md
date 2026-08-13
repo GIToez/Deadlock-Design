@@ -116,6 +116,21 @@
     This only reordered/renumbered Scenes 29–35; Scene 36 onward is unaffected. Also caught and
     fixed in the process: Scenes 39–40 (West Wing Service Corridor, Courtyard Security Office) had
     been accidentally dropped during the initial rewrite and were restored.
+- **Chapter 1 audit + starting flashlight fix (2026-08-13).** A full pass over Chapter 1 caught one
+  real continuity gap: Jim explored genuinely dark, powerless spaces (the East Wing stairwell in
+  particular) with no personal light source, while Chapter 2 originally introduced a "found"
+  police flashlight framed as his first one. Resolved, approved directly by the project owner:
+  **Jim starts the entire game with his own belt-clipped flashlight** — standard field-engineer
+  everyday-carry, not a pickup. Locked in [`CANON.md`](CANON.md) → "Player Starting Equipment" and
+  [`Characters/Jim_Mercer.md`](Characters/Jim_Mercer.md). Chapter 2's police-flashlight beat (Scene
+  2) was changed from an `ITEM ACQUIRED: FLASHLIGHT` pickup to `ITEM ACQUIRED: FLASHLIGHT
+  BATTERIES` instead, since he already has his own. Two other items surfaced by the same audit are
+  still open, not yet decided: (1) Chapter 1's combat roster is very sparse for its length — only
+  Earl, Officer Pruitt, and the optional Della Marsh fight before the Caretaker boss, with no
+  generic Shambler encounters (those start in Chapter 2) — flagging in case that's worth changing
+  rather than confirmed intentional; (2) no standardized healing/consumable item name exists yet
+  across chapters (Chapter 1 says "bottled water," Chapter 2 says "basic medical supplies") — likely
+  a systems-doc concern rather than a story one.
 - The two reference screenshots (lobby layout + gameplay viewport combat shot) were shared inline
   in chat only — not saved to the repo, since inline chat images aren't accessible as real files.
   If they should become permanent reference material, they need to be pushed as actual files

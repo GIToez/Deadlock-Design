@@ -49,6 +49,16 @@ days. Flooding and poor visibility force him off Highway 13 into the isolated mo
 overnight stay. The town has already begun collapsing due to an outbreak, and the game escalates
 from grounded, slow-burn horror into full quarantine horror over the course of one night.
 
+## Player Starting Equipment
+
+Jim carries a **heavy-duty flashlight** clipped to his belt from the very start of the game — part
+of his default loadout as a field engineer's everyday-carry, not something picked up in play. This
+was locked (2026-08-12) specifically to close a gap where he had no personal light source for
+Chapter 1's dark, powerless spaces despite the hotel's outage. Established in
+[`Scripts/Chapter_1_One_Night_Only.md`](Scripts/Chapter_1_One_Night_Only.md) (Scene 2); Chapter 2's
+originally-planned "first flashlight" pickup ([`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scene 2) was
+changed to spare flashlight batteries instead, since he already has his own.
+
 ## Origin of the Outbreak
 
 The collapse of Ravenwood is tied to an outbreak connected to **Vanguard BioSystems** and
