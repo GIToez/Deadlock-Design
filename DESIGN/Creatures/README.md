@@ -27,8 +27,12 @@ A creature document may contain:
   mass of fused infected bodies; first appears in Chapter 2 after Jim's first emblem. Flags a
   locked-canon conflict in its own source concept art (see the file for details).
 - [`Unnamed_Hospital_Boss.md`](Unnamed_Hospital_Boss.md) — a hulking mutant boss proposed for the
-  not-yet-scripted Hospital chapter, one arm overgrown into an oversized clawed hand, carrying a
-  syringe; explicitly still unnamed, pending review.
+  Hospital chapter, one arm overgrown into an oversized clawed hand, carrying a syringe;
+  explicitly still unnamed, pending review.
+- [`Broodling.md`](Broodling.md) — a small, emaciated humanoid parasite creature mutated from
+  [Maria Dalton](../Characters/Maria_Dalton.md)'s unborn child during childbirth at St. Dymphna
+  Hospital; a one-off signature encounter, not a repeating enemy type. Real in-game sprite
+  uploaded (`spr_broodling.gif`, `spr_broodling_alt.gif`).
 
 Not included as separate creature entries: Earl Whitaker and Officer Dale Pruitt are named,
 recurring characters who become infected as part of their own arc — covered in `Characters/`

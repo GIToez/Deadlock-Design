@@ -140,14 +140,15 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   matching `Creatures/` files. Two approximations flagged there rather than treated as canon: the
   Caretaker's render doesn't clearly show hotel-maintenance overalls or a distinctly off-color glowing
   eye.
-- **`Reference/hospital_unnamed_boss_concept.png`** (AI-generated, 2026-08-13) — concept art for a
-  new, still-unnamed boss creature proposed for the Hospital chapter, reconstructing (not copying) two
-  reference images the project owner uploaded inline in chat (a five-pose concept sheet and a photo of
-  an unrelated third-party 3D-printed sculpture, "Biocreator" by Bogdan Stepanenko, shared for
-  silhouette/pose reference). See
-  [`Creatures/Unnamed_Hospital_Boss.md`](../Creatures/Unnamed_Hospital_Boss.md) for the full writeup
-  and the "Reference Material" section describing the uploaded images in detail, since they couldn't
-  be saved into this repo directly.
+- ~~`Reference/hospital_unnamed_boss_concept.png`~~ **(deleted, 2026-08-13, superseded).** This was
+  AI-generated concept art reconstructing a description of the Hospital Boss's uploaded reference
+  material, written before that material could actually reach the repo. The project owner has since
+  uploaded the real five-pose reference sheet directly — see
+  `Creatures/ref_hospital_boss_sheet.png`, embedded in
+  [`Creatures/Unnamed_Hospital_Boss.md`](../Creatures/Unnamed_Hospital_Boss.md) — making the
+  AI reconstruction redundant and, in places, inaccurate (it undersold the giant hand's role as the
+  creature's actual locomotion, and rendered the tranquilizer-gun-style injector as a plain
+  syringe). Deleted rather than kept as a misleading secondary reference.
 - **`Reference/hotel_red_room_concept.png` (v3), `hotel_main_bar_concept.png` (v2),
   `hotel_security_office_concept.png` (v2)** (AI-generated, 2026-08-13) — targeted fixes for
   project-owner-flagged perspective/content issues: the Red Room's framing corrected to

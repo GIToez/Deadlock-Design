@@ -348,6 +348,14 @@ timeline) and a proposed resolution, not yet approved.
   via notes/environmental clues from the dead version); no survivor's death ever hard-blocks
   progression; the game never explicitly blames the player. (Her alternate/"already turned" scene
   is described but not yet scripted — see [`Locations/Police_Station.md`](Locations/Police_Station.md).)
+  - **Tier 2b — Threshold conditional survivors (new, 2026-08-13):** a variant gated by *how many
+    emblems Jim is carrying* rather than strictly "first district visited or not." Confirmed
+    example: **[Richard Dalton](Characters/Richard_Dalton.md)**, at St. Dymphna Hospital, is alive
+    (Jim meets him fleeing the building looking for help for Maria) if the Hospital is Jim's first
+    or second district (i.e. he's carrying zero or one emblem on arrival); if Jim already holds two
+    or more emblems, Richard has already run out and been killed, and Jim finds his body instead.
+    Same underlying rule as Tier 2 above (information/outcome is always recoverable either way, no
+    hard-blocked progression) — the only difference is the specific condition checked.
 
 ## Retcons — superseded docx content (per [`AI.json`](AI.json), the newer source)
 

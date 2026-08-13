@@ -1032,6 +1032,50 @@ the next entry for the current final numbering (Scenes 22–40).
     its own creature encounter (leaning no, consistent with the Cold Cells resolution, but not
     locked). See `Locations/Police_Station.md` → "Unresolved Ideas" for the complete list.
 
+## Direction Log (continued) — Hospital chapter kickoff (2026-08-13)
+
+- **The Broodling — new creature, then corrected against the real uploaded sprite.** The project
+  owner described [Maria Dalton](Characters/Maria_Dalton.md)'s hospital fate: her unborn child is
+  mutated by Black Vein into a creature (called "the Broodling") that emerges during childbirth,
+  killing her; asked for concept art to follow and for "two new files" in the creatures folder.
+  Created [`Creatures/Broodling.md`](Creatures/Broodling.md) from the text description alone
+  first (guessed at a wrongly-shaped-infant appearance), generated an AI concept render to match.
+  The project owner then uploaded the real in-game sprite directly (`spr_broodling.gif`,
+  `spr_broodling_alt.gif`, two palette variants of the same 8-direction rotation set) — a small,
+  emaciated, hunched *parasite*-type creature, closer to a crawling gremlin than an infant, with a
+  wide tooth-filled mouth and reddened head/jaw markings. This **superseded** the text-only guess;
+  the AI-generated placeholder render was deleted, and Appearance/Behavior were rewritten to match
+  the real sprite. **The "two new files" request is still only partially resolved:** only one
+  creature was ever described/uploaded (the Broodling); per the Della Marsh/Earl Whitaker/Officer
+  Pruitt precedent (a named character who was alive on-screen before dying stays in `Characters/`,
+  not a new `Creatures/` file), Maria's own death/birth scene was documented as an update to her
+  existing [`Characters/Maria_Dalton.md`](Characters/Maria_Dalton.md) file instead of a second
+  creature file. Flagged as an open interpretation in `Broodling.md` → "Open Design Gaps" rather
+  than inventing a second creature to force the count to two.
+- **The Hospital Boss — real reference art finally uploaded, correcting the AI reconstruction.**
+  [`Creatures/Unnamed_Hospital_Boss.md`](Creatures/Unnamed_Hospital_Boss.md) was originally written
+  from a *text description* of reference art the project owner had uploaded inline in chat (which
+  never reached the repo as a real file, per the known file-access limitation), plus an AI-generated
+  reconstruction render. The project owner has now uploaded the actual five-pose reference sheet
+  directly (`Creatures/ref_hospital_boss_sheet.png`) and clarified two mechanical details the text
+  description alone hadn't made clear: **the giant clawed hand is the creature's actual means of
+  locomotion** (it rides the hand; the hand does the walking), not a perch it occasionally leans
+  on, and it doubles as an attack; the other arm's weapon is **"a medical sort of tranquilizer
+  gun,"** not a plain handheld syringe. Appearance/Behavior/Concept rewritten to match; the old
+  AI-generated placeholder render (`Assets/Reference/hospital_unnamed_boss_concept.png`) deleted as
+  superseded and, in places, inaccurate. Also proposed (not locked) a specific origin for this
+  creature — the abdominal-trauma surgical patient described in
+  [`Locations/Hospital.md`](Locations/Hospital.md) → "Outbreak Night" beat 15, whose organs kept
+  malformed-regenerating no matter what the surgical team tried — and a staff nickname, **"The
+  Surgeon,"** distinct from a confirmed real identity.
+- **St. Dymphna Hospital — the Northeast district's main location, written in full.** The project
+  owner supplied a very detailed outbreak-night account for the hospital (mirroring the Police
+  Station's own outbreak-night timeline in tone and structure: institutions trying to do their
+  jobs while Vanguard's contradictory orders and active obstruction made it impossible), plus the
+  Maria/Richard Dalton fate above and an explicit request that the two locations' records overlap
+  (shared radio calls, shared officers, the same Highway 13 shutdown). Full build logged separately
+  below once written — see "St. Dymphna Hospital — full build," further down this file.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /
