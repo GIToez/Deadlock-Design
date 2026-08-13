@@ -140,6 +140,14 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   matching `Creatures/` files. Two approximations flagged there rather than treated as canon: the
   Caretaker's render doesn't clearly show hotel-maintenance overalls or a distinctly off-color glowing
   eye.
+- **`Reference/hospital_unnamed_boss_concept.png`** (AI-generated, 2026-08-13) — concept art for a
+  new, still-unnamed boss creature proposed for the Hospital chapter, reconstructing (not copying) two
+  reference images the project owner uploaded inline in chat (a five-pose concept sheet and a photo of
+  an unrelated third-party 3D-printed sculpture, "Biocreator" by Bogdan Stepanenko, shared for
+  silhouette/pose reference). See
+  [`Creatures/Unnamed_Hospital_Boss.md`](../Creatures/Unnamed_Hospital_Boss.md) for the full writeup
+  and the "Reference Material" section describing the uploaded images in detail, since they couldn't
+  be saved into this repo directly.
 
 Several other assets have been uploaded, placed directly alongside their character files instead:
 

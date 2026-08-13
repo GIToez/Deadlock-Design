@@ -691,6 +691,31 @@ the next entry for the current final numbering (Scenes 22–40).
     in-engine screenshot or AI concept art, except the Hotel's deliberately-deprioritized minor
     pass-through spaces noted above.
 
+- **Maw sprite reference uploaded — discrepancy flagged, not resolved (2026-08-13).** The project
+  owner uploaded (inline in chat only, not as a real file) an image described as "the Maw sprite": a
+  small, in-game-scale pixel-art sprite sheet of a generic-looking crouched grey humanoid, repeated
+  seven times. It does not show the Maw's locked defining mutation (the torso splitting into a
+  vertical, tooth-lined mouth) at all — it reads much closer to the [Shambler](Creatures/Shambler.md)'s
+  design than the Maw's. Documented and flagged in [`Creatures/The_Maw.md`](Creatures/The_Maw.md) →
+  "Open Design Gaps" rather than silently used to rewrite the Maw's Appearance section or silently
+  ignored. **Needs an explicit decision from the project owner**: is this genuinely meant to be the
+  Maw's in-game sprite (requiring a real revision to the locked Appearance section), or was it
+  intended for a different creature? Left open pending that answer.
+- **Unnamed Hospital boss proposed (2026-08-13).** The project owner uploaded (inline in chat only,
+  same file-access limitation as above) a five-pose concept sheet and a photo of an unrelated
+  third-party 3D-printed sculpture ("Biocreator" by Bogdan Stepanenko, shared for silhouette/pose
+  reference only) depicting a new, explicitly **unnamed** boss creature intended for the not-yet-
+  written Hospital chapter: a hulking, aged-faced mutant, one arm overgrown into an enormous clawed
+  hand it perches/lunges on, carrying an oversized syringe in its other hand. Created
+  [`Creatures/Unnamed_Hospital_Boss.md`](Creatures/Unnamed_Hospital_Boss.md) describing both uploaded
+  images in full (since they couldn't be saved directly) and generated a fresh in-house-style concept
+  render (`Assets/Reference/hospital_unnamed_boss_concept.png`) reconstructing the design rather than
+  copying either reference image directly. Added a forward-reference note plus a Boss Encounters
+  entry to [`Locations/Hospital.md`](Locations/Hospital.md), which otherwise remains fully `_TBD_`.
+  Explicitly a proposal pending review, not locked canon — still needs a name, an origin story, a
+  full combat kit, and the rest of the Hospital chapter written around it before it's more than a
+  design placeholder.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /

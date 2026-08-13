@@ -26,6 +26,9 @@ A creature document may contain:
 - [`Zombie_Conglomerate.md`](Zombie_Conglomerate.md) — "the Zombie King," a roaming, unkillable
   mass of fused infected bodies; first appears in Chapter 2 after Jim's first emblem. Flags a
   locked-canon conflict in its own source concept art (see the file for details).
+- [`Unnamed_Hospital_Boss.md`](Unnamed_Hospital_Boss.md) — a hulking mutant boss proposed for the
+  not-yet-scripted Hospital chapter, one arm overgrown into an oversized clawed hand, carrying a
+  syringe; explicitly still unnamed, pending review.
 
 Not included as separate creature entries: Earl Whitaker and Officer Dale Pruitt are named,
 recurring characters who become infected as part of their own arc — covered in `Characters/`

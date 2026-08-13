@@ -134,3 +134,21 @@ she's alive, dead, or something in between.
 - Whether "Ashen Mutant" is a broader classification tier that other creatures (e.g. the
   Caretaker) also belong to, or a term specific to the Maw — not yet confirmed either way.
 - Sound design specifics (its scraping/impact cues) beyond what's described above.
+- **Uploaded sprite reference — flagged discrepancy, not yet reconciled (2026-08-13).** The project
+  owner uploaded an image described as "the Maw sprite": a small in-game-scale pixel-art sprite
+  sheet, seven identical repeated frames of a single crouched, grey-skinned humanoid figure — a
+  bald/hairless head of ordinary human proportions, a plain grey shirt, long thin arms reaching down
+  between bent, digitigrade-posed legs, hands/claws nearly touching the ground. Pasted directly in
+  chat only, not pushed as a real file — per the file-access limitation noted in
+  [`STORY_NOTES.md`](../STORY_NOTES.md), it can't be saved into this repo directly; describing it here
+  instead so the reference isn't lost. **This does not match the Maw's locked design above**: nothing
+  in the sprite shows the defining torso-splits-into-a-vertical-mouth mutation, the small recessed
+  head above an enormous feeding cavity, or anything visually distinct from a generic base infected.
+  It reads much closer to the [Shambler](Shambler.md)'s established design (an ordinary-looking
+  turned human, ordinary posture) than to the Maw's. Flagging rather than silently either (a)
+  overwriting the Maw's locked Appearance section to match the sprite, or (b) assuming the sprite is
+  actually meant for a different creature — this needs an explicit decision from the project owner:
+  is this genuinely intended as the Maw's in-game sprite (in which case the Appearance section above
+  needs a real revision, not just a note), or was it mislabeled/meant for something else (e.g. the
+  Shambler, or a placeholder/base rig later reskinned)? Until decided, the existing torso-mouth
+  design and its concept art above remain the locked reference, not the uploaded sprite.
