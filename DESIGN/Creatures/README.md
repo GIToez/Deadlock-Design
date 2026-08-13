@@ -33,6 +33,10 @@ A creature document may contain:
   [Maria Dalton](../Characters/Maria_Dalton.md)'s unborn child during childbirth at St. Dymphna
   Hospital; a one-off signature encounter, not a repeating enemy type. Real in-game sprite
   uploaded (`spr_broodling.gif`, `spr_broodling_alt.gif`).
+- [`Exposure_Cohort.md`](Exposure_Cohort.md) — Steelgate Refinery's signature pack encounter:
+  Foundry workers Vanguard chronically exposed to Black Vein for years, whose mutation is more
+  "settled/adapted" than a standard Shambler's one-night transformation. First-pass proposal, no
+  real reference art yet.
 
 Not included as separate creature entries: Earl Whitaker and Officer Dale Pruitt are named,
 recurring characters who become infected as part of their own arc — covered in `Characters/`

@@ -722,6 +722,17 @@ flowchart TD
   and killed an orderly — is what Jim actually finds at
   [`Locations/Hospital.md`](Hospital.md) → "Radiology." One of several direct crossover documents
   between the two locations' shared night.
+- **Dispatch radio log, "Foundry requesting additional ambulances" / "Negative. Vanguard
+  containment directive now active." / "I've got thirty injured people here." / "I know."**
+  (Records/Dispatch, added 2026-08-13) — RPD's side of the same exchange logged from the other end
+  at [`Locations/Foundry_Refinery.md`](Foundry_Refinery.md), beat 13; one of the earliest signs the
+  night's first casualties came from the Foundry, not the town itself.
+- **A fragmentary, mostly-unreadable transmission — "...not a chemical...", "...Vanguard
+  knew...", "...mine is the...", then static** (Records/Dispatch, added 2026-08-13) — the
+  incomplete police-side half of the Foundry manager's urgent warning
+  ([`Locations/Foundry_Refinery.md`](Foundry_Refinery.md), beat 17); officers never had enough
+  time or context that night to understand what it meant. Deliberately presented as a genuine
+  puzzle piece here — full context only available after visiting the Foundry.
 - **The Chief's final broadcast** (Records/Dispatch, audio recording) — publicly overriding
   Vanguard's containment order over the emergency network; ends on gunfire and static. Immediately
   preceded (added 2026-08-13) by a recorded exchange with St. Dymphna Hospital — *"RPD, are you

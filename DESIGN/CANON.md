@@ -103,6 +103,20 @@ beneath Memorial Park was constructed at the same time as the town itself (1887)
 mechanism of the outbreak (how containment failed, why it happened now) is not yet established —
 see [`STORY_NOTES.md`](STORY_NOTES.md).
 
+**Black Vein is a natural formation, not something Vanguard manufactured or imported (proposed
+2026-08-13, pending review).** It runs through the natural cave system beneath the mountains
+around Ravenwood — the 1887 Memorial Park facility was built directly on top of it as the town's
+original, oldest access point. A second, later access point was established at
+**[Steelgate Refinery](Locations/Foundry_Refinery.md)** starting in **1968**, when Vanguard began
+using the working industrial site as long-term cover to excavate toward the same vein network from
+a different direction. The two sites are **not physically connected** — Vanguard deliberately
+compartmentalized them, so nothing Jim finds/experiences at the Foundry in Chapter 2 provides a
+shortcut into Chapter 3's facility, or vice versa. This means Ravenwood's outbreak has two
+supporting origin threads rather than one: the original 1887 facility (Chapter 3's reveal) and a
+separate, decades-long industrial exploitation/exposure operation at the Foundry (see
+[`Locations/Foundry_Refinery.md`](Locations/Foundry_Refinery.md) → "Outbreak Night"), both
+converging on the same underlying phenomenon.
+
 ## Major Character Relationships
 
 - [Jim Mercer](Characters/Jim_Mercer.md) is married/partnered to
@@ -306,10 +320,21 @@ early hint that Vanguard's reach into the town predates the outbreak.
 - **Dr. Nathaniel Voss** — St. Dymphna Hospital's founding physician (1887); one of
   Ravenwood/Vanguard's five founders. His name and portrait appear on the **Medical Crest**,
   recovered from a display case in the hospital's own chapel — see
-  [`Locations/Hospital.md`](Locations/Hospital.md). The remaining three founders' names are not
-  yet decided (a damaged in-world document at the Police Station defers them intentionally — see
-  [`Locations/Police_Station.md`](Locations/Police_Station.md)); when chosen, they should feel
-  consistent with Hale's and Voss's period-appropriate naming.
+  [`Locations/Hospital.md`](Locations/Hospital.md).
+- **Elias Thorne** — Steelgate Refinery's founder (1887); one of Ravenwood/Vanguard's five
+  founders. His name and portrait appear on the **Industry Crest**, recovered from a display case
+  in the Refinery's own founder's boardroom — see
+  [`Locations/Foundry_Refinery.md`](Locations/Foundry_Refinery.md). The remaining two founders'
+  names are not yet decided (a damaged in-world document at the Police Station defers them
+  intentionally — see [`Locations/Police_Station.md`](Locations/Police_Station.md)); when chosen,
+  they should feel consistent with Hale's, Voss's, and Thorne's period-appropriate naming.
+- **Plant Manager Daniel Fitch** — Steelgate Refinery's manager on the night of the outbreak; a
+  Vanguard collaborator by omission for years (confidentiality agreements, ignored irregularities)
+  rather than by malice, who breaks with Vanguard once he understands what "evacuation poses an
+  unacceptable contamination risk" actually means. See
+  [`Locations/Foundry_Refinery.md`](Locations/Foundry_Refinery.md) → "Outbreak Night." His
+  ultimate fate is deliberately unresolved, same convention as the Police Station's Chief and the
+  Hospital's Liaison.
 - (The character/founder additions above are new as of 2026-08-13 — see
   [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–40, and
   [`STORY_NOTES.md`](STORY_NOTES.md) for context on what was proposed versus already locked.)

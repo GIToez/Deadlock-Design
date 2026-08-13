@@ -211,6 +211,29 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   [`spr_broodling_alt.gif`](../Creatures/spr_broodling_alt.gif) (real sprites) for this district's
   two new creatures.
 
+- **`Reference/foundry_*.png`** (16 files, AI-generated, 2026-08-13) — full room-concept coverage
+  for [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md), the Northwest
+  District's newly-written main location: `foundry_loading_yard_concept.png`,
+  `foundry_casting_hall_concept.png`, `foundry_clinic_concept.png`,
+  `foundry_break_room_concept.png`, `foundry_managers_office_concept.png`,
+  `foundry_vanguard_site_office_concept.png`, `foundry_restricted_elevator_concept.png`,
+  `foundry_exposure_records_concept.png`, `foundry_research_bay_concept.png`,
+  `foundry_security_checkpoint_concept.png`, `foundry_old_mine_workings_concept.png`,
+  `foundry_boardroom_concept.png`, `foundry_black_vein_cavern_concept.png` (the district's
+  climactic reveal room), and three secondary-location renders:
+  `foundry_machine_shops_concept.png`, `foundry_loading_docks_concept.png`, and
+  `foundry_rail_yard_concept.png`. Style-anchored to existing Police Station/Hospital room
+  concepts throughout. Several renders repeated the recurring "Ravencroft" naming-generation error
+  (Machine Shops, Loading Docks, Rail Yard signage) and the Manager's Office/Founder's Boardroom
+  each invented wrong plant/founder names — all flagged as generation errors in each render's
+  caption in [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) rather than
+  adopted; this district's plant and founder are locked as **Steelgate Refinery** and
+  **Elias Thorne**. Also see
+  [`Reference/exposure_cohort_concept.png`](Reference/exposure_cohort_concept.png) (embedded in
+  [`Creatures/Exposure_Cohort.md`](../Creatures/Exposure_Cohort.md)) for this district's new
+  signature creature — a first-pass, unreviewed proposal, unlike the Broodling/Hospital Boss which
+  were corrected against real uploaded reference art.
+
 Several other assets have been uploaded, placed directly alongside their character files instead:
 
 - `Characters/spr_cindy_jumpscare.gif` — embedded in

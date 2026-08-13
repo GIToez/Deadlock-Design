@@ -592,6 +592,15 @@ flowchart TD
   Police Station's own final-broadcast material.
 - **Vanguard Quarantine Checkpoint logs** (secondary location) — cross-references the Police
   Station's "Emergency Public Safety Directive 7" and the Highway 13 confrontation directly.
+- **Hospital intake mismatch note, "Ambulance Three arrived with two"** (Ambulance Bay, added
+  2026-08-13) — the hospital-side half of a discrepancy also logged at
+  [`Locations/Foundry_Refinery.md`](Foundry_Refinery.md) ("Ambulance Three departed with four
+  casualties"), beat 6; the two missing patients were pulled off at a Vanguard checkpoint before
+  ever reaching St. Dymphna.
+- **Early triage chart noting an unexplained industrial-trauma cluster** (Emergency Department,
+  added 2026-08-13) — the hospital's first, uncontextualized cases from Steelgate Refinery, before
+  anyone realized what was happening underground there; see
+  [`Locations/Foundry_Refinery.md`](Foundry_Refinery.md) → "Outbreak Night," beats 4–7.
 
 ## Major Scripted Events
 

@@ -1125,6 +1125,88 @@ the next entry for the current final numbering (Scenes 22–40).
     `Scripts/` file (this location is at the same location-design/prose level the Police Station
     was at before its own scripting pass).
 
+- **Steelgate Refinery — the Northwest district's main location, written in full (2026-08-13).**
+  The project owner supplied a 22-beat outbreak-night account for the Foundry, explicitly framed
+  as the *earliest* piece of the same shared night — *"the police station sees the consequences,
+  the hospital receives the injured, but the Foundry is physically connected to the cave system
+  containing Black Vein, making it the closest civilian-industrial site to the source"* — and
+  distinguished thematically from both other locations: *"Police Station: Vanguard turned the
+  people protecting Ravenwood into an extension of their containment system. Hospital: Vanguard
+  turned Ravenwood's injured into research assets. Foundry: Vanguard turned Ravenwood's workers
+  into long-term exposure subjects and built an entire industrial operation over the source."*
+  [`Locations/Foundry_Refinery.md`](Locations/Foundry_Refinery.md) was rewritten from its original
+  `_TBD_` placeholder into a full main-location file matching the Police Station and Hospital's
+  density, per [`CANON.md`](CANON.md) → "District Main-Location Design Standard":
+  - **"Outbreak Night — What Actually Happened"** — a 22-beat timeline (the Foundry's decades-long
+    compromise and secret "EXPOSURE COHORT" occupational-surveillance program, the storm-night
+    underground alarm and impact, the first injured workers surfacing, Vanguard's "DO NOT EVACUATE"
+    order, the ambulance-transfer discrepancy, the nurse being told not to treat the injured, the
+    restricted lower levels going silent, workers attempting to flee and being met with Vanguard
+    rifles, Plant Manager Daniel Fitch's confrontation with the Vanguard liaison, the first full
+    mutation, Vanguard arriving to secure research rather than rescue anyone, police growing
+    suspicious, workers discovering the underground Vanguard facility and their own 12-year
+    exposure files, Fitch's evacuation order, the lower containment seal failing, the Foundry's
+    fragmentary warning to police, the citywide highway lockdown beginning as a direct consequence,
+    some workers escaping into town, the plant's three-way internal fracture, Vanguard abandoning
+    the site under the internal designation **"SITE LOSS ACCEPTABLE,"** and the final broadcast —
+    *"They didn't find this thing tonight. They've been digging at it for years."*) — explicitly
+    cross-referenced beat-by-beat against both [`Locations/Police_Station.md`](Locations/Police_Station.md)
+    and [`Locations/Hospital.md`](Locations/Hospital.md)'s own timelines via a new "How the Three
+    Outbreak Stories Connect" comparison table, per the project owner's explicit request that all
+    three institutions feel like one continuous catastrophe.
+  - **Full room/blueprint build:** Loading Yard → Casting Hall (hub, gating the Plant Manager's
+    Office, the Vanguard Site Office, and the Restricted Elevator) → Foundry Clinic → Break Room →
+    Manager's Office → Vanguard Site Office (needs a key from the secondary Loading Docks) →
+    Restricted Elevator → Exposure Records Room → Research Bay → Security Checkpoint (needs a
+    Cutting Torch from the secondary Machine Shops; this district's signature pack encounter) →
+    Old Mine Workings (optional) → Founder's Boardroom (Industry Crest) → the Black Vein Cavern (a
+    mandatory, non-combat climax reached only *after* the crest, not gating it), plus three
+    secondary locations (Machine Shops, Loading Docks, Rail Yard) pulled from the already-
+    cross-validated city map's own "tracks lead into the mountain — Black Vein's entry point"
+    detail. Five mermaid blueprint diagrams, same convention as the Hotel, Police Station, and
+    Hospital.
+  - **New creature, proposed: the Exposure Cohort** — chronically, long-term exposed Foundry
+    workers whose mutation is more "settled/adapted" than a standard Shambler's one-night
+    transformation, filling the same structural role as the Ashen Hound pair and "The Surgeon" as
+    this district's signature encounter. Unlike the Broodling and Hospital Boss, this one has **no
+    real uploaded reference art** — a first-pass, unreviewed proposal built directly from the
+    source material's own "EXPOSURE COHORTS" detail, flagged as more speculative than those two.
+  - **New founder named: Elias Thorne**, Steelgate Refinery's founder, keeper of the Industry
+    Crest — added to [`CANON.md`](CANON.md) → "Named Characters Confirmed" alongside Marshal
+    Josiah Hale and Dr. Nathaniel Voss. **New named character: Plant Manager Daniel Fitch** — the
+    Foundry's own Chief-equivalent, whose fate is deliberately left unresolved, same convention.
+  - **New `CANON.md` addition: Black Vein is a natural cave-system formation**, not manufactured,
+    with the 1887 Memorial Park facility as its original access point and a **second, later
+    (1968) access point at the Foundry** — the two are explicitly *not* physically connected
+    (Vanguard deliberately compartmentalized them), so nothing here provides a shortcut into
+    Chapter 3's still-`_TBD_` facility. This resolves what could otherwise have been read as
+    redundant with Chapter 3's own planned Black Vein reveal — the Foundry shows Jim the raw
+    phenomenon itself as a mid-game gut-punch; Chapter 3 is reserved for the full facility and its
+    complete history.
+  - **Direct crossover documents added to both
+    [`Locations/Police_Station.md`](Locations/Police_Station.md) and
+    [`Locations/Hospital.md`](Locations/Hospital.md):** the Foundry/RPD dispatch exchange about
+    additional ambulances, the fragmentary "Vanguard knew... the mine is the source" transmission
+    (Police Station), and the Ambulance Three casualty-count mismatch plus an early unexplained
+    industrial-trauma triage cluster (Hospital) — satisfying the project owner's explicit request
+    that all three locations' records overlap directly.
+  - **16 new AI-generated room concepts** — full visual coverage for the entire new location in one
+    pass (13 main-plant/underground rooms plus 3 secondary locations), logged in
+    [`Assets/README.md`](Assets/README.md), plus one new creature concept. Several renders repeated
+    the same "Ravencroft" naming-generation error seen at the Police Station, the Manager's Office
+    invented a wrong plant name/founding date, and the Founder's Boardroom invented five wrong
+    portrait names instead of Elias Thorne — all flagged in each render's caption rather than
+    adopted, plus one render (the Break Room) that visually carried over police-specific set
+    dressing from its own style-reference image.
+  - **Not done in this pass:** individual `Items/Key_Items/` writeups for this district's seven new
+    key items (Manager's Office Key, Restricted Elevator Access Card, Vanguard Site Key, Research
+    Bay Key, Cutting Torch, Boardroom Key, Industry Crest) — flagged as the next natural pass,
+    matching the Police Station and Hospital's own pattern. Also not done: scene-by-scene
+    scripting into a `Scripts/` file, a unique named boss creature beyond the Exposure Cohort pack
+    encounter, and any explicit tie-in between specific already-encountered creatures and named
+    Foundry employees (a compelling idea floated directly by the source material, deliberately not
+    locked without further review).
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /
