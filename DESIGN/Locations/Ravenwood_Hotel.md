@@ -719,37 +719,42 @@ flowchart TD
 
 ## Key Items
 
-- **Manager's Key** — taken from Earl Whitaker's body; opens the staff hallway to the Manager's
-  Office.
+- **Manager's Key** ([full item writeup](../Items/Key_Items/Managers_Key.md)) — taken from Earl
+  Whitaker's body; opens the staff hallway to the Manager's Office.
 - **Baseball Bat** — Jim's first weapon, grabbed from wrecked lobby furniture during the Earl
   Whitaker attack. Confirmed (2026-08-13) as the
   **["Roadwrecker" Baseball Bat](../Weapons/Roadwrecker_Baseball_Bat.md)** — a wooden bat, not
   aluminum as the source weapons document originally stated; corrected there to match this file's
   and the script's "smooth worn wood" description.
-- **Screwdriver** — found in the East Wing's Utility Room; its only use is opening the fuse
-  housing at the breaker panel (both to confirm the blown West Wing fuse and to install the
-  replacement).
-- **Auxiliary Fuse** — recovered from the West Wing Maintenance Room (guest floor, near the West
-  Public Stairwell); installed at the breaker panel to restore West Wing power.
+- **Screwdriver** ([full item writeup](../Items/Key_Items/Screwdriver.md)) — found in the East
+  Wing's Utility Room; its only use is opening the fuse housing at the breaker panel (both to
+  confirm the blown West Wing fuse and to install the replacement).
+- **Auxiliary Fuse** ([full item writeup](../Items/Key_Items/Auxiliary_Fuse.md)) — recovered from
+  the West Wing Maintenance Room (guest floor, near the West Public Stairwell); installed at the
+  breaker panel to restore West Wing power.
 - **Handgun** — the game's first firearm, taken from Officer Pruitt inside the crashed cruiser
   (Scene 41). Confirmed (2026-08-13) as the
   **["Sentinel-9" Service Pistol](../Weapons/Sentinel_9_Service_Pistol.md)**. Any Handgun
   Ammunition collected earlier automatically loads into it — see below.
-- **Housekeeping Closet Key** — taken from Fennimore's body in the courtyard (Scene 42); opens the
-  Housekeeping Closet on the guest floor's east hallway, between Rooms 114 and 116 (Scene 43).
-- **Gate Crank Handle** — found in the Housekeeping Closet (Scene 43); the manual override needed
-  to work the courtyard's north gate release by hand (Scenes 45–46).
+- **Housekeeping Closet Key** ([full item writeup](../Items/Key_Items/Housekeeping_Closet_Key.md))
+  — taken from Fennimore's body in the courtyard (Scene 42); opens the Housekeeping Closet on the
+  guest floor's east hallway, between Rooms 114 and 116 (Scene 43).
+- **Gate Crank Handle** ([full item writeup](../Items/Key_Items/Gate_Crank_Handle.md)) — found in
+  the Housekeeping Closet (Scene 43); the manual override needed to work the courtyard's north
+  gate release by hand (Scenes 45–46).
 
 ### Consumables (optional, non-mandatory)
 
-- **Medkit** — the game's standardized healing item name (see
-  [`STORY_NOTES.md`](../STORY_NOTES.md) for the naming decision). Found in: a guest-room suitcase
-  on the second-floor east hallway (Scene 30), the East Wing Pantry (Scene 31), the West Wing
-  Liquor Storage (Scene 37), and the West Wing Staff Room locker (Scene 37) — four total.
-- **Handgun Ammunition** — found before the handgun itself, which is a deliberate genre-standard
-  pattern (stockpile ready for when the gun arrives). Found in: the East Wing Utility Room supply
-  drawer (Scene 32), the West Wing Staff Room locker (Scene 37), and the Courtyard Security Office
-  desk drawer (Scene 40) — three total, plus what's taken directly from Officer Pruitt's body.
+- **Medkit** ([full item writeup](../Items/Consumables/Medkit.md)) — the game's standardized
+  healing item name (see [`STORY_NOTES.md`](../STORY_NOTES.md) for the naming decision). Found in:
+  a guest-room suitcase on the second-floor east hallway (Scene 30), the East Wing Pantry (Scene
+  31), the West Wing Liquor Storage (Scene 37), and the West Wing Staff Room locker (Scene 37) —
+  four total.
+- **Handgun Ammunition** ([full item writeup](../Items/Consumables/Handgun_Ammunition.md)) — found
+  before the handgun itself, which is a deliberate genre-standard pattern (stockpile ready for when
+  the gun arrives). Found in: the East Wing Utility Room supply drawer (Scene 32), the West Wing
+  Staff Room locker (Scene 37), and the Courtyard Security Office desk drawer (Scene 40) — three
+  total, plus what's taken directly from Officer Pruitt's body.
 
 ### Documents (full text written — see [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md) for verbatim content)
 

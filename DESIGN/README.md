@@ -13,7 +13,9 @@ DESIGN/
 ├── Creatures/             # One file per important creature type / major unique creature
 ├── Locations/             # One file per major location (complete design for that location)
 ├── Weapons/               # One file per weapon (stats, description, concept art)
-├── Items/                 # One file per consumable/utility item (effects, description, concept art)
+├── Items/                 # One file per consumable/key item (effects, description, concept art)
+│   ├── Consumables/       # Health, ammo, throwables
+│   └── Key_Items/         # Keys, tools, unique story-critical objects
 └── Scripts/               # Programmer-facing, scene-by-scene game scripts (dialogue + actions)
 ```
 

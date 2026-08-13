@@ -411,17 +411,23 @@ flowchart TD
 
 ## Key Items
 
-- **Chief's Office Key** — from Sergeant Calloway (or her body); opens the Chief's Office.
-- **Old Station Skeleton Key** — Chief's Office desk; opens the breezeway door into the old station
-  house.
-- **Armory Key** — from Corporal Reyes' body (K-9 Unit Room); opens the armory.
-- **Shotgun** + **Shotgun Shells x12** — armory. Confirmed (2026-08-13) as the
+- **Chief's Office Key** ([full item writeup](../Items/Key_Items/Chiefs_Office_Key.md)) — from
+  Sergeant Calloway (or her body); opens the Chief's Office.
+- **Old Station Skeleton Key** ([full item writeup](../Items/Key_Items/Old_Station_Skeleton_Key.md))
+  — Chief's Office desk; opens the breezeway door into the old station house.
+- **Armory Key** ([full item writeup](../Items/Key_Items/Armory_Key.md)) — from Corporal Reyes'
+  body (K-9 Unit Room); opens the armory.
+- **Shotgun** + **Shotgun Shells x12** ([full item writeup](../Items/Consumables/Shotgun_Shells.md))
+  — armory. Confirmed (2026-08-13) as the
   **["Ranger 870" Pump Shotgun](../Weapons/Ranger_870_Pump_Shotgun.md)**.
-- **Pocketknife** (optional) — Booking & Processing; utility/flavor item, no confirmed mechanical
-  use yet.
-- **Bolt Cutters** — Fire Station; opens the Property & Evidence Room's padlock.
-- **Evidence Room Key** — Property & Evidence Room; opens the Courthouse's Clerk's Exhibit Storage.
-- **Authority Crest** — the district's founder's emblem; old station house display case.
+- **Pocketknife** (optional, [full item writeup](../Items/Key_Items/Pocketknife.md)) — Booking &
+  Processing; utility/flavor item, no confirmed mechanical use yet.
+- **Bolt Cutters** ([full item writeup](../Items/Key_Items/Bolt_Cutters.md)) — Fire Station; opens
+  the Property & Evidence Room's padlock.
+- **Evidence Room Key** ([full item writeup](../Items/Key_Items/Evidence_Room_Key.md)) — Property
+  & Evidence Room; opens the Courthouse's Clerk's Exhibit Storage.
+- **Authority Crest** ([full item writeup](../Items/Key_Items/Authority_Crest.md)) — the
+  district's founder's emblem; old station house display case.
 
 ### Documents
 

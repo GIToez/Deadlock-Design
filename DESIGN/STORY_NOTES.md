@@ -883,6 +883,43 @@ the next entry for the current final numbering (Scenes 22–40).
   attempt after rephrasing to "camping machete-style tool" and dropping the reference image.
   **Every weapon in [`Weapons/`](Weapons/README.md) now has concept art** — four real sprites, and
   seven AI-generated icons.
+- **Items folder audit and Consumables/Key_Items split (2026-08-13).** Project owner asked for the
+  same folder/file/concept-art treatment for `Items/`, and clarified an important design fact
+  first: the physical-key and keycard sprites were **designed to be reused across multiple
+  different key items**, not as unique art per named key — so a shared icon between two items
+  doesn't mean they're the same item. Restructured `Items/` into two subfolders,
+  [`Consumables/`](Items/Consumables/README.md) and [`Key_Items/`](Items/Key_Items/README.md), and
+  audited every item already established across `Locations/Ravenwood_Hotel.md`,
+  `Locations/Police_Station.md`, and `Locations/Memorial_Park.md` (not just the ones with a real
+  uploaded sprite), giving each its own file:
+  - **Consumables (7):** Medkit, Small Medkit (a visually distinct second healing-item sprite with
+    no established mechanical difference from Medkit yet — flagged as an open design gap, not
+    resolved), Handgun Ammunition, Shotgun Shells, Rifle Ammo (for the not-yet-placed Vanguard
+    M-15 — matches that weapon's own "not yet placed" status), and the two existing throwables
+    (Molotov Cocktail, Pipe Bomb), moved into the new subfolder.
+  - **Key Items (13):** every key/tool/unique object already named in the Hotel's, Police
+    Station's, and Memorial Park's "Key Items" sections — Manager's Key, Housekeeping Closet Key,
+    Gate Crank Handle, Screwdriver, Auxiliary Fuse (Hotel); Chief's Office Key, Old Station
+    Skeleton Key, Armory Key, Evidence Room Key, Bolt Cutters, Pocketknife, Authority Crest
+    (Police Station); Bollard Override Keycard (Memorial Park). Four of these (Gate Crank Handle,
+    Bolt Cutters, Pocketknife, Authority Crest) had no real sprite, so got a new AI-generated icon
+    each, matching the weapon-icon style; the rest reuse the real uploaded key/keycard sprites per
+    the reuse note above — `spr_managerKey.png`, `spr_maintenanceKey.png` (typo-corrected from
+    `spr_MaitenanceKey.png`), and `spr_graveyardKey.png` are distributed arbitrarily across the
+    plain "key" items (Manager's Key, Armory Key get one; Chief's Office Key, Evidence Room Key,
+    Old Station Skeleton Key get another) with an explicit note in each file that this is a
+    cosmetic assignment, not a canon fact.
+  - **Confirmed exact match:** `spr_keycard.png`'s flavor (orange/white laminated card) and the
+    already-scripted "Ravenwood Emergency Management keycard" / "BOLLARD OVERRIDE KEYCARD" item
+    (Memorial Park guardhouse, `Scripts/Chapter_2_Ravenwood.md` Scene 8) are unambiguously the same
+    item — no hedging needed, unlike the weapon placements.
+  - Added cross-links back from `Locations/Ravenwood_Hotel.md`, `Locations/Police_Station.md`, and
+    `Locations/Memorial_Park.md`'s existing "Key Items" prose to each new `Items/` file, the same
+    pattern used for the confirmed weapon placements above.
+  - **Not included in this pass:** the various in-fiction *documents* already tracked in each
+    location's own "Documents" section (guest ledger, incident reports, maintenance logs, etc.) —
+    those are lore text, not inventory items, and stay where they are rather than getting `Items/`
+    files.
 
 ## Still-Open Questions
 

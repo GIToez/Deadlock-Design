@@ -109,7 +109,8 @@ eerie" first impression.
 
 ## Key Items
 
-- **Bollard Override Keycard** — found on the guardhouse desk; lowers the street bollards.
+- **Bollard Override Keycard** ([full item writeup](../Items/Key_Items/Bollard_Override_Keycard.md))
+  — found on the guardhouse desk; lowers the street bollards.
 - **Ravenwood Memorial Park Map** — found on the guardhouse corkboard; added to inventory.
 
 ### Documents (full text — see [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md))

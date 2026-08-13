@@ -1,6 +1,6 @@
 # "Molotov Cocktail"
 
-> Transcribed from [`Deadlock Weapons and Items.docx`](../Deadlock%20Weapons%20and%20Items.docx),
+> Transcribed from [`Deadlock Weapons and Items.docx`](../../Deadlock%20Weapons%20and%20Items.docx),
 > uploaded 2026-08-13. Category: Consumables Set (Throwables).
 
 ## Description
