@@ -1372,7 +1372,7 @@ fuse.
 
 A maintenance log sits beside the box, most of its pages routine. The most recent entry, dated
 weeks ago: *"Pulled spare fuse stock up to 2F storage after basement flooding damaged the east
-supply closet. Note for whoever finds this — check up here first."* Jim sets it back down.
+supply closet. Note for whoever finds this — check up here first. — R.B."* Jim sets it back down.
 
 > **JIM:** *"Wish I'd read that first."*
 

@@ -459,7 +459,12 @@ flowchart TD
   auxiliary power.
 - Guest ledger (Manager's Office) — room assignments for Jim, Cindy, Janeth, Maria & Richard.
 - Incident report (Manager's Office) — Maria Dalton transported to St. Dymphna Hospital, 11:42 PM.
-- Maintenance note (East Wing Maintenance Closet) — points to the West Wing fuse relocation.
+- Maintenance note (East Wing Maintenance Closet, signed "R.B.") — points to the West Wing fuse
+  relocation.
+- Maintenance log (West Wing Maintenance Room, signed "R.B.") — explains why the spare fuse stock
+  ended up on the guest floor after a basement flood. Along with the East Wing note, this is a
+  subtle, unconfirmed early hint at Roy Bullock's identity (only his initials, not his full name)
+  — see the courtyard shed log below for where his full name is actually confirmed.
 - VERN terminal label (Manager's Office) — "RAVENWOOD MUNICIPAL EMERGENCY NETWORK / VANGUARD
   EMERGENCY RESPONSE NODE — TERMINAL 07."
 - **Della Marsh's booking slip and personal note** (Red Room backstage, Scene 38) — establishes
