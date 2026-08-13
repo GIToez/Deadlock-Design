@@ -1244,6 +1244,17 @@ packed. Tucked inside a folded shirt — a small first-aid kit, unopened.
 
 *ITEM AVAILABLE (optional): Medkit.*
 
+Further down, Rooms 114 and 116 sit closed and quiet, nothing distinguishing them from any other
+door on this floor. Between them, a narrower door marked **HOUSEKEEPING** doesn't budge when Jim
+tries it — locked, not barricaded, just a normal locked closet with nothing urgent behind it as far
+as he can tell right now.
+
+> **JIM:** *"Not today, I guess."*
+
+> *Design note: this is a deliberate plant — Rooms 114/116 and the Housekeeping Closet become
+> relevant much later (see Scene 43). Nothing about this first pass should read as ominous; it's
+> meant to be forgettable.*
+
 At the far end, a door marked **EAST STAIRWELL — GUEST ACCESS** sits behind a keycard
 reader. The indicator light, dead a few minutes ago, now glows a steady green.
 
@@ -1420,28 +1431,7 @@ Beyond it — a short, plain corridor leading directly back toward the lobby.
 
 Through the shortcut and back into the lobby, Jim heads up the Grand Staircase once more and back
 across the west hallway — quiet now, Room 106's door shut and still since he last stood in front
-of it.
-
-Halfway down, a door he'd already mentally filed as "checked" — one of the ones he passed without a
-second look on the way to Cindy's — bangs open hard enough to hit the wall, and something comes
-through it fast, low, and wrong. Jim's first move is the obvious one: he steps back, putting
-distance between himself and it, the way anyone would.
-
-Which is exactly when the door directly behind him does the same thing.
-
-> **JIM:** *"—oh, come ON—"*
-
-*Combat: Shambler ×2 (pincer).* The two of them close from opposite doors at the same time — no
-clean retreat line, no room to just back away from both. First real "surrounded" moment of the
-chapter; the player has to commit to one side and clear it fast rather than kite either one down
-the hallway.
-
-> *Design note: this is a deliberate escalation from every earlier Shambler encounter in the
-> chapter (all one-on-one so far) — the hallway's the tightest space Jim's fought in yet, and it's
-> the first time the game removes the option to just walk away from a fight. Placed here
-> specifically because the player already walked this exact hallway once, uneventfully, on the way
-> to check on Cindy (Scene 29) — this is the second pass, and the game punishes the assumption that
-> "already checked" means "still clear."*
+of it. Whatever's on the other side of that door isn't following.
 
 A few doors past it, near the west stairwell landing, a door marked **MAINTENANCE** sits
 closed — not locked, just shut, the way service doors usually are when nobody's using them. Jim
@@ -1824,50 +1814,134 @@ parked the Jeep. The rain hits him immediately — cold and heavy, the kind that
 thirty seconds regardless of what you're wearing. The courtyard stretches out ahead — enclosed on
 all sides by the hotel walls and a perimeter fence. Stone walkways cracked and dark with water. A
 fountain at the center, overflowing, water running off across the pavement in every direction.
-Overgrown hedges along the fence line. Rusted benches nobody has sat on in years. Emergency
-floodlights mounted along the hotel exterior throwing pale uneven light across the wet stone.
+Overgrown hedges along the fence line. Rusted benches nobody has sat on in years. Floodlights
+mounted along the hotel exterior blaze at full strength now, running off the same power Jim spent
+the last hour restoring — the one part of the courtyard that isn't fighting him tonight.
 
-At the far end — the north gate. Heavy. Closed. A small warning light beside the gate mechanism
-blinks red.
+At the far end — the north gate. Heavy steel-framed, hinged into the old perimeter wall, clearly
+retrofitted at some point to serve as the building's official emergency exit. A motor housing sits
+beside it, quiet. Jim tries the release panel.
 
 *Interaction prompt: [USE GATE]*
 
-**ACCESS DENIED. GENERATOR FAILURE.**
+**MANUAL RELEASE REQUIRED. CRANK HANDLE NOT PRESENT.**
 
-> **JIM:** *"You've gotta be kidding me..."*
+> **JIM:** *"...Of course it's not."*
 
-In the rear corner of the courtyard — a fenced maintenance area contains a silent industrial
-backup generator. Electrical conduit running from it toward the gate system. Beside the
-generator — a maintenance shed. Heavy padlocked doors. Something has warped them badly from
-inside. Jim looks at the shed for a moment. Then he goes to work on the generator.
+A small placard bolted beside the motor housing spells it out: *IN THE EVENT OF POWER FAILURE, USE
+MANUAL RELEASE. HANDLE STORED SEPARATELY PER SECURITY PROTOCOL.* Nothing tells him where. He looks
+around the rest of the courtyard for another way, or another answer.
+
+In the rear corner — a chained-shut maintenance shed. Heavy padlocked doors. Something has warped
+them badly from the inside. Jim doesn't try them.
+
+Near the base of the gate, half in the hedges — a body. Security uniform, badge still pinned. Jim
+crouches beside him.
+
+> **JIM:** *"...Fennimore."*
+
+A folded, rain-softened note is tucked into his jacket pocket, and a key ring still clipped to his
+belt.
+
+*Interaction prompt: [SEARCH BODY]*
+
+*ITEM ACQUIRED: HOUSEKEEPING CLOSET KEY*
+
+### Optional interaction — Fennimore's note
+
+> If anyone finds this — the maintenance guy is not okay. Found him out here around midnight,
+> already gone in a way I don't have words for. Made the call to chain the shed shut instead of
+> going near him. Seemed like the right call at the time.
+>
+> Tried the north gate to get out and radio it in from a working unit. No handle on the release. Of
+> course. It's in the 2F east housekeeping closet — I know because I put it there myself last
+> spring after some kid tried to let himself out through here on a dare.
+>
+> Going to try to get back inside and around to the closet. If I don't make it, whoever finds this —
+> the handle's up there. Room's between 114 and 116.
+
+The rest of the page is blank. Jim folds it, puts it in his pocket, and looks at the gate a moment
+longer than he needs to.
+
+> **JIM:** *"...Yeah. I hear you."*
 
 > *Camera note: as with the Lobby (Scene 5), the courtyard description above covers the whole
-> space for orientation — the gate, the generator/shed corner, and the fountain reveal
+> space for orientation — the gate, the shed corner, the fountain, and Fennimore's body reveal
 > progressively as Jim walks the courtyard, not all at once.*
 
 ---
 
-## SCENE 43 — GENERATOR RESTORATION
+## SCENE 43 — EAST WING HOUSEKEEPING CLOSET
 
-The generator hasn't been started in a while — that much is obvious. Fuel valve partially closed.
-Pressure dropped. Ignition contacts corroded at the terminals. Jim works through it methodically.
-Fuel valve open. Terminals cleaned with what he has available. Pressure checked. Ignition primed.
-He's done this kind of thing in worse conditions than a rainstorm in a hotel courtyard. Different
-equipment, different location, same basic logic — find the problem, address it in the right order,
-don't rush the steps.
+Back inside, back up the Grand Staircase, across the second-floor east hallway — the same stretch
+Jim already walked once tonight, on the way to the East Public Stairwell. Rooms 114 and 116 are
+exactly where he left them. Closed. Quiet. Already checked, as far as he's concerned.
 
-He hits the ignition. The generator turns over. Coughs. Dies. He adjusts the choke. Tries again.
+Jim fits Fennimore's key into the Housekeeping Closet door between them. It turns. As the door
+swings open —
 
-**The generator roars to life.** The entire courtyard shakes from the startup. Floodlights along
-the hotel walls blaze on at full power — the courtyard suddenly too bright after hours of
-emergency red. The gate system begins powering back online. For a moment — just a moment — the
-only sound is the generator and the rain.
+Room 114's door bangs open behind him. Something comes through it fast, low, and wrong.
 
-Then — **BANG.**
+Jim's first move is the obvious one: he steps back, putting distance between himself and it, the
+way anyone would.
+
+Which is exactly when Room 116's door does the same thing.
+
+> **JIM:** *"—oh, come ON—"*
+
+*Combat: Shambler ×2 (pincer).* The two of them close from opposite doors at the same time — no
+clean retreat line, no room to just back away from both. First real "surrounded" moment of the
+chapter; the player has to commit to one side and clear it fast rather than kite either one down
+the hallway.
+
+> *Design note: this pays off the deliberately forgettable first pass through this exact stretch of
+> hallway in Scene 30 — the player had no reason to remember Rooms 114/116 or care about a locked
+> closet between them, which is exactly why the ambush works when they finally do come back to open
+> it. Everything before this Shambler in the chapter has been one-on-one with room to retreat; this
+> is the first time that's taken away.*
+
+Inside the closet — shelves of towels and folded linens, and mounted to the back wall in a locked
+wire cage, a heavy iron crank handle, tagged with a maintenance sticker: **GATE RELEASE — DO NOT
+REMOVE WITHOUT AUTHORIZATION.** The cage isn't locked with anything Fennimore's key doesn't already
+cover. Jim takes the handle.
+
+*ITEM ACQUIRED: GATE CRANK HANDLE*
+
+> **JIM:** *"Authorization granted."*
+
+The walk back across the hallway, down the stairs, and out to the courtyard is, for once, quiet.
 
 ---
 
-## SCENE 44 — THE CARETAKER (ROY BULLOCK) — BOSS ENCOUNTER
+## SCENE 44 — RETURN TO THE COURTYARD
+
+Fennimore's body is gone.
+
+Not dragged. Not disturbed the way something else's kill would look. Just — gone, the space in the
+hedges where he'd been lying now empty, rain already washing out whatever mark he'd left.
+
+> **JIM:** *"...No. No, that's not—"*
+
+He doesn't get to finish the thought. Fennimore comes up from behind the fountain — badge still
+pinned, uniform still soaked through, eyes gone the same wrong pale as every other name Jim's had
+to put down tonight.
+
+> **JIM:** *"I'm sorry, man."*
+
+*Combat: Shambler (Fennimore).* Mechanically identical to any other Shambler fight — the game
+doesn't slow down or add weight to this one beyond what's already on the page. Jim doesn't say
+anything else afterward.
+
+---
+
+## SCENE 45 — THE CARETAKER (ROY BULLOCK) — BOSS ENCOUNTER
+
+Jim fits the crank handle into the gate's manual release socket. It's seized — rust, disuse, years
+of nobody ever needing this. He puts his weight into it. It gives, barely, grinding through a
+quarter turn with a sound like metal being asked to do something it's forgotten how to do.
+
+He keeps cranking. The gate inches along its hinge, groaning, nowhere near fully open — this is
+going to take a while, and the grinding, straining noise of it carries across the whole courtyard.
 
 The maintenance shed doors buckle outward. The chain pulls taut — holds — then snaps. The doors
 come open. He fills the doorway before he steps through it. Maintenance overalls, darkened with
@@ -1907,9 +1981,9 @@ He's back up before the next swing.
 
 At some threshold the patience breaks. The deliberate stalking becomes something more reckless —
 charges that don't slow down when they miss, slam combinations without the pause between them,
-movement that stops caring about obstacles and goes through them instead. The generator floodlights
-flicker. The courtyard dims and blazes in uneven intervals. Lightning overhead. The rain driving
-sideways now. Jim doesn't stop moving.
+movement that stops caring about obstacles and goes through them instead. The floodlights flicker
+— something in the courtyard's wiring shaken loose by the fight. The courtyard dims and blazes in
+uneven intervals. Lightning overhead. The rain driving sideways now. Jim doesn't stop moving.
 
 The last exchange is close range — the handgun emptied point-blank into the exposed, distended
 mass of his throat and chest until whatever's holding him upright finally gives out. He goes down
@@ -1917,10 +1991,10 @@ hard, the impact splitting stone, and doesn't get back up.
 
 *The Caretaker goes down.*
 
-The courtyard falls quiet except for the generator and the rain. Jim stands in the middle of the
-wet stone and the overturned furniture of the fight, breathing hard, blood — some of it his, most
-of it not — running off him in the downpour. He looks at what's left of the Caretaker. He doesn't
-look long.
+The courtyard falls quiet except for the rain. Jim stands in the middle of the wet stone and the
+overturned furniture of the fight, breathing hard, blood — some of it his, most of it not —
+running off him in the downpour. He looks at what's left of the Caretaker. He doesn't look long.
+The gate sits behind him, still only partway open.
 
 *The player may now explore the maintenance shed. Optional supplies, ammunition, and healing items
 are available.*
@@ -1941,14 +2015,15 @@ wrote the same kinds of things every day and never expected anyone else to read 
 > **TUE** — Replaced two bulbs in the second floor west hallway. One of them was fine actually.
 > Replaced it anyway because I was already up there.
 >
-> **WED** — Generator in the courtyard is low on fuel. Topped it off. Noted the shed doors are
-> warping on the left hinge — humidity probably. Will re-hang next week if the weather breaks.
+> **WED** — Oiled the north gate's manual release gearbox. Overdue — hadn't touched it since last
+> year's inspection. Noted the shed doors are warping on the left hinge — humidity probably. Will
+> re-hang next week if the weather breaks.
 >
 > **THU** — Noise complaint from Room 118 about pipes. Checked the pipes. Pipes are fine. Told
 > Earl. Earl told the guests. Guests didn't believe him. Nobody ever believes him.
 >
-> **FRI** — Storm coming in off the ridge. Battened down the courtyard furniture. Checked the
-> generator again. Checked the gate mechanism on the north wall. Everything holding.
+> **FRI** — Storm coming in off the ridge. Battened down the courtyard furniture. Checked the gate
+> mechanism on the north wall again. Everything holding.
 >
 > Heard sirens around midnight. Lot of them.
 >
@@ -1971,14 +2046,15 @@ the workbench.
 
 ---
 
-## SCENE 45 — NORTH GATE / EXIT INTO RAVENWOOD
+## SCENE 46 — NORTH GATE / EXIT INTO RAVENWOOD
 
-The north gate system is fully active now.
+Jim goes back to the crank. It's easier now, or he's just past caring how hard it is.
 
-*Interaction prompt: [OPEN GATE]*
+*Interaction prompt: [FINISH OPENING GATE]*
 
 The gate mechanism engages — heavy and slow, the groan of something that hasn't moved in a long
-time being asked to move now. It swings outward into the storm. Beyond the gate — Ravenwood. Dark
+time being asked to move now. It swings the rest of the way outward into the storm. Beyond the
+gate — Ravenwood. Dark
 streets. Standing water across the pavement. A traffic light somewhere down the block swinging on
 its cable in the wind, cycling through its colors for nobody. Police lights flashing in the
 distance — one source, then two, then the sound of something that might be sirens and might be

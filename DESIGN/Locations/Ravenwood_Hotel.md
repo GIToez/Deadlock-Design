@@ -137,18 +137,30 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   officer — **Officer Dale Pruitt**, the same officer seen at the start of the game — bursts from
   the vehicle and attacks. Defeating him yields the game's **first firearm** (a handgun) and
   ammunition, plus his field notepad and a printed dispatch advisory (see Key Items/Documents).
-- **Hotel Courtyard.** Jim exits the hotel into the courtyard for the first time — the player's
-  first time outdoors since the outbreak began. The north exterior gate is dead ("ACCESS DENIED —
-  GENERATOR FAILURE"). A chained-shut maintenance shed and a backup generator sit in the rear of
-  the courtyard.
-- **Generator Restoration / Boss Fight.** Restoring the generator (a short mechanical
-  fuel/ignition/pressure/breaker sequence, which plays to Jim's engineering background) powers the
-  gate — but also breaches the maintenance shed from the inside, revealing **The Caretaker** (real
-  name **Roy Bullock**, the hotel's longtime maintenance man), mutated by the outbreak, in a boss
-  encounter fought across the courtyard.
-- **Chapter End.** Defeating the Caretaker leaves the north courtyard gate operational. Jim exits
-  the hotel grounds through the gate onto a public street — directly across from Memorial Park —
-  beginning Chapter 2.
+- **Hotel Courtyard / Fennimore's Body.** Jim exits the hotel into the courtyard for the first
+  time — the player's first time outdoors since the outbreak began. The north gate's manual
+  release is missing its crank handle. Near the gate, Jim finds the body of **Fennimore**, the
+  hotel's night-shift security guard (previously only known from his locker in the West Wing Staff
+  Room). A note on him explains he found **Roy Bullock** transforming, chained the maintenance shed
+  shut himself, and tried to escape through the gate — only to discover he'd need the crank handle
+  he'd personally locked away in the East Wing Housekeeping Closet. Jim takes the key off his body.
+  See [`Characters/Fennimore.md`](../Characters/Fennimore.md).
+- **East Wing Housekeeping Closet.** A mandatory return trip through the second-floor east
+  hallway — the same stretch Jim walked once already, uneventfully, on the way to the East Public
+  Stairwell (see "East Wing Retrieval Loop," above). Between Rooms 114 and 116, unlocking the
+  closet triggers a **two-Shambler pincer ambush** from both flanking rooms — the chapter's first
+  genuinely surrounded moment, and the payoff for a hallway the player had no reason to remember.
+  Inside: the **Gate Crank Handle**.
+- **Fennimore, Reanimated.** Returning to the courtyard, Jim finds Fennimore's body gone — he's
+  turned, and attacks from behind the fountain. An ordinary Shambler fight, played straight, with
+  no unique mechanics.
+- **Gate Crank / Boss Fight.** Jim works the rusted manual crank — real effort, no quick fix — and
+  the grinding noise draws **The Caretaker** (Roy Bullock, the hotel's longtime maintenance man,
+  mutated by the outbreak) out of the shed **mid-crank, gate still only partway open**. The noise,
+  not the gate opening, is what triggers the reveal. Boss fight across the courtyard; afterward,
+  Jim finishes cranking the gate open.
+- **Chapter End.** Jim exits the hotel grounds through the fully-opened gate onto a public
+  street — directly across from Memorial Park — beginning Chapter 2.
 
 ## Important Rooms / Areas
 
@@ -169,6 +181,12 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 - **Room 106** — Cindy Sweets' room; site of her abduction jumpscare, triggered while crossing the
   west hallway toward the West Wing Maintenance Room.
 - **Room 112** — Janeth Caldwell's room. **Room 118** — Maria & Richard Dalton's room.
+- **Rooms 114 and 116** — otherwise-unremarkable guest rooms flanking the Housekeeping Closet;
+  source of the second-floor east hallway's two-Shambler pincer ambush on the *second* pass through
+  (see "Housekeeping Closet," below). Closed and uneventful on the first pass.
+- **Housekeeping Closet** — between Rooms 114 and 116, on the guest floor's east hallway. Locked on
+  the first pass (Scene 30); unlocked later with the key taken off Fennimore's body. Source of the
+  **Gate Crank Handle** needed to open the courtyard's north gate.
 - **West Wing Maintenance Room** — a small, simply-shut (not locked) room near the West Public
   Stairwell; source of the replacement **auxiliary fuse**.
 - **East Public Stairwell** — at the end of the guest floor's east hallway; unlocked by East Wing
@@ -204,8 +222,11 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 
 **Exterior**
 
-- **Hotel Courtyard** — fountain, maintenance shed, backup generator, north exit gate to the
-  street/Memorial Park; site of the Caretaker (Roy Bullock) boss fight.
+- **Hotel Courtyard** — fountain, chained-shut maintenance shed, and the north exit gate to the
+  street/Memorial Park. The gate is a heavy steel-framed double gate retrofitted at some point as
+  the hotel's designated fire-code emergency exit — electrically motorized, with a required manual
+  crank override for exactly this kind of power-failure scenario. Site of Fennimore's body (and
+  later his reanimation) and the Caretaker (Roy Bullock) boss fight.
 
 ## Blueprint (Room Connectivity)
 
@@ -218,7 +239,7 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 > the label on the arrow says what unlocks it.
 >
 > Legend: 👤 NPC · ☠️ enemy/infected/boss · 🗝️ key item · 📄 document · 💾 save point (VERN) ·
-> ⚡ power/breaker · 🚪 gate/access control · ⚙️ generator/mechanical.
+> ⚡ power/breaker · 🚪 gate/access control · 🔧 manual/mechanical (non-power) puzzle · ⛲ fountain.
 >
 > **Shape/color key** — every hallway/corridor/stairwell is its own node (nothing is folded into
 > a single "West Wing" black box); the shape and color just tell you *what kind* of node you're
@@ -276,6 +297,8 @@ flowchart TD
     EHALL(["East Hallway"])
     R112["Room 112 — Janeth"]
     R118["Room 118 — Maria & Richard"]
+    R114_116["Rooms 114 & 116<br/>☠️ ×2 — pincer ambush<br/>(2nd pass only, see Diagram 5)"]
+    HOUSEKEEP["Housekeeping Closet<br/>🗝️ Gate Crank Handle<br/>🔒 needs key from Fennimore's body (Diagram 5)"]
     EPUBSTAIR(["East Public Stairwell<br/>🚪 East Wing power<br/>↓ to Diagram 3"])
     WHALL(["West Hallway"])
     R104["Room 104<br/>Jim's room"]
@@ -287,6 +310,8 @@ flowchart TD
     GRANDSTAIRREF --> WHALL
     EHALL --> R112
     EHALL --> R118
+    EHALL --> R114_116
+    R114_116 --> HOUSEKEEP
     EHALL -. East Wing power .-> EPUBSTAIR
     WHALL --> R104
     WHALL --> R106
@@ -298,7 +323,7 @@ flowchart TD
     classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
     class GRANDSTAIRREF ref
     class EHALL,WHALL,EPUBSTAIR,WPUBSTAIR hallway
-    class R104,R106,R112,R118,WMAINTROOM room
+    class R104,R106,R112,R118,WMAINTROOM,R114_116,HOUSEKEEP room
 ```
 
 ### 3. East Wing — ground floor (reached via the East Public Stairwell)
@@ -365,19 +390,26 @@ flowchart TD
 ```mermaid
 flowchart TD
     SECOFFREF(["Courtyard Security Office<br/>(from Diagram 4)"])
-    COURT["Hotel Courtyard<br/>⚙️ Generator · Fountain"]
-    SHED["Maintenance Shed<br/>☠️ THE CARETAKER / Roy Bullock — BOSS<br/>📄 Maintenance log"]
-    GATE(["North Gate<br/>→ Ravenwood streets / Memorial Park, Chapter 2"])
+    COURT["Hotel Courtyard<br/>⛲ Fountain"]
+    GATEBOX["North Gate — Manual Release<br/>🔧 needs Gate Crank Handle<br/>📄 placard: handle stored per protocol"]
+    FENNIMORE["Fennimore's Body<br/>🗝️ Housekeeping Closet Key<br/>📄 his note<br/>↑ to Diagram 2 (Housekeeping Closet)"]
+    FENNREANIM["Fennimore, Reanimated<br/>☠️ Shambler<br/>(on return from Diagram 2)"]
+    SHED["Maintenance Shed<br/>☠️ THE CARETAKER / Roy Bullock — BOSS<br/>📄 Maintenance log<br/>🚪 bursts open mid-crank, drawn by noise"]
+    GATE(["North Gate, fully open<br/>→ Ravenwood streets / Memorial Park, Chapter 2"])
 
-    SECOFFREF --> COURT --> SHED --> GATE
+    SECOFFREF --> COURT
+    COURT --> GATEBOX
+    COURT --> FENNIMORE
+    FENNIMORE -. backtrack for crank handle .-> FENNREANIM
+    FENNREANIM --> SHED --> GATE
 
     classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
     classDef boss fill:#FFE0E0,stroke:#C0392B,color:#3a0d0d,stroke-width:2px
     classDef exterior fill:#E3F0FF,stroke:#4A76C9,color:#0d1f3a
     classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
     class SECOFFREF ref
-    class COURT room
-    class SHED boss
+    class COURT,GATEBOX,FENNIMORE room
+    class SHED,FENNREANIM boss
     class GATE exterior
 ```
 
@@ -404,6 +436,10 @@ flowchart TD
   pre-outbreak. Later found dead in the Laundry Room, killed by The Maw — see below.
 - **[Officer Dale Pruitt](../Characters/Dale_Pruitt.md)** — Ravenwood PD; seen at the parking lot
   at the start of the chapter, and again (infected) inside the crashed cruiser later.
+- **[Fennimore](../Characters/Fennimore.md)** — hotel night-shift security guard; never seen alive.
+  Established through his West Wing Staff Room locker, then his body and note in the courtyard,
+  then his reanimated Shambler fight. His choice to chain the maintenance shed shut is why it's
+  sealed (and straining) by the time Jim reaches it.
 
 ## Creatures Encountered
 
@@ -424,22 +460,28 @@ flowchart TD
   originally written — see [`STORY_NOTES.md`](../STORY_NOTES.md) for that retcon). Deliberately not
   in every room, to keep the placement unpredictable rather than a checklist. Confirmed placements,
   one Shambler each unless noted:
-  - Second-floor east hallway (Scene 30, before the East Public Stairwell).
+  - Second-floor east hallway (Scene 30, before the East Public Stairwell) — this pass is
+    otherwise deliberately uneventful; Rooms 114/116 and the Housekeeping Closet are noted but
+    unremarkable here, on purpose (see the pincer ambush below).
   - Dining Hall (Scene 31).
   - Utility Room (Scene 32) — ambushes the player right as the screwdriver is picked up.
-  - **Second-floor west hallway (Scene 35) — two Shamblers, a pincer ambush.** One bursts from a
-    guest room Jim already "cleared" mentally on the way to Cindy's room; the player's instinctive
-    retreat puts them directly in front of a second door, which opens the same way. First
-    surrounded/no-clean-retreat moment of the chapter — everything before this is one-on-one.
   - Lounge/Recreation (Scene 37, first room reached off the West Public Stairwell).
   - Main Bar (Scene 37).
   - Boiler Room (Scene 37).
-  - West Wing Service Corridor (Scene 39) — the last one in the hotel.
+  - West Wing Service Corridor (Scene 39).
+  - **East Wing Housekeeping Closet (Scene 43) — two Shamblers, a pincer ambush**, from Rooms 114
+    and 116. Not a first-visit surprise — the player already walked this exact stretch of hallway
+    once, uneventfully, in Scene 30. This is the payoff for that forgettable first pass: the
+    player's instinctive retreat from the first door puts them directly in front of the second one.
+    First genuinely surrounded, no-clean-retreat moment of the chapter.
+  - **Fennimore, reanimated (Scene 44)** — a named/story-relevant Shambler rather than a generic
+    one; see [`Characters/Fennimore.md`](../Characters/Fennimore.md). Mechanically an ordinary
+    fight, no unique mechanics.
   - Not placed in: Manager's Office, Kitchen, Pantry, Walk-in Freezer, Laundry/Linen Room, East
-    Wing Maintenance Closet, either guest-floor hallway near Room 106 on the *first* pass, the West
-    Wing Maintenance Room, Piano Area, Liquor Storage, Staff Room, or the Red Room — kept clear so
-    the emotionally heavier beats (Gerta, Cindy, the fuse pickups) and quieter breather rooms
-    aren't crowded out by combat.
+    Wing Maintenance Closet, either guest-floor hallway near Room 106, the West Wing Maintenance
+    Room, Piano Area, Liquor Storage, Staff Room, or the Red Room — kept clear so the emotionally
+    heavier beats (Gerta, Cindy, the fuse pickups) and quieter breather rooms aren't crowded out by
+    combat.
 
 ## Puzzles
 
@@ -454,9 +496,17 @@ flowchart TD
   the breaker panel, use the screwdriver to open the fuse housing, install the fuse, and activate
   West Wing power. This also unlocks the **West Public Stairwell**, opening the route down into
   the West Wing's ground floor and, eventually, the Courtyard Security Office.
-- **Courtyard Generator Restoration.** A short mechanical sequence (fuel valve, ignition switch,
-  pressure controls, breaker reset) restores the courtyard's backup generator, re-powering the
-  exterior gate — and triggers the maintenance shed breach that begins the Caretaker boss fight.
+- **Courtyard Gate Release.** Deliberately *not* another power-restoration puzzle — by this point
+  the hotel's power is already fully back on, so a second "fix the electricity" beat would be
+  redundant. Instead: the north gate's manual release is missing its crank handle → Jim finds
+  **Fennimore's** body near the gate, with a note explaining he stored the handle himself in the
+  East Wing Housekeeping Closet (hotel security protocol) and the key to it on his belt → a
+  mandatory return trip through the second-floor east hallway (Rooms 114/116) to retrieve it,
+  triggering a **two-Shambler pincer ambush** → back to the courtyard, where **Fennimore has
+  reanimated** and has to be put down again → Jim fits the crank handle and works the rusted
+  mechanism by hand. The grinding noise — not the gate finishing opening — is what draws
+  **The Caretaker** out of the shed mid-crank, gate still only partway open, beginning the boss
+  fight. Jim finishes opening the gate after defeating him.
 
 ## Key Items
 
@@ -471,6 +521,10 @@ flowchart TD
   Public Stairwell); installed at the breaker panel to restore West Wing power.
 - **Handgun** — the game's first firearm, taken from Officer Pruitt inside the crashed cruiser
   (Scene 41). Any Handgun Ammunition collected earlier automatically loads into it — see below.
+- **Housekeeping Closet Key** — taken from Fennimore's body in the courtyard (Scene 42); opens the
+  Housekeeping Closet on the guest floor's east hallway, between Rooms 114 and 116 (Scene 43).
+- **Gate Crank Handle** — found in the Housekeeping Closet (Scene 43); the manual override needed
+  to work the courtyard's north gate release by hand (Scenes 45–46).
 
 ### Consumables (optional, non-mandatory)
 
@@ -500,9 +554,16 @@ flowchart TD
 - **Della Marsh's booking slip and personal note** (Red Room backstage, Scene 38) — establishes
   her as a real person (four-year residency; a note to her mother, written as she began feeling
   unwell).
-- **Roy Bullock's maintenance log** (courtyard shed, post-Caretaker fight, Scene 44) — years of
+- **Roy Bullock's maintenance log** (courtyard shed, post-Caretaker fight, Scene 45) — years of
   routine entries ending with him noticing sirens and "something in the air" the night of the
-  outbreak; the only place his name ("Roy") is confirmed on-screen.
+  outbreak; the only place his name ("Roy") is confirmed on-screen. No longer references a
+  generator (retired along with that puzzle) — the Wednesday entry now covers routine maintenance
+  on the gate's manual release gearbox instead.
+- **Fennimore's note** (found on his body, courtyard, Scene 42) — explains he found Roy Bullock
+  transforming, chained the maintenance shed shut himself, and was trying to escape through the
+  gate when he discovered the crank handle was exactly where he'd stored it — the East Wing
+  Housekeeping Closet, between Rooms 114 and 116. Unsigned; his full first name is never confirmed
+  anywhere.
 - **Officer Pruitt's field notepad and a printed dispatch advisory** (found on his body, Scene 41)
   — his own account of the traffic stop that exposed him, and Ravenwood PD's Class 4
   public-health-emergency advisory referencing "Deadlock Protocol" standing by pending
@@ -517,11 +578,15 @@ flowchart TD
 - "Deadlock Protocol is now in effect" radio announcement / title card.
 - Cindy Sweets' Room 106 jumpscare and abduction (by The Maw).
 - Gerta's death, discovered in the Laundry Room (by The Maw) — see [`Characters/Gerta.md`](../Characters/Gerta.md).
-- **Second-floor west hallway pincer ambush** (Scene 35) — two Shamblers from opposite guest-room
-  doors, the chapter's first no-clean-retreat combat moment.
 - Della Marsh (Red Room singer) reveal — appears to be a survivor, then turns.
 - Officer Pruitt jumpscare from inside the crashed cruiser.
-- Maintenance shed breach revealing The Caretaker (Roy Bullock).
+- Fennimore's body found near the courtyard gate, with his note revealing he chained the shed shut.
+- **East Wing Housekeeping Closet pincer ambush** (Scene 43) — two Shamblers from Rooms 114 and
+  116, the chapter's first no-clean-retreat combat moment, paying off a deliberately forgettable
+  first pass through the same hallway in Scene 30.
+- Fennimore's reanimation, discovered on returning to the courtyard (Scene 44).
+- Maintenance shed breach revealing The Caretaker (Roy Bullock) — triggered by the noise of Jim
+  working the gate's manual crank, mid-effort, gate still only partway open.
 
 ## False Alarms / Tension Beats (no threat, no combat)
 
@@ -543,6 +608,10 @@ threat" purely from the buildup:
 A mutated former hotel maintenance man — the player's first major mutation encounter, designed as
 a physical intimidation boss demonstrating that infection can progress into monstrous forms.
 Unlike baseline infected ("shamblers"), the Caretaker actively pursues and corners the player.
+Triggered by the noise of Jim working the gate's manual crank by hand, not by any power being
+restored — he breaches the shed **mid-crank**, meaning the fight plays out with the north gate
+still only partway open in the background (a visible, unresolved reminder of the way out, not yet
+usable).
 
 - **Phase 1 — Stalk:** deliberate, heavy, unstoppable-feeling advance; wide pathing; destroys
   obstacles; occasional intimidation pauses.
@@ -553,8 +622,8 @@ Unlike baseline infected ("shamblers"), the Caretaker actively pursues and corne
   stagger; courtyard floodlights flicker violently, destabilizing visibility.
 - **Weaknesses:** headshots, environmental spacing, and attack-recovery windows. The
   recently-acquired handgun is highly valuable here; melee remains possible but risky.
-- **Arena hazards:** flooded pavement, hedge choke points, generator equipment, fountain
-  obstacles, low visibility during rain bursts.
+- **Arena hazards:** flooded pavement, hedge choke points, the partially-open gate mechanism,
+  fountain obstacles, low visibility during rain bursts.
 
 ## Crest Progression
 

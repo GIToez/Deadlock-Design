@@ -33,27 +33,30 @@ corner the player rather than shuffle randomly.
 - **Phase 2 — Aggression:** overhead slam, wide horizontal arm swing, shoulder charge, corner-grab
   attempts. High damage, heavy knockback, long recovery windows the player is meant to exploit.
 - **Phase 3 — Enraged (low health):** faster, more reckless, repeated slam combos, reduced
-  stagger; the courtyard's generator floodlights flicker violently during this phase, destabilizing
-  visibility.
+  stagger; the courtyard's floodlights flicker violently during this phase (something in the
+  wiring shaken loose by the fight), destabilizing visibility.
 
 ## Gameplay Role
 
-Chapter 1's climactic boss encounter, fought in the hotel courtyard immediately after the player
-restores the backup generator (which both powers the exit gate and breaches the shed the Caretaker
-was sealed inside). Weak to headshots, environmental spacing, and attacking during his
-attack-recovery windows; melee remains possible but is explicitly "extremely dangerous." The
-handgun acquired minutes earlier from Officer Pruitt is highly valuable here — the fight is
-designed to make the player's brand-new firearm feel earned.
+Chapter 1's climactic boss encounter, fought in the hotel courtyard. Triggered by **noise, not
+power** — Jim working the north gate's manual crank release by hand draws him out of the
+sealed shed **mid-effort**, meaning the fight plays out with the gate still only partway open (see
+[`STORY_NOTES.md`](../STORY_NOTES.md) for why this replaced an earlier "restore the generator"
+version of this puzzle — redundant, since the hotel's power was already fully back on by this
+point). Weak to headshots, environmental spacing, and attacking during his attack-recovery windows;
+melee remains possible but is explicitly "extremely dangerous." The handgun acquired minutes
+earlier from Officer Pruitt is highly valuable here — the fight is designed to make the player's
+brand-new firearm feel earned.
 
 ## Encounter Progression
 
-Single encounter, not a repeating enemy type. Defeating him unlocks the hotel's north courtyard
-gate and ends Chapter 1.
+Single encounter, not a repeating enemy type. Defeating him lets Jim finish opening the hotel's
+north courtyard gate, ending Chapter 1.
 
 ## Major Appearances
 
-- [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 42–44 (maintenance shed breach through the boss
-  fight).
+- [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 45–46 (maintenance shed breach through the boss
+  fight and the completed gate opening).
 
 ## Story Significance
 
@@ -62,5 +65,10 @@ progresses in stages and can produce monstrous mutation given enough time/severi
 game will keep building on. His own maintenance log (found in the shed after the fight — full text
 in [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md)) is the only place his ordinary, pre-infection humanity is shown
 on the page: years of mundane entries about broken ice machines and squeaky pipes, ending with him
-noticing "something in the air" the night of the outbreak and deciding to lock up the shed and
-wait it out — which is exactly where Jim finds him.
+noticing "something in the air" the night of the outbreak and planning to lock up the *tool* shed
+as routine and go wait it out inside the hotel — not himself. What actually happened between that
+log entry and Jim finding him is deliberately left unstated (see
+[`STORY_NOTES.md`](../STORY_NOTES.md)); what's confirmed is that
+[Fennimore](../Characters/Fennimore.md), hotel security, found him mid-transformation and made the
+call to chain the shed shut with Roy inside rather than confront him directly — which is why it's
+sealed (and audibly straining) by the time Jim reaches the courtyard.

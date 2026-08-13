@@ -156,6 +156,50 @@
     Maintenance Closet (Scene 34), and a photo falling off a shelf in the Piano Area (Scene 37).
     None of these have any payoff — they're pure atmosphere/pacing, not foreshadowing anything
     specific.
+- **Courtyard endgame redesign — generator retired, pincer ambush relocated, Fennimore introduced
+  (2026-08-13).** Superseding the pincer-ambush placement above. The project owner correctly
+  flagged that "restore the generator" felt redundant as a puzzle immediately after a whole
+  hotel-power-restoration sequence — the hotel's power is already fully back on by that point, so a
+  second "fix the electricity" beat added nothing. Separately, the West Wing pincer ambush (Scene
+  35) was stacking two big scares (Cindy's abduction + the ambush) into the same hallway crossing,
+  and its "already walked this hallway once" setup didn't reliably hold up once Janeth's hallway
+  encounter (Scene 19) was confirmed optional (Jim's room is West Wing; there was never a guaranteed
+  reason for him to have crossed to the East Wing before flipping the breaker). Resolved together,
+  through several rounds of brainstorming, approved by the project owner:
+  - **The generator is gone entirely.** The north gate is a heavy steel-framed double gate,
+    retrofitted at some point as the hotel's designated fire-code emergency exit — electrically
+    motorized, with a manual crank override required for exactly this kind of power-failure
+    scenario (a real, standard fire-code requirement, not an invented mechanic). The obstacle is
+    physical/mechanical (a missing crank handle), not electrical — deliberately a different kind of
+    puzzle than the two switch-flipping sequences already done.
+  - **Fennimore**, the hotel's night-shift security guard (previously only glimpsed via his West
+    Wing Staff Room locker), is found dead near the gate. His note reveals he discovered Roy Bullock
+    transforming, chained the maintenance shed shut himself rather than confront him, and was
+    trying to escape through the gate when he found the crank handle was exactly where he'd stored
+    it per protocol — the East Wing Housekeeping Closet, between two new guest rooms, 114 and 116.
+    Jim takes the key off his body. This also answers "why is the shed chained shut" with an actual
+    story reason instead of an unexplained coincidence, and gives a piece of background lore a real
+    payoff instead of leaving him a dangling name tag. See
+    [`Characters/Fennimore.md`](Characters/Fennimore.md).
+  - **The pincer ambush moved to the East Wing Housekeeping Closet (Scene 43)**, sprung from Rooms
+    114 and 116 flanking the closet door. This is a *mandatory* revisit (not an invented reason) —
+    the key didn't exist on Jim's first pass through this hallway (Scene 30, deliberately written
+    to be forgettable, foreshadowing the two rooms and a locked closet without making anything feel
+    ominous), so the ambush is fully earned on the second, motivated pass. The West Wing hallway
+    keeps Cindy's scare as its own dedicated beat, no longer sharing the spotlight with a fight.
+  - **Fennimore reanimates** on Jim's return to the courtyard with the crank handle — his body is
+    simply gone, then he attacks from behind the fountain. An ordinary Shambler fight, no unique
+    mechanics, closing his arc. Total hotel Shambler count is now ten.
+  - **The Caretaker's reveal is now noise-triggered, not power-triggered.** Jim has to physically
+    work the rusted crank by hand; the grinding noise draws Roy out of the shed **mid-effort**, gate
+    still only partway open — he finishes opening it after the boss fight. Roy's own maintenance
+    log (found post-fight, unchanged otherwise) had its one generator-related entry rewritten to
+    reference routine maintenance on the gate's crank gearbox instead.
+  - Files touched: `Scripts/Chapter_1_One_Night_Only.md` (Scene 30 foreshadowing; Scene 35 pincer
+    removed; Scenes 42–46 rewritten, chapter total now 46 scenes, up from 45), new
+    `Characters/Fennimore.md`, `Locations/Ravenwood_Hotel.md` (storyline, rooms, Diagrams 2 and 5,
+    creatures, puzzles, key items, documents, scripted events, boss arena hazards),
+    `Creatures/Shambler.md`, `Creatures/The_Caretaker.md`.
 - The two reference screenshots (lobby layout + gameplay viewport combat shot) were shared inline
   in chat only — not saved to the repo, since inline chat images aren't accessible as real files.
   If they should become permanent reference material, they need to be pushed as actual files

@@ -29,6 +29,9 @@ A character document may contain:
 - [`Dale_Pruitt.md`](Dale_Pruitt.md)
 - [`Gerta.md`](Gerta.md) — added once her death scene (killed by The Maw) was approved; see
   [`Creatures/The_Maw.md`](../Creatures/The_Maw.md) and [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scene 33.
+- [`Fennimore.md`](Fennimore.md) — hotel security guard, never seen alive; established through his
+  locker, his body/note in the courtyard, and his reanimated Shambler fight — see
+  [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 37, 42, and 44.
 
 Characters for locations beyond the hotel (Memorial Park, the five districts, etc.) will be added
 once those chapters are written — see [`STORY_NOTES.md`](../STORY_NOTES.md).

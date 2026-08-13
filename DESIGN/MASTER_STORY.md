@@ -77,11 +77,17 @@ reach an alternate exit (the rear courtyard):
 5. Passing through the lobby again, Jim is ambushed by an infected police officer
    ([Officer Dale Pruitt](Characters/Dale_Pruitt.md) — the same officer seen at the start of the
    game) inside the crashed cruiser, yielding the game's first firearm.
-6. In the hotel courtyard, the exit gate is dead due to generator failure. Restoring the
-   generator triggers the chapter's boss fight: **[The Caretaker](Creatures/The_Caretaker.md)**
-   (real name Roy Bullock, the hotel's longtime maintenance man), mutated by the outbreak.
-7. Defeating the Caretaker opens the north courtyard gate — Jim's first exit from the hotel onto
-   the streets of Ravenwood.
+6. In the hotel courtyard, the exit gate's manual release is missing its crank handle. Jim finds
+   the body of **Fennimore**, hotel security, near the gate — his note reveals he chained the
+   maintenance shed shut after finding Roy Bullock transforming, and that the crank handle is
+   locked in an East Wing closet. Retrieving it means a mandatory return trip through the guest
+   floor's east hallway, sprung by a two-Shambler pincer ambush. Back in the courtyard, Fennimore
+   has reanimated and has to be fought again.
+7. Working the rusted gate crank by hand draws **[The Caretaker](Creatures/The_Caretaker.md)** (real
+   name Roy Bullock, the hotel's longtime maintenance man, mutated by the outbreak) out of the shed
+   mid-effort, gate still only partway open — the chapter's boss fight.
+8. Defeating the Caretaker lets Jim finish opening the north courtyard gate — his first exit from
+   the hotel onto the streets of Ravenwood.
 
 *(Full scene-by-scene script: [`Scripts/Chapter_1_One_Night_Only.md`](Scripts/Chapter_1_One_Night_Only.md). Full location design:
 [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md).)*
