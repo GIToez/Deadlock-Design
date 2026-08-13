@@ -715,6 +715,47 @@ the next entry for the current final numbering (Scenes 22–40).
   Explicitly a proposal pending review, not locked canon — still needs a name, an origin story, a
   full combat kit, and the rest of the Hospital chapter written around it before it's more than a
   design placeholder.
+- **Red Room / Main Bar / Security Office / Courtyard render fixes (2026-08-13).** Project owner
+  feedback: these four specific renders had "the wrong perspective," "a door where there shouldn't
+  be," or otherwise "did not render correctly" — distinct from the take-four framing question above
+  (the *style* was fine, specific content/composition wasn't). Regenerated all four:
+  `hotel_red_room_concept.png` (v3, flat-back-wall framing, and a backstage sign typo — "The Red
+  Roam" — flagged, not fixed, since it's cosmetic AI text-rendering noise rather than a canon
+  detail), `hotel_main_bar_concept.png` (v2, removed an unscripted door behind the bar), and
+  `hotel_security_office_concept.png` (v2, replaced a too-tight desk/monitor crop with a full-room
+  view). `hotel_courtyard_concept.png` (v2) was independently already regenerated the same day for
+  an unrelated rooftop-angle issue (see the take-four entry above) — no further change needed here.
+  Updated captions in [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md) to record each
+  fix.
+- **Full room/hallway gap-fill sweep — Hotel and Police Station (2026-08-13).** Project owner:
+  after confirming "all the current concepts in the police station look damn near perfect," asked
+  for an exhaustive pass across both locations, "even if it's just a hallway that connects to
+  another room," to make sure nothing was missing. This **supersedes the "deliberately
+  deprioritized minor pass-through spaces" note above** — those spaces are no longer deprioritized;
+  they're now covered. Cross-checked every node in both locations' Mermaid blueprint diagrams
+  against `Assets/Reference/` and found real gaps beyond the ones already called out:
+  - **Hotel (18 new renders across four batches):** Staff Hallway, Grand Staircase, East/West
+    Hallway (the guest-floor corridors themselves, not just the rooms off them), Room 112, Room
+    118, Rooms 114 & 116 (shown from the hallway, since their narrative purpose is staging the
+    pincer ambush, not their interiors), East/West Public Stairwell, West Wing Service Corridor,
+    Pantry, Walk-in Freezer, East Wing Maintenance Closet, Lounge/Recreation, Piano Area (blank on
+    the first generation attempt — a plain retry with the same prompt succeeded), Liquor Storage,
+    Boiler Room, Staff Room/Storage, and — the one genuine narrative-weight gap in the whole
+    sweep — the **Maintenance Shed's interior**, the Caretaker boss fight's starting location,
+    which had never gotten its own render despite the Caretaker himself and the courtyard exterior
+    both already having one. All embedded in
+    [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md). Flagged inaccuracy: Room 118's
+    concept embroiders a pillow "H&R," matching neither Dalton's initials.
+  - **Police Station (3 new renders):** the Back Hallway (Bullpen → Break Room/K-9 Unit Room), the
+    Booking Corridor (Bullpen → Booking/Interview Room/Modern Holding Cells), and the Breezeway
+    (the annex → old station house transition itself, not just the rooms on either end) — all named
+    as pill/connector nodes in the blueprint diagrams but never actually rendered. The Booking
+    Corridor's first attempt drifted into the same flat vector-cartoon look flagged earlier for the
+    Armory/Interview Room; regenerated once more, anchored to the Booking & Processing and Bullpen
+    renders, before deploying. All embedded in
+    [`Locations/Police_Station.md`](Locations/Police_Station.md).
+  - Every room *and* named connector/hallway in both locations' blueprint diagrams now has either a
+    real in-engine screenshot or AI concept art, with no remaining gaps.
 
 ## Still-Open Questions
 
