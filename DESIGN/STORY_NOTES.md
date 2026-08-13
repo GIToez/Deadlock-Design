@@ -200,6 +200,29 @@
     `Characters/Fennimore.md`, `Locations/Ravenwood_Hotel.md` (storyline, rooms, Diagrams 2 and 5,
     creatures, puzzles, key items, documents, scripted events, boss arena hazards),
     `Creatures/Shambler.md`, `Creatures/The_Caretaker.md`.
+- **Full Chapter 1 audit (2026-08-13)** — read the entire chapter script front to back, cross-
+  checked every note/document for full written text (not just "there's a note here"), verified
+  every item pickup and enemy placement against `Locations/Ravenwood_Hotel.md`, and swept every
+  file touched by the courtyard redesign above for stale leftovers. Found and fixed:
+  - Scene 39 (West Wing Service Corridor) claimed its Shambler was "the last one in the hotel" —
+    false since the courtyard redesign added the pincer ambush (Scene 43) and Fennimore (Scene 44)
+    afterward. Corrected to note the courtyard is still ahead.
+  - The Baseball Bat pickup (Scene 22) was missing its `ITEM ACQUIRED` tag — every other item
+    pickup in the chapter has one; added for consistency.
+  - `Locations/Ravenwood_Hotel.md` → "Exit / Progression to Next Area" still said "defeating the
+    Caretaker restores the north courtyard gate," left over from the old generator design. Fixed
+    to reflect that the gate is finished opening manually (crank) after the fight, not powered on.
+  - `CANON.md` → "Named Characters Confirmed" was missing Fennimore; added alongside Della Marsh,
+    Roy Bullock, and Pruitt.
+  - This section (further up) still listed Gerta as "not yet created" and didn't mention Fennimore
+    at all — both have files now; added an update note rather than rewriting the historical record.
+  - Everything else checked out clean: all documents/notes/placards referenced in the script have
+    full verbatim text; all `ITEM ACQUIRED`/`ITEM AVAILABLE` tags match the Key Items/Consumables
+    counts in the Location doc exactly (4 Medkits, 3 optional Handgun Ammunition caches, plus the 7
+    unique key items); all 10 Shambler placements (7 solo + pincer ×2 + Fennimore) match between
+    the script, `Locations/Ravenwood_Hotel.md`, and `Creatures/Shambler.md`; all character/creature
+    file scene-number cross-references are correct; all 5 blueprint diagrams re-rendered without
+    errors; the chapter's scene list is a clean, gap-free sequence of 46.
 - The two reference screenshots (lobby layout + gameplay viewport combat shot) were shared inline
   in chat only — not saved to the repo, since inline chat images aren't accessible as real files.
   If they should become permanent reference material, they need to be pushed as actual files
@@ -335,9 +358,14 @@ Dalton, Janeth Caldwell, Officer Dale Pruitt.
 Caretaker's design notes since the original docx audit, but never given its own write-up until
 now).
 
-**Still not created:** Gerta (hotel maid) — appears once, very briefly, with no plot function;
-recommend holding off unless she recurs later. Anything for Memorial Park or the five districts —
-none of those chapters have named characters yet.
+**Still not created (at the time of this note):** Gerta (hotel maid) — appears once, very briefly,
+with no plot function; recommend holding off unless she recurs later. Anything for Memorial Park
+or the five districts — none of those chapters have named characters yet.
+
+> **Update:** both since created, once each had a real story beat approved. **Gerta.md** was added
+> once her death (killed by The Maw in the Laundry Room) was approved — see the Direction Log
+> above. **Fennimore.md** was added later still, once his body/note/reanimation in the courtyard
+> was approved (2026-08-13, same section). `Characters/README.md` has the current, complete list.
 
 ## Things That Still Need Development
 

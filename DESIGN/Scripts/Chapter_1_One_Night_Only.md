@@ -970,7 +970,11 @@ Like a man learning to stand again.
 
 Jim backs away. His heel catches a piece of overturned furniture and his hand goes down to catch
 himself — and finds the smooth worn wood of a baseball bat lying under the edge of a fallen chair.
-He grabs it. Earl advances. His movement is wrong — too deliberate, too locked-in, none of the
+He grabs it.
+
+*ITEM ACQUIRED: BASEBALL BAT*
+
+Earl advances. His movement is wrong — too deliberate, too locked-in, none of the
 small adjustments a walking person makes without thinking about it. His mouth opens slightly. A
 sound comes out of it that Jim will not be able to describe afterward.
 
@@ -1646,7 +1650,8 @@ since Earl.
 
 > **JIM:** *"—where the hell do you people keep coming from."*
 
-*Combat: Shambler.* The last one in the hotel, though Jim has no way of knowing that yet.
+*Combat: Shambler.* The last one inside the hotel proper, though Jim has no way of knowing that
+yet — there's still the courtyard ahead of him.
 
 A narrow window at the far end looks out over the hotel courtyard. Rain against the glass.
 Emergency lights mounted along the hotel's exterior walls throwing pale light across the courtyard
@@ -2054,11 +2059,10 @@ Jim goes back to the crank. It's easier now, or he's just past caring how hard i
 
 The gate mechanism engages — heavy and slow, the groan of something that hasn't moved in a long
 time being asked to move now. It swings the rest of the way outward into the storm. Beyond the
-gate — Ravenwood. Dark
-streets. Standing water across the pavement. A traffic light somewhere down the block swinging on
-its cable in the wind, cycling through its colors for nobody. Police lights flashing in the
-distance — one source, then two, then the sound of something that might be sirens and might be
-something else entirely. The town is not okay. Jim stands at the gate and looks at it.
+gate — Ravenwood. Dark streets. Standing water across the pavement. A traffic light somewhere down
+the block swinging on its cable in the wind, cycling through its colors for nobody. Police lights
+flashing in the distance — one source, then two, then the sound of something that might be sirens
+and might be something else entirely. The town is not okay. Jim stands at the gate and looks at it.
 
 > **JIM:** *"...What the hell happened here?"*
 

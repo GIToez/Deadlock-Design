@@ -632,6 +632,7 @@ five outer districts of Ravenwood reached via Memorial Park, not to the Hotel it
 
 ## Exit / Progression to Next Area
 
-Defeating the Caretaker restores the north courtyard gate. Jim exits the hotel grounds through
-this gate onto a public street, directly across from **Memorial Park** — the chapter's end and
-the start of Chapter 2. See [`Locations/Memorial_Park.md`](Memorial_Park.md).
+Defeating the Caretaker clears the way for Jim to finish working the gate's manual crank — left
+only partway open when the boss interrupted him mid-effort. Jim exits the hotel grounds through
+the fully-opened gate onto a public street, directly across from **Memorial Park** — the chapter's
+end and the start of Chapter 2. See [`Locations/Memorial_Park.md`](Memorial_Park.md).

@@ -166,6 +166,10 @@ early hint that Vanguard's reach into the town predates the outbreak.
   the crashed cruiser. The person he pulled over in the parking lot was already in early
   infection stages (his exposure point); that person is never named or seen clearly and remains
   anonymous.
+- **[Fennimore](Characters/Fennimore.md)** — the hotel's night-shift security guard. Never seen
+  alive; found dead near the courtyard's north gate after chaining the maintenance shed shut on
+  discovering Roy Bullock transforming. Reanimates and is fought as a Shambler when Jim returns to
+  the courtyard. His full first name is never confirmed on-screen.
 
 ## Creature Classification: Ashen Mutant
 
