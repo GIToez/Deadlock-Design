@@ -42,13 +42,17 @@ player returns to constantly between districts to save, restock, and fast-travel
   Puzzles / how Jim learns about the crests, below). A **bollard override keycard** ("STREET
   INFRASTRUCTURE OVERRIDE — SECTOR 4 — MEMORIAL PARK PERIMETER") sits on the desk.
 - **The Founders Memorial.** Jim approaches the central monument: a ~10-foot bronze female civic
-  statue in a water basin, holding a large plaque with five recessed pentagonal slots, each with a
-  faint engraved label (ORDER, KNOWLEDGE, INDUSTRY, FAITH, MEDICINE — see [`CANON.md`](../CANON.md) for the
-  crest/location mapping). An inscription runs the plaque's outer edge: *"WHAT WAS DIVIDED SHALL
-  BE WHOLE. WHAT WAS HIDDEN SHALL BE OPENED. — THE FOUNDERS OF RAVENWOOD — 1887 —"* All five slots
-  are empty. Examining the water basin, Jim notices a faint seam in the submerged stone base — the
-  suggestion of a door — and concludes the basin needs to be drained (i.e., all five slots filled)
-  before whatever's underneath can be reached.
+  statue in a water basin, holding a large circular medallion-plaque — a small pentagon hub at the
+  center (bearing a single weathered letter "V"), surrounded by five trapezoidal wedge slots
+  arranged like a compass rose, each with a faint engraved label (ORDER, KNOWLEDGE, INDUSTRY,
+  FAITH, MEDICINE — see [`CANON.md`](../CANON.md) for the full crest/location/wedge-position
+  mapping; concept art at
+  [`Assets/Reference/founders_memorial_plaque_concept.png`](../Assets/Reference/founders_memorial_plaque_concept.png)).
+  An inscription runs the plaque's outer rim: *"WHAT WAS DIVIDED SHALL BE WHOLE. WHAT WAS HIDDEN
+  SHALL BE OPENED. — THE FOUNDERS OF RAVENWOOD — 1887 —"* All five wedges are empty. Examining the
+  water basin, Jim notices a faint seam in the submerged stone base — the suggestion of a door —
+  and concludes the basin needs to be drained (i.e., all five wedges filled) before whatever's
+  underneath can be reached.
 - **Opening the City.** Returning to the street with the keycard, Jim lowers the bollards. The
   street opens in both directions and Ravenwood's open-world exploration phase begins.
 

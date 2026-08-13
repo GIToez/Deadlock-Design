@@ -109,10 +109,14 @@ inventory storage chest, and a corkboard of documents (a park map, a groundskeep
 bollard override keycard) that begin pointing Jim toward the Police Station and the five-crest
 mechanism (see below).
 
-**The Founders Memorial.** At the park's center stands a bronze statue holding a plaque with five
-empty pentagonal slots labeled ORDER, KNOWLEDGE, INDUSTRY, FAITH, and MEDICINE, surrounded by a
-water basin. Jim doesn't yet know what fills the slots, but the object explains itself well enough
-to imply an objective: five slots, presumably five locations.
+**The Founders Memorial.** At the park's center stands a bronze statue holding a circular
+medallion-plaque — a small pentagon hub at the center (bearing a single weathered "V") surrounded
+by five empty wedge slots labeled ORDER, KNOWLEDGE, INDUSTRY, FAITH, and MEDICINE, arranged like a
+compass rose — all sitting in a water basin. Jim doesn't yet know what fills the slots, but the
+object explains itself well enough to imply an objective: five wedges, presumably five locations.
+Each wedge's position on the medallion points in the general compass direction of its matching
+district (see [`CANON.md`](CANON.md) for the full mapping) — a hint built into the monument
+itself, readable on first arrival.
 
 **The Five Districts.** Once Jim lowers the street bollards, all of Ravenwood opens up. The city
 is arranged as five districts around a central downtown, each home to one of the five major
@@ -132,9 +136,9 @@ Exploration order is fully open. Each district also contains 2–3 secondary loc
 lore, optional survivors) between downtown and the main objective — see [`STORY_NOTES.md`](STORY_NOTES.md) for the
 full list logged so far. A two-tier survivor system applies throughout (see [`CANON.md`](CANON.md)).
 
-**Chapter Close.** Returning all five emblems to the Founders Memorial completes the pentagon; the
-water basin drains, revealing a hidden staircase beneath the statue — the entrance to the
-underground [Vanguard Facility](Locations/Vanguard_Facility.md).
+**Chapter Close.** Returning all five emblems to the Founders Memorial fills all five wedges of
+the medallion; the water basin drains, revealing a hidden staircase beneath the statue — the
+entrance to the underground [Vanguard Facility](Locations/Vanguard_Facility.md).
 
 *(Scene-by-scene script for what's written so far — the street crossing, Memorial Park, and the
 Downtown introduction — is in [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md). The five districts themselves are
@@ -187,8 +191,8 @@ material that exists for it).
 ## Five-Crest Progression
 
 See [`CANON.md`](CANON.md) ("The Founders & the Five Crests") for the full locked mechanic: five founders,
-one crest/emblem each, one civic institution each, reassembled into a pentagon at the Founders
-Memorial to open the way underground.
+one crest/emblem each, one civic institution each, reassembled into the Founders Memorial's
+medallion to open the way underground.
 
 ## Major Revelations
 

@@ -114,36 +114,41 @@ hotel-chapter detail.
   Ravenwood's central hub, reached directly across the street from the
   [Ravenwood Hotel](Locations/Ravenwood_Hotel.md).
 - At its center stands the **Founders Memorial**: a ~10-foot bronze female civic statue holding a
-  large plaque with **five recessed pentagonal slots**. Inscription: *"WHAT WAS DIVIDED SHALL BE
-  WHOLE. WHAT WAS HIDDEN SHALL BE OPENED. — THE FOUNDERS OF RAVENWOOD — 1887 —"* Each slot bears
-  a faint engraved label: **ORDER, KNOWLEDGE, INDUSTRY, FAITH, MEDICINE.** The statue sits in a
-  water basin; draining the basin (by filling all five slots) reveals a submerged door/staircase
-  beneath it, descending into the Vanguard facility.
+  large circular medallion-plaque, divided into a small central pentagon hub surrounded by **five
+  trapezoidal wedge slots** arranged like a compass rose (one wedge sits due north/top, the rest
+  spaced evenly around it at the other four confirmed directions). Inscription: *"WHAT WAS DIVIDED
+  SHALL BE WHOLE. WHAT WAS HIDDEN SHALL BE OPENED. — THE FOUNDERS OF RAVENWOOD — 1887 —"* Each
+  wedge bears a faint engraved label: **ORDER, KNOWLEDGE, INDUSTRY, FAITH, MEDICINE.** The small
+  central hub bears a single weathered letter **"V"** — an unexplained, deniable early visual hint
+  at the Vanguard connection, sitting in plain sight on an 1887 civic monument. See concept art:
+  [`Assets/Reference/founders_memorial_plaque_concept.png`](Assets/Reference/founders_memorial_plaque_concept.png)
+  (two wedges shown filled/glowing, three shown empty/dark, for reference — not a literal
+  screenshot). The statue sits in a water basin; draining the basin (by filling all five wedges)
+  reveals a submerged door/staircase beneath it, descending into the Vanguard facility.
 - **Each of the five founders built one civic institution and kept one emblem.** The five
   founders of Ravenwood are the same five founders of Vanguard BioSystems — the town and the
   company are one shared history, not two that later collided.
-- The five emblems are cast-metal pentagon sections (fit together into a complete pentagon), each
+- The five emblems are cast-metal wedge sections (fit into the medallion's five slots), each
   bearing a relief portrait of its founder, the founder's name, and a symbol of their institution.
   They were made together with the statue as the facility's original (crude, deliberate) access
   control system; over generations the original purpose was forgotten and the emblems became
   civic artifacts, kept out of tradition. A short founding-record document at the Academy covers
   this in-world.
-- **The directional hint lives in the statue's empty slots, not in the emblems themselves.** Each
-  of the five recessed wedge-shaped slots on the plaque sits on a specific side/corner of the
-  pentagon, and that wedge's position/orientation on the statue points in the general compass
-  direction of the district its emblem belongs to (the southwest-facing wedge points generally
-  southwest, toward the Police Station, and so on). Jim can read this directly off the statue at
-  Memorial Park at any time, before collecting anything — it's a hint built into the monument
-  itself, not something revealed only after finding a given emblem.
+- **The directional hint lives in the statue's empty wedge slots, not in the emblems themselves.**
+  Each wedge's position on the medallion (top/north, upper-right/northeast, lower-right/southeast,
+  lower-left/southwest, upper-left/northwest) points in the general compass direction of the
+  district its emblem belongs to. Jim can read this directly off the statue at Memorial Park at
+  any time, before collecting anything — it's a hint built into the monument itself, not something
+  revealed only after finding a given emblem.
 - **Crest / district / slot reference table:**
 
-| Direction | Crest Name | Location | Statue Slot Label | Institution Symbol |
-|---|---|---|---|---|
-| Southwest | Authority Crest | [Ravenwood Police Station](Locations/Police_Station.md) | ORDER | Key |
-| Southeast | Knowledge Crest | [Worthy Academy](Locations/Academy.md) | KNOWLEDGE | Torch |
-| Northeast | Medical Crest | [St. Dymphna Hospital](Locations/Hospital.md) | MEDICINE | Serpent/Caduceus |
-| Northwest | Industry Crest | [Steelgate Refinery](Locations/Foundry_Refinery.md) | INDUSTRY | Anvil |
-| North | Faith Crest | [Our Lady of Solace Monastery](Locations/Monastery.md) | FAITH | Cross (or similar) |
+| Direction | Crest Name | Location | Statue Slot Label | Institution Symbol | Wedge Position |
+|---|---|---|---|---|---|
+| North | Faith Crest | [Our Lady of Solace Monastery](Locations/Monastery.md) | FAITH | Cross | Top |
+| Northeast | Medical Crest | [St. Dymphna Hospital](Locations/Hospital.md) | MEDICINE | Serpent/Caduceus | Upper-right |
+| Southeast | Knowledge Crest | [Worthy Academy](Locations/Academy.md) | KNOWLEDGE | Torch | Lower-right |
+| Southwest | Authority Crest | [Ravenwood Police Station](Locations/Police_Station.md) | ORDER | Key | Lower-left |
+| Northwest | Industry Crest | [Steelgate Refinery](Locations/Foundry_Refinery.md) | INDUSTRY | Anvil | Upper-left |
 
 - Jim learns about the emblems through **environmental discovery, not exposition**: guardhouse
   notes at Memorial Park (written by a park groundskeeper who never understood the statue, but

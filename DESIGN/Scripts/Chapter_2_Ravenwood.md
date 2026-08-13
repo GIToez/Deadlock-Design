@@ -442,12 +442,14 @@ He lowers his eyes to the plaque.
 ## SCENE 14 — THE PLAQUE
 
 Jim steps carefully along the narrow stone edge of the basin to reach the plaque directly. It
-faces outward toward the approach path. Large. Dark metal — the same bronze as the statue herself.
-The surface is divided into five recessed slots arranged in a clear pentagonal pattern. Each slot
-is precisely machined — beveled edges — an exact geometric section of the whole. Together they
-would form a pentagon. Currently: all five are empty.
+faces outward toward the approach path. Large. Circular. Dark metal — the same bronze as the
+statue herself. A small pentagon sits at the exact center, a single weathered letter cast into
+it — a **"V"**, worn nearly smooth, easy to miss if you're not looking for it. Around that center
+hub, five recessed wedge-shaped slots ring outward like a compass rose, each precisely
+machined — beveled edges — an exact trapezoidal section of the whole. Currently: all five are
+empty.
 
-Around the outer edge of the plaque — cast into the metal in small capital letters — a single line
+Around the outer rim of the plaque — cast into the metal in small capital letters — a single line
 of text runs the full circumference:
 
 > WHAT WAS DIVIDED SHALL BE WHOLE.
@@ -456,8 +458,8 @@ of text runs the full circumference:
 >
 > — THE FOUNDERS OF RAVENWOOD — 1887 —
 
-Jim reads it twice. Then looks at the five empty slots. His eyes move across them slowly. Each
-slot has a faint engraving beneath it — small, almost worn away by time and weather, but readable
+Jim reads it twice. Then looks at the five empty wedges. His eyes move across them slowly. Each
+one has a faint engraving beneath it — small, almost worn away by time and weather, but readable
 if you look closely. Jim leans in.
 
 *Interaction prompt: [EXAMINE SLOTS]*
@@ -466,18 +468,18 @@ if you look closely. Jim leans in.
 
 ## SCENE 15 — THE FIVE SLOTS
 
-Jim examines each slot in turn. The engravings beneath each one read:
+Jim examines each wedge in turn. The engravings beneath each one read:
 
-- **Slot 1 — top of the pentagon:** FAITH
-- **Slot 2 — upper right:** MEDICINE
-- **Slot 3 — lower right:** KNOWLEDGE
-- **Slot 4 — lower left:** ORDER
-- **Slot 5 — upper left:** INDUSTRY
+- **Wedge 1 — top (north):** FAITH
+- **Wedge 2 — upper right (northeast):** MEDICINE
+- **Wedge 3 — lower right (southeast):** KNOWLEDGE
+- **Wedge 4 — lower left (southwest):** ORDER
+- **Wedge 5 — upper left (northwest):** INDUSTRY
 
-Jim straightens up slowly. He looks at the five words arranged around the empty pentagon — and
-then at how they're arranged. It isn't random. The slot at the top faces due north, roughly toward
-the hills. The one at the lower left faces southwest. Each wedge on this statue is pointed the same
-direction as whatever it's missing.
+Jim straightens up slowly. He looks at the five words arranged around the empty medallion — and
+then at how they're arranged. It isn't random. The wedge at the top faces due north, roughly
+toward the hills. The one at the lower left faces southwest. Each wedge on this statue is pointed
+the same direction as whatever it's missing.
 
 > **JIM:** *"Five slots."*
 

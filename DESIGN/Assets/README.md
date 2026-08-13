@@ -31,6 +31,12 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
 
 ## Current files
 
-_None in this folder yet._ One asset has been uploaded so far, placed directly alongside its
-character file instead: `Characters/spr_cindy_jumpscare.gif`, embedded in
+- **`Reference/founders_memorial_plaque_concept.png`** — AI-generated concept art for the
+  Founders Memorial's medallion-plaque (Memorial Park, Chapter 2): the central pentagon "V" hub
+  and the five wedge slots, two shown filled/glowing and three empty, for visual reference only —
+  not a literal in-game screenshot. Referenced from
+  [`CANON.md`](../CANON.md) and [`Locations/Memorial_Park.md`](../Locations/Memorial_Park.md).
+
+One other asset has been uploaded, placed directly alongside its character file instead:
+`Characters/spr_cindy_jumpscare.gif`, embedded in
 [`Characters/Cindy_Sweets.md`](../Characters/Cindy_Sweets.md).

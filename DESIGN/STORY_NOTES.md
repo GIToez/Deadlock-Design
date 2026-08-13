@@ -254,6 +254,22 @@
   document yet. The one specific named-in-concept character still pending is the conditional
   Police Station survivor officer (see `CANON.md` → "Survivor System") — still an unnamed
   placeholder, which is expected since the Police Station itself hasn't been written yet.
+- **Founders Memorial plaque redesigned as a circular medallion (2026-08-13).** The project owner
+  shared a rough reference image of the emblem/plaque and asked for an improved version. This
+  changed the physical shape from what `CANON.md` previously said (a flat plaque that the five
+  emblems combine to form a pentagon) to: a **circular medallion** with a small pentagon hub at
+  the exact center (bearing a single weathered "V" — an unexplained, deniable early visual hint at
+  the Vanguard connection, sitting in plain sight on an 1887 monument) and five trapezoidal wedge
+  slots ringed around it like a compass rose. Generated a new concept-art reference image
+  (`Assets/Reference/founders_memorial_plaque_concept.png`) showing this design with correct
+  iconography (Cross/Faith/North, Serpent-Caduceus/Medical/Northeast, Torch/Knowledge/Southeast,
+  Key/Authority/Southwest, Anvil/Industry/Northwest) and two wedges filled/glowing to demonstrate
+  the assembled-vs-empty look. Updated `CANON.md` (added a Wedge Position column to the
+  crest/district table), `Locations/Memorial_Park.md`, `MASTER_STORY.md` (three separate
+  mentions), and `Scripts/Chapter_2_Ravenwood.md` Scenes 14–15 (renamed "slots" to "wedges,"
+  fixed the plaque's physical description) to match. The directional-hint mechanic itself
+  (corrected earlier the same day, see above) is unaffected — the wedge positions still map to the
+  same five compass directions and districts.
 - The two reference screenshots (lobby layout + gameplay viewport combat shot) were shared inline
   in chat only — not saved to the repo, since inline chat images aren't accessible as real files.
   If they should become permanent reference material, they need to be pushed as actual files
