@@ -10,11 +10,33 @@ belong.
 A weapon document contains:
 
 - **Description** — the doc's own flavor text, transcribed verbatim.
-- **Stats** — the doc's own numeric stat block, transcribed verbatim (see "Stat Glossary" below).
-- **Concept art**.
+- **Stats** — the doc's own numeric stat block, transcribed verbatim (see "Stat Glossary" below),
+  plus a **Caliber** row for firearms (see "Naming convention" below).
+- **Concept art** (a generated icon, or a real uploaded sprite where the project owner has provided
+  one — check each file's current status before generating a new one).
 - **Story Placement** — where/how the weapon fits (or might fit) into the currently-scripted story,
   cross-referenced against `Locations/`, `Characters/`, and `Scripts/`. Flagged as a proposal where
   no scripted placement exists yet.
+
+## Naming convention (settled 2026-08-13, after three earlier iterations)
+
+> Full back-and-forth in [`STORY_NOTES.md`](../STORY_NOTES.md) → "Weapon naming convention." The
+> deciding reference point: Resident Evil's "Samurai Edge" is an in-universe custom name for what's
+> functionally a modified Beretta 92FS — **the real-world gun is the flavor basis, not the
+> displayed name.**
+
+- **Primary name = the source document's own in-universe name**, unchanged (e.g. `"Sentinel-9"
+  Service Pistol`), for every weapon — not a bare real-world model name, not a fully generic name,
+  and not an invented placeholder model number.
+- **Real-World Basis:** for the six standard firearms, a short note in each file names the closest
+  real-world gun this weapon is functionally based on (Beretta M9, Remington 870, AR-15 platform,
+  Colt Python-style, M60, Remington 700-style) — flavor/grounding detail only, never the displayed
+  name.
+- **Caliber belongs in the Stats table, not the title** — e.g. `9mm`, `12-gauge`, `5.56mm`, `.357
+  Magnum`, `.308 Winchester`.
+- The five weapons with no real-world firearm analog (melee, and the fictional Vanguard
+  prototypes/rocket launcher) simply keep their document name as-is, with a one-line note
+  confirming why no real-world substitution applies.
 
 ## Stat Glossary
 
@@ -38,10 +60,12 @@ block below:
 **Standard Firearms:**
 
 - [`Sentinel_9_Service_Pistol.md`](Sentinel_9_Service_Pistol.md) — RPD-issue sidearm; the game's
-  first firearm (Chapter 1).
+  first firearm (Chapter 1). Has a real in-game sprite (`spr_handgun.png`).
 - [`Ranger_870_Pump_Shotgun.md`](Ranger_870_Pump_Shotgun.md) — civilian pump shotgun; the game's
-  second firearm (Chapter 2, Police Station armory).
+  second firearm (Chapter 2, Police Station armory). Has a real in-game sprite
+  (`spr_shotgun.png`).
 - [`Vanguard_M15_AR_Platform.md`](Vanguard_M15_AR_Platform.md) — Vanguard-modified semi-auto rifle.
+  Has a real in-game sprite (`spr_AR15.png`).
 - [`Ironback_357_Heavy_Revolver.md`](Ironback_357_Heavy_Revolver.md) — six-shot heavy revolver.
 - [`Steelstorm_M60_LMG.md`](Steelstorm_M60_LMG.md) — belt-fed light machine gun, salvaged from a
   Steelgate factory security cache — plausibly placed in the not-yet-written Refinery district.
@@ -50,7 +74,7 @@ block below:
 **Melee:**
 
 - [`Roadwrecker_Baseball_Bat.md`](Roadwrecker_Baseball_Bat.md) — Jim's first weapon, grabbed from
-  wrecked lobby furniture in Chapter 1.
+  wrecked lobby furniture in Chapter 1. Has a real in-game sprite (`spr_baseballBat.gif`).
 - [`Cleaverborn_Survival_Sword.md`](Cleaverborn_Survival_Sword.md) — a cut-down machete/sword.
 
 **Vanguard Experimental Prototype Set:**
@@ -86,7 +110,10 @@ yet placed in a specific chapter/district — see each file's "Story Placement" 
 
 - **Filename:** `Reference/weapon_<name>_concept.png`, lowercase with underscores, matching the
   weapon's own filename (e.g. `Sentinel_9_Service_Pistol.md` →
-  `weapon_sentinel_9_service_pistol_concept.png`).
+  `weapon_sentinel_9_service_pistol_concept.png`). **Real uploaded sprites are the exception** —
+  the project owner's own convention places them directly in this folder as `spr_<name>.png`/`.gif`
+  (e.g. `spr_handgun.png`); don't move or rename those, and don't generate a competing AI icon for
+  a weapon that already has one.
 - **Style:** a small, clean, flat-shaded pixel-art inventory icon — a simple, mostly-monochrome
   silhouette for firearms/melee weapons (dark gunmetal/black, minimal shading, a slight 3/4 angled
   view as if laid out in an inventory grid slot), matching the uploaded reference icons' scale and

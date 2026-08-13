@@ -2,6 +2,16 @@
 
 > Transcribed from [`Deadlock Weapons and Items.docx`](../Deadlock%20Weapons%20and%20Items.docx),
 > uploaded 2026-08-13. Category: Standard Firearm.
+>
+> **Naming, settled 2026-08-13:** the in-universe name stays as the primary name — see
+> [`Sentinel_9_Service_Pistol.md`](Sentinel_9_Service_Pistol.md) for the full naming rationale
+> (the "Samurai Edge" precedent) and [`STORY_NOTES.md`](../STORY_NOTES.md) for the complete
+> back-and-forth.
+>
+> **Real-World Basis:** functionally a belt-fed **M60** light machine gun (the "M60" in this
+> weapon's own name is already a direct nod to that real gun) — consistent with "a belt-fed
+> industrial machine gun salvaged from a Steelgate factory security cache." Flavor/grounding detail
+> only.
 
 ## Description
 

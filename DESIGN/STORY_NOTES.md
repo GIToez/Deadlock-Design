@@ -806,6 +806,58 @@ the next entry for the current final numbering (Scenes 22–40).
   weapon/item renders were generated**, avoiding the same mistake made earlier with room concepts
   (see the "Room concept art style correction" entries above) — this time the style reference
   arrived before generation started, not after.
+- **Real weapon/item sprites uploaded — 15 files (2026-08-13).** The project owner pushed 15 actual
+  in-game sprites directly into `Weapons/` and `Items/` (not inline-chat images this time — real
+  committed files, so no description-only workaround was needed): `spr_handgun.png`,
+  `spr_shotgun.png`, `spr_AR15.png`, `spr_baseballBat.gif` (weapons — matching four of the eleven
+  catalogued weapons) and `spr_medkit.png`, `spr_smallMedKit.png`, `spr_handgunAmmo.png`,
+  `spr_shotgunAmmo.png`, `spr_riffle ammo.png`, `spr_screwDriver.png`, `spr_managerKey.png`,
+  `spr_MaitenanceKey.png`, `spr_graveyardKey.png`, `spr_keycard.png`, `spr_fuseItem.gif` (items —
+  mostly location-specific key items already documented per-location, e.g. the Manager's Key and
+  screwdriver from `Locations/Ravenwood_Hotel.md`, plus two new items not yet documented anywhere:
+  a graveyard key and a keycard). Embedded the four weapon sprites directly into their matching
+  `Weapons/` files (confirmed real assets, replacing the "no concept art yet" gap). The item
+  sprites are not yet individually catalogued as `Items/` files or cross-linked to their existing
+  `Locations/` mentions — flagged as a follow-up, not done in the same pass as the naming
+  discussion below.
+- **Weapon naming convention — settled after three iterations (2026-08-13).** The project owner
+  asked whether to drop the source document's invented brand nicknames (e.g. "Sentinel-9,"
+  "Ranger 870") in favor of plain model numbers. This went through several rounds before landing:
+  1. **First pass:** assumed the uploaded sprite filenames (`spr_handgun.png`, `spr_shotgun.png`,
+     `spr_AR15.png`, `spr_baseballBat.gif`) reflected the actual in-fiction naming convention (fully
+     generic: "Handgun," "Shotgun," "AR-15," "Baseball Bat") and renamed all 11 weapon files to
+     match, demoting the original nicknames to an "AKA" note. **Wrong premise** — the project owner
+     clarified the sprite filenames are just generic asset-pipeline names, not meaningful in-fiction
+     names.
+  2. **Second pass:** the project owner then said plain-generic names alone felt too bare and asked
+     for "at least a model number." Renamed again to "model number + generic type" (e.g. "M9
+     Handgun," "870 Shotgun"), inventing plausible numbers for weapons that had none in the source
+     document (e.g. an invented "XL-3" for the baseball bat, "SK-5" for the survival sword).
+  3. **Third pass — corrected further:** the project owner supplied real calibers (9mm pistol,
+     12-gauge shotgun, 5.56mm AR) and clarified two things: caliber shouldn't be *in* the displayed
+     name (it's lore/stat detail, not a title element), and weapon names should either match the
+     source document exactly or use an actual real-world firearm model — not an invented
+     placeholder number. Renamed a third time to real-world manufacturer+model names (Beretta M9,
+     Remington 870, Colt Python, Remington 700), dropping the source document's nicknames entirely
+     for the six standard firearms.
+  4. **Final, settled decision:** the project owner referenced Resident Evil's "Samurai Edge" — an
+     in-universe custom name for what's functionally a modified Beretta 92FS — as the model to
+     follow. **This is the deciding precedent:** the real-world gun is the *basis* for a weapon's
+     feel/flavor, not its displayed name. Reverted a final time to the **source document's own
+     in-universe names as the primary name for every weapon** (all 11 filenames and headers back to
+     their original form), with a **"Real-World Basis" note** added to each of the six standard
+     firearms (Beretta M9 for the Sentinel-9, Remington 870 for the Ranger 870, AR-15 platform for
+     the Vanguard M-15, Colt Python-style for the Ironback .357, M60 for the Steelstorm M60,
+     Remington 700-style for the Longview .308) purely as flavor/grounding detail, and a **Caliber**
+     row added to each one's Stats table (9mm, 12-gauge, 5.56mm, .357 Magnum, .308 Winchester) so
+     the caliber is recorded as data, not baked into the title. The five weapons with no real-world
+     analog (Roadwrecker Baseball Bat, Cleaverborn Survival Sword, Thunderlance Railgun, CRN-09
+     Decimator Beam, Titanbreaker RLR-7 Rocket Launcher) simply keep their document names outright,
+     with a short note confirming why no real-world substitution applies to them.
+  - **Lesson for future naming decisions:** don't over-rotate on a single new data point (like an
+    asset filename) without confirming it's actually meaningful — ask or wait for confirmation
+    before a full rename pass, since three of the four rename passes here turned out to be
+    unnecessary churn once the full picture (calibers, the Samurai Edge precedent) was in.
 
 ## Still-Open Questions
 

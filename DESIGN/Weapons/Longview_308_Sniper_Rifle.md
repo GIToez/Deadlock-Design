@@ -2,6 +2,15 @@
 
 > Transcribed from [`Deadlock Weapons and Items.docx`](../Deadlock%20Weapons%20and%20Items.docx),
 > uploaded 2026-08-13. Category: Standard Firearm.
+>
+> **Naming, settled 2026-08-13:** the in-universe name stays as the primary name — see
+> [`Sentinel_9_Service_Pistol.md`](Sentinel_9_Service_Pistol.md) for the full naming rationale
+> (the "Samurai Edge" precedent) and [`STORY_NOTES.md`](../STORY_NOTES.md) for the complete
+> back-and-forth.
+>
+> **Real-World Basis:** a .308 Winchester bolt-action rifle, in the vein of a **Remington
+> 700**-style platform — consistent with "a precision long-range rifle designed for hunting large
+> game." Flavor/grounding detail only; caliber is recorded in the Stats table below, not the name.
 
 ## Description
 
@@ -12,6 +21,7 @@ distances can be engaged safely. Slow cycling and long ready time, but unmatched
 
 | Stat | Value |
 |---|---|
+| Caliber | .308 Winchester |
 | Damage | 95 |
 | Fire Rate | 1.8s |
 | Bullet Speed | 44 |

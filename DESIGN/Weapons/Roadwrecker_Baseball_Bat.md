@@ -2,6 +2,16 @@
 
 > Transcribed from [`Deadlock Weapons and Items.docx`](../Deadlock%20Weapons%20and%20Items.docx),
 > uploaded 2026-08-13. Category: Melee.
+>
+> **Naming:** kept as the in-universe document name — no real-world firearm/model analog applies to
+> an improvised melee weapon, so this weapon falls on the "document name" side of the settled
+> naming convention rather than the "real-world basis" side — see
+> [`Sentinel_9_Service_Pistol.md`](Sentinel_9_Service_Pistol.md) and
+> [`STORY_NOTES.md`](../STORY_NOTES.md) for the full rationale.
+
+![Baseball Bat — in-game sprite](spr_baseballBat.gif)
+
+*Real in-game sprite, uploaded by the project owner (2026-08-13).*
 
 ## Description
 

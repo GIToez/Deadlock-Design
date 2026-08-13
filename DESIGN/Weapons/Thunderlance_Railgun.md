@@ -4,6 +4,10 @@
 > uploaded 2026-08-13. Category: Vanguard Experimental Prototype Set. See
 > [`Weapons/README.md`](README.md) and [`STORY_NOTES.md`](../STORY_NOTES.md) for a note on this
 > category's loose heading placement in the source document.
+>
+> **Naming:** kept as the in-universe document name — this is a fictional sci-fi prototype with no
+> real-world firearm analog — see [`Sentinel_9_Service_Pistol.md`](Sentinel_9_Service_Pistol.md)
+> and [`STORY_NOTES.md`](../STORY_NOTES.md) for the settled naming convention.
 
 ## Description
 

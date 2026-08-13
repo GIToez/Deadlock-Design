@@ -2,6 +2,10 @@
 
 > Transcribed from [`Deadlock Weapons and Items.docx`](../Deadlock%20Weapons%20and%20Items.docx),
 > uploaded 2026-08-13. Category: Melee.
+>
+> **Naming:** kept as the in-universe document name — no real-world firearm/model analog applies to
+> an improvised melee weapon — see [`Sentinel_9_Service_Pistol.md`](Sentinel_9_Service_Pistol.md)
+> and [`STORY_NOTES.md`](../STORY_NOTES.md) for the settled naming convention.
 
 ## Description
 

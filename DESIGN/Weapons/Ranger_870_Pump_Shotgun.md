@@ -2,6 +2,19 @@
 
 > Transcribed from [`Deadlock Weapons and Items.docx`](../Deadlock%20Weapons%20and%20Items.docx),
 > uploaded 2026-08-13. Category: Standard Firearm.
+>
+> **Naming, settled 2026-08-13:** the in-universe name stays as the primary name — see
+> [`Sentinel_9_Service_Pistol.md`](Sentinel_9_Service_Pistol.md) for the full naming rationale
+> (the "Samurai Edge" precedent) and [`STORY_NOTES.md`](../STORY_NOTES.md) for the complete
+> back-and-forth.
+>
+> **Real-World Basis:** functionally a 12-gauge pump-action shotgun, closest to a **Remington
+> 870**-style platform (the "870" in this weapon's own name is already a direct nod to that real
+> gun). Flavor/grounding detail only; caliber is recorded in the Stats table below, not the name.
+
+![Ranger 870 — in-game sprite](spr_shotgun.png)
+
+*Real in-game sprite, uploaded by the project owner (2026-08-13).*
 
 ## Description
 
@@ -13,6 +26,7 @@ dispatching Shamblers, and delivering devastating takedowns when cornered.
 
 | Stat | Value |
 |---|---|
+| Caliber | 12-gauge |
 | Damage | 14 × 8 pellets |
 | Fire Rate | 1.1s |
 | Bullet Speed | 19 |

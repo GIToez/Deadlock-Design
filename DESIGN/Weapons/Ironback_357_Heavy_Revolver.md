@@ -2,6 +2,16 @@
 
 > Transcribed from [`Deadlock Weapons and Items.docx`](../Deadlock%20Weapons%20and%20Items.docx),
 > uploaded 2026-08-13. Category: Standard Firearm.
+>
+> **Naming, settled 2026-08-13:** the in-universe name stays as the primary name — see
+> [`Sentinel_9_Service_Pistol.md`](Sentinel_9_Service_Pistol.md) for the full naming rationale
+> (the "Samurai Edge" precedent) and [`STORY_NOTES.md`](../STORY_NOTES.md) for the complete
+> back-and-forth.
+>
+> **Real-World Basis:** a .357 Magnum six-shot revolver, in the vein of a **Colt Python**-style
+> platform — consistent with "a brutally powerful six-shot revolver favored by old-school
+> hunters." Flavor/grounding detail only; caliber is recorded in the Stats table below, not the
+> name.
 
 ## Description
 
@@ -13,6 +23,7 @@ high-reward single-shot impact.
 
 | Stat | Value |
 |---|---|
+| Caliber | .357 Magnum |
 | Damage | 62 |
 | Fire Rate | 0.65s |
 | Bullet Speed | 34 |
