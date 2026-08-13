@@ -100,9 +100,11 @@ to the Ravenwood Hotel.
 
   ![Armory — room concept](../Assets/Reference/police_station_armory_concept.png)
 
-  > AI-generated room concept (2026-08-13, regenerated same day — the first version had drifted into
-  > a flat vector-cartoon look instead of the project's painterly 2.5D pixel-art style; see
-  > [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art style correction, take two"). Matches the
+  > AI-generated room concept (2026-08-13, regenerated twice same day — the first two attempts both
+  > drifted into a flat vector-cartoon look (thick black outlines, no pixel-art grain) instead of the
+  > project's painterly 2.5D pixel-art style; see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept
+  > art style correction, take three" for the final fix, anchored directly to a real Hotel screenshot
+  > and a known-good room concept). Matches the
   > scripted "mostly-emptied racks, one clamped-down shotgun" beat closely.
 - **The Break Room.** A small, deliberately quiet optional stop off the same back hallway as the
   K-9 Unit Room — Corporal Reyes' employee locker holds an old photo of him with Diesel and Baxter
@@ -126,9 +128,11 @@ to the Ravenwood Hotel.
 
   ![Interview Room — room concept](../Assets/Reference/police_station_interview_room_concept.png)
 
-  > AI-generated room concept (2026-08-13, regenerated same day — the first version had drifted into
-  > a flat vector-cartoon look instead of the project's painterly 2.5D pixel-art style; see
-  > [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art style correction, take two").
+  > AI-generated room concept (2026-08-13, regenerated twice same day — the first two attempts both
+  > drifted into a flat vector-cartoon look (thick black outlines, no pixel-art grain) instead of the
+  > project's painterly 2.5D pixel-art style; see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept
+  > art style correction, take three" for the final fix, anchored directly to a real Hotel screenshot
+  > and a known-good room concept).
 - **Modern Holding Cells.** Two working cells, in contrast with the old station house's disused
   ones — one empty with a torn, discarded uniform shirt; one holding a shambler safely behind bars,
   the same "visible but harmless" convention as the lobby's glass-shielded shambler.

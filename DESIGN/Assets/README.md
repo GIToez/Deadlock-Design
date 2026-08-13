@@ -116,6 +116,23 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   "RAVENCROFT" sign) are back in their original flagged state, since those renders reverted along
   with everything else — see the original flagged notes in
   [`Locations/Police_Station.md`](../Locations/Police_Station.md).
+- **`Reference/police_station_armory_concept.png`, `police_station_interview_room_concept.png`
+  ("v4") (2026-08-13, take three).** The take-two regenerations still hadn't fixed the flat
+  vector-cartoon look; regenerated a second time, anchored directly to a real Hotel screenshot and a
+  known-good Police Station room concept — see
+  [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art style correction, take three."
+- **Room concept art style correction, take four — attempted and reverted (2026-08-13).** Regenerated
+  `police_station_modern_cells_concept.png`, `police_station_courthouse_concept.png`, and (never
+  deployed) `hotel_red_room_concept_v2.png` to a strict flat-back-wall framing, matching the real
+  screenshots' camera angle more literally. Rejected by the project owner ("Those r flat the old are
+  better"); all three reverted/discarded. See
+  [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept art style correction, take four" for the
+  confirmed lesson: concept art's camera framing (including tilted/isometric corner views) doesn't
+  need to exactly match the flatter in-engine screenshot framing, just the same painterly 2.5D
+  pixel-art style. `hotel_lobby_concept.png` was also removed from this folder around the same time
+  (2026-08-13) at the project owner's direction — the Lobby already has a real gameplay screenshot in
+  the actual game (not yet pushed to this repo) and shouldn't be represented by an AI approximation;
+  see [`Locations/Ravenwood_Hotel.md`](../Locations/Ravenwood_Hotel.md) for the TBD note.
 - **`Reference/shambler_concept.png`, `the_caretaker_concept.png`, `della_marsh_concept.png`,
   `the_maw_concept.png`** (AI-generated, 2026-08-13) — creature concept art for the four remaining
   creature writeups that didn't have one yet, completing visual coverage for every creature in

@@ -180,12 +180,12 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 - **Lobby** — West Lounge (Cindy), East Waiting Area (the Daltons), Reception (Earl), the Grand
   Staircase up to the guest floor. Wrecked mid-chapter by the police cruiser crash.
 
-  ![Lobby concept — west lounge, reception desk, east waiting area, grand staircase](../Assets/Reference/hotel_lobby_concept.png)
-
-  > AI-generated concept art (2026-08-13), style-anchored to the Manager's Office/Dining Hall
-  > reference screenshots — see [`Assets/README.md`](../Assets/README.md) → "Convention: room
-  > concept art." Rough staging idea for the room's layout described in Scene 5, not a locked
-  > floor plan.
+  > **_TBD — real screenshot needed._** An AI-generated concept was made for this room (2026-08-13)
+  > but has been removed at the project owner's direction: the Lobby is one of the rooms the actual
+  > game already has a real gameplay screenshot for, and the AI approximation shouldn't stand in for
+  > it. No such screenshot has actually been committed to the repo yet, though — see
+  > [`Assets/README.md`](../Assets/README.md) → "How to add a file" for how to push one in. Once
+  > uploaded, embed it here in place of this note.
 - **Manager's Office** — the chapter's first safe room; VERN save terminal, guest ledger,
   incident report, breaker panel. Reached via the Staff Hallway off the Lobby (Manager's Key).
 
@@ -233,10 +233,12 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 
   ![Housekeeping Closet concept — linen shelves, locked wire cage with the gate crank handle](../Assets/Reference/hotel_housekeeping_closet_concept.png)
 
-  > AI-generated concept art (2026-08-13). Flagged inaccuracy: the render put a door number
+  > AI-generated concept art (2026-08-13). Flagged inaccuracies: (1) the render put a door number
   > ("305") on the closet door, which doesn't fit its canonical location — a supply closet on the
-  > guest floor (2F) between Rooms 114/116, not a numbered guest room on a third floor. Ignore the
-  > door number; everything else (linen shelves, the locked wire cage holding the crank handle,
+  > guest floor (2F) between Rooms 114/116, not a numbered guest room on a third floor; (2) the
+  > wall placard reads "Royal Crest Hotel," but the hotel's canonical name is the **Ravenwood
+  > Hotel** — the generator invented a placeholder brand instead of matching the establishment.
+  > Ignore both; everything else (linen shelves, the locked wire cage holding the crank handle,
   > the maintenance tag) matches the scripted contents.
 - **West Wing Maintenance Room** — a small, simply-shut (not locked) room near the West Public
   Stairwell; source of the replacement **auxiliary fuse**.
@@ -277,7 +279,10 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
 
   > AI-generated concept art (2026-08-13). Kept deliberately restrained on Gerta's body/wound
   > detail for this reference render — see [`Characters/Gerta.md`](../Characters/Gerta.md) for the
-  > scripted description of the scene itself.
+  > scripted description of the scene itself. Flagged inaccuracy: the wall sign reads "Hotel
+  > Imperial Laundry," but the hotel's canonical name is the **Ravenwood Hotel** — ignore the
+  > invented brand name; everything else (washers/dryers, laundry carts, staff uniform rack) matches
+  > the scripted contents.
 - **East Wing Maintenance Closet** — a handwritten note here reveals the auxiliary fuse was
   relocated to the West Wing. A barricaded service door behind it clears by hand, opening a
   **permanent shortcut straight back to the Lobby**.

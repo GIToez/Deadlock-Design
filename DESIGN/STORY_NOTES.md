@@ -409,6 +409,35 @@
   the house style is 2.5D/isometric-leaning with visible object fronts, not flat top-down — see the
   (already-correct) description in [`Assets/README.md`](Assets/README.md) → "Convention: room
   concept art."
+- **Room concept art style correction, take three (2026-08-13, later the same day).** The take-two
+  regenerations of `police_station_armory_concept.png` and `police_station_interview_room_concept.png`
+  ("v3") still hadn't actually fixed the flat vector-cartoon problem — closer inspection found they
+  still had thick black outlines and flat cel-shading instead of the painterly pixel-art grain every
+  other room concept uses. Regenerated both a second time ("v4"), this time anchored directly to a
+  real Hotel screenshot (`ravenwood_hotel_dining_hall.png`) plus a known-good Police Station room
+  concept, with an explicit prompt instruction rejecting the flat vector-cartoon look. Copied the v4
+  renders over the existing files and updated their captions in
+  [`Locations/Police_Station.md`](Locations/Police_Station.md) to record the full two-attempt history.
+- **Room concept art style correction, take four — attempted and rejected (2026-08-13, later
+  still).** Independently, side-by-side comparison of every remaining room concept against the real
+  in-engine screenshots (`ravenwood_hotel_kitchen_full.png`, `ravenwood_hotel_dining_hall.png`) turned
+  up what looked like a genuine camera-angle inconsistency: `police_station_modern_cells_concept.png`,
+  `police_station_courthouse_concept.png`, and `hotel_red_room_concept.png` all use a tilted/rotated,
+  corner-of-the-room isometric framing, while the real screenshots show a strictly flat single back
+  wall with a straight horizontal top edge. Regenerated all three to that strict flat-back-wall
+  framing (new v2s of all three). Immediate project-owner feedback: "Those r flat the old are
+  better." Reverted `police_station_modern_cells_concept.png` and
+  `police_station_courthouse_concept.png` to their pre-attempt versions via `git restore`, and
+  discarded the `hotel_red_room_concept_v2.png` file before it was ever deployed into
+  [`Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md) (the original `hotel_red_room_concept.png` was
+  never actually changed). **Lesson — now confirmed a second time, independently of take one's
+  identical finding:** the project's real house style for concept art is 2.5D/isometric-leaning,
+  including a tilted corner-of-the-room framing for some rooms, even though the actual in-engine
+  gameplay screenshots use a flatter single-wall framing. Concept art is not required to exactly copy
+  the gameplay camera's framing — it should stay in the general painterly 2.5D pixel-art *style*
+  (grain, palette, prop density, three-quarter object fronts), not be forced into a flat top-down
+  layout. Do not attempt another "flatten the camera" pass on any room concept without new, explicit
+  direction from the project owner.
 - **Creature concept-art coverage completed (2026-08-13, same day).** Project owner: "Let's also do
   renders for creatures we don't have all. Make sure to do it for all future as well" — the second
   half of rule 16 in `README.md` (every new enemy/creature gets concept art) plus a backfill pass
