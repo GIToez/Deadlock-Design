@@ -33,5 +33,11 @@ A character document may contain:
   locker, his body/note in the courtyard, and his reanimated Shambler fight — see
   [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 37, 42, and 44.
 
-Characters for locations beyond the hotel (Memorial Park, the five districts, etc.) will be added
-once those chapters are written — see [`STORY_NOTES.md`](../STORY_NOTES.md).
+## Current files (Chapter 2 — Ravenwood / Southwest District)
+
+- [`Ruth_Calloway.md`](Ruth_Calloway.md) — Ravenwood PD desk sergeant; the Police Station's Tier 2
+  conditional survivor — see [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md),
+  Scene 26.
+
+Characters for the remaining four districts (Hospital, Academy, Refinery, Monastery) will be added
+once those are written — see [`STORY_NOTES.md`](../STORY_NOTES.md).

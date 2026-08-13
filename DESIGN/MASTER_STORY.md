@@ -123,7 +123,8 @@ is arranged as five districts around a central downtown, each home to one of the
 locations and its crest/emblem:
 
 - **Southwest — Authority Crest — [Ravenwood Police Station](Locations/Police_Station.md)**
-  (closest to the park; the natural, though not forced, first destination)
+  (closest to the park; the natural, though not forced, first destination — fully scripted, see
+  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–33)
 - **Southeast — Knowledge Crest — [Worthy Academy](Locations/Academy.md)**
 - **Northeast — Medical Crest — [St. Dymphna Hospital](Locations/Hospital.md)**
 - **Northwest — Industry Crest — [Steelgate Refinery](Locations/Foundry_Refinery.md)** (its rail
@@ -134,7 +135,11 @@ locations and its crest/emblem:
 
 Exploration order is fully open. Each district also contains 2–3 secondary locations (supplies,
 lore, optional survivors) between downtown and the main objective — see [`STORY_NOTES.md`](STORY_NOTES.md) for the
-full list logged so far. A two-tier survivor system applies throughout (see [`CANON.md`](CANON.md)).
+full list logged so far. A two-tier survivor system applies throughout (see [`CANON.md`](CANON.md));
+the Police Station's [Sergeant Ruth Calloway](Characters/Ruth_Calloway.md) is the first concrete
+example. The Police Station also delivers the game's second firearm (a shotgun) and introduces the
+**Ashen Hound** (see [`Creatures/Ashen_Hound.md`](Creatures/Ashen_Hound.md)) — a fast,
+pack-hunting infected-animal type distinct from the slow Shambler baseline.
 
 **Chapter Close.** Returning all five emblems to the Founders Memorial fills all five wedges of
 the medallion; the water basin drains, revealing a hidden staircase beneath the statue — the

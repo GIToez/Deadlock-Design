@@ -2,12 +2,21 @@
 
 > Scene-by-scene script, continuing the numbering convention from [`Chapter_1_One_Night_Only.md`](Chapter_1_One_Night_Only.md)
 > (numbering restarts at Scene 1 for this chapter). Covers everything currently written:
-> the street crossing, Memorial Park (clearing it, the guardhouse, the Founders Memorial), and the
-> Downtown introduction (Pearl's Diner, the Public Library, City Hall). **The five districts
-> (Police Station, Hospital, Academy, Refinery, Monastery) are planned but not yet scripted** —
-> see [`STORY_NOTES.md`](../STORY_NOTES.md) for what's locked about them so far.
+> the street crossing, Memorial Park (clearing it, the guardhouse, the Founders Memorial), the
+> Downtown introduction (Pearl's Diner, the Public Library, City Hall), and the **Southwest
+> District / Authority Crest (Ravenwood Police Station + Fire Station, Municipal Garage, City
+> Courthouse)**. **The remaining four districts (Hospital, Academy, Refinery, Monastery) are
+> planned but not yet scripted** — see [`STORY_NOTES.md`](../STORY_NOTES.md) for what's locked
+> about them so far.
 >
-> Status: this material is marked `FINALIZED CANON — LOCKED` in its source ([`AI.json`](../AI.json)).
+> Status: Scenes 1–21 (through City Hall) are drawn from material marked `FINALIZED CANON —
+> LOCKED` in [`AI.json`](../AI.json). Scenes 22 onward (the Police Station district) are new —
+> [`AI.json`](../AI.json) only reached outline-level detail for this district (the three secondary
+> locations, plus a list of open questions it never answered: what's inside the station, who the
+> survivor officer is, and what the emblem looks like/where it is). Those open questions are
+> answered here for the first time; treat names, the survivor's identity, and the specific
+> creature encounter as proposals until reviewed, same as any other new material — see the
+> Direction Log in [`STORY_NOTES.md`](../STORY_NOTES.md).
 
 ---
 
@@ -706,10 +715,491 @@ The recorder clicks off. Jim sets it down slowly.
 
 ---
 
+## SCENE 22 — SOUTHWEST DISTRICT ENTRY
+
+Jim leaves the downtown grid behind. The buildings change character within a few blocks — storefronts
+give way to municipal architecture, wider streets, chain-link fencing, sodium lights on tall poles
+(most dead, a few still flickering on backup power). A sign, half-knocked from its post, still
+points the way: **CIVIC COMPLEX — POLICE — FIRE — COURTS — 2 BLOCKS.**
+
+Everything here was built to project order. None of it held.
+
+A row of patrol cars sits abandoned along the curb, doors open, overhead lights long since drained
+of charge. A dropped riot shield lies face-down in a puddle, cracked straight through.
+
+> **JIM:** *"...Should've been the safest part of town."*
+
+*SFX: rain on chain-link and sheet metal; a radio antenna somewhere clicking rhythmically against
+a pole in the wind; distant, occasional gunfire — old, not current, more echo than event.*
+
+> *Design note: this is the player's first extended look at what "civic order" looked like the
+> night everything fell apart — the same visual irony called out in* [`AI.json`](../AI.json)*'s
+> original district notes: a district full of people whose job was to stop this, overrun anyway.*
+
+---
+
+## SCENE 23 — RAVENWOOD POLICE STATION — EXTERIOR
+
+The station comes into view at the end of the block: a squat two-story municipal building, modern
+brick and glass, **RAVENWOOD POLICE DEPARTMENT** in raised steel letters above the entrance —
+several letters dark, the sign lit unevenly. Attached to its west side, separated by a narrow
+breezeway, sits something much older: a squared-off stone building with an arched entrance and a
+weathered cornerstone, dwarfed by the modern structure grafted onto it. A small brass plaque beside
+its own boarded door reads **ORIGINAL STATION HOUSE — EST. 1887 — RAVENWOOD HISTORICAL REGISTER.**
+
+The parking lot in front of the modern building is a wreck of its own making: cruisers nosed into
+each other, a folding barricade table on its side, sawhorses scattered rather than stacked — the
+department's own emergency response, abandoned mid-deployment. One cruiser's light bar still turns,
+red and blue, uselessly, over an empty lot.
+
+> **JIM:** *"Front door's the modern half. Old building's boarded up tight."*
+
+He looks at the boarded stone building a moment longer than he means to — the note from the
+guardhouse still sitting in his mind. *Look at the police station. The old building. Not the
+annex — the original 1890s structure.*
+
+> **JIM:** *"...We'll get there."*
+
+*Interaction prompt: [APPROACH MAIN ENTRANCE]*
+
+---
+
+## SCENE 24 — STATION LOBBY
+
+The lobby doors are propped open with a fire extinguisher — someone's decision, once, to make sure
+they didn't lock behind whoever went through them last. Inside: a bulletproof reception window,
+spiderwebbed with a single hard impact but not broken through; a row of plastic waiting-room chairs,
+one overturned; a bulletin board thick with lost-dog flyers, a blood-drive notice, and a faded
+D.A.R.E. poster nobody's replaced since the '90s. A hand-lettered sign taped to the reception window
+reads: **RING BELL FOR SERVICE.** The bell sits on the counter, undisturbed.
+
+Somewhere deeper in the building, muffled by walls and distance, static crackles — a radio scanner
+still running on backup power, cycling through dead channels.
+
+A shape shifts behind the reception window — slow, wrong, the posture Jim's learned to recognize
+from thirty feet away by now. A former officer, still partially in uniform, rises from where it had
+slumped against the counter on the other side of the glass.
+
+> **JIM:** *"Not through the glass, at least."*
+
+It can't reach him from behind the reinforced window — a dead end for it, not for Jim. He moves
+past toward the door marked **BULLPEN — AUTHORIZED PERSONNEL.**
+
+> *Design note: this shambler is placed specifically to be seen and bypassed, not fought — a small
+> beat of relief (a threat that isn't actually a threat) before the bullpen.*
+
+---
+
+## SCENE 25 — THE BULLPEN
+
+The bullpen is a single open room — a dozen desks in rows, computer monitors dark, a wall of
+evidence lockers along the back, a large tactical map of Ravenwood pinned up near the door with
+patrol sectors marked in grease pencil. Paperwork is scattered everywhere — some of it official
+incident reports, most of it just knocked loose in the chaos. A coffee station in the corner still
+has a full pot, long gone cold and bitter-smelling. Two desks near the window have been shoved
+together and turned on their sides — a hasty barricade, built and then abandoned.
+
+A shambler — a heavyset officer, vest still buckled — rises from behind one of the overturned desks.
+
+> **JIM:** *"Alright."*
+
+*Combat: Shambler.*
+
+Once it's down, a voice — hoarse, tired, but sharp — cuts through the quiet from somewhere behind a
+half-closed door at the back of the bullpen marked **RECORDS / DISPATCH.**
+
+> **VOICE (CALLOWAY):** *"If you're gonna make that much noise, you'd better not be one of them."*
+
+Jim goes still.
+
+> **JIM:** *"...I'm not."*
+
+> **VOICE (CALLOWAY):** *"Everybody says that."*
+
+A pause.
+
+> **VOICE (CALLOWAY):** *"Door's not locked. It's barricaded, and I'm the one who has to move the
+> file cabinet, so give me a damn minute."*
+
+### Optional — evidence lockers
+
+*Interaction prompt: [EXAMINE LOCKERS]*
+
+Most stand open and empty, already emptied out early in the chaos. One near the end is still
+intact — a small brown paper evidence bag, sealed, tagged, hanging from a wall hook rather than
+locked inside: **CASE #04-1187 — EVIDENCE ROOM KEY — RELEASE PENDING — RAVENWOOD MUNICIPAL COURT.**
+Whatever case it belonged to, nobody's coming to close it now.
+
+*ITEM ACQUIRED: EVIDENCE ROOM KEY*
+
+> **JIM:** *"Sorry, whoever you were."*
+
+> *Design note: this key has no use inside the Police Station itself — it opens the locked evidence
+> room at the City Courthouse (Scene 33), a deliberate cross-location reward per* [`AI.json`](../AI.json)*'s
+> original district notes.*
+
+---
+
+## SCENE 26 — SERGEANT CALLOWAY
+
+*This scene plays if the Police Station is the first district Jim visits. See the design note at
+the end of this scene for what happens if it isn't.*
+
+The door to Records/Dispatch scrapes open against the weight of a filing cabinet being dragged
+clear from the other side. **Sergeant Ruth Calloway** stands in the gap — mid-fifties, uniform
+still buttoned correctly despite everything, gray hair pulled back tight, a fire axe held
+competently in both hands rather than anything that needs a badge to justify. She looks Jim over
+once, fast and thorough, the way someone does when they've spent thirty years deciding in under
+five seconds whether a stranger is a problem.
+
+> **CALLOWAY:** *"You're not one of mine and you're not one of them. That's a good start."*
+>
+> **JIM:** *"Jim Mercer. I was staying at the hotel."*
+>
+> **CALLOWAY:** *"The hotel's still standing?"*
+>
+> **JIM:** *"Barely."*
+>
+> **CALLOWAY:** *"Sounds about right for tonight."*
+
+She steps back, waves him into the small dispatch room — a bank of dead monitors, a desk radio
+still drawing power from somewhere, a cot that's clearly been slept on in short shifts rather than
+real sleep.
+
+> **CALLOWAY:** *"Ruth Calloway. Desk sergeant. Three years from a pension I am extremely unhappy
+> about maybe not collecting."*
+>
+> **JIM:** *"What happened here?"*
+>
+> **CALLOWAY:** *"Same thing that happened everywhere else, just faster, because we're the ones
+> everybody ran to. By the time anybody figured out running here was a mistake, the doors were
+> already open."*
+
+She sets the axe down against the desk — not far, not put away, just down.
+
+> **CALLOWAY:** *"Radio's dead outside the building — county, state, all of it, gone. I've had
+> exactly one working channel all night, and all it does is repeat the Deadlock order back at me
+> like that's supposed to help."*
+>
+> **JIM:** *"I saw the checkpoint. County line's sealed."*
+>
+> **CALLOWAY:** *"Sealed *at* the county line. We're a long way from the county line, Mr. Mercer."*
+
+A beat. Rain against the small dispatch window.
+
+> **JIM:** *"There's a statue in the park. Memorial Park. Slots for something — five of them.
+> Groundskeeper left a note saying a historian told him to look at the old station house."*
+
+Calloway's expression shifts — not surprise exactly, more like something finally making sense after
+sitting wrong for years.
+
+> **CALLOWAY:** *"The old key thing. In the display case, main hall, next door."*
+>
+> **JIM:** *"You've seen it."*
+>
+> **CALLOWAY:** *"Every officer who's ever worked out of this building has seen it. Nobody thinks
+> about it. It's just always been there — some ceremonial thing from when the department started.
+> First marshal's name is on it. Hale, I think. Josiah Hale."*
+>
+> **JIM:** *"Nobody ever asked why it's shaped like that?"*
+>
+> **CALLOWAY:** *"It's a hundred and forty years old and it's behind glass in a building nobody
+> visits. People stopped asking questions about this town's antiques a long time before I got
+> here."*
+
+She crosses to a small key cabinet mounted behind the dispatch desk, works a key off a hook, and
+holds it out to Jim.
+
+> **CALLOWAY:** *"Armory key. You clearly know how to use your hands — you're better armed going
+> back out there than I am staying in here. Connecting door to the old building's through the
+> breezeway off the bullpen, but it's barred from this side. You'll have to find your own way
+> around."*
+
+*ITEM ACQUIRED: ARMORY KEY*
+
+> **JIM:** *"You're not coming?"*
+>
+> **CALLOWAY:** *"Somebody has to hold this room in case anyone else comes through that lobby door
+> the way you just did. I've held worse rooms for less reason."*
+
+She sits back down at the dead dispatch board like it might come alive again any second.
+
+> **CALLOWAY:** *"Go on, Mr. Mercer. Go be a hero at the old station house. Try not to die doing it,
+> I've got enough paperwork."*
+
+> *Design/story note: Sergeant Calloway is this district's Tier 2 conditional survivor (see
+> [`CANON.md`](../CANON.md) → "Survivor System"). If Jim visits another district before this one,
+> she does not survive — see* [`Characters/Ruth_Calloway.md`](../Characters/Ruth_Calloway.md) *for
+> the alternate version of this scene (her body, found in this same room, plus a handwritten
+> version of the same information — the armory key and the "old key thing" hint are recovered
+> either way, per the survivor system's rule that no death ever hard-blocks progression).*
+
+---
+
+## SCENE 27 — THE ARMORY
+
+Back through the bullpen, a reinforced door marked **ARMORY — RESTRICTED ACCESS** takes the key
+Calloway provided.
+
+*Interaction prompt: [UNLOCK ARMORY]*
+
+Inside: a narrow room lined with gun racks, most already emptied — whatever was here when the
+outbreak started went out the door with whoever answered the last calls. One rack near the back
+still holds something: a pump-action shotgun, secured in a lock clamp meant for long-term storage
+rather than quick deployment, plus two boxes of shells on the shelf below it.
+
+*Interaction prompt: [BREAK CLAMP]*
+
+Jim works the clamp loose with a tool from his own kit — the same toolbox that's been riding in
+the back of his Jeep since before any of this started.
+
+> **JIM:** *"Knew I packed this for a reason."*
+
+*ITEM ACQUIRED: SHOTGUN*
+*ITEM ACQUIRED: SHOTGUN SHELLS x12*
+
+> *Design note: the shotgun is this district's key equipment reward — the game's second firearm,
+> after Officer Pruitt's handgun in Chapter 1. Deliberately gated behind Calloway's trust (or,
+> in the alternate path, her body) rather than a random find, so it reads as earned rather than
+> just discovered.*
+
+---
+
+## SCENE 28 — THE BREEZEWAY
+
+The connecting door out of the bullpen leads into a short, glass-walled breezeway between the
+modern building and the old station house — clearly a later addition, function over form, exposed
+pipe conduit running along the ceiling. Jim reaches the door into the old building.
+
+*Interaction prompt: [OPEN DOOR]*
+
+Locked. Not electronically — a heavy antique deadbolt, the kind that takes an actual key, no card
+reader in sight. Through the door's small reinforced window: darkness, only the edge of what might
+be a reception counter visible in the dim spill of light from the breezeway.
+
+> **JIM:** *"Of course it's the one door that still uses an actual key."*
+
+A weather-beaten exterior door at the breezeway's far end, propped shut with a fire extinguisher
+identical to the one in the lobby, offers another way in. Jim shoulders it open against the wind
+and steps back out into the rain, following the building's exterior wall around toward the old
+station house's own boarded front entrance.
+
+The boards over the old entrance have already been pried loose at one corner — not by Jim, and not
+recently; the wood's soft and dark with weeks of rain. Someone got in here before the outbreak and
+never bothered to explain themselves, or got in during it and never came back out.
+
+*Interaction prompt: [PULL BOARDS]*
+
+> **JIM:** *"Somebody beat me to it."*
+
+> *Design note: a small, physical navigation puzzle per* [`AI.json`](../AI.json)*'s original design
+> philosophy for the city ("grounded — not abstract — a problem a real person solves by looking at
+> their environment") — the modern building's connecting door is a dead end, but the old building
+> has its own independent, if awkward, way in.*
+
+---
+
+## SCENE 29 — THE OLD STATION HOUSE — MAIN HALL
+
+Jim steps through the gap in the boards into a single-room hush that the modern building never
+had. Stone walls. A worn wooden floor. Tall windows boarded from the outside, letting in only thin
+seams of gray light. The old front counter still stands, dark wood, hand-carved, decades of use
+worn into a smooth trough where forearms once rested. Behind it: a wall of black-and-white
+photographs — every chief and marshal the department has ever had, going back to the beginning, the
+oldest frames warped and foxed with age.
+
+Mounted between the photographs, in a glass display case that hasn't been dusted in longer than
+Jim's been alive: a bronze medallion, trapezoidal, wedge-shaped — the size of a dinner plate cut
+into a fifth of a circle. A relief portrait fills most of it: a stern man in a wide-brimmed hat,
+mustache, the particular unsmiling formality of a photograph taken in an era that didn't yet trust
+cameras. Cast into the metal beneath the portrait:
+
+> **MARSHAL JOSIAH HALE**
+> **FIRST PEACE OFFICER OF RAVENWOOD**
+> **1887**
+
+Below his name, a small relief of an old-fashioned skeleton key. Along one curved edge of the
+wedge, machined precisely enough that Jim can feel it's deliberate the moment he runs a finger
+along the case's glass — a shape he recognizes immediately, because he's already seen its missing
+outline once tonight, on a statue in a park two blocks away.
+
+> **JIM:** *"...There you are."*
+
+*Interaction prompt: [BREAK CASE]*
+
+The glass gives easily — old, brittle, never built to actually stop anyone; a hundred and forty
+years of nobody trying. Jim lifts the emblem free. It's heavier than it looks, cold, the bronze
+dulled everywhere except along the edge that used to sit against the case's felt backing.
+
+*ITEM ACQUIRED: AUTHORITY CREST*
+
+> **JIM:** *"Marshal Josiah Hale. First peace officer of Ravenwood."*
+
+He looks back at the wall of photographs — every face that came after this one, none of them ever
+knowing what they were standing next to on their way to work.
+
+> **JIM:** *"Hope you left more answers than this thing did."*
+
+> *Design/story note: this pays off the guardhouse note from Memorial Park (Scene 10) directly — a
+> historian once told the groundskeeper to look here, and this is exactly what he meant. Marshal
+> Josiah Hale is proposed here as the Authority Crest's founder (new — see
+> [`STORY_NOTES.md`](../STORY_NOTES.md)); the other four founders' names are not yet decided and
+> should be picked to feel consistent with this one when their districts get written.*
+
+---
+
+## SCENE 30 — THE OLD HOLDING CELLS
+
+Behind the main hall, a short corridor leads to two small holding cells — iron bars, obviously
+unused for their original purpose in decades, repurposed at some point as extra storage. Old
+department records boxes fill one cell floor to shoulder height. The other is empty except for a
+single cot frame, no mattress, and a name scratched crudely into the stone wall beside it — not
+recent, the marks gone soft and rounded with age. Whoever left it did so a very long time ago.
+
+*Interaction prompt: [SEARCH RECORDS BOXES]*
+
+Mostly unremarkable — decades of minor incident reports, town council minutes, old property tax
+disputes. One folder, older and more careful than the rest, is labeled in fading ink: **TOWN
+CHARTER — FOUNDING DOCUMENTS — 1887 — DO NOT REMOVE.** Inside: nothing but a single page, the rest
+long since moved elsewhere or lost. It lists five names under a heading reading **INCORPORATORS OF
+THE TOWN OF RAVENWOOD** — Hale's name among them, the other four illegible where water damage has
+eaten through the paper.
+
+> **JIM:** *"...Guess I'll find the rest of you eventually."*
+
+*ITEM AVAILABLE (optional): MEDKIT — tucked inside an old first-responder kit on the cell wall,
+clearly for the department's own use rather than the public's.*
+
+> *Design note: the damaged founding document is a deliberate, honest way to withhold the other
+> four founders' names until their districts are written, without it reading like an oversight —
+> the answer exists, it's just illegible right now.*
+
+---
+
+## SCENE 31 — RAVENWOOD FIRE STATION
+
+Two blocks from the police station, the fire station's bay doors stand open — one bay empty, the
+truck long gone; the other still holds a ladder engine, dark, powered down. A dispatch board
+mounted just inside the door is covered in call sheets from the night of the outbreak, the entries
+getting shorter and more clipped as the hours wore on. The final entry stops mid-sentence:
+
+> 11:52 PM — STRUCTURE FIRE, DELLWOOD ST — DISREGARD, MULTIPLE CASUALTY — REQUESTING PD BACKUP,
+> REQUESTING —
+
+Nothing after it. Jim looks at the blank space where the rest of the sentence should be.
+
+> **JIM:** *"Yeah. Me too."*
+
+A row of personal lockers lines the back wall. One stands open, a photo of a woman and two kids
+taped inside the door — small, human, out of place against everything else in the room. Jim doesn't
+touch it.
+
+### Optional — equipment lockers
+
+*Interaction prompt: [SEARCH LOCKERS]*
+
+*ITEM AVAILABLE (optional): MEDKIT.*
+*ITEM AVAILABLE (optional): HANDGUN AMMUNITION — a spare box, department-issue, left behind by
+whoever cleared out the armory in a hurry.*
+
+---
+
+## SCENE 32 — MUNICIPAL GARAGE / IMPOUND LOT
+
+A large fenced vehicle yard adjoins the civic complex — several patrol cruisers, a tow truck, and a
+scattering of civilian vehicles brought in as evidence or seized long before tonight mattered. One
+cruiser's driver door hangs open, its radio still crackling faintly with dispatch chatter too
+distorted to make out. A small mechanic's office sits just inside the gate.
+
+### Optional — mechanic's office
+
+*Interaction prompt: [SEARCH OFFICE]*
+
+A clipboard hangs by the door — a routine vehicle maintenance log, nothing unusual, right up until
+the last few entries turn into something else: a personal note scrawled on the back page, a
+reminder about picking up a birthday cake, dated the afternoon of the outbreak. Whoever wrote it
+never got the chance to need it.
+
+*ITEM AVAILABLE (optional): HANDGUN AMMUNITION.*
+
+Deeper in the lot, a windowless white transport van sits with its rear doors ajar — **RAVENWOOD PD
+K-9 UNIT** stenciled along the side, two kennel cages built into the back. Both cage doors hang
+open. A chewed leather leash lies on the wet asphalt just outside.
+
+> **JIM:** *"...Great."*
+
+A low, wet growl answers from somewhere between the parked vehicles — then a second, further off,
+answering the first. Not the shuffling drag of a shambler. Something faster, moving low, circling
+rather than approaching straight on.
+
+*Combat: two Ashen Hounds ("Diesel" and "Baxter," Ravenwood PD's K-9 unit — see*
+[`Creatures/Ashen_Hound.md`](../Creatures/Ashen_Hound.md)*).* Fast, low to the ground, hunting as a
+pair — the first enemy type in the game that closes distance quickly rather than shambling toward
+Jim, and the district's signature encounter.
+
+Once both are down, Jim checks one of the collars — tarnished metal tag, a name and a rabies-tag
+number, nothing more.
+
+> **JIM:** *"Sorry, Diesel."*
+
+He doesn't check the other one's collar.
+
+A rear exit gate on the far side of the impound lot, chain-cut and standing ajar, opens directly
+onto a side street.
+
+*Navigation shortcut: this gate provides a direct route between the Municipal Garage and the wider
+civic-complex street grid, bypassing the main lot entrance on return trips.*
+
+---
+
+## SCENE 33 — CITY COURTHOUSE
+
+The Ravenwood City Courthouse sits adjacent to the police station — stone columns, wide steps, a
+single heavy door forced half off its hinges. Inside, the main courtroom is in complete disarray:
+benches overturned, papers scattered across the floor, the judge's bench knocked askew. A case file
+lies open on the bench itself — a property line dispute between two neighbors on Elm Street, dated
+the day before the outbreak. Ordinary. Small. The kind of thing that made this a real town instead
+of a stage set.
+
+### Optional — jury deliberation room
+
+*Interaction prompt: [SEARCH ROOM]*
+
+Someone camped here — sleeping bags on the floor, empty water bottles, food wrappers, all of it
+abandoned in a hurry rather than packed up. Whoever they were, they're not here now, and nothing in
+the room says whether they made it out or didn't.
+
+> **JIM:** *"Hope you got somewhere."*
+
+> *Design/story note: deliberately left unresolved — an environmental-only beat, per*
+> [`AI.json`](../AI.json)*'s original notes for this room. No named survivor is attached to it; see
+> the "no random background NPCs" rule in [`STORY_NOTES.md`](../STORY_NOTES.md).*
+
+### The evidence room
+
+A locked door near the back of the building is marked **EVIDENCE — COURT USE ONLY.** The evidence
+room key from the police station bullpen (Scene 25) fits.
+
+*Interaction prompt: [UNLOCK EVIDENCE ROOM]*
+
+Inside: shelves of tagged, bagged case evidence, most of it useless now — except for a locked
+metal case near the back, unrelated to any of the case tags around it. Someone's personal lockbox,
+stored here rather than at home, for reasons nobody left behind to explain.
+
+*Interaction prompt: [FORCE LOCKBOX]*
+
+*ITEM AVAILABLE (optional): HANDGUN AMMUNITION x2, plus a MEDKIT.*
+
+> **JIM:** *"Court exhibit or not, it's mine now."*
+
+---
+
 **END OF WRITTEN MATERIAL FOR CHAPTER 2**
 
-*What comes next (planned, not yet scripted — see [`STORY_NOTES.md`](../STORY_NOTES.md)): the five open-order
-districts (Southwest/Authority/Police Station; Southeast/Knowledge/Academy;
-Northeast/Medical/Hospital; Northwest/Industry/Refinery; North/Faith/Monastery), each with 2–3
-secondary locations, leading to all five founders' emblems being returned to the Founders
-Memorial, the basin draining, and the staircase into Chapter 3 being revealed.*
+*What comes next (planned, not yet scripted — see [`STORY_NOTES.md`](../STORY_NOTES.md)): the four
+remaining open-order districts (Southeast/Knowledge/Academy; Northeast/Medical/Hospital;
+Northwest/Industry/Refinery; North/Faith/Monastery), each with 2–3 secondary locations, leading to
+all five founders' emblems being returned to the Founders Memorial, the basin draining, and the
+staircase into Chapter 3 being revealed. The Authority Crest can be returned to the Founders
+Memorial any time Jim chooses to backtrack to Memorial Park — this is not forced to happen
+immediately after Scene 29.*

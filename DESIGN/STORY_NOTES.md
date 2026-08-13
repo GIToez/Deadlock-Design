@@ -281,6 +281,44 @@
   - Updated `Characters/Sarah_Mercer.md` (Personality, Relationships, Dialogue Characteristics,
     Important Scenes) to match — tracking is now described as a known, practical safety habit, not
     a secret or a "reveal."
+- **Police Station district written — Scenes 22–33 (2026-08-13).** The Southwest District
+  (Authority Crest) is now fully scripted, closing three open questions [`AI.json`](AI.json) raised
+  but never answered (what's inside the station, who the conditional survivor is, what the emblem
+  looks like/where it is). All of the following is **new and treated as a proposal pending
+  review**, not locked canon, even though it's been written into `CANON.md` and the location file
+  for tracking purposes:
+  - **The station is two buildings**, not one: a modern annex (the working department — lobby,
+    bullpen, armory, dispatch) and, across a breezeway, the original 1887 station house (boarded,
+    historical-only) — directly justifying the guardhouse note's specific "not the annex — the
+    original structure" distinction, which had been sitting unresolved since Memorial Park was
+    written.
+  - **The Tier 2 conditional survivor is Sergeant Ruth Calloway**, the desk sergeant — a concrete
+    name/character for a mechanic that was previously locked only as an abstract rule in
+    `CANON.md`. Alive-if-first, she gives Jim the armory key and the Marshal Hale lead directly;
+    her "already turned" version is described (body + note, same information) but **not yet
+    scripted scene-by-scene** — flagged as follow-up work.
+  - **The Authority Crest** is a bronze wedge-shaped medallion in a dusty display case in the old
+    station house's main hall — a department "heirloom" nobody ever questioned — bearing a relief
+    portrait, name, and title of **Marshal Josiah Hale, first peace officer of Ravenwood (1887)**,
+    proposed here as the Authority Crest's founder. The other four founders' names are deliberately
+    deferred (a damaged 1887 charter document lists five "Incorporators," only Hale's name
+    legible) rather than invented wholesale, so later districts can pick names that feel
+    consistent with his.
+  - **New equipment:** a shotgun (the game's second firearm), gated behind Sergeant Calloway's
+    trust rather than a cold pickup.
+  - **New creature type:** the **Ashen Hound** (`Creatures/Ashen_Hound.md`) — two named mutated
+    K-9 unit dogs (Diesel and Baxter) at the Municipal Garage, the game's first fast/pack-hunting
+    enemy, introduced as this district's "major encounter" per [`AI.json`](AI.json)'s per-district
+    design rule, and established as a reusable creature class (not a one-off) for later districts.
+  - The three secondary locations (Fire Station, Municipal Garage, City Courthouse) were written
+    to match [`AI.json`](AI.json)'s own outline notes for them fairly closely — dispatch board,
+    mechanic's office, courthouse survivor camp — with the courthouse's evidence room deliberately
+    keyed to an item found back at the station (Evidence Room Key), as originally proposed in
+    `AI.json`.
+  - Updated `CANON.md` (Named Characters Confirmed, Survivor System, a new Ashen Hound entry under
+    Creature Classification), `MASTER_STORY.md`, `Locations/Police_Station.md` (fully written, was
+    a `_TBD_` placeholder), and created `Characters/Ruth_Calloway.md` and
+    `Creatures/Ashen_Hound.md`.
 - **Chapter 2 opening: Cindy's blood trail and robe (2026-08-13).** New content, approved directly
   by the project owner, continuing (not resolving) Cindy Sweets' unresolved Chapter 1 thread: a
   blood trail starts right at the courtyard gate as Jim steps onto the street (Scene 1), runs
@@ -467,8 +505,10 @@ or the five districts — none of those chapters have named characters yet.
 
 ## Things That Still Need Development
 
-- The five districts (Police Station, Hospital, Academy, Refinery, Monastery) are planned in
-  outline/secondary-location form (above) but **not yet scripted scene-by-scene**.
+- The four remaining districts (Hospital, Academy, Refinery, Monastery) are planned in
+  outline/secondary-location form (above) but **not yet scripted scene-by-scene**. The Police
+  Station (Southwest/Authority) is now fully scripted — see the Direction Log entry below and
+  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–33.
 - Chapter 3 ("What Was Hidden" — the underground Vanguard facility, Project Ashen, Black Vein's
   full reveal, Jim's final message to Sarah, the ambiguous ending) is locked only at the outline
   level in [`CANON.md`](CANON.md) — no scenes written.

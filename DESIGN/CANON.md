@@ -186,6 +186,18 @@ early hint that Vanguard's reach into the town predates the outbreak.
   alive; found dead near the courtyard's north gate after chaining the maintenance shed shut on
   discovering Roy Bullock transforming. Reanimates and is fought as a Shambler when Jim returns to
   the courtyard. His full first name is never confirmed on-screen.
+- **[Sergeant Ruth Calloway](Characters/Ruth_Calloway.md)** — Ravenwood PD desk sergeant; the
+  Southwest District's Tier 2 conditional survivor (see "Survivor System," below). Alive and
+  interactive if the Police Station is Jim's first district; already turned otherwise.
+- **Marshal Josiah Hale** — the Ravenwood Police Department's first peace officer (1887); one of
+  Ravenwood/Vanguard's five founders. His name and portrait appear on the **Authority Crest**,
+  recovered from a display case in the old 1887 station house. The other four founders' names are
+  not yet decided (a damaged in-world document defers them intentionally — see
+  [`Locations/Police_Station.md`](Locations/Police_Station.md)); when chosen, they should feel
+  consistent with Hale's period-appropriate naming.
+- (The character/founder additions above are new as of 2026-08-13 — see
+  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–33, and
+  [`STORY_NOTES.md`](STORY_NOTES.md) for context on what was proposed versus already locked.)
 
 ## Creature Classification: Ashen Mutant
 
@@ -195,16 +207,25 @@ example of this classification tier. It's responsible for both Cindy Sweets' Roo
 and Gerta's death. Whether "Ashen Mutant" applies more broadly (e.g. to the Caretaker) is not yet
 confirmed.
 
+**[Ashen Hound](Creatures/Ashen_Hound.md)** — a distinct, separate classification (new,
+2026-08-13): Black Vein's presentation in an infected animal (specifically a domestic dog) rather
+than a human, producing a fast, pack-hunting profile instead of the slow "Ashen Mutant"/Shambler
+baseline. Shares the "Ashen" naming convention (tied to Black Vein's visual/thematic signature) but
+is not itself a variant of "Ashen Mutant," which this document uses specifically for human
+mutation-stage creatures.
+
 ## Survivor System (design rule, applies from Chapter 2 onward)
 
 - **Tier 1 — Key story survivors:** a small number of fully developed characters, essential to the
   narrative, whose existence and role are fixed regardless of player action.
 - **Tier 2 — Conditional survivors:** existence/condition/fate depends on player sequencing.
-  Confirmed example: a surviving Police Station officer is alive (interactive, has information) if
-  Jim visits the Police Station first; if Jim visits another district first, that officer has
-  turned by the time Jim reaches the station. Rule: the player always gets the needed information
-  either way (directly from the survivor, or via notes/environmental clues from the dead version);
-  no survivor's death ever hard-blocks progression; the game never explicitly blames the player.
+  Confirmed example: **[Sergeant Ruth Calloway](Characters/Ruth_Calloway.md)**, the Police
+  Station's desk sergeant, is alive (interactive, has information) if Jim visits the Police Station
+  first; if Jim visits another district first, she has turned by the time Jim reaches the station.
+  Rule: the player always gets the needed information either way (directly from the survivor, or
+  via notes/environmental clues from the dead version); no survivor's death ever hard-blocks
+  progression; the game never explicitly blames the player. (Her alternate/"already turned" scene
+  is described but not yet scripted — see [`Locations/Police_Station.md`](Locations/Police_Station.md).)
 
 ## Retcons — superseded docx content (per [`AI.json`](AI.json), the newer source)
 

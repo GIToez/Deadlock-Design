@@ -21,9 +21,11 @@ A creature document may contain:
 - [`Della_Marsh.md`](Della_Marsh.md) (the Red Room Singer) — Chapter 1's optional mini-boss.
 - [`The_Maw.md`](The_Maw.md) — an unseen, ambush-type presence responsible for Cindy Sweets' abduction and
   Gerta's death; deliberately not fully described yet.
+- [`Ashen_Hound.md`](Ashen_Hound.md) — Diesel and Baxter, mutated K-9 unit dogs; the game's first
+  fast, pack-hunting infected type, introduced at the Police Station's Municipal Garage (Chapter 2).
 
 Not included as separate creature entries: Earl Whitaker and Officer Dale Pruitt are named,
 recurring characters who become infected as part of their own arc — covered in `Characters/`
 rather than here, per the "no random background NPCs, and named characters belong in
-`Characters/`" rule. Creatures for locations beyond the hotel will be added once those chapters
+`Characters/`" rule. Creatures for the remaining four districts will be added once those chapters
 are written — see [`STORY_NOTES.md`](../STORY_NOTES.md).
