@@ -68,3 +68,10 @@ firearm, the [`"Sentinel-9" Service Pistol`](../Weapons/Sentinel_9_Service_Pisto
 
 - Identity of the person he pulled over — deliberately anonymous; not to be named without explicit
   approval.
+- **Added 2026-08-13:** [`Locations/Police_Station.md`](../Locations/Police_Station.md) → "Outbreak
+  Night — What Actually Happened" proposes that, during the department's brief window of
+  disobeying Vanguard's containment order, "one cruiser is dispatched toward the Ravenwood Hotel"
+  — offered as a plausible, unconfirmed explanation for why Pruitt's cruiser ends up crashing
+  through the hotel's front doors in Chapter 1 (already locked). This is a suggested connective
+  thread, not a rewrite of the locked Chapter 1 script — his infected-reveal/combat scene (Scene
+  41) is unchanged either way, and nothing requires this backstory to be made explicit on-screen.

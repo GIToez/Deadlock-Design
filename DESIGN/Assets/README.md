@@ -184,6 +184,12 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   [`Locations/Police_Station.md`](../Locations/Police_Station.md); the item icon embedded in
   [`Items/Key_Items/Vanguard_Access_Card.md`](../Items/Key_Items/Vanguard_Access_Card.md).
 
+- **`Reference/police_station_sally_port_concept.png`** (AI-generated, 2026-08-13) — the station's
+  attached vehicle bay, added alongside the "Outbreak Night — What Actually Happened" timeline (see
+  [`STORY_NOTES.md`](../STORY_NOTES.md)) as the actual breach point where the station fell:
+  a jammed emergency shutter, a parked cruiser with its door left open, a dropped shotgun. Embedded
+  in [`Locations/Police_Station.md`](../Locations/Police_Station.md).
+
 Several other assets have been uploaded, placed directly alongside their character files instead:
 
 - `Characters/spr_cindy_jumpscare.gif` — embedded in

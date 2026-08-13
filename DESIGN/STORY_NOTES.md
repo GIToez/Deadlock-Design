@@ -977,6 +977,60 @@ the next entry for the current final numbering (Scenes 22–40).
     matching the status of several other not-yet-fully-scripted beats already in that file (e.g.
     Calloway's alternate death scene). See `Locations/Police_Station.md` → "Unresolved Ideas" for
     the complete list of what's still open.
+- **Outbreak Night — What Actually Happened: a full timeline for the department's collapse
+  (2026-08-13).** The project owner supplied a detailed 15-beat outbreak-night timeline for the
+  station, explicitly asking that it read as "a slow institutional collapse, not 'monsters attack
+  the station and everyone dies'" — cops spending the first half of the night trying to do their
+  jobs while Vanguard fed them bad orders, suppressed information, and prevented them from
+  responding correctly, reconstructable almost entirely from radios, bodies, barricades, paperwork,
+  and the environment itself by the time Jim arrives. Integrated as a new "Outbreak Night — What
+  Actually Happened" section in [`Locations/Police_Station.md`](Locations/Police_Station.md),
+  directly preceding "Arrival / Setup," summarizing all 15 beats (the V-CASE procedure's origin,
+  the Cold Cells filling up, "Emergency Public Safety Directive 7," officers realizing Vanguard
+  knows more than it's saying, the first rupture, the Chief's "essential containment asset" call,
+  officers disobeying Vanguard, the Highway 13 confrontation, the station becoming a shelter, the
+  Cold Cells' disaster, the Sally Port breach, internal breakdown, the Chief's final broadcast, and
+  the final stand) as the master reference behind several new/updated in-room details:
+  - **New room: the Sally Port** — the station's own attached vehicle bay (distinct from the
+    separate Municipal Garage secondary location), added as the actual outbreak-night breach point:
+    a half-lowered, jammed emergency shutter, a parked cruiser with its door left open, a dropped
+    shotgun. Added to the Annex Core blueprint diagram as a Bullpen branch; got its own AI-generated
+    concept art (`police_station_sally_port_concept.png`), style-anchored to the Municipal Garage
+    and Bullpen renders.
+  - **New document, Bullpen:** the "SURVIVORS / MISSING / DECEASED" whiteboard, and a printed copy
+    of "Emergency Public Safety Directive 7" (the Vanguard order to seal the town rather than
+    evacuate it) pinned beside it.
+  - **New document, Records/Dispatch:** the Chief's final broadcast — a recording of him publicly
+    overriding Vanguard's containment order over the emergency network, ending on gunfire and
+    static. His own ultimate fate stays deliberately unresolved either way, unchanged from before
+    this addition.
+  - **Cold Cells enrichment:** one cell door found bent outward from the inside; a second holds a
+    handwritten note taped beside it — an officer's own words to someone he'd known his whole life,
+    ending "Please don't let me turn into one of those things." This **resolves** the previously
+    open question of whether the Cold Cells should hold a combat encounter: they don't — the room
+    is meant to land as tragedy, not a fight.
+  - **Vanguard Liaison Office enrichment:** the confidential watchlist now cross-references a name
+    on the Bullpen's whiteboard, making explicit that Vanguard had flagged specific Ravenwood
+    residents *months* before the outbreak, not discovered them that night.
+  - **Exterior enrichment:** the wrecked patrol lot's damage now includes mixed RPD/Vanguard
+    markings, the physical trace of the Highway 13 confrontation (kept as environmental evidence
+    only, not a new playable location or scene — Highway 13 itself remains a fixed, non-interactive
+    shot per Chapter 1's convention). A new arrival beat: a faint, intermittent police radio
+    transmission ("...any officer... please respond...") audible before Jim ever opens a door,
+    plus an explicit note that the station should read as very recent (flashing emergency lights,
+    an idling cruiser, ringing phones), not decades-abandoned.
+  - **Speculative connective thread, flagged not locked:** the timeline's step 7 (officers
+    disobeying Vanguard, redirecting toward civilians, "one cruiser is dispatched toward the
+    Ravenwood Hotel") is offered as a plausible explanation for Officer Dale Pruitt's cruiser
+    crashing through the hotel's front doors in Chapter 1. Logged as an unresolved idea in both
+    `Locations/Police_Station.md` and [`Characters/Dale_Pruitt.md`](Characters/Dale_Pruitt.md) —
+    explicitly **not** a rewrite of the locked Chapter 1 script; Scene 41 (Pruitt's infected reveal)
+    is unchanged.
+  - **Not done in this pass:** full scene-by-scene scripting of these specific beats into
+    `Scripts/Chapter_2_Ravenwood.md`; deciding the Chief's actual name (needed only if his final
+    broadcast is ever voice-acted with a self-identification line); whether the Sally Port needs
+    its own creature encounter (leaning no, consistent with the Cold Cells resolution, but not
+    locked). See `Locations/Police_Station.md` → "Unresolved Ideas" for the complete list.
 
 ## Still-Open Questions
 
