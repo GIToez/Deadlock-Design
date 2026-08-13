@@ -597,6 +597,11 @@ flowchart TD
   [`Locations/Foundry_Refinery.md`](Foundry_Refinery.md) ("Ambulance Three departed with four
   casualties"), beat 6; the two missing patients were pulled off at a Vanguard checkpoint before
   ever reaching St. Dymphna.
+- **A one-line transmission relayed to Worthy Academy: "Do not perform invasive treatment unless
+  absolutely necessary."** (Administration, added 2026-08-13) — the hospital's own regeneration
+  findings, passed on as emergency guidance to an untrained shelter staff with no ability to act on
+  it; see [`Locations/Academy.md`](Academy.md), beat 13, where the Academy nurse's log answers back:
+  *"Everything I was trained to do may be making them worse."*
 - **Early triage chart noting an unexplained industrial-trauma cluster** (Emergency Department,
   added 2026-08-13) — the hospital's first, uncontextualized cases from Steelgate Refinery, before
   anyone realized what was happening underground there; see

@@ -569,6 +569,11 @@ flowchart TD
   workers noticed for years.
 - **The final Foundry broadcast** (the Black Vein Cavern) — *"They didn't find this thing tonight.
   They've been digging at it for years."*
+- **A torn evacuation slip listing a Foundry worker, his wife, and their teenage son** (Exposure
+  Records Room, optional, added 2026-08-13) — the Foundry-side paper trail behind the Harris
+  family, later removed from Worthy Academy's shelter roster by Vanguard under "potential secondary
+  contamination"; see [`Locations/Academy.md`](Academy.md), beat 8, for the guarding officer's own
+  note: *"I gave them the Harris family." "All three."*
 
 ## Major Scripted Events
 

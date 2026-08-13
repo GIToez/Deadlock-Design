@@ -745,6 +745,21 @@ flowchart TD
 - Commendation wall (Chief's Office) — background references to Marshal Hale's founding-era name.
 - Interview recording (Interview Room) — a pre-outbreak report of unsettling animal behavior near
   North Ridge, filed and forgotten; cross-references the newspaper clipping at Downtown's library.
+- **Dispatch radio log, "We've got two hundred people here." / "I know."** (Records/Dispatch,
+  added 2026-08-13) — the order pulling half the Academy's security detail to reinforce Highway
+  13; the police-side half of a crossover discoverable at
+  [`Locations/Academy.md`](Academy.md), beat 14. Some of those officers are the same ones later
+  lost at Highway 13, below.
+- **A handwritten sign, "You heard him," recovered from an evidence bag** (Records/Dispatch, added
+  2026-08-13) — logged after an officer used the Chief's own citywide broadcast to physically
+  refuse Vanguard access to Worthy Academy; the full standoff is told from the Academy's side at
+  [`Locations/Academy.md`](Academy.md), beats 16–18.
+- **The Academy's final, unanswered broadcast, recorded here after most officers are already dead**
+  (Records/Dispatch, added 2026-08-13) — *"This is Ravenwood Academy emergency shelter. We have
+  civilians remaining inside. We have children here." "Any Ravenwood unit receiving, please
+  respond."* Nothing. *"Anybody?"* Static. Nobody at the station is left to answer it. See
+  [`Locations/Academy.md`](Academy.md), beat 28, for the same transmission from the shelter's
+  side.
 - Marshal Josiah Hale's display-case nameplate (old station house).
 - Damaged 1887 town-charter page listing five "Incorporators of Ravenwood" (old holding cells;
   only Hale's name is legible).

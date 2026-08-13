@@ -335,6 +335,20 @@ early hint that Vanguard's reach into the town predates the outbreak.
   [`Locations/Foundry_Refinery.md`](Locations/Foundry_Refinery.md) → "Outbreak Night." His
   ultimate fate is deliberately unresolved, same convention as the Police Station's Chief and the
   Hospital's Liaison.
+- **Eleanor Worthy** — Worthy Academy's founder (1887); one of Ravenwood/Vanguard's five founders,
+  the source of the school's own name. Her name and portrait appear on the **Knowledge Crest**,
+  recovered from a display case in the Academy's own Founder's Hall — see
+  [`Locations/Academy.md`](Locations/Academy.md). All five founders' names are now established:
+  Josiah Hale (Order), Nathaniel Voss (Medicine), Elias Thorne (Industry), Eleanor Worthy
+  (Knowledge), and one remaining unnamed founder (Faith — see
+  [`Locations/Police_Station.md`](Locations/Police_Station.md)'s damaged town-charter page, and
+  [`Locations/Monastery.md`](Locations/Monastery.md) once written).
+- **Principal Diane Ashford** — Worthy Academy's principal on the night of the outbreak, the
+  closest thing the shelter has to a single leader across its ensemble of teachers, officers, and
+  parents; makes the Academy's final, unanswered emergency broadcast. See
+  [`Locations/Academy.md`](Locations/Academy.md) → "Outbreak Night." Her ultimate fate is
+  deliberately unresolved, same convention as Fitch, the Police Station's Chief, and the
+  Hospital's Liaison.
 - (The character/founder additions above are new as of 2026-08-13 — see
   [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–40, and
   [`STORY_NOTES.md`](STORY_NOTES.md) for context on what was proposed versus already locked.)

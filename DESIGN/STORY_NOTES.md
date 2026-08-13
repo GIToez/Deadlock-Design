@@ -1207,6 +1207,82 @@ the next entry for the current final numbering (Scenes 22–40).
     Foundry employees (a compelling idea floated directly by the source material, deliberately not
     locked without further review).
 
+- **Worthy Academy — the Southeast district's main location, written in full (2026-08-13).** The
+  project owner supplied a 29-beat outbreak-night account for the Academy, explicitly framed as
+  fundamentally different in kind from the Foundry, Hospital, and Police Station: *"If the Foundry
+  is where Ravenwood's disaster begins, the Academy should be where the town tries to save its
+  children and families... It isn't primarily about Vanguard research. It is about what happens
+  when hundreds of terrified civilians gather in one place while nobody actually understands what
+  they're hiding from."* Per that framing, this location deliberately tells its story through
+  **people** rather than machinery, medical charts, or dispatch logs — handwritten rosters, teacher
+  notes, children's drawings, family photographs — and introduces **no new creature type**, reusing
+  standard Shamblers for both its signature encounters.
+  [`Locations/Academy.md`](Locations/Academy.md) was rewritten from its original `_TBD_` placeholder
+  into a full main-location file matching the other three districts' density, per
+  [`CANON.md`](CANON.md) → "District Main-Location Design Standard":
+  - **"Outbreak Night — What Actually Happened"** — a 29-beat timeline (the Academy's pre-existing
+    role as Ravenwood's storm shelter, the first ordinary-disaster evacuees arriving, Vanguard's
+    symptom-based isolation instructions reaching untrained school staff, the first Foundry
+    families arriving, Vanguard demanding the full shelter roster to locate exposure cohorts, the
+    Harris family's removal, the shelter filling into the hundreds, the first person turning inside
+    the cafeteria, the police locking the doors, the GREEN/YELLOW/RED zone system and its
+    breakdown, the hospital's "do not treat" warning reaching untrained staff, half the security
+    detail being pulled to Highway 13, the PA system's escalating announcements, Vanguard demanding
+    all RED-zone civilians and being physically refused, the standoff outside the Academy, the
+    chief's broadcast reaching the shelter, a planned bus evacuation whose escort never arrives, the
+    Yellow Zone's containment failure and a father forcing open a quarantine door, panic in the
+    gymnasium, Vanguard's abandonment, the Academy's fracture into six survivor pockets, the Last
+    School Bus's unanswered radio log, the children-left-behind whiteboards and teacher's notebook,
+    Principal Ashford's final unanswered broadcast, and the last defensive stand's badge and note —
+    *"If they make it out, that's enough."*) — explicitly cross-referenced against
+    [`Locations/Police_Station.md`](Locations/Police_Station.md),
+    [`Locations/Hospital.md`](Locations/Hospital.md), and
+    [`Locations/Foundry_Refinery.md`](Locations/Foundry_Refinery.md)'s own timelines via a new "How
+    the Academy Connects to the Other Locations" table, per the project owner's explicit framing
+    that the Academy gives the civilian perspective on events already established elsewhere.
+  - **Full room/blueprint build:** Front Entrance → Gymnasium (hub, gating the Administration
+    Office, Auditorium, Library, and Maintenance Basement) → Cafeteria (signature single encounter)
+    → Administration Office → Isolation Wing, plus a second branch (needs an Auditorium Key from
+    the secondary Student Housing location) → Auditorium → Library, plus a third, deepest branch
+    (needs Generator Fuel from the secondary Athletic Field location) → Maintenance Basement → East
+    Academic Wing / Science Rooms (needs a Fire Axe; this district's signature pack encounter) → PA
+    / Principal's Office → Founder's Hall (Knowledge Crest) → the Maintenance Escape Corridor (a
+    mandatory, non-combat climax reached only *after* the crest, not gating it), plus a non-gating
+    Bus Loading Area and three secondary locations (Student Housing, Athletic Field, Playgrounds —
+    reconciling `Academy Library`'s earlier city-layout listing as a secondary location into being
+    part of the main building instead, per the source material's own treatment of the library as a
+    core campus room and survivor pocket). Five mermaid blueprint diagrams, same convention as the
+    Hotel, Police Station, Hospital, and Foundry.
+  - **New founder named: Eleanor Worthy**, Worthy Academy's founder, keeper of the Knowledge Crest —
+    added to [`CANON.md`](CANON.md) → "Named Characters Confirmed" alongside Josiah Hale, Nathaniel
+    Voss, and Elias Thorne (all five founders are now named except the still-`_TBD_` Faith
+    Crest/Monastery founder). **New named character: Principal Diane Ashford** — the Academy's own
+    Chief/Fitch-equivalent, whose fate is deliberately left unresolved, same convention.
+  - **Direct crossover documents added to
+    [`Locations/Police_Station.md`](Locations/Police_Station.md),
+    [`Locations/Hospital.md`](Locations/Hospital.md), and
+    [`Locations/Foundry_Refinery.md`](Locations/Foundry_Refinery.md):** the Highway 13
+    security-detail pullback and the Academy standoff/final-broadcast material (Police Station), the
+    hospital's "do not perform invasive treatment" guidance reaching the shelter (Hospital), and the
+    Harris family's Foundry-side evacuation paper trail (Foundry) — satisfying the project owner's
+    explicit request that all four locations' records overlap directly.
+  - **16 new AI-generated room concepts** — full visual coverage for the entire new location in one
+    pass (13 main-building rooms/areas plus 3 secondary locations), logged in
+    [`Assets/README.md`](Assets/README.md). Several renders repeated the recurring "Ravencroft"
+    naming-generation error plus new one-off mis-namings ("Holloway Academy," "Riverdale Academy,"
+    "Steelgate School District," "Steelgate Elementary") — all flagged in each render's caption
+    rather than adopted. Two renders (the Gymnasium's whiteboard, the Administration Office's
+    "Vanguard – Personnel Request" folder, and the Founder's Hall's portrait/plaque) landed exactly
+    on the intended canon details unprompted.
+  - **Not done in this pass:** individual `Items/Key_Items/` writeups for this district's nine new
+    key items (Administration Office Key, Isolation Wing Key, Auditorium Key, Library Key,
+    Generator Fuel, Fire Axe, Principal's Office Key, Founder's Hall Key, Knowledge Crest) —
+    flagged as the next natural pass, matching the Police Station, Hospital, and Foundry's own
+    pattern. Also not done: scene-by-scene scripting into a `Scripts/` file, and a unique named boss
+    creature (deliberately omitted per the source material's framing, but flagged in
+    [`Locations/Academy.md`](Locations/Academy.md) → "Unresolved Ideas" in case that's reconsidered
+    later for pacing).
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /

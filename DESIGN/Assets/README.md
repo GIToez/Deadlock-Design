@@ -234,6 +234,27 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   signature creature — a first-pass, unreviewed proposal, unlike the Broodling/Hospital Boss which
   were corrected against real uploaded reference art.
 
+- **`Reference/academy_*.png`** (16 files, AI-generated, 2026-08-13) — full room-concept coverage
+  for [`Locations/Academy.md`](../Locations/Academy.md), the Southeast District's newly-written
+  main location: `academy_front_entrance_concept.png`, `academy_gymnasium_concept.png`,
+  `academy_cafeteria_concept.png`, `academy_administration_office_concept.png`,
+  `academy_isolation_wing_concept.png`, `academy_auditorium_concept.png`,
+  `academy_library_concept.png`, `academy_maintenance_basement_concept.png`,
+  `academy_east_wing_science_rooms_concept.png`, `academy_pa_principals_office_concept.png`,
+  `academy_founders_hall_concept.png` (the district's crest payoff room),
+  `academy_escape_corridor_concept.png` (the district's true climax beat), and four
+  exterior/secondary-location renders: `academy_bus_loading_area_concept.png`,
+  `academy_student_housing_concept.png`, `academy_athletic_field_concept.png`, and
+  `academy_playground_concept.png`. Style-anchored to existing Police Station/Hospital/Foundry
+  room concepts throughout. Several renders repeated the recurring "Ravencroft" naming-generation
+  error plus new one-off mis-namings ("Holloway Academy," "Riverdale Academy," "Steelgate School
+  District," "Steelgate Elementary") — all flagged as generation errors in each render's caption in
+  [`Locations/Academy.md`](../Locations/Academy.md) rather than adopted; this district's school and
+  founder are locked as **Worthy Academy** and **Eleanor Worthy**. Unlike the Foundry and Hospital,
+  this district deliberately introduces **no new creature type** — its signature encounters reuse
+  standard Shamblers, per the project owner's explicit framing that the Academy's horror is about
+  people, not a new monster.
+
 Several other assets have been uploaded, placed directly alongside their character files instead:
 
 - `Characters/spr_cindy_jumpscare.gif` — embedded in
