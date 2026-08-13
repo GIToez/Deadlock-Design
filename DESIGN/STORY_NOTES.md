@@ -386,7 +386,8 @@ Per the new "District Main-Location Design Standard" locked in [`CANON.md`](CANO
 originally-written Police Station (`Scripts/Chapter_2_Ravenwood.md`, then Scenes 22–33) was too
 short and linear — it needed a Resident Evil RPD-style key-and-lock restructure before the
 remaining four districts are written, so all five are built to the same standard. **This plan was
-approved by the project owner and has been written into the script**, now Scenes 22–36 — laid out
+approved by the project owner and has been written into the script**, now Scenes 22–40 (see the
+follow-up entry below for the "basic functioning rooms" addition that grew this further) — laid out
 below (kept in its original planning form for traceability) the same way Memorial Park's layout
 was decision-logged before it was scripted.
 
@@ -454,18 +455,46 @@ supply/lore stops (Fire Station load-bearing for bolt cutters; Garage and Courth
 not gating), which is a more honest split than forcing all four buildings to be equally load-
 bearing.
 
-**Implementation notes:** `Scripts/Chapter_2_Ravenwood.md` Scenes 22–36 were rewritten in full to
-match this plan exactly, with one new character added along the way — **Corporal Eli Reyes**
-(`Characters/Eli_Reyes.md`), the K-9 unit's handler, needed to justify why the armory key and the
-Ashen Hound fight are found together in the same room. `Locations/Police_Station.md` was rewritten
-in full to match. `Characters/Ruth_Calloway.md` was updated (she now gives the Chief's Office key
-and the Reyes/K-9 lead, not the armory key directly). `Creatures/Ashen_Hound.md` was updated to
-reflect the new K-9 Unit Room location, and its concept art
+**Implementation notes:** `Scripts/Chapter_2_Ravenwood.md` (then Scenes 22–36) were rewritten in
+full to match this plan exactly, with one new character added along the way — **Corporal Eli
+Reyes** (`Characters/Eli_Reyes.md`), the K-9 unit's handler, needed to justify why the armory key
+and the Ashen Hound fight are found together in the same room. `Locations/Police_Station.md` was
+rewritten in full to match. `Characters/Ruth_Calloway.md` was updated (she now gives the Chief's
+Office key and the Reyes/K-9 lead, not the armory key directly). `Creatures/Ashen_Hound.md` was
+updated to reflect the new K-9 Unit Room location, and its concept art
 (`Assets/Reference/ashen_hound_concept.png`) was regenerated to show the indoor kennel-room setting
 instead of the original outdoor impound lot, per the concept-art convention's own rule that art
 should stay in sync with the prose it depicts. `CANON.md` was updated (Reyes added to Named
 Characters Confirmed; the design standard's retroactive note updated from "needs expansion" to
-"done").
+"done"). Scene numbers cited above reflect the state at the time this restructure was written; see
+the next entry for the current final numbering (Scenes 22–40).
+
+- **Police Station: added missing "basic functioning rooms" + full blueprint (2026-08-13).** The
+  project owner pointed out the rebuilt station still felt small for a real department — missing
+  booking/processing, holding cells, and similar ordinary rooms — and asked for the room-
+  connectivity flowcharts (per [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)'s
+  precedent) to be built for this district too. Added four new scenes between the Armory and the
+  Fire Station, renumbering everything after (**now Scenes 22–40**, up from 22–36):
+  - **Break Room** (Scene 30, optional) — a small, deliberately quiet scene: Corporal Reyes' locker
+    holds an old K-9 graduation photo of him with Diesel and Baxter, adding one more human beat to
+    his death after the fact, plus a Medkit and ammunition.
+  - **Booking & Processing** (Scene 31, optional) — fingerprint station, mugshot backdrop,
+    personal-effects lockers; yields an optional pocketknife.
+  - **The Interview Room** (Scene 32, optional) — a recorder holds an old interview about
+    unsettling pre-outbreak animal behavior near North Ridge, deliberately cross-referencing the
+    newspaper clipping already established at Downtown's library
+    ([`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scene 20) — filed and
+    forgotten rather than acted on, reinforcing the game's running "early warning signs went
+    nowhere" motif without pushing the Vanguard connection further than already locked.
+  - **Modern Holding Cells** (Scene 33, optional) — one empty cell with a torn, discarded uniform
+    shirt (unresolved on purpose); one cell holding a shambler safely behind bars, reusing the
+    lobby's "visible but harmless" convention rather than inventing a new one.
+  - None of the four gate the Authority Crest or any existing key item — all purely additive
+    depth/atmosphere, consistent with how Fire Station/Garage/Courthouse were already optional.
+  - Added a full **Blueprint (Room Connectivity)** section to `Locations/Police_Station.md`, five
+    Mermaid diagrams matching [`Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)'s exact
+    legend/shape/color convention (District Entry → Lobby → Bullpen; the Annex Core; the Booking
+    Wing; Breezeway → Old Station House; the three Secondary Locations).
 
 ## Still-Open Questions
 

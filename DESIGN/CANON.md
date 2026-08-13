@@ -66,9 +66,12 @@ RPD are the direct reference points), not a short, mostly-linear pass. Concrete 
   location — a reward for finishing the loop, not something encountered early or in passing.
 - This standard is **retroactive**: the Police Station, originally scripted before this standard
   was locked, has since been rewritten to match it (2026-08-13) —
-  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–36. The remaining
-  four districts should be written to the same bar from the start. See
-  [`STORY_NOTES.md`](STORY_NOTES.md) for the full restructuring history.
+  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–40, including a
+  full room-connectivity blueprint at [`Locations/Police_Station.md`](Locations/Police_Station.md)
+  matching [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)'s existing convention.
+  The remaining four districts should be written to the same bar (dense main location, multiple
+  named keys, a full blueprint) from the start. See [`STORY_NOTES.md`](STORY_NOTES.md) for the
+  full restructuring history.
 
 ## Fundamental Premise
 
@@ -230,7 +233,7 @@ early hint that Vanguard's reach into the town predates the outbreak.
   [`Locations/Police_Station.md`](Locations/Police_Station.md)); when chosen, they should feel
   consistent with Hale's period-appropriate naming.
 - (The character/founder additions above are new as of 2026-08-13 — see
-  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–36, and
+  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–40, and
   [`STORY_NOTES.md`](STORY_NOTES.md) for context on what was proposed versus already locked.)
 
 ## Creature Classification: Ashen Mutant

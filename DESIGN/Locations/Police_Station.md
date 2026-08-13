@@ -1,7 +1,7 @@
 # Ravenwood Police Station
 
 > The Southwest District's main location — Authority Crest. Full scene-by-scene script:
-> [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scenes 22–36 (district
+> [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scenes 22–40 (district
 > entry through the three secondary locations). [`AI.json`](../AI.json) only reached outline-level
 > detail for this district — the interior of the station itself, its survivor, and the emblem's
 > appearance/location were all open questions it never answered. Everything below beyond the
@@ -66,6 +66,18 @@ to the Ravenwood Hotel.
 - **The Armory.** Reyes' key opens a room of mostly-emptied gun racks; one still holds a clamped-
   down shotgun and two boxes of shells, freed with a tool from Jim's own kit. The district's key
   equipment reward, deliberately recovered only after the Ashen Hound fight rather than before it.
+- **The Break Room.** A small, deliberately quiet optional stop off the same back hallway as the
+  K-9 Unit Room — Corporal Reyes' employee locker holds an old photo of him with Diesel and Baxter
+  at their K-9 graduation, a small emotional beat added after his death is already known, plus a
+  Medkit and ammunition.
+- **Booking & Processing.** A fingerprint station, mugshot backdrop, and personal-effects lockers —
+  two still tagged and closed, one yielding an optional pocketknife.
+- **The Interview Room.** A recorder left running holds an old interview about unsettling animal
+  behavior near North Ridge before the outbreak — cross-referencing the newspaper clipping already
+  found at Downtown's library — filed and forgotten rather than acted on.
+- **Modern Holding Cells.** Two working cells, in contrast with the old station house's disused
+  ones — one empty with a torn, discarded uniform shirt; one holding a shambler safely behind bars,
+  the same "visible but harmless" convention as the lobby's glass-shielded shambler.
 - **The Fire Station** (secondary, load-bearing). Supplies, timeline lore via a dispatch call-sheet
   board that cuts off mid-sentence — and a pair of **bolt cutters**, needed back at the station.
 - **The Property & Evidence Room.** Bolt cutters open the padlock. A proper long-term evidence
@@ -98,8 +110,12 @@ to the Ravenwood Hotel.
 - Bullpen (hub — visibly gates the Armory, Chief's Office, and Property Room from the start)
 - Records / Dispatch (Sergeant Calloway)
 - Chief's Office (Old Station Skeleton Key; Reyes/Chief logbook)
+- Break Room (optional; Reyes' locker/photo; Medkit + ammo)
 - K-9 Unit Room (Corporal Reyes' body; Armory Key; Ashen Hound fight)
 - Armory (locked; shotgun + shells)
+- Booking & Processing (optional pocketknife; personal-effects lockers)
+- Interview Room (optional lore: pre-outbreak animal-behavior report, filed and forgotten)
+- Modern Holding Cells (optional; one empty, one holding a safely-caged shambler)
 - Property & Evidence Room (padlocked; Evidence Room Key)
 - Breezeway (connects annex to the old station house; opened with the Skeleton Key)
 
@@ -112,6 +128,138 @@ to the Ravenwood Hotel.
 - Municipal Garage / Impound Lot (optional: supplies, shortcut gate, Reyes' parked cruiser)
 - City Courthouse (optional: Clerk's Exhibit Storage, survivor-camp lore)
 
+## Blueprint (Room Connectivity)
+
+> Not a to-scale architectural floor plan — a **relational** diagram of how rooms connect, and
+> what's in each one, derived directly from `Storyline` and
+> [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md) above, Scenes 22–40. Split
+> into one diagram per building/area, same convention as
+> [`Ravenwood_Hotel.md`](Ravenwood_Hotel.md)'s blueprint — read them top to bottom; each one notes
+> where it picks up from another. Solid arrows are direct, always-available connections; dashed
+> arrows are connections gated behind a story condition (a key, a tool, etc.) — the label on the
+> arrow says what unlocks it.
+>
+> Legend: 👤 NPC · ☠️ enemy/infected/boss · 🗝️ key item · 📄 document · 🔧 manual/mechanical
+> (non-power) puzzle.
+>
+> **Shape/color key** — same as the Hotel's blueprint:
+>
+> - 🟣 **rectangle, purple** — a room with actual content (NPCs, items, enemies, events).
+> - 🟡 **pill/stadium, amber** — a hallway, corridor, or crossover — a pure connector.
+> - 🔴 **rectangle, red** — a boss or signature-encounter room.
+> - 🔵 **pill, blue** — exterior space (street, district entry, parking lot).
+> - ⚪ **dashed grey pill** — a pointer back to a node defined in full on another diagram.
+
+### 1. District Entry → Station Exterior → Lobby → Bullpen (hub)
+
+```mermaid
+flowchart TD
+    ENTRY(["Southwest District Entry<br/>from Downtown / City Hall"])
+    EXT["Police Station Exterior<br/>wrecked patrol lot"]
+    LOBBY["Station Lobby<br/>☠️ shambler — behind glass, bypassable"]
+    BULLPEN["🏢 BULLPEN — hub<br/>☠️ shambler<br/>sees Armory · Chief's Office · Property Room all locked at once"]
+
+    ENTRY --> EXT --> LOBBY --> BULLPEN
+
+    classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
+    classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
+    classDef exterior fill:#E3F0FF,stroke:#4A76C9,color:#0d1f3a
+    class ENTRY,EXT exterior
+    class LOBBY,BULLPEN room
+```
+
+### 2. The Annex Core (branches off the Bullpen)
+
+```mermaid
+flowchart TD
+    BULLPENREF(["🏢 Bullpen<br/>(from Diagram 1)"])
+    DISPATCH["Records/Dispatch<br/>👤 Sgt. Calloway<br/>🗝️ Chief's Office Key"]
+    CHIEF["Chief's Office<br/>📄 Chief's logbook<br/>🗝️ Old Station Skeleton Key"]
+    BREAK["Break Room<br/>👤 Cpl. Reyes' locker/photo (optional)"]
+    K9ROOM["🐕 K-9 UNIT ROOM<br/>☠️☠️ Diesel & Baxter — signature encounter<br/>👤 Cpl. Reyes' body<br/>🗝️ Armory Key"]
+    ARMORY["Armory<br/>🗝️ Shotgun + Shells"]
+    BACKHALL(["Back Hallway"])
+
+    BULLPENREF --> DISPATCH
+    BULLPENREF -. Chief's Office Key .-> CHIEF
+    BULLPENREF --> BACKHALL
+    BACKHALL --> BREAK
+    BACKHALL --> K9ROOM
+    BULLPENREF -. Armory Key, from Reyes .-> ARMORY
+
+    classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
+    classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
+    classDef boss fill:#FFE0E0,stroke:#C0392B,color:#3a0d0d,stroke-width:2px
+    classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
+    class BULLPENREF ref
+    class BACKHALL hallway
+    class DISPATCH,CHIEF,BREAK,ARMORY room
+    class K9ROOM boss
+```
+
+### 3. The Booking Wing (branches off the Bullpen)
+
+```mermaid
+flowchart TD
+    BULLPENREF2(["🏢 Bullpen<br/>(from Diagram 1)"])
+    BOOKCORR(["Booking Corridor"])
+    BOOKING["Booking & Processing<br/>🗝️ Pocketknife (optional)"]
+    INTERVIEW["Interview Room<br/>📄 Interview recording"]
+    CELLS["Modern Holding Cells<br/>☠️ shambler — behind bars, bypassable"]
+    PROPERTY["Property & Evidence Room<br/>🔧 padlock — needs Bolt Cutters<br/>🗝️ Evidence Room Key"]
+
+    BULLPENREF2 --> BOOKCORR
+    BOOKCORR --> BOOKING --> INTERVIEW
+    BOOKCORR --> CELLS
+    BULLPENREF2 -. Bolt Cutters, from Fire Station .-> PROPERTY
+
+    classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
+    classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
+    classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
+    class BULLPENREF2 ref
+    class BOOKCORR hallway
+    class BOOKING,INTERVIEW,CELLS,PROPERTY room
+```
+
+### 4. Breezeway → Old Station House
+
+```mermaid
+flowchart TD
+    BULLPENREF3(["🏢 Bullpen<br/>(from Diagram 1)"])
+    BREEZE(["Breezeway<br/>🔧 antique deadbolt — needs Skeleton Key"])
+    MAINHALL["Old Station House — Main Hall<br/>🗝️ AUTHORITY CREST<br/>📄 Marshal Josiah Hale nameplate"]
+    OLDCELLS["Old Holding Cells<br/>📄 damaged 1887 charter document"]
+
+    BULLPENREF3 -. Old Station Skeleton Key .-> BREEZE --> MAINHALL --> OLDCELLS
+
+    classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
+    classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
+    classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
+    class BULLPENREF3 ref
+    class BREEZE hallway
+    class MAINHALL,OLDCELLS room
+```
+
+### 5. Secondary Locations (reached from the District Entry, not the station directly)
+
+```mermaid
+flowchart TD
+    ENTRYREF(["Southwest District Entry<br/>(from Diagram 1)"])
+    FIRE["Ravenwood Fire Station<br/>🗝️ Bolt Cutters<br/>📄 dispatch call-sheet board"]
+    GARAGE["Municipal Garage / Impound Lot<br/>👤 Cpl. Reyes' parked cruiser<br/>🚪 shortcut gate to street grid"]
+    COURT["City Courthouse<br/>🗝️ Clerk's Exhibit Storage — needs Evidence Room Key<br/>📄 survivor-camp lore (unresolved)"]
+
+    ENTRYREF --> FIRE
+    ENTRYREF --> GARAGE
+    ENTRYREF --> COURT
+
+    classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
+    classDef exterior fill:#E3F0FF,stroke:#4A76C9,color:#0d1f3a
+    classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
+    class ENTRYREF ref
+    class FIRE,GARAGE,COURT room
+```
+
 ## Characters Encountered
 
 - **[Sergeant Ruth Calloway](../Characters/Ruth_Calloway.md)** — Tier 2 conditional survivor; alive
@@ -121,8 +269,8 @@ to the Ravenwood Hotel.
 
 ## Creatures Encountered
 
-- **[Shamblers](../Creatures/Shambler.md)** — lobby (behind glass, bypassable) and bullpen (one
-  fought).
+- **[Shamblers](../Creatures/Shambler.md)** — lobby (behind glass, bypassable), bullpen (one
+  fought), and the modern holding cells (behind bars, bypassable — same convention as the lobby).
 - **[Ashen Hounds](../Creatures/Ashen_Hound.md)** — Diesel and Baxter, Corporal Reyes' K-9
   partners; the district's signature/major encounter, fought in their own kennel room inside the
   main station building.
@@ -150,6 +298,8 @@ to the Ravenwood Hotel.
   house.
 - **Armory Key** — from Corporal Reyes' body (K-9 Unit Room); opens the armory.
 - **Shotgun** + **Shotgun Shells x12** — armory.
+- **Pocketknife** (optional) — Booking & Processing; utility/flavor item, no confirmed mechanical
+  use yet.
 - **Bolt Cutters** — Fire Station; opens the Property & Evidence Room's padlock.
 - **Evidence Room Key** — Property & Evidence Room; opens the Courthouse's Clerk's Exhibit Storage.
 - **Authority Crest** — the district's founder's emblem; old station house display case.
@@ -158,6 +308,8 @@ to the Ravenwood Hotel.
 
 - Chief's logbook (Chief's Office) — confirms the Reyes/K-9 timeline; his own fate left open.
 - Commendation wall (Chief's Office) — background references to Marshal Hale's founding-era name.
+- Interview recording (Interview Room) — a pre-outbreak report of unsettling animal behavior near
+  North Ridge, filed and forgotten; cross-references the newspaper clipping at Downtown's library.
 - Marshal Josiah Hale's display-case nameplate (old station house).
 - Damaged 1887 town-charter page listing five "Incorporators of Ravenwood" (old holding cells;
   only Hale's name is legible).
@@ -204,3 +356,6 @@ any order) — not yet scripted, but now expected to follow this same main-locat
   to Marshal Josiah Hale.
 - Whether the Courthouse's abandoned survivor camp connects to anyone/anything later in the game,
   or stays a purely atmospheric dead end.
+- Who was in the modern holding cells' empty cell, and where they ended up — deliberately unstated.
+- Who reported the North Ridge animal-behavior sighting on the Interview Room's recorder — left
+  anonymous, consistent with how the game generally treats early-warning-sign witnesses.

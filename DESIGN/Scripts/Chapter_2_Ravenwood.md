@@ -836,7 +836,7 @@ Jim tests it. Solid — a proper hardened padlock, not the kind he can force wit
 > **JIM:** *"Need something with a bigger bite than what I've got."*
 
 > *Design note: this door stays locked until Jim finds bolt cutters at the Fire Station (Scene
-> 30) — see [`STORY_NOTES.md`](../STORY_NOTES.md) for the full restructuring plan this scene is
+> 34) — see [`STORY_NOTES.md`](../STORY_NOTES.md) for the full restructuring plan this scene is
 > part of. Calloway also mentions it directly in Scene 26, so the player isn't relying on this
 > optional examine alone to learn the fix.*
 
@@ -1080,7 +1080,124 @@ the back of his Jeep since before any of this started.
 
 ---
 
-## SCENE 30 — RAVENWOOD FIRE STATION
+## SCENE 30 — THE BREAK ROOM
+
+The same back hallway that leads to the K-9 Unit Room passes a smaller door first, marked **BREAK
+ROOM** on a laminated sign someone taped up decades ago and nobody's replaced since. Inside: a
+folding table, mismatched chairs, a coffee maker with a pot gone thick and black, a refrigerator
+humming on backup power. A corkboard by the door holds a shift-swap sign-up sheet, an expired
+potluck flyer, and a "GET WELL SOON, SANDY" card signed by a dozen different hands.
+
+A bank of employee lockers lines the far wall, most closed, one hanging open — the name placard
+above it reads **REYES.**
+
+*Interaction prompt: [SEARCH LOCKER]*
+
+Taped inside the door: a photo, curling at the corners, of a younger Reyes kneeling between two
+much smaller dogs at what looks like a K-9 graduation ceremony, grinning, one dog trying to lick
+his ear mid-shot. Diesel and Baxter, years before tonight.
+
+> **JIM:** *"...Yeah. Figured."*
+
+He doesn't take the photo. He closes the locker.
+
+*ITEM AVAILABLE (optional): MEDKIT, plus HANDGUN AMMUNITION — both tucked in a spare gym bag on
+the floor of Reyes' locker.*
+
+### Optional — refrigerator
+
+*Interaction prompt: [OPEN REFRIGERATOR]*
+
+Mostly the usual — labeled lunches nobody's coming back for, a birthday cake half-eaten and
+forgotten. Jim closes it without taking anything.
+
+> *Design/story note: this is a deliberately quiet, low-stakes scene — no combat, no key item,
+> just a small emotional beat retroactively deepening Corporal Eli Reyes (see*
+> [`Characters/Eli_Reyes.md`](../Characters/Eli_Reyes.md)*) after his body's already been found.
+> Added per the project owner's request for the station to include the ordinary "basic functioning
+> rooms" of a real small department, not just the ones that gate a puzzle.*
+
+---
+
+## SCENE 31 — BOOKING & PROCESSING
+
+Off the bullpen, a corridor opens into the department's booking area — a fingerprint scanning
+station, a mugshot backdrop with height markings still taped to the wall behind it, a processing
+counter with a dead terminal. A bank of small personal-effects lockers lines one wall, the kind
+used to hold a detainee's belongings during intake. Most stand open and empty. Two are still
+closed and tagged.
+
+*Interaction prompt: [OPEN TAGGED LOCKERS]*
+
+The first holds a wallet, a set of keys, and a phone with a shattered screen — whoever it belonged
+to never got processed far enough to have it returned. The second holds a folding pocketknife,
+confiscated and never logged out.
+
+*ITEM ACQUIRED: POCKETKNIFE (optional — flavor/utility item, no confirmed mechanical use yet).*
+
+> **JIM:** *"Well. Finders keepers."*
+
+A hallway beyond the counter leads deeper, toward the sound of nothing at all — the particular
+quiet of a part of the building nobody's checked on in hours.
+
+---
+
+## SCENE 32 — THE INTERVIEW ROOM
+
+A small room off the booking corridor: a table and two chairs, all three bolted to the floor, a
+mirrored window along one wall — an interview room, unglamorous and fluorescent-lit even now on
+backup power. A tape recorder sits on the table, still plugged in, a red light blinking slowly.
+
+*Interaction prompt: [PLAY RECORDER]*
+
+> **RECORDING:** *"—said the goats wouldn't go near the north fence line anymore. Whole herd,
+> bunched up at the far end of the pasture like something was standing at the gate. I went and
+> looked myself. Didn't see anything. Didn't feel right, either."*
+>
+> **OFFICER (RECORDING):** *"And this was when, exactly?"*
+>
+> **RECORDING:** *"Week, maybe ten days before all this. I know how it sounds."*
+>
+> **OFFICER (RECORDING):** *"We'll note it. Appreciate you coming in."*
+
+The recording clicks off. Jim stares at it a moment.
+
+> **JIM:** *"Somebody actually listened. Just didn't do anything with it."*
+
+> *Design/story note: this cross-references the "unusual animal deaths reported near North Ridge"
+> newspaper clipping already established in Downtown's library
+> ([`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 20) — this is the
+> same pattern of early warning signs going nowhere, now shown from the inside: someone did report
+> it, and it was filed and forgotten rather than ignored outright. Deliberately doesn't name the
+> witness or push the Vanguard connection any further than what's already locked in*
+> [`CANON.md`](../CANON.md)*.*
+
+---
+
+## SCENE 33 — MODERN HOLDING CELLS
+
+At the end of the booking corridor: two holding cells, iron-barred, in active use as recently as
+tonight — a sharp contrast to the disused, repurposed cells in the old station house across the
+breezeway. The first cell is empty, its door hanging open. A discarded uniform shirt lies crumpled
+on the floor inside, torn down the back seam rather than removed normally.
+
+The second cell is occupied. A man in street clothes — whoever he was arrested for being, it
+doesn't matter anymore — stands locked behind the bars, swaying, pale-eyed, unable to reach Jim
+through the gap between them no matter how hard he throws himself at it.
+
+> **JIM:** *"...Guess that cell did its job better than the rest of the building."*
+
+*Not a fight — the bars hold. The player can walk past without engaging, same convention as the
+lobby's glass-shielded shambler (Scene 24).*
+
+> *Design note: whoever left the torn shirt and the open first cell is not identified — likely
+> whoever the empty cell's original occupant was, changed and moved elsewhere in the chaos rather
+> than staying to be locked in. Left deliberately unresolved; not every loose end in this district
+> needs an answer.*
+
+---
+
+## SCENE 34 — RAVENWOOD FIRE STATION
 
 Two blocks from the police station, the fire station's bay doors stand open — one bay empty, the
 truck long gone; the other still holds a ladder engine, dark, powered down. A dispatch board
@@ -1115,7 +1232,7 @@ whoever cleared out the armory in a hurry.*
 
 ---
 
-## SCENE 31 — THE PROPERTY & EVIDENCE ROOM
+## SCENE 35 — THE PROPERTY & EVIDENCE ROOM
 
 Back at the station, the bolt cutters make short work of the padlock on the Property & Evidence
 Room door.
@@ -1141,13 +1258,13 @@ KEY, BRASS — RELEASE PENDING — RAVENWOOD MUNICIPAL COURT.**
 *ITEM AVAILABLE (optional): HANDGUN AMMUNITION x2, plus a MEDKIT.*
 
 > *Design note: this key has no use inside the Police Station itself — it opens a small locked room
-> at the City Courthouse (Scene 36), a deliberate cross-location reward, and this whole room is an
+> at the City Courthouse (Scene 40), a deliberate cross-location reward, and this whole room is an
 > optional bonus loop rather than something gating the Authority Crest — the Fire Station's bolt
 > cutters are the only strictly load-bearing part of it (needed to physically get in here at all).*
 
 ---
 
-## SCENE 32 — MUNICIPAL GARAGE / IMPOUND LOT
+## SCENE 36 — MUNICIPAL GARAGE / IMPOUND LOT
 
 A large fenced vehicle yard adjoins the civic complex — several patrol cruisers, a tow truck, and a
 scattering of civilian vehicles brought in as evidence or seized long before tonight mattered. One
@@ -1180,7 +1297,7 @@ civic-complex street grid, bypassing the main lot entrance on return trips.*
 
 ---
 
-## SCENE 33 — THE BREEZEWAY
+## SCENE 37 — THE BREEZEWAY
 
 The connecting door out of the bullpen leads into a short, glass-walled breezeway between the
 modern building and the old station house — clearly a later addition, function over form, exposed
@@ -1199,7 +1316,7 @@ spill of light from the breezeway.
 
 ---
 
-## SCENE 34 — THE OLD STATION HOUSE — MAIN HALL
+## SCENE 38 — THE OLD STATION HOUSE — MAIN HALL
 
 The deadbolt gives, and Jim steps through into a single-room hush that the modern building never
 had. Stone walls. A worn wooden floor. Tall windows boarded from the outside, letting in only thin
@@ -1248,7 +1365,7 @@ knowing what they were standing next to on their way to work.
 
 ---
 
-## SCENE 35 — THE OLD HOLDING CELLS
+## SCENE 39 — THE OLD HOLDING CELLS
 
 Behind the main hall, a short corridor leads to two small holding cells — iron bars, obviously
 unused for their original purpose in decades, repurposed at some point as extra storage. Old
@@ -1276,7 +1393,7 @@ clearly for the department's own use rather than the public's.*
 
 ---
 
-## SCENE 36 — CITY COURTHOUSE
+## SCENE 40 — CITY COURTHOUSE
 
 The Ravenwood City Courthouse sits adjacent to the police station — stone columns, wide steps, a
 single heavy door forced half off its hinges. Inside, the main courtroom is in complete disarray:
@@ -1305,7 +1422,7 @@ A locked door near the back of the building is marked **EXHIBITS — CLERK OF CO
 ACTIVE TRIAL ONLY.** Smaller than an evidence room, and clearly for a different purpose — this is
 where an active case's physical exhibits get held during proceedings, not long-term evidence
 storage (that's the Police Station's job). The Evidence Room Key, recovered from the station's
-Property & Evidence Room (Scene 31), fits.
+Property & Evidence Room (Scene 35), fits.
 
 *Interaction prompt: [UNLOCK EXHIBIT STORAGE]*
 
@@ -1331,4 +1448,4 @@ Design Standard" (see [`CANON.md`](../CANON.md)) as the Police Station above, le
 founders' emblems being returned to the Founders Memorial, the basin draining, and the staircase
 into Chapter 3 being revealed. The Authority Crest can be returned to the Founders Memorial any
 time Jim chooses to backtrack to Memorial Park — this is not forced to happen immediately after
-Scene 34.*
+Scene 38.*
