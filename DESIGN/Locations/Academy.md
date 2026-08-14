@@ -685,10 +685,9 @@ Faith Crest) or backtrack to Memorial Park.
   ambiguous — explicitly left open per the source material's own framing ("whether that escape
   group succeeds doesn't have to be answered immediately... it can become something Jim discovers
   later").
-- No unique named boss creature or new creature type is proposed for this district (see "Boss
-  Encounters" and "Creatures Encountered," above) — deliberate, per the project owner's framing,
-  but flagged in case that's reconsidered later for pacing reasons (every other Chapter 2 main
-  location has at least a proposed signature creature beyond standard Shamblers).
+- ~~No unique named boss creature or new creature type is proposed for this district.~~
+  **Resolved (2026-08-14):** see [`Creatures/The_Matron.md`](../Creatures/The_Matron.md) and
+  [`CANON.md`](../CANON.md) → "Creature Distribution System."
 - Whether Principal Diane Ashford deserves her own dedicated `Characters/` file (matching Aaron
   Cole's and Daniel Fitch's treatment) rather than being described only within this location file —
   not done here, consistent with how the Police Station's Chief and the Hospital's Vanguard

@@ -47,10 +47,12 @@ owner early on, since earlier source material used a confusing dual "Tab"/"Scene
   internal contradiction where the Industry Crest was previously described in two places at once
   (the seized mold and the Founder's Boardroom's display case, now empty).
 - [`Chapter_2_Academy.md`](Chapter_2_Academy.md) — the Southeast District/Worthy Academy in full
-  (17 scenes). **Still reflects the old key-hunt mechanic** — needs a rewrite to the Archive
-  Puzzle.
+  (18 scenes). **Rewritten 2026-08-14** to the Archive Puzzle mechanic, including
+  [The Matron](../Creatures/The_Matron.md) as the district's new boss.
 - **Monastery** — no script file yet at all; needs to be written from scratch directly against the
-  Bell Tower Puzzle. See [`Locations/Monastery.md`](../Locations/Monastery.md).
+  Bell Tower Puzzle. See [`Locations/Monastery.md`](../Locations/Monastery.md). **This is now the
+  only district left to script** — all four already-scripted districts have been rewritten to
+  their new puzzle mechanics.
 
 The one remaining district (the Monastery) has a full location-design file in
 [`Locations/`](../Locations/) but no `Scripts/` entry yet — planned as the same kind of standalone
