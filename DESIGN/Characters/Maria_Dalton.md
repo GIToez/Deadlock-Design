@@ -7,7 +7,10 @@
 
 ![The Maternity Ward — Maria and the Broodling, scene concept](../Assets/Reference/hospital_maternity_ward_scene_concept_v2.png)
 
-> AI-generated scene concept (2026-08-14) for her death scene — see "Story Arc," below, and
+> AI-generated scene concept (2026-08-14, regenerated same day to fix a full-isometric perspective
+> drift and match the room's own established flat-back-wall camera angle — see
+> [`Locations/Hospital.md`](../Locations/Hospital.md) → "Storyline" for the full correction note)
+> for her death scene — see "Story Arc," below, and
 > [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 15. The actual
 > birth/death moment repeatedly failed image-generation content filters even though the written
 > scene is explicit by design (see [`README.md`](../README.md) → "Content Rating & Tone"); this is

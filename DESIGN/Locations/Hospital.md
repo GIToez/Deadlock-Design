@@ -330,20 +330,27 @@ trying to keep something out. It was trying to keep something in.
 
   ![The Maternity Ward — Maria and the Broodling, scene concept](../Assets/Reference/hospital_maternity_ward_scene_concept_v2.png)
 
-  > AI-generated scene concept (2026-08-14), generated specifically for the rewritten on-screen
-  > version of this beat — Maria, visibly pregnant and afraid, reacting to the Broodling on the
-  > floor beside her bed. Multiple prompt attempts that explicitly depicted blood, visible injury,
-  > or the birth/death moment itself were rejected by the image generation tool's own content
-  > filters even though the written scene (per [`README.md`](../README.md) → "Content Rating &
-  > Tone") is explicit; this version — Maria alive and reacting, no visible wounds — was the most
-  > direct depiction that could actually be generated. Treat it as a "just before" beat reference,
-  > not a literal panel of the birth itself.
+  > AI-generated scene concept (2026-08-14, regenerated same day to fix a full-isometric
+  > perspective drift — the first attempt, generated without a style-reference image because
+  > including one alongside graphic content kept failing the generation tool's own content filters,
+  > came out as a corner/diorama view instead of this room's established flat-back-wall framing;
+  > the fix was to drop the graphic detail from the prompt instead, which let the room's own
+  > reference image anchor the camera angle correctly). Maria, visibly pregnant and afraid, reacting
+  > to the Broodling on the floor beside her bed, in the same room layout as the reference image
+  > above. Multiple prompt attempts that explicitly depicted blood, visible injury, or the
+  > birth/death moment itself were rejected by the image generation tool's own content filters even
+  > though the written scene (per [`README.md`](../README.md) → "Content Rating & Tone") is
+  > explicit; this version — Maria alive and reacting, no visible wounds — was the most direct
+  > depiction that could actually be generated. Treat it as a "just before" beat reference, not a
+  > literal panel of the birth itself.
 
   ![The Maternity Ward — aftermath, scene concept](../Assets/Reference/hospital_maternity_ward_scene_concept.png)
 
-  > AI-generated scene concept (2026-08-14), the aftermath moment: the Broodling on the floor next
-  > to the blood-marked bed, no human figures shown (the same content-filter limitation applied here
-  > — Maria's figure couldn't be included alongside visible blood/injury in one generation).
+  > AI-generated scene concept (2026-08-14, regenerated same day for the same full-isometric
+  > perspective fix as above). The aftermath moment: the Broodling on the floor next to the
+  > blood-marked bed, in the same room layout as the reference image above. No human figures shown
+  > — the same content-filter limitation applied here, since Maria's figure couldn't be included
+  > alongside visible blood/injury in one generation.
 - **The NICU** (small optional room adjacent to Maternity). Empty incubators, one still running on
   backup power with nothing inside it, and a staff note describing an abandoned attempt to
   evacuate the ward's infants before the ward was cut off — a smaller, quieter echo of the ICU's

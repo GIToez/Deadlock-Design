@@ -361,8 +361,14 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   tool's own content filters, even though the written scene is explicit by design (see
   [`README.md`](../README.md) → "Content Rating & Tone"). These two images are the closest
   approximations that could actually be generated; the script text remains the authoritative,
-  explicit version of the scene. Embedded in
-  [`Locations/Hospital.md`](../Locations/Hospital.md), [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md),
+  explicit version of the scene. **Both regenerated same day** to fix a full-isometric perspective
+  drift: the first attempt at each, generated without a style-reference image (since passing one
+  alongside graphic content kept failing the content filter), came out as a corner/diorama view
+  instead of this room's established flat-back-wall framing. The fix was to drop the graphic detail
+  from the prompt rather than the reference image, which let the existing
+  `hospital_maternity_ward_concept.png` correctly anchor the camera angle on the second attempt.
+  Embedded in [`Locations/Hospital.md`](../Locations/Hospital.md),
+  [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md),
   [`Characters/Maria_Dalton.md`](../Characters/Maria_Dalton.md), and
   [`Creatures/Broodling.md`](../Creatures/Broodling.md).
 

@@ -2898,6 +2898,16 @@ been left otherwise untouched).
   years-old (in project time) unresolved thread that kept getting flagged as "a strong candidate for
   a future scene" without ever actually getting written, by resolving it a different way instead of
   continuing to defer it.
+- **Concept art for this scene, and a perspective-drift fix (2026-08-14).** Generated two scene
+  concepts for it — see [`Assets/README.md`](Assets/README.md) for the full entry. First attempt at
+  each drifted into a full-isometric corner view instead of this project's locked flat-back-wall
+  camera convention, because passing a style-reference image alongside graphic prompt content kept
+  failing the image tool's own content filter, so the first attempts were generated with no
+  reference image at all. Fixed by dropping the graphic detail from the prompt instead (keeping
+  Maria free of visible injury, keeping the aftermath version free of any human figure) so the
+  existing `hospital_maternity_ward_concept.png` could be passed as a reference and correctly anchor
+  the camera angle. Neither image depicts the actual birth/death moment directly — that's a
+  content-filter ceiling on the image tool, not a softening of the script, which remains explicit.
 - **Files updated to match:** [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md)
   (Scene 2's alive branch rewritten so Richard goes back alone; Scene 15 split into two full
   sub-branches depending on whether Richard is present), [`Characters/Richard_Dalton.md`](Characters/Richard_Dalton.md)

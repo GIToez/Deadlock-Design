@@ -36,8 +36,10 @@ sheets of a small, emaciated humanoid parasite creature.
 
 ![The Maternity Ward — aftermath, scene concept](../Assets/Reference/hospital_maternity_ward_scene_concept.png)
 
-> AI-generated scene concept (2026-08-14) showing the Broodling on the floor beside the
-> blood-marked bed, immediately after emerging — see
+> AI-generated scene concept (2026-08-14, regenerated same day to fix a full-isometric perspective
+> drift and match the room's own established flat-back-wall camera angle — see
+> [`Locations/Hospital.md`](../Locations/Hospital.md) → "Storyline" for the full correction note)
+> showing the Broodling on the floor beside the blood-marked bed, immediately after emerging — see
 > [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 15. Generated without a
 > human figure present; attempts to include Maria (or Maria and blood/injury together) repeatedly
 > failed the image generation tool's own content filters, even though the written scene itself is
