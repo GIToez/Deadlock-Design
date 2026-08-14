@@ -350,7 +350,8 @@ Something in Curtis's face closes off.
 > **CURTIS:** *"Then you know more than I ever did, and I'm the one who's been shaking for six
 > years."*
 
-He nods toward a locker at the far end of the cage, out of his own reach through the wire.
+He nods past Jim, out into the main shop floor, toward a locker he can see through the wire mesh
+but won't unlock the cage door to reach.
 
 > **CURTIS:** *"Left my good multitool in that locker last shift. Combination's my hire date. Take
 > it if you're heading anywhere that isn't here. I'm not going anywhere tonight."*

@@ -45,11 +45,18 @@ Vein sometime during the outbreak (mechanism not specified — the hospital's ow
 patient impossible long before anyone understood what they were isolating patients *from*).
 Per the hospital's own pathology discovery that traumatic damage provokes rather than suppresses
 Ashen mutation, the extreme physical trauma of childbirth triggers a catastrophic, accelerated
-mutation in her unborn child rather than in her directly. She does not survive the birth. Jim
-finds her body in the Maternity Ward: on a hospital bed, clearly having just given birth, blood
-trailing from her — deliberately staged as morbid by implication rather than graphic. The
-resulting creature, **[the Broodling](../Creatures/Broodling.md)**, is found and fought at the
-same bed. See that creature's file for the full mutation explanation.
+mutation in her unborn child rather than in her directly. She does not survive the birth.
+
+**Shown on-screen, not implied (revised 2026-08-14):** Jim doesn't arrive to a finished aftermath —
+he hears her screaming before he reaches the door, walks in on her still alive and mid-labor, and
+watches the birth itself go wrong: visible Black Vein discoloration spreading up her arms, her
+abdomen moving on its own, and the Broodling tearing free of her as she dies as a direct result.
+Per the project owner's explicit direction ("this is m rated game... actually show it crawling out
+and her dying as a result") and [`README.md`](../README.md) → "Content Rating & Tone," this is
+staged explicitly rather than kept off-screen. See
+[`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 15, for the full scene.
+The resulting creature, **[the Broodling](../Creatures/Broodling.md)**, turns on Jim immediately
+once free of her. See that creature's file for the full mutation explanation.
 
 Richard's presence/absence at this scene depends on player sequencing — see
 [`Characters/Richard_Dalton.md`](Richard_Dalton.md) and
@@ -59,6 +66,7 @@ player sequencing; only whether Richard is alive to eventually learn about it is
 ## Important Scenes
 
 - Lobby introduction / optional dialogue — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 5, 8.
+- Her death / the Broodling's birth, shown on-screen — [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 15.
 - (Referenced, not shown) the Manager's Office incident report confirming her transport to the
   hospital — Scene 27.
 

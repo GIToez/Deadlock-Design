@@ -50,18 +50,19 @@ the lobby.
 [`CANON.md`](../CANON.md) → "Survivor System" → "Tier 2b":
 
 - **If Jim reaches St. Dymphna Hospital as his first or second district** (carrying zero or one
-  emblem): Richard is alive. Jim meets him near the hospital's entrance/Ambulance Bay, mid-panic,
-  running out of the building trying to find anyone who can help Maria — hospital staff are
-  overwhelmed and unreachable by this point in the night (see
-  [`Locations/Hospital.md`](../Locations/Hospital.md) → "Outbreak Night"). He doesn't know what's
-  happened to her yet, only that she's been alone too long and no one's come. Once reassured/sent
-  somewhere safer (not yet scripted scene-by-scene), he asks Jim to find her and come back and
-  tell him what happened — setting up a return beat once Jim reaches the Maternity Ward and
-  discovers [Maria's fate and the Broodling](Maria_Dalton.md) alone. Richard survives the night;
+  emblem): Richard is alive. He was with Maria the entire time up to that point; once her labor
+  turned dangerous he left to find a doctor or nurse, got turned around in the hospital's own
+  chaotic corridors, and ended up back near the Ambulance Bay entrance without meaning to — Jim
+  meets him there, mid-panic, still trying to get back to her. He doesn't know what's happened to
+  her yet, only that she's been alone too long and no one's come. Once reassured/sent somewhere
+  safer, he asks Jim to find her and come back and tell him what happened — setting up a return
+  beat once Jim reaches the Maternity Ward and witnesses
+  [Maria's death and the Broodling's birth](Maria_Dalton.md) firsthand. Richard survives the night;
   what Jim ultimately tells him is an open question (see "Unresolved Ideas," below).
 - **If Jim already holds two or more emblems on arrival:** Richard already ran out looking for
-  help, before Jim arrived, and was killed somewhere in or near the hospital. Jim finds his body
-  instead of meeting him alive — exact location/staging not yet scripted. Per the survivor
+  help, before Jim arrived, and was killed near the hospital's side entrance. Jim finds his body
+  and, folded in his hand, Maria's hospital admission slip with her ward assignment circled twice —
+  the physical reason Jim knows exactly where to go, rather than assuming it. Per the survivor
   system's rule that no death ever hard-blocks progression or is treated as the player's fault, the
   outcome and its emotional weight land the same way either way; only whether Richard personally
   survives to grieve, versus being found already dead, changes.
@@ -69,8 +70,7 @@ the lobby.
 ## Important Scenes
 
 - Lobby introduction / optional dialogue — [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md), Scenes 5, 8.
-- (Proposed, not yet scripted scene-by-scene) Meeting Richard fleeing the hospital, or finding his
-  body — [`Locations/Hospital.md`](../Locations/Hospital.md) → "Arrival / Setup."
+- Meeting Richard fleeing the hospital, or finding his body — [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 2.
 
 ## Dialogue Characteristics
 
@@ -86,15 +86,9 @@ emblem count on arrival (0–1 = alive, 2+ = dead) rather than strict visit orde
 
 ## Unresolved Ideas
 
-- ~~Full scene-by-scene scripting of both the "alive, fleeing" and "already dead" versions of his
-  hospital-arrival beat.~~ **Resolved/scripted (2026-08-13):** see
-  [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 2.
 - Whether/how Jim tells the alive version of Richard what actually happened to Maria and the
   child — a strong candidate for one of the game's more emotionally weighty optional beats, still
-  **not** written even after the district's scripting pass. Do not invent a resolution without
-  explicit approval. Scene 2 (alive version) ends on Richard's request that Jim come back and tell
-  him, and Scene 13 (the Maternity Ward) confirms what Jim now knows — but the actual return
-  conversation is deliberately left for a future decision.
-- ~~Where exactly Richard's body is staged if he doesn't survive.~~ **Resolved (2026-08-13):** near
-  the Ambulance Bay, face-down, one arm outstretched toward the hospital's side entrance — see
-  [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 2.
+  **not** written. Do not invent a resolution without explicit approval. Scene 2 (alive version)
+  ends on Richard's request that Jim come back and tell him, and Scene 15 (the Maternity Ward) now
+  has Jim witness what happened firsthand rather than just finding an aftermath — but the actual
+  return conversation is deliberately left for a future decision.

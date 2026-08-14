@@ -2794,3 +2794,67 @@ been left otherwise untouched).
   deliberately left alone even though they're "secondary locations without an NPC" by the letter of
   the request — both are established, intentional quiet/breather beats, not oversights, and adding
   a talking NPC to either would undercut the specific silence they're built around.
+
+## Richard/Maria (Hospital) rewrite: fixed logic gaps, made the Broodling birth explicit (2026-08-14)
+
+> The project owner reviewed the Richard/Maria material specifically and flagged it as "very dull,"
+> with Jim giving "very one word answers," and raised two concrete continuity questions: *"if
+> Richard is [found] dead how does Jim know about Maria [i.e. where to find her]"* and *"why would
+> Richard wait outside if [he was] alive — when did he go in to be with his wife."* They also asked
+> whether the Maternity Ward reveal would be scarier if Jim walked in on Maria still alive and
+> screaming, then confirmed directly: *"this is m rated game blood guts for nudity cursing is all
+> on the table... you walk in to find her screaming... something is crawling or crying its way out
+> of her, baby has mutated into the broodling... actually show it crawling out and her dying as a
+> result."*
+
+- **Fixed: "how does Jim know where Maria is if Richard is dead?"** A genuine gap — the dead-Richard
+  branch previously had Jim declare "I'll find her anyway" with no in-fiction source for that
+  knowledge. Fixed by giving Richard's body a physical clue: a hospital admission slip for Maria,
+  ward assignment circled twice, found in his hand. Jim now knows because he found something, not
+  because the script assumed he already knew.
+- **Fixed: "why would Richard wait outside if he was alive?"** The scene already implied Richard
+  came from inside the hospital (bursting through a side door), but it wasn't explicit enough.
+  Rewritten so his own dialogue states plainly that he was with Maria the entire time, left only
+  once her labor turned dangerous to find a doctor, and got turned around in the hospital's own
+  chaotic corridors on the way back — landing him back near the entrance by accident, not by
+  neglect. Updated to match in [`Characters/Richard_Dalton.md`](Characters/Richard_Dalton.md) and
+  [`Locations/Hospital.md`](Locations/Hospital.md).
+- **Richer dialogue throughout Scene 2** (both branches) — more natural interruptions, half-finished
+  thoughts, and a beat of Richard admitting "too long, I know it's too long" rather than a flat
+  information exchange, aiming for the same texture as Chapter 1's live conversations (Sarah, Earl,
+  Cindy) rather than clipped one-line Q&A.
+- **The Maternity Ward scene (Scene 15) is now staged on-screen, explicitly, per direct
+  instruction.** Jim hears Maria screaming before he opens the door, walks in on her still alive
+  and mid-labor with visible Black Vein corruption spreading up her arms, and watches the Broodling
+  tear free of her as she dies as a direct, immediate result — not an aftermath he arrives to after
+  the fact. This is a deliberate reversal of the scene's original "morbid by implication, not
+  graphic" direction from [`Creatures/Broodling.md`](Creatures/Broodling.md); the reversal is
+  explicitly logged in that file, [`Characters/Maria_Dalton.md`](Characters/Maria_Dalton.md), and
+  [`Locations/Hospital.md`](Locations/Hospital.md), with a pointer to [`README.md`](README.md) →
+  "Content Rating & Tone" (Deadlock Protocol is already locked as M-rated, explicit-by-default)
+  so this isn't mistaken for an isolated one-off exception later.
+- **Also fixed a visit-order assumption caught while rewriting:** the new Maternity Ward text
+  originally had Jim compare Maria's corruption to "the rock at the Foundry" unconditionally — but
+  the Foundry isn't guaranteed to be visited first. Branched on whether Jim has actually been there
+  yet, consistent with the project's established convention for order-sensitive lines.
+- **Self-audit of the five secondary-location NPCs added the same day**, since they were the most
+  likely to share the same category of issue: found and fixed two similar small clarity gaps before
+  they became reported bugs — Academy's Sandra Whitfield scene didn't make clear that the key ring
+  already in her hand *was* the RA's master ring she'd retrieved earlier (not a separate, unexplained
+  key), and Foundry's Curtis Boyd scene left ambiguous whether his own locker was inside or outside
+  the cage he'd locked himself into. Both rewritten to remove the ambiguity outright rather than
+  relying on the reader to infer the right interpretation.
+- **Fixed stale scene-number cross-references** in [`Characters/Richard_Dalton.md`](Characters/Richard_Dalton.md)
+  and [`Creatures/Broodling.md`](Creatures/Broodling.md) that still cited "Scene 13" for the
+  Maternity Ward — the actual current scene, after several rounds of additions to
+  `Chapter_2_Hospital.md`, is Scene 15.
+- **On the broader "Chapter 2 dialogue is lacking compared to Chapter 1" question:** this pass
+  focused on the specifically-flagged scene plus a self-audit of the day's other new content, rather
+  than a line-by-line rewrite of all six scripts. The project's own dialogue-trimming work across
+  earlier passes was explicitly requested by the project owner (cutting Jim's over-narration) and
+  reads intentionally sparser for Jim's *solo* reactions to documents/environment — that's a
+  different axis from *live two-character conversations* (Calloway, Richard, and the five new
+  secondary NPCs), which should read with Chapter 1's full richness since there's no "quieter as he
+  learns more" reason to clip an actual back-and-forth with another person. If further scenes read
+  as flat on a closer pass, flag them specifically and they can get the same treatment Richard's
+  scene just did.

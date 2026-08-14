@@ -175,13 +175,14 @@ treat the sick and injured — because Vanguard's actual priority was never publ
 - **Richard Dalton** (see [`Characters/Richard_Dalton.md`](../Characters/Richard_Dalton.md) and
   [`CANON.md`](../CANON.md) → "Survivor System" → "Tier 2b") is encountered here, conditional on
   how many emblems Jim is carrying:
-  - **0–1 emblems (Hospital is Jim's first or second district):** Richard is alive, running out of
-    the Ambulance Bay entrance in a panic, trying to find anyone who can help Maria — hospital
-    staff are unreachable by this point in the night. He doesn't know what's happened to her, only
-    that she's been alone too long. Once reassured (not yet scripted scene-by-scene), he asks Jim
-    to find her and come back and tell him what happened.
+  - **0–1 emblems (Hospital is Jim's first or second district):** Richard is alive. He was with
+    Maria the whole time until her labor turned dangerous, left to find a doctor, and got turned
+    around in the hospital's own chaotic corridors on the way back — Jim finds him disoriented near
+    the Ambulance Bay entrance, still trying to get back to her rather than having abandoned her. He
+    asks Jim to find her and come back and tell him what happened.
   - **2+ emblems:** Richard already ran and was killed before Jim arrived. Jim finds his body near
-    the Ambulance Bay instead of meeting him alive.
+    the Ambulance Bay along with Maria's hospital admission slip, her ward assignment circled twice
+    — the physical reason Jim knows where to go next, rather than assuming it.
 
 ## The Quarantine System
 
@@ -304,11 +305,14 @@ trying to keep something out. It was trying to keep something in.
   > is named **Dr. Nathaniel Voss** (see "Storyline," above) and the hospital is **St. Dymphna
   > Hospital**. Not a proposal to rename either — flagged as inaccurate, not adopted.
 - **The Maternity Ward** (off the E.D., deliberately unlocked — no lock or key gates this room,
-  making the discovery hit harder rather than feeling "earned"). [Maria Dalton's](../Characters/Maria_Dalton.md)
-  body is found here, on a hospital bed, having just given birth — staged as morbid by
-  implication (blood trailing from her, the scene clearly finished rather than in progress) rather
-  than graphically depicted, per the project owner's explicit direction. **[The
-  Broodling](../Creatures/Broodling.md)** — the mutated result — is fought at the same bed.
+  making the discovery hit harder rather than feeling "earned"). Jim hears
+  [Maria Dalton](../Characters/Maria_Dalton.md) screaming before he even reaches the door and walks
+  in on her still alive, mid-labor, visibly wrong — Black Vein discoloration spreading up both
+  arms, her own body moving in ways contractions don't explain. She dies giving birth to **[the
+  Broodling](../Creatures/Broodling.md)**, shown on-screen rather than found as an aftermath, per
+  the project owner's explicit direction (Deadlock Protocol is M-rated; see
+  [`README.md`](../README.md) → "Content Rating & Tone"). The Broodling turns on Jim the instant
+  it's free of her.
 
   ![Maternity Ward — room concept](../Assets/Reference/hospital_maternity_ward_concept.png)
 
@@ -385,7 +389,8 @@ trying to keep something out. It was trying to keep something in.
 - Surgical Wing (opens once the pressure-gradient sequence is solved; boss encounter)
 - ICU (reached via the Surgical Wing, unlocked)
 - St. Dymphna Chapel (unlocked, past the ICU; MEDICAL CREST)
-- Maternity Ward (unlocked by design; Maria Dalton's body; the Broodling)
+- Maternity Ward (unlocked by design; Maria Dalton's death and the Broodling's birth, shown
+  on-screen)
 - NICU (optional; adjacent to Maternity)
 - Psychiatric / Behavioral Health Ward (optional; barricaded, needs Pry Bar from the Vanguard
   Quarantine Checkpoint; dangerous multi-Shambler encounter)
@@ -483,7 +488,7 @@ flowchart TD
 ```mermaid
 flowchart TD
     EDREF3(["🏥 Emergency Dept<br/>(from Diagram 1)"])
-    MATERNITY["🔴 MATERNITY WARD<br/>👤 Maria Dalton's body<br/>☠️ THE BROODLING — signature encounter"]
+    MATERNITY["🔴 MATERNITY WARD<br/>👤 Maria Dalton dies on-screen<br/>☠️ THE BROODLING — signature encounter"]
     NICU["NICU<br/>📄 abandoned evacuation note (optional)"]
 
     EDREF3 --> MATERNITY --> NICU
@@ -540,9 +545,10 @@ flowchart TD
 
 - **[Richard Dalton](../Characters/Richard_Dalton.md)** — Tier 2b threshold conditional survivor;
   alive if Jim arrives with 0–1 emblems, already dead if 2+. See "Arrival / Setup," above.
-- **[Maria Dalton](../Characters/Maria_Dalton.md)** — never seen alive at the hospital (her last
-  living scene is Chapter 1's hotel lobby); found dead in the Maternity Ward regardless of visit
-  order. Not conditional — only Richard's presence changes with sequencing.
+- **[Maria Dalton](../Characters/Maria_Dalton.md)** — alive and on-screen at the Maternity Ward
+  (her only other living scene is Chapter 1's hotel lobby); Jim witnesses her death giving birth to
+  the Broodling, regardless of visit order. Not conditional — only Richard's presence changes with
+  sequencing.
 - **Dr. Priya Anand** — the Medical Arts Building's dentist, alive, barricaded in her own reception
   area. A one-scene flavor NPC, not a Tier 2/2b conditional survivor — no alive/dead branch, no
   return visit.
@@ -648,7 +654,8 @@ flowchart TD
 
 - Meeting Richard Dalton (alive) or finding his body (dead) at the Ambulance Bay, conditional on
   emblem count.
-- Discovering Maria Dalton's body and fighting the Broodling in the Maternity Ward.
+- Witnessing Maria Dalton's death giving birth to the Broodling in the Maternity Ward, then
+  fighting it.
 - Gathering the isolation manual page (Radiology) and the backup damper control (Medical Arts
   Building), then solving the Quarantine Puzzle's pressure-gradient sequence to reach the Surgical
   Wing and fight "The Surgeon."

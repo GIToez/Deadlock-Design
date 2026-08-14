@@ -211,13 +211,14 @@ herself.
 *Interaction prompt: [FOLLOW VOICE]*
 
 **Sandra Whitfield**, a parent, not staff — coat still buttoned like she never planned to be inside
-long. A room key ring is looped white-knuckled around one hand.
+long. A ring of keys, labeled by room number on masking tape, is looped white-knuckled around one
+hand.
 
 > **SANDRA:** *"Tyler. Tyler, if that's you—"*
 >
 > **JIM:** *"It's not. I'm sorry."*
 
-She doesn't lower the key ring.
+She doesn't lower the keys.
 
 > **SANDRA:** *"He boards here. Room 12. I dropped him off myself in September, told him to call if
 > the roads got bad. He called at nine. Said the shelter had a plan. Said Vanguard people were
@@ -228,13 +229,13 @@ She doesn't lower the key ring.
 > **SANDRA:** *"I believed a man in a clean jacket with a clipboard, at my son's school, telling
 > parents everything was handled. Yes. I believed that."*
 
-A beat. She looks past Jim, toward the stairs down.
+A beat. She looks down at the keys in her own hand like she's surprised to find them still there.
 
-> **SANDRA:** *"Room 12's locked. Master key's on the RA's ring — she kept it in the laundry room
-> for some reason, don't ask me why. I already checked it once. Couldn't make myself go in a second
-> time."*
+> **SANDRA:** *"This is the RA's master ring. She keeps it in the laundry room, for some reason —
+> don't ask me why. I went and got it an hour ago. Already used it on Room 12 once. Couldn't make
+> myself go back in a second time."*
 
-She hands Jim the master key ring without being asked twice.
+She hands the ring to Jim without being asked twice.
 
 > **SANDRA:** *"If he's in there and he's — if it's bad — you don't have to tell me which kind of
 > bad. Just tell me you checked."*

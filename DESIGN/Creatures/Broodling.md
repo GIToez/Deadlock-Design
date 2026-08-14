@@ -38,11 +38,18 @@ sheets of a small, emaciated humanoid parasite creature.
 
 Deadlock Protocol's most extreme body-horror beat so far, and a deliberate escalation from
 "infected adult" to something the game hasn't shown before: a full live birth, corrupted by Black
-Vein into something that isn't a human infant at all. Per the project owner's explicit direction,
-this is written for **situational horror, not gratuitousness** — the scene is morbid by
-implication (the aftermath, what's found, what it means) rather than a lingering, explicit birth
-depiction. See [`Locations/Hospital.md`](../Locations/Hospital.md) → "Maternity Ward" for the
-scripted discovery beat this creature is attached to.
+Vein into something that isn't a human infant at all. **Shown on-screen, not implied (revised
+2026-08-14):** an earlier version of this scene deliberately kept the birth itself off-screen —
+Jim arriving only after it was already over, finding Maria's body and fighting the Broodling as a
+pure aftermath beat. The project owner explicitly reversed that: *"this is m rated game blood guts
+for nudity cursing is all on the table... you walk in to find her screaming... something is
+crawling or crying its way out of her, baby has mutated into the broodling... actually show it
+crawling out and her dying as a result."* Per [`README.md`](../README.md) → "Content Rating &
+Tone," Deadlock Protocol is explicitly M-rated and shouldn't self-censor scenes that call for
+intensity — this scene calls for it. See
+[`Locations/Hospital.md`](../Locations/Hospital.md) → "Maternity Ward" and
+[`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 15, for the scripted
+beat this creature is attached to.
 
 ## Origin
 
@@ -79,10 +86,10 @@ encounter rather than a damage check, rewarding precision over brute force.
 
 ## Gameplay Role / Combat Role
 
-Proposed as the Maternity Ward's signature encounter — the emotional and mechanical low point of
-that wing, arrived at only after the player has already found Maria's body and understood what
-they're about to fight. Not proposed as a recurring enemy type; a single, unique specimen tied to
-this one scene, per its "Known Population: one confirmed specimen" classification above.
+The Maternity Ward's signature encounter — the emotional and mechanical low point of that wing.
+The player watches Maria die giving birth to it in real time rather than arriving after the fact,
+then fights it the instant it's free of her. Not a recurring enemy type; a single, unique specimen
+tied to this one scene, per its "Known Population: one confirmed specimen" classification above.
 
 ## Encounter Progression
 
@@ -92,9 +99,8 @@ Single, one-off encounter in the Maternity Ward — see
 
 ## Major Appearances
 
-See [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 13 — the Maternity
-Ward discovery and fight, staged exactly per this file's "situational horror, not gratuitousness"
-direction.
+See [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 15 — the Maternity
+Ward birth and fight, staged on-screen and explicitly, per this file's "Concept" section above.
 
 ## Story Significance
 
