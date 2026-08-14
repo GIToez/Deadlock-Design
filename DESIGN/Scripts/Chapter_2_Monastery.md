@@ -6,15 +6,15 @@
 > was designed as this district's mechanic from the start rather than a retrofit. See
 > [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies."
 >
-> **Jim's arc note:** the Monastery has a soft pull toward being visited later rather than first
-> (the natural "last district" feel, even though it's mechanically open-order — see
-> [`Locations/Monastery.md`](../Locations/Monastery.md)'s open-order exception). Per
-> [`Characters/Jim_Mercer.md`](../Characters/Jim_Mercer.md), assume Jim is carrying at least two or
-> three crests by the time he reaches here in most playthroughs, and write him accordingly: fewer
-> questions, shorter reactions, more silence. This script includes a conditional branch at the
-> Sealed Passage (Scene 12) depending on whether Jim has
-> [the Founder's Token](../Items/Key_Items/Founders_Token.md) yet, and a conditional branch at the
-> Faith Crest pickup (Scene 11) depending on whether it's actually Jim's fifth crest.
+> **Jim's arc note:** the Monastery is fully open-order, mechanically identical to the other four
+> districts — no special gate, no dependency on Memorial Park, no assumption about visit order (see
+> [`Locations/Monastery.md`](../Locations/Monastery.md)'s header note for the history of two earlier
+> versions that tried to force it into a "last district" role, both reverted). Write Jim's actual
+> dialogue using his real crest count at the time per
+> [`Characters/Jim_Mercer.md`](../Characters/Jim_Mercer.md) — this script's own branches (the Faith
+> Crest pickup at Scene 11, conditioned on whether it's actually his fifth crest) are the model:
+> check the real number, never assume it. The Sealed Passage (Scene 12) is reachable as soon as
+> the Faith Crest is in hand, with no separate condition of its own.
 >
 > Brother Cormac is never seen alive or dead in this script, per his location file's convention —
 > everything about him is reconstructed from the Hidden Archive, the Cloister, and the final
@@ -31,7 +31,19 @@ the first time tonight, the sound of gunfire and alarms fades rather than gets c
 Then, faint, carried on the wind: a bell. Not ringing now — just an echo of one that already rang,
 hours ago.
 
+### Crest-count branch (per [`Characters/Jim_Mercer.md`](../Characters/Jim_Mercer.md))
+
+**0 crests (Survival):**
+
 > **JIM:** *"...Somebody's still up there."*
+
+**1–2 crests (Suspicion / Pattern):**
+
+> **JIM:** *"...Wonder what this one's been hiding."*
+
+**3+ crests (Anger and past it):**
+
+Jim doesn't say anything. He just keeps climbing.
 
 ---
 
@@ -242,8 +254,8 @@ somehow still burn.
 
 *Interaction prompt: [EXAMINE CASE]*
 
-A reliquary case holds a bronze, wedge-shaped medallion — the same shape as whatever Jim's already
-carrying.
+A reliquary case holds a bronze, wedge-shaped medallion — the same wedge shape as the other four
+emblems scattered across Ravenwood, whether or not Jim's found any of them yet.
 
 *ITEM ACQUIRED: FAITH CREST*
 
@@ -275,33 +287,14 @@ He pockets it without a word.
 
 ## SCENE 12 — THE SEALED PASSAGE / OLD CAVES
 
-Past the Reliquary, a further descent — the oldest sealed section of all. At the threshold, beneath
-the ancient warning inscriptions, a small, worn lock sits where Jim wouldn't have thought to look
-for one — a keyhole shaped for something specific, not a standard mechanism.
+Past the Reliquary, a further descent — the oldest sealed section of all. No lock, no key: the same
+mechanism Jim already solved to get this far left this passage open too.
 
-### If Jim does not have the Founder's Token yet
+*Interaction prompt: [ENTER PASSAGE]*
 
-*Interaction prompt: [EXAMINE LOCK]*
-
-Wrong shape for anything he's carrying.
-
-> **JIM:** *"...Not with what I've got."*
-
-He doesn't force it. He'll be back.
-
-> *Design note: the Founder's Token drops from the Founders Memorial's own FAITH recess once any
-> four crests are returned there — see [`Locations/Memorial_Park.md`](../Locations/Memorial_Park.md)
-> → "The Founder's Token." A physical object Jim has to go get and bring back, not an abstract
-> inventory count.*
-
-### If Jim has the Founder's Token
-
-*Interaction prompt: [USE FOUNDER'S TOKEN]*
-
-The token fits the lock exactly — worn into precisely this shape, Jim realizes, on purpose. The
-door gives. Ancient stone walls transition into raw cave rock. Deep-carved warning
-inscriptions line the way, and a mineral vein glows faintly in the rock itself — the same dark
-branching pattern Jim's seen before, at the Foundry, on a much smaller scale.
+Ancient stone walls transition into raw cave rock. Deep-carved warning inscriptions line the way,
+and a mineral vein glows faintly in the rock itself — the same dark branching pattern Jim's seen
+before, at the Foundry, on a much smaller scale.
 
 *Interaction prompt: [READ INSCRIPTIONS]*
 
@@ -331,13 +324,24 @@ Static. The recording ends there.
 
 Jim stands in the passage a long moment.
 
+**If this is one of Jim's later crests (he's already seen Vanguard bury the truth elsewhere in
+Ravenwood):**
+
 > **JIM:** *"...Yeah. I got that part too."*
+
+**If this is one of Jim's earlier crests (he doesn't have much to compare it to yet):**
+
+> **JIM:** *"...Before Vanguard."*
+
+He doesn't finish the thought out loud either way.
 
 He turns back the way he came — Memorial Park, and whatever's actually underneath it, waiting.
 
-> *Design note: this is the last surface-world scene in the game before Chapter 3, guaranteed by
-> the Founder's Token's own dependency on four other districts rather than visit order — see
-> [`Locations/Monastery.md`](../Locations/Monastery.md) → "The Sealed Passage / Old Caves."*
+> *Design note: this scene is self-contained within the Monastery — it doesn't require any other
+> district to be completed first, and doesn't function as a guaranteed "last district" beat. If
+> Jim reaches it early, it's an unplaceable mystery; if late, it reads as confirmation of a pattern
+> he already suspected. See [`Locations/Monastery.md`](../Locations/Monastery.md) → "The Sealed
+> Passage / Old Caves."*
 
 ---
 
@@ -436,7 +440,9 @@ Jim reads it twice, then doesn't try to say anything about it.
 *This completes the fifth and final district's scene-by-scene script — all five districts
 (Police Station, Hospital, Foundry, Academy, Monastery) now have full scripts matching their
 locked puzzle mechanics per [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies." Once the Faith
-Crest is collected (and, if Jim's fifth crest, the Sealed Passage witnessed), Jim returns to
-Memorial Park, places the final emblem, and descends into Chapter 3 — not yet written. See*
+Crest and the Sealed Passage scene are both done (in one self-contained visit, regardless of when
+that visit happens), Jim is free to head to any remaining district in any order. Once all five
+crests are in hand, he returns to Memorial Park, places the final emblem, and descends into
+Chapter 3 — not yet written. See*
 [`STORY_NOTES.md`](../STORY_NOTES.md) *for the full history of this rewrite and any remaining
 polish items.*

@@ -44,9 +44,6 @@ two entries are the same item).
 - [`Bollard_Override_Keycard.md`](Bollard_Override_Keycard.md) — guardhouse desk; lowers the
   street bollards, opening the open-world exploration phase. Has a real in-game sprite
   (`spr_keycard.png`).
-- [`Founders_Token.md`](Founders_Token.md) — new 2026-08-14; drops from the Founders Memorial's
-  FAITH recess once any four crests are inserted; opens the Monastery's Sealed Passage / Old
-  Caves. Replaces a purely mechanical crest-count gate with an actual physical cause.
 
 **St. Dymphna Hospital (Chapter 2) — puzzle: the Quarantine Puzzle:**
 

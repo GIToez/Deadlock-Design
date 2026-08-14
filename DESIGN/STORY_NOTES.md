@@ -2454,27 +2454,15 @@ or the five districts — none of those chapters have named characters yet.
   scratch," which stopped being true once the Monastery's script was written). As the project owner
   put it, this class of error doesn't affect the player, but risks confusing Cursor/AI into undoing
   correct work later — worth fixing immediately rather than letting it accumulate.
-- **The Monastery's crest-count gate now has an in-world cause (the biggest logic hole flagged).**
-  The Sealed Passage / Old Caves previously unlocked purely because Jim's inventory held "four or
-  more crests" — as the project owner pointed out, nothing physically changed at the Monastery
-  between visits, the door doesn't read inventory, and Deadlock isn't supernatural, so this was
-  game logic wearing a narrative gate's clothes. **Fixed by introducing
-  [`Items/Key_Items/Founders_Token.md`](Items/Key_Items/Founders_Token.md):** a small brass token
-  that drops from a hidden mechanism behind the Founders Memorial's own FAITH recess the first time
-  Jim returns with any four of the five crests inserted, regardless of which four. In-world
-  justification: Abbot Matthias Kane — both a Memorial founder and the Monastery's own 1887
-  charterer — built his own recess as a personal failsafe, verifying the rest of Ravenwood's
-  institutions before ever exposing what his own order had sealed. The token itself fits a
-  previously-invisible lock at the Sealed Passage's threshold. This is a genuine physical object
-  Jim has to go get and carry back, not an abstract count — and it naturally requires at least one
-  return trip to Memorial Park between a fourth crest and the Monastery's deepest scene, which is
-  exactly the kind of causal chain the project owner asked for ("he now genuinely possesses
-  something or knows something he didn't before"). Updated
-  [`Locations/Memorial_Park.md`](Locations/Memorial_Park.md) (new "Founder's Token" beat, Key Items,
-  Major Scripted Events), [`Locations/Monastery.md`](Locations/Monastery.md) (header note, Sealed
-  Passage description, Important Rooms, blueprint diagram, Exit/Progression, Unresolved Ideas), and
-  [`Scripts/Chapter_2_Monastery.md`](Scripts/Chapter_2_Monastery.md) Scene 12 (branches on the token
-  rather than a crest-count check, with an explicit design note explaining the change).
+- ~~**The Monastery's crest-count gate now has an in-world cause.** Fixed by introducing a
+  "Founder's Token" item, dropped from a hidden mechanism behind the Founders Memorial's FAITH
+  recess once any four crests are returned there, required to open the Monastery's Sealed
+  Passage.~~ **Reverted the very next pass (2026-08-14) — see "Simplifying the crest system and
+  making the Monastery fully self-contained," below.** This attempted fix solved the "no in-world
+  cause" problem the project owner raised, but the project owner's next message asked for something
+  simpler still: no special mechanism on any crest at all, and no dependency between the Monastery
+  and any other district or location. Kept here, struck through, as a record of an idea that was
+  tried and explicitly walked back, so it isn't mistakenly reintroduced later.
 - **Fixed the Monastery's "...Five" dialogue bug.** Since the Monastery is open-order, the Faith
   Crest can be Jim's first crest just as easily as his fifth — the old unconditional *"...Five"*
   line only made sense in the one case where it happened to be his last. Fixed in
@@ -2507,6 +2495,103 @@ or the five districts — none of those chapters have named characters yet.
   unkillable regardless of how that's eventually resolved. Both ideas are concept-only — no
   mechanical detail (bait mechanic, which locations use it, stage/crest gating, or if/how/when it
   becomes killable) has been chosen yet.
+
+## Simplifying the crest system and making the Monastery fully self-contained (2026-08-14)
+
+> Immediately after the previous pass shipped the Founder's Token as an in-world fix for the
+> Monastery's crest-count gate, the project owner asked for something more fundamental: drop the
+> mechanism entirely and keep the whole five-crest system as simple as possible, with every
+> district — including the Monastery — completely self-contained and equally open-order, no
+> exceptions. This entry documents that reversion and the resulting simplification.
+
+- **The Founder's Token mechanic is fully removed.** Deleted
+  `Items/Key_Items/Founders_Token.md` outright. Removed every
+  reference to it from [`CANON.md`](CANON.md) (the FAITH recess's "second, hidden function" bullet
+  under "The Founders & the Five Crests," replaced with an explicit "the medallion does exactly one
+  thing" rule), [`MASTER_STORY.md`](MASTER_STORY.md) (the Monastery's district-list entry),
+  [`Locations/Memorial_Park.md`](Locations/Memorial_Park.md) (the hidden FAITH-recess mechanism, the
+  "Founder's Token" storyline beat, its Puzzles/Key Items/Major Scripted Events entries),
+  [`Locations/Monastery.md`](Locations/Monastery.md) (header note, Sealed Passage description,
+  Important Rooms, the blueprint diagram's SEALEDPASSAGE node, Exit/Progression, Unresolved Ideas),
+  [`Scripts/Chapter_2_Monastery.md`](Scripts/Chapter_2_Monastery.md) (Scene 12, rewritten to open via
+  the Bell Tower Puzzle's own mechanism instead of a separate token-shaped lock), and
+  [`Scripts/README.md`](Scripts/README.md) and
+  [`Items/Key_Items/README.md`](Items/Key_Items/README.md). The one exception is this file, where
+  the original entry describing the Founder's Token is kept but struck through as a record of a
+  tried-and-reverted idea, per the project owner's own instruction not to let this class of error
+  confuse future work.
+- **The Founders Memorial is now deliberately as simple as possible.** Locked in
+  [`CANON.md`](CANON.md) and [`Locations/Memorial_Park.md`](Locations/Memorial_Park.md): nothing
+  happens after the first, second, third, or fourth crest is inserted — no bonus items, no partial
+  reveals, no milestone rewards, no per-crest special behavior of any kind, including FAITH. Only
+  the fifth and final crest completes the medallion, activates the mechanism, drains the basin, and
+  reveals the Chapter 3 staircase. The reward for completing a district is the crest itself, the
+  story learned inside that district, whatever equipment was naturally found there, and progress
+  toward the fifth crest — nothing more.
+- **The Monastery no longer has any special "last district" role, mechanically or narratively.**
+  Its entire progression — Bell Tower Puzzle, Old Seal, Reliquary, Faith Crest, and the Sealed
+  Passage / Old Caves finale — is now self-contained within a single visit to the district, reached
+  purely through solving the Bell Tower Puzzle itself, exactly like the Foundry's Black Vein Cavern
+  or the Academy's Maintenance Escape Corridor being reachable once their own crests are in hand.
+  [`Locations/Monastery.md`](Locations/Monastery.md)'s header note now explicitly documents that
+  *two* earlier versions of this district tried to force it into a special role (first a hard "must
+  be visited last" narrative lock, then the crest-count gate, then the Founder's Token) and both
+  were deliberately reverted. The original project-owner quote calling for the Monastery to be "the
+  last major surface location" is kept for historical context but marked superseded.
+- **The Monastery's own revelation was re-audited against the "works at any visit order" rule.**
+  Per the project owner's explicit requirement, it can reveal that people encountered Black
+  Vein-like effects long before Vanguard existed, that earlier generations recognized the danger
+  and sealed portions of the cave system, and that Vanguard later found those records and
+  interfered with what was already sealed — but it must not explain the full Project Ashen story,
+  the complete nature of Black Vein, or exactly what's beneath Memorial Park (reserved for
+  Chapter 3). The existing content already matched this bar; two script lines that implicitly
+  assumed prior knowledge from other districts (the Reliquary's "the same shape as whatever Jim's
+  already carrying," and the Sealed Passage's unconditional "...Yeah, I got that part too") were
+  fixed to branch on Jim's actual crest count instead of assuming he's visited other districts
+  first. Also added a crest-count dialogue branch to the Monastery's own Scene 1 entry line,
+  matching the convention already used in the other four scripts, since the Monastery no longer has
+  any built-in reason to assume it's a late-game visit.
+- **Adjusted the canon rule on where crests can be found.** The old rule ("the emblem itself is the
+  last thing found") was too literal — it didn't cleanly allow the Foundry's already-approved
+  post-crest Black Vein Cavern detour. [`CANON.md`](CANON.md) now states the crest must be the
+  meaningful payoff for completing the district's main puzzle (not obtainable casually or early),
+  but deeper optional story areas can exist after it — explicitly blessing the Foundry's
+  "gameplay reward first, curiosity-driven deeper exploration second" structure as good design
+  rather than a technical violation.
+- **The Zombie Conglomerate's origin was rewritten to fit the one-night premise more precisely.**
+  Per the project owner: the actual city-roaming creature forms and grows during Chapter 2's single
+  night, not as a pre-existing giant that had already been roaming or contained for weeks (the old
+  "Day 18–45" dossier timeline). Any retained Vanguard records describing an earlier timeline should
+  now be understood as small-scale precursor fusion research — two or three subjects merging under
+  lab conditions, Vanguard-internal only — never the massive creature itself.
+  [`Creatures/Zombie_Conglomerate.md`](Creatures/Zombie_Conglomerate.md)'s crest-count table was
+  rewritten with specific narrative beats per crest: at 1 crest, an early, awkward, barely legible
+  knot of 2–3 bodies that flops/drags/rolls rather than moves with intent, ambiguous enough that
+  Jim/the player may not fully register what they saw; at 2 crests, a dramatic, visible growth spurt
+  — more bodies, more force, now able to damage/obstruct the environment — that makes clear it's
+  actively growing between encounters; from 3–5 crests, continued escalation (audible before
+  visible, blocking streets, forcing alternate routes, eventually dominating Downtown) as before.
+  The environmental-interaction idea (baiting it into clearing obstacles) is refined to note it's
+  most plausible starting around its second stage, once it's large enough to actually move things.
+- **Continued individual dialogue cleanup**, per the project owner's standing instruction to keep
+  trimming lines that explain what's already obvious rather than treating the previous passes as a
+  one-time task. No further specific instances flagged this round beyond what's already covered
+  above; this remains an ongoing, line-by-line concern rather than a phase that's ever fully "done."
+- **On whether to extend crest-count dialogue branching to every scene, not just entry
+  points/key beats (the project owner's own open question, asked rather than decided):** the
+  recommendation is to **not** attempt a full line-by-line crest-count rewrite across all five
+  scripts. The entry-scene branches (now present in all five scripts) plus the handful of
+  beat-specific branches already in place (the Faith Crest pickup, the Sealed Passage reaction)
+  give Jim's arc a real, noticeable presence at natural checkpoints without the combinatorial cost
+  of writing and maintaining 5+ variants of every single line across five ~500-line scripts. The
+  general dialogue-trimming work already accomplishes most of what full branching would buy
+  anyway — a Jim who says less and reacts more briefly the deeper into Chapter 2 he gets reads as
+  "quieter" whether or not every individual line is crest-aware, and the project's own stated
+  design goal (dialogue that thins out, not one that requires the player to notice five different
+  phrasings of the same beat) is better served by a small number of well-chosen branch points than
+  exhaustive coverage. If a specific line is later flagged as reading wrong at a particular crest
+  count, it can be branched individually at that time rather than pre-emptively branching
+  everything now.
 
 ## Audit — [`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx) (uploaded 2026-08-12)
 

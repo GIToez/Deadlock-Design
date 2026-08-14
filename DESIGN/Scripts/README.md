@@ -55,10 +55,10 @@ owner early on, since earlier source material used a confusing dual "Tab"/"Scene
 - [`Chapter_2_Monastery.md`](Chapter_2_Monastery.md) — the North District/Our Lady of Solace
   Monastery in full (17 scenes). **Written from scratch 2026-08-14** directly against the Bell
   Tower Puzzle mechanic, including [The Penitent](../Creatures/The_Penitent.md) as the district's
-  boss and a conditional branch at the Sealed Passage / Old Caves depending on whether Jim has
-  [the Founder's Token](../Items/Key_Items/Founders_Token.md) yet. This is the fifth and final
-  district script — **all five Chapter 2 main locations now have a full scene-by-scene script
-  matching their locked puzzle mechanic.**
+  boss; the Sealed Passage / Old Caves is self-contained and reachable in the same visit as the
+  Faith Crest, with no dependency on any other district. This is the fifth and final district
+  script — **all five Chapter 2 main locations now have a full scene-by-scene script matching their
+  locked puzzle mechanic.**
 
 The dialogue/pacing pass (Jim's over-narration trim, deliberate messiness in crossovers, the
 per-district storytelling-material table) and the `Items/Key_Items/` audit are both complete as of

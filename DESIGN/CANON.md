@@ -78,8 +78,15 @@ district should use), not a short, mostly-linear pass. Concrete implications:
   Chapel → Cloister/Library → Bell Tower → Crypt). What must stay true regardless of shape: the
   player should be able to see, at some point before the end, roughly how much of the district is
   left to solve.
-- **The emblem itself is the last thing found**, behind the deepest/most gated point of the
-  location — a reward for finishing the loop, not something encountered early or in passing.
+- **The emblem is the meaningful payoff for completing the district's main puzzle, not necessarily
+  the literal last object found (revised 2026-08-14).** It can't be obtained casually or early —
+  it has to follow from actually solving the puzzle philosophy below — but a district can still
+  have genuine, deeper optional story content *after* the crest. The Foundry is the clearest case:
+  Jim solves the Casting Puzzle, gets the Industry Crest, and can then choose to continue into the
+  Black Vein Cavern beneath it because he wants to understand what Steelgate was hiding — that
+  post-crest curiosity beat is good design (gameplay reward first, curiosity-driven deeper
+  exploration second) and doesn't violate this rule. What would violate it is handing over the
+  crest before the puzzle is actually solved.
 - This standard is **retroactive**: the Police Station, originally scripted before this standard
   was locked, has since been rewritten to match it (2026-08-13) and fully scene-by-scene scripted —
   [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md), including a full
@@ -254,15 +261,15 @@ hotel-chapter detail.
   district its emblem belongs to. Jim can read this directly off the statue at Memorial Park at
   any time, before collecting anything — it's a hint built into the monument itself, not something
   revealed only after finding a given emblem.
-- **The FAITH recess has a second, hidden function (locked 2026-08-14).** Abbot Matthias Kane —
-  Memorial founder and the Monastery's own 1887 charterer — built his own recess to also react once
-  any four of the other recesses are filled, dropping
-  **[the Founder's Token](Items/Key_Items/Founders_Token.md)**: a physical object Jim must carry to
-  the Monastery to open its Sealed Passage / Old Caves. See
-  [`Locations/Memorial_Park.md`](Locations/Memorial_Park.md) → "The Founder's Token" and
-  [`Locations/Monastery.md`](Locations/Monastery.md) → "The Sealed Passage / Old Caves." This gives
-  the Monastery's late-game story gate (see "Five Puzzle Philosophies," above) an actual in-world
-  cause rather than a raw inventory-count check.
+- **The medallion does exactly one thing, deliberately kept simple (locked 2026-08-14, simplified
+  2026-08-14).** Every recess behaves identically. Nothing happens after the first, second, third,
+  or fourth crest is inserted — no bonus items, no partial reveals, no hidden compartments, no
+  milestone rewards, and no special behavior tied to any specific crest (including FAITH). Only
+  the fifth and final crest completes the medallion, activates the mechanism, and drains the basin.
+  An earlier revision gave the FAITH recess a second, hidden function (dropping a "Founder's Token"
+  needed to unlock part of the Monastery); this was deliberately reverted in favor of keeping the
+  crest system, and every district's own progression, completely self-contained — see
+  [`STORY_NOTES.md`](STORY_NOTES.md) for the history.
 - **Crest / district / slot reference table:**
 
 | Direction | Crest Name | Location | Statue Slot Label | Institution Symbol | Wedge Position |

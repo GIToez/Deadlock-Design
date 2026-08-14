@@ -140,15 +140,17 @@ philosophy (see [`CANON.md`](CANON.md) → "Five Puzzle Philosophies"):**
 - **North — Faith Crest — [Our Lady of Solace Monastery](Locations/Monastery.md)** (the most
   isolated district; the Bell Tower Puzzle, written directly against this design from the start
   rather than adapted from an older script — see
-  [`Scripts/Chapter_2_Monastery.md`](Scripts/Chapter_2_Monastery.md). Mechanically open-order like
-  the other four, but its deepest section — the Sealed Passage / Old Caves and Brother Cormac's
-  final broadcast — needs [the Founder's Token](Items/Key_Items/Founders_Token.md), which only
-  exists once Jim has returned any four crests to the Founders Memorial, so it always functions as
-  the narrative bridge into Chapter 3 regardless of visit order; see
+  [`Scripts/Chapter_2_Monastery.md`](Scripts/Chapter_2_Monastery.md). Fully open-order like the
+  other four, with no special dependency on Memorial Park or any other district; its deepest
+  section — the Sealed Passage / Old Caves and Brother Cormac's final broadcast — is
+  self-contained and reachable in the same visit as the Faith Crest itself, and works as a story
+  beat whether it's Jim's first district or his last; see
   [`Locations/Monastery.md`](Locations/Monastery.md) → "The Bell Tower")
 
-Exploration order is fully open, with that one exception. Each district also contains 2–3
-secondary locations (supplies, lore, optional survivors) between downtown and the main objective —
+Exploration order is fully open across all five districts — none depends on another being
+completed first, and none is assumed to be visited in any particular position. Each district also
+contains 2–3 secondary locations (supplies, lore, optional survivors) between downtown and the main
+objective —
 see [`STORY_NOTES.md`](STORY_NOTES.md) for the full list logged so far. A two-tier survivor system
 applies throughout (see [`CANON.md`](CANON.md)); the Police Station's
 [Sergeant Ruth Calloway](Characters/Ruth_Calloway.md) is the first concrete example. The Police
@@ -164,14 +166,20 @@ forward; 5, he understands he's voluntarily walking toward the source. See
 [`Characters/Jim_Mercer.md`](Characters/Jim_Mercer.md) for the full breakdown, including how his
 dialogue should thin out rather than escalate as the crest count rises.
 
-**The Zombie Conglomerate.** Once Jim recovers his first emblem, a new, unkillable roaming hazard —
-[the Zombie Conglomerate, "the Zombie King"](Creatures/Zombie_Conglomerate.md) — begins appearing
-in the city streets between districts: a mass of dozens of fused infected bodies, avoidable but
-never fightable. **Its presence scales with crest count, not randomly** (locked 2026-08-14): a
-distant sighting at 1 crest; blocking one familiar street at 2; audible before visible at 3; forcing
-alternate routes through buildings at 4; effectively owning portions of Downtown at 5 — giving the
-city itself a visible escalating arc independent of which districts Jim has actually visited. Not
-yet integrated into the scripted city exploration — see [`STORY_NOTES.md`](STORY_NOTES.md).
+**The Zombie Conglomerate.** A roaming, unkillable **world/city boss** —
+[the Zombie Conglomerate, "the Zombie King"](Creatures/Zombie_Conglomerate.md) — actively forms and
+grows during the same night as the outbreak itself, not as a pre-existing creature Jim happens to
+stumble across. **Its growth scales with crest count, not randomly** (locked 2026-08-14, origin
+revised 2026-08-14): after Jim's first crest, the first sighting is an early, awkward knot of only
+a few fused bodies, barely recognizable as a threat; by the second crest it's grown dramatically,
+strong enough to damage or obstruct the environment, making clear to the player that it's actively
+growing between encounters, not just relocating. From there it keeps escalating with crest count —
+audible before visible, blocking streets, forcing alternate routes through buildings, and
+eventually dominating portions of Downtown by the fifth — giving the city itself a visible
+escalating arc independent of which districts Jim has actually visited. Not yet integrated into the
+scripted city exploration — see [`STORY_NOTES.md`](STORY_NOTES.md) and
+[`Creatures/Zombie_Conglomerate.md`](Creatures/Zombie_Conglomerate.md) for the full growth-stage
+table.
 
 **Chapter Close.** Returning all five emblems to the Founders Memorial fills all five wedges of
 the medallion; the water basin drains, revealing a hidden staircase beneath the statue — the
