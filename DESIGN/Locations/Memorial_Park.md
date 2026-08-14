@@ -4,6 +4,13 @@
 > covering this location. Full scene-by-scene script: [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md) (covers the
 > street crossing, the park, the guardhouse, and the Founders Memorial in full; the interior of
 > Memorial Park itself is fully scripted — the five districts reached from it are not yet).
+>
+> **Revision note (2026-08-14):** added room concept art for the street crossing, the guardhouse,
+> and the Founders Memorial itself — previously the only image for this whole location was the
+> Founders Memorial *plaque's* own close-up detail shot. Prompted by the project owner noticing
+> Downtown (Pearl's Diner, the Library, City Hall) had no `Locations/` entry or art at all — see
+> the new [`Locations/Downtown_Ravenwood.md`](Downtown_Ravenwood.md) — which led to auditing this
+> file's own visual coverage at the same time.
 
 ## Purpose in the Overall Story
 
@@ -20,6 +27,11 @@ player returns to constantly between districts to save, restock, and fast-travel
   SYSTEM — ACTIVE — AUTHORIZATION REQUIRED" panel denies him), forcing a short **linear** street
   crossing straight ahead to the park. A lone standard infected ("shambler") is encountered along
   the way — avoidable or engageable, player's choice.
+
+  ![Street Crossing / Memorial Park Entrance — room concept](../Assets/Reference/memorial_park_street_crossing_concept.png)
+
+  > AI-generated room concept (2026-08-14). Shows the archway entrance visible from the street, the
+  > swinging traffic lights, and the abandoned vehicles/dragged barrier described in the script.
 - **A blood trail**, starting right at the courtyard gate, runs roughly parallel to Jim's path
   toward the park before thinning out and going wide of the south gate itself, ending at
   **[Cindy Sweets](../Characters/Cindy_Sweets.md)'s** torn, empty, hotel-issue robe in the hedges
@@ -47,6 +59,12 @@ player returns to constantly between districts to save, restock, and fast-travel
   the central monument), and a two-page handwritten note from the park's groundskeeper (see
   Puzzles / how Jim learns about the crests, below). A **bollard override keycard** ("STREET
   INFRASTRUCTURE OVERRIDE — SECTOR 4 — MEMORIAL PARK PERIMETER") sits on the desk.
+
+  ![Guardhouse Interior — room concept](../Assets/Reference/memorial_park_guardhouse_concept.png)
+
+  > AI-generated room concept (2026-08-14). Matches the scripted desk, filing cabinet, VERN
+  > terminal, corkboard, and inventory chest closely; the window correctly shows a "RAVENWOOD PARK"
+  > gate sign rather than a naming error.
 - **The Founders Memorial.** Jim approaches the central monument: a ~10-foot bronze female civic
   statue in a water basin, holding a large circular medallion-plaque — a small five-sided pentagon
   hub at the center (bearing a single weathered letter "V"), surrounded by five trapezoidal
@@ -61,6 +79,13 @@ player returns to constantly between districts to save, restock, and fast-travel
   are empty on arrival. Examining the water basin, Jim notices a faint seam in the submerged stone
   base — the suggestion of a door — and concludes the basin needs to be drained (i.e., all five
   recesses filled) before whatever's underneath can be reached.
+
+  ![The Founders Memorial — room concept](../Assets/Reference/memorial_park_founders_memorial_concept.png)
+
+  > AI-generated room concept (2026-08-14) — a wide establishing shot of the full statue and basin,
+  > complementing the existing close-up plaque detail render above; at this distance the plaque's
+  > individual wedge labels aren't meant to be legible, which is why the close-up shot remains the
+  > primary reference for that detail.
 - **Opening the City.** Returning to the street with the keycard, Jim lowers the bollards. The
   street opens in both directions and Ravenwood's open-world exploration phase begins.
 

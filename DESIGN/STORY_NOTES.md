@@ -1559,6 +1559,47 @@ the next entry for the current final numbering (Scenes 22–40).
 - **Not done in this pass:** the same treatment for Academy and Monastery — each still has only its
   location-design/prose file. Two districts remain.
 
+## Direction Log (continued) — Downtown/Memorial Park visual-coverage gap + concept art in Scripts (2026-08-14)
+
+> The project owner flagged a real gap directly: *"there's some that's not located like Pearl's
+> diner I don't see it within the locations tab,"* and separately asked *"should we add the concept
+> maps to the scripts as well[?]"* Investigating confirmed both: Downtown (Pearl's Diner, the
+> Public Library, City Hall) had a fully written script
+> ([`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 18–21) but **no**
+> `Locations/` file and **no** concept art at all — the only content in the entire game in that
+> state. Memorial Park itself had a `Locations/` file but only one image (the Founders Memorial
+> plaque's own close-up), missing its street crossing, guardhouse, and full-statue shots. And no
+> script file anywhere embedded concept art directly — only `Locations/` files did.
+
+- **New file: [`Locations/Downtown_Ravenwood.md`](Locations/Downtown_Ravenwood.md).** Assembled
+  retroactively from the already-locked script (the reverse of the usual write order), covering
+  Pearl's Diner, the Public Library, and City Hall as a short, deliberately **linear** stretch —
+  no keys, no crest, no backtracking, unlike the five main districts. Flags one loose end pulled
+  directly from the existing script: City Hall's Mayor's Office is locked and its key is never
+  recovered anywhere in current material.
+- **Six new room concepts** (AI-generated, style-anchored to existing district art): the street
+  crossing/park entrance, the guardhouse, a full-statue Founders Memorial establishing shot, Pearl's
+  Diner, the Public Library, and City Hall. Embedded in the new Downtown file and the updated
+  [`Locations/Memorial_Park.md`](Locations/Memorial_Park.md). No naming/generation errors on any of
+  the six — notably breaking this project's long, recurring "Ravencroft"/wrong-name pattern seen
+  across nearly every other district's first-pass art.
+- **New locked convention: concept art now also embedded directly in `Scripts/` files**, not just
+  `Locations/` files — see [`Assets/README.md`](Assets/README.md) for the full rule. Applied
+  retroactively to all four existing Chapter 2 scripts, reusing each district's own already-generated
+  images rather than creating duplicates: [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md)
+  (22 images across its 24 scenes), [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md)
+  (15 of 17), [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md) (16 of 17), and
+  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md) (6 of its 21 scenes — only the
+  ones with a matching room image; Memorial Park's interior-clearing scenes and Downtown's district-
+  entry scene were left as-is rather than force a mismatched image in). Each embedded image is
+  followed by a one-line caption pointing back to the room's `Locations/` file.
+- **Deliberately not touched:** [`Scripts/Chapter_1_One_Night_Only.md`](Scripts/Chapter_1_One_Night_Only.md)
+  — it's marked locked and predates this convention; revisit only if explicitly requested.
+- **Not done in this pass:** the same audit hasn't been run against Academy's or Monastery's own
+  `Locations/` files (both already have full room-by-room concept art from their own build-out
+  passes, so this gap was specific to Downtown/Memorial Park predating the district-by-district
+  convention entirely) — flagged only as a "worth a quick look eventually" item, not a known gap.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /

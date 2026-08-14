@@ -292,6 +292,42 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   — inventory-icon concepts for all seven of Steelgate Refinery's new key items, generated as part
   of its scene-by-scene scripting pass; style-anchored to the same item-icon convention.
 
+- **`Reference/memorial_park_street_crossing_concept.png`,
+  `memorial_park_guardhouse_concept.png`, `memorial_park_founders_memorial_concept.png`,
+  `downtown_pearls_diner_concept.png`, `downtown_public_library_concept.png`,
+  `downtown_city_hall_concept.png`** (AI-generated, 2026-08-14) — six new room concepts closing a
+  visual-coverage gap the project owner spotted directly: Memorial Park and Downtown (Pearl's
+  Diner, the Public Library, City Hall) were the only locations in the entire game with a fully
+  written script but **no** `Locations/` entry and **no** concept art at all, unlike every one of
+  the five main districts. Style-anchored to existing district room concepts
+  (`police_station_bullpen_concept.png`, `hospital_ed_triage_hall_concept.png`,
+  `foundry_casting_hall_concept.png`) and the existing Founders Memorial plaque close-up. Embedded
+  in the new [`Locations/Downtown_Ravenwood.md`](../Locations/Downtown_Ravenwood.md) and the
+  updated [`Locations/Memorial_Park.md`](../Locations/Memorial_Park.md), **and** — per the new
+  convention below — directly into [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md)
+  at their matching scenes. No naming/generation errors flagged on any of the six; Pearl's Diner's
+  neon sign, the Guardhouse's "RAVENWOOD PARK" gate sign, and the street scene's own archway
+  correctly read "Ravenwood," breaking this project's long recurring "Ravencroft"/wrong-name
+  pattern.
+
+## Convention: concept art now also embedded directly in `Scripts/` files (locked 2026-08-14)
+
+> Per the project owner: *"should we add the concept maps to the scripts as well[?]"* — yes. Going
+> forward, once a room has concept art in its `Locations/` file, the **same image** is also
+> embedded directly into the matching `Scripts/Chapter_2_<District>.md` scene, right after that
+> scene's header, with a one-line caption pointing back to the `Locations/` file for the full room
+> writeup. This was applied retroactively (2026-08-14) to all four existing Chapter 2 script files —
+> [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md) (22 images),
+> [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md) (15 images),
+> [`Scripts/Chapter_2_Foundry.md`](../Scripts/Chapter_2_Foundry.md) (16 images), and
+> [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md) (6 images) — reusing the
+> exact same files already logged in each district's own `Locations/` entry rather than generating
+> duplicates. District-entry/exterior-approach scenes with no single matching room (e.g. each
+> script's Scene 1) were deliberately left without an image rather than forcing a mismatch.
+> [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md) was **not**
+> touched in this pass — it predates this convention and is marked locked; revisit only if
+> explicitly requested.
+
 Several other assets have been uploaded, placed directly alongside their character files instead:
 
 - `Characters/spr_cindy_jumpscare.gif` — embedded in

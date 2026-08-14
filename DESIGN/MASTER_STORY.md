@@ -191,11 +191,13 @@ material that exists for it).
   between city sections**, not direct entrances to the five major locations — the player still
   has to navigate the city itself to reach each one. Only the south gate is open on arrival; the
   other three must be found and unlocked from the city side.
-- **The five districts** surround a central downtown (Pearl's Diner, the Public Library, City
-  Hall) and are laid out geographically per the map in [`STORY_NOTES.md`](STORY_NOTES.md) (Southwest/Authority,
-  Southeast/Knowledge, Northeast/Medical, Northwest/Industry, North/Faith).
+- **The five districts** surround a central downtown ([Pearl's Diner, the Public Library, City
+  Hall](Locations/Downtown_Ravenwood.md)) and are laid out geographically per the map in
+  [`STORY_NOTES.md`](STORY_NOTES.md) (Southwest/Authority, Southeast/Knowledge, Northeast/Medical,
+  Northwest/Industry, North/Faith).
 - **The Northwest district's rail yard** has tracks leading into the mountain — the physical
-  entry point of Black Vein into Ravenwood, visible but not enterable during Chapter 2.
+  entry point of Black Vein into Ravenwood; fully scripted and enterable, see
+  [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md), Scene 17.
 - **Memorial Park → Underground [Vanguard Facility](Locations/Vanguard_Facility.md):** returning
   all five emblems drains the Founders Memorial's water basin, revealing a staircase beneath the
   statue.

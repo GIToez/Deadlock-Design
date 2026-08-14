@@ -24,6 +24,12 @@ owner early on, since earlier source material used a confusing dual "Tab"/"Scene
 > rationale and a renumbering map, in case any older note still cites a pre-split scene number.
 > `Chapter_2_Ravenwood.md` itself now covers only the shared Downtown/Memorial Park content every
 > district route passes through first.
+>
+> **Convention, locked 2026-08-14:** every scene with a matching room-concept image in its
+> `Locations/` file now embeds that same image directly, right after the scene header — see
+> [`Assets/README.md`](../Assets/README.md) → "Concept art now also embedded directly in
+> `Scripts/` files." Applied retroactively to all four Chapter 2 script files below; apply it going
+> forward to Academy and Monastery as they're written.
 
 ## Current files
 

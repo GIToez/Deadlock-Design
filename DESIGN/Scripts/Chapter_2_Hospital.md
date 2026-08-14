@@ -56,6 +56,10 @@ He keeps walking toward the Ambulance Bay.
 
 ## SCENE 2 — THE AMBULANCE BAY
 
+![The Ambulance Bay — room concept](../Assets/Reference/hospital_ambulance_bay_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Hospital.md`](../Locations/Hospital.md) for the full room writeup.*
+
 The Ambulance Bay is the hospital's version of the Police Station's wrecked patrol lot: overturned
 gurneys, spent shell casings — some RPD, some a caliber Jim doesn't recognize — a crashed ambulance
 nosed into a parked one, doors hanging open on both, abandoned medical equipment scattered across
@@ -150,6 +154,10 @@ reason Richard was out here at all.
 
 ## SCENE 3 — EMERGENCY DEPARTMENT / TRIAGE HALL (HUB)
 
+![Emergency Department / Triage Hall — room concept](../Assets/Reference/hospital_ed_triage_hall_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Hospital.md`](../Locations/Hospital.md) for the full room writeup.*
+
 Through the Ambulance Bay's inner doors: the Emergency Department, a wide hall lined with gurneys,
 most still made up with clean sheets nobody got to use again. Hallway triage stations sit abandoned
 mid-use — a blood-pressure cuff still wrapped around a mannequin arm on a training dummy nobody ever
@@ -184,6 +192,10 @@ cycling somewhere behind him.
 ---
 
 ## SCENE 4 — RADIOLOGY
+
+![Radiology — room concept](../Assets/Reference/hospital_radiology_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Hospital.md`](../Locations/Hospital.md) for the full room writeup.*
 
 Through the unlocked doorway: a CT suite, the machine's ring still faintly lit, a restraint gurney
 in the middle of the room still buckled open — the straps snapped rather than unbuckled. A
@@ -222,6 +234,10 @@ belt.
 ---
 
 ## SCENE 5 — THE LABORATORY
+
+![The Laboratory — room concept](../Assets/Reference/hospital_laboratory_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Hospital.md`](../Locations/Hospital.md) for the full room writeup.*
 
 The Laboratory Key opens a room of microscopes, sample racks, and a pathologist's workstation — a
 monitor still on, displaying a half-finished document.
@@ -276,6 +292,10 @@ different hand.
 ---
 
 ## SCENE 6 — ADMINISTRATION
+
+![Administration — room concept](../Assets/Reference/hospital_administration_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Hospital.md`](../Locations/Hospital.md) for the full room writeup.*
 
 The Administration Key opens a suite of offices, decor a level nicer than anywhere else in the
 building — carpet instead of tile, framed accreditation certificates, a reception desk with a dead
@@ -358,6 +378,10 @@ Jim sets everything back down exactly where he found it, out of habit more than 
 
 ## SCENE 7 — THE MORGUE
 
+![The Morgue — room concept](../Assets/Reference/hospital_morgue_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Hospital.md`](../Locations/Hospital.md) for the full room writeup.*
+
 A dim, unmarked stairwell off the nurses' station leads down into the morgue — no lock, easy to
 miss. Cold, tiled, a wall of drawers, most closed. One gurney nearby holds a sheet pulled back over
 nothing at all.
@@ -400,6 +424,10 @@ Once it's down, Jim closes the drawer himself this time.
 
 ## SCENE 8 — THE MEDICAL ARTS BUILDING
 
+![Medical Arts Building — room concept](../Assets/Reference/hospital_medical_arts_building_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Hospital.md`](../Locations/Hospital.md) for the full room writeup.*
+
 A separate, smaller building down the block — private doctors' offices and an outpatient clinic,
 quieter than the main hospital in the specific way of a building that was mostly empty even before
 the outbreak. A directory sign in the lobby lists a dozen names, half the letters missing.
@@ -434,6 +462,10 @@ in the building; Jim doesn't dwell on it.
 ---
 
 ## SCENE 9 — THE SURGICAL WING
+
+![The Surgical Wing — room concept](../Assets/Reference/hospital_surgical_wing_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Hospital.md`](../Locations/Hospital.md) for the full room writeup.*
 
 Back at the hospital, the access card wakes the card-reader with a soft chime — the same
 out-of-place technology Jim already recognizes from the Police Station's Vanguard doors, though
@@ -506,6 +538,10 @@ He doesn't know what. Nobody wrote it down anywhere he's found yet.
 
 ## SCENE 11 — THE ICU
 
+![The ICU — room concept](../Assets/Reference/hospital_icu_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Hospital.md`](../Locations/Hospital.md) for the full room writeup.*
+
 Past OR 3, a connecting corridor leads into the ICU — and the room tells its own story before Jim
 reads a single note. Half the ward sits in total darkness, monitors dead, ventilators silent. The
 other half hums quietly along on backup power, lights steady, machines running exactly as they
@@ -550,6 +586,10 @@ A small key ring is clipped to the same clipboard.
 
 ## SCENE 12 — ST. DYMPHNA CHAPEL
 
+![St. Dymphna Chapel — room concept](../Assets/Reference/hospital_chapel_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Hospital.md`](../Locations/Hospital.md) for the full room writeup.*
+
 The Chapel Key opens a small, hushed room, entirely unlike anywhere else in the hospital — a dozen
 pews, a modest stained-glass window filtering weak gray daylight-that-isn't into colored fragments
 across the floor. A portrait hangs beside a small brass founding plaque: a formally dressed
@@ -589,6 +629,10 @@ He looks back at the empty pews behind him.
 ---
 
 ## SCENE 13 — THE MATERNITY WARD
+
+![The Maternity Ward — room concept](../Assets/Reference/hospital_maternity_ward_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Hospital.md`](../Locations/Hospital.md) for the full room writeup.*
 
 Off the Emergency Department, deliberately unlocked — no key, no lock, nothing gating this room at
 all. Jim can walk in the moment he chooses to. The hallway leading in is quiet in a way that feels
@@ -631,6 +675,10 @@ He says it to her, not to what he just fought.
 
 ## SCENE 14 — THE NICU
 
+![The NICU — room concept](../Assets/Reference/hospital_nicu_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Hospital.md`](../Locations/Hospital.md) for the full room writeup.*
+
 A small room adjacent to Maternity — no lock. Rows of incubators, most dark and empty. One still
 runs on backup power, humming quietly, with nothing inside it.
 
@@ -654,6 +702,10 @@ He doesn't say anything else. He leaves the incubator running.
 ---
 
 ## SCENE 15 — THE VANGUARD QUARANTINE CHECKPOINT
+
+![Vanguard Quarantine Checkpoint — room concept](../Assets/Reference/hospital_quarantine_checkpoint_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Hospital.md`](../Locations/Hospital.md) for the full room writeup.*
 
 A small guard checkpoint building at the district's edge, where the road out of Ravenwood is
 blocked with the same kind of barrier Jim's already seen at Memorial Park — except this one's
@@ -690,6 +742,10 @@ A flat steel pry bar, standard checkpoint-barrier equipment.
 
 ## SCENE 16 — THE PSYCHIATRIC / BEHAVIORAL HEALTH WARD
 
+![Psychiatric / Behavioral Health Ward — room concept](../Assets/Reference/hospital_psychiatric_ward_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Hospital.md`](../Locations/Hospital.md) for the full room writeup.*
+
 Back at the Emergency Department, the pry bar forces the barricaded stairwell — the gurney and
 filing cabinets shriek across the floor as Jim clears them aside.
 
@@ -725,6 +781,10 @@ Once the ward is clear, Jim doesn't linger.
 ---
 
 ## SCENE 17 — THE HOSPITAL PARKING STRUCTURE
+
+![Hospital Parking Structure — room concept](../Assets/Reference/hospital_parking_structure_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Hospital.md`](../Locations/Hospital.md) for the full room writeup.*
 
 A multi-level parking structure adjoining the hospital, mostly abandoned cars, a directory sign for
 levels that don't matter anymore. Quiet in the specific way of a place people ran through rather

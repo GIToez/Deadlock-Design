@@ -42,6 +42,10 @@ He keeps walking toward the gate.
 
 ## SCENE 2 — THE LOADING YARD
 
+![Loading Yard — room concept](../Assets/Reference/foundry_loading_yard_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) for the full room writeup.*
+
 Through the outer gate: the Loading Yard, and the aftermath of a fight that didn't end cleanly for
 anyone. Tools and personal effects lie scattered where they were dropped mid-flight — a hard hat, a
 lunch cooler, a torn work glove. A chain-link gate stands forced open, bent off one hinge. Spent
@@ -76,6 +80,10 @@ Jim reads them on his way past.
 
 ## SCENE 3 — THE CASTING HALL (HUB)
 
+![Casting Hall — room concept](../Assets/Reference/foundry_casting_hall_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) for the full room writeup.*
+
 Through the main entrance: a vast industrial floor, heat radiating off at least one still-molten
 holding vat, its orange glow throwing long shadows across idle conveyor lines. An overhead crane
 hangs motionless mid-track. The air smells like hot metal and something else underneath it Jim
@@ -109,6 +117,10 @@ the faint crackle of the holding vat's residual heat.
 ---
 
 ## SCENE 4 — THE FOUNDRY CLINIC
+
+![Foundry Clinic — room concept](../Assets/Reference/foundry_clinic_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) for the full room writeup.*
 
 Off the Casting Hall: a small on-site first-aid room, barely bigger than a closet. A restraint
 gurney sits in the middle of the room, straps snapped rather than unbuckled. A wall phone hangs off
@@ -153,6 +165,10 @@ OFFICE"** in the same handwriting as the call log.
 
 ## SCENE 5 — THE BREAK ROOM / LOCKER ROOM
 
+![Break Room / Locker Room — room concept](../Assets/Reference/foundry_break_room_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) for the full room writeup.*
+
 Off the Casting Hall, the opposite direction from the Clinic: rows of employee lockers, several
 forced open, personal effects scattered across the floor — a family photo face-down, a half-eaten
 lunch gone cold in its container, a birthday card still in its envelope.
@@ -186,6 +202,10 @@ Jim reads it twice.
 ---
 
 ## SCENE 6 — THE PLANT MANAGER'S OFFICE
+
+![Plant Manager's Office — room concept](../Assets/Reference/foundry_managers_office_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) for the full room writeup.*
 
 The Manager's Office Key opens a modest office overlooking the Casting Hall floor through a
 soot-streaked window. A nameplate on the desk reads **D. FITCH — PLANT MANAGER.** A landline sits
@@ -240,6 +260,10 @@ than dropped.
 
 ## SCENE 7 — THE MACHINE SHOPS
 
+![Machine Shops — room concept](../Assets/Reference/foundry_machine_shops_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) for the full room writeup.*
+
 A separate workshop building down the block from the main plant — smaller, quieter, the specific
 kind of quiet that comes from a room built for one or two people at a time rather than a whole
 shift. Workbenches line the walls, half-finished repairs left exactly where they were abandoned.
@@ -269,6 +293,10 @@ lettering underneath is hard to read clearly in the low light.
 ---
 
 ## SCENE 8 — THE LOADING DOCKS
+
+![Loading Docks — room concept](../Assets/Reference/foundry_loading_docks_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) for the full room writeup.*
 
 A separate cargo and shipping building, loading bays lined up along one long wall, most standing
 open and empty. A dispatch clipboard hangs by the nearest bay door.
@@ -303,6 +331,10 @@ plant's own worn plastic badges.
 
 ## SCENE 9 — THE VANGUARD SITE OFFICE
 
+![Vanguard Site Office — room concept](../Assets/Reference/foundry_vanguard_site_office_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) for the full room writeup.*
+
 Back at the Casting Hall, the Vanguard Site Key opens onto a jarringly clean, out-of-place corporate
 office — the same incongruous language as the Police Station's Vanguard Liaison Office, dropped
 into the middle of an industrial plant instead of a municipal building.
@@ -334,6 +366,10 @@ Jim reads the date twice.
 
 ## SCENE 10 — THE RESTRICTED ELEVATOR
 
+![Restricted Elevator — room concept](../Assets/Reference/foundry_restricted_elevator_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) for the full room writeup.*
+
 Back at the Casting Hall, the access card wakes a card-reader beside a heavy freight elevator door
 — the same soft electronic chime Jim's heard at two Vanguard doors already tonight.
 
@@ -354,6 +390,10 @@ The doors open onto a quiet, brightly-lit corridor, utterly unlike anything else
 ---
 
 ## SCENE 11 — THE EXPOSURE RECORDS ROOM
+
+![Exposure Records Room — room concept](../Assets/Reference/foundry_exposure_records_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) for the full room writeup.*
 
 Unlocked, straight off the elevator corridor: a records room, rows of employee files organized not
 by name or department, but by handwritten dividers reading **EXPOSURE COHORT A**, **COHORT B**,
@@ -399,6 +439,10 @@ A door key sits in an unlocked drawer at the end of the row, tagged **"RESEARCH 
 
 ## SCENE 12 — THE RESEARCH BAY
 
+![Research Bay — room concept](../Assets/Reference/foundry_research_bay_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) for the full room writeup.*
+
 The Research Bay Key opens a room that could pass for the Hospital's own Laboratory if Jim hadn't
 already seen the real thing — decontamination equipment, biological sampling stations, restraint
 equipment, and tissue-storage containers, all built for one purpose and never disguised as
@@ -429,6 +473,10 @@ He sets the memo down like it might do something if he holds it too long.
 ---
 
 ## SCENE 13 — THE SECURITY CHECKPOINT
+
+![Security Checkpoint — room concept](../Assets/Reference/foundry_security_checkpoint_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) for the full room writeup.*
 
 A reinforced door blocks the corridor toward Lower Processing — thick, riveted, built to hold
 against something, not just to lock a room.
@@ -476,6 +524,10 @@ in this building.
 
 ## SCENE 14 — THE OLD MINE WORKINGS
 
+![Old Mine Workings — room concept](../Assets/Reference/foundry_old_mine_workings_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) for the full room writeup.*
+
 An optional detour off the Lower Processing corridor: older, rougher tunnels than the rest of the
 underground level, timber supports instead of poured concrete, the "structurally unsafe" sections
 workers were told to stay out of for years.
@@ -510,6 +562,10 @@ Jim studies it, filing it away without fully understanding it yet.
 ---
 
 ## SCENE 15 — THE FOUNDER'S BOARDROOM
+
+![Founder's Boardroom — room concept](../Assets/Reference/foundry_boardroom_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) for the full room writeup.*
 
 The Boardroom Key opens a small, incongruously formal room this deep underground — a long polished
 table, a row of framed portraits along one wall, and, at the far end, a glass display case lit from
@@ -549,6 +605,10 @@ lock, no sign, just an opening where the room's formal construction simply stops
 ---
 
 ## SCENE 16 — THE BLACK VEIN CAVERN
+
+![The Black Vein Cavern — room concept](../Assets/Reference/foundry_black_vein_cavern_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) for the full room writeup.*
 
 Past the Boardroom, a short passage where all human construction gradually stops. Reinforced
 concrete gives way to older mine tunnel, then bare rock, then a threshold that isn't built at all —
@@ -600,6 +660,10 @@ finally turns back the way he came.
 ---
 
 ## SCENE 17 — THE RAIL YARD
+
+![Rail Yard — room concept](../Assets/Reference/foundry_rail_yard_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) for the full room writeup.*
 
 An optional secondary location, reached from the district entry rather than through the plant
 itself: rusted tracks running in a long straight line directly into the mountainside, disappearing

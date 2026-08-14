@@ -75,6 +75,10 @@ annex — the original 1890s structure.*
 
 ## SCENE 3 — STATION LOBBY
 
+![Station Lobby — room concept](../Assets/Reference/police_station_lobby_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
+
 The lobby doors are propped open with a fire extinguisher — someone's decision, once, to make sure
 they didn't lock behind whoever went through them last. Inside: a bulletproof reception window,
 spiderwebbed with a single hard impact but not broken through; a row of plastic waiting-room chairs,
@@ -100,6 +104,10 @@ past toward the door marked **BULLPEN — AUTHORIZED PERSONNEL.**
 ---
 
 ## SCENE 4 — THE BULLPEN
+
+![The Bullpen — room concept](../Assets/Reference/police_station_bullpen_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
 
 The bullpen is a single open room — a dozen desks in rows, computer monitors dark, a large tactical
 map of Ravenwood pinned up near the door with patrol sectors marked in grease pencil. Paperwork is
@@ -238,6 +246,10 @@ Jim tests it. Solid — a proper hardened padlock, not the kind he can force wit
 ---
 
 ## SCENE 5 — SERGEANT CALLOWAY
+
+![Records/Dispatch — room concept](../Assets/Reference/police_station_dispatch_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
 
 *This scene plays if the Police Station is the first district Jim visits. See the design note at
 the end of this scene for what happens if it isn't.*
@@ -470,6 +482,10 @@ Calloway says nothing. She doesn't need to.
 
 ## SCENE 6 — THE CHIEF'S OFFICE
 
+![Chief's Office — room concept](../Assets/Reference/police_station_chiefs_office_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
+
 Calloway's key opens a modest office just off the bullpen — a heavy wooden desk, a wall of
 commendation plaques, a framed photo of a graduating academy class gone yellow with age. The room
 still smells faintly of pipe tobacco, decades after whoever last allowed that here retired.
@@ -513,6 +529,10 @@ Chief's own backup supply.*
 ---
 
 ## SCENE 7 — THE K-9 UNIT ROOM
+
+![K-9 Unit Room — room concept](../Assets/Reference/police_station_k9_room_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
 
 A back hallway past the break room leads to a windowless room built for a very different purpose
 than the rest of the annex — a poured concrete floor with a drain in the center, two large chain-
@@ -565,6 +585,10 @@ He doesn't check the other one's collar. He looks back at Reyes, still holding t
 
 ## SCENE 8 — THE ARMORY
 
+![Armory — room concept](../Assets/Reference/police_station_armory_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
+
 Back through the bullpen, Reyes' key opens the door marked **ARMORY — RESTRICTED ACCESS.**
 
 *Interaction prompt: [UNLOCK ARMORY]*
@@ -592,6 +616,10 @@ the back of his Jeep since before any of this started.
 ---
 
 ## SCENE 9 — THE BREAK ROOM
+
+![Break Room — room concept](../Assets/Reference/police_station_break_room_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
 
 The same back hallway that leads to the K-9 Unit Room passes a smaller door first, marked **BREAK
 ROOM** on a laminated sign someone taped up decades ago and nobody's replaced since. Inside: a
@@ -632,6 +660,10 @@ forgotten. Jim closes it without taking anything.
 
 ## SCENE 10 — BOOKING & PROCESSING
 
+![Booking & Processing — room concept](../Assets/Reference/police_station_booking_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
+
 Off the bullpen, a corridor opens into the department's booking area — a fingerprint scanning
 station, a mugshot backdrop with height markings still taped to the wall behind it, a processing
 counter with a dead terminal. A bank of small personal-effects lockers lines one wall, the kind
@@ -654,6 +686,10 @@ quiet of a part of the building nobody's checked on in hours.
 ---
 
 ## SCENE 11 — THE INTERVIEW ROOM
+
+![Interview Room — room concept](../Assets/Reference/police_station_interview_room_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
 
 A small room off the booking corridor: a table and two chairs, all three bolted to the floor, a
 mirrored window along one wall — an interview room, unglamorous and fluorescent-lit even now on
@@ -687,6 +723,10 @@ The recording clicks off. Jim stares at it a moment.
 
 ## SCENE 12 — MODERN HOLDING CELLS
 
+![Modern Holding Cells — room concept](../Assets/Reference/police_station_modern_cells_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
+
 At the end of the booking corridor: two holding cells, iron-barred, in active use as recently as
 tonight — a sharp contrast to the disused, repurposed cells in the old station house across the
 breezeway. The first cell is empty, its door hanging open. A discarded uniform shirt lies crumpled
@@ -709,6 +749,10 @@ lobby's glass-shielded shambler (Scene 3).*
 ---
 
 ## SCENE 13 — RAVENWOOD FIRE STATION
+
+![Ravenwood Fire Station — room concept](../Assets/Reference/police_station_fire_station_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
 
 Two blocks from the police station, the fire station's bay doors stand open — one bay empty, the
 truck long gone; the other still holds a ladder engine, dark, powered down. A dispatch board
@@ -745,6 +789,10 @@ whoever cleared out the armory in a hurry.*
 
 ## SCENE 14 — THE PROPERTY & EVIDENCE ROOM
 
+![Property & Evidence Room — room concept](../Assets/Reference/police_station_evidence_room_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
+
 Back at the station, the bolt cutters make short work of the padlock on the Property & Evidence
 Room door.
 
@@ -776,6 +824,10 @@ KEY, BRASS — RELEASE PENDING — RAVENWOOD MUNICIPAL COURT.**
 ---
 
 ## SCENE 15 — MUNICIPAL GARAGE / IMPOUND LOT
+
+![Municipal Garage / Impound Lot — room concept](../Assets/Reference/police_station_municipal_garage_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
 
 A large fenced vehicle yard adjoins the civic complex — several patrol cruisers, a tow truck, and a
 scattering of civilian vehicles brought in as evidence or seized long before tonight mattered. One
@@ -810,6 +862,10 @@ civic-complex street grid, bypassing the main lot entrance on return trips.*
 
 ## SCENE 16 — THE BREEZEWAY
 
+![Breezeway — room concept](../Assets/Reference/police_station_breezeway_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
+
 The connecting door out of the bullpen leads into a short, glass-walled breezeway between the
 modern building and the old station house — clearly a later addition, function over form, exposed
 pipe conduit running along the ceiling. Jim reaches the door into the old building.
@@ -828,6 +884,10 @@ spill of light from the breezeway.
 ---
 
 ## SCENE 17 — THE OLD STATION HOUSE — MAIN HALL
+
+![Old Station House — Main Hall — room concept](../Assets/Reference/police_station_old_main_hall_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
 
 The deadbolt gives, and Jim steps through into a single-room hush that the modern building never
 had. Stone walls. A worn wooden floor. Tall windows boarded from the outside, letting in only thin
@@ -879,6 +939,10 @@ knowing what they were standing next to on their way to work.
 
 ## SCENE 18 — THE OLD HOLDING CELLS
 
+![Old Holding Cells — room concept](../Assets/Reference/police_station_old_cells_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
+
 Behind the main hall, a short corridor leads to two small holding cells — iron bars, obviously
 unused for their original purpose in decades, repurposed at some point as extra storage. Old
 department records boxes fill one cell floor to shoulder height. The other is empty except for a
@@ -906,6 +970,10 @@ clearly for the department's own use rather than the public's.*
 ---
 
 ## SCENE 19 — CITY COURTHOUSE
+
+![City Courthouse — room concept](../Assets/Reference/police_station_courthouse_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
 
 The Ravenwood City Courthouse sits adjacent to the police station — stone columns, wide steps, a
 single heavy door forced half off its hinges. Inside, the main courtroom is in complete disarray:
@@ -953,6 +1021,10 @@ left behind to explain.
 
 ## SCENE 20 — THE SALLY PORT
 
+![The Sally Port — room concept](../Assets/Reference/police_station_sally_port_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
+
 Off the bullpen, past a door marked **SALLY PORT — VEHICLE BAY — AUTHORIZED PERSONNEL,** propped
 open rather than closed: the station's own attached vehicle bay, built for prisoner transport in
 and out rather than public use. Unlike the rest of the annex, the lights in here never came back —
@@ -996,6 +1068,10 @@ A row of vehicle-bay lockers lines the near wall, most standing open and emptied
 ---
 
 ## SCENE 21 — DETECTIVE COLE'S OFFICE
+
+![Detective Cole's Office — room concept](../Assets/Reference/police_station_coles_office_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
 
 The propped-open door marked **DET. A. COLE** leads into a small office, barely large enough for a
 desk and two chairs, tucked into the corner of the bullpen everyone else seems to have quietly
@@ -1078,6 +1154,10 @@ He takes the folder and the card. Leaves the coat where it is.
 
 ## SCENE 22 — THE VANGUARD PUBLIC SAFETY LIAISON OFFICE
 
+![Vanguard Public Safety Liaison Office — room concept](../Assets/Reference/police_station_vanguard_liaison_office_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
+
 Back in the bullpen, the Vanguard Access Card does what nothing else in the building could.
 
 *Interaction prompt: [USE ACCESS CARD]*
@@ -1137,6 +1217,10 @@ tonight ever happened.
 
 ## SCENE 23 — THE BASEMENT STAIRWELL / THE COLD CELLS
 
+![The Cold Cells — room concept](../Assets/Reference/police_station_cold_cells_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
+
 Off the booking corridor, a plain door reads **STORAGE — NO ADMITTANCE** — easy to walk straight
 past, which is clearly the point. The access card opens it the same way it opened everything else
 tonight.
@@ -1193,6 +1277,10 @@ He doesn't know if that's true. He leaves the note where it is.
 ---
 
 ## SCENE 24 — THE VANGUARD OBSERVATION BOOTH
+
+![Vanguard Observation Booth — room concept](../Assets/Reference/police_station_vanguard_observation_booth_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Police_Station.md`](../Locations/Police_Station.md) for the full room writeup.*
 
 A second, separate door off the booking corridor — unmarked, easily mistaken for another storage
 closet — opens with the same access card onto a narrow, dark space Jim doesn't immediately recognize.

@@ -64,6 +64,10 @@ once the bollards are lowered, the street opens in both directions.*
 
 ## SCENE 2 — STREET DETAILS
 
+![Street Crossing / Memorial Park Entrance — room concept](../Assets/Reference/memorial_park_street_crossing_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Memorial_Park.md`](../Locations/Memorial_Park.md) for the full room writeup.*
+
 As Jim crosses the street toward the park entrance:
 
 ### Optional interaction — abandoned vehicle
@@ -279,6 +283,10 @@ from the outside without force.*
 
 ## SCENE 8 — GUARDHOUSE INTERIOR
 
+![Guardhouse Interior — room concept](../Assets/Reference/memorial_park_guardhouse_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Memorial_Park.md`](../Locations/Memorial_Park.md) for the full room writeup.*
+
 The guardhouse is small. A single room barely large enough for two people. Contains:
 
 - wooden desk — scarred with years of use
@@ -472,6 +480,10 @@ details emerge through the rain.
 
 ## SCENE 13 — THE STATUE
 
+![The Founders Memorial — room concept](../Assets/Reference/memorial_park_founders_memorial_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Memorial_Park.md`](../Locations/Memorial_Park.md) for the full room writeup.*
+
 Jim stops at the edge of the water basin surrounding the monument. He looks up at her. The statue
 stands approximately ten feet tall on a wide stone base. Dark bronze. Weathered with age — green
 oxidation along the shoulders and crown.
@@ -618,6 +630,10 @@ the hotel. This is an entire city.
 
 ## SCENE 19 — PEARL'S DINER
 
+![Pearl's Diner — room concept](../Assets/Reference/downtown_pearls_diner_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Downtown_Ravenwood.md`](../Locations/Downtown_Ravenwood.md) for the full room writeup.*
+
 Pearl's Diner sits on the corner of Main Street and Caldwell Avenue. A classic roadside diner.
 Neon sign still buzzing faintly overhead: **PEARL'S — OPEN 24 HOURS.**
 
@@ -644,6 +660,10 @@ box beneath the register.*
 ---
 
 ## SCENE 20 — RAVENWOOD PUBLIC LIBRARY
+
+![Ravenwood Public Library — room concept](../Assets/Reference/downtown_public_library_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Downtown_Ravenwood.md`](../Locations/Downtown_Ravenwood.md) for the full room writeup.*
 
 The Ravenwood Public Library sits mid-block on Jefferson Street. A civic building from the 1930s.
 Stone steps leading up to heavy wooden doors. One door hangs partially open. Inside: the library is
@@ -680,6 +700,10 @@ Jim reads both articles slowly. Sets the volume down.
 ---
 
 ## SCENE 21 — CITY HALL
+
+![City Hall — room concept](../Assets/Reference/downtown_city_hall_concept.png)
+
+*AI-generated room concept, for visual reference — see [`Locations/Downtown_Ravenwood.md`](../Locations/Downtown_Ravenwood.md) for the full room writeup.*
 
 Ravenwood City Hall dominates the north end of the downtown plaza. A large civic building with
 stone columns and wide stone steps leading to the main entrance. An American flag still flies from
