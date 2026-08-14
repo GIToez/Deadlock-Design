@@ -320,6 +320,58 @@ A cutting torch sits mid-repair on the nearest bench.
 
 > **JIM:** *"That'll cut through more than pipe."*
 
+### Optional — Curtis Boyd
+
+A metallic clang from the parts cage at the back — not rhythmic enough to be machinery still
+running on its own.
+
+*Interaction prompt: [APPROACH PARTS CAGE]*
+
+**Curtis Boyd**, a machinist, late fifties, locked himself inside the wire cage from the inside —
+key still in his own pocket.
+
+> **CURTIS:** *"Don't open it. Don't need out. Just needed somewhere with a door that locks from
+> the wrong side."*
+>
+> **JIM:** *"Fair enough. You hurt?"*
+>
+> **CURTIS:** *"Hands shake some. Started a few years back. Foundry clinic called it repetitive
+> strain, gave me a brace, sent me back to the same bench."*
+
+He holds his hands up — steady enough, for now.
+
+> **CURTIS:** *"Half the machine shop's on the same brace. Nobody ever asked why fifteen guys doing
+> fifteen different jobs all got the same diagnosis."*
+>
+> **JIM:** *"I've seen the files. Cohorts A through C."*
+
+Something in Curtis's face closes off.
+
+> **CURTIS:** *"Then you know more than I ever did, and I'm the one who's been shaking for six
+> years."*
+
+He nods toward a locker at the far end of the cage, out of his own reach through the wire.
+
+> **CURTIS:** *"Left my good multitool in that locker last shift. Combination's my hire date. Take
+> it if you're heading anywhere that isn't here. I'm not going anywhere tonight."*
+
+*Interaction prompt: [LEAVE CURTIS]*
+
+He settles back against the cage wall, watching the door rather than Jim.
+
+> *Design note: Curtis is a one-scene flavor NPC, not a Tier 2/2b conditional survivor — no
+> alive/dead branch, no return visit, and he explicitly refuses to leave the cage with Jim.*
+
+### Optional — Curtis's locker
+
+*Interaction prompt: [SEARCH LOCKER]*
+
+A well-kept multitool, a faded photo of a Little League team taped to the inside of the door, and a
+folded pay stub with six years of overtime for "hazard differential" — never itemized, never
+explained on the stub itself.
+
+*ITEM AVAILABLE (optional): HANDGUN AMMUNITION.*
+
 ### Optional — the shop floor
 
 *Interaction prompt: [SEARCH SHOP FLOOR]*

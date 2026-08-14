@@ -2715,3 +2715,82 @@ been left otherwise untouched).
   deliberately *not* rewritten to remove its own historical narration (e.g. the still-struck-through
   Founder's Token entry, the docx retcon list) — this file is the one place that kind of history is
   supposed to live.
+
+## Secondary-location NPCs + two new Downtown locations (2026-08-14)
+
+> The project owner, after confirming Chapter 1 should stay untouched, asked to "fix up some of the
+> scenes in the dialogue and the rest of the sections," "add some NPCs to secondary locations... give
+> you a little hint, set hidden stashes or lore," and address that "we only got a few locations in
+> the Ravenwood script" by making the city "feel lived in or at least used to be." This entry covers
+> both.
+
+- **Five new live NPCs, one per Chapter 2 district's secondary locations** — deliberately
+  lightweight, one-scene "flavor" characters, explicitly **not** Tier 2/2b conditional survivors
+  (no alive/dead branch gated on crest count or district order, no return-visit conversation). This
+  distinction is called out inline in each new scene's design note so it isn't later confused with
+  Calloway/Richard Dalton's more structurally significant survivor system:
+  - **Police Station — City Courthouse:** **Walt Ostrander**, the courthouse's longtime bailiff,
+    barricaded in the jury deliberation room. Gives Jim the combination to the judge's private
+    chambers safe and a piece of new lore — a mineral-rights court case involving five North Ridge
+    parcels quietly bought by shell companies that all dissolved within a year, never flagged for
+    review. Ties into the Police Station's institutional-corruption theme.
+  - **Hospital — Medical Arts Building:** **Dr. Priya Anand**, a dentist barricaded in her own
+    reception area. Describes Vanguard subpoenaing her patient referral records and directs Jim to
+    a supply-closet folder cross-referencing the Police Station's own confidential watchlist —
+    closing a loop between two districts' worth of found documents.
+  - **Foundry — Machine Shops:** **Curtis Boyd**, a machinist locked inside the parts cage from the
+    inside. Describes years of hand tremors dismissed by the foundry clinic as "repetitive strain."
+    Refuses to leave the cage; his locker holds a personal, human-scale echo of the Exposure Records
+    Room's institutional version of the same story.
+  - **Academy — Student Housing:** **Sandra Whitfield**, a parent searching for her boarding-student
+    son Tyler. The Academy's *first-ever* live NPC (its main building intentionally has none, per
+    the district's "people, not a single named survivor" identity) — a deliberate, small exception
+    at a secondary location, not a change to that core rule. Hands Jim the building master keys
+    rather than checking Room 12 herself; what's inside connects forward to the already-existing
+    Bus One manifest at the Auditorium without confirming Tyler's fate either way.
+  - **Monastery — Hillside Cemetery:** **Brother Anselm**, a young novice hiding in a century-old
+    family vault, distinct from the Residential Street's deliberately silent living-dog beat.
+    Describes Brother Cormac sending the younger monks away before sealing the crypt himself.
+  - **Why these five locations specifically:** each district previously had zero NPCs at its three
+    secondary locations (Police Station's Calloway and Hospital's Richard Dalton are both in the
+    *main* building, not a secondary one). This was flagged directly in the most recent narrative
+    audit: three of five districts (Foundry, Academy, Monastery) had **no live NPC anywhere at all**,
+    a real and measurable drop from Chapter 1's dialogue density. These five new NPCs don't change
+    that district-by-district balance dramatically (each district still leans on environmental
+    storytelling as its primary voice), but they give every district at least one moment of live
+    human contact somewhere in its map, and each one's dialogue does real thematic/lore work rather
+    than existing purely for its own sake.
+- **Two new Downtown locations**, inserted into [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md)
+  as new Scenes 20 and 22 (renumbering the Library to Scene 21 and City Hall to Scene 23 —
+  cross-references in [`Locations/Downtown_Ravenwood.md`](Locations/Downtown_Ravenwood.md) and
+  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md)'s header both
+  updated to match):
+  - **The Ravenwood Pharmacy** (optional detour off the linear path) — home to **Marcus Feld**, the
+    pharmacist, barricaded behind his own pass-through counter. Describes an unnamed "research
+    contractor" buying sedatives/anti-inflammatories in bulk, cash, no patient name on file; a
+    walk-in cooler holds a requisition log that cross-references a purchase order also seen at
+    Steelgate Refinery — the first explicit link between the Foundry's decades-long exploitation
+    and Downtown's own ordinary commercial life.
+  - **Riverside Apartments** (optional detour off the linear path) — the only ordinary residential
+    building in the entire Downtown/Memorial Park stretch, deliberately NPC-free and purely
+    atmospheric: a phone-table notepad logging a family's last, increasingly desperate attempted
+    calls, and one hostile encounter (1–2 Shamblers) behind a door the superintendent's own
+    maintenance log was too polite to describe directly.
+  - This directly resolves `Locations/Downtown_Ravenwood.md`'s own previously-open "Unresolved
+    Ideas" question: *"whether Downtown deserves any optional combat/survivor content of its own...
+    not decided."* It's now decided — yes, as two optional detours, keeping the original linear
+    critical path (Diner → Library → City Hall) completely intact.
+  - New concept art generated for both:
+    [`Assets/Reference/downtown_pharmacy_concept.png`](Assets/Reference/downtown_pharmacy_concept.png)
+    and
+    [`Assets/Reference/downtown_riverside_apartments_concept.png`](Assets/Reference/downtown_riverside_apartments_concept.png),
+    matching the established elevated 3/4 top-down perspective and diamond-tiled floor style.
+- **Also fixed while in these files:** `Chapter_2_Ravenwood.md`'s own "END OF WRITTEN MATERIAL"
+  footer still said Foundry, Academy, and Monastery had "no `Scripts/` file yet" — stale since all
+  five districts have had complete scripts for a while; corrected to link all five.
+- **Explicitly not done, and why:** Chapter 1 was left completely untouched per the project owner's
+  direct instruction ("chapter one is perfect right now I don't want anything to change"). The
+  Playgrounds (Academy) and the living-dog beat (Monastery's Hillside Residential Street) were also
+  deliberately left alone even though they're "secondary locations without an NPC" by the letter of
+  the request — both are established, intentional quiet/breather beats, not oversights, and adding
+  a talking NPC to either would undercut the specific silence they're built around.

@@ -349,6 +349,57 @@ directory sign in the lobby lists a dozen names, half the letters missing.
 Room 4's door stands open — a physician's private practice, mid-shift-change: a coffee cup, a lab
 coat on a hook, a desk calendar with the day's remaining appointments never crossed off.
 
+### Optional — Dr. Priya Anand
+
+Movement behind the reception counter in **Room 7**, two doors down — not a Shambler; the motion's
+too careful.
+
+*Interaction prompt: [APPROACH COUNTER]*
+
+**Dr. Priya Anand**, a dentist, not a physician, still in scrubs, a letter opener held point-out in
+one shaking hand.
+
+> **ANAND:** *"If you're going to do something, do it. I'm done waiting for it."*
+>
+> **JIM:** *"I'm not with them. Whoever 'them' is tonight."*
+
+She lowers the letter opener, doesn't drop it.
+
+> **ANAND:** *"Vanguard had a man in here twice this month. Not a patient. Wanted my patient files —
+> anyone I'd referred to St. Dymphna for 'unusual presentations.' I told him that's not something I
+> hand over without a subpoena. He came back with one two days later."*
+>
+> **JIM:** *"You give it to him?"*
+>
+> **ANAND:** *"I gave him three names. I have referred considerably more than three people to that
+> hospital this year."*
+
+A beat.
+
+> **ANAND:** *"I kept the rest of the file in the supply closet, behind the nitrous tanks. Didn't
+> think 'evidence' the day I did it. Just didn't like being told what my own paperwork was for."*
+
+She won't leave the office — the street outside is worse than the room she's already survived in —
+but she doesn't stop Jim from taking what's in the closet either.
+
+> *Design note: Dr. Anand is a one-scene flavor NPC, not a Tier 2/2b conditional survivor — no
+> alive/dead branch, no return visit. She stays exactly where Jim finds her regardless of crest
+> count or district order.*
+
+### Optional — the supply closet
+
+*Interaction prompt: [SEARCH SUPPLY CLOSET]*
+
+Behind the nitrous tanks: a thin manila folder, more than three names in it after all. Cross-
+referenced against the confidential watchlist Jim's already seen at the Police Station — the same
+handwriting on the transfer stamps.
+
+*ITEM AVAILABLE (optional): MEDKIT.*
+
+Jim's dead orderly and Radiology page already gave him the pressure-system half of tonight's
+answers. Dr. Anand gives him the other half — how Vanguard built the list in the first place, one
+quietly-honored subpoena at a time.
+
 *Interaction prompt: [SEARCH DESK]*
 
 A small mechanical override control, hospital-issue, sits on the blotter exactly where someone set

@@ -278,8 +278,12 @@ the only way through.
 
   ![Old Holding Cells — room concept](../Assets/Reference/police_station_old_cells_concept.png)
 
-- **The City Courthouse** (secondary, optional). An unresolved survivor-camp beat, plus a Clerk's
-  Exhibit Storage room openable with the Evidence Room Key.
+- **The City Courthouse** (secondary, optional). Home to **Walt Ostrander**, the courthouse's
+  longtime bailiff, barricaded inside the jury deliberation room — this district's live secondary-
+  location NPC. He tells Jim about a mineral-rights case that mysteriously never reached trial (five
+  parcels near North Ridge, quietly bought up by shell companies that all dissolved within a year)
+  and gives him the combination to the judge's private chambers safe. Plus a Clerk's Exhibit
+  Storage room openable with the Evidence Room Key.
 
   ![City Courthouse — room concept](../Assets/Reference/police_station_courthouse_concept.png)
 
@@ -474,7 +478,7 @@ flowchart TD
     ENTRYREF(["Southwest District Entry<br/>(from Diagram 1)"])
     FIRE["Ravenwood Fire Station<br/>🗝️ Bolt Cutters<br/>📄 dispatch call-sheet board"]
     GARAGE["Municipal Garage / Impound Lot<br/>👤 Cpl. Reyes' parked cruiser<br/>🚪 shortcut gate to street grid"]
-    COURT["City Courthouse<br/>🗝️ Clerk's Exhibit Storage — needs Evidence Room Key<br/>📄 survivor-camp lore (unresolved)"]
+    COURT["City Courthouse<br/>👤 Walt Ostrander<br/>🗝️ Clerk's Exhibit Storage — needs Evidence Room Key<br/>📄 judge's chambers safe"]
 
     ENTRYREF --> FIRE
     ENTRYREF --> GARAGE
@@ -497,6 +501,9 @@ flowchart TD
   recording. Otherwise known only through his logbook. His ultimate fate stays unresolved.
 - **[Detective Aaron Cole](../Characters/Aaron_Cole.md)** — never seen alive or dead; disappeared
   before the outbreak, known entirely through his abandoned office and hidden investigation.
+- **Walt Ostrander** — the City Courthouse's longtime bailiff, alive, barricaded in the jury
+  deliberation room. A one-scene flavor NPC, not a Tier 2/2b conditional survivor — no alive/dead
+  branch, no return visit.
 
 ## Creatures Encountered
 
@@ -584,6 +591,10 @@ flowchart TD
   see [`Locations/Monastery.md`](Monastery.md).
 - Marshal Josiah Hale's display-case nameplate (old station house).
 - Damaged 1887 town-charter page listing five "Incorporators of Ravenwood" (old holding cells).
+- **Judge Reyes's unfiled case folder** (City Courthouse, judge's chambers safe) — five North Ridge
+  mineral-rights parcels bought up by five differently-named shell companies in an 18-month window,
+  each dissolved within a year; a clerk's sticky note asking "Same PO box. Flag for review?" that
+  was never acted on. Given to Jim by Walt Ostrander.
 - **Detective Cole's case board and hidden investigation** (his office, optional) — connects a
   string of disappearances via a shared "V-CASE TRANSFERRED" marking, plus an internal email trail
   ending with an officer named Daniels himself "transferred," never seen again. Ends with Cole's own
@@ -630,8 +641,8 @@ any of the remaining four districts in any order.
 - The alternate ("Calloway already turned") version of her scene is described in her character file
   but not yet scripted scene-by-scene.
 - The Chief's own fate — went looking for Reyes, per his logbook — stays deliberately open.
-- Whether the Courthouse's abandoned survivor camp connects to anyone/anything later, or stays a
-  purely atmospheric dead end.
+- Whether Walt Ostrander (City Courthouse) survives past this scene, or ever leaves the jury room —
+  deliberately left open; he explicitly refuses to leave with Jim.
 - Who was in the Holding Cells' empty cell, and where they ended up — deliberately unstated.
 - The Vanguard Liaison's name and fate; Detective Cole's own fate — deliberately unresolved, same
   convention as the Chief.

@@ -330,7 +330,10 @@ underneath it.
   > connected to Chapter 3's facility beneath Memorial Park — Vanguard deliberately compartmentalized
   > the two access points. This room is a foreshadowing gut-punch, not a shortcut past Chapter 3.
 - **The Machine Shops** (secondary, load-bearing). A separate workshop building; the **Cutting
-  Torch** needed to force the Security Checkpoint is found here, mid-repair on a workbench.
+  Torch** needed to force the Security Checkpoint is found here, mid-repair on a workbench. In the
+  back, **Curtis Boyd**, a machinist, has locked himself inside the parts cage — this district's
+  live secondary-location NPC. He describes years of unexplained hand tremors dismissed as
+  "repetitive strain" by the foundry clinic, and refuses to leave the cage even once Jim offers.
 
   ![Machine Shops — room concept](../Assets/Reference/foundry_machine_shops_concept.png)
 - **The Loading Docks** (secondary, load-bearing). A separate cargo/shipping building; the
@@ -484,7 +487,7 @@ flowchart TD
 ```mermaid
 flowchart TD
     ENTRYREF(["Northwest District Entry<br/>(from Diagram 1)"])
-    SHOPS["Machine Shops<br/>🗝️ Cutting Torch"]
+    SHOPS["Machine Shops<br/>👤 Curtis Boyd<br/>🗝️ Cutting Torch"]
     DOCKS["Loading Docks<br/>🗝️ Vanguard Site Key<br/>📄 shipment manifests"]
     RAIL["Rail Yard<br/>📄 sealed 1968 rail car (optional)"]
 
@@ -504,6 +507,9 @@ flowchart TD
 - **Plant Manager Daniel Fitch** — never seen alive or dead; known entirely through his office,
   the intercom evacuation order, and the final broadcast. His ultimate fate is deliberately
   unresolved, same convention as the Police Station's Chief.
+- **Curtis Boyd** — a machinist, alive, barricaded inside the Machine Shops' own parts cage. A
+  one-scene flavor NPC, not a Tier 2/2b conditional survivor — no alive/dead branch, no return
+  visit; he explicitly refuses to leave with Jim.
 
 ## Creatures Encountered
 
@@ -558,6 +564,9 @@ flowchart TD
   [`Locations/Downtown_Ravenwood.md`](Downtown_Ravenwood.md).
 - **"EXPOSURE COHORTS" employee files** (Exposure Records Room) — years of chronic-exposure
   monitoring disguised as an occupational-health program.
+- **Curtis Boyd's pay stub** (Machine Shops, his locker, optional) — six years of unitemized
+  "hazard differential" pay, never explained on the stub itself; a smaller, personal echo of the
+  Exposure Records Room's institutional version of the same story.
 - **The Fitch/Vanguard confrontation transcript** (Manager's Office) — *"Contamination risk to
   who?"*
 - **The nurse's call log** (Foundry Clinic) — her calls to the hospital and to Vanguard, ending

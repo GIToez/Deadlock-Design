@@ -3,21 +3,18 @@
 > Scene-by-scene script, continuing the numbering convention from [`Chapter_1_One_Night_Only.md`](Chapter_1_One_Night_Only.md)
 > (numbering restarts at Scene 1 for this chapter). Covers the street crossing, Memorial Park
 > (clearing it, the guardhouse, the Founders Memorial), and the Downtown introduction (Pearl's
-> Diner, the Public Library, City Hall) — Scenes 1–21, ending as Jim first steps into the open-order
-> district phase.
+> Diner, the Ravenwood Pharmacy, the Public Library, Riverside Apartments, City Hall) — Scenes
+> 1–23, ending as Jim first steps into the open-order district phase.
 >
-> **File split, 2026-08-13:** this file originally continued straight into the Police Station
-> district as Scenes 22–45. Per the project owner's request ("we should split each district into
-> its own file to make it easier"), that content has been moved to its own file,
-> [`Chapter_2_Police_Station.md`](Chapter_2_Police_Station.md) (renumbered there as Scenes 1–24),
-> matching the standalone-per-district convention already established for
-> [`Chapter_2_Hospital.md`](Chapter_2_Hospital.md). This file now covers only the shared
-> Downtown/Memorial Park content every district route passes through before splitting off — see
-> [`Scripts/README.md`](README.md) for the current file list and
-> [`STORY_NOTES.md`](../STORY_NOTES.md) for the full rationale/mechanical details of the split.
+> This file covers only the shared Downtown/Memorial Park content every district route passes
+> through before splitting off into each district's own standalone script file — see
+> [`Scripts/README.md`](README.md) for the current file list.
 >
-> Status: all of Scenes 1–21 here are drawn from material marked `FINALIZED CANON — LOCKED` in
-> [`AI.json`](../AI.json).
+> Status: Scenes 1–19, 21, and 23 (the street crossing, Memorial Park, Pearl's Diner, the Library,
+> and City Hall) are drawn from material marked `FINALIZED CANON — LOCKED` in
+> [`AI.json`](../AI.json). Scenes 20 and 22 (the Pharmacy and Riverside Apartments) are new
+> secondary locations added later to give Downtown more of a lived-in, residential texture — see
+> [`STORY_NOTES.md`](../STORY_NOTES.md).
 
 ---
 
@@ -646,7 +643,78 @@ box beneath the register.*
 
 ---
 
-## SCENE 20 — RAVENWOOD PUBLIC LIBRARY
+## SCENE 20 — RAVENWOOD PHARMACY (SECONDARY, OPTIONAL)
+
+![Ravenwood Pharmacy — room concept](../Assets/Reference/downtown_pharmacy_concept.png)
+
+> AI-generated room concept (2026-08-14), matching the elevated 3/4 top-down perspective and
+> diamond-tiled floor established by
+> [`Assets/Reference/police_station_bullpen_concept.png`](../Assets/Reference/police_station_bullpen_concept.png).
+
+A small independent pharmacy half a block off Main Street, wedged between a shuttered barbershop
+and an insurance office. The security gate over the front window is down but bent outward at one
+corner — pried, not broken through from outside.
+
+*Interaction prompt: [SQUEEZE THROUGH GATE]*
+
+Inside: aisles of ordinary retail stock, mostly untouched. The pharmacy counter at the back is a
+different story — the pass-through window boarded from the inside with a shelving unit.
+
+### Optional — Marcus Feld
+
+*Interaction prompt: [KNOCK ON COUNTER]*
+
+A long pause. Then the shelving unit shifts an inch.
+
+> **MARCUS:** *"If you're here for pills, I don't have the kind that'll help you tonight."*
+>
+> **JIM:** *"Not here for pills. You okay in there?"*
+>
+> **MARCUS:** *"Define okay."*
+
+He pulls the shelving back enough to see out — **Marcus Feld**, the pharmacist, reading glasses
+still on, a box cutter in one hand more out of habit than intent.
+
+> **MARCUS:** *"I filled a lot of prescriptions this month I didn't ask questions about. Some
+> outfit calling itself a research contractor started buying sedatives and anti-inflammatories in
+> bulk, cash, no insurance claim, no patient name on file — just a requisition number. I figured
+> somebody's clinic was short-staffed. Didn't think about it past that."*
+>
+> **JIM:** *"Vanguard?"*
+>
+> **MARCUS:** *"Never said the name on the form. Didn't have to. Everybody in this town's cashed a
+> check with that name on it eventually, one way or another."*
+
+He glances at the boarded pass-through, then back at Jim.
+
+> **MARCUS:** *"I'm not going anywhere. Got enough water and canned stock back here to outlast the
+> weather, if not whatever's making the noise outside. But there's a walk-in cooler in the back —
+> door's warped shut, I can't force it myself. If there's anything worth having in there, it's
+> yours. I just want to know it's not going to waste."*
+
+*Interaction prompt: [LEAVE MARCUS]*
+
+He slides the shelving back into place before Jim's even reached the gate.
+
+> *Design note: Marcus is a one-scene flavor NPC, not a Tier 2/2b conditional survivor — no
+> alive/dead branch, no return visit. He stays barricaded in the pharmacy regardless of crest count
+> or how much of the city Jim has already cleared.*
+
+### Optional — the walk-in cooler
+
+*Interaction prompt: [FORCE COOLER DOOR]*
+
+The door gives with some effort. Refrigerated medication, mostly ordinary — insulin, vaccines gone
+past any useful shelf life. Behind a rack near the back: a sealed requisition log, the one Marcus
+mentioned, itemizing three months of unmarked bulk orders against a single recurring account
+number — the same number, Jim realizes, that appears on a purchase order he's already seen at
+Steelgate Refinery.
+
+*ITEM AVAILABLE (optional): MEDKIT x2.*
+
+---
+
+## SCENE 21 — RAVENWOOD PUBLIC LIBRARY
 
 ![Ravenwood Public Library — room concept](../Assets/Reference/downtown_public_library_concept.png)
 
@@ -684,7 +752,74 @@ Jim reads both articles slowly. Sets the volume down.
 
 ---
 
-## SCENE 21 — CITY HALL
+## SCENE 22 — RIVERSIDE APARTMENTS (SECONDARY, OPTIONAL)
+
+![Riverside Apartments — room concept](../Assets/Reference/downtown_riverside_apartments_concept.png)
+
+> AI-generated room concept (2026-08-14), matching the elevated 3/4 top-down perspective and
+> diamond-tiled floor established by
+> [`Assets/Reference/police_station_bullpen_concept.png`](../Assets/Reference/police_station_bullpen_concept.png).
+
+A three-story brick apartment building on the way to City Hall — the first ordinary residential
+building Jim's been inside since the hotel. A row of mailboxes in the entryway, half hanging open.
+The stairwell lights are dead; emergency lighting only.
+
+*Interaction prompt: [EXPLORE HALLWAY]*
+
+Most doors are shut. A few stand open onto ordinary, undisturbed apartments — a kitchen table set
+for a dinner nobody sat down to, a television still looping the Emergency Alert tone to an empty
+living room.
+
+### Optional — Apartment 2B
+
+*Interaction prompt: [SEARCH APARTMENT 2B]*
+
+A door ajar. Inside: a birthday banner still strung across the living room, half-collapsed. A
+cordless phone lies off the hook on the carpet, dial tone long since given up.
+
+*Interaction prompt: [EXAMINE PHONE TABLE]*
+
+A notepad beside the phone, several calls logged in a hurried hand: *"Mom — no answer." "Dana's
+cell — no answer." "911 — busy." "911 — busy."* The last line trails into a scrawl that isn't
+words anymore.
+
+Jim sets the notepad down without a word.
+
+### Optional — the building superintendent's office
+
+*Interaction prompt: [SEARCH SUPERINTENDENT'S OFFICE]*
+
+A ring of master keys hangs behind an unmanned desk — every apartment in the building, labeled by
+unit. A logbook nearby tracks routine maintenance requests; the last several entries aren't about
+maintenance at all: *"3F reported banging from the Hendersons' unit. Building manager unreachable.
+Advised tenant to call police."* No further entries.
+
+*Interaction prompt: [TAKE MASTER KEYS]*
+
+*ITEM ACQUIRED: BUILDING MASTER KEYS.*
+
+### Optional — Apartment 3F, the Hendersons'
+
+*Interaction prompt: [UNLOCK 3F]*
+
+The master keys turn easily. Beyond the door: overturned furniture, and confirmation of exactly
+what the maintenance log was too polite to write down outright.
+
+*Combat: 1–2 Shamblers (residential clothing) — the building's only hostile encounter.*
+
+Once it's clear, a family photo on the mantle is the only thing left standing upright in the room.
+
+*ITEM AVAILABLE (optional): MEDKIT, HANDGUN AMMUNITION.*
+
+> *Design note: Riverside Apartments is a pure environmental/lore secondary location — no NPC, no
+> crest-relevant item, no connection to any of the five districts' critical paths. Its purpose is
+> atmosphere: unlike the five districts' institutional horror, this is the outbreak happening to
+> ordinary residential Ravenwood, the part of the city none of the five crest locations ever show
+> directly.*
+
+---
+
+## SCENE 23 — CITY HALL
 
 ![City Hall — room concept](../Assets/Reference/downtown_city_hall_concept.png)
 
@@ -727,13 +862,12 @@ The recorder clicks off. Jim sets it down slowly.
 
 **END OF WRITTEN MATERIAL FOR DOWNTOWN / MEMORIAL PARK**
 
-*Once City Hall is explored, Jim is free to head into any of the five open-order districts. Each
-one now has (or will have) its own standalone script file, restarting its own Scene 1 count:*
+*Once City Hall is explored, Jim is free to head into any of the five open-order districts, each
+with its own standalone script file restarting its own Scene 1 count:*
 
 - [`Chapter_2_Police_Station.md`](Chapter_2_Police_Station.md) — Southwest District / Authority
-  Crest. Written in full (24 scenes), including the optional Vanguard sub-plot.
-- [`Chapter_2_Hospital.md`](Chapter_2_Hospital.md) — Northeast District / Medical Crest. Written in
-  full (17 scenes).
-- Academy (Southeast/Knowledge), Foundry (Northwest/Industry), and Monastery (North/Faith) each
-  have a full location-design file in [`Locations/`](../Locations/) but no `Scripts/` file yet —
-  planned as the same kind of standalone file, per [`STORY_NOTES.md`](../STORY_NOTES.md).
+  Crest, including the optional Vanguard sub-plot.
+- [`Chapter_2_Hospital.md`](Chapter_2_Hospital.md) — Northeast District / Medical Crest.
+- [`Chapter_2_Foundry.md`](Chapter_2_Foundry.md) — Northwest District / Industry Crest.
+- [`Chapter_2_Academy.md`](Chapter_2_Academy.md) — Southeast District / Knowledge Crest.
+- [`Chapter_2_Monastery.md`](Chapter_2_Monastery.md) — North District / Faith Crest.

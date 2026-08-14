@@ -400,8 +400,13 @@ gating the Faith Crest.
 
   ![Hillside Residential Street — room concept](../Assets/Reference/monastery_hillside_residential_street_concept.png)
 - **Hillside Cemetery** (secondary, optional). Disturbed graves and one very recent unmarked grave
-  — dug specifically to hide something. The **Crypt Antechamber Key** is found here, opening the
-  optional Crypt Antechamber above — not required for the Faith Crest.
+  — dug specifically to hide something. Home to **Brother Anselm**, a young novice hiding inside a
+  century-old family vault — this district's live secondary-location NPC, distinct from the
+  Residential Street's deliberately silent living-dog beat. He describes Brother Cormac sending the
+  younger monks away before sealing the crypt himself, and a cryptic parting instruction ("some
+  doors are supposed to stay a mystery") that he still hasn't fully processed. The **Crypt
+  Antechamber Key** is found here, opening the optional Crypt Antechamber above — not required for
+  the Faith Crest.
 
   ![Hillside Cemetery — room concept](../Assets/Reference/monastery_hillside_cemetery_concept.png)
 - **Overlook Trail** (secondary, optional). A quiet vista of the whole burning city, reframing the
@@ -544,7 +549,7 @@ flowchart TD
 flowchart TD
     ENTRYREF(["North District Entry<br/>(from Diagram 1)"])
     STREET["Hillside Residential Street<br/>📄 unsent warning letter · a calm, living dog (optional)"]
-    CEMETERY["Hillside Cemetery<br/>🗝️ Crypt Antechamber Key<br/>📄 one very recent unmarked grave"]
+    CEMETERY["Hillside Cemetery<br/>👤 Brother Anselm<br/>🗝️ Crypt Antechamber Key<br/>📄 one very recent unmarked grave"]
     TRAIL["Overlook Trail<br/>🗝️ Archive Key<br/>📄 vista of the burning city"]
 
     ENTRYREF --> STREET
@@ -564,6 +569,9 @@ flowchart TD
 - **Brother Cormac** — never seen alive or dead; known entirely through the Hidden Archive, the
   Cloister standoff, and his final broadcast. His ultimate fate is deliberately unresolved, same
   convention as Fitch, Ashford, the Police Station's Chief, and the Hospital's Liaison.
+- **Brother Anselm** — a young novice, alive, hiding in a family vault at Hillside Cemetery. This
+  district's live secondary-location NPC. A one-scene flavor character, not a Tier 2/2b conditional
+  survivor — no alive/dead branch, no return visit; he refuses to come back to the Chapel with Jim.
 - The injured Foundry worker, the responding police officer, and the fleeing monk on Overlook
   Trail are all referenced through documents/environmental storytelling only — per the established
   convention across all five main locations of telling this story through found material rather
@@ -603,6 +611,9 @@ flowchart TD
 
 - **"The Mercy That Should Not Be Asked For"** (general archive) — the earliest generations'
   religious-language description of Black Vein's regenerative effects.
+- **A torn hymnal page annotated "Not for singing. For counting."** (Hillside Cemetery, the founding
+  family's vault, optional) — a small, unresolved mystery layered on top of the Bell Tower's own
+  clue system; whatever question it was meant to prompt was never asked aloud.
 - **"The stone does not restore what is lost. It replaces according to its own design."** (Hidden
   Archive) — a pre-scientific description of malformed regeneration, centuries before Ravenwood
   Memorial independently discovers the same phenomenon.

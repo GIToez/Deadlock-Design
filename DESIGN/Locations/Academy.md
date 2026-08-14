@@ -348,7 +348,11 @@ should never voice the contradiction himself, only let the player notice it.
   > signage text.
 - **Student Housing** (secondary, load-bearing). A small on-campus boarding building; the
   **Auditorium Key** is found here, alongside personal effects — letters home, packed bags never
-  claimed — that humanize the "Harris family" and other displaced households by name.
+  claimed — that humanize the "Harris family" and other displaced households by name. **Sandra
+  Whitfield**, a parent searching for her boarding-student son Tyler, is this district's live
+  secondary-location NPC — the Academy's first, since its main building has none. She hands Jim the
+  building's master key ring rather than face Room 12 herself; what's actually inside connects
+  forward to the Auditorium's Bus One manifest, below.
 
   ![Student Housing — room concept](../Assets/Reference/academy_student_housing_concept.png)
 
@@ -512,7 +516,7 @@ flowchart TD
 ```mermaid
 flowchart TD
     ENTRYREF(["Southeast District Entry<br/>(from Diagram 1)"])
-    HOUSING["Student Housing<br/>🗝️ Auditorium Key<br/>📄 Harris family / other displaced households"]
+    HOUSING["Student Housing<br/>👤 Sandra Whitfield<br/>🗝️ Auditorium Key<br/>📄 Harris family / other displaced households"]
     FIELD["Athletic Field<br/>🗝️ Generator Fuel"]
     PLAYGROUND["Playgrounds<br/>📄 environmental storytelling only (optional)"]
     BUS["Bus Loading Area / Front Gates<br/>📄 'Bus One, report' — unanswered"]
@@ -535,10 +539,14 @@ flowchart TD
 - **Principal Diane Ashford** — never seen alive or dead; known entirely through her office, the
   PA recordings, and her final broadcast. Her ultimate fate is deliberately unresolved, same
   convention as Daniel Fitch and the Police Station's Chief.
+- **Sandra Whitfield** — a parent, alive, searching Student Housing for her son Tyler. This
+  district's one live secondary-location NPC — everyone else at the Academy's main building is
+  referenced through documents/environmental storytelling only, per the location's core "people,
+  not a single named antagonist or survivor" identity; Sandra is a deliberate, small exception at a
+  secondary location rather than a change to that core rule. One-scene flavor NPC, not a Tier 2/2b
+  conditional survivor — no alive/dead branch, no return visit.
 - The Harris family, the Auditorium Group, the Library Group, and the last defensive stand's
-  officer are all referenced through documents/environmental storytelling only — per the project
-  owner's explicit direction that this location's horror is told through people rather than a
-  single named antagonist or survivor.
+  officer are all referenced through documents/environmental storytelling only.
 
 ## Creatures Encountered
 
@@ -619,6 +627,10 @@ flowchart TD
   unanswered.
 - **Personal effects naming displaced households, including the Harrises** (Student Housing,
   optional) — humanizes the family removed in beat 8.
+- **Tyler Whitfield's note, "Went with the Auditorium group. Back by curfew. — T"** (Student
+  Housing, Room 12, optional) — given emotional weight by Sandra Whitfield's own scene; connects
+  forward to the Auditorium's Bus One manifest without ever confirming which of the thirty-two Tyler
+  was.
 - **A fragment of the Academy's own emergency broadcast, "Do not enter the east hallway,"
   overheard distantly through the storm** (Bus Loading Area, optional) — cross-referenced at
   [`Locations/Monastery.md`](Monastery.md), beat 26: the monastery's own

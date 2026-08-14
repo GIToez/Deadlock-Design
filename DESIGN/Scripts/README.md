@@ -38,8 +38,8 @@ owner early on, since earlier source material used a confusing dual "Tab"/"Scene
 
 - [`Chapter_1_One_Night_Only.md`](Chapter_1_One_Night_Only.md) — the Ravenwood Hotel, in full (45 scenes). Locked.
 - [`Chapter_2_Ravenwood.md`](Chapter_2_Ravenwood.md) — the street crossing, Memorial Park, and the
-  Downtown introduction (21 scenes) — the shared entry point before Jim splits off into any of the
-  five open-order districts.
+  Downtown introduction (23 scenes, including the Ravenwood Pharmacy and Riverside Apartments) —
+  the shared entry point before Jim splits off into any of the five open-order districts.
 - [`Chapter_2_Police_Station.md`](Chapter_2_Police_Station.md) — the Southwest District/Police
   Station in full (24 scenes), including its optional Vanguard sub-plot. **Rewritten 2026-08-14**
   to the Lockdown Puzzle mechanic (see [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies").

@@ -338,7 +338,11 @@ trying to keep something out. It was trying to keep something in.
 - **The Medical Arts Building** (secondary, load-bearing). A separate small building of private
   doctors' offices and an outpatient clinic. A specific physician's abandoned office holds a
   **backup damper control**, left behind mid-shift-change — the required backtrack that lets Jim
-  finish operating the isolation panel back at the main hospital.
+  finish operating the isolation panel back at the main hospital. Two doors down, **Dr. Priya
+  Anand**, a dentist, is barricaded in her own reception area — this district's live secondary-
+  location NPC. She describes Vanguard quietly subpoenaing her patient referral records and
+  directs Jim to a hidden supply-closet folder cross-referencing the Police Station's own
+  confidential watchlist.
 
   ![Medical Arts Building — room concept](../Assets/Reference/hospital_medical_arts_building_concept.png)
 
@@ -517,7 +521,7 @@ flowchart TD
 ```mermaid
 flowchart TD
     ENTRYREF(["Northeast District Entry<br/>(from Diagram 1)"])
-    ARTS["Medical Arts Building<br/>🗝️ Backup Damper Control"]
+    ARTS["Medical Arts Building<br/>👤 Dr. Priya Anand<br/>🗝️ Backup Damper Control"]
     PARKING["Hospital Parking Structure<br/>🚪 shortcut gate to street grid<br/>📄 one environmental death (optional)"]
     CHECKPOINT["Vanguard Quarantine Checkpoint<br/>🗝️ Pry Bar<br/>📄 crossover documents w/ Police Station"]
 
@@ -539,6 +543,9 @@ flowchart TD
 - **[Maria Dalton](../Characters/Maria_Dalton.md)** — never seen alive at the hospital (her last
   living scene is Chapter 1's hotel lobby); found dead in the Maternity Ward regardless of visit
   order. Not conditional — only Richard's presence changes with sequencing.
+- **Dr. Priya Anand** — the Medical Arts Building's dentist, alive, barricaded in her own reception
+  area. A one-scene flavor NPC, not a Tier 2/2b conditional survivor — no alive/dead branch, no
+  return visit.
 
 ## Creatures Encountered
 
@@ -583,6 +590,10 @@ flowchart TD
   desk, optional) — the same audio log Jim can find whole at Downtown's City Hall, cut off here
   mid-sentence by a dead phone line; see
   [`Locations/Downtown_Ravenwood.md`](Downtown_Ravenwood.md).
+- **Dr. Anand's referral file** (Medical Arts Building, supply closet, optional) — a subpoenaed
+  patient-referral list, cross-referenced against the Police Station's own confidential watchlist,
+  the same handwriting on both sets of transfer stamps. Given to Jim by Dr. Anand rather than found
+  cold.
 - **Vanguard's V-CASE protocol for hospital staff** (Administration) — *stabilize and isolate
   pending specialist transfer*, with the same underlying classification system as the Police
   Station's V-CASE procedure, given to a different profession with different, medically

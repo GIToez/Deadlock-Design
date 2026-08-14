@@ -6,7 +6,7 @@
 > (a straightforward Reyes-has-the-armory-key style chain) is fully superseded; full rationale for
 > the redesign is in [`STORY_NOTES.md`](../STORY_NOTES.md).
 >
-> Picks up immediately after [`Chapter_2_Ravenwood.md`](Chapter_2_Ravenwood.md), Scene 21 (City
+> Picks up immediately after [`Chapter_2_Ravenwood.md`](Chapter_2_Ravenwood.md), Scene 23 (City
 > Hall) — Jim has just left Downtown and entered the Southwest civic complex. Covers the full
 > Police Station critical path, all three secondary locations (Fire Station, Municipal Garage,
 > City Courthouse), and the optional Vanguard sub-plot.
@@ -702,7 +702,60 @@ a property line dispute, dated the day before the outbreak.
 
 *Interaction prompt: [SEARCH ROOM]*
 
-Someone camped here — sleeping bags, empty water bottles, abandoned in a hurry.
+Someone camped here — sleeping bags, empty water bottles. A stack of chairs barricades the far
+door from the inside.
+
+*Interaction prompt: [MOVE CHAIRS]*
+
+The stack shifts. Behind it: **Walt Ostrander**, the courthouse's longtime bailiff, gray-stubbled,
+a fire extinguisher gripped like a club.
+
+> **WALT:** *"...You're not one of them."*
+>
+> **JIM:** *"No. Just passing through."*
+
+He lowers the extinguisher, doesn't quite set it down.
+
+> **WALT:** *"Thirty-one years I've stood post in that courtroom. Never once needed to actually hit
+> anybody with anything until tonight."*
+>
+> **JIM:** *"You been here the whole time?"*
+>
+> **WALT:** *"Since the docket cleared out. Nowhere else felt like it'd hold."*
+
+He nods toward the courtroom.
+
+> **WALT:** *"You want to know something funny? Judge Reyes — no relation to your K-9 boy, different
+> family — had a case on the books for a year. Half the county's mineral rights, sold off quiet to a
+> shell company nobody could name a person behind. Everybody figured it for a tax dodge. Kept
+> getting continued. Never once made it to trial."*
+>
+> **JIM:** *"Vanguard."*
+>
+> **WALT:** *"Nobody ever proved that in my courtroom. Doesn't mean I didn't think it."*
+
+He tells Jim where to find the judge's private chambers, off the courtroom's east wall — a room he
+hasn't had the nerve to go back into alone.
+
+> **WALT:** *"Judge kept a lockbox behind her bench for exactly a night like this one. Combination's
+> her admission year. Wasn't mine to open. Is now, I guess. You go first."*
+
+*Interaction prompt: [LEAVE WALT]*
+
+He doesn't try to follow. Whatever's still holding for him, it's this room.
+
+### Optional — the judge's chambers
+
+*Interaction prompt: [SEARCH CHAMBERS]*
+
+A locked wall safe, small, old. Walt's combination opens it on the first try.
+
+*ITEM AVAILABLE (optional): HANDGUN AMMUNITION, MEDKIT.*
+
+Underneath the supplies, a thin case folder Judge Reyes never filed: a list of five parcels near
+North Ridge, each purchased in the same eighteen-month window by five differently-named holding
+companies, each company dissolved within a year of the sale closing. A sticky note in a clerk's
+hand: *"Same PO box. Flag for review?"* No review ever happened.
 
 ### The clerk's exhibit storage
 

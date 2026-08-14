@@ -374,6 +374,60 @@ Disturbed graves, several tipped over. One grave, unmarked, is far too recent.
 
 A shovel lies beside it, dropped rather than put away.
 
+### Optional — Brother Anselm
+
+A shape presses flat against a tall crypt marker, still enough that Jim almost walks past it.
+
+*Interaction prompt: [APPROACH MARKER]*
+
+**Brother Anselm**, a young novice, robes torn at one shoulder, hasn't spoken to anyone since he
+ran.
+
+> **JIM:** *"I'm not going to hurt you."*
+>
+> **ANSELM:** *"...Brother Cormac sent the rest of us up before he sealed the crypt himself. Told us
+> to keep walking and not look back at the bells."*
+>
+> **JIM:** *"You didn't get far."*
+>
+> **ANSELM:** *"I got exactly as far as I could carry Sister Agnes. Which wasn't far."*
+
+He doesn't say what happened to her. Jim doesn't ask twice.
+
+> **ANSELM:** *"He said something before he sent us out. 'Whatever you hear ring after tonight,
+> don't come back for it. Some doors are supposed to stay a mystery.'"*
+>
+> **JIM:** *"You believe him?"*
+>
+> **ANSELM:** *"I've believed everything that man has ever told me. I don't see a reason to stop now
+> just because he's probably dead."*
+
+He nods toward the crypt marker he'd been hiding behind — hollow, a small stone door disguised as
+part of the monument itself.
+
+> **ANSELM:** *"Family vault. Not ours — one of the old founding families. Nobody's used it in a
+> hundred years. Seemed like a good place to not be found."*
+
+*Interaction prompt: [LEAVE ANSELM]*
+
+He presses back against the marker as Jim goes, watching the tree line rather than the crypt.
+
+> *Design note: Anselm is a one-scene flavor NPC, not a Tier 2/2b conditional survivor — no
+> alive/dead branch, no return visit. He refuses to come back to the Chapel with Jim regardless of
+> crest count.*
+
+### Optional — the founding family's vault
+
+*Interaction prompt: [SEARCH VAULT]*
+
+A hidden supply cache, clearly not original to the vault — someone's been using this as an actual
+hiding spot for years before tonight, not just since the outbreak. A tin box holds a rosary, a
+half-used candle, and a folded page torn from an older, unrelated hymnal, annotated in a different
+hand: *"Not for singing. For counting. Ask Brother Cormac why, if he'll finally answer."* Whatever
+question that page was meant to prompt, nobody ever got to ask it out loud.
+
+*ITEM AVAILABLE (optional): MEDKIT.*
+
 *Interaction prompt: [SEARCH NEARBY CRYPT MARKER]*
 
 A key, tagged **"ANTECHAMBER."**

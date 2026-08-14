@@ -203,6 +203,62 @@ A small on-campus boarding building. Packed bags sit by several beds, never clai
 Among the belongings: a duffel bag tagged **HARRIS**, packed and ready for a trip that never
 happened. Jim stops, looks at it a moment, and moves on.
 
+### Optional — Sandra Whitfield
+
+A woman's voice, low, from the second-floor stairwell — not calling out, just repeating a name to
+herself.
+
+*Interaction prompt: [FOLLOW VOICE]*
+
+**Sandra Whitfield**, a parent, not staff — coat still buttoned like she never planned to be inside
+long. A room key ring is looped white-knuckled around one hand.
+
+> **SANDRA:** *"Tyler. Tyler, if that's you—"*
+>
+> **JIM:** *"It's not. I'm sorry."*
+
+She doesn't lower the key ring.
+
+> **SANDRA:** *"He boards here. Room 12. I dropped him off myself in September, told him to call if
+> the roads got bad. He called at nine. Said the shelter had a plan. Said Vanguard people were
+> helping organize buses."*
+>
+> **JIM:** *"You believed that."*
+>
+> **SANDRA:** *"I believed a man in a clean jacket with a clipboard, at my son's school, telling
+> parents everything was handled. Yes. I believed that."*
+
+A beat. She looks past Jim, toward the stairs down.
+
+> **SANDRA:** *"Room 12's locked. Master key's on the RA's ring — she kept it in the laundry room
+> for some reason, don't ask me why. I already checked it once. Couldn't make myself go in a second
+> time."*
+
+She hands Jim the master key ring without being asked twice.
+
+> **SANDRA:** *"If he's in there and he's — if it's bad — you don't have to tell me which kind of
+> bad. Just tell me you checked."*
+
+*Interaction prompt: [LEAVE SANDRA]*
+
+She stays at the base of the stairs. Not following. Not leaving either.
+
+> *Design note: Sandra is a one-scene flavor NPC, not a Tier 2/2b conditional survivor — no
+> alive/dead branch of her own. Room 12's contents (see below) are the actual payoff; whether Jim
+> tells her what he found there is left to implementation, not scripted here, consistent with the
+> game's general preference for leaving these beats deliberately unresolved.*
+
+### Optional — Room 12
+
+*Interaction prompt: [UNLOCK ROOM 12]*
+
+Empty. Bed made, backpack still packed by the door — the kind of empty that means *left in a hurry*,
+not *never came back*. A charging phone, dead, sits on the nightstand next to a note in a teenager's
+handwriting: *"Went with the Auditorium group. Back by curfew. — T"*
+
+Jim sets the note down. Whatever "back by curfew" turned into, it isn't answered here — see the
+Auditorium's own manifest, below.
+
 ### Optional — a shelf of old yearbooks
 
 *Interaction prompt: [SEARCH SHELF]*
