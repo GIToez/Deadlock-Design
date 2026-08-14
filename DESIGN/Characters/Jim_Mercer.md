@@ -62,10 +62,39 @@ why he thrives.
 
 Chapter 1: an ordinary traveler, forced by circumstance into his first night of violence, losing
 the baseball bat to the handgun to a boss fight, exiting the hotel a changed but still
-recognizably human man. Chapter 2: begins piecing together that Ravenwood's disaster has deeper
-roots than a random outbreak. Chapter 3 (not yet written): confronts Project Ashen and Black Vein
-directly; sends one final, one-sided message to Sarah before the finale. **Jim's ultimate fate is
-deliberately left ambiguous** at the end of the game — this is locked canon, not an oversight.
+recognizably human man.
+
+**Chapter 2 arc, tracked by crest count rather than district order (locked 2026-08-14).** Since
+Chapter 2's five districts are fully open-order, Jim's emotional progression can't be tied to a
+specific location — a player who visits the Monastery first and the Police Station last needs the
+same arc as someone who does the reverse. Instead it escalates with how many of the five crests
+he's carrying, regardless of which four he still needs:
+
+- **0 crests — Survival.** He still thinks getting out of Ravenwood is the objective. Vanguard is
+  a name on a sign, not yet a suspect.
+- **1 crest — Suspicion.** He starts connecting the Founders Memorial and Vanguard as the same
+  thing wearing two names.
+- **2 crests — Pattern.** He stops treating each district's discoveries as isolated local weirdness
+  and starts expecting the next one to rhyme with the last.
+- **3 crests — Anger.** He's no longer neutral about Vanguard. This is the point his dry
+  understatement can start carrying real edge instead of just deflection.
+- **4 crests — Resolve.** Going underground stops being merely the only way forward and becomes
+  something he's choosing to do.
+- **5 crests — Acceptance.** He understands, walking back to Memorial Park, that he's now
+  voluntarily walking toward the source of all of it — the emotional groundwork for his one-sided
+  message to Sarah at the start of Chapter 3.
+
+**This should show up as Jim saying less, not more, as the count rises** — the opposite of how the
+original Chapter 2 scripts currently use him (see [`STORY_NOTES.md`](../STORY_NOTES.md) → "Chapter
+2 narrative craft review" for the over-narration problem this is meant to fix). Rough shape: early
+on, a genuine question out loud ("...What the hell is Vanguard?"); by the third crest, a single
+worn-down word at another Vanguard atrocity ("...Again."); by the fifth, nothing at all — he sees
+the branding next to another pile of bodies, doesn't comment, keeps walking. The silence itself is
+the character beat, not a missed opportunity for a line.
+
+Chapter 3 (not yet written): confronts Project Ashen and Black Vein directly; sends one final,
+one-sided message to Sarah before the finale. **Jim's ultimate fate is deliberately left ambiguous**
+at the end of the game — this is locked canon, not an oversight.
 
 ## Important Scenes
 

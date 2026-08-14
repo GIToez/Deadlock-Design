@@ -123,39 +123,65 @@ is arranged as five districts around a central downtown, each home to one of the
 locations and its crest/emblem:
 
 - **Southwest — Authority Crest — [Ravenwood Police Station](Locations/Police_Station.md)**
-  (closest to the park; the natural, though not forced, first destination — fully scripted, see
-  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md), Scenes 1–24)
-- **Southeast — Knowledge Crest — [Worthy Academy](Locations/Academy.md)** (fully scripted, see
-  [`Scripts/Chapter_2_Academy.md`](Scripts/Chapter_2_Academy.md), Scenes 1–17)
-- **Northeast — Medical Crest — [St. Dymphna Hospital](Locations/Hospital.md)** (fully scripted, see
-  [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md), Scenes 1–17)
+  (closest to the park; the natural, though not forced, first destination — script exists, see
+  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md), Scenes 1–24, but its
+  puzzle/progression is being rewritten to the Lockdown Puzzle — see
+  [`CANON.md`](CANON.md) → "Five Puzzle Philosophies")
+- **Southeast — Knowledge Crest — [Worthy Academy](Locations/Academy.md)** (script exists, see
+  [`Scripts/Chapter_2_Academy.md`](Scripts/Chapter_2_Academy.md), Scenes 1–17, puzzle/progression
+  rewrite to the Archive Puzzle pending)
+- **Northeast — Medical Crest — [St. Dymphna Hospital](Locations/Hospital.md)** (script exists, see
+  [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md), Scenes 1–17, puzzle/progression
+  rewrite to the Quarantine Puzzle pending)
 - **Northwest — Industry Crest — [Steelgate Refinery](Locations/Foundry_Refinery.md)** (its rail
-  yard tracks lead into the mountain — the physical point Black Vein entered Ravenwood; fully
-  scripted, see [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md), Scenes 1–17)
+  yard tracks lead into the mountain — the primary modern industrial access point into the Black
+  Vein cave network, not where Black Vein itself "entered" Ravenwood, since it's a natural
+  formation predating any human contact with it, per [`CANON.md`](CANON.md) → "Origin of the
+  Outbreak"; script exists, see [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md),
+  Scenes 1–17, puzzle/progression rewrite to the Casting Puzzle pending)
 - **North — Faith Crest — [Our Lady of Solace Monastery](Locations/Monastery.md)** (the most
-  isolated district)
+  isolated district; not yet scripted. Mechanically open-order like the other four, but its
+  deepest section — the Sealed Passage / Old Caves and Brother Cormac's final broadcast — only
+  unlocks once Jim holds four or more crests, so it always functions as the narrative bridge into
+  Chapter 3 regardless of visit order; see [`Locations/Monastery.md`](Locations/Monastery.md) →
+  "The Bell Tower" and [`CANON.md`](CANON.md) → "Five Puzzle Philosophies")
 
-Exploration order is fully open. Each district also contains 2–3 secondary locations (supplies,
-lore, optional survivors) between downtown and the main objective — see [`STORY_NOTES.md`](STORY_NOTES.md) for the
-full list logged so far. A two-tier survivor system applies throughout (see [`CANON.md`](CANON.md));
-the Police Station's [Sergeant Ruth Calloway](Characters/Ruth_Calloway.md) is the first concrete
-example. The Police Station also delivers the game's second firearm (a shotgun) and introduces the
-**Ashen Hound** (see [`Creatures/Ashen_Hound.md`](Creatures/Ashen_Hound.md)) — a fast,
-pack-hunting infected-animal type distinct from the slow Shambler baseline.
+Exploration order is fully open, with that one exception. Each district also contains 2–3
+secondary locations (supplies, lore, optional survivors) between downtown and the main objective —
+see [`STORY_NOTES.md`](STORY_NOTES.md) for the full list logged so far. A two-tier survivor system
+applies throughout (see [`CANON.md`](CANON.md)); the Police Station's
+[Sergeant Ruth Calloway](Characters/Ruth_Calloway.md) is the first concrete example. The Police
+Station also delivers the game's second firearm (a shotgun) and introduces the **Ashen Hound** (see
+[`Creatures/Ashen_Hound.md`](Creatures/Ashen_Hound.md)) — a fast, pack-hunting infected-animal type
+distinct from the slow Shambler baseline.
+
+**Jim's Chapter 2 arc tracks crest count, not district order** (locked 2026-08-14, since district
+order is open): 0 crests, he still thinks escape is the objective; 1, he realizes the monument and
+Vanguard are connected; 2, he stops treating documents as isolated weirdness; 3, he's no longer
+neutral about Vanguard; 4, reaching underground becomes deliberate rather than merely the only way
+forward; 5, he understands he's voluntarily walking toward the source. See
+[`Characters/Jim_Mercer.md`](Characters/Jim_Mercer.md) for the full breakdown, including how his
+dialogue should thin out rather than escalate as the crest count rises.
 
 **The Zombie Conglomerate.** Once Jim recovers his first emblem, a new, unkillable roaming hazard —
 [the Zombie Conglomerate, "the Zombie King"](Creatures/Zombie_Conglomerate.md) — begins appearing
-unpredictably in the city streets between districts: a mass of dozens of fused infected bodies,
-avoidable but never fightable, that grows more dangerous the further the outbreak has progressed.
-Not yet integrated into the scripted city exploration — see [`STORY_NOTES.md`](STORY_NOTES.md).
+in the city streets between districts: a mass of dozens of fused infected bodies, avoidable but
+never fightable. **Its presence scales with crest count, not randomly** (locked 2026-08-14): a
+distant sighting at 1 crest; blocking one familiar street at 2; audible before visible at 3; forcing
+alternate routes through buildings at 4; effectively owning portions of Downtown at 5 — giving the
+city itself a visible escalating arc independent of which districts Jim has actually visited. Not
+yet integrated into the scripted city exploration — see [`STORY_NOTES.md`](STORY_NOTES.md).
 
 **Chapter Close.** Returning all five emblems to the Founders Memorial fills all five wedges of
 the medallion; the water basin drains, revealing a hidden staircase beneath the statue — the
 entrance to the underground [Vanguard Facility](Locations/Vanguard_Facility.md).
 
 *(Scene-by-scene script for what's written so far — the street crossing, Memorial Park, and the
-Downtown introduction — is in [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md). The five districts themselves are
-planned in detail in [`STORY_NOTES.md`](STORY_NOTES.md) but not yet written scene-by-scene.)*
+Downtown introduction — is in [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md).
+Four of the five districts have an existing script (Police Station, Hospital, Foundry, Academy) —
+see the per-district notes above for their pending puzzle/progression rewrites — and the fifth
+(Monastery) is planned in detail in [`STORY_NOTES.md`](STORY_NOTES.md) but not yet written
+scene-by-scene at all.)*
 
 ### Chapter 3 — What Was Hidden (Underground)
 
@@ -196,8 +222,10 @@ material that exists for it).
   Hall](Locations/Downtown_Ravenwood.md)) and are laid out geographically per the map in
   [`STORY_NOTES.md`](STORY_NOTES.md) (Southwest/Authority, Southeast/Knowledge, Northeast/Medical,
   Northwest/Industry, North/Faith).
-- **The Northwest district's rail yard** has tracks leading into the mountain — the physical
-  entry point of Black Vein into Ravenwood; fully scripted and enterable, see
+- **The Northwest district's rail yard** has tracks leading into the mountain — the primary modern
+  industrial access point into the Black Vein cave network (not where Black Vein itself "entered"
+  Ravenwood — it's a natural formation predating any human contact, per [`CANON.md`](CANON.md) →
+  "Origin of the Outbreak"); script exists and the location is enterable, see
   [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md), Scene 17.
 - **Memorial Park → Underground [Vanguard Facility](Locations/Vanguard_Facility.md):** returning
   all five emblems drains the Founders Memorial's water basin, revealing a staircase beneath the

@@ -65,10 +65,19 @@ district should use), not a short, mostly-linear pass. Concrete implications:
   should stay woven into the same interlocking puzzle, not fully separate optional side content —
   clues/tools found at one building should often be required to progress at another, forcing the
   player to physically walk the district multiple times.
-- **A central hub room the player returns to repeatedly** (RE's mansion foyer / RPD main hall
-  equivalent) that visibly gates several locked/sealed points at once from the start, so the player
-  can see the shape of what's left to solve — this stays true regardless of mechanic; the Police
-  Station's version is now a zone-lockdown control board rather than three separately-keyed doors.
+- **A recognizable anchor space or traversal structure the player learns and revisits** (loosened
+  2026-08-14 from a stricter "every district needs a central hub that visibly gates several locked
+  points at once" rule, which was itself becoming a repetition risk — five districts each opening
+  on "enter foyer, catalogue locked doors" reads as the same rhythm even with different puzzles
+  behind it). A true hub is still the right shape where it fits the institution — the Police
+  Station's security console genuinely belongs in one room, and the Foundry's seized casting line
+  is naturally a hub by virtue of dominating the room it's in. Other districts can use a different
+  shape entirely: a branching corridor system the player gradually gets swallowed by (the
+  Hospital), a spreading complex explored by following an aftermath outward rather than sizing up
+  a foyer (the Academy), or a vertical progression the player spirals through (the Monastery's
+  Chapel → Cloister/Library → Bell Tower → Crypt). What must stay true regardless of shape: the
+  player should be able to see, at some point before the end, roughly how much of the district is
+  left to solve.
 - **The emblem itself is the last thing found**, behind the deepest/most gated point of the
   location — a reward for finishing the loop, not something encountered early or in passing.
 - This standard is **retroactive**: the Police Station, originally scripted before this standard

@@ -244,7 +244,7 @@ underneath it.
 - **The Foundry Clinic.** Small on-site first aid room; a restraint gurney with a single tough
   Shambler-tier encounter (Outbreak Night beat 11's worker, fully turned by the time Jim arrives),
   a wall phone still connected, and the nurse's own log of her calls to the hospital and to
-  Vanguard. The **Manager's Office Key** is found here, left behind mid-crisis.
+  Vanguard.
 
   ![Foundry Clinic — room concept](../Assets/Reference/foundry_clinic_concept.png)
 
@@ -262,13 +262,13 @@ underneath it.
   > above) — this pass also incidentally fixed the earlier version's non-canonical police-specific
   > set dressing (badge stickers, a "K9" locker tag); the render correctly shows industrial worker
   > effects (hard hats, work gloves, safety vests) instead.
-- **The Plant Manager's Office.** Opened with the Manager's Office Key. Daniel Fitch's own desk:
-  the confrontation transcript with the Vanguard liaison (*"Contamination risk to who?"*), the
-  intercom control he used to order the evacuation, and the **Restricted Elevator Access Card** —
-  left here deliberately once he decided to stop protecting Vanguard's access. A furnace inspection
-  log clipped to a maintenance clipboard, easy to overlook next to the transcript, records the
-  casting line's safe operating pressure — the number the Casting Hall's own gauges don't explain
-  on their own.
+- **The Plant Manager's Office.** Unlocked, off the Casting Hall. Daniel Fitch's own desk: the
+  confrontation transcript with the Vanguard liaison (*"Contamination risk to who?"*), the intercom
+  control he used to order the evacuation, and the **Restricted Elevator Access Card** — left here
+  deliberately once he decided to stop protecting Vanguard's access. A furnace inspection log
+  clipped to a maintenance clipboard, easy to overlook next to the transcript, records the casting
+  line's safe operating pressure — the number the Casting Hall's own gauges don't explain on their
+  own.
 
   ![Plant Manager's Office — room concept](../Assets/Reference/foundry_managers_office_concept.png)
 
@@ -276,14 +276,15 @@ underneath it.
   > above) — this pass also incidentally fixed the earlier version's wrong "Ravencroft"/wrong-date
   > wall map; the desk nameplate again correctly reads "D. FITCH — PLANT MANAGER" and the wall map
   > reads "Steelgate Refinery" with no invented date.
-- **The Vanguard Site Office.** A separate, out-of-place corporate office within the industrial
-  plant — same "incongruous" visual language as the Police Station's Vanguard Liaison Office.
-  Opened with the **Vanguard Site Key**, found at the secondary Loading Docks location (see below)
-  — a deliberate district-wide backtrack. Contains decades of research contracts, funding records
-  for the "structurally unsafe" mine seals, and the earliest dated correspondence establishing
-  1968 as when this operation began — plus a locked-out manual override for the Casting Hall's
-  overhead crane, installed so Vanguard could move equipment through the plant without going
-  through the foreman.
+- **The Vanguard Site Office.** Unlocked, off the Casting Hall — a separate, out-of-place corporate
+  office within the industrial plant, same "incongruous" visual language as the Police Station's
+  Vanguard Liaison Office. Contains decades of research contracts, funding records for the
+  "structurally unsafe" mine seals, and the earliest dated correspondence establishing 1968 as when
+  this operation began, plus a locked-out manual override for the Casting Hall's overhead crane,
+  installed so Vanguard could move equipment through the plant without going through the foreman. A
+  separate locked filing cabinet in the corner (optional; **Vanguard Site Key**, found at the
+  secondary Loading Docks location) holds nothing the casting puzzle needs — just deeper Vanguard
+  paperwork, a bonus-lore backtrack rather than a critical-path gate.
 
   ![Vanguard Site Office — room concept](../Assets/Reference/foundry_vanguard_site_office_concept.png)
 
@@ -405,10 +406,11 @@ underneath it.
 - Loading Yard (entry; flee-attempt aftermath)
 - Casting Hall (the seized casting line itself, visible and central from the moment Jim enters —
   the Manager's Office, Vanguard Site Office, and Restricted Elevator each feed one stage of it)
-- Foundry Clinic (Manager's Office Key; signature single encounter)
+- Foundry Clinic (unlocked; signature single encounter)
 - Break Room / Locker Room (optional; personal effects; Medkit)
-- Plant Manager's Office (locked; Restricted Elevator Access Card)
-- Vanguard Site Office (locked; needs Vanguard Site Key from the Loading Docks)
+- Plant Manager's Office (unlocked; furnace log; Restricted Elevator Access Card)
+- Vanguard Site Office (unlocked; crane override; optional locked cabinet needs Vanguard Site Key
+  from the Loading Docks)
 
 **Underground Restricted Levels:**
 - Restricted Elevator (card-reader lock; needs Access Card from the Manager's Office)
@@ -466,16 +468,16 @@ flowchart TD
 flowchart TD
     HALLREF(["🏭 Casting Hall<br/>(from Diagram 1)"])
     DOCKSREF(["Loading Docks<br/>(see Diagram 5)"])
-    CLINIC["Foundry Clinic<br/>☠️ signature encounter<br/>🗝️ Manager's Office Key"]
+    CLINIC["Foundry Clinic<br/>☠️ signature encounter"]
     BREAK["Break Room / Locker Room<br/>📄 personal effects (optional)"]
-    OFFICE["Plant Manager's Office<br/>📄 Fitch/Vanguard confrontation transcript<br/>🗝️ Restricted Elevator Access Card"]
-    VSITE["Vanguard Site Office<br/>📄 1968 contracts/funding records"]
+    OFFICE["Plant Manager's Office<br/>🔧 furnace pressure log<br/>🗝️ Restricted Elevator Access Card"]
+    VSITE["Vanguard Site Office<br/>🔧 crane override<br/>📄 optional locked cabinet, needs Vanguard Site Key"]
 
     HALLREF --> CLINIC
     HALLREF --> BREAK
-    HALLREF -. Manager's Office Key, from the Clinic .-> OFFICE
-    DOCKSREF -. Vanguard Site Key .-> HALLREF
-    HALLREF -. Vanguard Site Key, from Loading Docks .-> VSITE
+    HALLREF --> OFFICE
+    HALLREF --> VSITE
+    DOCKSREF -. Vanguard Site Key, for the optional cabinet only .-> VSITE
 
     classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
     classDef boss fill:#FFE0E0,stroke:#C0392B,color:#3a0d0d,stroke-width:2px
@@ -569,25 +571,26 @@ flowchart TD
   Crest by operating the plant's furnace, crane, and cooling stages in sequence, rather than
   collecting keys — the emblem stays behind the deepest, most-gated point in the district either
   way.
-- **The Loading Docks → Vanguard Site Office chain.** Still relevant: a component needed to
-  restore the furnace's fuel line (reframed from the Vanguard Site Key) is found at a separate
-  secondary building — a deliberate district-wide backtrack, mirroring the Police Station's Fire
-  Station and the Hospital's Medical Arts Building conventions.
+- **The Loading Docks → Vanguard Site Office chain (optional).** The Vanguard Site Key opens a
+  filing cabinet inside the Vanguard Site Office, not the room itself — bonus lore, not a
+  critical-path requirement, matching the Police Station's own bolt-cutter chain treatment.
 - **The Machine Shops → Security Checkpoint chain.** Kept as-is: the Cutting Torch needed to force
   the Security Checkpoint's reinforced door is found at a separate secondary building, independent
   of the main casting-line puzzle.
-- *(Superseded, not yet rewritten below in "Storyline"/"Key Items": the original version of this
-  puzzle was a straightforward Clinic → Manager's Office → Elevator key chain. That prose and the
-  room-by-room key gating below still reflect it — see the note at the top of this file.)*
+- **Per the hard rule this district now follows:** the Casting Line puzzle alone carries the
+  mandatory path from the Casting Hall to the Industry Crest. The Manager's Office and Vanguard
+  Site Office are unlocked rooms that feed the puzzle's stages directly; the Restricted Elevator's
+  card-reader lock is the one remaining "real" gate on the critical path, and it opens with an item
+  found in an already-unlocked room rather than requiring its own backtrack.
 
 ## Key Items
 
-- **Manager's Office Key** ([full item writeup](../Items/Key_Items/Managers_Office_Key.md)) —
-  Foundry Clinic; opens the Plant Manager's Office.
 - **Restricted Elevator Access Card** ([full item writeup](../Items/Key_Items/Restricted_Elevator_Access_Card.md))
-  — the Manager's Office; opens the Restricted Elevator.
-- **Vanguard Site Key** ([full item writeup](../Items/Key_Items/Vanguard_Site_Key.md)) — Loading
-  Docks (secondary location); opens the Vanguard Site Office.
+  — the (unlocked) Manager's Office; opens the Restricted Elevator, the district's one remaining
+  "real" gate on the critical path.
+- **Vanguard Site Key** ([full item writeup](../Items/Key_Items/Vanguard_Site_Key.md), optional) —
+  Loading Docks (secondary location); opens a locked filing cabinet inside the (unlocked) Vanguard
+  Site Office — bonus lore only.
 - **Research Bay Key** ([full item writeup](../Items/Key_Items/Research_Bay_Key.md)) — the
   Exposure Records Room; opens the Research Bay.
 - **Cutting Torch** ([full item writeup](../Items/Key_Items/Cutting_Torch.md)) — Machine Shops
@@ -597,8 +600,10 @@ flowchart TD
 - **Industry Crest** ([full item writeup](../Items/Key_Items/Industry_Crest.md)) — the district's
   founder's emblem; Founder's Boardroom display case.
 
-> All seven of this district's key items now have individual `Items/Key_Items/` writeups, complete
-> with AI-generated icon concept art — see [`Items/Key_Items/README.md`](../Items/Key_Items/README.md).
+> The former Manager's Office Key is retired now that the office is unlocked; its
+> `Items/Key_Items/` writeup should be deleted or repurposed in a future pass — not yet done here.
+> The remaining key items have individual `Items/Key_Items/` writeups, complete with AI-generated
+> icon concept art — see [`Items/Key_Items/README.md`](../Items/Key_Items/README.md).
 
 ### Documents
 

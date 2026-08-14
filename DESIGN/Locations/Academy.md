@@ -267,19 +267,22 @@ should never voice the contradiction himself, only let the player notice it.
   ![Isolation Wing — room concept](../Assets/Reference/academy_isolation_wing_concept.png)
 
   > AI-generated room concept (2026-08-13).
-- **The Auditorium.** Locked; opened with the **Auditorium Key**, found at the secondary Student
-  Housing location (see below) — a deliberate district-wide backtrack. The Auditorium Group's
-  belongings: rows of chairs pushed aside for cots, a chalkboard covered in evacuation planning
-  notes, and the passenger/bus manifest for Bus One (beat 26).
+- **The Auditorium.** Unlocked, off the Gymnasium. The Auditorium Group's belongings: rows of
+  chairs pushed aside for cots, a chalkboard covered in evacuation planning notes, and the
+  passenger/bus manifest for Bus One (beat 26). A locked footlocker in the corner (optional;
+  **Auditorium Key**, found at the secondary Student Housing location) holds bonus supplies — a
+  backtrack reward, not something gating the room itself.
 
   ![Auditorium — room concept](../Assets/Reference/academy_auditorium_concept.png)
 
   > AI-generated room concept (2026-08-13). Non-canonical generation error: the wall banner reads
   > "Holloway Academy" — the school is **Worthy Academy**; ignore the banner text.
-- **The Library.** Barricaded from the inside; opened using the **Library Key**, found in the
-  Auditorium (teachers relocated the youngest children here mid-crisis, per beat 25's "Library
-  Group"). Picture books, a makeshift reading-corner shelter, and the teacher's notebook: *"Do not
-  tell the younger ones the police are gone."*
+- **The Library.** Unlocked, off the Gymnasium — the Archive Puzzle's own room (see "The Archive,"
+  above), not gated behind a key of its own since it's central to the mandatory critical path.
+  Picture books, a makeshift reading-corner shelter, and the teacher's notebook: *"Do not tell the
+  younger ones the police are gone"* (teachers relocated the youngest children here mid-crisis, per
+  beat 25's "Library Group"), alongside the historical timeline display and the scattered clue
+  objects the puzzle is built from.
 
   ![Library — room concept](../Assets/Reference/academy_library_concept.png)
 
@@ -313,11 +316,13 @@ should never voice the contradiction himself, only let the player notice it.
   > Academy** and has no established mascot. Ignore the banner text.
 - **Founder's Hall.** Opened with the Founder's Hall Key. A small trophy/alumni hall — display
   cases of school history, old photographs, and (per [`CANON.md`](../CANON.md)) the short
-  founding-record document explaining the five founders/five emblems system. A glass case holds
-  the **Knowledge Crest**: a bronze, wedge-shaped medallion bearing a relief portrait of **Eleanor
-  Worthy**, her name and title, and a torch emblem. The direct payoff of this district's entire
-  loop, matching the Old Station House, St. Dymphna Chapel, and Founder's Boardroom convention
-  exactly.
+  founding-record document explaining the five founders/five emblems system. The case that should
+  hold the **Knowledge Crest** — a bronze, wedge-shaped medallion bearing a relief portrait of
+  **Eleanor Worthy**, her name and title, and a torch emblem — stands empty, glass already broken,
+  with a note in Principal Ashford's own hand: *"I couldn't leave it somewhere Vanguard could just
+  walk in and take it. They can rewrite anything except what actually happened here."* The crest
+  itself is in the Library's hidden archive (see "The Archive," above) — this room explains why,
+  rather than holding it directly.
 
   ![Founder's Hall — room concept](../Assets/Reference/academy_founders_hall_concept.png)
 
@@ -374,24 +379,25 @@ should never voice the contradiction himself, only let the player notice it.
 
 **Main Building:**
 - Front Entrance / Barricades (entry)
-- Gymnasium (hub — visibly gates the Administration Office, Auditorium, Library, and Maintenance
-  Basement from the start)
+- Gymnasium (the shelter's aftermath, followed outward rather than sized up as a hub)
 - Cafeteria (Administration Office Key; signature single encounter)
-- Administration Office (locked; Isolation Wing Key)
-- Isolation Wing / Nurse's Office (locked; optional Medkit)
-- Auditorium (locked; needs Auditorium Key from Student Housing; Library Key)
-- Library (locked; needs Library Key from the Auditorium)
+- Administration Office (locked, optional; Isolation Wing Key)
+- Isolation Wing / Nurse's Office (locked, optional; optional Medkit)
+- Auditorium (unlocked; optional locked footlocker needs Auditorium Key from Student Housing)
+- Library (unlocked — the Archive Puzzle itself; hidden archive behind the timeline display holds
+  the KNOWLEDGE CREST once solved)
 - Maintenance Basement (locked; needs Generator Fuel from the Athletic Field; Fire Axe)
 - East Academic Wing / Science Rooms (jammed fire doors; needs Fire Axe; signature pack encounter;
   Principal's Office Key)
 - PA / Principal's Office (locked; needs Principal's Office Key; Founder's Hall Key)
-- Founder's Hall (locked; needs Founder's Hall Key; KNOWLEDGE CREST)
-- Maintenance Escape Corridor (mandatory story beat, reached past Founder's Hall; no lock, no
-  combat)
+- Founder's Hall (locked; needs Founder's Hall Key; empty display case + Ashford's note pointing to
+  the Library archive — not where the crest actually is anymore)
+- Maintenance Escape Corridor (mandatory story beat, reached past Founder's Hall once the Knowledge
+  Crest is in hand; no lock, no combat)
 - Bus Loading Area / Front Gates (exterior; non-gating)
 
 **Secondary Locations (district, not the main campus building):**
-- Student Housing (load-bearing: Auditorium Key)
+- Student Housing (optional: Auditorium footlocker key)
 - Athletic Field (load-bearing: Generator Fuel)
 - Playgrounds (optional: environmental storytelling only)
 
@@ -421,7 +427,7 @@ should never voice the contradiction himself, only let the player notice it.
 flowchart TD
     ENTRY(["Southeast District Entry"])
     FRONT["Front Entrance / Barricades<br/>💥 Vanguard standoff aftermath"]
-    GYM["🏫 GYMNASIUM — hub<br/>GREEN ZONE · sees Admin Office · Auditorium · Library · Maintenance Basement all locked at once"]
+    GYM["🏫 GYMNASIUM<br/>GREEN ZONE · the shelter's aftermath, followed outward rather than sized up"]
 
     ENTRY --> FRONT --> GYM
 
@@ -452,23 +458,28 @@ flowchart TD
     class CAFE boss
 ```
 
-### 3. The Auditorium / Library Chain (branches off the Gymnasium)
+### 3. The Auditorium / Library / Archive Puzzle (branches off the Gymnasium)
 
 ```mermaid
 flowchart TD
     GYMREF2(["🏫 Gymnasium<br/>(from Diagram 1)"])
     HOUSINGREF(["Student Housing<br/>(see Diagram 5)"])
-    AUD["Auditorium<br/>👤 Auditorium Group<br/>📄 evacuation plan / Bus One manifest<br/>🗝️ Library Key"]
-    LIB["Library<br/>👤 Library Group<br/>📄 'Do not tell the younger ones...' notebook"]
+    AUD["Auditorium<br/>👤 Auditorium Group<br/>📄 evacuation plan / Bus One manifest<br/>🗝️ optional footlocker, needs Auditorium Key"]
+    LIB["🔧 THE LIBRARY — Archive Puzzle<br/>👤 Library Group<br/>📄 'Do not tell the younger ones...' notebook<br/>8 clue objects, 4–5 needed"]
+    ARCHIVE["Principal Ashford's hidden archive<br/>🗝️ KNOWLEDGE CREST<br/>(revealed once the timeline is solved)"]
 
-    HOUSINGREF -. Auditorium Key .-> GYMREF2
-    GYMREF2 -. Auditorium Key, from Student Housing .-> AUD
-    AUD -. Library Key .-> LIB
+    GYMREF2 --> AUD
+    GYMREF2 --> LIB
+    HOUSINGREF -. Auditorium Key, optional footlocker only .-> AUD
+    LIB -. chronology solved .-> ARCHIVE
 
     classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
+    classDef puzzle fill:#FFF0D6,stroke:#C98A1E,color:#3a2a00,stroke-width:2px
     classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
     class GYMREF2,HOUSINGREF ref
-    class AUD,LIB room
+    class AUD room
+    class LIB puzzle
+    class ARCHIVE room
 ```
 
 ### 4. The Deep Chain — Maintenance Basement → East Wing → Founder's Hall → the Escape Corridor
@@ -480,8 +491,8 @@ flowchart TD
     BASEMENT["Maintenance Basement<br/>👤 custodians' last stand<br/>🗝️ Fire Axe"]
     EASTWING["🔴 EAST ACADEMIC WING / SCIENCE ROOMS<br/>🔧 jammed fire doors — needs Fire Axe<br/>☠️☠️ turned Isolation Wing patients (Shamblers)<br/>🗝️ Principal's Office Key"]
     PAOFFICE["PA / Principal's Office<br/>📄 final Academy broadcast<br/>🗝️ Founder's Hall Key"]
-    HALL["Founder's Hall<br/>🗝️ KNOWLEDGE CREST<br/>📄 five-founders founding record"]
-    CORRIDOR["⚠️ MAINTENANCE ESCAPE CORRIDOR<br/>mandatory story beat, no combat<br/>📄 'If they make it out, that's enough'"]
+    HALL["Founder's Hall<br/>📄 empty case + Ashford's note → points to Library archive<br/>📄 five-founders founding record"]
+    CORRIDOR["⚠️ MAINTENANCE ESCAPE CORRIDOR<br/>mandatory story beat once Crest is in hand, no combat<br/>📄 'If they make it out, that's enough'"]
 
     FIELDREF -. Generator Fuel .-> GYMREF3
     GYMREF3 -. Generator Fuel, from Athletic Field .-> BASEMENT
@@ -549,21 +560,24 @@ flowchart TD
 - **The Athletic Field → Maintenance Basement → East Wing chain.** Kept as-is: Generator Fuel is
   found at a separate secondary location, and the Fire Axe recovered in the Basement is needed to
   force the East Wing's jammed doors — a district-wide backtrack independent of the Archive puzzle.
-- *(Superseded, not yet rewritten below in "Storyline"/"Key Items": the original version of this
-  puzzle was a straightforward Cafeteria → Administration → Isolation Wing → Auditorium → Library
-  key chain. That prose and the room-by-room key gating below still reflect it — see the note at
-  the top of this file.)*
+- **Reconciled (2026-08-14):** the Library and Auditorium are now unlocked (removing the old
+  Cafeteria → Administration → Isolation Wing → Auditorium → Library key chain's last two links,
+  since the Library is where the mandatory Archive Puzzle lives and shouldn't be double-gated
+  behind it), and the Knowledge Crest moved from Founder's Hall's display case to the Library's
+  hidden archive — Founder's Hall now holds an empty case and a note explaining why, rather than
+  the crest itself. The Cafeteria → Administration Office → Isolation Wing chain and the
+  Maintenance Basement → East Wing → Principal's Office → Founder's Hall chain both remain, as
+  optional lore/backtrack content and as the required route to the mandatory Escape Corridor
+  finale respectively — neither duplicates the Archive Puzzle's own gate on the crest itself.
 
 ## Key Items
 
-- **Administration Office Key** ([full item writeup](../Items/Key_Items/Administration_Office_Key.md))
-  — the Cafeteria; opens the Administration Office.
-- **Isolation Wing Key** ([full item writeup](../Items/Key_Items/Isolation_Wing_Key.md)) — the
-  Administration Office; opens the Isolation Wing.
-- **Auditorium Key** ([full item writeup](../Items/Key_Items/Auditorium_Key.md)) — Student Housing
-  (secondary location); opens the Auditorium.
-- **Library Key** ([full item writeup](../Items/Key_Items/Academy_Library_Key.md)) — the
-  Auditorium; opens the Library.
+- **Administration Office Key** ([full item writeup](../Items/Key_Items/Administration_Office_Key.md),
+  optional) — the Cafeteria; opens the Administration Office.
+- **Isolation Wing Key** ([full item writeup](../Items/Key_Items/Isolation_Wing_Key.md), optional)
+  — the Administration Office; opens the Isolation Wing.
+- **Auditorium Key** ([full item writeup](../Items/Key_Items/Auditorium_Key.md), optional) —
+  Student Housing (secondary location); opens a footlocker inside the (unlocked) Auditorium.
 - **Generator Fuel** ([full item writeup](../Items/Key_Items/Generator_Fuel.md)) — Athletic Field
   (secondary location); opens the Maintenance Basement.
 - **Fire Axe** ([full item writeup](../Items/Key_Items/Academy_Fire_Axe.md)) — the Maintenance
@@ -572,14 +586,17 @@ flowchart TD
   dropped after clearing the East Academic Wing's pack encounter; opens the PA / Principal's
   Office.
 - **Founder's Hall Key** ([full item writeup](../Items/Key_Items/Founders_Hall_Key.md)) — the PA /
-  Principal's Office; opens Founder's Hall.
+  Principal's Office; opens Founder's Hall (now an empty case + redirect note, not the crest).
 - **Knowledge Crest** ([full item writeup](../Items/Key_Items/Knowledge_Crest.md)) — the
-  district's founder's emblem; Founder's Hall display case.
+  district's founder's emblem; the Library's hidden archive, revealed once the Archive Puzzle's
+  chronology is solved.
 
-> All nine of this district's key items now have individual `Items/Key_Items/` writeups, complete
-> with AI-generated icon concept art — see [`Items/Key_Items/README.md`](../Items/Key_Items/README.md).
-> The Library Key and Fire Axe are filed as `Academy_Library_Key.md` and `Academy_Fire_Axe.md`
-> respectively, to avoid naming collisions with other districts' own same-named items.
+> The former Library Key is retired now that the Library is unlocked; its
+> `Items/Key_Items/` writeup (`Academy_Library_Key.md`) should be deleted or repurposed in a
+> future pass — not yet done here. The remaining key items have individual `Items/Key_Items/`
+> writeups, complete with AI-generated icon concept art — see
+> [`Items/Key_Items/README.md`](../Items/Key_Items/README.md). The Fire Axe is filed as
+> `Academy_Fire_Axe.md` to avoid a naming collision with St. Dymphna Hospital's own Fire Axe.
 
 ### Documents
 
@@ -628,7 +645,9 @@ flowchart TD
 - The Student Housing → Auditorium → Library backtrack, revealing the Library Group and evacuation
   planning.
 - The Athletic Field → Maintenance Basement → East Wing backtrack, culminating in the pack fight.
-- Retrieving the Knowledge Crest from Founder's Hall.
+- Discovering Founder's Hall's empty display case and Ashford's note, then solving the Archive
+  Puzzle's chronology in the Library to retrieve the Knowledge Crest from the hidden archive
+  behind it.
 - The mandatory, non-combat Maintenance Escape Corridor beat — the location's true emotional
   climax, occurring after the crest is already collected, with the surviving group's fate left
   open.

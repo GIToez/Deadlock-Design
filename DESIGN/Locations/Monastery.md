@@ -1,8 +1,17 @@
 # Our Lady of Solace Monastery
 
-> The North District's main location — Faith Crest, and the **last surface location before Jim
-> descends beneath Memorial Park**. Not yet scripted scene-by-scene — see
+> The North District's main location — Faith Crest. Not yet scripted scene-by-scene — see
 > [`STORY_NOTES.md`](../STORY_NOTES.md) for full background/history.
+>
+> **Open-order exception (locked 2026-08-14):** the Monastery is mechanically open-order like the
+> other four districts — Jim can visit it first, last, or anywhere between, explore most of it, and
+> recover the Faith Crest whenever he gets there. But its deepest section — **the Sealed Passage /
+> Old Caves and Brother Cormac's final broadcast** — stays sealed until Jim holds **four or more
+> crests**, regardless of when he physically reaches the door. This resolves the contradiction
+> between "district order is fully open" and "the Monastery is the last surface location before
+> Chapter 3": the *building* is open-order, but its *deepest revelation* isn't, so it always lands
+> as the narrative bridge into Chapter 3 no matter what order the player visits districts in. See
+> "The Sealed Passage / Old Caves," below.
 >
 > **Thematic identity:** where the Police Station, Hospital, Foundry, and Academy each reveal what
 > Vanguard did to Ravenwood in the modern era, the Monastery reveals something older — Ravenwood
@@ -21,15 +30,14 @@
 
 ## Purpose in the Overall Story
 
-The North District's main "mansion/RPD"-style location: a central hub (the Chapel) visibly gates
-several sealed points at once, and reaching the **Faith Crest** means interpreting the monastery's
-own centuries-old mechanical bell system, not assembling a matching set of keys — the one district
-where Vanguard didn't design the obstacle, it only found it. Unlike the other four districts, the
-Monastery's revelation isn't institutional betrayal — it's that Vanguard's entire "discovery" of
-Black Vein was never a discovery at all. People had already found it, suffered its consequences,
-and made the simple decision to seal it away. This is also the direct narrative bridge into Chapter
-3: the Monastery is explicitly the last surface-world location, and its final broadcast is the last
-clue pointing Jim underground.
+The North District's main "mansion/RPD"-style location: reaching the **Faith Crest** means
+interpreting the monastery's own centuries-old mechanical bell system, not assembling a matching
+set of keys — the one district where Vanguard didn't design the obstacle, it only found it. Unlike
+the other four districts, the Monastery's revelation isn't institutional betrayal — it's that
+Vanguard's entire "discovery" of Black Vein was never a discovery at all. People had already found
+it, suffered its consequences, and made the simple decision to seal it away. This is also the
+direct narrative bridge into Chapter 3 — guaranteed by the crest-count gate above, not by forcing
+this district to be visited last.
 
 ## Outbreak Night — What Actually Happened (proposed 2026-08-13, pending review)
 
@@ -415,11 +423,15 @@ gating the Faith Crest.
   > this district's locked founder is **Abbot Matthias Kane**, chartering the modern order in
   > **1887** (see [`CANON.md`](../CANON.md)); ignore the render's name and date.
 - **The Sealed Passage / Old Caves.** Past the Reliquary, a further descent into the oldest sealed
-  section — the mandatory, non-combat climax, reached only after the Faith Crest is already in
-  hand, deliberately placed after the gameplay reward rather than gating it, same convention as the
-  Foundry's Black Vein Cavern and the Academy's Maintenance Escape Corridor. Ancient warning
-  inscriptions, the oldest record ("A vein without end"), and the location for Brother Cormac's
-  final broadcast (beat 33) — **the last surface-world scene in the game before Chapter 3.**
+  section. Reachable physically once the Faith Crest is in hand, same convention as the Foundry's
+  Black Vein Cavern and the Academy's Maintenance Escape Corridor — but this section additionally
+  stays sealed by a separate, deliberate story gate until Jim holds **four or more crests total**,
+  regardless of when he obtained the Faith Crest itself. If he reaches it with fewer than four,
+  the passage is there but inert — the door doesn't respond, a small mercy compared to forcing him
+  to leave and come back later once the game tracks him crossing the threshold. Once the gate is
+  satisfied: ancient warning inscriptions, the oldest record ("A vein without end"), and Brother
+  Cormac's final broadcast (beat 33) — **the last surface-world scene in the game before Chapter
+  3, guaranteed by the crest-count gate rather than by visit order.**
 
   ![The Sealed Passage / Old Caves — room concept](../Assets/Reference/monastery_sealed_passage_old_caves_concept.png)
 
@@ -698,9 +710,9 @@ flowchart TD
   attempt to drill past the bell mechanism entirely.
 - The Old Seal / Crypt Depths pack encounter, once the altar seal retracts.
 - Retrieving the Faith Crest from the Reliquary.
-- The mandatory, non-combat Sealed Passage / Old Caves finale — **the last surface-world scene in
-  the game**, delivering Brother Cormac's final broadcast and the direct narrative handoff into
-  Chapter 3.
+- The mandatory, non-combat Sealed Passage / Old Caves finale, unlocked once Jim holds four or more
+  crests — **the last surface-world scene in the game**, delivering Brother Cormac's final
+  broadcast and the direct narrative handoff into Chapter 3.
 
 ## Boss Encounters
 
@@ -720,9 +732,11 @@ staircase down to Chapter 3.
 
 ## Exit / Progression to Next Area
 
-Once the Faith Crest is collected and the Sealed Passage / Old Caves finale witnessed, all five
-districts are complete. Jim returns to Memorial Park, places the fifth emblem, drains the basin,
-and descends the revealed staircase — beginning Chapter 3.
+Once the Faith Crest is collected, all five districts are complete. If the Monastery happened to be
+Jim's fifth district, the Sealed Passage / Old Caves finale is already unlocked and plays
+immediately. If it wasn't, he's already seen it on an earlier visit once his fourth crest came in —
+either way, by the time all five emblems are in hand, Jim returns to Memorial Park, places the
+fifth, drains the basin, and descends the revealed staircase — beginning Chapter 3.
 
 ## Unresolved Ideas
 

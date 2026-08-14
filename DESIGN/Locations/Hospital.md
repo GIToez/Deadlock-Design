@@ -233,30 +233,27 @@ trying to keep something out. It was trying to keep something in.
   ![Emergency Department / Triage Hall — room concept](../Assets/Reference/hospital_ed_triage_hall_concept.png)
 
   > AI-generated room concept (2026-08-13).
-- **Radiology.** A CT suite with a restraint gurney still buckled open — the site of Outbreak Night
-  beat 9. One tough Shambler-tier encounter (the transformed patient, now fully turned) and a dead
-  orderly holding the **Laboratory Key**. A wall-mounted radio, left on, is tuned to the same
-  frequency as the police dispatch call referencing this room (see "Documents," below).
+- **Radiology.** Unlocked, off the E.D. A CT suite with a restraint gurney still buckled open —
+  the site of Outbreak Night beat 9. One tough Shambler-tier encounter (the transformed patient,
+  now fully turned) and a dead orderly holding a torn page from the isolation system's own
+  operating manual — one of the pieces Jim needs to safely work the pressure panel later. A
+  wall-mounted radio, left on, is tuned to the same frequency as the police dispatch call
+  referencing this room (see "Documents," below).
 
   ![Radiology — room concept](../Assets/Reference/hospital_radiology_concept.png)
 
   > AI-generated room concept (2026-08-13).
-- **The Laboratory.** Opened with the Laboratory Key. Microscopes, sample racks, a pathologist's
+- **The Laboratory.** Unlocked, off the E.D. Microscopes, sample racks, a pathologist's
   workstation with the *"Necrosis appears to provoke rather than suppress cellular activity"* note
-  still on-screen. The **Administration Key** sits in an unlocked drawer, alongside the
-  pathologist's own notes on Vanguard's sample-seizure order.
+  still on-screen, and the pathologist's own notes on Vanguard's sample-seizure order.
 
   ![Laboratory — room concept](../Assets/Reference/hospital_laboratory_concept.png)
 
   > AI-generated room concept (2026-08-13).
-- **Administration.** Opened with the Administration Key. Vanguard's Public Safety Agreement
-  paperwork (the hospital's counterpart to the Police Station's own Public Safety Agreement
-  material), the Biohazard Containment Order printout, and the administrator's own increasingly
-  panicked correspondence with Vanguard as the lockdown takes hold. No key item needed further
-  from here — purely a lore stop, deliberately not gating anything else, since not every locked
-  room in a dense main location needs to reward another key (per the design standard's warning
-  against "single do-everything keys," the inverse failure mode — every room rewarding a key — is
-  avoided here on purpose).
+- **Administration.** Unlocked, off the E.D. Vanguard's Public Safety Agreement paperwork (the
+  hospital's counterpart to the Police Station's own Public Safety Agreement material), the
+  Biohazard Containment Order printout, and the administrator's own increasingly panicked
+  correspondence with Vanguard as the lockdown takes hold — a lore stop, not a puzzle-gating room.
 
   ![Administration — room concept](../Assets/Reference/hospital_administration_concept.png)
 
@@ -271,31 +268,37 @@ trying to keep something out. It was trying to keep something in.
   ![The Morgue — room concept](../Assets/Reference/hospital_morgue_concept.png)
 
   > AI-generated room concept (2026-08-13).
-- **The Surgical Wing.** Card-reader lock; opened with the **Surgical Wing Access Card**, found at
-  the secondary Medical Arts Building location (see below) — a deliberate district-wide backtrack,
-  per the design standard. A ruined operating room holds the surgical log describing Outbreak
-  Night beat 15 in the surgeon's own words. Deeper in: the district's boss encounter, **"The
-  Surgeon"** (see [`Creatures/Unnamed_Hospital_Boss.md`](../Creatures/Unnamed_Hospital_Boss.md)).
+- **The Isolation Control Panel.** Where the E.D. corridor narrows toward the Surgical Wing — the
+  physical location of "The Quarantine System," above. A dead doctor slumped beside it left the
+  conceptual rule taped to the wall (*"Never create a positive-pressure path from Isolation into
+  General Care"*); the torn manual page from Radiology and the backup damper control from the
+  Medical Arts Building (see below) are what let Jim actually operate it. This is the district's
+  real gate — not a card reader, a sequence of pressure changes Jim has to get right.
+- **The Surgical Wing.** Reached once the pressure-gradient sequence opens its door — no card, no
+  key. A ruined operating room holds the surgical log describing Outbreak Night beat 15 in the
+  surgeon's own words. Deeper in: the district's boss encounter, **"The Surgeon"** (see
+  [`Creatures/Unnamed_Hospital_Boss.md`](../Creatures/Unnamed_Hospital_Boss.md)).
 
   ![Surgical Wing — room concept](../Assets/Reference/hospital_surgical_wing_concept.png)
 
   > AI-generated room concept (2026-08-13).
-- **The ICU.** Reached through the Surgical Wing once the boss is cleared. Half the ward sits in
-  total darkness — Outbreak Night beat 20's selective power cut — while a lone still-humming
-  monitor marks the one bed with a working backup line. A nurse's note (*"Mr. Palmer is ventilator
-  dependent... I'll stay."*) is found at a ventilator that never lost power, next to two bodies.
-  The **Chapel Key** is found here, on a small ring clipped to a clipboard — the district's final
-  key, appropriately found at its deepest, most-gated point.
+- **The ICU.** Reached through the Surgical Wing once the boss is cleared — the pressure system
+  Jim already solved keeps this section's own gauge in the green, no further gating needed. Half
+  the ward sits in total darkness — Outbreak Night beat 20's selective power cut — while a lone
+  still-humming monitor marks the one bed with a working backup line. A nurse's note (*"Mr. Palmer
+  is ventilator dependent... I'll stay."*) is found at a ventilator that never lost power, next to
+  two bodies.
 
   ![ICU — room concept](../Assets/Reference/hospital_icu_concept.png)
 
   > AI-generated room concept (2026-08-13).
-- **St. Dymphna Chapel.** A small, hushed hospital chapel — pews, a modest stained-glass window,
-  a portrait and founding plaque for **Dr. Nathaniel Voss**, the hospital's founding physician and
-  one of Ravenwood/Vanguard's five founders. Opened with the Chapel Key. A glass-fronted case holds
-  the **Medical Crest** — a bronze, wedge-shaped medallion bearing Voss's relief portrait, his name
-  and title, and a serpent-and-staff (caduceus) emblem — the direct payoff of this district's
-  entire loop, matching the Old Station House's Authority Crest convention exactly.
+- **St. Dymphna Chapel.** Unlocked, past the ICU — no separate key. A small, hushed hospital
+  chapel — pews, a modest stained-glass window, a portrait and founding plaque for **Dr. Nathaniel
+  Voss**, the hospital's founding physician and one of Ravenwood/Vanguard's five founders. A
+  glass-fronted case holds the **Medical Crest** — a bronze, wedge-shaped medallion bearing Voss's
+  relief portrait, his name and title, and a serpent-and-staff (caduceus) emblem — the direct
+  payoff of this district's entire loop, matching the Old Station House's Authority Crest
+  convention exactly.
 
   ![St. Dymphna Chapel — room concept](../Assets/Reference/hospital_chapel_concept.png)
 
@@ -336,9 +339,9 @@ trying to keep something out. It was trying to keep something in.
 
   > AI-generated room concept (2026-08-13).
 - **The Medical Arts Building** (secondary, load-bearing). A separate small building of private
-  doctors' offices and an outpatient clinic. A specific physician's abandoned office holds the
-  **Surgical Wing Access Card**, left behind mid-shift-change — the required backtrack that opens
-  the Surgical Wing back at the main hospital.
+  doctors' offices and an outpatient clinic. A specific physician's abandoned office holds a
+  **backup damper control**, left behind mid-shift-change — the required backtrack that lets Jim
+  finish operating the isolation panel back at the main hospital.
 
   ![Medical Arts Building — room concept](../Assets/Reference/hospital_medical_arts_building_concept.png)
 
@@ -371,23 +374,23 @@ trying to keep something out. It was trying to keep something in.
 
 **Main Hospital Building:**
 - Ambulance Bay (entry; Richard Dalton conditional beat; Fire Axe)
-- Emergency Department / Triage Hall (hub — visibly gates the Laboratory, Administration, Surgical
-  Wing, and the Psychiatric Ward stairwell from the start)
-- Radiology (Laboratory Key; signature encounter)
-- Laboratory (locked; Administration Key)
-- Administration (locked; lore only, deliberately not gating anything further)
+- Emergency Department / Triage Hall (pulls Jim deeper in before the sealed wings become visible)
+- Radiology (unlocked; signature encounter; isolation manual page)
+- Laboratory (unlocked; lore only)
+- Administration (unlocked; lore only, deliberately not gating anything further)
 - The Morgue (optional; unlocked; one scare-beat Shambler)
-- Surgical Wing (card-reader lock; needs Surgical Wing Access Card from the Medical Arts Building;
-  boss encounter)
-- ICU (reached via the Surgical Wing; Chapel Key)
-- St. Dymphna Chapel (locked; needs Chapel Key; MEDICAL CREST)
+- The Isolation Control Panel (the Quarantine Puzzle's physical location; needs the torn manual
+  page from Radiology and the backup damper control from the Medical Arts Building)
+- Surgical Wing (opens once the pressure-gradient sequence is solved; boss encounter)
+- ICU (reached via the Surgical Wing, unlocked)
+- St. Dymphna Chapel (unlocked, past the ICU; MEDICAL CREST)
 - Maternity Ward (unlocked by design; Maria Dalton's body; the Broodling)
 - NICU (optional; adjacent to Maternity)
 - Psychiatric / Behavioral Health Ward (optional; barricaded, needs Pry Bar from the Vanguard
   Quarantine Checkpoint; dangerous multi-Shambler encounter)
 
 **Secondary Locations (district, not the main building):**
-- Medical Arts Building (load-bearing: Surgical Wing Access Card)
+- Medical Arts Building (load-bearing: backup damper control for the isolation panel)
 - Hospital Parking Structure (optional: supplies, shortcut gate, one environmental death beat)
 - Vanguard Quarantine Checkpoint (optional: Pry Bar, Police/Hospital crossover documents)
 
@@ -432,14 +435,14 @@ flowchart TD
 ```mermaid
 flowchart TD
     EDREF(["🏥 Emergency Dept<br/>(from Diagram 1)"])
-    RADIOLOGY["Radiology<br/>☠️ transformed patient — signature encounter<br/>🗝️ Laboratory Key"]
-    LAB["Laboratory<br/>📄 pathologist's regeneration notes<br/>🗝️ Administration Key"]
+    RADIOLOGY["Radiology<br/>☠️ transformed patient — signature encounter<br/>🗝️ isolation manual page"]
+    LAB["Laboratory<br/>📄 pathologist's regeneration notes"]
     ADMIN["Administration<br/>📄 Vanguard Public Safety Agreement + Biohazard Containment Order"]
     MORGUE["The Morgue<br/>☠️ one scare-beat Shambler<br/>📄 attendant's radio log"]
 
     EDREF --> RADIOLOGY
-    EDREF -. Laboratory Key, from Radiology .-> LAB
-    EDREF -. Administration Key, from the Laboratory .-> ADMIN
+    EDREF --> LAB
+    EDREF --> ADMIN
     EDREF --> MORGUE
 
     classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
@@ -456,19 +459,21 @@ flowchart TD
 flowchart TD
     EDREF2(["🏥 Emergency Dept<br/>(from Diagram 1)"])
     ARTSREF(["Medical Arts Building<br/>(see Diagram 6)"])
+    PANEL["🔧 ISOLATION CONTROL PANEL<br/>the Quarantine Puzzle itself"]
     SURGERY["🔴 SURGICAL WING<br/>📄 surgical log<br/>☠️ THE SURGEON — boss encounter"]
-    ICU["ICU<br/>half in darkness — Vanguard's selective power cut<br/>📄 'I'll stay' note<br/>🗝️ Chapel Key"]
+    ICU["ICU<br/>half in darkness — Vanguard's selective power cut<br/>📄 'I'll stay' note"]
     CHAPEL["St. Dymphna Chapel<br/>🗝️ MEDICAL CREST<br/>📄 Dr. Nathaniel Voss founding plaque"]
 
-    ARTSREF -. Surgical Wing Access Card .-> EDREF2
-    EDREF2 -. Surgical Wing Access Card, from Medical Arts Building .-> SURGERY --> ICU
-    ICU -. Chapel Key .-> CHAPEL
+    ARTSREF -. backup damper control .-> PANEL
+    EDREF2 --> PANEL -. pressure-gradient sequence solved .-> SURGERY --> ICU --> CHAPEL
 
     classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
     classDef boss fill:#FFE0E0,stroke:#C0392B,color:#3a0d0d,stroke-width:2px
     classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
+    classDef puzzle fill:#FFF0D6,stroke:#C98A1E,color:#3a2a00,stroke-width:2px
     class EDREF2,ARTSREF ref
     class ICU,CHAPEL room
+    class PANEL puzzle
     class SURGERY boss
 ```
 
@@ -515,7 +520,7 @@ flowchart TD
 ```mermaid
 flowchart TD
     ENTRYREF(["Northeast District Entry<br/>(from Diagram 1)"])
-    ARTS["Medical Arts Building<br/>🗝️ Surgical Wing Access Card"]
+    ARTS["Medical Arts Building<br/>🗝️ Backup Damper Control"]
     PARKING["Hospital Parking Structure<br/>🚪 shortcut gate to street grid<br/>📄 one environmental death (optional)"]
     CHECKPOINT["Vanguard Quarantine Checkpoint<br/>🗝️ Pry Bar<br/>📄 crossover documents w/ Police Station"]
 
@@ -569,20 +574,19 @@ flowchart TD
 
 - **Fire Axe** ([full item writeup](../Items/Key_Items/Fire_Axe.md)) — Ambulance Bay;
   general-purpose forcing tool, flavor/utility item.
-- **Laboratory Key** ([full item writeup](../Items/Key_Items/Laboratory_Key.md)) — Radiology, off
-  the dead orderly; opens the Laboratory.
-- **Administration Key** ([full item writeup](../Items/Key_Items/Administration_Key.md)) — the
-  Laboratory; opens Administration.
-- **Surgical Wing Access Card** ([full item writeup](../Items/Key_Items/Surgical_Wing_Access_Card.md))
-  — Medical Arts Building (secondary location); opens the Surgical Wing.
+- **Isolation manual page** (no lock/door of its own) — Radiology, off the dead orderly; one of two
+  components needed to operate the Isolation Control Panel.
+- **Backup damper control** (was: Surgical Wing Access Card;
+  [full item writeup](../Items/Key_Items/Surgical_Wing_Access_Card.md), pending a rename pass) —
+  Medical Arts Building (secondary location); the other component needed at the panel.
 - **Pry Bar** ([full item writeup](../Items/Key_Items/Pry_Bar.md), optional) — Vanguard Quarantine
   Checkpoint (secondary location); forces the barricaded Psychiatric Ward stairwell.
-- **Chapel Key** ([full item writeup](../Items/Key_Items/Chapel_Key.md)) — the ICU, on a
-  clipboard; opens St. Dymphna Chapel.
 - **Medical Crest** ([full item writeup](../Items/Key_Items/Medical_Crest.md)) — the district's
-  founder's emblem; St. Dymphna Chapel display case.
+  founder's emblem; St. Dymphna Chapel display case, unlocked once the ICU is passed.
 
-> All seven of this district's key items now have individual `Items/Key_Items/` writeups, complete
+> The former Laboratory Key, Administration Key, and Chapel Key are retired — those rooms are now
+> unlocked, and the Chapel needs no key of its own. Their `Items/Key_Items/` writeups should be
+> deleted or repurposed in a future pass; not yet done here.
 > with AI-generated icon concept art — see [`Items/Key_Items/README.md`](../Items/Key_Items/README.md).
 
 ### Documents
@@ -647,9 +651,10 @@ flowchart TD
   emblem count.
 - Discovering Maria Dalton's body and fighting the Broodling in the Maternity Ward.
 - The Radiology → Laboratory → Administration key chain.
-- The Medical Arts Building → Surgical Wing Access Card backtrack, then the boss fight against
-  "The Surgeon."
-- Finding the Chapel Key in the ICU and retrieving the Medical Crest from St. Dymphna Chapel.
+- Gathering the isolation manual page (Radiology) and the backup damper control (Medical Arts
+  Building), then solving the Quarantine Puzzle's pressure-gradient sequence to reach the Surgical
+  Wing and fight "The Surgeon."
+- Retrieving the Medical Crest from St. Dymphna Chapel, unlocked once the ICU is passed.
 - (Optional) The Vanguard Quarantine Checkpoint → Pry Bar → Psychiatric Ward chain.
 
 ## Boss Encounters

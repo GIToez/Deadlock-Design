@@ -2048,6 +2048,87 @@ preparing them to understand Chapter 3's reveal — not just collected five toke
   focus. This is a `Scripts/`-level concern (Jim's dialogue/interiority), not a `Locations/`-level
   one, and should be threaded through the same rewrite pass that fixes his over-narration.
 
+## Direction Log (continued) — synchronization pass: canon/doc contradictions (2026-08-14)
+
+> A full-branch audit (Locations, CANON, MASTER_STORY, character material, existing scripts)
+> concluded the story design itself is in good shape — most remaining problems are consistency/
+> implementation gaps between documents rather than story problems. The verdict: "the branch no
+> longer has a story-concept problem, it has a synchronization problem." Everything below was
+> either fixed directly in this pass or explicitly logged as the next major task.
+
+**Fixed in this pass:**
+
+- **The Monastery/open-order contradiction — the most important fix.** `CANON.md`/`MASTER_STORY.md`
+  lock all five districts as fully open-order, but the Monastery's own material repeatedly called
+  itself "the last surface location before Chapter 3" — those two claims can't both be literally
+  true if a player visits the Monastery first. **Resolved:** the Monastery stays mechanically
+  open-order (visitable anytime, most of it explorable, Faith Crest obtainable whenever reached),
+  but its deepest section — the Sealed Passage / Old Caves and Brother Cormac's final broadcast —
+  now stays sealed until Jim holds **four or more crests total**, regardless of visit order or
+  when the Faith Crest itself was collected. This guarantees the Monastery's revelation always
+  functions as the narrative bridge into Chapter 3 without forcing a specific visit order. See
+  [`Locations/Monastery.md`](Locations/Monastery.md) and
+  [`MASTER_STORY.md`](MASTER_STORY.md).
+- **MASTER_STORY.md's "fully scripted" claims corrected.** It previously said Police/Hospital/
+  Foundry/Academy were "fully scripted" in one place and "not yet written scene-by-scene" in
+  another — genuinely contradictory, and exactly the kind of thing that would mislead a future
+  pass into treating the wrong version as canon. Changed to "script exists — puzzle/progression
+  rewrite pending" for all four, matching what `CANON.md` and the `Locations/` files already said.
+- **Old mandatory key chains removed from Hospital, Foundry, and Academy**, not just flagged as
+  superseded — the same treatment already applied to the Monastery. New hard rule applied
+  consistently: *the district's signature puzzle carries the mandatory critical path; keys exist
+  primarily for optional rooms, shortcuts, supplies, lore, or small subloops.* Concretely: the
+  Hospital's Laboratory/Administration/Chapel are now unlocked and the old Radiology → Lab →
+  Administration key chain is gone (Radiology's dead orderly now holds a piece of the isolation
+  manual instead of a key); the Foundry's Manager's Office and Vanguard Site Office are now
+  unlocked (their old keys retired; the Vanguard Site Key now opens only an optional bonus
+  cabinet); the Academy's Library and Auditorium are now unlocked, and the Knowledge Crest moved
+  from Founder's Hall's display case (now empty, with a note from Ashford explaining why) to the
+  Library's own hidden archive, revealed by solving the Archive Puzzle.
+- **Five Puzzle Philosophies locked as final**, per explicit direction not to keep reinventing them.
+- **CANON.md's mandatory central-hub rule loosened.** All five districts previously had to open on
+  "central hub, see several locked points at once," which was itself becoming a repetition risk.
+  Now: "a recognizable anchor space or traversal structure the player learns and revisits" — a true
+  hub where it fits (Police, Foundry), something else where it doesn't (Hospital's branching
+  corridors, the Academy's spreading aftermath, the Monastery's vertical spiral).
+- **Jim's Chapter 2 arc locked to crest count**, not district order, with a full 0–5 breakdown (see
+  [`Characters/Jim_Mercer.md`](Characters/Jim_Mercer.md)) — Survival → Suspicion → Pattern → Anger
+  → Resolve → Acceptance — plus the explicit instruction that his dialogue should thin out, not
+  escalate, as the count rises.
+- **Zombie Conglomerate presence locked to crest count** instead of random appearance (see
+  [`Creatures/Zombie_Conglomerate.md`](Creatures/Zombie_Conglomerate.md)) — distant sighting at 1,
+  blocks a street at 2, audible before visible at 3, forces alternate routes at 4, owns portions of
+  Downtown at 5.
+- **Foundry wording fix.** "The rail yard tracks lead into the mountain — the physical point Black
+  Vein entered Ravenwood" contradicted Black Vein being a natural formation that predates any
+  human access point. Changed throughout to "the primary modern industrial access point into the
+  Black Vein cave network."
+
+**Logged, not yet applied — the next major task:**
+
+- **The Chapter 2 script rewrite itself.** Police Station, Hospital, Foundry, and Academy all have
+  existing scene-by-scene scripts written against the old key-hunt mechanics; none has been
+  rewritten to match its new puzzle philosophy yet. This is explicitly the largest remaining piece
+  of work and should be the next major pass, per the audit's own conclusion: keep adding lore, and
+  the risk is the documents drift out of sync faster than they get reconciled.
+- **Deliberate messiness in the cross-district chronology**, a per-district storytelling-material
+  table, and other script-level items — already tracked above under "puzzle-design refinement
+  pass" and "narrative craft review."
+- **Locked and not to be redesigned further** (per the audit's own list): Black Vein being natural;
+  Vanguard rediscovering rather than creating it; five founders/five crests; the Memorial Park
+  mechanism; the Hotel's puzzle; the Five Puzzle Philosophies; each district's thematic identity;
+  the interconnected outbreak-night chronology; Jim/Sarah framing; Jim's ambiguous ending; the
+  Monastery's historical perspective. Future passes should treat these as settled and focus on
+  synchronization (scripts, item files, cross-references) rather than reopening them.
+- **A caution worth carrying into the script rewrite:** Vanguard currently touches nearly every
+  system in the city (police protocols, hospital infrastructure, Foundry worker monitoring, exposure
+  cohort tracking, Academy shelter rosters, Monastery records, tunnel projects, emergency power,
+  containment systems, medical retrieval, armed security, communications suppression, government
+  pressure). Individually plausible, collectively at risk of reading as "Vanguard scripted every
+  moment of the disaster" rather than an organization that exploited a real one. The rewrite should
+  let some civic failures be genuinely mundane — panic, storm damage, ordinary bad judgment calls —
+  so Vanguard reads as opportunistic rather than omniscient.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /
@@ -2218,23 +2299,24 @@ or the five districts — none of those chapters have named characters yet.
   frightened person would actually say. This is a large task best scoped per-district rather than
   attempted in one pass, and should be coordinated with the Jim-over-narration trim already tracked
   above so the two aren't done twice.
-- **Five Puzzle Philosophies — full script/items implementation** (per the Direction Log entry
-  above; largest remaining structural task). The Police Station's `Locations/` file has been
-  rewritten to the new Lockdown/Route mechanic; Hospital, Foundry, and Academy have their new
-  mechanics specified as approved addenda in their own `Locations/` files but **not yet folded
-  into their Storyline prose**, and none of the four districts' `Scripts/Chapter_2_*.md`
-  scene-by-scene scripts have been rewritten to match yet — they still describe the old key-hunt
-  puzzle in prose form, even where the `Locations/` file no longer does (most acute for the Police
-  Station right now, whose `Locations/` and `Scripts/` files actively disagree until the script is
-  rewritten). Concretely still needed: (1) full narrative rewrite of
-  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md) to the Lockdown/Route
-  mechanic; (2) fold the Hospital/Foundry/Academy addenda into their own `Storyline`/`Blueprint`
-  sections and then their scripts; (3) write the Monastery's full scene-by-scene script directly
-  against the Bell Tower mechanic from the start, since it has no prior script to conflict with;
-  (4) audit `Items/Key_Items/` for items that no longer make sense once a district's puzzle no
-  longer works as a pure key hunt (e.g. the Police Station's per-door keys may partly become
-  console/control-board states instead of physical items — not yet decided which keys survive in
-  some form versus get replaced outright).
+- **Five Puzzle Philosophies — script rewrite (now the single largest remaining task, per the
+  "synchronization pass" audit above).** All five `Locations/` files now fully describe their new
+  puzzle mechanics (Police Station's Storyline was fully rewritten; Hospital, Foundry, and Academy
+  have had their old mandatory key chains removed and replaced with the new mechanics directly in
+  their Storyline sections; the Monastery's Storyline was cleaned the same way). **None of the four
+  districts' `Scripts/Chapter_2_*.md` scene-by-scene scripts have been rewritten to match yet** —
+  they still contain the old key-hunt scene prose. Concretely still needed: (1) full narrative
+  rewrite of all four existing scripts to their new mechanics — Police Station (Lockdown/Route),
+  Hospital (Quarantine/Contain), Foundry (Casting/Operate), Academy (Archive/Understand); (2) write
+  the Monastery's full scene-by-scene script directly against the Bell Tower mechanic and its
+  crest-count-gated deepest section, since it has no prior script to conflict with; (3) audit
+  `Items/Key_Items/` for the several retired keys flagged inline in each `Locations/` file
+  (Hospital's old Laboratory/Administration/Chapel Keys, the Foundry's old Manager's Office Key,
+  the Academy's old Library Key, the Police Station's Armory Key pending a rename) — delete or
+  repurpose their writeups; (4) while rewriting, apply the still-open dialogue/pacing items above
+  (Jim's over-narration trim, his crest-count arc, deliberate messiness in crossovers, the
+  per-district storytelling-material table, and the caution against over-attributing every civic
+  failure to Vanguard).
 
 ## Audit — [`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx) (uploaded 2026-08-12)
 

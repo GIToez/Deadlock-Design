@@ -101,21 +101,32 @@ the remainder of Chapter 2's open-world exploration. Proposed design intent (pen
 - **Roams unpredictably, not on a fixed route or schedule.** It can plausibly appear on any city
   street between districts once unlocked, forcing the player to stay alert during open-world
   traversal rather than treating the streets as fully safe once cleared of ordinary Shamblers.
-- **Proposed encounter size:** Stage 3 ("Consumption," 20+ bodies, ~15–20 ft) for Jim's first
-  sighting — large enough to be an unmistakable, city-altering spectacle and to physically block a
-  street/pathway, forcing a detour, without immediately reading as unbeatable-by-design in a way
-  that undercuts the reveal. Later encounters could escalate toward Stage 4 if the player
-  encounters it repeatedly, though dynamic in-fiction growth within a single night is not yet
-  confirmed as an actual mechanic — flagged as an open question below.
+- **Presence scales with crest count, not randomly (locked 2026-08-14).** Since district order is
+  open, tying its growth to "how long since the Police Station" doesn't work for every player — a
+  crest-count gate does, the same convention used for Jim's own Chapter 2 arc (see
+  [`Characters/Jim_Mercer.md`](../Characters/Jim_Mercer.md)) and the Monastery's story gate (see
+  [`Locations/Monastery.md`](../Locations/Monastery.md)):
+  - **1 crest:** a distant sighting only — glimpsed at range, unmistakably wrong, not yet a direct
+    obstacle. Roughly Stage 2 ("The Emergence").
+  - **2 crests:** blocks one specific, familiar street the player has already used, forcing a
+    detour. Roughly Stage 3 ("Consumption").
+  - **3 crests:** heard before seen — the player learns to recognize it by sound alone before a
+    sighting confirms it, raising tension without a size increase yet.
+  - **4 crests:** forces alternate routes through buildings/interiors rather than just around a
+    corner — Stage 4 ("The Wanderer"), large enough to change how the player thinks about city
+    traversal generally.
+  - **5 crests:** effectively owns portions of Downtown, visibly present rather than randomly
+    encountered — Stage 5 ("The Titan"). This also gives the city streets themselves a visible,
+    escalating arc that doesn't depend on which four districts the player actually chose to visit.
 - **Also serves as a natural pacing/tension tool** for the open city sections between districts,
   giving Chapter 2's "safe once cleared" streets an ongoing source of dread the way the Caretaker
   and Fennimore's pincer ambush did for the hotel's back half.
 
 ## Encounter Progression
 
-Not yet scripted scene-by-scene. Proposed to first appear somewhere in the city streets shortly
-after Jim exits the Police Station with the Authority Crest, then recur unpredictably (not on a
-fixed schedule) through the rest of Chapter 2's open-world sections.
+Not yet scripted scene-by-scene. First appears once Jim holds his first crest (from whichever
+district he visits first), then its presence escalates per the crest-count table above through the
+rest of Chapter 2's open-world sections — not on a fixed schedule or tied to a specific location.
 
 ## Major Appearances
 
@@ -137,9 +148,8 @@ its own internal notes admit they no longer understand or control.
 - No formal combat/avoidance mechanic has been specified (detection range, how the player breaks
   line of sight, what happens if caught, whether "caught" is an instant fail-state or a damage/
   chase sequence).
-- Whether it dynamically grows within a single playthrough/night, or is simply placed at a fixed
-  stage for any given encounter, is undecided.
 - Not yet integrated into any [`Scripts/`](../Scripts/) file as an actual scripted or systemic
-  encounter — this file establishes concept/lore/behavior only.
+  encounter — this file establishes concept/lore/behavior only, including the now-locked
+  crest-count escalation table above.
 - The proposed resolution to the sighting-timeline conflict (see above) needs explicit approval
   before being treated as locked.
