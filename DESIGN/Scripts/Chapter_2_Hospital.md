@@ -6,13 +6,13 @@
 > Laboratory → Administration → Surgical Wing Access Card key chain) is fully superseded; full
 > rationale in [`STORY_NOTES.md`](../STORY_NOTES.md).
 >
-> Richard Dalton's eventual "what do I tell him" payoff scene is deliberately **not** written
-> here — see [`Characters/Richard_Dalton.md`](../Characters/Richard_Dalton.md) → "Unresolved
-> Ideas."
->
 > **Scene 15 (the Maternity Ward) is staged explicitly, on-screen, per the project owner's direct
 > instruction and [`README.md`](../README.md) → "Content Rating & Tone."** Jim witnesses Maria
 > Dalton's death and the Broodling's birth in real time rather than arriving after the fact.
+> **Revised 2026-08-14: Richard Dalton does not survive the district in either branch** — if alive
+> when Jim meets him at the Ambulance Bay, he heads back to Maria alone and is already at her side
+> when Jim reaches the Maternity Ward, dying with her. See
+> [`Characters/Richard_Dalton.md`](../Characters/Richard_Dalton.md) for the full rationale.
 
 ---
 
@@ -88,8 +88,8 @@ That stops him for half a second — recognition landing somewhere underneath th
 
 He glances back at the door like it might explain itself.
 
-> **RICHARD:** *"Maria's still in there. Maternity ward. I checked three nurses' stations. Nobody's
-> standing at any of them."*
+> **RICHARD:** *"Maria's still in there. Maternity ward. She's — it's happening, Jim. The baby's
+> coming and there's nobody. I checked three nurses' stations. Nobody's standing at any of them."*
 >
 > **JIM:** *"How long ago did you leave her?"*
 
@@ -97,27 +97,31 @@ Richard doesn't answer that one directly.
 
 > **RICHARD:** *"Too long. I know it's too long. I just — I couldn't find anybody, and I didn't want
 > to go back in there and tell her that."*
+
+> **JIM:** *"I'm not a doctor. I don't know the first thing about delivering a baby."*
 >
-> **JIM:** *"Where, exactly?"*
+> **RICHARD:** *"Neither do I. I just don't want her doing this alone. Please. Anything's better than
+> nothing right now."*
 >
-> **RICHARD:** *"Maternity. Off the Emergency Department, I think. Everything past the front doors
-> looks the same to me right now."*
-
-> **JIM:** *"I'll go. You stay put — somewhere with a door that actually locks, not out here."*
-
-> **RICHARD:** *"Yeah. Okay."*
-
-A beat.
-
-> **RICHARD:** *"Jim. Whatever it is when you get there — just come back and tell me. Don't leave me
-> standing here not knowing. I'd rather know."*
+> **JIM:** *"...Okay. I'll see what I can do. Where, exactly?"*
 >
-> **JIM:** *"I will."*
+> **RICHARD:** *"Maternity. Off the Emergency Department. I can get us there faster than I can
+> explain it — I already know the way, I've just been going in circles trying to find anyone else."*
 
-He doesn't. Not yet.
+> **JIM:** *"Go. I've still got to get through whatever's sealed the rest of this place off first —
+> I'll catch up as soon as I can."*
 
-> *Design note: Richard's alive-version Tier 2b beat. Jim's eventual return conversation stays
-> unwritten per [`Characters/Richard_Dalton.md`](../Characters/Richard_Dalton.md).*
+> **RICHARD:** *"Just — hurry. Please."*
+
+He's already moving before Jim can say anything else, back through the side door, into the hospital.
+
+He doesn't wait for Jim. Neither of them has time for that.
+
+> *Design note: Richard's alive-version Tier 2b beat, revised 2026-08-14. Richard now heads back to
+> Maria alone rather than waiting somewhere safe — see Scene 15, where Jim finds him already at her
+> side. This removes the need for an escort sequence (Richard travels there separately, off-screen,
+> while Jim takes his own route through the district) and resolves the previously-unwritten "what
+> does Jim tell him" thread dramatically rather than narratively: there's no one left to tell.*
 
 ### If Jim has 2+ emblems: Richard Dalton (dead)
 
@@ -550,10 +554,59 @@ He looks back at the empty pews.
 
 ![The Maternity Ward — room concept](../Assets/Reference/hospital_maternity_ward_concept.png)
 
-Off the Emergency Department, unlocked. Jim hears her before he reaches the door — not a call for
-help. A scream that keeps going well past where a person should have to stop for breath.
+Off the Emergency Department, unlocked. Jim hears screaming before he reaches the door — and, once
+he's close enough, a second voice underneath it, pleading rather than screaming.
 
 *Interaction prompt: [OPEN DOOR]*
+
+### If Richard is alive (per Scene 2's conditional branch)
+
+**Richard** is already there, gripping Maria's hand with both of his, saying her name like
+repeating it might do something. He doesn't look up when Jim comes in. Neither of them do.
+
+**Maria Dalton** is on the bed, alive, mid-labor, and something about it is wrong in a way that has
+nothing to do with the storm outside. Her abdomen moves on its own, independent of her own
+contractions, pushing against the skin in shapes a body isn't supposed to make. Dark, branching
+discoloration climbs both her arms from the stomach outward — veins gone wrong, a pattern with
+nothing natural about it.
+
+> **RICHARD:** *"Maria — Maria, look at me, stay with me—"*
+
+**If Jim has already visited the Foundry:**
+
+> **JIM:** *"...Same as the rock. Same as the rock in the mine."*
+
+**Otherwise:**
+
+He doesn't have a word for it yet. That won't last.
+
+*(Scripted event — no player input during the following beat.)*
+
+It happens fast, once it happens. Her scream breaks into something wetter and lower, and then
+stops. What tears free of her isn't small, and isn't finished changing — pale, hunched, too many
+joints in the wrong places, already moving before it's fully clear of her. Blood soaks the sheets
+in a widening stain.
+
+Richard doesn't let go of her hand. He reaches for the thing that just came out of her — not to
+hurt it, not even really understanding what it is yet, just the same instinct that's kept him
+moving all night: *get to the people who need him.* It's the last thing he ever does for her.
+
+> **JIM:** *"Richard—!"*
+
+He's already too close. Jim isn't.
+
+*Combat: The Broodling (see [`Creatures/Broodling.md`](../Creatures/Broodling.md)) — small
+profile, fast and low, scrabbling rather than walking. No passive phase; it's hostile the instant
+it's free of her, and Richard is already in reach of it before Jim can do anything about that.*
+
+Once it's down, Jim doesn't move for a long moment. The room is very quiet. Two bodies, one bed, and
+nothing left in it that needs him to hurry anymore.
+
+> **JIM:** *"...I'm sorry."*
+
+He says it to both of them.
+
+### If Richard is dead (per Scene 2's conditional branch)
 
 **Maria Dalton** — Jim recognizes her instantly — is on the bed, alive, mid-labor, and something
 about it is wrong in a way that has nothing to do with the storm outside. Her abdomen moves on its
@@ -594,13 +647,9 @@ Once it's down, Jim doesn't move for a long moment. The room is very quiet.
 
 > **JIM:** *"...I'm sorry."*
 
-He says it to her, not to what he just killed.
+He says it to her. There's no one else left in the room to say it to.
 
-> **JIM:** *"Richard's outside. He doesn't know."*
-
-*(This line only plays if Richard is alive per Scene 2's conditional branch.)*
-
-He doesn't say the rest of that thought out loud either.
+He doesn't finish the rest of that thought out loud.
 
 ---
 

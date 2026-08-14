@@ -84,12 +84,21 @@ something that scuttles/crawls at speed than something that walks. Small profile
 hit reliably; proposed (not yet designed in detail) as a fast, low-health, high-annoyance
 encounter rather than a damage check, rewarding precision over brute force.
 
+**Kills whoever is closest, not just Jim (revised 2026-08-14).** If Richard Dalton is present (see
+[`Locations/Hospital.md`](../Locations/Hospital.md) and
+[`Characters/Richard_Dalton.md`](../Characters/Richard_Dalton.md)), he's the one holding Maria's
+hand when it happens and reaches for the creature rather than pulling back — it kills him before
+Jim can reach either of them. This was a deliberate fix: an "aggressive immediately, no passive
+phase" creature sparing a second person standing right next to Maria never held together on its own
+terms, so the design no longer asks it to.
+
 ## Gameplay Role / Combat Role
 
 The Maternity Ward's signature encounter — the emotional and mechanical low point of that wing.
-The player watches Maria die giving birth to it in real time rather than arriving after the fact,
-then fights it the instant it's free of her. Not a recurring enemy type; a single, unique specimen
-tied to this one scene, per its "Known Population: one confirmed specimen" classification above.
+The player watches Maria (and, in one branch, Richard too) die in real time rather than arriving
+after the fact, then fights it the instant it's free of her. Not a recurring enemy type; a single,
+unique specimen tied to this one scene, per its "Known Population: one confirmed specimen"
+classification above.
 
 ## Encounter Progression
 
@@ -108,10 +117,13 @@ The hospital's clearest, most personal illustration of the district's thematic c
 project owner: *"We tried to save everyone until we realized Vanguard never wanted everyone
 saved"*) — Maria and Richard Dalton are civilians with no connection to Vanguard, the police, or
 any prior thread in the story; their fate exists purely to show what Black Vein does to an
-ordinary family caught in it, at its most extreme. Also the game's first on-screen confirmation
-that Ashen mutation can act on a fetus, not just an already-born person — a detail with obvious,
-disturbing implications for the "town as a field study" material already established for the
-Police Station's Vanguard sub-plot, not yet explored further.
+ordinary family caught in it, at its most extreme. **Neither of them survives, in either branch**
+(see [`Characters/Richard_Dalton.md`](../Characters/Richard_Dalton.md)) — the family is destroyed
+completely, not partially, which is the more honest version of "at its most extreme" than leaving
+one Dalton alive to grieve. Also the game's first on-screen confirmation that Ashen mutation can
+act on a fetus, not just an already-born person — a detail with obvious, disturbing implications
+for the "town as a field study" material already established for the Police Station's Vanguard
+sub-plot, not yet explored further.
 
 ## Open Design Gaps
 

@@ -474,14 +474,14 @@ Applies to all five Chapter 2 districts:
   via notes/environmental clues from the dead version); no survivor's death ever hard-blocks
   progression; the game never explicitly blames the player. (Her alternate/"already turned" scene
   is described but not yet scripted — see [`Locations/Police_Station.md`](Locations/Police_Station.md).)
-  - **Tier 2b — Threshold conditional survivors:** a variant gated by *how many
-    emblems Jim is carrying* rather than strictly "first district visited or not." Confirmed
-    example: **[Richard Dalton](Characters/Richard_Dalton.md)**, at St. Dymphna Hospital, is alive
-    (Jim meets him fleeing the building looking for help for Maria) if the Hospital is Jim's first
-    or second district (i.e. he's carrying zero or one emblem on arrival); if Jim already holds two
-    or more emblems, Richard has already run out and been killed, and Jim finds his body instead.
-    Same underlying rule as Tier 2 above (information/outcome is always recoverable either way, no
-    hard-blocked progression) — the only difference is the specific condition checked.
+  - **Tier 2b — Threshold conditional encounters:** a variant gated by *how many emblems Jim is
+    carrying* rather than strictly "first district visited or not," and — unlike Tier 2 above —
+    not necessarily about whether the character survives at all. Confirmed example:
+    **[Richard Dalton](Characters/Richard_Dalton.md)**, at St. Dymphna Hospital: alive when Jim
+    meets him (fleeing the building looking for help for Maria) if the Hospital is Jim's first or
+    second district (0–1 emblems on arrival); already dead at the Ambulance Bay if Jim already
+    holds two or more. Either way, Richard does not survive the district — what the emblem count
+    changes is only whether Jim ever meets him alive and whether he dies with Maria or alone.
 
 ## Source Precedence
 

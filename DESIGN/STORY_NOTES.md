@@ -2858,3 +2858,57 @@ been left otherwise untouched).
   learns more" reason to clip an actual back-and-forth with another person. If further scenes read
   as flat on a closer pass, flag them specifically and they can get the same treatment Richard's
   scene just did.
+
+## Richard Dalton no longer survives the Hospital, in either branch (2026-08-14)
+
+> Following the Maria/Richard rewrite above, the project owner asked for a design opinion on an
+> alternate structure: Richard reunites with Maria in person, in a "hope before horror" beat, rather
+> than waiting outside. Across two follow-up messages the concept was refined to its final form:
+> Richard finds Jim first, explicitly asks for help even though Jim isn't a doctor, then goes back
+> to Maria alone (removing any need for an escort mechanic) so that Jim finds him already at her
+> side. The project owner also asked directly whether there's any actual mechanical bonus to Richard
+> surviving today (there isn't), and whether it would be better horror to have the Broodling — an
+> "aggressive immediately, no passive phase" creature — kill him too rather than spare him standing
+> right next to Maria. The recommendation given, and the one implemented, was **yes, kill him too,
+> and make it his own instinct that does it** (reaching for the creature rather than protecting
+> himself) rather than an arbitrary "the monster happened to pick him" beat.
+
+- **Richard Dalton does not survive St. Dymphna Hospital in either branch, effective this
+  revision.** Previously, the alive branch had him survive the night with an unresolved "what does
+  Jim tell him" thread hanging over it. That thread is now closed dramatically instead of narratively
+  — he's present for what happens to Maria and dies alongside her, so there's no one left for Jim to
+  eventually have that conversation with.
+  - **0–1 emblems on arrival (Richard alive at the Ambulance Bay):** Jim agrees to help despite not
+    being a doctor; Richard heads back to Maria immediately and alone (Jim takes his own route
+    through the district, so no escort sequence is needed — the two never travel together). By the
+    time Jim reaches the Maternity Ward, Richard is already at her side, gripping her hand. When the
+    Broodling tears free of her, Richard reaches for it rather than pulling back — the same instinct
+    that's driven him the entire scene — and it kills him before Jim can reach either of them. Jim
+    then fights the Broodling alone, arriving in time to watch, not to help.
+  - **2+ emblems on arrival (Richard already dead):** unchanged from the previous revision — he
+    died before ever making it back to Maria, and she dies alone in the Maternity Ward with only
+    Jim as a witness.
+- **Why this is better than the previous version:** (1) it resolves the actual inconsistency in the
+  Broodling's own established behavior — an immediately-aggressive creature with "no passive phase"
+  sparing a second warm body standing right next to Maria never held up once someone else was in the
+  room; (2) there was no meaningful gameplay reward tied to Richard's survival to begin with, so
+  nothing mechanical is lost; (3) it completes the district's own stated thematic point (Broodling.md:
+  "what Black Vein does to an ordinary family caught in it, at its most extreme") more fully — losing
+  the whole family reads as more honestly "extreme" than losing half of it; (4) it removes a
+  years-old (in project time) unresolved thread that kept getting flagged as "a strong candidate for
+  a future scene" without ever actually getting written, by resolving it a different way instead of
+  continuing to defer it.
+- **Files updated to match:** [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md)
+  (Scene 2's alive branch rewritten so Richard goes back alone; Scene 15 split into two full
+  sub-branches depending on whether Richard is present), [`Characters/Richard_Dalton.md`](Characters/Richard_Dalton.md)
+  (Role, Story Arc, Dialogue Characteristics, Established Facts, and Unresolved Ideas all updated;
+  the "Tier 2b conditional survivor" framing changed to "conditional encounter" since survival is no
+  longer what's actually conditional), [`Characters/Maria_Dalton.md`](Characters/Maria_Dalton.md)
+  (notes Richard's conditional presence and death alongside her),
+  [`Creatures/Broodling.md`](Creatures/Broodling.md) (Behavior section now states it kills whoever is
+  closest, not just Jim; Story Significance updated to note neither Dalton survives in either
+  branch), [`CANON.md`](CANON.md) → "Survivor System" → "Tier 2b" (reworded to describe Richard as a
+  conditional *encounter* rather than implying conditional survival), and
+  [`Locations/Hospital.md`](Locations/Hospital.md) (Arrival/Setup, Storyline, Important Rooms,
+  both blueprint diagram nodes, Characters Encountered, Major Scripted Events, and Unresolved Ideas
+  — the "does Richard ever learn what happened" open item is removed, since it no longer applies).

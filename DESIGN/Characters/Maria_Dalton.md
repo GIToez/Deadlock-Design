@@ -48,20 +48,23 @@ Ashen mutation, the extreme physical trauma of childbirth triggers a catastrophi
 mutation in her unborn child rather than in her directly. She does not survive the birth.
 
 **Shown on-screen, not implied (revised 2026-08-14):** Jim doesn't arrive to a finished aftermath —
-he hears her screaming before he reaches the door, walks in on her still alive and mid-labor, and
+he hears screaming before he reaches the door, walks in on her still alive and mid-labor, and
 watches the birth itself go wrong: visible Black Vein discoloration spreading up her arms, her
 abdomen moving on its own, and the Broodling tearing free of her as she dies as a direct result.
 Per the project owner's explicit direction ("this is m rated game... actually show it crawling out
 and her dying as a result") and [`README.md`](../README.md) → "Content Rating & Tone," this is
 staged explicitly rather than kept off-screen. See
 [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 15, for the full scene.
-The resulting creature, **[the Broodling](../Creatures/Broodling.md)**, turns on Jim immediately
+The resulting creature, **[the Broodling](../Creatures/Broodling.md)**, turns hostile immediately
 once free of her. See that creature's file for the full mutation explanation.
 
-Richard's presence/absence at this scene depends on player sequencing — see
-[`Characters/Richard_Dalton.md`](Richard_Dalton.md) and
-[`CANON.md`](../CANON.md) → "Survivor System" → "Tier 2b." Her death is **not** conditional on
-player sequencing; only whether Richard is alive to eventually learn about it is.
+**Richard's presence at this scene depends on player sequencing** — see
+[`Characters/Richard_Dalton.md`](Richard_Dalton.md) and [`CANON.md`](../CANON.md) → "Survivor
+System" → "Tier 2b." If Jim met him alive earlier (0–1 emblems on arrival), Richard is already at
+her side when Jim reaches the room, gripping her hand, and dies alongside her — reaching for the
+Broodling rather than protecting himself. If Richard was already dead at the Ambulance Bay (2+
+emblems), Maria dies alone here, with only Jim as a witness. Her death itself is **not** conditional
+either way; only whether Richard is there to die with her is.
 
 ## Important Scenes
 

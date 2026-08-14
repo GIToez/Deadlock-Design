@@ -12,10 +12,10 @@
 ## Role
 
 Hotel guest, Room 118, sharing the room with his wife Maria. Accompanies her to St. Dymphna
-Hospital shortly before the outbreak begins. **New (2026-08-13):** St. Dymphna Hospital's Tier 2b
-threshold conditional survivor (see [`CANON.md`](../CANON.md) → "Survivor System") — alive if Jim
-reaches the Hospital carrying zero or one emblem (i.e. it's his first or second district); already
-dead if Jim already holds two or more emblems.
+Hospital shortly before the outbreak begins. St. Dymphna Hospital's Tier 2b threshold conditional
+character (see [`CANON.md`](../CANON.md) → "Survivor System") — **revised 2026-08-14: he does not
+survive the night in either branch.** What's conditional on Jim's emblem count is whether Jim ever
+meets him alive at all, not whether he ultimately lives — see "Story Arc," below.
 
 ## Background
 
@@ -46,26 +46,36 @@ Accompanies Maria to St. Dymphna Hospital at 11:42 PM once her condition worsens
 Manager's Office incident report — meaning he's gone from the hotel before the outbreak reaches
 the lobby.
 
-**Resolved (2026-08-13), conditional on player sequencing** — see
+**Revised 2026-08-14, conditional on player sequencing** — see
 [`CANON.md`](../CANON.md) → "Survivor System" → "Tier 2b":
 
 - **If Jim reaches St. Dymphna Hospital as his first or second district** (carrying zero or one
-  emblem): Richard is alive. He was with Maria the entire time up to that point; once her labor
-  turned dangerous he left to find a doctor or nurse, got turned around in the hospital's own
-  chaotic corridors, and ended up back near the Ambulance Bay entrance without meaning to — Jim
-  meets him there, mid-panic, still trying to get back to her. He doesn't know what's happened to
-  her yet, only that she's been alone too long and no one's come. Once reassured/sent somewhere
-  safer, he asks Jim to find her and come back and tell him what happened — setting up a return
-  beat once Jim reaches the Maternity Ward and witnesses
-  [Maria's death and the Broodling's birth](Maria_Dalton.md) firsthand. Richard survives the night;
-  what Jim ultimately tells him is an open question (see "Unresolved Ideas," below).
+  emblem): Richard is alive when Jim meets him. He was with Maria the entire time up to that point;
+  once her labor turned dangerous he left to find a doctor or nurse, got turned around in the
+  hospital's own chaotic corridors, and ended up back near the Ambulance Bay entrance without
+  meaning to — Jim meets him there, mid-panic, still trying to get back to her. Jim agrees to help
+  despite not being a doctor; Richard heads back to Maria immediately, alone, while Jim makes his
+  own way there separately (no escort sequence — see
+  [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 2). By the time Jim
+  reaches the Maternity Ward, Richard is already at her side. **He does not survive what happens
+  there** — see [Maria's death and the Broodling's birth](Maria_Dalton.md). He dies still holding
+  onto her, reaching for the thing that killed her rather than protecting himself. Jim watches both
+  of them die and has to fight the Broodling alone immediately after.
 - **If Jim already holds two or more emblems on arrival:** Richard already ran out looking for
-  help, before Jim arrived, and was killed near the hospital's side entrance. Jim finds his body
-  and, folded in his hand, Maria's hospital admission slip with her ward assignment circled twice —
-  the physical reason Jim knows exactly where to go, rather than assuming it. Per the survivor
-  system's rule that no death ever hard-blocks progression or is treated as the player's fault, the
-  outcome and its emotional weight land the same way either way; only whether Richard personally
-  survives to grieve, versus being found already dead, changes.
+  help, before Jim arrived, and was killed near the hospital's side entrance — dying before he ever
+  made it back to her. Jim finds his body and, folded in his hand, Maria's hospital admission slip
+  with her ward assignment circled twice — the physical reason Jim knows exactly where to go,
+  rather than assuming it. Maria dies alone in this branch; Richard dies alone too, just somewhere
+  else in the building, without ever finding out what happened to her.
+- **Either way, Richard doesn't survive the night** — the only thing player sequencing changes is
+  whether Jim ever meets him alive, and whether the two of them die together or apart. This is a
+  deliberate departure from the earlier version of this file, in which the alive branch had Richard
+  survive; per the project owner's direct discussion, there was no meaningful mechanical reward tied
+  to his survival, and having the Broodling — an "aggressive immediately, no passive phase" creature
+  per its own file — spare a second person standing right next to Maria never held up on its own
+  terms. Killing both Daltons regardless of branch removes that inconsistency and lands as a
+  stronger, more complete version of the district's core idea: an ordinary family destroyed by Black
+  Vein, with nothing left over.
 
 ## Important Scenes
 
@@ -76,19 +86,19 @@ the lobby.
 
 Grounded, informative when Jim asks practical questions (road conditions), gently teasing with
 Maria without ever landing unkindly. In the hospital-arrival beat (alive version): panicked but
-still coherent, focused entirely on Maria rather than on his own safety.
+still coherent, focused entirely on Maria rather than on his own safety, all the way through —
+including in the Maternity Ward, where he never stops trying to reach her even once it's clear
+there's nothing left to do.
 
 ## Established Facts
 
 See [`CANON.md`](../CANON.md)/[`STORY_NOTES.md`](../STORY_NOTES.md). Locked: leaves for St. Dymphna
-Hospital with Maria at 11:42 PM. **New (2026-08-13):** Tier 2b conditional survivor, gated on Jim's
-emblem count on arrival (0–1 = alive, 2+ = dead) rather than strict visit order.
+Hospital with Maria at 11:42 PM. **Revised 2026-08-14:** Tier 2b conditional *encounter*, not
+conditional survival — Jim meets him alive if arriving with 0–1 emblems, finds his body at the
+Ambulance Bay if 2+, but Richard dies before the district ends regardless of which branch plays out.
 
 ## Unresolved Ideas
 
-- Whether/how Jim tells the alive version of Richard what actually happened to Maria and the
-  child — a strong candidate for one of the game's more emotionally weighty optional beats, still
-  **not** written. Do not invent a resolution without explicit approval. Scene 2 (alive version)
-  ends on Richard's request that Jim come back and tell him, and Scene 15 (the Maternity Ward) now
-  has Jim witness what happened firsthand rather than just finding an aftermath — but the actual
-  return conversation is deliberately left for a future decision.
+None currently open — the "what does Jim tell him" question from the previous version of this file
+is resolved by this revision: Richard is present for Maria's death himself, so there's no one left
+for Jim to have that conversation with.
