@@ -22,10 +22,10 @@
 
 ## Purpose in the Overall Story
 
-The Northwest District's main "mansion/RPD"-style location: a central hub (the Casting Hall)
-visibly gates several sealed points at once, and reaching the **Industry Crest** means physically
-operating the plant's own casting line to free it from a seized mold, not assembling a matching set
-of keys. Where the Police Station and Hospital each discover Vanguard's betrayal over the course of
+The Northwest District's main "mansion/RPD"-style location: the Casting Hall's own seized machinery
+is the district's centerpiece from the moment Jim finds it, and reaching the **Industry Crest**
+means physically operating the plant's own casting line to free it from a seized mold, not
+assembling a matching set of keys. Where the Police Station and Hospital each discover Vanguard's betrayal over the course of
 one night, the Foundry is where Jim learns the betrayal is decades old — Steelgate Refinery is the
 closest civilian-industrial site to the natural cave system containing Black Vein itself, and
 Vanguard has used it as a controlled access point into those caverns since 1968, studying both the
@@ -192,15 +192,29 @@ mold carriage since Vanguard shut off the underground level. Jim doesn't manufac
 operates the abandoned casting line well enough to free it.
 
 The line runs Ore Hopper → Furnace → Casting Ladle → Mold/Cooling Line, in four physical stages
-rather than a fetch quest: (1) restore furnace fuel flow through manual gas valves, watching
-pressure — too much trips a safety relief, too little won't sustain the burner; (2) operate the
-overhead crane by hand (left/right, forward/back, lower/raise, its shadow visibly sweeping the
-floor) to position the casting ladle over the seized mold's receptacle; (3) heat the mold just
-enough to expand the collar holding the crest assembly, not enough to melt anything important; (4)
-engage the cooling line — water blasts the casting bed, thermal contraction snaps the collar, and
-the ancient mold separates. Beneath the machinery, once it's done: a descending geological access
-shaft — Steelgate wasn't built here because Ravenwood needed a foundry. The foundry exists here
-because of what was underneath it.
+rather than a fetch quest, and **the three rooms this district used to gate with separate keys are
+now the source of what each stage needs**, so operating the line and exploring the plant are the
+same activity rather than a key-chain bolted onto a puzzle:
+
+1. **Restore furnace fuel flow** through manual gas valves, watching pressure — too much trips a
+   safety relief, too little won't sustain the burner. The safe operating range comes from the
+   **Plant Manager's Office**, where Daniel Fitch's own furnace inspection log (filed alongside the
+   Vanguard confrontation transcript) records it.
+2. **Operate the overhead crane** by hand (left/right, forward/back, lower/raise, its shadow
+   visibly sweeping the floor) to position the casting ladle over the seized mold's receptacle. The
+   crane's manual override — normally locked out for safety — is in the **Vanguard Site Office**,
+   alongside the 1968 contracts that explain why a corporate office needed its own crane control in
+   the first place.
+3. **Heat the mold** just enough to expand the collar holding the crest assembly, not enough to
+   melt anything important.
+4. **Engage the cooling line** — water blasts the casting bed, thermal contraction snaps the
+   collar, and the ancient mold separates. The **Restricted Elevator** shaft is where the cooling
+   main was deliberately shut off when Vanguard sealed the underground level; riding it down far
+   enough to reopen the valve is what makes this stage possible at all.
+
+Beneath the machinery, once it's done: a descending geological access shaft — Steelgate wasn't
+built here because Ravenwood needed a foundry. The foundry exists here because of what was
+underneath it.
 
 ## Storyline
 
@@ -214,12 +228,13 @@ because of what was underneath it.
   > this final version matches the elevated 3/4 top-down camera and diamond-tiled floor set by
   > [`Assets/Reference/police_station_bullpen_concept.png`](../Assets/Reference/police_station_bullpen_concept.png))
   > and correctly reads "Steelgate Refinery" throughout the whole regenerated set below.
-- **The Casting Hall (hub).** A vast industrial floor — active conveyor lines, an idle overhead
-  crane, and at least one still-molten holding vat, radiating heat and orange light across the
-  room. From here, Jim can see several locked/sealed points at once: the **Plant Manager's
-  Office** (keyed lock), the **Vanguard Site Office** (a separate, corporate-style lock), and the
-  **Restricted Elevator** (card-reader lock). Unlocked doorways lead to the Foundry Clinic and the
-  Break Room.
+- **The Casting Hall.** The seized casting line dominates the room from the moment Jim steps in —
+  cold conveyor lines, a dead overhead crane frozen mid-swing, and the ceremonial mold carriage
+  itself, locked solid, radiating leftover heat from whatever last happened here. It's obviously
+  the point of the room before Jim understands anything else about it. The Plant Manager's Office,
+  the Vanguard Site Office, and the Restricted Elevator all lead off from here, each holding a
+  piece of what it'll take to get the line running again; unlocked doorways lead to the Foundry
+  Clinic and the Break Room.
 
   ![Casting Hall — room concept](../Assets/Reference/foundry_casting_hall_concept.png)
 
@@ -250,7 +265,10 @@ because of what was underneath it.
 - **The Plant Manager's Office.** Opened with the Manager's Office Key. Daniel Fitch's own desk:
   the confrontation transcript with the Vanguard liaison (*"Contamination risk to who?"*), the
   intercom control he used to order the evacuation, and the **Restricted Elevator Access Card** —
-  left here deliberately once he decided to stop protecting Vanguard's access.
+  left here deliberately once he decided to stop protecting Vanguard's access. A furnace inspection
+  log clipped to a maintenance clipboard, easy to overlook next to the transcript, records the
+  casting line's safe operating pressure — the number the Casting Hall's own gauges don't explain
+  on their own.
 
   ![Plant Manager's Office — room concept](../Assets/Reference/foundry_managers_office_concept.png)
 
@@ -263,7 +281,9 @@ because of what was underneath it.
   Opened with the **Vanguard Site Key**, found at the secondary Loading Docks location (see below)
   — a deliberate district-wide backtrack. Contains decades of research contracts, funding records
   for the "structurally unsafe" mine seals, and the earliest dated correspondence establishing
-  1968 as when this operation began.
+  1968 as when this operation began — plus a locked-out manual override for the Casting Hall's
+  overhead crane, installed so Vanguard could move equipment through the plant without going
+  through the foreman.
 
   ![Vanguard Site Office — room concept](../Assets/Reference/foundry_vanguard_site_office_concept.png)
 
@@ -272,7 +292,9 @@ because of what was underneath it.
 - **The Restricted Elevator.** Card-reader lock; opened with the Access Card from the Manager's
   Office. Descends into the Vanguard-controlled underground levels — the architectural transition
   is immediate and deliberate: industrial brick and steel giving way to sterile reinforced
-  concrete within a few dozen feet.
+  concrete within a few dozen feet. A manual valve beside the shaft, tagged and chained shut, is
+  where Vanguard cut the casting line's cooling water when it sealed this level — reopening it is
+  what lets the line run at all.
 
   ![Restricted Elevator — room concept](../Assets/Reference/foundry_restricted_elevator_concept.png)
 
@@ -381,8 +403,8 @@ because of what was underneath it.
 
 **Surface Plant:**
 - Loading Yard (entry; flee-attempt aftermath)
-- Casting Hall (hub — visibly gates the Manager's Office, Vanguard Site Office, and Restricted
-  Elevator from the start)
+- Casting Hall (the seized casting line itself, visible and central from the moment Jim enters —
+  the Manager's Office, Vanguard Site Office, and Restricted Elevator each feed one stage of it)
 - Foundry Clinic (Manager's Office Key; signature single encounter)
 - Break Room / Locker Room (optional; personal effects; Medkit)
 - Plant Manager's Office (locked; Restricted Elevator Access Card)
@@ -428,7 +450,7 @@ because of what was underneath it.
 flowchart TD
     ENTRY(["Northwest District Entry"])
     YARD["Loading Yard<br/>💥 flee-attempt aftermath"]
-    HALL["🏭 CASTING HALL — hub<br/>sees Manager's Office · Vanguard Site Office · Restricted Elevator all locked at once"]
+    HALL["🏭 CASTING HALL<br/>seized casting line dominates the room immediately<br/>Manager's Office · Vanguard Site Office · Restricted Elevator each hold a piece of restarting it"]
 
     ENTRY --> YARD --> HALL
 
@@ -625,7 +647,9 @@ flowchart TD
 ## Major Scripted Events
 
 - The flee-attempt aftermath at the Loading Yard (environmental, on arrival).
-- The Clinic → Manager's Office → Restricted Elevator key chain, taking Jim underground.
+- Gathering the furnace pressure log, the crane override, and the cooling valve across the Manager's
+  Office, Vanguard Site Office, and Restricted Elevator, then running the Casting Line puzzle to
+  free the Industry Crest's mold and open the way underground.
 - Finding the EXPOSURE COHORTS records and realizing the "health program" was surveillance.
 - The Machine Shops → Security Checkpoint backtrack, culminating in the Exposure Cohort fight.
 - Retrieving the Industry Crest from the Founder's Boardroom.

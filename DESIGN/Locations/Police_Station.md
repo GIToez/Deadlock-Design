@@ -234,19 +234,20 @@ the only way through.
 
   ![Modern Holding Cells — room concept](../Assets/Reference/police_station_modern_cells_concept.png)
 
-- **The Fire Station** (secondary). Supplies, a dispatch call-sheet board that cuts off
-  mid-sentence, and a pair of **bolt cutters** — the Property & Evidence Room's electronic lockdown
-  and its physical padlock are two separate things; the department's own added security on top of
-  the automated system.
+- **The Fire Station** (secondary, optional). Supplies, a dispatch call-sheet board that cuts off
+  mid-sentence, and a pair of **bolt cutters** — needed only for a padlocked evidence locker inside
+  the Property & Evidence Room, not the room's own door. A bonus-loot detour, not a critical-path
+  requirement.
 
   ![Ravenwood Fire Station — room concept](../Assets/Reference/police_station_fire_station_concept.png)
 
 - **The Property & Evidence Room.** Resetting the lockdown from the Holding Cells' interior control
-  point releases the automated door; the bolt cutters (from the Fire Station) still handle the
-  padlock the department added afterward. Inside: a proper long-term evidence room, an interior log
-  confirming this was the second zone sealed — deliberately, to keep it from Vanguard — and the
-  **Evidence Room Key**, itself tagged as evidence, which opens the Courthouse's Clerk's Exhibit
-  Storage across town. A wall terminal here resets the Armory next.
+  point releases the room's own door — no separate physical lock stands between Jim and the wall
+  terminal that resets the Armory next. A padlocked evidence locker against the back wall (bolt
+  cutters, from the Fire Station, optional) holds bonus loot and the **Evidence Room Key**, which
+  opens the Courthouse's Clerk's Exhibit Storage across town — a reward chain, not something the
+  Lockdown Puzzle depends on. The room's own interior log confirms this was the second zone
+  sealed, deliberately, to keep it from Vanguard.
 
   ![Property & Evidence Room — room concept](../Assets/Reference/police_station_evidence_room_concept.png)
 
@@ -413,7 +414,7 @@ flowchart TD
     INTERVIEW["Interview Room<br/>📄 Interview recording"]
     OBSBOOTH["Vanguard Observation Booth<br/>📄 evidence of Black Vein stress-trigger testing"]
     CELLS["Holding Cells — Zone 1<br/>☠️ shambler — behind bars, bypassable<br/>🔒 interior control resets Evidence next"]
-    PROPERTY["Property & Evidence Room — Zone 2<br/>🔧 padlock — needs Bolt Cutters<br/>🗝️ Evidence Room Key<br/>🔒 controls Armory next"]
+    PROPERTY["Property & Evidence Room — Zone 2<br/>🔒 controls Armory next<br/>🔧 optional padlocked locker — needs Bolt Cutters<br/>🗝️ Evidence Room Key (optional)"]
     BASEMENTREF(["🔒 Basement Stairwell / Cold Cells<br/>(see Diagram 6)"])
 
     BULLPENREF2 --> BOOKCORR
@@ -421,7 +422,6 @@ flowchart TD
     BOOKCORR -. Vanguard Access Card, from Cole's Office .-> OBSBOOTH
     CELLS -. interior control, resets Zone 2 .-> PROPERTY
     BOOKCORR -. Vanguard Access Card, from Cole's Office .-> BASEMENTREF
-    PROPERTY -. Bolt Cutters, from Fire Station, for the padlock .-> PROPERTY
 
     classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
     classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
@@ -515,10 +515,10 @@ flowchart TD
   incident log, the Evidence Room's own record, and Reyes' last assignment), then physically route
   through the building resetting them in that order, since resetting one automatically re-secures
   the zone behind it. The old station house — and the Authority Crest — is the last zone freed.
-- **The Fire Station → Property Room chain.** The evidence room's electronic lock and its added
-  physical padlock are separate; the padlock still needs bolt cutters from the Fire Station, two
-  blocks away — a deliberate, optional backtrack (loot + the Courthouse's cross-location key), not
-  something gating the crest.
+- **The Fire Station → Property Room chain (optional).** Bolt cutters from the Fire Station open a
+  padlocked locker inside the Evidence Room, not the room's own door — a deliberate optional
+  backtrack for bonus loot and the Courthouse's cross-location key, kept clearly separate from the
+  Lockdown Puzzle so the critical path never depends on it.
 - **The Vanguard Access Card chain (optional).** Searching Detective Cole's desk yields a single
   card that opens three separate doors across the station (the Liaison Office, the Basement
   Stairwell, and the Observation Booth) — a "one key, whole hidden layer" reveal, distinct from the

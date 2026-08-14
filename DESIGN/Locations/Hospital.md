@@ -220,12 +220,15 @@ trying to keep something out. It was trying to keep something in.
   > AI-generated room concept (2026-08-13). Note: the wall signage reads "RAVENCROFT COUNTY
   > HOSPITAL" — flagged as a generation error, not a new hospital name; this district's hospital
   > is locked as **St. Dymphna Hospital** per [`CANON.md`](../CANON.md).
-- **The Emergency Department / Triage Hall (hub).** Gurneys line the walls; hallway triage stations
-  sit abandoned mid-use. From here, Jim can see several locked/sealed points at once: the
-  **Laboratory** (keyed lock), **Administration** (keyed lock), the **Surgical Wing** (card-reader
-  lock, card not yet found), and a barricaded stairwell up to the **Psychiatric/Behavioral Health
-  Ward**. Unlocked doorways lead to Radiology, the Maternity Ward corridor, and a dim stairwell
-  down to the Morgue.
+- **The Emergency Department / Triage Hall.** Gurneys line the walls; hallway triage stations sit
+  abandoned mid-use, PA fragments still looping overhead. This isn't a room Jim sizes up all at
+  once — he's pulled into it the way the hospital itself was: Radiology's still-open doors first,
+  the Maternity Ward corridor next, a dim stairwell down to the Morgue he almost misses. Only after
+  he's already deep into the wing does the shape of the actual problem become visible — the
+  Laboratory and Administration sealed behind ordinary locks, the Surgical Wing behind a
+  card-reader with no card in sight, and a barricaded stairwell up to the Psychiatric/Behavioral
+  Health Ward — by which point it reads less like a hub with four doors and more like a building
+  that slowly reveals how badly it failed.
 
   ![Emergency Department / Triage Hall — room concept](../Assets/Reference/hospital_ed_triage_hall_concept.png)
 
@@ -414,7 +417,7 @@ trying to keep something out. It was trying to keep something in.
 flowchart TD
     ENTRY(["Northeast District Entry"])
     BAY["Ambulance Bay<br/>👤 Richard Dalton (conditional — alive or body)<br/>🗝️ Fire Axe"]
-    ED["🏥 EMERGENCY DEPT / TRIAGE HALL — hub<br/>sees Laboratory · Administration · Surgical Wing · Psych Ward stairwell all locked at once"]
+    ED["🏥 EMERGENCY DEPT / TRIAGE HALL<br/>Jim is pulled deeper in before the sealed wings become visible<br/>eventually reveals Laboratory · Administration · Surgical Wing · Psych Ward stairwell, all locked"]
 
     ENTRY --> BAY --> ED
 

@@ -280,11 +280,13 @@ puzzle transitions directly into a survival stretch, Jim having just announced h
 to half the ridge. The crypt and the Faith Crest are the payoff, alongside the oldest evidence in
 the game that something beneath Ravenwood was known long before Vanguard existed.
 
-**Reconciliation note:** the room descriptions below still route the Cloister/Bell Tower/Crypt
-Antechamber through a Cloister Key → Bell Tower Key → Crypt Antechamber Key chain, written before
-this mechanic was locked. Since this district has no script yet, that chain should be replaced by
-the bell-ringing mechanic above when this district is actually scripted, rather than layered on top
-of it.
+The three clue sources are spread across rooms Jim can already freely reach — the Chapel's own
+mural, a prayer book in the Library/Archive, and four statues in the Cloister — rather than gated
+behind their own locks. The Bell Tower itself is unlocked from the moment Jim reaches it; nothing
+stops him from pulling the ropes in the wrong order, it just does nothing until he has the right
+one. **The critical path here is almost entirely key-free** — the one exception is the optional
+Hidden Archive (Overlook Trail's Archive Key), which stays a pure backtrack reward, not something
+gating the Faith Crest.
 
 ## Storyline
 
@@ -298,12 +300,12 @@ of it.
   > full-isometric style drift, then again to fix that pass's own flat/eye-level drift). This
   > version matches the elevated 3/4 top-down camera and diamond-rotated cobblestone path set by
   > [`Assets/Reference/police_station_bullpen_concept.png`](../Assets/Reference/police_station_bullpen_concept.png).
-- **The Chapel (hub).** Civilians and injured; pews pushed aside for makeshift cots, candles burned
-  down to stubs, and a Vanguard decontamination station incongruously installed beneath a
-  centuries-old side staircase. From here, Jim can see the Library/Archive (locked), the Cloister
-  (locked), the Bell Tower stairwell (locked), and the heavy sealed door toward the Crypt
-  Antechamber (locked) — several visibly closed-off points seen at once, same convention as the
-  other four main locations.
+- **The Chapel.** Civilians and injured; pews pushed aside for makeshift cots, candles burned down
+  to stubs, and a Vanguard decontamination station incongruously installed beneath a centuries-old
+  side staircase. A faded mural above the altar — Dawn, Labor, Mourning, Rest, each figure standing
+  beneath a different bell — has clearly been here far longer than anyone currently praying under
+  it. The Library/Archive, the Cloister, and the Bell Tower stairwell all lead off from here,
+  unlocked; the heavy stone seal beneath the altar itself is the only thing not yet open.
 
   ![Chapel — room concept](../Assets/Reference/monastery_chapel_concept.png)
 
@@ -314,10 +316,10 @@ of it.
   > Vanguard decontamination station beneath the side staircase, pews-as-cots, and candles; the
   > earlier version's non-canonical Hospital-style-reference carryover (a "Dr. Edward Halloway"
   > portrait and caduceus stained glass) is gone.
-- **Guest Quarters / Infirmary Cell.** Open from the Chapel. Where the injured Foundry worker was
-  sheltered — this district's signature single encounter (fully turned by the time Jim arrives).
-  Torn bedsheets used as improvised restraints, a scattered cave map with a circled tunnel
-  junction and Vanguard access designation. The **Library Key** is found here.
+- **Guest Quarters / Infirmary Cell.** Unlocked, off the Chapel. Where the injured Foundry worker
+  was sheltered — this district's signature single encounter (fully turned by the time Jim
+  arrives). Torn bedsheets used as improvised restraints, a scattered cave map with a circled
+  tunnel junction and Vanguard access designation.
 
   ![Guest Quarters / Infirmary Cell — room concept](../Assets/Reference/monastery_guest_quarters_concept.png)
 
@@ -331,19 +333,21 @@ of it.
 
   > AI-generated room concept (2026-08-14) — already matched the elevated 3/4 top-down reference
   > style on the perspective re-audit and was not regenerated a second time.
-- **Library / Archive.** Opened with the Library Key. The monastery's Vanguard-accessible archive —
-  cave maps, burial records, and correspondence between earlier abbots — plus a clue toward a
-  hidden entrance whose actual key is not here, but at the secondary Overlook Trail location (see
-  below), a deliberate district-wide backtrack.
+- **Library / Archive.** Unlocked. The monastery's own archive — cave maps, burial records, and
+  correspondence between earlier abbots — plus a worn prayer book marking the traditional order of
+  the tower's daily bell calls (one of the Bell Tower puzzle's three clue sources), and a separate
+  clue toward a hidden entrance whose key is not here but at the secondary Overlook Trail location
+  (see below) — an optional district-wide backtrack, not a required one.
 
   ![Library / Archive — room concept](../Assets/Reference/monastery_library_archive_concept.png)
 
   > AI-generated room concept (2026-08-14) — already matched the elevated 3/4 top-down reference
   > style on the perspective re-audit and was not regenerated a second time.
-- **The Hidden Archive.** Opened with the **Archive Key**, found at Overlook Trail. Brother
-  Cormac's secret collection: original cave maps, drawings of abnormal bone growth, livestock
-  deformity records, and the "the stone does not restore what is lost" document. The **Cloister
-  Key** is found here.
+- **The Hidden Archive** (optional). Opened with the **Archive Key**, found at Overlook Trail —
+  the district's one surviving optional backtrack key. Brother Cormac's secret collection: original
+  cave maps, drawings of abnormal bone growth, livestock deformity records, and the "the stone does
+  not restore what is lost" document. Not required for the Faith Crest; a reward for players who
+  make the trip.
 
   ![Hidden Archive — room concept](../Assets/Reference/monastery_hidden_archive_concept.png)
 
@@ -352,45 +356,52 @@ of it.
   > generation errors persist: it baked in an unprompted "MONASTERY HIDDEN ARCHIVE / Brother
   > Cormac's Secret Collection / OF FORBIDDEN RECORDS" caption card and a "DON GABRIEL MUSEUM"
   > door sign — ignore both; this room has no such signage.
-- **The Cloister.** Opened with the Cloister Key. The police's defensive position during the
-  Vanguard standoff (beats 18–20) — sandbags, a barricaded colonnade, spent shell casings, and the
-  old Vanguard memorandum the monk handed the responding officer. The **Bell Tower Key** is found
-  here.
+- **The Cloister.** Unlocked, off the Chapel. The police's defensive position during the Vanguard
+  standoff (beats 18–20) — sandbags, a barricaded colonnade, spent shell casings, and the old
+  Vanguard memorandum the monk handed the responding officer. Four weathered statues stand at the
+  colonnade's four corners, each facing one of the cardinal directions — the second of the Bell
+  Tower puzzle's three clue sources.
 
   ![Cloister — room concept](../Assets/Reference/monastery_cloister_concept.png)
 
   > AI-generated room concept, regenerated 2026-08-14 (twice — first to fix a full-isometric
   > style drift, then again to fix that pass's own flat/eye-level drift) — now matches the
   > elevated 3/4 top-down camera and diamond floor pattern of the Police Station/Hotel reference.
-- **The Bell Tower.** Opened with the Bell Tower Key. The radio/observation room and the bells
-  themselves — rope-pull mechanism, a view across the whole ridge and burning town below, and a
-  logbook entry describing the emergency ringing pattern used in beat 26.
+- **The Bell Tower.** Unlocked, up the Chapel's side staircase. The radio/observation room and the
+  bells themselves — four rope-pull mechanisms, a view across the whole ridge and burning town
+  below, and a logbook entry describing the emergency ringing pattern used in beat 26. Jim can pull
+  any rope at any time; nothing happens until he pulls them in the order the mural, the prayer
+  book, and the cloister statues all independently point to.
 
   ![Bell Tower — room concept](../Assets/Reference/monastery_bell_tower_concept.png)
 
   > AI-generated room concept, regenerated 2026-08-14 (twice, same correction as above) — now
   > matches the elevated 3/4 top-down camera and diamond floor pattern of the reference style.
-- **Crypt Antechamber.** Locked; opened with the **Crypt Antechamber Key**, found at the secondary
-  Hillside Cemetery location (see below) — a second deliberate district-wide backtrack. Modern
-  Vanguard equipment hidden behind ancient masonry: cables, sensors, drilling marks — the
-  monastery's version of the Hospital's unauthorized-experiments discovery. Yields a **Breaching
-  Tool** needed to force the ancient gate beyond.
+- **Crypt Antechamber** (optional). Opened with the **Crypt Antechamber Key**, found at the
+  secondary Hillside Cemetery location (see below) — an optional backtrack, not a required one.
+  Modern Vanguard equipment hidden behind ancient masonry: cables, sensors, drilling marks — the
+  monastery's version of the Hospital's unauthorized-experiments discovery, and physical proof
+  Vanguard tried to bypass the bell mechanism entirely with a modern drill rig rather than solve
+  it. The rig failed; the ancient seal held. Doesn't lead anywhere the Bell Tower puzzle doesn't
+  already open — a dead end by design, not a shortcut.
 
   ![Crypt Antechamber — room concept](../Assets/Reference/monastery_crypt_antechamber_concept.png)
 
   > AI-generated room concept, regenerated 2026-08-14 (twice, same correction as above) — now
   > matches the elevated 3/4 top-down camera and diamond floor pattern of the reference style.
-- **The Old Seal / Crypt Depths.** Forced open with the Breaching Tool. This district's signature
-  pack encounter — infected that reached the monastery through Vanguard's own illicit tunnel
-  connection to the wider cave network (see "Creatures Encountered," below, for the deliberately
-  open question of exactly which). Beyond the cracked ancient gate: generations-old warning
-  inscriptions, sealed burial niches, and the **Reliquary Key**, dropped after the encounter.
+- **The Old Seal / Crypt Depths.** Reached once the Bell Tower's stone seal retracts beneath the
+  altar — no tool, no key, just the mechanism Jim solved. This district's signature pack
+  encounter — infected that reached the monastery through Vanguard's own illicit tunnel connection
+  to the wider cave network (see "Creatures Encountered," below, for the deliberately open question
+  of exactly which). Generations-old warning inscriptions and sealed burial niches line the way to
+  the Reliquary beyond.
 
   ![The Old Seal / Crypt Depths — room concept](../Assets/Reference/monastery_old_seal_crypt_depths_concept.png)
 
   > AI-generated room concept, regenerated 2026-08-14 (twice, same correction as above) — now
   > matches the elevated 3/4 top-down camera and diamond floor pattern of the reference style.
-- **The Reliquary.** Opened with the Reliquary Key. A small, dignified sacred chamber housing
+- **The Reliquary.** Unlocked once the crypt beyond the seal is reached — no separate key of its
+  own. A small, dignified sacred chamber housing
   relics and the monastery's own founding record. A reliquary case holds the **Faith Crest**: a
   bronze, wedge-shaped medallion bearing a relief portrait of **Abbot Matthias Kane**, his name
   and title, and a cross emblem. The direct payoff of this district's entire loop, matching the Old
@@ -425,10 +436,10 @@ of it.
   > AI-generated room concept, regenerated 2026-08-14 (twice — first to fix a full-isometric
   > style drift, then again to fix that pass's own flat/eye-level drift) — now matches the
   > elevated 3/4 top-down camera and diamond-rotated street paving of the reference style.
-- **Hillside Cemetery** (secondary, load-bearing). Per
-  [`STORY_NOTES.md`](../STORY_NOTES.md)'s earlier city-layout notes: disturbed graves and one very
-  recent unmarked grave — dug specifically to hide something. The **Crypt Antechamber Key** is
-  found here.
+- **Hillside Cemetery** (secondary, optional). Per [`STORY_NOTES.md`](../STORY_NOTES.md)'s earlier
+  city-layout notes: disturbed graves and one very recent unmarked grave — dug specifically to hide
+  something. The **Crypt Antechamber Key** is found here, opening the optional Crypt Antechamber
+  above — not required for the Faith Crest.
 
   ![Hillside Cemetery — room concept](../Assets/Reference/monastery_hillside_cemetery_concept.png)
 
@@ -437,7 +448,7 @@ of it.
   > again to fix the second pass's own flat/eye-level drift) — now matches the elevated 3/4
   > top-down camera and diamond-rotated ground pattern; the sign correctly reads "Hillside
   > Cemetery."
-- **Overlook Trail** (secondary, load-bearing). Per [`STORY_NOTES.md`](../STORY_NOTES.md)'s earlier
+- **Overlook Trail** (secondary, optional). Per [`STORY_NOTES.md`](../STORY_NOTES.md)'s earlier
   city-layout notes: a quiet vista of the whole burning city, reframing the disaster's scale for
   the player. A monk who died fleeing with documents lies along the trail; the **Archive Key** is
   found on his body.
@@ -452,24 +463,25 @@ of it.
 
 **Main Building:**
 - Monastery Gate / Approach (entry)
-- Chapel (hub — visibly gates the Library/Archive, the Cloister, the Bell Tower, and the Crypt
-  Antechamber from the start)
-- Guest Quarters / Infirmary Cell (signature single encounter; Library Key)
+- Chapel (mural clue; unlocked access to the Library/Archive, the Cloister, and the Bell Tower)
+- Guest Quarters / Infirmary Cell (unlocked; signature single encounter)
 - The Spring / Well Chamber (optional, non-gating flavor room)
-- Library / Archive (locked; needs Library Key; clue toward Overlook Trail)
-- The Hidden Archive (locked; needs Archive Key from Overlook Trail; Cloister Key)
-- The Cloister (locked; needs Cloister Key; Bell Tower Key)
-- The Bell Tower (locked; needs Bell Tower Key)
-- Crypt Antechamber (locked; needs Crypt Antechamber Key from Hillside Cemetery; Breaching Tool)
-- The Old Seal / Crypt Depths (needs Breaching Tool; signature pack encounter; Reliquary Key)
-- The Reliquary (locked; needs Reliquary Key; FAITH CREST)
+- Library / Archive (unlocked; prayer book clue; optional Hidden Archive lead via Overlook Trail)
+- The Hidden Archive (optional; needs Archive Key from Overlook Trail)
+- The Cloister (unlocked; statue clue)
+- The Bell Tower (unlocked; the puzzle itself — ring the four bells in the derived order)
+- Crypt Antechamber (optional; needs Crypt Antechamber Key from Hillside Cemetery; dead end by
+  design, not a shortcut)
+- The Old Seal / Crypt Depths (reached once the Bell Tower puzzle opens the altar seal; signature
+  pack encounter)
+- The Reliquary (unlocked once the crypt is reached; FAITH CREST)
 - The Sealed Passage / Old Caves (mandatory story beat, reached past the Reliquary; no lock, no
   combat; final surface-world scene before Chapter 3)
 
 **Secondary Locations (district, not the main monastery building):**
 - Hillside Residential Street (optional: environmental storytelling only)
-- Hillside Cemetery (load-bearing: Crypt Antechamber Key)
-- Overlook Trail (load-bearing: Archive Key)
+- Hillside Cemetery (optional: Crypt Antechamber Key)
+- Overlook Trail (optional: Archive Key)
 
 ## Blueprint (Room Connectivity)
 
@@ -491,13 +503,13 @@ of it.
 > - 🔵 **pill, blue** — exterior space.
 > - ⚪ **dashed grey pill** — a pointer back to a node defined in full on another diagram.
 
-### 1. District Entry → Monastery Gate → Chapel (hub)
+### 1. District Entry → Monastery Gate → Chapel
 
 ```mermaid
 flowchart TD
     ENTRY(["North District Entry"])
     GATE["Monastery Gate / Approach<br/>💥 storm damage"]
-    CHAPEL["⛪ CHAPEL — hub<br/>civilians &amp; injured · sees Library · Cloister · Bell Tower · Crypt Antechamber all locked at once"]
+    CHAPEL["⛪ CHAPEL<br/>civilians &amp; injured · 📄 mural clue (Bell Tower puzzle 1 of 3)<br/>unlocked access to Library, Cloister, Bell Tower"]
 
     ENTRY --> GATE --> CHAPEL
 
@@ -526,50 +538,49 @@ flowchart TD
     class GUEST boss
 ```
 
-### 3. The Archive / Cloister / Bell Tower Chain
+### 3. The Bell Tower Puzzle (branches off the Chapel; all unlocked)
 
 ```mermaid
 flowchart TD
-    CHAPELREF2(["⛪ Chapel<br/>(from Diagram 1)"])
+    CHAPELREF2(["⛪ Chapel<br/>(from Diagram 1)<br/>📄 mural clue"])
     TRAILREF(["Overlook Trail<br/>(see Diagram 5)"])
-    LIBRARY["Library / Archive<br/>📄 cave maps · abbots' correspondence<br/>clue toward Overlook Trail"]
-    HIDDEN["The Hidden Archive<br/>👤 Brother Cormac's secret collection<br/>📄 'the stone does not restore what is lost'<br/>🗝️ Cloister Key"]
-    CLOISTER["The Cloister<br/>👤 police defensive position<br/>📄 old Vanguard memorandum<br/>🗝️ Bell Tower Key"]
-    BELL["The Bell Tower<br/>📄 emergency bell-ringing logbook<br/>vista over the burning town"]
+    LIBRARY["Library / Archive<br/>📄 prayer book clue (Bell Tower puzzle 2 of 3)<br/>clue toward optional Overlook Trail backtrack"]
+    HIDDEN["The Hidden Archive (optional)<br/>👤 Brother Cormac's secret collection<br/>📄 'the stone does not restore what is lost'"]
+    CLOISTER["The Cloister<br/>👤 police defensive position<br/>📄 old Vanguard memorandum<br/>📄 four statues clue (Bell Tower puzzle 3 of 3)"]
+    BELL["🔧 THE BELL TOWER<br/>ring 4 bells in the derived order<br/>📄 emergency bell-ringing logbook<br/>opens the altar seal below"]
 
-    CHAPELREF2 -. Library Key .-> LIBRARY
-    TRAILREF -. Archive Key .-> LIBRARY
-    LIBRARY -. Archive Key, from Overlook Trail .-> HIDDEN
-    HIDDEN -. Cloister Key .-> CLOISTER
-    CLOISTER -. Bell Tower Key .-> BELL
+    CHAPELREF2 --> LIBRARY
+    CHAPELREF2 --> CLOISTER
+    CHAPELREF2 --> BELL
+    TRAILREF -. Archive Key, optional .-> LIBRARY -. Archive Key .-> HIDDEN
 
     classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
     classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
+    classDef puzzle fill:#FFF0D6,stroke:#C98A1E,color:#3a2a00,stroke-width:2px
     class CHAPELREF2,TRAILREF ref
-    class LIBRARY,HIDDEN,CLOISTER,BELL room
+    class LIBRARY,HIDDEN,CLOISTER room
+    class BELL puzzle
 ```
 
-### 4. The Deep Chain — Crypt Antechamber → the Old Seal → the Reliquary → the Sealed Passage
+### 4. The Deep Chain — the Old Seal → the Reliquary → the Sealed Passage
 
 ```mermaid
 flowchart TD
-    CHAPELREF3(["⛪ Chapel<br/>(from Diagram 1)"])
+    BELLREF(["🔧 Bell Tower puzzle solved<br/>(from Diagram 3)"])
     CEMETERYREF(["Hillside Cemetery<br/>(see Diagram 5)"])
-    ANTECHAMBER["Crypt Antechamber<br/>👤 Vanguard's hidden excavation equipment<br/>🗝️ Breaching Tool"]
-    OLDSEAL["🔴 THE OLD SEAL / CRYPT DEPTHS<br/>🔧 ancient gate — needs Breaching Tool<br/>☠️☠️ infected via Vanguard's illicit tunnel<br/>🗝️ Reliquary Key"]
+    ANTECHAMBER["Crypt Antechamber (optional, dead end)<br/>👤 Vanguard's failed excavation attempt"]
+    OLDSEAL["🔴 THE OLD SEAL / CRYPT DEPTHS<br/>☠️☠️ infected via Vanguard's illicit tunnel"]
     RELIQUARY["The Reliquary<br/>🗝️ FAITH CREST<br/>📄 founding record"]
     SEALEDPASSAGE["⚠️ THE SEALED PASSAGE / OLD CAVES<br/>mandatory story beat, no combat<br/>📄 'A vein without end'<br/>final surface scene before Chapter 3"]
 
-    CEMETERYREF -. Crypt Antechamber Key .-> CHAPELREF3
-    CHAPELREF3 -. Crypt Antechamber Key, from Hillside Cemetery .-> ANTECHAMBER
-    ANTECHAMBER -. Breaching Tool .-> OLDSEAL
-    OLDSEAL -. Reliquary Key .-> RELIQUARY --> SEALEDPASSAGE
+    CEMETERYREF -. Crypt Antechamber Key, optional .-> ANTECHAMBER
+    BELLREF --> OLDSEAL --> RELIQUARY --> SEALEDPASSAGE
 
     classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
     classDef boss fill:#FFE0E0,stroke:#C0392B,color:#3a0d0d,stroke-width:2px
     classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
     classDef vanguard fill:#E0D6EC,stroke:#6A3FA0,color:#2a1a3a,stroke-width:2px
-    class CHAPELREF3,CEMETERYREF ref
+    class BELLREF,CEMETERYREF ref
     class ANTECHAMBER,RELIQUARY room
     class OLDSEAL boss
     class SEALEDPASSAGE vanguard
@@ -617,37 +628,34 @@ flowchart TD
 
 ## Puzzles
 
-- **The Bell Tower Puzzle (main, target design — see "The Bell Tower," above).** Derive the correct
-  bell-ringing order from the monastery's own mural, prayer book, and cloister statues, then ring
-  the four bells in that order to open the crypt seal beneath the altar — no keys, no electronics,
-  and a survival stretch as its direct cost.
-- **The Overlook Trail → Hidden Archive backtrack.** Kept as-is: reaching Brother Cormac's secret
-  collection still requires a district-wide backtrack to the Overlook Trail secondary location,
-  independent of the Bell Tower mechanic.
-- **The Hillside Cemetery → Crypt Antechamber backtrack.** Kept as-is: the Antechamber's own
-  Vanguard excavation equipment is still reached via the Hillside Cemetery secondary location.
-- *(Still to reconcile: the room-by-room key chain in "Storyline," above, predates this mechanic —
-  see the reconciliation note there.)*
+- **The Bell Tower Puzzle (main, and effectively the district's only mandatory puzzle — see "The
+  Bell Tower," above).** Derive the correct bell-ringing order from the monastery's own mural
+  (Chapel), prayer book (Library), and cloister statues, then ring the four bells in that order to
+  open the crypt seal beneath the altar. Deliberately **almost entirely key-free**: every room that
+  matters to this puzzle is open from the start, so the challenge is interpretation, not access —
+  the intended contrast with the Foundry's heavy machinery and the Police Station's procedural
+  routing. Ringing the bells also draws enemies toward the monastery, turning the payoff into a
+  survival stretch rather than a simple door opening.
+- **The Overlook Trail → Hidden Archive backtrack (optional).** A pure lore reward, not required
+  for the Faith Crest.
+- **The Hillside Cemetery → Crypt Antechamber backtrack (optional).** A pure lore reward — proof
+  Vanguard tried and failed to bypass the bell mechanism with modern drilling equipment — not
+  required for the Faith Crest, and doesn't shortcut the Bell Tower puzzle.
 
 ## Key Items
 
-- **Library Key** (_no `Items/` writeup yet_) — Guest Quarters / Infirmary Cell; opens the
-  Library/Archive.
-- **Archive Key** (_no `Items/` writeup yet_) — Overlook Trail (secondary location); opens the
-  Hidden Archive.
-- **Cloister Key** (_no `Items/` writeup yet_) — the Hidden Archive; opens the Cloister.
-- **Bell Tower Key** (_no `Items/` writeup yet_) — the Cloister; opens the Bell Tower.
-- **Crypt Antechamber Key** (_no `Items/` writeup yet_) — Hillside Cemetery (secondary location);
-  opens the Crypt Antechamber.
-- **Breaching Tool** (_no `Items/` writeup yet_) — the Crypt Antechamber; forces the ancient gate
-  into the Old Seal / Crypt Depths.
-- **Reliquary Key** (_no `Items/` writeup yet_) — dropped after clearing the Old Seal / Crypt
-  Depths' pack encounter; opens the Reliquary.
+- **Archive Key** (_no `Items/` writeup yet_, optional) — Overlook Trail (secondary location);
+  opens the Hidden Archive.
+- **Crypt Antechamber Key** (_no `Items/` writeup yet_, optional) — Hillside Cemetery (secondary
+  location); opens the Crypt Antechamber.
 - **Faith Crest** (_no `Items/` writeup yet_) — the district's founder's emblem; the Reliquary's
-  display case.
+  display case, reached once the Bell Tower puzzle opens the crypt below — no key of its own.
 
-> None of this district's key items have their own `Items/` writeup yet, same status as the
-> Hospital's, Foundry's, and Academy's own new key items — see "Unresolved Ideas," below.
+> Neither surviving key has an `Items/` writeup yet — see "Unresolved Ideas," below. The previous
+> version of this section listed six mandatory keys and a Breaching Tool (Library, Archive,
+> Cloister, Bell Tower, Crypt Antechamber, Reliquary); all but the two optional ones above were
+> removed (2026-08-14) once the Bell Tower Puzzle made them redundant with the district's own
+> design intent — see [`STORY_NOTES.md`](../STORY_NOTES.md) for the rationale.
 
 ### Documents
 
@@ -682,11 +690,13 @@ flowchart TD
 ## Major Scripted Events
 
 - The signature encounter at the Guest Quarters / Infirmary Cell (the turned Foundry worker).
-- The Overlook Trail → Hidden Archive → Cloister → Bell Tower backtrack, revealing Brother
-  Cormac's secret collection and the police/Vanguard standoff aftermath.
-- The Hillside Cemetery → Crypt Antechamber backtrack, revealing Vanguard's illicit excavation
-  equipment.
-- The Old Seal / Crypt Depths pack encounter, cracking the ancient gate.
+- Deriving the Bell Tower's ringing order from the Chapel mural, the Library's prayer book, and the
+  Cloister's four statues, then ringing the bells and surviving what it draws in.
+- (Optional) The Overlook Trail → Hidden Archive backtrack, revealing Brother Cormac's secret
+  collection.
+- (Optional) The Hillside Cemetery → Crypt Antechamber backtrack, revealing Vanguard's failed
+  attempt to drill past the bell mechanism entirely.
+- The Old Seal / Crypt Depths pack encounter, once the altar seal retracts.
 - Retrieving the Faith Crest from the Reliquary.
 - The mandatory, non-combat Sealed Passage / Old Caves finale — **the last surface-world scene in
   the game**, delivering Brother Cormac's final broadcast and the direct narrative handoff into
@@ -719,9 +729,9 @@ and descends the revealed staircase — beginning Chapter 3.
 - **This entire district is a first draft, pending review** — same status the Foundry, Hospital,
   Academy, and (originally) the Police Station had before their own reviews/restructures were
   approved.
-- None of the eight new key items above have individual `Items/Key_Items/` writeups yet — proposed
-  as a future pass alongside the still-pending `Items/` audits for the Hospital, Foundry, and
-  Academy.
+- Neither of the two optional key items above has an individual `Items/Key_Items/` writeup yet —
+  proposed as a future pass alongside the still-pending `Items/` audits for the Hospital, Foundry,
+  and Academy.
 - **No unique named boss creature or new creature type is proposed for this district** — the
   source material explicitly leaves this open ("the exact creature can depend on what enemy roster
   eventually fits the location"). Given the Police Station, Hospital, and Foundry each have a

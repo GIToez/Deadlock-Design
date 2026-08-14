@@ -25,13 +25,16 @@
 
 ## Purpose in the Overall Story
 
-The Southeast District's main "mansion/RPD"-style location: a central hub (the Gymnasium) visibly
-gates several sealed points at once, and reaching the **Knowledge Crest** means reconstructing
-Ravenwood's own founding history well enough to find where Principal Ashford hid it, not
-assembling a matching set of keys. Where the other three institutions each fail because Vanguard
-corrupted them from within, Worthy Academy fails because it did exactly what a civilian shelter is
-supposed to do — and Vanguard used that cooperation against it, turning the shelter's own registry
-into a tool for locating exposure cohorts and their families.
+The Southeast District's main "mansion/RPD"-style location, and deliberately the least hub-shaped
+of the five: Jim doesn't size up the Gymnasium and mentally catalogue what's locked from it the way
+he might at the Bullpen or the Casting Hall. He follows the aftermath of a failed shelter outward —
+cots, backpacks, a missing-person board, PA fragments — before the building's actual shape, or the
+fact that Principal Ashford hid something in its own history, ever becomes obvious. Reaching the
+**Knowledge Crest** means reconstructing Ravenwood's own founding history well enough to find where
+she hid it, not assembling a matching set of keys. Where the other three institutions each fail
+because Vanguard corrupted them from within, Worthy Academy fails because it did exactly what a
+civilian shelter is supposed to do — and Vanguard used that cooperation against it, turning the
+shelter's own registry into a tool for locating exposure cohorts and their families.
 
 ## Outbreak Night — What Actually Happened (proposed 2026-08-13, pending review)
 
@@ -209,14 +212,18 @@ it during the evacuation and hid it using the school's own history, not at rando
 A large Ravenwood historical timeline hangs in the library (Founding of Ravenwood → Steelgate Opens
 → St. Dymphna Founded → RPD Established → Worthy Academy Opens → Monastery Built), several of its
 plaques removed or shifted out of order. Scattered through the Academy: a yearbook, a founder
-portrait, an old newspaper, school trophies, a library book, a class history project — none gives a
-combination on its own, but together they let the player reconstruct the true chronology. In the
-archive, five movable founder plaques (one per civic institution) have to be placed in that
-chronological order. Getting it right trips no electronics — just a mechanical `CLICK`, and the
-timeline display swings outward on a physical catch to reveal Principal Ashford's emergency
-archive and the crest. One of the historical documents used to solve this can quietly contradict
-another (official records dating Steelgate's opening to 1968, while another document implies
-earlier mining activity) — left unexplained here, on purpose, for Chapter 3.
+portrait, an old newspaper, school trophies, a library book, a class history project, a hallway
+plaque, and a retired teacher's own notes — **eight objects in total, of which any four or five are
+enough** to confidently reconstruct the chronology. This is deliberate redundancy, not padding: a
+player paying close attention can solve it well before finding everything, while someone unsure
+keeps searching, making this an actual deduction puzzle rather than "collect five mandatory clues
+wearing paper costumes." In the archive, five movable founder plaques (one per civic institution)
+have to be placed in that chronological order. Getting it right trips no electronics — just a
+mechanical `CLICK`, and the timeline display swings outward on a physical catch to reveal Principal
+Ashford's emergency archive and the crest. One of the historical documents used to solve this can
+quietly contradict another (official records dating Steelgate's opening to 1968, while another
+document implies earlier mining activity) — left unexplained here, on purpose, for Chapter 3; Jim
+should never voice the contradiction himself, only let the player notice it.
 
 ## Storyline
 
@@ -227,12 +234,12 @@ earlier mining activity) — left unexplained here, on purpose, for Chapter 3.
   ![Front Entrance — room concept](../Assets/Reference/academy_front_entrance_concept.png)
 
   > AI-generated room concept (2026-08-13).
-- **The Gymnasium (hub).** The GREEN ZONE — rows of cots, a registration table, a children's play
-  area, and the district's own version of the whiteboard motif: **INSIDE / HOSPITAL / POLICE /
-  MISSING / UNKNOWN**, names crossed out and re-annotated throughout the night. From here, Jim can
-  see the Cafeteria (open), the Administration Office (locked), the Auditorium (locked), the
-  Library (barricaded), and the Maintenance Basement (locked) — several visibly closed-off points
-  seen at once, same convention as the other three main locations.
+- **The Gymnasium.** The GREEN ZONE — rows of cots, a registration table, a children's play area,
+  and the district's own version of the whiteboard motif: **INSIDE / HOSPITAL / POLICE / MISSING /
+  UNKNOWN**, names crossed out and re-annotated throughout the night. Jim isn't meant to stand here
+  and catalogue the building's locked doors — the Cafeteria's open archway pulls him forward first,
+  and the Administration Office, the Auditorium, the Library, and the Maintenance Basement only
+  register as a shape worth solving once he's already deeper into the campus.
 
   ![Gymnasium — room concept](../Assets/Reference/academy_gymnasium_concept.png)
 

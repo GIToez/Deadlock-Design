@@ -1990,6 +1990,64 @@ preparing them to understand Chapter 3's reveal — not just collected five toke
   Development," below, since it requires reading and rewriting actual scene prose across four
   large script files rather than restructuring reference documents.
 
+## Direction Log (continued) — puzzle-design refinement pass (2026-08-14)
+
+> Follow-up review after the Five Puzzle Philosophies redesign: confirmed the carbon-copy problem
+> is fixed and the interconnected-chronology goal is largely achieved, then flagged refinements
+> before the script rewrite phase. Applied directly to the `Locations/` files where concrete enough
+> to act on now; the rest is guidance for whoever rewrites the scripts.
+
+**Applied in this pass:**
+
+- **Varied the opening rhythm per district**, since all five previously described themselves in the
+  same "central hub, see several sealed points at once" terms. Police Station keeps its Bullpen hub
+  as-is (a security console genuinely belongs there). Hospital's Triage Hall now pulls Jim deeper in
+  before the sealed wings become visible. The Foundry's Casting Hall now dominates the room
+  immediately as visible, seized machinery — the mystery is the dead machine, not four locked
+  doors. The Academy is now explicitly the least hub-like of the five, following the shelter's
+  aftermath outward rather than cataloguing exits. The Monastery's Chapel was already softened
+  during the puzzle redesign itself.
+- **Foundry: the three old key-chain rooms now feed the Casting Line puzzle directly** — the
+  Manager's Office holds the furnace pressure log, the Vanguard Site Office holds the crane
+  override, and the Restricted Elevator is where the cooling main was shut off — so exploring the
+  plant and solving the puzzle are the same activity instead of a key hunt bolted onto it.
+- **Academy: redundant clues, not five mandatory ones.** Eight historical objects exist; any four
+  or five are enough to solve the chronology, so attentive players can solve it early and unsure
+  players can keep searching — an actual deduction puzzle rather than "five keys wearing paper
+  costumes."
+- **Monastery: aggressively removed the old mandatory key chain** (Library, Cloister, Bell Tower,
+  Reliquary Keys, and the Breaching Tool) now that the Bell Tower Puzzle makes it redundant — the
+  critical path is key-free end to end. Kept the Archive Key (Overlook Trail) and Crypt Antechamber
+  Key (Hillside Cemetery) as clearly optional, reward-only backtracks; the Crypt Antechamber is now
+  an explicit dead end (Vanguard's own failed attempt to drill past the mechanism), not a shortcut.
+- **Police Station: demoted the bolt-cutter chain to optional.** The Fire Station's bolt cutters
+  now open a padlocked locker *inside* the Evidence Room (bonus loot + the Courthouse key), not the
+  room's own door — the Lockdown Puzzle alone carries the critical path, so the district's
+  memorable sentence stays "I had to undo the lockdown sequence," not "I had to find the bolt
+  cutters."
+
+**Not yet applied — guidance for the script rewrite phase:**
+
+- **Introduce deliberate messiness into the cross-district chronology.** The crossover documents
+  currently resolve a little too cleanly — nearly everyone eventually figures out Vanguard is
+  lying. A future pass should preserve some instances of a transmission that never gets through,
+  one location misunderstanding something another already knows, Jim learning the answer to a
+  question whose asker died never knowing it, or two records that contradict each other because
+  neither side had the full picture — so the crossovers feel discovered, not engineered.
+- **Per-district storytelling material, not five flavors of memo:** Police = reports/radio/
+  procedure; Hospital = bodies/treatment spaces/medical observations; Foundry = machinery/worker
+  belongings/records; Academy = human remnants/PA/personal notes (already the locked convention);
+  Monastery = architecture/murals/old texts/ritual objects. Worth auditing document choices against
+  this table during the script rewrite, alongside the existing document-density concern from the
+  narrative craft review.
+- **Jim's personal arc should track how deep into Ravenwood he's gone, not just which district
+  he's in.** Since district order is open, this should key off **emblem count carried**, not a
+  fixed location: early on he's still trying to understand what's happening; by the third emblem
+  he's actively connecting things across districts; by the fourth he's stopped being surprised by
+  Vanguard; by the fifth he barely reacts to another atrocity — not from apathy, but exhaustion and
+  focus. This is a `Scripts/`-level concern (Jim's dialogue/interiority), not a `Locations/`-level
+  one, and should be threaded through the same rewrite pass that fixes his over-narration.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /
@@ -2145,7 +2203,12 @@ or the five districts — none of those chapters have named characters yet.
   Chapter 3; (4) add a handful of Jim-personal-story beats per district, not only worldbuilding;
   (5) decide what unique piece of the outbreak-night chronology the Monastery alone can know, per
   the "outbreak-night chronology as a five-piece jigsaw" idea above, and thread it into the
-  not-yet-written Monastery script.
+  not-yet-written Monastery script; (6) give Jim a personal arc that escalates with emblem count
+  rather than fixed district order (still trying to understand → connecting things → no longer
+  surprised by Vanguard → barely reacting, from exhaustion not apathy), per "puzzle-design
+  refinement pass," above; (7) introduce deliberate messiness into the cross-district crossovers
+  (missed transmissions, one-sided misunderstandings, contradictory records) so they read as
+  discovered rather than engineered.
 - **Dialogue/voice naturalism pass** (per "consistency and declutter pass," above, and echoing the
   narrative-craft review's point about Jim's over-narration) — not yet started. The actual scene
   prose in `Scripts/Chapter_2_{Police_Station,Hospital,Foundry,Academy}.md` (and eventually the
