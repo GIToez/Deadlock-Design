@@ -285,6 +285,13 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   [`Items/Key_Items/README.md`](../Items/Key_Items/README.md)); style-anchored to the existing
   Police Station item icons (Bolt Cutters, Pocketknife, Authority Crest).
 
+- **`Reference/item_managers_office_key_concept.png`,
+  `item_restricted_elevator_access_card_concept.png`, `item_vanguard_site_key_concept.png`,
+  `item_research_bay_key_concept.png`, `item_cutting_torch_concept.png`,
+  `item_boardroom_key_concept.png`, `item_industry_crest_concept.png`** (AI-generated, 2026-08-13)
+  — inventory-icon concepts for all seven of Steelgate Refinery's new key items, generated as part
+  of its scene-by-scene scripting pass; style-anchored to the same item-icon convention.
+
 Several other assets have been uploaded, placed directly alongside their character files instead:
 
 - `Characters/spr_cindy_jumpscare.gif` — embedded in

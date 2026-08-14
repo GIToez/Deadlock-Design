@@ -79,8 +79,9 @@ own district only.
 
 ## Major Appearances
 
-Not yet scripted scene-by-scene — see
-[`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) → "The Security Checkpoint."
+See [`Scripts/Chapter_2_Foundry.md`](../Scripts/Chapter_2_Foundry.md), Scene 13 — the Security
+Checkpoint encounter, staged exactly per this file's "steadier, more coordinated than a Shambler"
+direction.
 
 ## Story Significance
 

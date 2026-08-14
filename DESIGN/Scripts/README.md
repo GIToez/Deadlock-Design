@@ -35,10 +35,12 @@ owner early on, since earlier source material used a confusing dual "Tab"/"Scene
   Station in full (24 scenes), including its optional Vanguard sub-plot.
 - [`Chapter_2_Hospital.md`](Chapter_2_Hospital.md) — the Northeast District/St. Dymphna Hospital in
   full (17 scenes).
+- [`Chapter_2_Foundry.md`](Chapter_2_Foundry.md) — the Northwest District/Steelgate Refinery in
+  full (17 scenes).
 
-The three remaining districts (Academy, Foundry, Monastery) each have a full location-design file
-in [`Locations/`](../Locations/) but no `Scripts/` entry yet — planned as the same kind of
-standalone per-district file, per the project owner's request to script each district in turn (see
+The two remaining districts (Academy, Monastery) each have a full location-design file in
+[`Locations/`](../Locations/) but no `Scripts/` entry yet — planned as the same kind of standalone
+per-district file, per the project owner's request to script each district in turn (see
 [`STORY_NOTES.md`](../STORY_NOTES.md) for the Direction Log).
 
 Chapter 3 ("What Was Hidden") and the Epilogue ("One More Night") are outlined in [`CANON.md`](../CANON.md) and

@@ -129,8 +129,8 @@ locations and its crest/emblem:
 - **Northeast — Medical Crest — [St. Dymphna Hospital](Locations/Hospital.md)** (fully scripted, see
   [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md), Scenes 1–17)
 - **Northwest — Industry Crest — [Steelgate Refinery](Locations/Foundry_Refinery.md)** (its rail
-  yard tracks lead into the mountain — the physical point Black Vein entered Ravenwood; not yet
-  enterable)
+  yard tracks lead into the mountain — the physical point Black Vein entered Ravenwood; fully
+  scripted, see [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md), Scenes 1–17)
 - **North — Faith Crest — [Our Lady of Solace Monastery](Locations/Monastery.md)** (the most
   isolated district)
 

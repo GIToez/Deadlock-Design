@@ -58,9 +58,27 @@ two entries are the same item).
 - [`Medical_Crest.md`](Medical_Crest.md) — the Northeast District's founder's emblem; St. Dymphna
   Chapel display case.
 
+**Steelgate Refinery (Chapter 2), added 2026-08-13:**
+
+- [`Managers_Office_Key.md`](Managers_Office_Key.md) — Foundry Clinic; opens the Plant Manager's
+  Office.
+- [`Restricted_Elevator_Access_Card.md`](Restricted_Elevator_Access_Card.md) — the Manager's
+  Office; opens the Restricted Elevator.
+- [`Vanguard_Site_Key.md`](Vanguard_Site_Key.md) — Loading Docks (secondary location); opens the
+  Vanguard Site Office.
+- [`Research_Bay_Key.md`](Research_Bay_Key.md) — the Exposure Records Room; opens the Research Bay.
+- [`Cutting_Torch.md`](Cutting_Torch.md) — Machine Shops (secondary location); forces the Security
+  Checkpoint's reinforced door.
+- [`Boardroom_Key.md`](Boardroom_Key.md) — dropped after clearing the Exposure Cohort; opens the
+  Founder's Boardroom.
+- [`Industry_Crest.md`](Industry_Crest.md) — the Northwest District's founder's emblem; Founder's
+  Boardroom display case.
+
 Real sprites uploaded by the project owner: `spr_managerKey.png`, `spr_maintenanceKey.png`,
 `spr_graveyardKey.png` (three interchangeable generic key icons, shared across the plain "key"
 items above), `spr_keycard.png`, `spr_screwDriver.png`, `spr_fuseItem.gif`. AI-generated icons:
 Gate Crank Handle, Bolt Cutters, Pocketknife, Authority Crest, Fire Axe, Laboratory Key,
-Administration Key, Surgical Wing Access Card, Pry Bar, Chapel Key, and Medical Crest (no real
-sprite existed for these visually distinct, one-of-a-kind objects).
+Administration Key, Surgical Wing Access Card, Pry Bar, Chapel Key, Medical Crest, Manager's
+Office Key, Restricted Elevator Access Card, Vanguard Site Key, Research Bay Key, Cutting Torch,
+Boardroom Key, and Industry Crest (no real sprite existed for these visually distinct,
+one-of-a-kind objects).

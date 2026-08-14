@@ -16,6 +16,13 @@
 > operation over the source."* The Foundry is also where Jim learns the outbreak isn't a single
 > bad night — Vanguard has been exploiting what's under Ravenwood since **1968** (see
 > [`CANON.md`](../CANON.md) → "Origin of the Outbreak").
+>
+> **Revision note (2026-08-13, same day):** the district received its full scene-by-scene
+> scripting pass — see the new [`Scripts/Chapter_2_Foundry.md`](../Scripts/Chapter_2_Foundry.md)
+> (17 scenes), plus new individual [`Items/Key_Items/`](../Items/Key_Items/README.md) writeups
+> (and AI-generated icon concept art) for all seven of this district's key items. This is the third
+> of Chapter 2's five districts to be fully scripted, after the Police Station and Hospital.
+> Nothing already locked about this district's rooms, puzzles, or documents changed.
 
 ## Purpose in the Overall Story
 
@@ -523,23 +530,23 @@ flowchart TD
 
 ## Key Items
 
-- **Manager's Office Key** (_no `Items/` writeup yet_) — Foundry Clinic; opens the Plant Manager's
-  Office.
-- **Restricted Elevator Access Card** (_no `Items/` writeup yet_) — the Manager's Office; opens
-  the Restricted Elevator.
-- **Vanguard Site Key** (_no `Items/` writeup yet_) — Loading Docks (secondary location); opens
-  the Vanguard Site Office.
-- **Research Bay Key** (_no `Items/` writeup yet_) — the Exposure Records Room; opens the Research
-  Bay.
-- **Cutting Torch** (_no `Items/` writeup yet_) — Machine Shops (secondary location); forces the
-  Security Checkpoint's reinforced door.
-- **Boardroom Key** (_no `Items/` writeup yet_) — dropped after clearing the Exposure Cohort at the
-  Security Checkpoint; opens the Founder's Boardroom.
-- **Industry Crest** (_no `Items/` writeup yet_) — the district's founder's emblem; Founder's
-  Boardroom display case.
+- **Manager's Office Key** ([full item writeup](../Items/Key_Items/Managers_Office_Key.md)) —
+  Foundry Clinic; opens the Plant Manager's Office.
+- **Restricted Elevator Access Card** ([full item writeup](../Items/Key_Items/Restricted_Elevator_Access_Card.md))
+  — the Manager's Office; opens the Restricted Elevator.
+- **Vanguard Site Key** ([full item writeup](../Items/Key_Items/Vanguard_Site_Key.md)) — Loading
+  Docks (secondary location); opens the Vanguard Site Office.
+- **Research Bay Key** ([full item writeup](../Items/Key_Items/Research_Bay_Key.md)) — the
+  Exposure Records Room; opens the Research Bay.
+- **Cutting Torch** ([full item writeup](../Items/Key_Items/Cutting_Torch.md)) — Machine Shops
+  (secondary location); forces the Security Checkpoint's reinforced door.
+- **Boardroom Key** ([full item writeup](../Items/Key_Items/Boardroom_Key.md)) — dropped after
+  clearing the Exposure Cohort at the Security Checkpoint; opens the Founder's Boardroom.
+- **Industry Crest** ([full item writeup](../Items/Key_Items/Industry_Crest.md)) — the district's
+  founder's emblem; Founder's Boardroom display case.
 
-> None of this district's key items have their own `Items/` writeup yet, same status as the
-> Hospital's own new key items — see "Unresolved Ideas," below.
+> All seven of this district's key items now have individual `Items/Key_Items/` writeups, complete
+> with AI-generated icon concept art — see [`Items/Key_Items/README.md`](../Items/Key_Items/README.md).
 
 ### Documents
 
@@ -613,8 +620,9 @@ Station and Hospital already covered) in any order.
 
 - **This entire district is a first draft, pending review** — same status the Hospital had before
   further review, and the Police Station had before its own restructure was approved.
-- None of the seven new key items above have individual `Items/Key_Items/` writeups yet — proposed
-  as a future pass alongside the Hospital's own still-pending `Items/` audit.
+- ~~None of the seven new key items above have individual `Items/Key_Items/` writeups yet.~~
+  **Resolved/scripted (2026-08-13):** see [`Items/Key_Items/README.md`](../Items/Key_Items/README.md)
+  → "Steelgate Refinery" for all seven, each with AI-generated icon concept art.
 - Whether specific creatures Jim has already encountered elsewhere in Ravenwood should be
   explicitly traced back to named Foundry employees (per Outbreak Night beat 19's suggestion) —
   a compelling idea, explicitly **not locked to any specific existing creature** without further
@@ -631,9 +639,9 @@ Station and Hospital already covered) in any order.
   Memorial Park (both connect to Black Vein, deliberately not to each other — see "The Black Vein
   Cavern," above, and [`CANON.md`](../CANON.md)) should be kept consistent once Chapter 3 is
   actually written.
-- Full scene-by-scene scripting into a `Scripts/` file — everything above is at the
-  location-design/prose level, matching where the Hospital and (originally) the Police Station
-  stood before their own scripting passes.
+- ~~Full scene-by-scene scripting into a `Scripts/` file.~~ **Resolved (2026-08-13):** see
+  [`Scripts/Chapter_2_Foundry.md`](../Scripts/Chapter_2_Foundry.md), 17 scenes covering the full
+  district critical path and all three secondary locations.
 - Whether Daniel Fitch deserves his own dedicated `Characters/` file (matching Aaron Cole's
   treatment) rather than being described only within this location file — not done here, consistent
   with how the Police Station's Chief and the Hospital's Vanguard Liaison were also left

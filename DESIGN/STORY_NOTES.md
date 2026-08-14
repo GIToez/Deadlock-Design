@@ -1519,6 +1519,46 @@ the next entry for the current final numbering (Scenes 22–40).
   directly as their own standalone files from the start, per [`Scripts/README.md`](Scripts/README.md)'s
   now-locked convention.
 
+## Direction Log (continued) — Steelgate Refinery full scene-by-scene scripting (2026-08-13)
+
+> Third district scripted, per the project owner's continued direction ("Let's keep going forward
+> with the next district"). The Foundry was next in the original writing order (Police Station →
+> Hospital → Foundry → Academy → Monastery), and — following the newly-locked convention — was
+> written directly as its own standalone file from the start, with no intermediate combined-file
+> stage to split out of later.
+
+- **New file: [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md), 17 scenes.** Covers
+  the full critical path (District Entry → Loading Yard → Casting Hall hub → the Foundry Clinic →
+  the Machine Shops/Loading Docks backtracks → the Vanguard Site Office → the Restricted Elevator
+  descent → the Exposure Records Room → the Research Bay → the Security Checkpoint/Exposure Cohort
+  fight → the Founder's Boardroom/Industry Crest → the mandatory Black Vein Cavern climax) plus the
+  optional Break Room, Old Mine Workings, and Rail Yard content.
+- **The Exposure Cohort's signature pack fight fully staged narratively** (Scene 13) — several
+  long-term-exposed workers, steadier and more coordinated than a standard Shambler per that
+  creature file's "settled/adapted" direction, without locking specific damage/health numbers
+  (flagged there as a separate mechanical-design pass).
+- **The Black Vein Cavern scripted as the district's true climax** (Scene 16) — deliberately placed
+  after the Industry Crest is already collected rather than gating it, per
+  [`Locations/Foundry_Refinery.md`](Locations/Foundry_Refinery.md)'s explicit design intent; ends
+  on the final Foundry broadcast, quoted verbatim.
+- **Plant Manager Daniel Fitch kept exactly as unresolved as his location-file treatment** — never
+  seen on-screen alive or dead, reconstructed entirely through his office (Scene 6) and the final
+  broadcast (Scene 16), same convention as the Police Station's Chief and the Hospital's Vanguard
+  Liaison; no new dedicated `Characters/` file was created for him, consistent with that existing
+  pattern.
+- **Seven new [`Items/Key_Items/`](Items/Key_Items/README.md) files**, closing this district's own
+  `Items/` gap the same way the Hospital pass did: Manager's Office Key, Restricted Elevator Access
+  Card, Vanguard Site Key, Research Bay Key, Cutting Torch, Boardroom Key, and Industry Crest —
+  each with a new AI-generated inventory-icon concept, logged in
+  [`Assets/README.md`](Assets/README.md).
+- **[`Locations/Foundry_Refinery.md`](Locations/Foundry_Refinery.md), [`CANON.md`](CANON.md),
+  [`MASTER_STORY.md`](MASTER_STORY.md), [`Scripts/README.md`](Scripts/README.md), and
+  [`Creatures/Exposure_Cohort.md`](Creatures/Exposure_Cohort.md) updated throughout** with the new
+  script's cross-links and resolved "Unresolved Ideas" bullets, same preserve-the-history
+  convention used for the two previous districts' passes.
+- **Not done in this pass:** the same treatment for Academy and Monastery — each still has only its
+  location-design/prose file. Two districts remain.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /
