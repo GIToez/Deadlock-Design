@@ -1,16 +1,8 @@
 # Memorial Park
 
-> Content in this file is drawn from [`AI.json`](../AI.json) (planning conversation), which is the only source
-> covering this location. Full scene-by-scene script: [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md) (covers the
-> street crossing, the park, the guardhouse, and the Founders Memorial in full; the interior of
-> Memorial Park itself is fully scripted — the five districts reached from it are not yet).
->
-> **Revision note (2026-08-14):** added room concept art for the street crossing, the guardhouse,
-> and the Founders Memorial itself — previously the only image for this whole location was the
-> Founders Memorial *plaque's* own close-up detail shot. Prompted by the project owner noticing
-> Downtown (Pearl's Diner, the Library, City Hall) had no `Locations/` entry or art at all — see
-> the new [`Locations/Downtown_Ravenwood.md`](Downtown_Ravenwood.md) — which led to auditing this
-> file's own visual coverage at the same time.
+> Full scene-by-scene script: [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md)
+> (covers the street crossing, the park, the guardhouse, and the Founders Memorial in full). Each of
+> the five districts reached from here has its own `Locations/` and `Scripts/` file.
 
 ## Purpose in the Overall Story
 
@@ -61,13 +53,6 @@ player returns to constantly between districts to save, restock, and fast-travel
   INFRASTRUCTURE OVERRIDE — SECTOR 4 — MEMORIAL PARK PERIMETER") sits on the desk.
 
   ![Guardhouse Interior — room concept](../Assets/Reference/memorial_park_guardhouse_concept.png)
-
-  > AI-generated room concept (2026-08-14, regenerated same day to correct a flat/eye-level camera
-  > drift — now matches the elevated 3/4 top-down perspective with diamond-tiled floor established
-  > by the police station and hotel concepts). Matches the scripted desk, filing cabinet, VERN
-  > terminal, corkboard, and inventory chest closely; the window correctly shows a "RAVENWOOD PARK"
-  > gate sign rather than a naming error. The corkboard map is labeled "Memorial Park" rather than
-  > "Ravenwood Memorial Park" — a minor non-canonical simplification, not a contradiction.
 - **The Founders Memorial.** Jim approaches the central monument: a ~10-foot bronze female civic
   statue in a water basin, holding a large circular medallion-plaque — a small five-sided pentagon
   hub at the center (bearing a single weathered letter "V"), surrounded by five trapezoidal
@@ -83,21 +68,13 @@ player returns to constantly between districts to save, restock, and fast-travel
   base — the suggestion of a door — and concludes the basin needs to be drained (i.e., all five
   recesses filled) before whatever's underneath can be reached.
 
-  **Simplicity rule (locked 2026-08-14):** the medallion does exactly one thing. Nothing happens
-  after the first, second, third, or fourth crest is inserted — no partial reveals, no bonus items,
-  no hidden compartments, no milestone rewards. Only when the **fifth and final** crest is placed
-  does the completed medallion activate the mechanism beneath the monument, draining the basin and
-  revealing the staircase down. This was tried a different way for one revision (a hidden
-  four-crest mechanism behind the FAITH recess, dropping a token needed at the Monastery) and then
-  deliberately reverted — see [`STORY_NOTES.md`](../STORY_NOTES.md) for why — in favor of keeping
-  the crest system, and the Monastery's own progression, completely self-contained.
+  **Simplicity rule:** the medallion does exactly one thing. Nothing happens after the first,
+  second, third, or fourth crest is inserted — no partial reveals, no bonus items, no hidden
+  compartments, no milestone rewards. Only when the **fifth and final** crest is placed does the
+  completed medallion activate the mechanism beneath the monument, draining the basin and revealing
+  the staircase down.
 
   ![The Founders Memorial — room concept](../Assets/Reference/memorial_park_founders_memorial_concept.png)
-
-  > AI-generated room concept (2026-08-14) — a wide establishing shot of the full statue and basin,
-  > complementing the existing close-up plaque detail render above; at this distance the plaque's
-  > individual wedge labels aren't meant to be legible, which is why the close-up shot remains the
-  > primary reference for that detail.
 - **Opening the City.** Returning to the street with the keycard, Jim lowers the bollards. The
   street opens in both directions and Ravenwood's open-world exploration phase begins.
 
@@ -175,20 +152,14 @@ None at Memorial Park itself.
 
 ## Crest Progression
 
-Memorial Park is the **return point** for the five-crest mechanic, not a source of a crest
-itself. See [`CANON.md`](../CANON.md) ("The Founders & the Five Crests") for the full system. All five emblems
-must be recovered from the five districts and inserted into the Founders Memorial plaque to drain
-the water basin and reveal the staircase into the underground Vanguard facility (Chapter 3).
-**Deliberately kept simple (locked 2026-08-14):** nothing special happens after the first, second,
-third, or fourth crest is inserted — no bonus items, no partial reveals, no milestone rewards. Only
-the completed set of five triggers anything. Crests can be inserted in any order and at any time
-Jim backtracks to the park; nothing about the Memorial depends on which district he visited first,
-and it never checks or reacts to a partial count.
+Memorial Park is the **return point** for the five-crest mechanic, not a source of a crest itself.
+See [`CANON.md`](../CANON.md) → "The Founders & the Five Crests" for the full system, including the
+simplicity rule (nothing happens until all five are inserted). Crests can be inserted in any order
+and at any time Jim backtracks to the park.
 
 ## Exit / Progression to Next Area
 
 Once the street bollards are lowered, all of Ravenwood opens up. Exploration order for the five
-districts is fully open, though the Police Station (Southwest, closest to the park) is the
-natural first destination given the guardhouse note and its proximity. See [`STORY_NOTES.md`](../STORY_NOTES.md) for
-the city map and the secondary-location list for each district, none of which are written
-scene-by-scene yet.
+districts is fully open, though the Police Station (Southwest, closest to the park) is the natural
+first destination given the guardhouse note and its proximity. See [`STORY_NOTES.md`](../STORY_NOTES.md)
+for the city map and the secondary-location list for each district.

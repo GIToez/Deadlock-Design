@@ -115,7 +115,8 @@ two entries are the same item).
   location); opens the Crypt Antechamber (a dead end by design, not a shortcut).
 - [`Faith_Crest.md`](Faith_Crest.md) — the North District's founder's emblem; the Reliquary,
   reached once the Bell Tower Puzzle's altar seal is solved and The Penitent is defeated — no key
-  of its own. **Completing this district completes all five crests.**
+  of its own. Since the Monastery is fully open-order, Faith can be any of Jim's five crests, not
+  necessarily the last.
 
   This district's critical path is almost entirely key-free by design — see
   [`Locations/Monastery.md`](../../Locations/Monastery.md) → "The Bell Tower."

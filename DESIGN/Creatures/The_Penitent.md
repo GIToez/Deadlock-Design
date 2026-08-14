@@ -1,10 +1,10 @@
 # The Penitent
 
-> **New creature, locked 2026-08-14, per [`CANON.md`](../CANON.md) → "Creature Distribution
-> System."** Previously an open design gap in [`Locations/Monastery.md`](../Locations/Monastery.md)
-> ("No unique boss creature or new creature type is proposed for this district"). This design ties
-> directly into the Monastery's own locked backstory (see [`CANON.md`](../CANON.md) → "Origin of
-> the Outbreak") rather than inventing something unrelated.
+> Our Lady of Solace Monastery's boss, per [`CANON.md`](../CANON.md) → "Creature Distribution
+> System," fought in the Old Seal / Crypt Depths — see
+> [`Scripts/Chapter_2_Monastery.md`](../Scripts/Chapter_2_Monastery.md). Ties directly into the
+> Monastery's own backstory (see [`CANON.md`](../CANON.md) → "Origin of the Outbreak") rather than
+> inventing something unrelated.
 
 **Classification:** Ashen Mutant, oldest confirmed presentation in the game (centuries of
 unchecked exposure, versus every other creature's single-night-to-years timescale)
@@ -58,22 +58,19 @@ realize what's actually in the crypt with him before the fight starts in earnest
 
 The Monastery district's boss encounter, fought in the Old Seal / Crypt Depths once the Bell
 Tower Puzzle's altar seal retracts — see [`Locations/Monastery.md`](../Locations/Monastery.md) →
-"The Bell Tower." Replaces the previously-open "no unique boss" gap; the pack encounter already
-described there (infected that reached the monastery through Vanguard's illicit tunnel) stays as
-the approach to his chamber rather than being the district's sole major encounter.
+"The Bell Tower." [The Cave-Touched](The_Cave_Touched.md) pack encounter (infected that reached the
+monastery through Vanguard's illicit tunnel) is the approach to his chamber, not the district's
+sole major encounter.
 
 ## Encounter Progression
 
-Single, one-off boss encounter, fought only once — per [`CANON.md`](../CANON.md)'s creature
-unlock system, a *standard-tier* version of whatever the Monastery's pack encounter turns out to be
-(still an open question — see [`Locations/Monastery.md`](../Locations/Monastery.md) → "Creatures
-Encountered") is this district's contribution to the city-wide roaming-hazard system, not The
-Penitent himself; he is unique and stays in the crypt.
+Single, one-off boss encounter, fought only once — per [`CANON.md`](../CANON.md)'s creature unlock
+system, [The Cave-Touched](The_Cave_Touched.md) is this district's standard-tier contribution to
+the city-wide roaming-hazard system, not The Penitent himself; he is unique and stays in the crypt.
 
 ## Major Appearances
 
-Not yet scripted — the Monastery has no `Scripts/` file yet at all (see
-[`STORY_NOTES.md`](../STORY_NOTES.md) → "Five Puzzle Philosophies — script rewrite").
+See [`Scripts/Chapter_2_Monastery.md`](../Scripts/Chapter_2_Monastery.md), Scene 10.
 
 ## Story Significance
 
@@ -96,6 +93,3 @@ answer, long before a company decided otherwise.
   in the fight or kept permanently unresolved, same convention as this game's other deliberately
   open fates.
 - No concept art yet.
-- The Monastery's own *standard-tier* new creature (the one that unlocks into the city, distinct
-  from The Penitent) is still undecided — see [`Locations/Monastery.md`](../Locations/Monastery.md)
-  → "Creatures Encountered."

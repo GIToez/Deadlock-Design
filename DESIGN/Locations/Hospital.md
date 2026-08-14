@@ -12,27 +12,25 @@
 > were killing the town." Hospital — "We tried to save everyone until we realized Vanguard never
 > wanted everyone saved."*
 >
-> **Puzzle mechanic (locked 2026-08-14): the Quarantine Puzzle.** See "The Quarantine System,"
-> below, and [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies." The Storyline walkthrough
-> below and [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md) have both been
-> rewritten to match it in full.
+> **Puzzle mechanic: the Quarantine Puzzle.** See "The Quarantine System," below, and
+> [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies."
 
 ## Purpose in the Overall Story
 
-The Northeast District's main "mansion/RPD"-style location: a central hub (the Emergency
-Department's triage hall) visibly gates several sealed points at once, and reaching the **Medical
-Crest** means mastering the hospital's own emergency isolation system, not assembling a matching
-set of keys. Where the Police Station is about a town institution discovering it had been lied to,
-the Hospital is about a town institution discovering it was being actively prevented from doing the
-one thing it exists to do — treat the sick and injured — because Vanguard's actual priority was
-never public health.
+The Northeast District's main "mansion/RPD"-style location: rather than a central hub visibly
+gating several sealed points at once, Jim is pulled progressively deeper into the building — the
+same shape the Quarantine Puzzle itself uses. Reaching the **Medical Crest** means mastering the
+hospital's own emergency isolation system, not assembling a matching set of keys. Where the Police
+Station is about a town institution discovering it had been lied to, the Hospital is about a town
+institution discovering it was being actively prevented from doing the one thing it exists to do —
+treat the sick and injured — because Vanguard's actual priority was never public health.
 
-## Outbreak Night — What Actually Happened (proposed 2026-08-13, pending review)
+## Outbreak Night — What Actually Happened
 
-> Per the project owner's explicit framing: the hospital's outbreak night should read as **doctors
-> and nurses trying to save people while Vanguard actively worked against them**, discovering the
-> truth from the opposite direction the Police Station does. Almost everything below is meant to
-> be reconstructed by Jim from charts, recordings, a whiteboard, and the building itself — not
+> Framing: the hospital's outbreak night should read as **doctors and nurses trying to save people
+> while Vanguard actively worked against them**, discovering the truth from the opposite direction
+> the Police Station does. Almost everything below is meant to be reconstructed by Jim from charts,
+> recordings, a whiteboard, and the building itself — not
 > delivered as exposition. This timeline is the master reference behind the specific
 > documents/details placed in `Storyline`, below.
 
@@ -137,7 +135,7 @@ never public health.
     regeneration isn't conventional reanimation — some bodies' cellular systems simply never fully
     stopped after catastrophic injury.
 18. **The hospital's final outgoing transmission**, timed to overlap with the Police Station's own
-    (see [`Locations/Police_Station.md`](Police_Station.md), beat 14): *"Ravenwood Memorial to all
+    (see [`Locations/Police_Station.md`](Police_Station.md), beat 16): *"Ravenwood Memorial to all
     emergency services. We are no longer accepting Vanguard medical authority. Do not surrender
     patients to Vanguard personnel."* A recorded exchange with the station follows —
     *Hospital: "RPD, are you receiving?" Police: "Memorial, go ahead." Hospital: "We have forty-
@@ -554,21 +552,17 @@ flowchart TD
 
 ## Puzzles
 
-- **The Quarantine Puzzle (main, target design — see "The Quarantine System," above).** Reach the
-  Surgical Wing and, beyond it, the Chapel and Medical Crest by managing pressure gradients across
-  five isolation zones rather than collecting keys — sealing one zone to safely open the next,
-  with the Medical Crest still reserved for the deepest, most-gated point in the district.
-- **The Medical Arts Building → Surgical Wing chain.** Still relevant under the new mechanic: a
-  physical component needed at the isolation panel (framed as a backup damper control rather than
-  an access card) is found at a separate secondary building, forcing the player to leave the
-  hospital and come back — same "backtracking across the whole district is the point" principle as
-  the Police Station's Fire Station → Property Room chain.
-- **The Vanguard Quarantine Checkpoint → Psychiatric Ward chain (optional).** Kept as optional
-  content; the Pry Bar needed to force the barricaded stairwell is found at a different secondary
-  building, independent of the main pressure-gradient puzzle.
-- *(Superseded, not yet rewritten below in "Storyline"/"Key Items": the original version of this
-  puzzle was a straightforward Radiology → Laboratory → Administration key chain. That prose and
-  the room-by-room key gating below still reflect it — see the note at the top of this file.)*
+- **The Quarantine Puzzle (main)** — see "The Quarantine System," above. Reach the Surgical Wing
+  and, beyond it, the Chapel and Medical Crest by managing pressure gradients across five isolation
+  zones rather than collecting keys — sealing one zone to safely open the next, with the Medical
+  Crest reserved for the deepest, most-gated point in the district.
+- **The Medical Arts Building → Surgical Wing chain.** A physical component needed at the isolation
+  panel (a backup damper control) is found at a separate secondary building, forcing the player to
+  leave the hospital and come back — same "backtracking across the whole district is the point"
+  principle as the Police Station's Fire Station → Property Room chain.
+- **The Vanguard Quarantine Checkpoint → Psychiatric Ward chain (optional).** The Pry Bar needed to
+  force the barricaded stairwell is found at a different secondary building, independent of the
+  main pressure-gradient puzzle.
 
 ## Key Items
 
@@ -576,18 +570,12 @@ flowchart TD
   general-purpose forcing tool, flavor/utility item.
 - **Isolation manual page** (no lock/door of its own) — Radiology, off the dead orderly; one of two
   components needed to operate the Isolation Control Panel.
-- **Backup damper control** (was: Surgical Wing Access Card;
-  [full item writeup](../Items/Key_Items/Surgical_Wing_Access_Card.md), pending a rename pass) —
+- **Backup damper control** ([full item writeup](../Items/Key_Items/Backup_Damper_Control.md)) —
   Medical Arts Building (secondary location); the other component needed at the panel.
 - **Pry Bar** ([full item writeup](../Items/Key_Items/Pry_Bar.md), optional) — Vanguard Quarantine
   Checkpoint (secondary location); forces the barricaded Psychiatric Ward stairwell.
 - **Medical Crest** ([full item writeup](../Items/Key_Items/Medical_Crest.md)) — the district's
   founder's emblem; St. Dymphna Chapel display case, unlocked once the ICU is passed.
-
-> The former Laboratory Key, Administration Key, and Chapel Key are retired — those rooms are now
-> unlocked, and the Chapel needs no key of its own. Their `Items/Key_Items/` writeups should be
-> deleted or repurposed in a future pass; not yet done here.
-> with AI-generated icon concept art — see [`Items/Key_Items/README.md`](../Items/Key_Items/README.md).
 
 ### Documents
 
@@ -625,32 +613,31 @@ flowchart TD
   Police Station's own final-broadcast material.
 - **Vanguard Quarantine Checkpoint logs** (secondary location) — cross-references the Police
   Station's "Emergency Public Safety Directive 7" and the Highway 13 confrontation directly.
-- **Hospital intake mismatch note, "Ambulance Three arrived with two"** (Ambulance Bay, added
-  2026-08-13) — the hospital-side half of a discrepancy also logged at
+- **Hospital intake mismatch note, "Ambulance Three arrived with two"** (Ambulance Bay) — the
+  hospital-side half of a discrepancy also logged at
   [`Locations/Foundry_Refinery.md`](Foundry_Refinery.md) ("Ambulance Three departed with four
   casualties"), beat 6; the two missing patients were pulled off at a Vanguard checkpoint before
   ever reaching St. Dymphna.
 - **A one-line transmission relayed to Worthy Academy: "Do not perform invasive treatment unless
-  absolutely necessary."** (Administration, added 2026-08-13) — the hospital's own regeneration
-  findings, passed on as emergency guidance to an untrained shelter staff with no ability to act on
-  it; see [`Locations/Academy.md`](Academy.md), beat 13, where the Academy nurse's log answers back:
+  absolutely necessary."** (Administration) — the hospital's own regeneration findings, passed on
+  as emergency guidance to an untrained shelter staff with no ability to act on it; see
+  [`Locations/Academy.md`](Academy.md), beat 13, where the Academy nurse's log answers back:
   *"Everything I was trained to do may be making them worse."*
-- **Early triage chart noting an unexplained industrial-trauma cluster** (Emergency Department,
-  added 2026-08-13) — the hospital's first, uncontextualized cases from Steelgate Refinery, before
-  anyone realized what was happening underground there; see
-  [`Locations/Foundry_Refinery.md`](Foundry_Refinery.md) → "Outbreak Night," beats 4–7.
+- **Early triage chart noting an unexplained industrial-trauma cluster** (Emergency Department) —
+  the hospital's first, uncontextualized cases from Steelgate Refinery, before anyone realized what
+  was happening underground there; see [`Locations/Foundry_Refinery.md`](Foundry_Refinery.md) →
+  "Outbreak Night," beats 4–7.
 - **A physician's own confused transcript of an incoming call: "Who is this?" / "We have records." /
   "Cellular activity increases after tissue damage." / "Yes." / "How the hell do you know that?" /
-  "Because you're not the first people to see it."** (Administration, added 2026-08-13) — the
-  hospital-side half of the Monastery's independent, centuries-earlier confirmation of the same
-  regeneration findings; see [`Locations/Monastery.md`](Monastery.md), beats 16–17.
+  "Because you're not the first people to see it."** (Administration) — the hospital-side half of
+  the Monastery's independent, centuries-earlier confirmation of the same regeneration findings; see
+  [`Locations/Monastery.md`](Monastery.md), beats 16–17.
 
 ## Major Scripted Events
 
 - Meeting Richard Dalton (alive) or finding his body (dead) at the Ambulance Bay, conditional on
   emblem count.
 - Discovering Maria Dalton's body and fighting the Broodling in the Maternity Ward.
-- The Radiology → Laboratory → Administration key chain.
 - Gathering the isolation manual page (Radiology) and the backup damper control (Medical Arts
   Building), then solving the Quarantine Puzzle's pressure-gradient sequence to reach the Surgical
   Wing and fight "The Surgeon."
@@ -678,32 +665,14 @@ remaining districts in any order.
 
 ## Unresolved Ideas
 
-- **This entire district is a first draft, pending review** — same status the Police Station had
-  before its own restructure was approved. Room layout, exact key-item names, and the boss fight's
-  mechanical detail are all subject to revision.
-- ~~None of the new key items above have individual `Items/Key_Items/` writeups yet.~~
-  **Resolved/scripted (2026-08-13):** see [`Items/Key_Items/README.md`](../Items/Key_Items/README.md)
-  → "St. Dymphna Hospital" for all seven, each with AI-generated icon concept art.
-- ~~Exact staging/wording for the hospital's final-transmission document and where it's physically
-  found.~~ **Resolved (2026-08-13):** kept as the E.D./Administration-area outgoing broadcast
-  already described in "Outbreak Night," beat 18 — no additional room-specific staging was needed
-  beyond that beat's own text; not given its own dedicated scene in
-  [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), since it's already fully
-  quoted there and at [`Locations/Police_Station.md`](Police_Station.md).
 - Whether "The Surgeon" needs a different/better working nickname than a direct echo of "The
   Caretaker" naming pattern — flagged, not blocking.
-- ~~Full scene-by-scene scripting into a new `Scripts/Chapter_2_Hospital.md`.~~ **Resolved
-  (2026-08-13):** see [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), 17
-  scenes covering the full district critical path and all three secondary locations.
 - Whether Richard Dalton (alive version) ever learns exactly what happened to Maria — deliberately
-  **not** resolved in the new script, per
+  **not** resolved in the script, per
   [`Characters/Richard_Dalton.md`](../Characters/Richard_Dalton.md) → "Unresolved Ideas," which
   explicitly asks for this to stay open until a future, separate decision.
-- ~~Where exactly Richard's body is staged if he doesn't survive.~~ **Resolved (2026-08-13):** near
-  the Ambulance Bay, face-down, one arm outstretched toward the hospital's side entrance — see
-  [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 2.
 - The Hospital Parking Structure's barricaded-civilian death beat has no name/character file —
   deliberately anonymous, consistent with how the game treats most minor environmental deaths.
 - Exact combat design (health, damage, phase structure) for both the Broodling and "The Surgeon" —
-  flagged in their own creature files, not solved here; the new script (Scenes 10 and 13) describes
+  flagged in their own creature files, not solved here; the script (Scenes 10 and 13) describes
   their move sets narratively without locking specific numbers.

@@ -118,7 +118,7 @@ SECURE AREAS: 4
 Four zone indicators glow red beneath the readout, unlabeled beyond a room number each: nothing
 Jim recognizes yet.
 
-> **JIM:** *"Four locked down. Somebody sealed this place from the inside."*
+> **JIM:** *"...Four."*
 
 He tries the console's manual override. Nothing — it wants an authorization sequence he doesn't
 have.
@@ -356,9 +356,7 @@ A logbook lies open on the blotter.
 >
 > 11:58 PM — Have not heard from Reyes. Going to check myself.
 
-Nothing after it.
-
-> **JIM:** *"Booking. Evidence. Armory. Then the old building."*
+Nothing after it. Jim closes the logbook.
 
 In the desk's bottom drawer, wrapped in a soft cloth: an old brass skeleton key, worn smooth along
 one edge.
@@ -679,9 +677,7 @@ records boxes fill one cell floor to shoulder height.
 One folder, labeled: **TOWN CHARTER — FOUNDING DOCUMENTS — 1887 — DO NOT REMOVE.** A single page
 lists five names under **INCORPORATORS OF THE TOWN OF RAVENWOOD** — Hale's name among them, the
 other four legible now, per [`CANON.md`](../CANON.md): Nathaniel Voss, Elias Thorne, Eleanor
-Worthy, Matthias Kane.
-
-> **JIM:** *"Same five names as the statue, probably."*
+Worthy, Matthias Kane. Jim reads the list twice, says nothing, and pockets it.
 
 Behind a records cabinet, easy to miss, a small relay device — a transmitter, not a department
 inventory item.
@@ -864,7 +860,7 @@ injectors, blood-collection vials labeled with case numbers rather than names. B
 restraints, bolted to the underside of what looked, from the interview room, like an ordinary
 chair.
 
-> **JIM:** *"That's not for suspects. That's for subjects."*
+> **JIM:** *"...Jesus."*
 
 Several vial dates line up, roughly, with entries already crossed off Cole's missing-persons list.
 He doesn't take anything from the counter.

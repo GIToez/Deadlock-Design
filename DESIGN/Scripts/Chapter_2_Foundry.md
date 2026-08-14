@@ -366,11 +366,9 @@ organized by handwritten dividers reading **EXPOSURE COHORT A**, **COHORT B**, *
 Jim pulls one at random. Years of bloodwork, neurological testing, bone-density scans — the same
 "normal for the job" complaints from the Break Room note, now filed and quantified.
 
-> **JIM:** *"...This is the same guy from the locker room note."*
-
 He checks the name against Scene 5. It matches.
 
-> **JIM:** *"Twelve years of this."*
+> **JIM:** *"Twelve years."*
 
 ### Optional — a torn evacuation slip
 
@@ -408,7 +406,13 @@ A single-page internal memo on Vanguard letterhead.
 > allocation. Recommend immediate withdrawal of all Vanguard personnel and research assets. **SITE
 > LOSS ACCEPTABLE.**"*
 
+**If Jim has fewer than 3 crests:**
+
 > **JIM:** *"Not 'casualties unavoidable.' 'Site loss acceptable.'"*
+
+**If Jim has 3 or more crests:**
+
+He reads it once and sets it down.
 
 ---
 
@@ -456,7 +460,7 @@ A faded survey map, dated:
 
 > *"GEOLOGICAL SURVEY — STEELGATE EXCAVATION — 1968."*
 
-> **JIM:** *"Same year as the office upstairs."*
+Jim looks at it a moment longer than he needs to.
 
 ### Optional — a hand-drawn cave map fragment
 
@@ -539,8 +543,6 @@ directly into the mountainside, sealed by a heavy, long-abandoned rail car.
 *Interaction prompt: [EXAMINE RAIL CAR]*
 
 A dated plate: **1968.**
-
-> **JIM:** *"Everything in this district comes back to that year."*
 
 *Interaction prompt: [FORCE RAIL CAR DOOR]*
 

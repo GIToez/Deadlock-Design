@@ -105,8 +105,6 @@ Scene 9, below); Jim doesn't need to understand its significance yet.*
 Off the gymnasium: a school cafeteria, tables and chairs overturned in a pattern that reads as
 panic rather than damage.
 
-> **JIM:** *"Something happened right here."*
-
 Movement from behind an overturned table.
 
 *Combat: a tougher single Shambler encounter — Outbreak Night beat 10's Foundry employee, the one
@@ -203,9 +201,7 @@ A small on-campus boarding building. Packed bags sit by several beds, never clai
 *Interaction prompt: [SEARCH ROOMS]*
 
 Among the belongings: a duffel bag tagged **HARRIS**, packed and ready for a trip that never
-happened.
-
-> **JIM:** *"...That's them. The family from the note."*
+happened. Jim stops, looks at it a moment, and moves on.
 
 ### Optional — a shelf of old yearbooks
 
@@ -448,8 +444,6 @@ The Founder's Hall Key opens a small trophy and alumni hall.
 > pledging support to a distinct civic institution. In commemoration, five ceremonial medallions
 > were struck — one per founder, one per institution.*
 
-> **JIM:** *"...There it is. In writing."*
-
 *Interaction prompt: [EXAMINE CASE]*
 
 The display case at the back stands empty — glass already broken, a note in a careful, deliberate
@@ -498,7 +492,7 @@ tracks leading out through open front gates.
 > **DISPATCH (LOG):** *"Bus One departing with thirty-two."* (long static) *"Bus One, report."*
 > Nothing. *"Bus One?"* Static.
 
-> **JIM:** *"...Thirty-two people. I don't know where you ended up."*
+> **JIM:** *"...Thirty-two."*
 
 ### Optional — the fence line
 

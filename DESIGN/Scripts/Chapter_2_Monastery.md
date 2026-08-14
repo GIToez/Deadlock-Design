@@ -239,7 +239,7 @@ and inevitability rather than speed; doesn't pursue aggressively until Jim's alr
 
 Once it's finally still, Jim doesn't say anything for a moment.
 
-> **JIM:** *"...Somebody sealed you in here instead of killing you. That's not nothing."*
+> **JIM:** *"...Huh."*
 
 He doesn't know how long ago. Nothing here says.
 
@@ -324,16 +324,16 @@ Static. The recording ends there.
 
 Jim stands in the passage a long moment.
 
-**If this is one of Jim's later crests (he's already seen Vanguard bury the truth elsewhere in
-Ravenwood):**
-
-> **JIM:** *"...Yeah. I got that part too."*
-
-**If this is one of Jim's earlier crests (he doesn't have much to compare it to yet):**
+**If Jim has 0–2 crests (he doesn't have much to compare it to yet):**
 
 > **JIM:** *"...Before Vanguard."*
 
-He doesn't finish the thought out loud either way.
+He doesn't finish the thought out loud.
+
+**If Jim has 3 or more crests (he's already watched Vanguard bury the truth elsewhere in
+Ravenwood):**
+
+He says nothing at all. He's heard this before, in other words, in other buildings.
 
 He turns back the way he came — Memorial Park, and whatever's actually underneath it, waiting.
 
@@ -373,8 +373,6 @@ Disturbed graves, several tipped over. One grave, unmarked, is far too recent.
 *Interaction prompt: [EXAMINE UNMARKED GRAVE]*
 
 A shovel lies beside it, dropped rather than put away.
-
-> **JIM:** *"Somebody buried something in a hurry."*
 
 *Interaction prompt: [SEARCH NEARBY CRYPT MARKER]*
 

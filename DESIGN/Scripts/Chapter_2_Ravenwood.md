@@ -118,10 +118,6 @@ A laminated notice has been zip-tied to the barrier frame. Barely readable throu
 
 Jim lowers his eyes from the notice. Looks up at the empty street ahead.
 
-> **JIM:** *"Comply with all officer instructions."*
-
-A beat.
-
 > **JIM:** *"Sure."*
 
 ### The bollards themselves
@@ -430,7 +426,7 @@ Jim lowers the first page. Picks up the second.
 >
 > He said —
 >
-> "Look at the police station. The old building. Not the annex — the original 1890s structure.
+> "Look at the police station. The old building. Not the annex — the original 1887 structure.
 > There's something on the wall inside the main hall that you might find interesting."
 >
 > Never got his name.
@@ -445,9 +441,8 @@ Jim lowers the first page. Picks up the second.
 >
 > Should've gone and looked.
 
-Jim sets the note down on the desk. Stares at it for a moment.
-
-> **JIM:** *"Police station."*
+Jim sets the note down on the desk. Stares at it for a moment, then folds the park map into his
+pocket.
 
 He looks at the park map still in his hand. The south gate. The street beyond. The direction of
 the city.
@@ -547,12 +542,8 @@ then at how they're arranged. It isn't random. The wedge at the top faces due no
 toward the hills. The one at the lower left faces southwest. Each wedge on this statue is pointed
 the same direction as whatever it's missing.
 
-> **JIM:** *"Five slots."*
-
 A beat. He looks at the lower-left wedge — ORDER — and the direction it's facing, then back toward
 the guardhouse. Thinks about the note. *Look at the police station. The old building.*
-
-> **JIM:** *"Five directions."*
 
 He looks up at the statue's face. The rain runs down her expression unchanged.
 
@@ -573,13 +564,9 @@ deeper when the water is drained.
 
 *Interaction prompt: [EXAMINE BASIN]*
 
-> **JIM:** *"Something underneath there."*
-
 He crouches slightly — peering through the dark water at the submerged base. A faint seam is
 visible along the stone — the outline of something deliberate in the construction. A door. Or the
 suggestion of one. Jim stands back up.
-
-> **JIM:** *"Need to drain it first."*
 
 He looks at the empty slots in the plaque. Then at the city beyond the park fence. The connection
 is clear without anyone saying it aloud.
@@ -684,9 +671,7 @@ geological surveys of the surrounding mountain region, and archived newspaper ed
 A large survey map of the Ravenwood mountain region sits open on the reference desk. Someone has
 been here recently. Several sections of the underground tunnel system beneath the mountain have
 been circled in red pen. Handwritten notes fill the margins. The handwriting is precise. Clinical.
-The notes reference **Black Vein** by name. Jim stares at the map for a long moment.
-
-> **JIM:** *"...Someone knew."*
+The notes reference **Black Vein** by name. Jim stares at the map for a long moment, saying nothing.
 
 *Interaction prompt: [EXAMINE NEWSPAPER ARCHIVE]*
 

@@ -1,11 +1,10 @@
 # The Matron
 
-> **New creature, locked 2026-08-14, per [`CANON.md`](../CANON.md) → "Creature Distribution
-> System."** Worthy Academy was previously the one district explicitly written to introduce **no**
-> new creature type, on the theory that its horror should be about people, not a monster — that
-> line is now superseded, since every district needs a boss encounter. This design is written to
-> honor the original intent as closely as possible: The Matron should still read as a person the
-> disaster broke, not an exotic invention.
+> Worthy Academy's boss, per [`CANON.md`](../CANON.md) → "Creature Distribution System" — fought at
+> the Isolation Wing/East Academic Wing, see
+> [`Scripts/Chapter_2_Academy.md`](../Scripts/Chapter_2_Academy.md). Designed to keep the district's
+> horror centered on people rather than an exotic monster type: The Matron should read as a person
+> the disaster broke, not an invented creature design.
 
 **Classification:** Ashen Mutant, chronic/prolonged-proximity exposure variant (same underlying
 mechanism as [the Exposure Cohort](Exposure_Cohort.md)'s chronic presentation, but from sustained
@@ -15,8 +14,8 @@ close contact with several symptomatic children rather than industrial exposure)
 
 ## Concept
 
-A teacher — proposed as one of the Isolation Wing's own staff, not a parent, so her presence there
-is explained by duty rather than coincidence — who refused to hand her most severely symptomatic
+A teacher — one of the Isolation Wing's own staff, not a parent, so her presence there is explained
+by duty rather than coincidence — who refused to hand her most severely symptomatic
 students over to Vanguard's registry demand, and instead moved them into a back classroom off the
 Isolation Wing to hide and personally care for them. Weeks (in-fiction, consistent with the
 Exposure Cohort's own "years" timescale being compressed here to the shelter's several-day
@@ -29,8 +28,8 @@ protecting the room.
 
 Per [`Locations/Academy.md`](../Locations/Academy.md) → "Outbreak Night," the shelter's Isolation
 Wing held aggressive V-CASE patients who were "completely lost" later in the night. The Matron is
-proposed as the staff member responsible for that wing specifically — the one who didn't evacuate
-when the ward was lost, because leaving meant leaving the children behind. Her mutation is chronic
+the staff member responsible for that wing specifically — the one who didn't evacuate when the ward
+was lost, because leaving meant leaving the children behind. Her mutation is chronic
 and cumulative, the same underlying Black Vein presentation the Exposure Cohort demonstrates
 industrially, shown here on a compressed timeline and from an entirely different, non-industrial
 cause.
@@ -48,8 +47,8 @@ redesigned predator silhouette.
 
 ## Behavior
 
-Not yet mechanically detailed. Proposed direction: she doesn't hunt or stalk the way an Exposure
-Cohort member does — she guards a fixed position (the back classroom) and responds with escalating
+Not yet mechanically detailed. Direction: she doesn't hunt or stalk the way an Exposure Cohort
+member does — she guards a fixed position (the back classroom) and responds with escalating
 aggression the longer Jim stays near it, rather than actively pursuing him through the wing.
 Fighting her should feel like fighting someone who has decided the room behind her is the last
 thing she can still control, not like fighting a monster that wants him dead for its own sake.
@@ -57,25 +56,21 @@ thing she can still control, not like fighting a monster that wants him dead for
 ## Gameplay Role / Combat Role
 
 The Academy district's boss encounter, per [`CANON.md`](../CANON.md) → "Creature Distribution
-System" — fought at the Isolation Wing/East Academic Wing, replacing the previously-planned "no
-unique boss, reused Shamblers fill the pack-fight role" design. The existing East Academic Wing
-pack encounter (turned Isolation Wing patients and civilians, standard Shamblers per
-[`Locations/Academy.md`](../Locations/Academy.md)) stays as-is and now leads into The Matron as the
-room's actual boss, rather than being the district's sole major encounter.
+System" — fought at the Isolation Wing/East Academic Wing. The existing East Academic Wing pack
+encounter (turned Isolation Wing patients and civilians, standard Shamblers per
+[`Locations/Academy.md`](../Locations/Academy.md)) leads into The Matron as the room's actual boss.
 
 ## Encounter Progression
 
-Single, one-off boss encounter — not proposed as a recurring roaming hazard herself (per
-[`CANON.md`](../CANON.md), the city-unlock system applies to a district's *standard-tier* new
-creature, and the Academy deliberately doesn't introduce one distinct from The Matron; the
-Shambler pack she's found with is already the game's universal baseline, so nothing new needs to
-unlock into the city from this district beyond The Matron's own one-time fight).
+Single, one-off boss encounter, not a recurring roaming hazard herself — per [`CANON.md`](../CANON.md),
+the city-unlock system applies to a district's *standard-tier* new creature, and the Academy
+doesn't introduce one distinct from The Matron; the Shambler pack she's found with is already the
+game's universal baseline, so nothing new unlocks into the city from this district beyond The
+Matron's own one-time fight.
 
 ## Major Appearances
 
-Not yet scripted — see [`Scripts/Chapter_2_Academy.md`](../Scripts/Chapter_2_Academy.md), which
-needs a rewrite pass to place her (per [`STORY_NOTES.md`](../STORY_NOTES.md) → "Five Puzzle
-Philosophies — script rewrite").
+See [`Scripts/Chapter_2_Academy.md`](../Scripts/Chapter_2_Academy.md).
 
 ## Story Significance
 

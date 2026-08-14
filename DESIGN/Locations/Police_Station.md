@@ -6,12 +6,10 @@
 > exploration, comparable in density to the Ravenwood Hotel. Full revision history is in
 > [`STORY_NOTES.md`](../STORY_NOTES.md) rather than duplicated here.
 >
-> **Puzzle mechanic (locked 2026-08-14): the Lockdown Puzzle.** This location's puzzle is not a
-> key hunt. It's an emergency security system the department's own officers triggered against
-> themselves as the station fell — Jim has to reconstruct what happened and undo it in sequence.
-> See "The Lockdown System," below, and [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies."
-> [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md) has been
-> rewritten to match this mechanic in full.
+> **Puzzle mechanic: the Lockdown Puzzle.** This location's puzzle is not a key hunt. It's an
+> emergency security system the department's own officers triggered against themselves as the
+> station fell — Jim has to reconstruct what happened and undo it in sequence. See "The Lockdown
+> System," below, and [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies."
 
 ## Purpose in the Overall Story
 
@@ -109,7 +107,7 @@ The station is two connected structures: a **modern annex** (lobby, bullpen, rec
 Chief's office, K-9 unit room, armory, property & evidence room) and, separated by a breezeway, the
 **original 1887 station house** — a small stone building, boarded up and used only for historical
 display, that the modern department stopped thinking about. The groundskeeper's note's distinction
-("not the annex — the original 1890s structure") is why this split exists.
+("not the annex — the original 1887 structure") is why this split exists.
 
 ## The Lockdown System
 
@@ -531,9 +529,9 @@ flowchart TD
 - **Old Station Skeleton Key** ([full item writeup](../Items/Key_Items/Old_Station_Skeleton_Key.md))
   — Chief's Office desk; the physical lock underneath the Breezeway's electronic shutter, needed
   once the Armory's control panel resets Zone 4.
-- **Reyes' Armory Zone Override** (was: Armory Key; [full item writeup](../Items/Key_Items/Armory_Key.md),
-  pending a rename pass) — from Corporal Reyes' body in the K-9 Unit Room; resets the Armory's own
-  lockdown and, from inside, the Breezeway's control panel.
+- **Reyes' Armory Zone Override** ([full item writeup](../Items/Key_Items/Armory_Zone_Override.md))
+  — from Corporal Reyes' body in the K-9 Unit Room; resets the Armory's own lockdown and, from
+  inside, the Breezeway's control panel.
 - **Shotgun** + **Shotgun Shells x12** ([full item writeup](../Items/Consumables/Shotgun_Shells.md))
   — Armory, once its lockdown is reset. The **["Ranger 870" Pump Shotgun](../Weapons/Ranger_870_Pump_Shotgun.md)**.
 - **Pocketknife** (optional, [full item writeup](../Items/Key_Items/Pocketknife.md)) — Booking &
@@ -613,9 +611,8 @@ flowchart TD
 
 ## Boss Encounters
 
-- **Diesel, the Alpha Ashen Hound** (locked 2026-08-14 — see [`Creatures/Ashen_Hound.md`](../Creatures/Ashen_Hound.md))
+- **Diesel, the Alpha Ashen Hound** (see [`Creatures/Ashen_Hound.md`](../Creatures/Ashen_Hound.md))
   — the district's boss, fought in the K-9 Unit Room alongside Baxter (standard-tier add).
-  Supersedes the earlier "no full boss fight" status.
 
 ## Crest Progression
 
@@ -640,9 +637,3 @@ any of the remaining four districts in any order.
   convention as the Chief.
 - Whether Officer Daniels' disappearance (Cole's email trail) ever gets more than a background
   mention, or stays a deliberate implication this has happened before.
-- **Renaming "Armory Key" to "Reyes' Armory Zone Override"** in
-  [`Items/Key_Items/Armory_Key.md`](../Items/Key_Items/Armory_Key.md) to match the Lockdown
-  Puzzle's framing — not yet done; this file currently flags the intended change inline.
-- [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md) needs a full
-  rewrite to actually script the Lockdown Puzzle described above — everything in this file's
-  "Storyline" and "Puzzles" sections is the target design, not yet reflected scene-by-scene.

@@ -250,14 +250,12 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   error plus new one-off mis-namings ("Holloway Academy," "Riverdale Academy," "Steelgate School
   District," "Steelgate Elementary") — all flagged as generation errors in each render's caption in
   [`Locations/Academy.md`](../Locations/Academy.md) rather than adopted; this district's school and
-  founder are locked as **Worthy Academy** and **Eleanor Worthy**. Unlike the Foundry and Hospital,
-  this district deliberately introduces **no new creature type** — its signature encounters reuse
-  standard Shamblers, per the project owner's explicit framing that the Academy's horror is about
-  people, not a new monster.
+  founder are locked as **Worthy Academy** and **Eleanor Worthy**. Its signature encounters mostly
+  reuse standard Shamblers, keeping the horror centered on people rather than an exotic monster
+  type, but the district does have one new boss — [The Matron](../Creatures/The_Matron.md).
 
 - **`Reference/monastery_*.png`** (15 files, AI-generated, 2026-08-13) — full room-concept coverage
-  for [`Locations/Monastery.md`](../Locations/Monastery.md), the North District's newly-written
-  main location and the last surface location before Chapter 3:
+  for [`Locations/Monastery.md`](../Locations/Monastery.md), the North District's main location:
   `monastery_gate_approach_concept.png`, `monastery_chapel_concept.png`,
   `monastery_guest_quarters_concept.png`, `monastery_spring_well_chamber_concept.png`,
   `monastery_library_archive_concept.png`, `monastery_hidden_archive_concept.png`,

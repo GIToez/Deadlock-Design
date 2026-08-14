@@ -1189,9 +1189,7 @@ A laminated emergency notice is pinned beside the panel.
 > *During emergency lockdown, staff are instructed to redirect guests through courtyard evacuation
 > access behind hotel. Courtyard security systems require full auxiliary wing power.*
 
-Jim reads it twice.
-
-> **JIM:** *"Courtyard."*
+Jim reads it twice, then folds the notice into his pocket.
 
 He looks at the panel. West Wing has a blown fuse, that much is obvious from the scorch marks
 around the housing — he'll need a screwdriver to get at the housing and a replacement fuse before
@@ -1834,9 +1832,7 @@ was shoved into a pocket fast.
 >
 > — Ravenwood PD Dispatch
 
-Jim reads the dispatch note twice. Folds it. Puts it in his pocket.
-
-> **JIM:** *"Deadlock Protocol."*
+Jim reads the dispatch note twice. Folds it. Puts it in his pocket, saying nothing.
 
 He looks down at the officer's notepad, the name still visible on the cover.
 

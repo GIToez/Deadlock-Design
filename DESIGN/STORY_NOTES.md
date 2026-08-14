@@ -2628,3 +2628,90 @@ been left otherwise untouched).
 > read-only against the project, separate from the document's own inline AI writing tool). That
 > back-and-forth is a tooling/platform issue, not lore, and has been deliberately left out of the
 > design docs.
+
+## Full audit: dev-note bloat cleanup, genuine loose-end fixes, dialogue trim (2026-08-14)
+
+> The project owner asked directly: "do you think we should do a full audit on everything? Clean up
+> some dialogue, make sure there's no loose ends in our story or script, maybe remove a good chunk
+> of these dev notes — way too much information that's not needed in them." Answer: yes, and it was
+> overdue — many incremental passes had left `CANON.md` and the `Locations/` files full of inline
+> `(locked YYYY-MM-DD)` date-stamps, multi-paragraph narrations of ideas that were tried and
+> reverted, and stale status notes, all of which belongs only in this file. Four parallel exploration
+> passes were run (link/reference integrity, dev-note bloat, dialogue over-explanation, and
+> cross-file consistency), then fixes were applied directly. Net result: 21 files changed, roughly
+> 430 lines net removed even after fixing every bug found.
+
+- **Genuine bugs fixed (not just prose cleanup):**
+  - `CANON.md` claimed *both* "all five founders' names are now established" *and* "the remaining
+    two founders' names are not yet decided" a few paragraphs apart — the second, stale bullet is
+    removed.
+  - `Locations/Monastery.md`, `Items/Key_Items/Faith_Crest.md`, and
+    `Items/Key_Items/README.md` all said "completing this district completes all five crests" —
+    true only if the Monastery happens to be Jim's fifth district, false the rest of the time since
+    it's fully open-order. All three now correctly gate the Founders Memorial's basin-drain on
+    "all five crests inserted," not "this specific district finished."
+  - Three cross-district citations (`Locations/Hospital.md`, `Locations/Academy.md`,
+    `Locations/Monastery.md`) all pointed to "Police Station beat 14" for the Chief's
+    disregard-Vanguard broadcast; the actual beat in `Locations/Police_Station.md` is **16** (14 is
+    the Cold Cells/Cole internal-breakdown beat). All three fixed.
+  - `Locations/Foundry_Refinery.md`'s Rail Yard called itself "Black Vein's original entry point,"
+    contradicting locked canon that Black Vein is a natural formation with no single "entry
+    point" — reworded to "the primary modern industrial access point... established in 1968."
+  - `Locations/Hospital.md`'s "Purpose" section still described a central-hub-with-gated-doors
+    shape, directly contradicting its own "Storyline" section and the locked Quarantine Puzzle
+    design (Jim is pulled progressively deeper, not shown a hub with sealed doors). Purpose
+    rewritten to match.
+  - A stale "1890s" typo (should be **1887**, the locked founding year) in
+    `Locations/Police_Station.md` and `Scripts/Chapter_2_Ravenwood.md`'s groundskeeper-note quote.
+  - `Locations/Hospital.md`'s Major Scripted Events still listed "The Radiology → Laboratory →
+    Administration key chain" as a current beat — that's the *superseded* mechanic; removed.
+  - `Creatures/Unnamed_Hospital_Boss.md`, `Creatures/The_Matron.md`, and `Creatures/The_Penitent.md`
+    all still said their district "hasn't been scripted yet" / "needs a rewrite pass to place her" /
+    "has no `Scripts/` file yet at all" — all three districts have had complete scripts since the
+    puzzle-philosophy rewrite pass. Updated to point at the actual scenes.
+  - `Assets/README.md` still said the Academy "deliberately introduces no new creature type" and
+    called the Monastery "the last surface location before Chapter 3" — both superseded (The
+    Matron exists; the Monastery is fully open-order). Fixed.
+  - Several `Locations/` files still carried "the former Foo Key is retired... should be deleted in
+    a future pass, not yet done here" notes for key items that had, in fact, already been deleted —
+    checked each against the actual `Items/Key_Items/` directory and removed the stale notes.
+- **Dev-note bloat trimmed, current-state facts kept:** `CANON.md` dropped its entire "Retcons"
+  section (superseded docx content already fully covered in this file's own "Resolved / Superseded
+  Items," above) in favor of a two-sentence "Source Precedence" pointer; removed inline
+  `(locked/revised/proposed YYYY-MM-DD, pending review)` stamps throughout (District Main-Location
+  Design Standard, Five Puzzle Philosophies, the FAITH recess rule, Vanguard's Grip on Ravenwood PD,
+  Origin of the Outbreak, several Named Characters entries); collapsed multi-paragraph "an earlier
+  version of this rule said X, then Y, then it was reverted because Z" narrations (the uniform
+  RE-key-hunt standard, the strict central-hub rule, the FAITH recess's now-removed Founder's Token)
+  down to the current rule in 1–3 sentences each. Every `Locations/` file for the five Chapter 2
+  districts got the same treatment: dropped `(locked/proposed 2026-08-1X, pending review)` stamps,
+  removed "first draft, pending review" status lines and resolved `~~strikethrough~~` clutter from
+  "Unresolved Ideas" sections (keeping only genuinely open items), and consolidated the AI-art
+  regeneration captions that had ballooned to 2–4 sentences per image (Monastery and Foundry each
+  had a dozen-plus near-identical "regenerated twice to fix a flat-camera drift" notes) down to one
+  file-level note plus only the genuinely unique non-canonical flags per image (wrong founder names,
+  wrong dates, wrong signage).
+- **Adjusted (not stale, but overloaded) content:** `Locations/Hospital.md`'s "Superseded, not yet
+  rewritten" block in Puzzles and `Locations/Academy.md`'s "Reconciled (2026-08-14)" paragraph both
+  described *how* the current design differs from an older one at length; both replaced with the
+  current design stated directly, since the actual Storyline/Key Items sections already reflect it
+  correctly and don't need the comparison restated.
+- **Dialogue trim, per an explore pass across all six scripts:** cut roughly 25 individual Jim lines
+  that restated a document's own closing line back to the player immediately after they read it
+  (Police Chief's logbook sequence, the Hospital's transfer form/surgical log/power-split
+  observation, the Foundry's exposure file/1968 dates, the Academy's cafeteria/duffel bag/founding
+  document, the Monastery's grave/Penitent aftermath), or that announced a pattern the player could
+  already see forming (the Memorial Park statue's "five slots/five directions," the Foundry's
+  "everything comes back to that year"). Also fixed the Foundry's "SITE LOSS ACCEPTABLE" memo
+  reaction and the Monastery's post-Cormac-recording reaction to properly branch on crest count —
+  both previously played the same reaction regardless of how deep into Chapter 2 Jim actually was,
+  which is exactly the "Jim should get quieter, not just say different things" principle
+  [`Characters/Jim_Mercer.md`](Characters/Jim_Mercer.md) already establishes.
+- **What wasn't done, and why:** a handful of borderline lines the explore pass flagged as
+  "defensible either way" (e.g. Foundry's "Not 'casualties unavoidable'... 'site loss acceptable'"
+  at low crest counts, Hospital's "'Site loss acceptable'" framing) were left in place at their
+  appropriate crest tiers rather than cut outright, since Jim's early-game dialogue is allowed more
+  reaction than his late-game dialogue per his own locked arc. `STORY_NOTES.md` itself was
+  deliberately *not* rewritten to remove its own historical narration (e.g. the still-struck-through
+  Founder's Token entry, the docx retcon list) — this file is the one place that kind of history is
+  supposed to live.

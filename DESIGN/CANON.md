@@ -5,22 +5,13 @@
 > for the full narrative.
 >
 > If another document contradicts this file, report the contradiction rather than silently
-> changing canon.
-
-> **Source note:** Two source materials exist for this game:
-> [`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx)
-> (uploaded first) and [`AI.json`](AI.json) (an older AI planning conversation, uploaded
-> second, covering the same material plus much more — Memorial Park, the five districts, the
-> crest/emblem system, and character names). Where the two disagree, **[`AI.json`](AI.json) is treated as the
-> newer, more authoritative source**, because it is a later iterative pass that explicitly revisits
-> and fixes problems found in the earlier material (see "Retcons" below for the specific list).
+> changing canon. See "Source Precedence" near the end of this file for how conflicts between the
+> two source materials are resolved.
 
 ## Presentation & Perspective
 
-Deadlock Protocol is a **2.5D top-down survival horror game** (this was stated as early as the
-first message of `AI.json`'s planning conversation but never actually made it into a design
-document until now — flagging that gap here for traceability). Two concrete implications for
-future writing, confirmed by reference screenshots from the project owner (2026-08-12):
+Deadlock Protocol is a **2.5D top-down survival horror game**. Two concrete implications for
+future writing, confirmed by reference screenshots:
 
 - **The camera does not show a wide, cinematic view of a room.** It stays close to the player
   character — in the reference screenshots, roughly half of the Ravenwood Hotel lobby is visible
@@ -39,7 +30,7 @@ future writing, confirmed by reference screenshots from the project owner (2026-
 See [`README.md`](README.md) → "Presentation & Camera" for the corresponding writing rule, and
 [`Assets/`](Assets/README.md) for reference screenshots once uploaded.
 
-## District Main-Location Design Standard (locked 2026-08-13; puzzle-mechanic clause revised 2026-08-14)
+## District Main-Location Design Standard
 
 Each of the five districts' **main location** (Police Station, Hospital, Academy, Refinery,
 Monastery) is a substantial, interconnected exploration space — explicitly modeled on classic
@@ -50,58 +41,44 @@ district should use), not a short, mostly-linear pass. Concrete implications:
 - **Target scope: roughly 2–3 hours of gameplay per main location** — comparable in depth to the
   Ravenwood Hotel (Chapter 1's 46-scene main location), not to the shorter, faster secondary
   locations within the same district.
-- **Each district's puzzle mechanic must be distinct — see "Five Puzzle Philosophies," below
-  (revised 2026-08-14).** The original version of this standard called for "multiple specific key
-  items... the way RE's suit-symbol keys each open exactly one thing" uniformly across all five
-  districts. That's now explicitly **not** the standard — a uniform key-hunt across all five
-  districts was identified as a repetition risk (see [`STORY_NOTES.md`](STORY_NOTES.md) → "Chapter
-  2 narrative craft review"). The Hotel's repair-and-backtrack puzzle is the **benchmark to differ
-  from**, and each of the five crest locations gets its own puzzle philosophy built from something
-  unique to that institution (see below) — physical keys are still fine as *one ingredient* within
-  a district's mechanic (the Police Station's Lockdown puzzle still uses a few), but no district
-  should be a pure "find the item shaped like the lock" hunt end to end.
+- **Each district's puzzle mechanic must be distinct — see "Five Puzzle Philosophies," below.** The
+  Hotel's repair-and-backtrack puzzle is the **benchmark to differ from**, and each of the five
+  crest locations gets its own puzzle philosophy built from something unique to that institution
+  (see below). Physical keys are fine as *one ingredient* within a district's mechanic (the Police
+  Station's Lockdown Puzzle still uses a few), but no district should be a pure "find the item
+  shaped like the lock" hunt end to end.
 - **Backtracking across the whole district is still the point, not a flaw.** A main location's
   secondary locations (e.g. the Police Station's Fire Station, Municipal Garage, City Courthouse)
   should stay woven into the same interlocking puzzle, not fully separate optional side content —
   clues/tools found at one building should often be required to progress at another, forcing the
   player to physically walk the district multiple times.
-- **A recognizable anchor space or traversal structure the player learns and revisits** (loosened
-  2026-08-14 from a stricter "every district needs a central hub that visibly gates several locked
-  points at once" rule, which was itself becoming a repetition risk — five districts each opening
-  on "enter foyer, catalogue locked doors" reads as the same rhythm even with different puzzles
-  behind it). A true hub is still the right shape where it fits the institution — the Police
-  Station's security console genuinely belongs in one room, and the Foundry's seized casting line
-  is naturally a hub by virtue of dominating the room it's in. Other districts can use a different
-  shape entirely: a branching corridor system the player gradually gets swallowed by (the
-  Hospital), a spreading complex explored by following an aftermath outward rather than sizing up
-  a foyer (the Academy), or a vertical progression the player spirals through (the Monastery's
-  Chapel → Cloister/Library → Bell Tower → Crypt). What must stay true regardless of shape: the
-  player should be able to see, at some point before the end, roughly how much of the district is
-  left to solve.
+- **A recognizable anchor space or traversal structure the player learns and revisits** — not
+  necessarily a central hub that gates several locked points at once. A true hub is the right shape
+  where it fits the institution (the Police Station's security console, the Foundry's seized
+  casting line, both naturally dominant in their own room). Other districts use a different shape:
+  a branching corridor system the player gradually gets swallowed by (the Hospital), a spreading
+  complex explored by following an aftermath outward (the Academy), or a vertical progression the
+  player spirals through (the Monastery's Chapel → Cloister/Library → Bell Tower → Crypt). What
+  must stay true regardless of shape: the player should be able to see, before the end, roughly how
+  much of the district is left to solve.
 - **The emblem is the meaningful payoff for completing the district's main puzzle, not necessarily
-  the literal last object found (revised 2026-08-14).** It can't be obtained casually or early —
-  it has to follow from actually solving the puzzle philosophy below — but a district can still
-  have genuine, deeper optional story content *after* the crest. The Foundry is the clearest case:
-  Jim solves the Casting Puzzle, gets the Industry Crest, and can then choose to continue into the
-  Black Vein Cavern beneath it because he wants to understand what Steelgate was hiding — that
-  post-crest curiosity beat is good design (gameplay reward first, curiosity-driven deeper
-  exploration second) and doesn't violate this rule. What would violate it is handing over the
-  crest before the puzzle is actually solved.
-- This standard is **retroactive**: the Police Station, originally scripted before this standard
-  was locked, has since been rewritten to match it (2026-08-13) and fully scene-by-scene scripted —
-  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md), including a full
-  room-connectivity blueprint at [`Locations/Police_Station.md`](Locations/Police_Station.md)
-  matching [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)'s existing convention.
-  **All five districts' scripts are now complete and match their own puzzle philosophy below
-  (2026-08-14):** [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md)
-  (Lockdown Puzzle), [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md) (Quarantine
-  Puzzle), [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md) (Casting Puzzle),
+  the literal last object found.** It can't be obtained casually or early — it has to follow from
+  actually solving the puzzle philosophy below — but a district can still have genuine, deeper
+  optional story content *after* the crest (e.g. the Foundry: solve the Casting Puzzle, get the
+  Industry Crest, then choose to continue into the Black Vein Cavern out of curiosity). What would
+  violate this rule is handing over the crest before the puzzle is actually solved.
+- This standard applies to all five Chapter 2 district main locations, each with a full
+  scene-by-scene script matching its own puzzle philosophy below:
+  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md) (Lockdown Puzzle),
+  [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md) (Quarantine Puzzle),
+  [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md) (Casting Puzzle),
   [`Scripts/Chapter_2_Academy.md`](Scripts/Chapter_2_Academy.md) (Archive Puzzle), and
-  [`Scripts/Chapter_2_Monastery.md`](Scripts/Chapter_2_Monastery.md) (Bell Tower Puzzle, written
-  from scratch rather than a retrofit, since it never had an older script to begin with). See
+  [`Scripts/Chapter_2_Monastery.md`](Scripts/Chapter_2_Monastery.md) (Bell Tower Puzzle) — each with
+  a full room-connectivity blueprint in its own `Locations/` file, matching
+  [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)'s existing convention. See
   [`STORY_NOTES.md`](STORY_NOTES.md) for the full restructuring history.
 
-### Five Puzzle Philosophies (locked 2026-08-14)
+### Five Puzzle Philosophies
 
 Each crest location uses a mechanic built from something unique to that institution, with its own
 interaction verb — full design detail for each is in
@@ -135,12 +112,10 @@ from grounded, slow-burn horror into full quarantine horror over the course of o
 ## Player Starting Equipment
 
 Jim carries a **heavy-duty flashlight** clipped to his belt from the very start of the game — part
-of his default loadout as a field engineer's everyday-carry, not something picked up in play. This
-was locked (2026-08-12) specifically to close a gap where he had no personal light source for
-Chapter 1's dark, powerless spaces despite the hotel's outage. Established in
-[`Scripts/Chapter_1_One_Night_Only.md`](Scripts/Chapter_1_One_Night_Only.md) (Scene 2); Chapter 2's
-originally-planned "first flashlight" pickup ([`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scene 2) was
-changed to spare flashlight batteries instead, since he already has his own.
+of his default loadout as a field engineer's everyday-carry, not something picked up in play.
+Established in [`Scripts/Chapter_1_One_Night_Only.md`](Scripts/Chapter_1_One_Night_Only.md)
+(Scene 2); [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md) (Scene 2) gives him
+spare batteries rather than a first flashlight, since he already has his own.
 
 ## Origin of the Outbreak
 
@@ -152,8 +127,8 @@ beneath Memorial Park was constructed at the same time as the town itself (1887)
 mechanism of the outbreak (how containment failed, why it happened now) is not yet established —
 see [`STORY_NOTES.md`](STORY_NOTES.md).
 
-**Black Vein is a natural formation, not something Vanguard manufactured or imported (proposed
-2026-08-13, pending review).** It runs through the natural cave system beneath the mountains
+**Black Vein is a natural formation, not something Vanguard manufactured or imported.** It runs
+through the natural cave system beneath the mountains
 around Ravenwood — the 1887 Memorial Park facility was built directly on top of it as the town's
 original, oldest access point. A second, later access point was established at
 **[Steelgate Refinery](Locations/Foundry_Refinery.md)** starting in **1968**, when Vanguard began
@@ -167,7 +142,7 @@ separate, decades-long industrial exploitation/exposure operation at the Foundry
 converging on the same underlying phenomenon.
 
 **Ravenwood encountered Black Vein's effects generations before either Vanguard access point
-existed (proposed 2026-08-13, pending review).** [Our Lady of Solace Monastery](Locations/Monastery.md),
+existed.** [Our Lady of Solace Monastery](Locations/Monastery.md),
 built on the northern ridge around a natural spring and cave system centuries before the modern
 town, documented strange occurrences in its own archives — malformed/aggressive animals, unnaturally
 rapid wound healing, hardened growths, survivable injuries that should have been fatal — long
@@ -181,10 +156,9 @@ Vanguard later obtained the monastery's historical archives (see
 [`Locations/Monastery.md`](Locations/Monastery.md) → "Outbreak Night") and covertly tunneled from
 the Foundry side to bypass the monks' old seal entirely — the only case where two of Ravenwood's
 Black Vein sites become physically connected, and only because Vanguard deliberately built that
-connection. This does not change the 1887/1968 sites' own compartmentalization from each other,
-above; it adds a third thread, reframing Vanguard's culpability from "made an unforeseeable
-scientific discovery" to "found generations of documented warnings, understood them, and proceeded
-anyway."
+connection. This doesn't change the 1887/1968 sites' own compartmentalization from each other,
+above; it means Vanguard's culpability isn't "made an unforeseeable scientific discovery" but
+"found generations of documented warnings, understood them, and proceeded anyway."
 
 ## Major Character Relationships
 
@@ -204,10 +178,8 @@ anyway."
 
 The story is told in three chapters plus an epilogue:
 
-1. **Chapter 1 — One Night Only.** The Ravenwood Hotel (absorbs what earlier material called the
-   "Prologue" — driving in, checking in, the outbreak beginning — the whole thing is now Chapter
-   1, not a separate prologue). Opens on Highway 13; closes on Jim stepping through the hotel's
-   north courtyard gate onto the street.
+1. **Chapter 1 — One Night Only.** The Ravenwood Hotel. Opens on Highway 13; closes on Jim
+   stepping through the hotel's north courtyard gate onto the street.
 2. **Chapter 2 — Ravenwood.** The city. Jim crosses the street into Memorial Park (the permanent
    safe hub), then explores five open-order districts recovering five founders' emblems. Closes
    on all five emblems being returned to the Founders Memorial statue, the water basin draining,
@@ -226,9 +198,9 @@ hotel-chapter detail.
 ## The Founders & the Five Crests
 
 - **[Memorial Park](Locations/Memorial_Park.md)** (est. 1891 per its own archway; the central
-  Founders Memorial statue is dated 1887 — the statue predates the park's formal establishment, or
-  the park was built around it — not yet reconciled, see [`STORY_NOTES.md`](STORY_NOTES.md)) is
-  Ravenwood's central hub, reached directly across the street from the
+  Founders Memorial statue is dated 1887 — an intentionally minor, unreconciled date gap between
+  the statue and the park's formal establishment; see [`STORY_NOTES.md`](STORY_NOTES.md) if it ever
+  needs resolving) is Ravenwood's central hub, reached directly across the street from the
   [Ravenwood Hotel](Locations/Ravenwood_Hotel.md).
 - At its center stands the **Founders Memorial**: a ~10-foot bronze female civic statue holding a
   large circular medallion-plaque, divided into a small central **five-sided pentagon hub**
@@ -261,15 +233,11 @@ hotel-chapter detail.
   district its emblem belongs to. Jim can read this directly off the statue at Memorial Park at
   any time, before collecting anything — it's a hint built into the monument itself, not something
   revealed only after finding a given emblem.
-- **The medallion does exactly one thing, deliberately kept simple (locked 2026-08-14, simplified
-  2026-08-14).** Every recess behaves identically. Nothing happens after the first, second, third,
-  or fourth crest is inserted — no bonus items, no partial reveals, no hidden compartments, no
-  milestone rewards, and no special behavior tied to any specific crest (including FAITH). Only
-  the fifth and final crest completes the medallion, activates the mechanism, and drains the basin.
-  An earlier revision gave the FAITH recess a second, hidden function (dropping a "Founder's Token"
-  needed to unlock part of the Monastery); this was deliberately reverted in favor of keeping the
-  crest system, and every district's own progression, completely self-contained — see
-  [`STORY_NOTES.md`](STORY_NOTES.md) for the history.
+- **The medallion does exactly one thing, deliberately kept simple.** Every recess behaves
+  identically. Nothing happens after the first, second, third, or fourth crest is inserted — no
+  bonus items, no partial reveals, no hidden compartments, no milestone rewards, and no special
+  behavior tied to any specific crest (including FAITH). Only the fifth and final crest completes
+  the medallion, activates the mechanism, and drains the basin.
 - **Crest / district / slot reference table:**
 
 | Direction | Crest Name | Location | Statue Slot Label | Institution Symbol | Wedge Position |
@@ -281,14 +249,11 @@ hotel-chapter detail.
 | Northwest | Industry Crest | [Steelgate Refinery](Locations/Foundry_Refinery.md) | INDUSTRY | Anvil | Upper-left |
 
 - **The Faith Crest's founder, Abbot Matthias Kane, did not found the Monastery building itself —
-  he formally established its current religious order in 1887 (proposed 2026-08-13, pending
-  review).** Per [`Locations/Monastery.md`](Locations/Monastery.md), the physical monastery, its
+  he formally established its current religious order in 1887.** The physical monastery, its
   spring, and its cave system predate the founders' era by centuries; Kane's 1887 role (matching
-  the other four founders' own institution-founding year) was consolidating and formally
-  chartering "Our Lady of Solace" as the monastery's modern order atop that much older site,
-  which is why he's credited on the Faith Crest despite the building predating him — a deliberate,
-  flagged reconciliation, same convention as Memorial Park's own unresolved 1887/1891 date
-  tension (see [`STORY_NOTES.md`](STORY_NOTES.md)).
+  the other four founders' own institution-founding year) was chartering "Our Lady of Solace" as
+  the monastery's modern order atop that much older site — why he's credited on the Faith Crest
+  despite the building predating him.
 - Jim learns about the emblems through **environmental discovery, not exposition**: guardhouse
   notes at Memorial Park (written by a park groundskeeper who never understood the statue, but
   recalls a historian once telling him to "look at the police station... there's something on the
@@ -304,18 +269,15 @@ network** found throughout Ravenwood (not hotel-specific) — the game's only sa
 are part of pre-existing Ravenwood emergency infrastructure, which itself is a subtle, unexplained
 early hint that Vanguard's reach into the town predates the outbreak.
 
-## Vanguard's Grip on Ravenwood PD (proposed 2026-08-13, pending review)
+## Vanguard's Grip on Ravenwood PD
 
-> Proposed by the project owner as a deliberate reframe of the Police Station: **the officers are
-> not secretly Vanguard villains.** They're real Ravenwood cops who believe they're protecting
-> their town. Vanguard spent years turning the department into an unofficial containment arm
-> without most officers realizing how far they'd already crossed the line. See
-> [`Locations/Police_Station.md`](Locations/Police_Station.md) for where this is physically
-> discovered in-game, and [`Characters/Aaron_Cole.md`](Characters/Aaron_Cole.md) for the detective
-> whose investigation is the primary discovery trail. Treat this whole section as a proposal
-> pending full review, same as any new canon addition — but built to not contradict anything
-> already locked (Sergeant Calloway, the shotgun, the Authority Crest, Diesel/Baxter, and all four
-> buildings are all explicitly unchanged).
+> A deliberate reframe of the Police Station: **the officers are not secretly Vanguard villains.**
+> They're real Ravenwood cops who believe they're protecting their town. Vanguard spent years
+> turning the department into an unofficial containment arm without most officers realizing how far
+> they'd already crossed the line. See [`Locations/Police_Station.md`](Locations/Police_Station.md)
+> for where this is physically discovered in-game, and
+> [`Characters/Aaron_Cole.md`](Characters/Aaron_Cole.md) for the detective whose investigation is
+> the primary discovery trail.
 
 - **The Ravenwood–Vanguard Public Safety Agreement.** Years before the outbreak, Vanguard began
   funding the Ravenwood Police Department — not cartoonishly, but through completely reasonable-
@@ -361,17 +323,14 @@ early hint that Vanguard's reach into the town predates the outbreak.
   Vanguard-directed police to *increase* patrols rather than evacuate — deliberately gathering data
   on how early-stage exposure affects aggression under environmental stress, while residents'
   complaints about strange behavior were dismissed by the department itself as an ordinary drug
-  problem. **This is offered as a strong contributing thread toward the still-open "how containment
-  failed / why now" question** (see "Origin of the Outbreak," above) — plausible, not a full
-  answer; the exact mechanism remains explicitly reserved for Chapter 3.
+  problem. A contributing thread toward "how containment failed / why now" (see "Origin of the
+  Outbreak," above) — not a full answer; the exact mechanism is reserved for Chapter 3.
 - **Discovery trail:** primarily [Detective Aaron Cole's](Characters/Aaron_Cole.md) abandoned
   investigation — missing-persons cases he connected via the shared "V-CASE TRANSFERRED" marking,
   a Vanguard security image proving at least one "transferred" person was still alive but
   monstrously mutated, and his own disappearance after Vanguard used an internal-affairs
-  investigation to discredit and remove him rather than risk a more visible move against him. Per
-  the game's established "environmental discovery, not exposition" convention (see "The Founders &
-  the Five Crests," above), this is meant to be pieced together through found documents/notes, not
-  delivered via an NPC dialogue dump.
+  investigation to discredit and remove him rather than risk a more visible move against him.
+  Pieced together through found documents/notes, not delivered via an NPC dialogue dump.
 
 ## Named Characters Confirmed (beyond the core hotel cast)
 
@@ -401,15 +360,13 @@ early hint that Vanguard's reach into the town predates the outbreak.
   affairs setup and disappeared before the outbreak. Never seen alive or dead — known only through
   his abandoned office and the investigation he hid from Vanguard. See "Vanguard's Grip on
   Ravenwood PD," above.
-- **Chief Marcus Doyle** — Ravenwood PD's chief of police (name decided 2026-08-13, needed for his
-  self-identification in the final-broadcast recording found in Records/Dispatch — see
+- **Chief Marcus Doyle** — Ravenwood PD's chief of police; self-identifies in the final-broadcast
+  recording found in Records/Dispatch (see
   [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md), Scene 5). Never seen
-  alive or dead; known through his own Chief's Office logbook (last entry: going to check on Corporal Reyes
-  himself) and that recording (publicly overriding Vanguard's containment order, ending on gunfire
-  and static). His ultimate fate stays deliberately unresolved, same convention as Cole and the
-  Vanguard Liaison. Deliberately distinct from "CHIEF E. WHITAKER," an unprompted, non-canonical
-  nameplate that appeared in one AI-generated Chief's Office room concept — see
-  [`Locations/Police_Station.md`](Locations/Police_Station.md) for that flag.
+  alive or dead; known through his own Chief's Office logbook (last entry: going to check on
+  Corporal Reyes himself) and that recording (publicly overriding Vanguard's containment order,
+  ending on gunfire and static). His ultimate fate stays deliberately unresolved, same convention as
+  Cole and the Vanguard Liaison.
 - **Marshal Josiah Hale** — the Ravenwood Police Department's first peace officer (1887); one of
   Ravenwood/Vanguard's five founders. His name and portrait appear on the **Authority Crest**,
   recovered from a display case in the old 1887 station house.
@@ -420,10 +377,7 @@ early hint that Vanguard's reach into the town predates the outbreak.
 - **Elias Thorne** — Steelgate Refinery's founder (1887); one of Ravenwood/Vanguard's five
   founders. His name and portrait appear on the **Industry Crest**, recovered from a display case
   in the Refinery's own founder's boardroom — see
-  [`Locations/Foundry_Refinery.md`](Locations/Foundry_Refinery.md). The remaining two founders'
-  names are not yet decided (a damaged in-world document at the Police Station defers them
-  intentionally — see [`Locations/Police_Station.md`](Locations/Police_Station.md)); when chosen,
-  they should feel consistent with Hale's, Voss's, and Thorne's period-appropriate naming.
+  [`Locations/Foundry_Refinery.md`](Locations/Foundry_Refinery.md).
 - **Plant Manager Daniel Fitch** — Steelgate Refinery's manager on the night of the outbreak; a
   Vanguard collaborator by omission for years (confidentiality agreements, ignored irregularities)
   rather than by malice, who breaks with Vanguard once he understands what "evacuation poses an
@@ -444,18 +398,15 @@ early hint that Vanguard's reach into the town predates the outbreak.
 - **Abbot Matthias Kane** — Our Lady of Solace Monastery's founder (1887, in the reconciled sense
   described under "The Founders & the Five Crests," above — the monastery building and caves
   predate him by centuries). His name and portrait appear on the **Faith Crest**, recovered from
-  the Monastery's own Reliquary — see [`Locations/Monastery.md`](Locations/Monastery.md). **All
-  five founders' names are now established:** Josiah Hale (Order), Nathaniel Voss (Medicine),
-  Elias Thorne (Industry), Eleanor Worthy (Knowledge), and Matthias Kane (Faith).
+  the Monastery's own Reliquary — see [`Locations/Monastery.md`](Locations/Monastery.md). **The
+  five founders:** Josiah Hale (Order), Nathaniel Voss (Medicine), Elias Thorne (Industry), Eleanor
+  Worthy (Knowledge), and Matthias Kane (Faith).
 - **Brother Cormac** — the Monastery's senior monk and archivist on the night of the outbreak; the
   one who secretly built the hidden archive proving Vanguard's decades of documented Black Vein
   warnings, and who stays behind to keep the old crypt seal closed and the archive out of
   Vanguard's hands. See [`Locations/Monastery.md`](Locations/Monastery.md) → "Outbreak Night." His
   ultimate fate is deliberately unresolved, same convention as Fitch, Ashford, the Police
   Station's Chief, and the Hospital's Liaison.
-- (The character/founder additions above are new as of 2026-08-13 — see
-  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md), Scenes 1–24, and
-  [`STORY_NOTES.md`](STORY_NOTES.md) for context on what was proposed versus already locked.)
 
 ## Creature Classification: Ashen Mutant
 
@@ -465,27 +416,24 @@ example of this classification tier. It's responsible for both Cindy Sweets' Roo
 and Gerta's death. Whether "Ashen Mutant" applies more broadly (e.g. to the Caretaker) is not yet
 confirmed.
 
-**[Ashen Hound](Creatures/Ashen_Hound.md)** — a distinct, separate classification (new,
-2026-08-13): Black Vein's presentation in an infected animal (specifically a domestic dog) rather
-than a human, producing a fast, pack-hunting profile instead of the slow "Ashen Mutant"/Shambler
-baseline. Shares the "Ashen" naming convention (tied to Black Vein's visual/thematic signature) but
-is not itself a variant of "Ashen Mutant," which this document uses specifically for human
-mutation-stage creatures.
+**[Ashen Hound](Creatures/Ashen_Hound.md)** — a distinct, separate classification: Black Vein's
+presentation in an infected animal (specifically a domestic dog) rather than a human, producing a
+fast, pack-hunting profile instead of the slow "Ashen Mutant"/Shambler baseline. Shares the "Ashen"
+naming convention but is not itself a variant of "Ashen Mutant," which this document uses
+specifically for human mutation-stage creatures.
 
 ## Creature Classification: Apex Mutation
 
-**[The Zombie Conglomerate ("the Zombie King")](Creatures/Zombie_Conglomerate.md)** — a new,
-separate classification tier (proposed 2026-08-13): a mass of dozens (eventually many more)
-individually-infected bodies fused together by unchecked Ashen mutation into a single rolling,
-grasping entity, "not born, but built." Unlike every other creature so far, it is explicitly
-**unkillable and un-fightable by design** — a roaming, unpredictable environmental hazard rather
-than a combat encounter, first appearing in Chapter 2 after Jim recovers his first emblem. See its
-file for a locked-canon conflict in its source concept art (an incompatible multi-week sighting
-timeline) and a proposed resolution, not yet approved.
+**[The Zombie Conglomerate ("the Zombie King")](Creatures/Zombie_Conglomerate.md)** — a mass of
+infected bodies fused by unchecked Ashen mutation into a single rolling, grasping entity that forms
+and grows during Chapter 2's single night, "not born, but built." Unlike every other creature in
+the game, it is explicitly **unkillable and un-fightable during Chapter 2** — a roaming,
+unpredictable world/city boss rather than a combat encounter, first appearing after Jim recovers
+his first emblem. See its file for full growth-stage and behavior detail.
 
-## Creature Distribution System (locked 2026-08-14)
+## Creature Distribution System
 
-Applies to all five Chapter 2 districts, going into the script rewrite:
+Applies to all five Chapter 2 districts:
 
 - **Every district has Shamblers, themed to that location.** The baseline
   [Shambler](Creatures/Shambler.md) appears everywhere in the game, but its *dressing* should
@@ -493,20 +441,15 @@ Applies to all five Chapter 2 districts, going into the script rewrite:
   St. Dymphna, work coveralls at Steelgate, staff/parent/student clothing at Worthy Academy, and
   monastic robes at the Monastery. Same creature, same baseline behavior — the wardrobe is what
   keeps five districts' worth of "generic infected" from feeling identical.
-- **Every district's main location has one boss-tier encounter**, not just the Hospital. Assigned
-  (2026-08-14): Police Station → **Alpha Ashen Hound** (Diesel, elevated to boss scale, with Baxter
-  as an add — see [`Creatures/Ashen_Hound.md`](Creatures/Ashen_Hound.md)); Hospital → **The
-  Surgeon** (already locked, see [`Creatures/Unnamed_Hospital_Boss.md`](Creatures/Unnamed_Hospital_Boss.md));
-  Foundry → **The Foreman** (new, an Exposure Cohort specimen exposed longest — see
-  [`Creatures/Exposure_Cohort.md`](Creatures/Exposure_Cohort.md)); Academy → **The Matron** (new —
-  see [`Creatures/The_Matron.md`](Creatures/The_Matron.md)); Monastery → **The Penitent** (new —
-  see [`Creatures/The_Penitent.md`](Creatures/The_Penitent.md)).
-- **Academy override, flagged rather than silently changed:** this district was previously locked
-  as introducing "no new creature type," on the theory that its horror should be about people, not
-  a monster. That's superseded now that every district needs a boss + 1–2 new creatures — The
-  Matron is designed to keep the *people, not an exotic monster* feeling (see her file) rather than
-  contradict the original intent outright, but the "no new creature" line itself is no longer
-  accurate and should be removed wherever it's still written.
+- **Every district's main location has one boss-tier encounter**, not just the Hospital: Police
+  Station → **Alpha Ashen Hound** (Diesel, elevated to boss scale, with Baxter as an add — see
+  [`Creatures/Ashen_Hound.md`](Creatures/Ashen_Hound.md)); Hospital → **The Surgeon** (see
+  [`Creatures/Unnamed_Hospital_Boss.md`](Creatures/Unnamed_Hospital_Boss.md)); Foundry → **The
+  Foreman** (an Exposure Cohort specimen exposed longest — see
+  [`Creatures/Exposure_Cohort.md`](Creatures/Exposure_Cohort.md)); Academy → **The Matron** (see
+  [`Creatures/The_Matron.md`](Creatures/The_Matron.md) — designed to keep the district's horror
+  centered on people rather than an exotic monster type); Monastery → **The Penitent** (see
+  [`Creatures/The_Penitent.md`](Creatures/The_Penitent.md)).
 - **Each district's new creature type(s) unlock into the wider city once discovered**, the same
   crest-count-scaling logic already used for the Zombie Conglomerate (see
   [`Creatures/Zombie_Conglomerate.md`](Creatures/Zombie_Conglomerate.md)) and for Jim's own
@@ -517,8 +460,7 @@ Applies to all five Chapter 2 districts, going into the script rewrite:
   progressively more dangerous in a way that's legible to the player (a Shambler-only street
   suddenly having an Ashen Hound in it is a clear signal real progress has been made) and ties the
   open-world danger level to crest count rather than a fixed timer. Not yet scripted as an actual
-  system — flagged in [`STORY_NOTES.md`](STORY_NOTES.md) alongside the Zombie Conglomerate's own
-  still-open combat/detection mechanics.
+  system.
 
 ## Survivor System (design rule, applies from Chapter 2 onward)
 
@@ -532,7 +474,7 @@ Applies to all five Chapter 2 districts, going into the script rewrite:
   via notes/environmental clues from the dead version); no survivor's death ever hard-blocks
   progression; the game never explicitly blames the player. (Her alternate/"already turned" scene
   is described but not yet scripted — see [`Locations/Police_Station.md`](Locations/Police_Station.md).)
-  - **Tier 2b — Threshold conditional survivors (new, 2026-08-13):** a variant gated by *how many
+  - **Tier 2b — Threshold conditional survivors:** a variant gated by *how many
     emblems Jim is carrying* rather than strictly "first district visited or not." Confirmed
     example: **[Richard Dalton](Characters/Richard_Dalton.md)**, at St. Dymphna Hospital, is alive
     (Jim meets him fleeing the building looking for help for Maria) if the Hospital is Jim's first
@@ -541,49 +483,12 @@ Applies to all five Chapter 2 districts, going into the script rewrite:
     Same underlying rule as Tier 2 above (information/outcome is always recoverable either way, no
     hard-blocked progression) — the only difference is the specific condition checked.
 
-## Retcons — superseded docx content (per [`AI.json`](AI.json), the newer source)
+## Source Precedence
 
-These items appeared in [`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx) and have been explicitly
-revised or removed in the later [`AI.json`](AI.json) planning pass. Recorded here rather than silently
-changed, per the "report contradictions" rule:
-
-- **Earl Whitaker's pre-outbreak "hesitation"/foreshadowing** (listening for something, his
-  dismissal "landing wrong") is removed. Earl is now written as a plainly ordinary, unsuspecting
-  night clerk with no foreknowledge — his death is meant to land harder *because* he was never
-  suspicious. His "town gets strange when the weather turns" line is likewise cut as a horror
-  cliché.
-- **The muffled scream** Jim hears before falling asleep in Room 104 is removed from canon — Room
-  104 now ends on rain/thunder/fade-to-black with no warning before the outbreak wakes him.
-- **The East Wing maintenance-closet/screwdriver duplication** (flagged independently during this
-  project's own audit, and by the user during the [`AI.json`](AI.json) session) is resolved the same way in
-  both places: **one pickup only, in the East Wing** (matches what's already written in
-  [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)).
-- **The Red Room no longer connects to the Courtyard Security Office.** In the docx, the Red
-  Room's backstage was the route into the Security Office (making it secretly mandatory despite
-  being labeled optional, and architecturally implausible — a security office reachable only
-  through a speakeasy lounge). This is fixed: the **Red Room is fully self-contained**, entered
-  directly off the Main Bar, with no backstage route to anywhere, and the **Courtyard Security
-  Office is reached via a separate West Wing service corridor.** The "deadbolted front door"
-  detail from the docx is removed entirely — see
-  [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md) for the corrected room layout.
-- Jim's occupation (**not established at all in the docx**) is now locked: retired military
-  (comms/logistics) turned telecommunications field engineer.
-- The mutagen name is locked as **Black Vein** (a "Dark Vein" variant name was briefly considered
-  and rejected in favor of the original term).
-- **The hotel's second-floor service crossover and "West Wing Maintenance Office" are retired
-  (2026-08-12).** This was an interim design (written into this project's own scripts, not sourced
-  from the docx or [`AI.json`](AI.json)) that assumed a player-inaccessible service floor
-  connecting the East and West Wings. After the project owner shared a real architectural floor
-  plan for the hotel (ground floor + guest floor only), the entire East/West Wing
-  power-restoration route was rebuilt to match: no second floor, no crossover, a barricaded
-  East Wing shortcut door back to the Lobby, and a small unlocked **West Wing Maintenance Room**
-  on the guest floor (not the old "West Wing Maintenance Office," which is gone). The **Laundry
-  Room also moved from the West Wing (behind the Main Bar) to the East Wing**, next to the Utility
-  Room — Gerta's death scene moved with it. See [`STORY_NOTES.md`](STORY_NOTES.md) → "Direction
-  Log" for the full resolution and [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)
-  for the corrected room list and blueprint diagrams.
-
-*Sources: [`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx) (original material); [`AI.json`](AI.json) (the
-planning conversation that produced the retcons and the Memorial Park / district / crest system
-above — see [`STORY_NOTES.md`](STORY_NOTES.md) for open questions raised by that same conversation, and
-`Scripts/` for the scene-by-scene material it produced).*
+Two source materials exist:
+[`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx)
+(uploaded first) and [`AI.json`](AI.json) (a later, more thorough planning pass covering the same
+material plus much more — Memorial Park, the five districts, the crest system, character names).
+**Where the two disagree, `AI.json` is authoritative.** Full list of specific superseded docx
+content and the reasoning behind each change: [`STORY_NOTES.md`](STORY_NOTES.md) → "Resolved /
+Superseded Items."

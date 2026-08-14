@@ -4,22 +4,14 @@
 > [`Scripts/Chapter_2_Monastery.md`](../Scripts/Chapter_2_Monastery.md). Full revision history is
 > in [`STORY_NOTES.md`](../STORY_NOTES.md) rather than duplicated here.
 >
-> **Fully open-order, no special gate (locked 2026-08-14, simplified 2026-08-14).** The Monastery
-> is mechanically open-order exactly like the other four districts — Jim can visit it first, last,
-> or anywhere between, and its entire progression, including the Sealed Passage / Old Caves and
-> Brother Cormac's final broadcast, is **self-contained within the district**: reachable once the
-> Bell Tower Puzzle is solved and the Faith Crest is in hand, the same convention used for the
-> Foundry's Black Vein Cavern and the Academy's Maintenance Escape Corridor. Two earlier versions of
-> this district tried to force it into a special role — first an explicit "last district" narrative
-> lock, then a crest-count gate, then a physical token that had to be fetched from Memorial Park —
-> and all three were deliberately reverted (see [`STORY_NOTES.md`](../STORY_NOTES.md) for the
-> history) in favor of keeping every district, including this one, equally and simply open-order.
-> The Monastery's own revelation (see "What the Five Surface Locations Now Reveal," below, and "The
-> Sealed Passage / Old Caves") is written to work whether it's Jim's first district or his last:
-> early, it's an unexplained mystery about something older than Vanguard; late, the same information
-> reads as a major piece of a puzzle Jim's already mostly assembled. Either way, it deliberately
-> stops short of explaining Project Ashen in full, the complete nature of Black Vein, or what's
-> actually beneath Memorial Park — those answers are reserved for Chapter 3.
+> **Fully open-order, no special gate.** Like the other four districts, Jim can visit the Monastery
+> first, last, or anywhere between. Its entire progression, including the Sealed Passage / Old
+> Caves and Brother Cormac's final broadcast, is self-contained within a single visit — reachable
+> once the Bell Tower Puzzle is solved and the Faith Crest is in hand, the same convention used for
+> the Foundry's Black Vein Cavern and the Academy's Maintenance Escape Corridor. Its revelation (see
+> "What the Five Surface Locations Now Reveal," below) works whether it's Jim's first district or
+> his last, and deliberately stops short of explaining Project Ashen in full or what's beneath
+> Memorial Park — those answers are reserved for Chapter 3.
 >
 > **Thematic identity:** where the Police Station, Hospital, Foundry, and Academy each reveal what
 > Vanguard did to Ravenwood in the modern era, the Monastery reveals something older — Ravenwood
@@ -31,11 +23,8 @@
 > studied them, catalogued them, then decided the people who wrote them simply weren't
 > sophisticated enough to succeed where Vanguard would.
 >
-> **Puzzle mechanic (locked 2026-08-14): the Bell Tower Puzzle.** See "The Bell Tower," below, and
-> [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies." Unlike the other four districts, this
-> was the Monastery's actual design from the start, not a retrofit —
-> [`Scripts/Chapter_2_Monastery.md`](../Scripts/Chapter_2_Monastery.md) was written directly
-> against it rather than adapted from an older script.
+> **Puzzle mechanic: the Bell Tower Puzzle.** See "The Bell Tower," below, and
+> [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies."
 
 ## Purpose in the Overall Story
 
@@ -44,19 +33,14 @@ interpreting the monastery's own centuries-old mechanical bell system, not assem
 set of keys — the one district where Vanguard didn't design the obstacle, it only found it. Unlike
 the other four districts, the Monastery's revelation isn't institutional betrayal — it's that
 Vanguard's entire "discovery" of Black Vein was never a discovery at all. People had already found
-it, suffered its consequences, and made the simple decision to seal it away. That revelation is
-self-contained and works at any point in Chapter 2 — see the header note above.
+it, suffered its consequences, and made the simple decision to seal it away.
 
-## Outbreak Night — What Actually Happened (proposed 2026-08-13, pending review)
+## Outbreak Night — What Actually Happened
 
-> Per the project owner's original framing: *"The Monastery should be the last major surface
-> location before Jim descends underground, and it should feel completely different from the
-> police station, hospital, Foundry, and Academy... The monks did not understand it
-> scientifically. They described it in the language available to them."* **Superseded (2026-08-14):
-> the "last surface location" requirement was later dropped in favor of keeping all five districts
-> equally open-order** — see the header note above. The rest of this framing (feeling completely
-> different from the other four, the monks' pre-scientific language) still holds. This timeline
-> remains the master reference behind the specific details placed in `Storyline`, below.
+> Framing: the Monastery should feel completely different from the police station, hospital,
+> Foundry, and Academy. The monks did not understand what they encountered scientifically; they
+> described it in the language available to them. This timeline is the master reference behind the
+> specific details placed in `Storyline`, below.
 
 1. **Before Vanguard, the Monastery already knew.** Built on the northern ridge around a natural
    spring and cave system, predating much of the modern town. Over generations, the monks noticed
@@ -159,7 +143,7 @@ self-contained and works at any point in Chapter 2 — see the header note above
 20. **The police receive the chief's reversal.** *"Disregard Vanguard containment orders."* The
     officer turns to the Vanguard team: *"You're done here."* The monks and police stand together —
     a small victory, and one of the last times any organized Ravenwood authority successfully
-    pushes Vanguard back. See [`Locations/Police_Station.md`](Police_Station.md), beat 14.
+    pushes Vanguard back. See [`Locations/Police_Station.md`](Police_Station.md), beat 16.
 21. **Something comes through the lower caverns.** The old seal, already compromised by Vanguard's
     secret tunnel, opens the lower chambers to the wider cave network — an injured Vanguard
     researcher, a mutated Foundry worker, or another creature that traveled through the connected
@@ -227,9 +211,8 @@ self-contained and works at any point in Chapter 2 — see the header note above
 
 ## How the Monastery Connects to the Other Locations
 
-> Per the project owner's explicit framing: the Monastery completes the surface outbreak timeline
-> — the same catastrophe seen from the one institution old enough to have already lived through a
-> smaller version of it.
+The Monastery completes the surface outbreak timeline — the same catastrophe seen from the one
+institution old enough to have already lived through a smaller version of it.
 
 | Foundry / Hospital / Police / Academy | Monastery |
 |---|---|
@@ -247,8 +230,8 @@ See "Documents," below, and the corresponding crossover entries added to
 
 ## What the Five Surface Locations Now Reveal
 
-Per the project owner's explicit summary, once Jim completes all five crest locations he
-understands nearly the entire surface-level history of Ravenwood's catastrophe:
+Once Jim completes all five crest locations, he understands nearly the entire surface-level history
+of Ravenwood's catastrophe:
 
 - **Police Station** — Vanguard compromised Ravenwood's authority; the police became part of the
   containment system without realizing what they were helping contain.
@@ -309,16 +292,17 @@ gating the Faith Crest.
 
 ## Storyline
 
+> All room concepts below use the elevated 3/4 top-down perspective with diamond-rotated floor
+> tiles established by
+> [`Assets/Reference/police_station_bullpen_concept.png`](../Assets/Reference/police_station_bullpen_concept.png).
+> Per-image notes below are limited to non-canonical generation errors worth flagging; routine
+> perspective-correction regenerations aren't itemized per image.
+
 - **Monastery Gate / Approach.** Entry point on the north ridge road; storm damage, a
   Vanguard-funded but now-dark exterior floodlight, and the first faint sound of bells rung
   earlier in the night still echoing (a scripted audio cue, not a live event).
 
   ![Monastery Gate / Approach — room concept](../Assets/Reference/monastery_gate_approach_concept.png)
-
-  > AI-generated room concept (2026-08-13; regenerated 2026-08-14 twice more — first to fix a
-  > full-isometric style drift, then again to fix that pass's own flat/eye-level drift). This
-  > version matches the elevated 3/4 top-down camera and diamond-rotated cobblestone path set by
-  > [`Assets/Reference/police_station_bullpen_concept.png`](../Assets/Reference/police_station_bullpen_concept.png).
 - **The Chapel.** Civilians and injured; pews pushed aside for makeshift cots, candles burned down
   to stubs, and a Vanguard decontamination station incongruously installed beneath a centuries-old
   side staircase. A faded mural above the altar — Dawn, Labor, Mourning, Rest, each figure standing
@@ -327,31 +311,17 @@ gating the Faith Crest.
   unlocked; the heavy stone seal beneath the altar itself is the only thing not yet open.
 
   ![Chapel — room concept](../Assets/Reference/monastery_chapel_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 — this render replaced the original
-  > 2026-08-13 version and became the district's anchor reference, matching the elevated 3/4
-  > top-down camera and diamond floor pattern of the Police Station/Hotel reference. Correctly
-  > shows the
-  > Vanguard decontamination station beneath the side staircase, pews-as-cots, and candles; the
-  > earlier version's non-canonical Hospital-style-reference carryover (a "Dr. Edward Halloway"
-  > portrait and caduceus stained glass) is gone.
 - **Guest Quarters / Infirmary Cell.** Unlocked, off the Chapel. Where the injured Foundry worker
   was sheltered — this district's signature single encounter (fully turned by the time Jim
   arrives). Torn bedsheets used as improvised restraints, a scattered cave map with a circled
   tunnel junction and Vanguard access designation.
 
   ![Guest Quarters / Infirmary Cell — room concept](../Assets/Reference/monastery_guest_quarters_concept.png)
-
-  > AI-generated room concept (2026-08-14) — already matched the elevated 3/4 top-down reference
-  > style on the perspective re-audit and was not regenerated a second time.
 - **The Spring / Well Chamber.** Open from the Chapel, optional. The monastery's original natural
   spring, now running dark with mineral sediment — the literal "the lower water has turned"
   moment. No key items; pure environmental storytelling.
 
   ![Spring / Well Chamber — room concept](../Assets/Reference/monastery_spring_well_chamber_concept.png)
-
-  > AI-generated room concept (2026-08-14) — already matched the elevated 3/4 top-down reference
-  > style on the perspective re-audit and was not regenerated a second time.
 - **Library / Archive.** Unlocked. The monastery's own archive — cave maps, burial records, and
   correspondence between earlier abbots — plus a worn prayer book marking the traditional order of
   the tower's daily bell calls (one of the Bell Tower puzzle's three clue sources), and a separate
@@ -359,9 +329,6 @@ gating the Faith Crest.
   (see below) — an optional district-wide backtrack, not a required one.
 
   ![Library / Archive — room concept](../Assets/Reference/monastery_library_archive_concept.png)
-
-  > AI-generated room concept (2026-08-14) — already matched the elevated 3/4 top-down reference
-  > style on the perspective re-audit and was not regenerated a second time.
 - **The Hidden Archive** (optional). Opened with the **Archive Key**, found at Overlook Trail —
   the district's one surviving optional backtrack key. Brother Cormac's secret collection: original
   cave maps, drawings of abnormal bone growth, livestock deformity records, and the "the stone does
@@ -370,11 +337,9 @@ gating the Faith Crest.
 
   ![Hidden Archive — room concept](../Assets/Reference/monastery_hidden_archive_concept.png)
 
-  > AI-generated room concept (2026-08-14) — already matched the elevated 3/4 top-down reference
-  > style on the perspective re-audit and was not regenerated a second time. Two non-canonical
-  > generation errors persist: it baked in an unprompted "MONASTERY HIDDEN ARCHIVE / Brother
-  > Cormac's Secret Collection / OF FORBIDDEN RECORDS" caption card and a "DON GABRIEL MUSEUM"
-  > door sign — ignore both; this room has no such signage.
+  > Non-canonical generation errors: an unprompted "MONASTERY HIDDEN ARCHIVE / Brother Cormac's
+  > Secret Collection / OF FORBIDDEN RECORDS" caption card and a "DON GABRIEL MUSEUM" door sign —
+  > ignore both; this room has no such signage.
 - **The Cloister.** Unlocked, off the Chapel. The police's defensive position during the Vanguard
   standoff (beats 18–20) — sandbags, a barricaded colonnade, spent shell casings, and the old
   Vanguard memorandum the monk handed the responding officer. Four weathered statues stand at the
@@ -382,10 +347,6 @@ gating the Faith Crest.
   Tower puzzle's three clue sources.
 
   ![Cloister — room concept](../Assets/Reference/monastery_cloister_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice — first to fix a full-isometric
-  > style drift, then again to fix that pass's own flat/eye-level drift) — now matches the
-  > elevated 3/4 top-down camera and diamond floor pattern of the Police Station/Hotel reference.
 - **The Bell Tower.** Unlocked, up the Chapel's side staircase. The radio/observation room and the
   bells themselves — four rope-pull mechanisms, a view across the whole ridge and burning town
   below, and a logbook entry describing the emergency ringing pattern used in beat 26. Jim can pull
@@ -393,9 +354,6 @@ gating the Faith Crest.
   book, and the cloister statues all independently point to.
 
   ![Bell Tower — room concept](../Assets/Reference/monastery_bell_tower_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice, same correction as above) — now
-  > matches the elevated 3/4 top-down camera and diamond floor pattern of the reference style.
 - **Crypt Antechamber** (optional). Opened with the **Crypt Antechamber Key**, found at the
   secondary Hillside Cemetery location (see below) — an optional backtrack, not a required one.
   Modern Vanguard equipment hidden behind ancient masonry: cables, sensors, drilling marks — the
@@ -405,9 +363,6 @@ gating the Faith Crest.
   already open — a dead end by design, not a shortcut.
 
   ![Crypt Antechamber — room concept](../Assets/Reference/monastery_crypt_antechamber_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice, same correction as above) — now
-  > matches the elevated 3/4 top-down camera and diamond floor pattern of the reference style.
 - **The Old Seal / Crypt Depths.** Reached once the Bell Tower's stone seal retracts beneath the
   altar — no tool, no key, just the mechanism Jim solved. This district's signature pack
   encounter — the Cave-Touched (see "Creatures Encountered," below), who reached the monastery
@@ -415,9 +370,6 @@ gating the Faith Crest.
   warning inscriptions and sealed burial niches line the way to the Reliquary beyond.
 
   ![The Old Seal / Crypt Depths — room concept](../Assets/Reference/monastery_old_seal_crypt_depths_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice, same correction as above) — now
-  > matches the elevated 3/4 top-down camera and diamond floor pattern of the reference style.
 - **The Reliquary.** Unlocked once the crypt beyond the seal is reached — no separate key of its
   own. A small, dignified sacred chamber housing
   relics and the monastery's own founding record. A reliquary case holds the **Faith Crest**: a
@@ -427,62 +379,36 @@ gating the Faith Crest.
 
   ![The Reliquary — room concept](../Assets/Reference/monastery_reliquary_concept.png)
 
-  > AI-generated room concept (2026-08-14) — already matched the elevated 3/4 top-down reference
-  > style on the perspective re-audit and was not regenerated a second time. Non-canonical
-  > generation error persists: the display plaque reads "ABBOT MATTHEW, FOUNDER, A.D. 1157" —
+  > Non-canonical generation error: the display plaque reads "ABBOT MATTHEW, FOUNDER, A.D. 1157" —
   > this district's locked founder is **Abbot Matthias Kane**, chartering the modern order in
   > **1887** (see [`CANON.md`](../CANON.md)); ignore the render's name and date.
 - **The Sealed Passage / Old Caves.** Past the Reliquary, a further descent into the oldest sealed
   section — physically reachable once the Faith Crest is in hand, no separate lock, no separate
   key, same convention as the Foundry's Black Vein Cavern and the Academy's Maintenance Escape
-  Corridor: an optional-feeling but narratively meaningful deeper area Jim can choose to continue
-  into once the district's main puzzle is already solved. Ancient warning inscriptions, the oldest
-  record ("A vein without end"), and Brother Cormac's final broadcast (beat 33). **Self-contained,
-  not a special "last district" gate** — this plays out entirely within a single visit to the
-  Monastery regardless of when Jim gets here or how many other crests he's already collected. Its
-  revelation is deliberately partial: it confirms Black Vein predates Vanguard and that earlier
-  generations sealed it on purpose, but it does not explain Project Ashen in full, the complete
-  nature of Black Vein, or what's actually beneath Memorial Park — those remain reserved for
-  Chapter 3. If this is an early district for Jim, this plays as an unplaceable mystery; if it's a
-  late one, the same scene reads as a major piece of a puzzle he's already mostly solved.
+  Corridor: a narratively meaningful deeper area Jim can choose to continue into once the
+  district's main puzzle is already solved. Ancient warning inscriptions, the oldest record ("A
+  vein without end"), and Brother Cormac's final broadcast (beat 33) — self-contained, playing out
+  entirely within a single visit regardless of when Jim gets here. Its revelation is deliberately
+  partial: it confirms Black Vein predates Vanguard and that earlier generations sealed it on
+  purpose, but doesn't explain Project Ashen in full or what's actually beneath Memorial Park —
+  those remain reserved for Chapter 3.
 
   ![The Sealed Passage / Old Caves — room concept](../Assets/Reference/monastery_sealed_passage_old_caves_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice — first to fix a full-isometric
-  > style drift, then again to fix that pass's own flat/eye-level drift) — now matches the
-  > elevated 3/4 top-down camera and diamond-rotated rock pattern of the reference style.
-- **Hillside Residential Street** (secondary, optional). Per
-  [`STORY_NOTES.md`](../STORY_NOTES.md)'s earlier city-layout notes: an unsent letter warning the
-  monastery about Black Vein, and a deliberate quiet emotional beat — a calm, living dog on a
-  porch. No key items; pure environmental storytelling, same role as the Academy's Playgrounds.
+- **Hillside Residential Street** (secondary, optional). An unsent letter warning the monastery
+  about Black Vein, and a deliberate quiet emotional beat — a calm, living dog on a porch. No key
+  items; pure environmental storytelling, same role as the Academy's Playgrounds.
 
   ![Hillside Residential Street — room concept](../Assets/Reference/monastery_hillside_residential_street_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice — first to fix a full-isometric
-  > style drift, then again to fix that pass's own flat/eye-level drift) — now matches the
-  > elevated 3/4 top-down camera and diamond-rotated street paving of the reference style.
-- **Hillside Cemetery** (secondary, optional). Per [`STORY_NOTES.md`](../STORY_NOTES.md)'s earlier
-  city-layout notes: disturbed graves and one very recent unmarked grave — dug specifically to hide
-  something. The **Crypt Antechamber Key** is found here, opening the optional Crypt Antechamber
-  above — not required for the Faith Crest.
+- **Hillside Cemetery** (secondary, optional). Disturbed graves and one very recent unmarked grave
+  — dug specifically to hide something. The **Crypt Antechamber Key** is found here, opening the
+  optional Crypt Antechamber above — not required for the Faith Crest.
 
   ![Hillside Cemetery — room concept](../Assets/Reference/monastery_hillside_cemetery_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice — first to fix a full-isometric
-  > style drift and the earlier version's non-canonical "Steelgate Cemetery" sign error, then
-  > again to fix the second pass's own flat/eye-level drift) — now matches the elevated 3/4
-  > top-down camera and diamond-rotated ground pattern; the sign correctly reads "Hillside
-  > Cemetery."
-- **Overlook Trail** (secondary, optional). Per [`STORY_NOTES.md`](../STORY_NOTES.md)'s earlier
-  city-layout notes: a quiet vista of the whole burning city, reframing the disaster's scale for
-  the player. A monk who died fleeing with documents lies along the trail; the **Archive Key** is
-  found on his body.
+- **Overlook Trail** (secondary, optional). A quiet vista of the whole burning city, reframing the
+  disaster's scale for the player. A monk who died fleeing with documents lies along the trail; the
+  **Archive Key** is found on his body.
 
   ![Overlook Trail — room concept](../Assets/Reference/monastery_overlook_trail_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice — first to fix a full-isometric
-  > style drift, then again to fix that pass's own flat/eye-level drift) — now matches the
-  > elevated 3/4 top-down camera and diamond-rotated trail pattern of the reference style.
 
 ## Important Rooms / Areas
 
@@ -655,14 +581,8 @@ flowchart TD
 
 ## Puzzles
 
-- **The Bell Tower Puzzle (main, and effectively the district's only mandatory puzzle — see "The
-  Bell Tower," above).** Derive the correct bell-ringing order from the monastery's own mural
-  (Chapel), prayer book (Library), and cloister statues, then ring the four bells in that order to
-  open the crypt seal beneath the altar. Deliberately **almost entirely key-free**: every room that
-  matters to this puzzle is open from the start, so the challenge is interpretation, not access —
-  the intended contrast with the Foundry's heavy machinery and the Police Station's procedural
-  routing. Ringing the bells also draws enemies toward the monastery, turning the payoff into a
-  survival stretch rather than a simple door opening.
+- **The Bell Tower Puzzle (main, and the district's only mandatory puzzle)** — see "The Bell
+  Tower," above, for the full mechanic.
 - **The Overlook Trail → Hidden Archive backtrack (optional).** A pure lore reward, not required
   for the Faith Crest.
 - **The Hillside Cemetery → Crypt Antechamber backtrack (optional).** A pure lore reward — proof
@@ -671,18 +591,13 @@ flowchart TD
 
 ## Key Items
 
-- **Archive Key** (_no `Items/` writeup yet_, optional) — Overlook Trail (secondary location);
-  opens the Hidden Archive.
-- **Crypt Antechamber Key** (_no `Items/` writeup yet_, optional) — Hillside Cemetery (secondary
-  location); opens the Crypt Antechamber.
-- **Faith Crest** (_no `Items/` writeup yet_) — the district's founder's emblem; the Reliquary's
-  display case, reached once the Bell Tower puzzle opens the crypt below — no key of its own.
-
-> Neither surviving key has an `Items/` writeup yet — see "Unresolved Ideas," below. The previous
-> version of this section listed six mandatory keys and a Breaching Tool (Library, Archive,
-> Cloister, Bell Tower, Crypt Antechamber, Reliquary); all but the two optional ones above were
-> removed (2026-08-14) once the Bell Tower Puzzle made them redundant with the district's own
-> design intent — see [`STORY_NOTES.md`](../STORY_NOTES.md) for the rationale.
+- **Archive Key** ([full item writeup](../Items/Key_Items/Archive_Key.md), optional) — Overlook
+  Trail (secondary location); opens the Hidden Archive.
+- **Crypt Antechamber Key** ([full item writeup](../Items/Key_Items/Crypt_Antechamber_Key.md),
+  optional) — Hillside Cemetery (secondary location); opens the Crypt Antechamber.
+- **Faith Crest** ([full item writeup](../Items/Key_Items/Faith_Crest.md)) — the district's
+  founder's emblem; the Reliquary's display case, reached once the Bell Tower puzzle opens the
+  crypt below — no key of its own.
 
 ### Documents
 
@@ -731,18 +646,18 @@ flowchart TD
 
 ## Boss Encounters
 
-- **[The Penitent](../Creatures/The_Penitent.md)** (locked 2026-08-14) — a monk sealed away
-  centuries ago, woken by the Bell Tower Puzzle's own success. Supersedes the earlier "no unique
-  boss" status; see his file for the full design and its direct tie to this district's locked
-  pre-Vanguard backstory.
+- **[The Penitent](../Creatures/The_Penitent.md)** — a monk sealed away centuries ago, woken by the
+  Bell Tower Puzzle's own success. See his file for the full design and its direct tie to this
+  district's pre-Vanguard backstory.
 
 ## Crest Progression
 
 Source of the **Faith Crest** (North / FAITH wedge / Cross symbol — see [`CANON.md`](../CANON.md)
 → "The Founders & the Five Crests"). Can be returned to the Founders Memorial any time Jim
-backtracks to Memorial Park; not forced immediately after pickup. **Completing this district
-completes all five crests** — the Founders Memorial's water basin can now be drained, revealing the
-staircase down to Chapter 3.
+backtracks to Memorial Park; not forced immediately after pickup. Since district order is fully
+open, Faith can be Jim's first crest just as easily as his fifth — only once **all five** crests
+(from all five districts) are inserted does the Founders Memorial's water basin drain, revealing
+the staircase down to Chapter 3.
 
 ## Exit / Progression to Next Area
 
@@ -754,29 +669,13 @@ drains and the staircase down is revealed — beginning Chapter 3.
 
 ## Unresolved Ideas
 
-- **This entire district is a first draft, pending review** — same status the Foundry, Hospital,
-  Academy, and (originally) the Police Station had before their own reviews/restructures were
-  approved.
-- Neither of the two optional key items above has an individual `Items/Key_Items/` writeup yet —
-  proposed as a future pass alongside the still-pending `Items/` audits for the Hospital, Foundry,
-  and Academy.
-- ~~Whether this district has a standard-tier new creature distinct from its boss.~~ **Resolved
-  (2026-08-14):** the district's boss is [The Penitent](../Creatures/The_Penitent.md), and its
-  standard-tier creature is [The Cave-Touched](../Creatures/The_Cave_Touched.md), now with its own
-  full `Creatures/` file matching the other four districts' own new creatures.
 - Whether Brother Cormac deserves his own dedicated `Characters/` file (matching Aaron Cole's
   treatment) rather than being described only within this location file — not done here, consistent
   with how Fitch, Ashford, the Police Station's Chief, and the Hospital's Liaison were also left
   undocumented outside their own location files.
-- ~~Full scene-by-scene scripting into a `Scripts/` file.~~ **Resolved (2026-08-14):** see
-  [`Scripts/Chapter_2_Monastery.md`](../Scripts/Chapter_2_Monastery.md), 17 scenes, written
-  directly against the Bell Tower Puzzle, with the Sealed Passage self-contained inside the
-  district — the fifth and final district to receive a full script.
-- The reconciliation between Abbot Matthias Kane's 1887 founder credit and the monastery/cave
-  system's much older, unspecified original age is flagged in [`CANON.md`](../CANON.md) — the
-  exact "how old is the pre-1887 monastery" question is left deliberately vague rather than
-  assigned a specific century.
+- The exact age of the pre-1887 monastery/cave system is left deliberately vague rather than
+  assigned a specific century (Kane's 1887 founder credit is for chartering the modern order, not
+  the building itself — see [`CANON.md`](../CANON.md)).
 - Whether the survivors from the failed evacuation (beat 31) or the group left behind with Brother
-  Cormac (beat 30) should ever be resolved elsewhere in the game — explicitly left open per the
-  source material's own framing, same convention as the Academy's Bus One and escape-corridor
-  threads.
+  Cormac (beat 30) should ever be resolved elsewhere in the game — explicitly left open, same
+  convention as the Academy's Bus One and escape-corridor threads.

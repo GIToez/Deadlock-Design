@@ -1,12 +1,11 @@
-# Hospital Boss (Unnamed)
+# Hospital Boss ("The Surgeon")
 
-> **New creature, proposed 2026-08-13, pending review — not locked canon.** The project owner
-> uploaded reference art for a new boss creature intended for [`Locations/Hospital.md`](../Locations/Hospital.md)
-> (St. Dymphna Hospital, the Northeast/Medical district — not yet scripted), explicitly noting it's
-> "unnamed right now." Everything below is a proposal reconciling that reference art with the game's
-> existing rules, the same treatment given to every other new creature (see
-> [`Zombie_Conglomerate.md`](Zombie_Conglomerate.md) for the precedent) — treat all of it as a draft,
-> not locked, until named and formally approved.
+> St. Dymphna Hospital's (Northeast/Medical district) boss, fought in the Surgical Wing's deepest
+> operating room at the end of the Quarantine Puzzle — see
+> [`Locations/Hospital.md`](../Locations/Hospital.md) and
+> [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 10. Built from real
+> reference art uploaded by the project owner; "The Surgeon" is hospital staff's own working
+> nickname, not a confirmed real name/identity — see "Origin," below.
 
 **Classification:** proposed Ashen Mutant (tentative — see [`The_Maw.md`](The_Maw.md)'s Open Design
 Gaps for the open question of whether "Ashen Mutant" is a formal shared tier)
@@ -60,23 +59,19 @@ grotesquely embodying the process instead of surviving it.
 
 ## Origin
 
-**Proposed (2026-08-13), pending review — not locked.** Now that
-[`Locations/Hospital.md`](../Locations/Hospital.md) → "Outbreak Night" has been written, this
-creature's most strongly-supported origin is the abdominal-trauma surgical patient described
-there: brought in for emergency surgery, his organs began regenerating — malformed — faster than
-the surgical team could work, forcing them to stop the procedure entirely (*"We stopped the
-procedure because every incision produced additional growth"*). He didn't die on the table. He got
-up. This is offered as the primary proposal (not a second, competing option alongside "staff
-member") because it directly answers both open questions at once: it explains the "aged, deeply
-wrinkled" face as a patient rather than requiring a new character, and it explains why the fight
-is placed in the Surgical Wing rather than anywhere else in the building. The oversized syringe is
-proposed as OR equipment — possibly medical staff's own failed attempt to sedate or euthanize what
-the patient was becoming — repurposed as a weapon once it turned fully hostile, not a tool from a
-former profession. Hospital staff who encountered it before losing the wing nicknamed it **"The
-Surgeon"** — a dark, ironic staff nickname for what took over their operating room, not a claim
-about the creature's actual pre-mutation job. His real name/identity remains deliberately
-unconfirmed, same convention as Roy Bullock being the only named exception among Chapter 1's
-creatures.
+Per [`Locations/Hospital.md`](../Locations/Hospital.md) → "Outbreak Night," this creature's origin
+is the abdominal-trauma surgical patient described there: brought in for emergency surgery, his
+organs began regenerating — malformed — faster than the surgical team could work, forcing them to
+stop the procedure entirely (*"We stopped the procedure because every incision produced additional
+growth"*). He didn't die on the table. He got up. This explains both the "aged, deeply wrinkled"
+face (a patient, not a new character) and why the fight is placed in the Surgical Wing. The
+oversized syringe is OR equipment — possibly medical staff's own failed attempt to sedate or
+euthanize what the patient was becoming — repurposed as a weapon once it turned fully hostile, not
+a tool from a former profession. Hospital staff who encountered it before losing the wing
+nicknamed it **"The Surgeon"** — a dark, ironic staff nickname for what took over their operating
+room, not a claim about the creature's actual pre-mutation job. His real name/identity remains
+deliberately unconfirmed, same convention as Roy Bullock being the only named exception among
+Chapter 1's creatures.
 
 ## Appearance
 
@@ -92,27 +87,22 @@ metallic injector — a tranquilizer-gun-style device, not a plain oversized syr
 
 ## Behavior
 
-Not yet written in full detail — pending the Hospital chapter being scripted. Confirmed
-(2026-08-13, per the project owner): the creature moves by riding/being propelled by its own giant
-hand rather than walking upright, and that same hand is used offensively (the reference art's
-mid-lunge pose — driving the hand into the ground to launch itself forward) in the same design
-family as the Caretaker's overhead slam, rather than a fast/agile boss type. The tranquilizer-gun
-arm is confirmed as a second, distinct weapon — proposed (not yet detailed) as a ranged/utility
-attack (e.g. a dart that slows or disorients Jim) to complement the giant hand's close-range
-slam, giving the fight a genuine two-weapon rhythm rather than one attack repeated.
-
-## Gameplay Role / Combat Role
-
-Not yet designed. Flagged as an open item below rather than invented here.
+The creature moves by riding/being propelled by its own giant hand rather than walking upright, and
+that same hand is used offensively (the reference art's mid-lunge pose — driving the hand into the
+ground to launch itself forward) in the same design family as the Caretaker's overhead slam, rather
+than a fast/agile boss type. The tranquilizer-gun arm is a second, distinct weapon — a ranged/
+utility attack (e.g. a dart that slows or disorients Jim) that complements the giant hand's
+close-range slam, giving the fight a genuine two-weapon rhythm rather than one attack repeated.
+Exact numbers/timing not yet designed — see "Open Design Gaps," below.
 
 ## Encounter Progression
 
-Placed (2026-08-13, proposed) in the Surgical Wing's deepest operating room, reached only after
-the Surgical Wing Access Card (found at the secondary Medical Arts Building location) opens the
-wing itself — see [`Locations/Hospital.md`](../Locations/Hospital.md) → "Storyline." This creature
-is the Hospital district's boss-tier encounter, filling the same structural role the Caretaker
-fills for the Hotel and the Ashen Hound pair fills for the Police Station, per the per-district
-"major encounter" design rule established in [`AI.json`](../AI.json).
+Placed in the Surgical Wing's deepest operating room, reached once the pressure-gradient sequence
+(the isolation manual page plus the backup damper control, per the Quarantine Puzzle) opens the
+wing itself — see [`Locations/Hospital.md`](../Locations/Hospital.md) → "The Quarantine System" and
+"Storyline." This creature is the Hospital district's boss-tier encounter, filling the same
+structural role the Caretaker fills for the Hotel and the Ashen Hound pair fills for the Police
+Station.
 
 ## Major Appearances
 
@@ -135,21 +125,10 @@ using rules that no longer applied.
 
 ## Open Design Gaps
 
-- ~~No name yet.~~ **Partially resolved (2026-08-13):** hospital staff nicknamed it **"The
-  Surgeon"** — a working nickname, not a confirmed real name/identity; see "Origin," above. The
-  file is kept at its original filename/title pending a final decision on whether "The Surgeon"
-  should become the permanent title.
-- ~~Real reference art not yet in the repo.~~ **Resolved (2026-08-13):** the actual five-pose
-  reference sheet was uploaded directly; see "Reference Material," above. The old AI-generated
-  reconstruction has been deleted.
-- ~~Whether the giant hand is a perch or actual locomotion, and what the "syringe" arm really
-  is.~~ **Resolved (2026-08-13):** confirmed by the project owner — the giant hand is the
-  creature's primary means of locomotion (it rides the hand) and doubles as an attack; the other
-  arm carries a tranquilizer-gun-style injector, not a plain handheld syringe.
+- Whether "The Surgeon" (hospital staff's working nickname) should become his permanent title, or
+  whether he should stay formally unnamed like Roy Bullock's "the Caretaker" naming convention.
 - Whether this creature is the Hospital district's sole boss/major encounter, or one of several.
 - Full combat kit (exact attacks/timing, phases, weaknesses, arena hazards) — not yet designed in
-  mechanical detail, beyond the two-weapon (hand-slam / tranquilizer-dart) shape proposed above.
+  mechanical detail, beyond the two-weapon (hand-slam / tranquilizer-dart) shape described above.
 - Whether "Ashen Mutant" applies here as a formal classification, or is specific to The Maw (shared
   open question, see [`The_Maw.md`](The_Maw.md)).
-- ~~Not yet integrated into any script.~~ **Resolved (2026-08-13):** see
-  [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 10.

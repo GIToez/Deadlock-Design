@@ -212,7 +212,7 @@ A printed transfer form, a nurse's signature crossed out and initialed over in a
 > *(No hospital name. No address. A nurse's signature, crossed through. Beside it, in a different
 > pen: "Signed on behalf of — see attached authorization." No attachment is present.)*
 
-> **JIM:** *"She said no. They signed for her anyway."*
+Jim sets the form down without a word.
 
 ---
 
@@ -249,7 +249,7 @@ a reception desk with a dead phone system still lit up with unanswered lines bli
 > *"Who is this?" / "We have records." / "Cellular activity increases after tissue damage." /
 > "...Yes." / "How the hell do you know that?" / "Because you're not the first people to see it."*
 
-> **JIM:** *"Not the first people to see it. Then who was?"*
+> **JIM:** *"...Then who."*
 
 ### Optional — a one-line transmission relayed outward
 
@@ -394,7 +394,7 @@ door.
 The entry ends there. Jim looks toward the deeper doors at the back of the wing — the ones marked
 **OR 3.**
 
-> **JIM:** *"Didn't die on the table. So where'd he go."*
+> **JIM:** *"...So where'd he go."*
 
 ---
 
@@ -432,8 +432,6 @@ in the green. Half the ward sits in total darkness, monitors dead. The other hal
 backup power.
 
 *Interaction prompt: [EXAMINE POWER SPLIT]*
-
-> **JIM:** *"Half the room has power. Half doesn't. That's not a failure. That's a choice."*
 
 In the lit half: one bed, one working ventilator, and two bodies — a patient, and beside him, a
 nurse who clearly didn't leave when she could have.

@@ -375,7 +375,7 @@ interior space into the streets of Ravenwood, leading directly into Chapter 2 (M
   > AI-generated concept art (2026-08-13, regenerated once — the first attempt used a full
   > diorama-style corner/isometric room shape instead of the flat-back-wall framing every other room
   > concept uses; this version corrects it). Della Marsh herself intentionally left out of this
-  > render — see [`Characters/Della_Marsh.md`](../Characters/Della_Marsh.md) if/when it exists, or
+  > render — see [`Creatures/Della_Marsh.md`](../Creatures/Della_Marsh.md), or
   > [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md) Scene 38 for her
   > scripted description. Flagged inaccuracy: the backstage neon sign misspells "The Red Room" as
   > "The Red Roam" — an AI text-rendering error, ignore the typo.

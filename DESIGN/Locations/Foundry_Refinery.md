@@ -14,10 +14,8 @@
 > has been exploiting what's under Ravenwood since **1968** (see [`CANON.md`](../CANON.md) →
 > "Origin of the Outbreak").
 >
-> **Puzzle mechanic (locked 2026-08-14): the Casting Puzzle.** See "The Casting Line," below, and
-> [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies." The Storyline walkthrough below and
-> [`Scripts/Chapter_2_Foundry.md`](../Scripts/Chapter_2_Foundry.md) have both been rewritten to
-> match it in full.
+> **Puzzle mechanic: the Casting Puzzle.** See "The Casting Line," below, and
+> [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies."
 
 ## Purpose in the Overall Story
 
@@ -30,9 +28,9 @@ closest civilian-industrial site to the natural cave system containing Black Vei
 Vanguard has used it as a controlled access point into those caverns since 1968, studying both the
 vein and the workers above it the entire time.
 
-## Outbreak Night — What Actually Happened (proposed 2026-08-13, pending review)
+## Outbreak Night — What Actually Happened
 
-> Per the project owner's explicit framing: the Foundry is where the outbreak **physically breaks
+> Framing: the Foundry is where the outbreak **physically breaks
 > containment** — the Police Station sees the consequences, the Hospital receives the injured,
 > but the Foundry is where it starts. Almost everything below is meant to be reconstructed by Jim
 > from logs, lockers, records, and the building itself. This timeline is the master reference
@@ -217,16 +215,16 @@ underneath it.
 
 ## Storyline
 
+> All room concepts below use the elevated 3/4 top-down perspective with diamond-rotated floor
+> tiles established by
+> [`Assets/Reference/police_station_bullpen_concept.png`](../Assets/Reference/police_station_bullpen_concept.png)
+> and consistently read "Steelgate Refinery." Per-image notes below are limited to non-canonical
+> generation errors worth flagging.
+
 - **The Loading Yard.** Entry point; the aftermath described above. Idle forklifts block parts of
   the yard, forcing a slightly indirect path toward the plant's main entrance.
 
   ![Loading Yard — room concept](../Assets/Reference/foundry_loading_yard_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice — first to fix a full-isometric
-  > style drift, then again the same day when the second pass itself drifted too flat/eye-level;
-  > this final version matches the elevated 3/4 top-down camera and diamond-tiled floor set by
-  > [`Assets/Reference/police_station_bullpen_concept.png`](../Assets/Reference/police_station_bullpen_concept.png))
-  > and correctly reads "Steelgate Refinery" throughout the whole regenerated set below.
 - **The Casting Hall.** The seized casting line dominates the room from the moment Jim steps in —
   cold conveyor lines, a dead overhead crane frozen mid-swing, and the ceremonial mold carriage
   itself, locked solid, radiating leftover heat from whatever last happened here. It's obviously
@@ -236,19 +234,12 @@ underneath it.
   Clinic and the Break Room.
 
   ![Casting Hall — room concept](../Assets/Reference/foundry_casting_hall_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice, same reason as the Loading Yard
-  > above) — this render became the district's anchor reference for the rest of the regeneration
-  > pass, now correctly showing the elevated 3/4 top-down camera and diamond floor pattern.
 - **The Foundry Clinic.** Small on-site first aid room; a restraint gurney with a single tough
   Shambler-tier encounter (Outbreak Night beat 11's worker, fully turned by the time Jim arrives),
   a wall phone still connected, and the nurse's own log of her calls to the hospital and to
   Vanguard.
 
   ![Foundry Clinic — room concept](../Assets/Reference/foundry_clinic_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice, same flat-camera correction as
-  > above) — floor now shows a diagonal diamond-tile pattern matching the reference style.
 - **The Break Room / Locker Room.** Rows of employee lockers, several forced open, personal
   effects scattered — family photos, half-eaten lunches, a birthday card. One locker, tagged with
   a name matching the exposure-records reveal below, holds a personal note about worsening
@@ -256,11 +247,6 @@ underneath it.
   supplies.
 
   ![Break Room / Locker Room — room concept](../Assets/Reference/foundry_break_room_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice, same flat-camera correction as
-  > above) — this pass also incidentally fixed the earlier version's non-canonical police-specific
-  > set dressing (badge stickers, a "K9" locker tag); the render correctly shows industrial worker
-  > effects (hard hats, work gloves, safety vests) instead.
 - **The Plant Manager's Office.** Unlocked, off the Casting Hall. Daniel Fitch's own desk: the
   confrontation transcript with the Vanguard liaison (*"Contamination risk to who?"*), the intercom
   control he used to order the evacuation, and the **Restricted Elevator Access Card** — left here
@@ -270,11 +256,6 @@ underneath it.
   own.
 
   ![Plant Manager's Office — room concept](../Assets/Reference/foundry_managers_office_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice, same flat-camera correction as
-  > above) — this pass also incidentally fixed the earlier version's wrong "Ravencroft"/wrong-date
-  > wall map; the desk nameplate again correctly reads "D. FITCH — PLANT MANAGER" and the wall map
-  > reads "Steelgate Refinery" with no invented date.
 - **The Vanguard Site Office.** Unlocked, off the Casting Hall — a separate, out-of-place corporate
   office within the industrial plant, same "incongruous" visual language as the Police Station's
   Vanguard Liaison Office. Contains decades of research contracts, funding records for the
@@ -286,9 +267,6 @@ underneath it.
   paperwork, a bonus-lore backtrack rather than a critical-path gate.
 
   ![Vanguard Site Office — room concept](../Assets/Reference/foundry_vanguard_site_office_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice, same flat-camera correction as
-  > above) — the sleek modern tile floor now recedes in the correct diamond pattern.
 - **The Restricted Elevator.** Card-reader lock; opened with the Access Card from the Manager's
   Office. Descends into the Vanguard-controlled underground levels — the architectural transition
   is immediate and deliberate: industrial brick and steel giving way to sterile reinforced
@@ -297,9 +275,6 @@ underneath it.
   what lets the line run at all.
 
   ![Restricted Elevator — room concept](../Assets/Reference/foundry_restricted_elevator_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice, same flat-camera correction as
-  > above).
 - **The Exposure Records Room.** Unlocked once underground. Rows of employee files organized by
   **EXPOSURE COHORT** rather than name or department — blood tests spanning up to twelve years,
   behavioral-change notes, bone-density scans, exposure-duration estimates. This is where Jim (and
@@ -307,18 +282,12 @@ underneath it.
   beat 14. The **Research Bay Key** is found in an unlocked drawer here.
 
   ![Exposure Records Room — room concept](../Assets/Reference/foundry_exposure_records_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice, same flat-camera correction as
-  > above); the employee file shown uses a generic placeholder name, not a canonical character.
 - **The Research Bay.** Opened with the Research Bay Key. Decontamination equipment, biological
   sampling stations, restraint equipment, and tissue-storage containers — the underground
   counterpart to the Hospital's Laboratory. Also holds the **"SITE LOSS ACCEPTABLE"** internal
   memo (Outbreak Night beat 21).
 
   ![Research Bay — room concept](../Assets/Reference/foundry_research_bay_concept.png)
-
-  > AI-generated room concept (2026-08-14) — already matched the elevated 3/4 top-down reference
-  > style on the perspective re-audit and was not regenerated a second time.
 - **The Security Checkpoint.** A reinforced door blocks the passage toward the Lower Processing
   corridor; forcing it requires the **Cutting Torch**, found at the secondary Machine Shops
   location (see below) — a second deliberate district-wide backtrack. Beyond it: this district's
@@ -327,18 +296,12 @@ underneath it.
   yields the **Boardroom Key**.
 
   ![Security Checkpoint — room concept](../Assets/Reference/foundry_security_checkpoint_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice, same flat-camera correction as
-  > above).
 - **The Old Mine Workings** (optional detour off the Lower Processing corridor). Older, rougher
   tunnels than the rest of the underground level — the "structurally unsafe" sections from
   Outbreak Night beat 1. Optional supplies and a faded 1968-dated survey map showing the earliest
   Vanguard excavation routes.
 
   ![Old Mine Workings — room concept](../Assets/Reference/foundry_old_mine_workings_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice, same flat-camera correction as
-  > above); the survey map shown is dated 1968, matching canon, with no invented names.
 - **The Founder's Boardroom.** Opened with the Boardroom Key. A small, incongruously formal room
   this deep underground — a long table, portraits of past Refinery leadership, and a glass display
   case, empty, its felt backing showing the wedge-shaped outline of what used to sit there. A small
@@ -350,12 +313,9 @@ underneath it.
 
   ![Founder's Boardroom — room concept](../Assets/Reference/foundry_boardroom_concept.png)
 
-  > AI-generated room concept, regenerated 2026-08-14 (twice — first to fix a full-isometric style
-  > drift, then again to fix the second pass's own flat/eye-level drift; this version matches the
-  > elevated 3/4 top-down camera and diamond floor pattern). No display case or Industry Crest
-  > visible in this establishing shot, and no invented founder names appear. **Flag:** the wall
-  > logo reads "STEELGATE REFINERY — EST. 1897," a non-canonical date — per
-  > [`CANON.md`](../CANON.md), Elias Thorne founded the Refinery in **1887**.
+  > Non-canonical generation error: the wall logo reads "STEELGATE REFINERY — EST. 1897" — per
+  > [`CANON.md`](../CANON.md), Elias Thorne founded the Refinery in **1887**; ignore the render's
+  > date.
 - **The Black Vein Cavern.** Past the Boardroom, a short passage where all human construction
   gradually stops — reinforced concrete gives way to older mine tunnel, then bare rock, then a
   natural cave threshold. Beyond it: Black Vein itself, not contained in any lab or vessel, running
@@ -366,41 +326,25 @@ underneath it.
 
   ![Black Vein Cavern — room concept](../Assets/Reference/foundry_black_vein_cavern_concept.png)
 
-  > AI-generated room concept, regenerated 2026-08-14 (twice, same flat-camera correction as
-  > above — the ground now shows a receding diamond crack pattern transitioning from concrete to
-  > bare rock). Note: per [`CANON.md`](../CANON.md) → "Origin of the Outbreak," this cave system
-  > is **not**
-  > physically connected to Chapter 3's facility beneath Memorial Park — Vanguard deliberately
-  > compartmentalized the two access points. This room is a foreshadowing gut-punch, not a
-  > shortcut past Chapter 3.
+  > Per [`CANON.md`](../CANON.md) → "Origin of the Outbreak," this cave system is **not** physically
+  > connected to Chapter 3's facility beneath Memorial Park — Vanguard deliberately compartmentalized
+  > the two access points. This room is a foreshadowing gut-punch, not a shortcut past Chapter 3.
 - **The Machine Shops** (secondary, load-bearing). A separate workshop building; the **Cutting
   Torch** needed to force the Security Checkpoint is found here, mid-repair on a workbench.
 
   ![Machine Shops — room concept](../Assets/Reference/foundry_machine_shops_concept.png)
-
-  > AI-generated room concept (2026-08-14) — already matched the elevated 3/4 top-down reference
-  > style on the perspective re-audit; the sign correctly reads "Steelgate Machine Shop" (an
-  > earlier version's "Ravencroft" naming error is no longer present).
 - **The Loading Docks** (secondary, load-bearing). A separate cargo/shipping building; the
   **Vanguard Site Key** needed to open the Vanguard Site Office is found here, alongside shipment
   manifests confirming the "refrigerated transport trucks" workers noticed for years.
 
   ![Loading Docks — room concept](../Assets/Reference/foundry_loading_docks_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice — first to fix a full-isometric style
-  > drift, then again for the second pass's own flat/eye-level drift). The sign correctly reads
-  > "Steelgate Refinery — Loading Docks," and a refrigerated transport truck is backed into the bay
-  > instead of an ambulance.
-- **The Rail Yard** (secondary, optional). Tracks leading directly into the mountainside — per the
-  district's own established city-map detail, Black Vein's original entry point, predating even
-  the Foundry's 1968 excavation. Optional lore/loot; a rusted 1968-dated rail car still sits at the
-  tunnel mouth, sealed.
+- **The Rail Yard** (secondary, optional). Tracks leading directly into the mountainside — the
+  primary modern industrial access point into the Black Vein cave network, established in 1968 (not
+  where Black Vein itself "entered" Ravenwood, since it's a natural formation predating any human
+  contact with it — see [`CANON.md`](../CANON.md) → "Origin of the Outbreak"). Optional lore/loot; a
+  rusted 1968-dated rail car still sits at the tunnel mouth, sealed.
 
   ![Rail Yard — room concept](../Assets/Reference/foundry_rail_yard_concept.png)
-
-  > AI-generated room concept, regenerated 2026-08-14 (twice — first to fix a full-isometric style
-  > drift, then again for the second pass's own flat/eye-level drift). The sign correctly reads
-  > "Steelgate Rail Yard," and the sealed rail car is dated 1968, matching canon.
 
 ## Important Rooms / Areas
 
@@ -605,11 +549,6 @@ flowchart TD
   founder's emblem; freed from the seized mold carriage by the Casting Line puzzle, at the Casting
   Hall — not the Founder's Boardroom, whose display case is now empty.
 
-> The former Manager's Office Key is retired now that the office is unlocked; its
-> `Items/Key_Items/` writeup should be deleted or repurposed in a future pass — not yet done here.
-> The remaining key items have individual `Items/Key_Items/` writeups, complete with AI-generated
-> icon concept art — see [`Items/Key_Items/README.md`](../Items/Key_Items/README.md).
-
 ### Documents
 
 - **A clipped copy of the *Ravenwood Gazette*'s "STEELGATE REFINERY ANNOUNCES TEMPORARY CLOSURE"**
@@ -644,15 +583,14 @@ flowchart TD
 - **The final Foundry broadcast** (the Black Vein Cavern) — *"They didn't find this thing tonight.
   They've been digging at it for years."*
 - **A hand-drawn cave map fragment matching a tunnel junction and Vanguard access designation**
-  (Old Mine Workings, optional, added 2026-08-13) — the same junction an injured worker recognizes
-  on an old monastery map after reaching the ridge; see
-  [`Locations/Monastery.md`](Monastery.md), beat 13, for the moment the Foundry and Monastery cave
-  systems are confirmed to be physically connected.
+  (Old Mine Workings, optional) — the same junction an injured worker recognizes on an old
+  monastery map after reaching the ridge; see [`Locations/Monastery.md`](Monastery.md), beat 13, for
+  the moment the Foundry and Monastery cave systems are confirmed to be physically connected.
 - **A torn evacuation slip listing a Foundry worker, his wife, and their teenage son** (Exposure
-  Records Room, optional, added 2026-08-13) — the Foundry-side paper trail behind the Harris
-  family, later removed from Worthy Academy's shelter roster by Vanguard under "potential secondary
-  contamination"; see [`Locations/Academy.md`](Academy.md), beat 8, for the guarding officer's own
-  note: *"I gave them the Harris family." "All three."*
+  Records Room, optional) — the Foundry-side paper trail behind the Harris family, later removed
+  from Worthy Academy's shelter roster by Vanguard under "potential secondary contamination"; see
+  [`Locations/Academy.md`](Academy.md), beat 8, for the guarding officer's own note: *"I gave them
+  the Harris family." "All three."*
 
 ## Major Scripted Events
 
@@ -670,10 +608,10 @@ flowchart TD
 
 ## Boss Encounters
 
-- **The Foreman** (locked 2026-08-14 — see [`Creatures/Exposure_Cohort.md`](../Creatures/Exposure_Cohort.md)
-  → "The Foreman") — the district's boss, the longest-exposed member of the Exposure Cohort,
-  fighting alongside two or three standard-tier cohort members at the Security Checkpoint rather
-  than in a separate boss room. Supersedes the earlier "no unique boss" status.
+- **The Foreman** (see [`Creatures/Exposure_Cohort.md`](../Creatures/Exposure_Cohort.md) → "The
+  Foreman") — the district's boss, the longest-exposed member of the Exposure Cohort, fighting
+  alongside two or three standard-tier cohort members at the Security Checkpoint rather than in a
+  separate boss room.
 
 ## Crest Progression
 
@@ -688,11 +626,6 @@ Vein Cavern witnessed, Jim is free to head to any of the remaining districts in 
 
 ## Unresolved Ideas
 
-- **This entire district is a first draft, pending review** — same status the Hospital had before
-  further review, and the Police Station had before its own restructure was approved.
-- ~~None of the seven new key items above have individual `Items/Key_Items/` writeups yet.~~
-  **Resolved/scripted (2026-08-13):** see [`Items/Key_Items/README.md`](../Items/Key_Items/README.md)
-  → "Steelgate Refinery" for all seven, each with AI-generated icon concept art.
 - Whether specific creatures Jim has already encountered elsewhere in Ravenwood should be
   explicitly traced back to named Foundry employees (per Outbreak Night beat 19's suggestion) —
   a compelling idea, explicitly **not locked to any specific existing creature** without further
@@ -702,16 +635,10 @@ Vein Cavern witnessed, Jim is free to head to any of the remaining districts in 
   should be explicitly tied to the Foundry's own containment failure thematically — both involve
   Vanguard's contained research escaping catastrophically — flagged as a strong thematic fit, not
   proposed as locked canon here.
-- No unique named boss creature is proposed for this district (see "Boss Encounters," above) — the
-  Exposure Cohort pack fight currently fills that structural role; whether the district needs a
-  separate unique boss on top of that is undecided.
 - The exact relationship between the Foundry's cave system and Chapter 3's facility beneath
   Memorial Park (both connect to Black Vein, deliberately not to each other — see "The Black Vein
   Cavern," above, and [`CANON.md`](../CANON.md)) should be kept consistent once Chapter 3 is
   actually written.
-- ~~Full scene-by-scene scripting into a `Scripts/` file.~~ **Resolved (2026-08-13):** see
-  [`Scripts/Chapter_2_Foundry.md`](../Scripts/Chapter_2_Foundry.md), 17 scenes covering the full
-  district critical path and all three secondary locations.
 - Whether Daniel Fitch deserves his own dedicated `Characters/` file (matching Aaron Cole's
   treatment) rather than being described only within this location file — not done here, consistent
   with how the Police Station's Chief and the Hospital's Vanguard Liaison were also left

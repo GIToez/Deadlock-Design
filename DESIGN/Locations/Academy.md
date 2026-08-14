@@ -17,10 +17,8 @@
 > location. Student Housing, Athletic Field, and Playgrounds are this district's three secondary
 > locations.
 >
-> **Puzzle mechanic (locked 2026-08-14): the Archive Puzzle.** See "The Archive," below, and
-> [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies." The Storyline walkthrough below and
-> [`Scripts/Chapter_2_Academy.md`](../Scripts/Chapter_2_Academy.md) have both been rewritten to
-> match it in full.
+> **Puzzle mechanic: the Archive Puzzle.** See "The Archive," below, and
+> [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies."
 
 ## Purpose in the Overall Story
 
@@ -35,9 +33,9 @@ because Vanguard corrupted them from within, Worthy Academy fails because it did
 civilian shelter is supposed to do — and Vanguard used that cooperation against it, turning the
 shelter's own registry into a tool for locating exposure cohorts and their families.
 
-## Outbreak Night — What Actually Happened (proposed 2026-08-13, pending review)
+## Outbreak Night — What Actually Happened
 
-> Per the project owner's explicit framing: *"If the Foundry is where Ravenwood's disaster begins,
+> Framing: *"If the Foundry is where Ravenwood's disaster begins,
 > the Academy should be where the town tries to save its children and families... It is about what
 > happens when hundreds of terrified civilians gather in one place while nobody actually
 > understands what they're hiding from."* This timeline is the master reference behind the
@@ -124,7 +122,7 @@ shelter's own registry into a tool for locating exposure cohorts and their famil
 18. **The chief's broadcast reaches the Academy.** *"All surviving officers disregard Vanguard
     containment orders."* An officer locks the front doors and tells Vanguard, *"You heard him."*
     One of the rare moments the player can feel proud of Ravenwood — and already too late. See
-    [`Locations/Police_Station.md`](Police_Station.md), beat 14.
+    [`Locations/Police_Station.md`](Police_Station.md), beat 16.
 19. **An evacuation is planned** — the shelter can't hold indefinitely (too many people, not
     enough food or medical supplies, possible infected inside). Buses are prepared, passenger lists
     made, children assigned to adults, a police escort planned, potentially routing toward Memorial
@@ -551,23 +549,18 @@ flowchart TD
 
 ## Puzzles
 
-- **The Archive Puzzle (main, target design — see "The Archive," above).** Reconstruct Ravenwood's
-  true founding chronology from scattered documents/objects across the campus, then place five
-  founder plaques in that order to open the hidden catch behind the library's timeline display —
-  almost entirely a knowledge puzzle rather than a key hunt, fitting the Academy's existing
-  people-not-monsters design intent.
-- **The Athletic Field → Maintenance Basement → East Wing chain.** Kept as-is: Generator Fuel is
-  found at a separate secondary location, and the Fire Axe recovered in the Basement is needed to
-  force the East Wing's jammed doors — a district-wide backtrack independent of the Archive puzzle.
-- **Reconciled (2026-08-14):** the Library and Auditorium are now unlocked (removing the old
-  Cafeteria → Administration → Isolation Wing → Auditorium → Library key chain's last two links,
-  since the Library is where the mandatory Archive Puzzle lives and shouldn't be double-gated
-  behind it), and the Knowledge Crest moved from Founder's Hall's display case to the Library's
-  hidden archive — Founder's Hall now holds an empty case and a note explaining why, rather than
-  the crest itself. The Cafeteria → Administration Office → Isolation Wing chain and the
-  Maintenance Basement → East Wing → Principal's Office → Founder's Hall chain both remain, as
-  optional lore/backtrack content and as the required route to the mandatory Escape Corridor
-  finale respectively — neither duplicates the Archive Puzzle's own gate on the crest itself.
+- **The Archive Puzzle (main)** — see "The Archive," above. Reconstruct Ravenwood's true founding
+  chronology from scattered documents/objects across the campus, then place five founder plaques in
+  that order to open the hidden catch behind the library's timeline display — almost entirely a
+  knowledge puzzle rather than a key hunt, fitting the Academy's existing people-not-monsters design
+  intent. The Knowledge Crest is in the Library's hidden archive, not Founder's Hall's display case
+  (empty, with a redirect note — see "Founder's Hall," above); the Cafeteria → Administration →
+  Isolation Wing chain and the Maintenance Basement → East Wing → Principal's Office → Founder's
+  Hall chain are both optional/required-for-other-reasons content that doesn't gate the crest
+  itself.
+- **The Athletic Field → Maintenance Basement → East Wing chain.** Generator Fuel is found at a
+  separate secondary location, and the Fire Axe recovered in the Basement is needed to force the
+  East Wing's jammed doors — a district-wide backtrack independent of the Archive puzzle.
 
 ## Key Items
 
@@ -590,12 +583,8 @@ flowchart TD
   district's founder's emblem; the Library's hidden archive, revealed once the Archive Puzzle's
   chronology is solved.
 
-> The former Library Key is retired now that the Library is unlocked; its
-> `Items/Key_Items/` writeup (`Academy_Library_Key.md`) should be deleted or repurposed in a
-> future pass — not yet done here. The remaining key items have individual `Items/Key_Items/`
-> writeups, complete with AI-generated icon concept art — see
-> [`Items/Key_Items/README.md`](../Items/Key_Items/README.md). The Fire Axe is filed as
-> `Academy_Fire_Axe.md` to avoid a naming collision with St. Dymphna Hospital's own Fire Axe.
+> The Fire Axe is filed as `Academy_Fire_Axe.md` to avoid a naming collision with St. Dymphna
+> Hospital's own Fire Axe.
 
 ### Documents
 
@@ -631,8 +620,8 @@ flowchart TD
 - **Personal effects naming displaced households, including the Harrises** (Student Housing,
   optional) — humanizes the family removed in beat 8.
 - **A fragment of the Academy's own emergency broadcast, "Do not enter the east hallway,"
-  overheard distantly through the storm** (Bus Loading Area, optional, added 2026-08-13) —
-  cross-referenced at [`Locations/Monastery.md`](Monastery.md), beat 26: the monastery's own
+  overheard distantly through the storm** (Bus Loading Area, optional) — cross-referenced at
+  [`Locations/Monastery.md`](Monastery.md), beat 26: the monastery's own
   emergency bells were rung specifically because modern communications like this one were already
   failing citywide.
 
@@ -653,12 +642,11 @@ flowchart TD
 
 ## Boss Encounters
 
-- **[The Matron](../Creatures/The_Matron.md)** (locked 2026-08-14) — the district's boss, fought at
-  the Isolation Wing/East Academic Wing, past the existing Shambler pack encounter. A teacher who
+- **[The Matron](../Creatures/The_Matron.md)** — the district's boss, fought at the Isolation
+  Wing/East Academic Wing, past the existing Shambler pack encounter. A teacher who
   refused to hand her most symptomatic students to Vanguard's registry and mutated through weeks of
-  close contact with them rather than a single night's exposure. Supersedes the earlier "no unique
-  boss" status; see her file for the full design and how it preserves this district's
-  people-not-monsters identity.
+  close contact with them rather than a single night's exposure. See her file for the full design
+  and how it preserves this district's people-not-monsters identity.
 
 ## Crest Progression
 
@@ -674,26 +662,14 @@ Memorial Park.
 
 ## Unresolved Ideas
 
-- **This entire district is a first draft, pending review** — same status the Foundry, Hospital,
-  and (originally) the Police Station had before their own reviews/restructures were approved.
-- ~~None of the nine new key items above have individual `Items/Key_Items/` writeups yet.~~
-  **Resolved/scripted (2026-08-14):** see [`Items/Key_Items/README.md`](../Items/Key_Items/README.md)
-  → "Worthy Academy" for all nine, each with AI-generated icon concept art.
 - Whether Bus One's fate (and the fate of the last defensive stand's escape group through the
   Maintenance Escape Corridor) should ever be resolved elsewhere in the game, or remain permanently
-  ambiguous — explicitly left open per the source material's own framing ("whether that escape
-  group succeeds doesn't have to be answered immediately... it can become something Jim discovers
-  later").
-- ~~No unique named boss creature or new creature type is proposed for this district.~~
-  **Resolved (2026-08-14):** see [`Creatures/The_Matron.md`](../Creatures/The_Matron.md) and
-  [`CANON.md`](../CANON.md) → "Creature Distribution System."
+  ambiguous — explicitly left open ("whether that escape group succeeds doesn't have to be answered
+  immediately... it can become something Jim discovers later").
 - Whether Principal Diane Ashford deserves her own dedicated `Characters/` file (matching Aaron
   Cole's and Daniel Fitch's treatment) rather than being described only within this location file —
   not done here, consistent with how the Police Station's Chief and the Hospital's Vanguard
   Liaison were also left undocumented outside their own location files.
-- ~~Full scene-by-scene scripting into a `Scripts/` file.~~ **Resolved (2026-08-14):** see
-  [`Scripts/Chapter_2_Academy.md`](../Scripts/Chapter_2_Academy.md), 17 scenes covering the full
-  district critical path and all three secondary locations.
 - The Harris family — introduced here purely as an environmental-storytelling detail (a name on a
   note) — could be expanded into a fuller subplot later if useful, but is not proposed as a named
   `Characters/` entry at this time.
