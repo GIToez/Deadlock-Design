@@ -34,6 +34,17 @@ sheets of a small, emaciated humanoid parasite creature.
 > which is now known to be a significantly incorrect guess — deleted rather than kept as
 > misleading reference.
 
+![The Maternity Ward — aftermath, scene concept](../Assets/Reference/hospital_maternity_ward_scene_concept.png)
+
+> AI-generated scene concept (2026-08-14) showing the Broodling on the floor beside the
+> blood-marked bed, immediately after emerging — see
+> [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 15. Generated without a
+> human figure present; attempts to include Maria (or Maria and blood/injury together) repeatedly
+> failed the image generation tool's own content filters, even though the written scene itself is
+> explicit by design — see [`README.md`](../README.md) → "Content Rating & Tone" and
+> [`Characters/Maria_Dalton.md`](../Characters/Maria_Dalton.md) for the companion image that does
+> include her, generated separately without the injury detail.
+
 ## Concept
 
 Deadlock Protocol's most extreme body-horror beat so far, and a deliberate escalation from

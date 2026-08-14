@@ -554,6 +554,12 @@ He looks back at the empty pews.
 
 ![The Maternity Ward — room concept](../Assets/Reference/hospital_maternity_ward_concept.png)
 
+![The Maternity Ward — Maria and the Broodling, scene concept](../Assets/Reference/hospital_maternity_ward_scene_concept_v2.png)
+
+> See [`Locations/Hospital.md`](../Locations/Hospital.md) → "Storyline" for the full caption on
+> both scene-concept images generated for this beat, including a note on why the actual birth/death
+> moment couldn't be directly generated as image content.
+
 Off the Emergency Department, unlocked. Jim hears screaming before he reaches the door — and, once
 he's close enough, a second voice underneath it, pleading rather than screaming.
 

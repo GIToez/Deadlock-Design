@@ -5,6 +5,14 @@
 > Reference portrait uploaded by the project owner (2026-08-13) — visibly pregnant, travel bag over
 > one shoulder, matching her established Appearance and pregnancy detail below.
 
+![The Maternity Ward — Maria and the Broodling, scene concept](../Assets/Reference/hospital_maternity_ward_scene_concept_v2.png)
+
+> AI-generated scene concept (2026-08-14) for her death scene — see "Story Arc," below, and
+> [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 15. The actual
+> birth/death moment repeatedly failed image-generation content filters even though the written
+> scene is explicit by design (see [`README.md`](../README.md) → "Content Rating & Tone"); this is
+> the closest depiction — Maria alive and reacting to the Broodling — that could be generated.
+
 ## Role
 
 Hotel guest, Room 118, sharing the room with her husband Richard. Visibly pregnant; her medical

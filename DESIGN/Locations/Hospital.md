@@ -325,6 +325,25 @@ trying to keep something out. It was trying to keep something in.
   > generic pre-existing ward decor rather than specific to this patient, since the project owner
   > referred to Maria's child as "him"/"his" when describing the Broodling; flagged rather than
   > treated as confirming the child's sex, which hasn't actually been established as a locked fact.
+  > Predates the scene's 2026-08-14 rewrite to an on-screen, explicit birth/death — kept as a pure
+  > room-layout reference, since it still shows the empty-room aftermath state accurately.
+
+  ![The Maternity Ward — Maria and the Broodling, scene concept](../Assets/Reference/hospital_maternity_ward_scene_concept_v2.png)
+
+  > AI-generated scene concept (2026-08-14), generated specifically for the rewritten on-screen
+  > version of this beat — Maria, visibly pregnant and afraid, reacting to the Broodling on the
+  > floor beside her bed. Multiple prompt attempts that explicitly depicted blood, visible injury,
+  > or the birth/death moment itself were rejected by the image generation tool's own content
+  > filters even though the written scene (per [`README.md`](../README.md) → "Content Rating &
+  > Tone") is explicit; this version — Maria alive and reacting, no visible wounds — was the most
+  > direct depiction that could actually be generated. Treat it as a "just before" beat reference,
+  > not a literal panel of the birth itself.
+
+  ![The Maternity Ward — aftermath, scene concept](../Assets/Reference/hospital_maternity_ward_scene_concept.png)
+
+  > AI-generated scene concept (2026-08-14), the aftermath moment: the Broodling on the floor next
+  > to the blood-marked bed, no human figures shown (the same content-filter limitation applied here
+  > — Maria's figure couldn't be included alongside visible blood/injury in one generation).
 - **The NICU** (small optional room adjacent to Maternity). Empty incubators, one still running on
   backup power with nothing inside it, and a staff note describing an abandoned attempt to
   evacuate the ward's infants before the ward was cut off — a smaller, quieter echo of the ICU's

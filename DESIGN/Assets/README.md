@@ -348,6 +348,24 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   EST. 1897" on its wall logo, a non-canonical date — the Refinery was founded in **1887** per
   [`CANON.md`](../CANON.md).
 
+- **`Reference/hospital_maternity_ward_scene_concept.png`,
+  `Reference/hospital_maternity_ward_scene_concept_v2.png`** (AI-generated, 2026-08-14) — two new
+  scene-specific concept images for the Maternity Ward's rewritten on-screen birth/death beat (see
+  [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 15), generated at the
+  project owner's direct request now that both Maria and the Broodling have their own reference art.
+  `_v2` shows Maria (visibly pregnant, matching her reference portrait) reacting to the Broodling on
+  the floor beside her bed — no visible injury. The non-`_v2` file shows the aftermath instead: the
+  Broodling on the floor next to a blood-marked bed, no human figure present. **Neither depicts the
+  actual birth/death moment directly** — multiple prompt attempts that combined Maria's figure with
+  visible blood/injury, or that described the birth itself, were rejected by the image generation
+  tool's own content filters, even though the written scene is explicit by design (see
+  [`README.md`](../README.md) → "Content Rating & Tone"). These two images are the closest
+  approximations that could actually be generated; the script text remains the authoritative,
+  explicit version of the scene. Embedded in
+  [`Locations/Hospital.md`](../Locations/Hospital.md), [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md),
+  [`Characters/Maria_Dalton.md`](../Characters/Maria_Dalton.md), and
+  [`Creatures/Broodling.md`](../Creatures/Broodling.md).
+
 ## Convention: concept art now also embedded directly in `Scripts/` files (locked 2026-08-14)
 
 > Per the project owner: *"should we add the concept maps to the scripts as well[?]"* — yes. Going
