@@ -1,8 +1,9 @@
 # Ravenwood Police Station
 
 > The Southwest District's main location — Authority Crest. Full scene-by-scene script:
-> [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scenes 22–40 (district
-> entry through the three secondary locations). [`AI.json`](../AI.json) only reached outline-level
+> [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scenes 22–45 (district
+> entry through the three secondary locations, plus the optional Vanguard sub-plot and the Sally
+> Port breach point, scripted 2026-08-13). [`AI.json`](../AI.json) only reached outline-level
 > detail for this district — the interior of the station itself, its survivor, and the emblem's
 > appearance/location were all open questions it never answered. Everything below beyond the
 > district's overall shape (closest to the park, natural first stop, three named secondary
@@ -37,6 +38,17 @@
 > per the project owner's explicit request that the two locations' records overlap (the same
 > radio calls, the same missing ambulances, the same Highway 13 shutdown). Nothing else in this
 > file changed.
+>
+> **Fifth revision note (2026-08-13, same day):** the district received its full scene-by-scene
+> scripting pass — see [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md),
+> Scenes 25–26 (expanded) and new Scenes 41–45. This resolves every "not yet scripted" item
+> previously flagged under "Unresolved Ideas," below, closes the Vanguard Sub-Plot's discovery
+> sequence into full dialogue/document text, and decides the Chief's name (**Marcus Doyle**, used
+> only in his final-broadcast recording — deliberately distinct from the unconfirmed
+> "CHIEF E. WHITAKER" nameplate that appeared in one AI-generated room render). This makes the
+> Police Station the first of Chapter 2's five districts to be fully scripted rather than left at
+> the location-design/prose level. Nothing already locked (Calloway, Reyes, the shotgun, the
+> Authority Crest, Diesel/Baxter, the four buildings, or any prior revision note above) changed.
 
 ## Purpose in the Overall Story
 
@@ -373,7 +385,9 @@ to the Ravenwood Hotel.
 > the district's already-established "backtracking is the point" design standard with a second,
 > darker layer once the Vanguard Access Card is found. Delivered primarily through environmental
 > discovery (found documents, an abandoned office, a hidden room), per the game's established
-> storytelling convention — not through NPC dialogue dumps.
+> storytelling convention — not through NPC dialogue dumps. **Fully scripted 2026-08-13** — see
+> [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scenes 42–45, plus
+> Calloway's restrained acknowledgment of Cole added to Scene 26.
 
 - **Detective Cole's Office.** A small, undisturbed detective's office off the Bullpen — a coffee
   cup left on the desk, a family photograph, a coat still hanging on a hook, and a corkboard case-
@@ -476,7 +490,7 @@ to the Ravenwood Hotel.
 
 > Not a to-scale architectural floor plan — a **relational** diagram of how rooms connect, and
 > what's in each one, derived directly from `Storyline` and
-> [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md) above, Scenes 22–40. Split
+> [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md) above, Scenes 22–45. Split
 > into one diagram per building/area, same convention as
 > [`Ravenwood_Hotel.md`](Ravenwood_Hotel.md)'s blueprint — read them top to bottom; each one notes
 > where it picks up from another. Solid arrows are direct, always-available connections; dashed
@@ -651,6 +665,11 @@ flowchart TD
   only if this is the first district visited.
 - **[Corporal Eli Reyes](../Characters/Eli_Reyes.md)** — never seen alive; found dead in the K-9
   Unit Room, still holding one of his dogs' leashes.
+- **Chief Marcus Doyle** — never seen alive or dead; named (2026-08-13) only for his self-
+  identification in the final-broadcast recording found in Records/Dispatch (see
+  [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 26). Otherwise known
+  only through the Chief's Office logbook. No dedicated character file — his ultimate fate stays
+  deliberately unresolved, same convention as Cole and the Vanguard Liaison.
 - **[Detective Aaron Cole](../Characters/Aaron_Cole.md)** — never seen alive or dead; disappeared
   before the outbreak (a deliberately older wound than the rest of the district's losses), known
   entirely through his abandoned office and hidden investigation.
@@ -711,11 +730,13 @@ flowchart TD
 
 ### Documents
 
-- **SURVIVORS / MISSING / DECEASED whiteboard** (Bullpen) — three running lists that get less
-  careful toward the bottom before simply stopping; see "Outbreak Night — What Actually Happened,"
-  above.
-- **"Emergency Public Safety Directive 7"** (Bullpen) — the Vanguard-issued order to seal Ravenwood
-  rather than evacuate it, framed as preventing chemical exposure from spreading.
+- **SURVIVORS / MISSING / DECEASED whiteboard** (Bullpen; scripted 2026-08-13, see
+  [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 25) — three running
+  lists that get less careful toward the bottom before simply stopping; see "Outbreak Night — What
+  Actually Happened," above.
+- **"Emergency Public Safety Directive 7"** (Bullpen; scripted 2026-08-13, same scene) — the
+  Vanguard-issued order to seal Ravenwood rather than evacuate it, framed as preventing chemical
+  exposure from spreading.
 - **Dispatch radio log, "Unit Twelve, respond Ravenwood Memorial, violent patient, radiology"**
   (Bullpen/Records-Dispatch, added 2026-08-13) — sounds like just another bizarre disturbance from
   this side of the radio; the other half of the same event — the CT-suite patient who tore free
@@ -733,9 +754,11 @@ flowchart TD
   ([`Locations/Foundry_Refinery.md`](Foundry_Refinery.md), beat 17); officers never had enough
   time or context that night to understand what it meant. Deliberately presented as a genuine
   puzzle piece here — full context only available after visiting the Foundry.
-- **The Chief's final broadcast** (Records/Dispatch, audio recording) — publicly overriding
-  Vanguard's containment order over the emergency network; ends on gunfire and static. Immediately
-  preceded (added 2026-08-13) by a recorded exchange with St. Dymphna Hospital — *"RPD, are you
+- **The Chief's final broadcast** (Records/Dispatch, audio recording; scripted 2026-08-13, see
+  [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 26) — publicly
+  overriding Vanguard's containment order over the emergency network; ends on gunfire and static.
+  Now self-identified as **Chief Marcus Doyle** in the recording. Immediately preceded (added
+  2026-08-13) by a recorded exchange with St. Dymphna Hospital — *"RPD, are you
   receiving?" / "Memorial, go ahead." / "We have forty-plus civilians and can't move them." /
   "We're trying to open Highway 13."* — and, later, unanswered: *"RPD?"* Static. *"Ravenwood
   Police, please respond."* Nothing. See
@@ -773,28 +796,32 @@ flowchart TD
 - Fire Station dispatch call-sheet board (cuts off mid-call, night of the outbreak).
 - Municipal Garage mechanic's maintenance log / personal note (birthday cake reminder, never used).
 - Courthouse judge's-bench case file (an ordinary pre-outbreak property dispute).
-- **Detective Cole's case board and hidden investigation** (his office, optional) — connects a
-  string of local disappearances via the shared "V-CASE TRANSFERRED" marking; includes a Vanguard
-  security image proving at least one "transferred" person was still alive months later but
-  monstrously mutated, and an internal email exchange (a mother calling repeatedly about her
+- **Detective Cole's case board and hidden investigation** (his office, optional; scripted
+  2026-08-13, see [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 42)
+  — connects a string of local disappearances via the shared "V-CASE TRANSFERRED" marking; includes
+  a Vanguard security image proving at least one "transferred" person was still alive months later
+  but monstrously mutated, and an internal email exchange (a mother calling repeatedly about her
   missing son; an officer named Daniels pushing back on the department's Vanguard-referral policy;
   the Chief shutting the exchange down — "Refer all inquiries to Vanguard" / "That's enough,
   Daniels."; Daniels is later "transferred," with no record he ever joined another department).
   Ends with Cole's own note: *"We thought Vanguard was helping us protect Ravenwood. I think
   Ravenwood is what they've been studying."* See
   [`Characters/Aaron_Cole.md`](../Characters/Aaron_Cole.md).
-- **V-CASE classification protocol binder** (Vanguard Liaison Office, optional) — the "acute
-  industrial neurochemical exposure resulting in violent psychosis" cover story given to officers,
-  and the isolate/restrain/avoid-hospitals/surrender-to-Vanguard/seal-footage procedure for anyone
-  classified a V-CASE.
-- **Confidential watchlist** (Vanguard Liaison Office, optional) — people flagged for repeated
-  hospital visits, unusual injuries, neurological symptoms, mine/refinery employment,
-  homelessness, or reporting strange things near Vanguard property; includes the traffic-stop radio
-  code convention (e.g. "confirm a 13-Black") officers used to flag a match. At least one flagged
-  name matches a name on the Bullpen's SURVIVORS/MISSING/DECEASED board.
-- **Evidence of Black Vein stress-trigger testing** (Vanguard Observation Booth, optional) — ties
-  the "industrial accident interviews" cover story to actual experimentation on interview subjects.
-- **A handwritten note taped beside a Cold Cells door** (optional) — an officer's own words to
+- **V-CASE classification protocol binder** (Vanguard Liaison Office, optional; scripted
+  2026-08-13, Scene 43) — the "acute industrial neurochemical exposure resulting in violent
+  psychosis" cover story given to officers, and the isolate/restrain/avoid-hospitals/surrender-to-
+  Vanguard/seal-footage procedure for anyone classified a V-CASE.
+- **Confidential watchlist** (Vanguard Liaison Office, optional; scripted 2026-08-13, same scene) —
+  people flagged for repeated hospital visits, unusual injuries, neurological symptoms,
+  mine/refinery employment, homelessness, or reporting strange things near Vanguard property;
+  includes the traffic-stop radio code convention (e.g. "confirm a 13-Black") officers used to flag
+  a match. At least one flagged name (**T. Okonkwo**) matches a name on the Bullpen's
+  SURVIVORS/MISSING/DECEASED board.
+- **Evidence of Black Vein stress-trigger testing** (Vanguard Observation Booth, optional; scripted
+  2026-08-13, Scene 45) — ties the "industrial accident interviews" cover story to actual
+  experimentation on interview subjects.
+- **A handwritten note taped beside a Cold Cells door** (optional; scripted 2026-08-13, Scene 44) —
+  an officer's own words to
   someone he'd known his whole life: *"Please don't let me turn into one of those things."*
 
 ## Major Scripted Events
@@ -843,11 +870,12 @@ any order) — not yet scripted, but now expected to follow this same main-locat
 - Who was in the modern holding cells' empty cell, and where they ended up — deliberately unstated.
 - Who reported the North Ridge animal-behavior sighting on the Interview Room's recorder — left
   anonymous, consistent with how the game generally treats early-warning-sign witnesses.
-- **The Vanguard sub-plot (all new 2026-08-13, proposal pending full review):**
-  - Whether Sergeant Calloway (first-visit version) gets a small, deliberately restrained
-    dialogue hook acknowledging Cole/the Cold Cells if asked — not yet scripted; per the game's
-    "environmental discovery, not exposition" convention, the bulk of this story should stay
-    document-driven even if she gets one line.
+- **The Vanguard sub-plot:**
+  - ~~Whether Sergeant Calloway (first-visit version) gets a small, deliberately restrained
+    dialogue hook acknowledging Cole/the Cold Cells if asked.~~ **Resolved/scripted (2026-08-13):**
+    see [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 26,
+    "Optional dialogue — Detective Cole's office" — a short hook, not a retelling, per the game's
+    "environmental discovery, not exposition" convention.
   - The Vanguard Liaison's name and what happened to him the night of the outbreak — deliberately
     unresolved, matching the Chief's own unresolved fate elsewhere in this district.
   - Detective Cole's own fate (alive elsewhere, dead, or himself a V-CASE) — deliberately left
@@ -859,18 +887,15 @@ any order) — not yet scripted, but now expected to follow this same main-locat
   - Whether Officer Daniels' disappearance (referenced in Cole's email trail) ever gets more than
     a background-document mention, or stays a deliberate parallel data point implying this has
     happened more than once.
-  - Full scene-by-scene scripting of the whole sub-plot into
-    [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md) — currently written at
-    the location-design/prose level only, same status as several other not-yet-fully-scripted
-    beats in this file.
+  - ~~Full scene-by-scene scripting of the whole sub-plot.~~ **Resolved/scripted (2026-08-13):** see
+    [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scenes 42–45.
   - Whether this sub-plot's "town as a field study" thread should eventually connect explicitly to
     Chapter 3's reveal of how containment failed — see [`CANON.md`](../CANON.md) → "Vanguard's Grip
     on Ravenwood PD," which frames it as a strong contributing thread, not a full answer.
-- **The "Outbreak Night — What Actually Happened" timeline (all new 2026-08-13, proposal pending
-  full review):**
-  - Whether the Sally Port breach point needs its own creature encounter (the same design question
-    already open for the Cold Cells) or stays a pure environmental beat — leaning toward
-    environmental-only, consistent with the Cold Cells resolution above, but not locked.
+- **The "Outbreak Night — What Actually Happened" timeline:**
+  - ~~Whether the Sally Port breach point needs its own creature encounter.~~ **Resolved
+    (2026-08-13):** stays environmental-only, consistent with the Cold Cells resolution above — see
+    [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 41.
   - The Highway 13 confrontation is currently represented only as environmental evidence (mixed
     RPD/Vanguard wreckage in the station's own patrol lot) rather than a playable scene or
     location — Highway 13 itself is a fixed, non-interactive shot per Chapter 1's convention, so
@@ -878,10 +903,10 @@ any order) — not yet scripted, but now expected to follow this same main-locat
   - Whether Officer Dale Pruitt's cruiser being the one "dispatched toward the hotel" (per this
     timeline's step 7) should ever become more than a suggested, unconfirmed connective thread —
     see [`Characters/Dale_Pruitt.md`](../Characters/Dale_Pruitt.md) for the caveat.
-  - The Chief's exact name (needed for his final-broadcast recording's self-identification —
-    *"This is Chief [NAME]..."*) is not yet decided; the recording as currently described doesn't
-    require it to be filled in immediately.
-  - Full scene-by-scene scripting of this timeline's specific beats (the whiteboard, Directive 7,
-    the final broadcast, the Sally Port breach) into
-    [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md) — not done in this pass;
-    everything above is at the location-design/prose level.
+  - ~~The Chief's exact name.~~ **Resolved (2026-08-13): Chief Marcus Doyle** — decided specifically
+    to self-identify in his final-broadcast recording; deliberately distinct from the unconfirmed
+    "CHIEF E. WHITAKER" AI-render nameplate flagged elsewhere in this file. His own ultimate fate
+    stays exactly as unresolved as before.
+  - ~~Full scene-by-scene scripting of this timeline's specific beats (the whiteboard, Directive 7,
+    the final broadcast, the Sally Port breach).~~ **Resolved/scripted (2026-08-13):** see
+    [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scenes 25, 26, and 41.

@@ -17,6 +17,17 @@
 > answered here for the first time; treat names, the survivor's identity, and the specific
 > creature encounter as proposals until reviewed, same as any other new material — see the
 > Direction Log in [`STORY_NOTES.md`](../STORY_NOTES.md).
+>
+> **Scripting pass, 2026-08-13:** Scenes 41–45 were added to fully script the district's optional
+> Vanguard sub-plot (Detective Cole's Office, the Vanguard Liaison Office, the Basement Stairwell/
+> Cold Cells, and the Vanguard Observation Booth) and the Sally Port breach point, and Scenes 25–26
+> were expanded with the SURVIVORS/MISSING/DECEASED whiteboard, "Emergency Public Safety Directive
+> 7," Calloway's restrained acknowledgment of Cole, and the dispatch recorder holding the Chief's
+> final broadcast — closing out every "not yet scripted" item flagged in
+> [`Locations/Police_Station.md`](../Locations/Police_Station.md) → "Unresolved Ideas." This
+> completes the Police Station as the first fully scene-by-scene-scripted district of Chapter 2's
+> five, per the project owner's request to move from location-design prose to full scripts for each
+> district in turn.
 
 ---
 
@@ -805,6 +816,22 @@ RESTRICTED ACCESS** (keyed lock), **CHIEF OF POLICE** (keyed lock), and a heavy 
 bolted on after the fact — clearly a later, cheaper fix than the door's original lock. A fourth
 door, half-closed, is marked **RECORDS / DISPATCH.**
 
+A fifth door, tucked into the corner past the tactical map, has no station signage at all — just a
+sleek corporate placard reading **VANGUARD PUBLIC SAFETY LIAISON**, out of place against every
+other hand-lettered or stenciled sign in the room. No visible keyhole. No card reader Jim can see
+from here, either.
+
+*Interaction prompt: [EXAMINE LIAISON DOOR]*
+
+> **JIM:** *"...What's that doing in a police station?"*
+
+He tries it anyway. Doesn't budge — not locked the way the other three are locked, just closed in a
+way that tells him whatever opens it isn't anything he's carrying yet.
+
+A sixth, smaller door near the same corner sits propped open, a hand-lettered nameplate reading
+**DET. A. COLE** screwed in beside the frame. Unlike everywhere else in the bullpen, nothing past
+that door looks disturbed.
+
 A shambler — a heavyset officer, vest still buckled — rises from behind one of the overturned desks.
 
 > **JIM:** *"Alright."*
@@ -826,6 +853,76 @@ A pause.
 
 > **VOICE (CALLOWAY):** *"Door's not locked. It's barricaded, and I'm the one who has to move the
 > file cabinet, so give me a damn minute."*
+
+### Optional — the whiteboard
+
+A whiteboard on wheels has been dragged into the middle of the bullpen, three columns ruled across
+it in marker, the handwriting confident at the top of each and less careful the further down it
+goes.
+
+*Interaction prompt: [EXAMINE WHITEBOARD]*
+
+> **SURVIVORS**
+> R. CALLOWAY — DISPATCH
+> T. OKONKWO — PATROL
+> [illegible — smeared]
+>
+> **MISSING**
+> CPL. E. REYES — K-9 UNIT
+> M. SANTIAGO — PATROL
+> A. COLE — [written smaller, older ink, clearly added weeks before the rest of the board]
+>
+> **DECEASED**
+> UNIT 4
+> UNIT 9 (PARTIAL)
+> [the rest trails into a downward scrawl, then just stops]
+
+Jim reads all three columns twice. Nobody's updated it in a while.
+
+> **JIM:** *"...Somebody was still trying to keep count."*
+
+Pinned to the corner of the same whiteboard, half-covering the DECEASED column, a single printed
+sheet sits crooked, like it was tacked up in a hurry and never straightened.
+
+*Interaction prompt: [READ DIRECTIVE]*
+
+> **EMERGENCY PUBLIC SAFETY DIRECTIVE 7**
+>
+> ISSUED BY: VANGUARD INDUSTRIES — OFFICE OF PUBLIC SAFETY COORDINATION
+> AUTHORITY: RAVENWOOD–VANGUARD PUBLIC SAFETY AGREEMENT, ARTICLE 4
+>
+> EFFECTIVE IMMEDIATELY, ALL RAVENWOOD PD PERSONNEL WILL:
+>
+> 1. ESTABLISH ROADBLOCKS AT ALL PRIMARY EGRESS POINTS FROM RAVENWOOD MUNICIPAL LIMITS.
+> 2. PREVENT CIVILIAN FOOT AND VEHICLE TRAFFIC FROM LEAVING RAVENWOOD UNTIL FURTHER NOTICE.
+> 3. RESTRICT ALL ACCESS TO VANGUARD-DESIGNATED FACILITIES.
+> 4. DETAIN ANY INDIVIDUAL EXHIBITING CONTAMINATION SYMPTOMS PER STANDING V-CASE PROTOCOL.
+> 5. MAINTAIN RADIO SILENCE REGARDING THE INDUSTRIAL INCIDENT ON ALL OPEN CHANNELS.
+>
+> THIS DIRECTIVE IS ISSUED TO PREVENT THE SPREAD OF CHEMICAL CONTAMINATION BEYOND THE AFFECTED
+> AREA. COMPLIANCE IS MANDATORY UNDER THE TERMS OF THE PUBLIC SAFETY AGREEMENT.
+
+Jim lowers the sheet. Looks back at the whiteboard — the MISSING column, the DECEASED column, the
+list that just stops.
+
+> **JIM:** *"Prevent civilian traffic from leaving."*
+
+A beat.
+
+> **JIM:** *"They didn't seal the town to protect the outside. They sealed it so nothing that
+> happened here would ever have to leave the room."*
+
+> *Design note: this is the physical form of "Emergency Public Safety Directive 7" and the
+> SURVIVORS/MISSING/DECEASED whiteboard referenced in* [`Locations/Police_Station.md`](../Locations/Police_Station.md)
+> *→ "Outbreak Night — What Actually Happened," beat 3 and beat 10. T. Okonkwo and M. Santiago are
+> new, minor background names invented only to make the board read like a real running list rather
+> than a static prop — neither is a named character elsewhere and neither needs to be. Cpl. Reyes'
+> line is written before Jim finds his body in Scene 28, below — a small dramatic-irony beat, not a
+> contradiction. "A. Cole"'s line, in visibly older ink than the rest of the board, is a deliberate
+> touch confirming* [`Characters/Aaron_Cole.md`](../Characters/Aaron_Cole.md)*'s disappearance
+> predates the outbreak by weeks or months, same as his own file already establishes — nobody's
+> bothered erasing his name because nobody's had the time, not because anyone still expects him
+> back.*
 
 ### Optional — the padlocked Property & Evidence Room
 
@@ -937,6 +1034,44 @@ A beat.
 > with something Jim Mercer can't just walk past. Bolt cutters would do it. I don't have any.
 > Try the fire station — two blocks over, they'll have something."*
 
+### Optional dialogue — Detective Cole's office
+
+*Available if Jim asks about the undisturbed office off the bullpen, before or after the rest of
+this conversation.*
+
+> **JIM:** *"There's a detective's office out there. Looks like nobody's touched it in weeks."*
+
+Calloway's expression goes carefully flat — the specific blankness of someone who decided a while
+ago not to have this conversation out loud.
+
+> **CALLOWAY:** *"Cole. Yeah."*
+
+A pause, like she's deciding how much of the next sentence to actually finish.
+
+> **CALLOWAY:** *"Good detective. Got walked out over some Internal Affairs mess I never believed
+> for a second. Man never touched a pill in his life."*
+>
+> **JIM:** *"You think there was more to it."*
+>
+> **CALLOWAY:** *"I think a lot of things tonight, Mr. Mercer. Told you, I try not to finish most of
+> those sentences."*
+
+She picks the fire axe back up off the desk — not threatening, just needing something in her
+hands.
+
+> **CALLOWAY:** *"Nobody's cleared his desk. Nobody wanted to be the one."*
+
+That's the whole answer she's giving. She doesn't bring it up again for the rest of the
+conversation.
+
+> *Design/story note: this is the small, deliberately restrained acknowledgment flagged as
+> unresolved in* [`Characters/Ruth_Calloway.md`](../Characters/Ruth_Calloway.md) *— a hook, not a
+> retelling of* [Detective Aaron Cole's](../Characters/Aaron_Cole.md) *full story in her own words,
+> per the game's "environmental discovery, not exposition" convention. Calloway herself never
+> confirms or denies a Vanguard connection — she says exactly enough to make the player suspicious
+> and no more; the actual proof is discovered later, entirely through Cole's own hidden
+> investigation (Scene 42, below).*
+
 > **JIM:** *"You're not coming?"*
 >
 > **CALLOWAY:** *"Somebody has to hold this room in case anyone else comes through that lobby door
@@ -946,6 +1081,84 @@ She sits back down at the dead dispatch board like it might come alive again any
 
 > **CALLOWAY:** *"Go on, Mr. Mercer. Go be a hero. Try not to die doing it, I've got enough
 > paperwork."*
+
+### Optional — the dispatch recorder
+
+Wired into the dispatch console: a reel-to-reel emergency logger, red light steady, still turning —
+automatically recording every transmission on the department's one working channel whether anyone's
+listening or not.
+
+*Interaction prompt: [PLAY RECORDER]*
+
+Calloway doesn't stop him. Doesn't look up either.
+
+> **CALLOWAY:** *"Already heard it once. Didn't need to again."*
+
+Two logged transmissions play back to back.
+
+> **LOG — TIME UNKNOWN, EXCHANGE WITH ST. DYMPHNA HOSPITAL:**
+>
+> *"RPD, are you receiving?"*
+>
+> *"Memorial, go ahead."*
+>
+> *"We have forty-plus civilians and can't move them."*
+>
+> *"We're trying to open Highway 13."*
+>
+> (long static)
+>
+> *"RPD?"*
+>
+> (static)
+>
+> *"Ravenwood Police, please respond."*
+>
+> Nothing.
+
+A short gap of tape hiss. Then the second recording begins — the same channel, later, a different
+voice.
+
+> **LOG — CHIEF'S FINAL BROADCAST, EMERGENCY NETWORK, ALL FREQUENCIES:**
+>
+> *"This is Chief Marcus Doyle, Ravenwood Police Department, broadcasting on all emergency
+> frequencies. If anyone is receiving this —"*
+>
+> (static)
+>
+> *"All surviving officers, disregard Vanguard containment orders, effective immediately. Help
+> civilians evacuate by any route still open to you. Do not — I say again, do not — surrender
+> injured persons to Vanguard personnel for any reason."*
+>
+> (a long pause; something moving, close to the mic, unclear)
+>
+> *"Whatever they told us this was — they lied. I don't know what it actually is. I know it isn't
+> what they said."*
+>
+> (gunfire, close, several rounds)
+>
+> *"— hold the —"*
+>
+> (static)
+
+The recording ends there. Just tape hiss, cycling, until Jim reaches over and switches the logger
+off himself.
+
+> **JIM:** *"...Chief."*
+
+Calloway says nothing. She doesn't need to.
+
+> *Design/story note: this is "the Chief's final broadcast" recording referenced in*
+> [`Locations/Police_Station.md`](../Locations/Police_Station.md) *→ "Outbreak Night — What Actually
+> Happened," beat 14, immediately preceded by the hospital exchange already cross-referenced against*
+> [`Locations/Hospital.md`](../Locations/Hospital.md) *→ "Outbreak Night," beat 18. **Chief Marcus
+> Doyle** is a new, decided name (2026-08-13) — deliberately distinct from "CHIEF E. WHITAKER,"
+> the unprompted, explicitly non-canonical nameplate that appeared in the Chief's Office room
+> concept (see* [`Locations/Police_Station.md`](../Locations/Police_Station.md)*'s caption on that
+> render), to avoid any confusion with Earl Whitaker at the Hotel. His fate beyond this recording
+> stays exactly as unresolved as before — the logbook in Scene 27 already has him going to look for
+> Reyes and never coming back; this recording doesn't confirm whether the gunfire audible here is
+> from that same moment or later.*
 
 > *Design/story note: Sergeant Calloway is this district's Tier 2 conditional survivor (see
 > [`CANON.md`](../CANON.md) → "Survivor System"). If Jim visits another district before this one,
@@ -1439,13 +1652,296 @@ left behind to explain.
 
 ---
 
+## SCENE 41 — THE SALLY PORT
+
+Off the bullpen, past a door marked **SALLY PORT — VEHICLE BAY — AUTHORIZED PERSONNEL,** propped
+open rather than closed: the station's own attached vehicle bay, built for prisoner transport in
+and out rather than public use. Unlike the rest of the annex, the lights in here never came back —
+Jim's flashlight does most of the work.
+
+A heavy steel emergency shutter is lowered to roughly waist height and stuck there, motor dead,
+gapping the vehicle entrance open along the bottom rather than sealing it. Skid marks cut across
+the concrete floor at an angle that doesn't match any parked vehicle in the bay. Near the shutter, a
+department-issue shotgun lies where it was dropped — action jammed open, a single spent shell still
+in the ejection port, clearly the last thing whoever held it managed to do with it.
+
+*Interaction prompt: [EXAMINE SHOTGUN]*
+
+> **JIM:** *"Jammed. Whoever had this didn't drop it on purpose."*
+
+He leaves it — no fixing this one, not with what he's carrying.
+
+*Interaction prompt: [EXAMINE SHUTTER]*
+
+> **JIM:** *"Half down. Somebody was closing this in a hurry and didn't finish."*
+
+He crouches, looks at the gap along the bottom — plenty of room for something low and fast to get
+through if it wanted to.
+
+> **JIM:** *"...This is how they got in."*
+
+### Optional — equipment lockers
+
+A row of vehicle-bay lockers lines the near wall, most standing open and emptied out already.
+
+*Interaction prompt: [SEARCH LOCKERS]*
+
+*ITEM AVAILABLE (optional): HANDGUN AMMUNITION.*
+
+> *Design/story note: this scripts the Sally Port breach point described in*
+> [`Locations/Police_Station.md`](../Locations/Police_Station.md) *→ "Storyline" and "Outbreak
+> Night," beat 12 — deliberately environmental-only, per that file's "Unresolved Ideas" resolution:
+> no creature encounter here, the same convention as the Cold Cells (Scene 44, below). This room
+> doesn't gate anything and can be reached from the bullpen at any point once Jim's cleared it.*
+
+---
+
+## SCENE 42 — DETECTIVE COLE'S OFFICE
+
+The propped-open door marked **DET. A. COLE** leads into a small office, barely large enough for a
+desk and two chairs, tucked into the corner of the bullpen everyone else seems to have quietly
+agreed to leave alone. A coffee cup sits on the desk, a dried ring staining the bottom where the
+last of it evaporated weeks ago. A coat still hangs on a hook behind the door. A framed photograph —
+a woman, a kid, a lake somewhere — sits angled toward the desk chair rather than out toward the
+room, the way a person arranges something they look at, not something they show visitors.
+
+A corkboard covers most of one wall: a hand-drawn map of Ravenwood with red string connecting a
+dozen pinned index cards, each one a name, a date, and a short note. **"TRAFFIC STOP — 4/12."
+"WELFARE CHECK — 5/03." "TRESPASSING, VANGUARD PROPERTY LINE — 5/19."** Every string ends at the
+same card, pinned dead center: **"V-CASE TRANSFERRED — PATTERN?"**
+
+*Interaction prompt: [SEARCH DESK]*
+
+The drawers are empty — cleared out properly, officially, the way a suspended detective's desk gets
+cleared. Nothing under the blotter. Nothing taped beneath the drawers.
+
+*Interaction prompt: [EXAMINE CEILING TILES]*
+
+One tile above the desk sits very slightly askew — a fraction of an inch, easy to miss unless
+you're looking straight up at exactly the right angle. Jim drags the chair over, pushes it aside.
+
+*ITEM ACQUIRED: VANGUARD ACCESS CARD*
+
+Tucked in beside the card, a thick folder, handwritten on the tab: **"MINE. DO NOT FILE."**
+
+*Interaction prompt: [READ FOLDER]*
+
+### Document — the missing-persons list
+
+> Name / date of last contact / disposition, twelve entries, going back nearly two years. Every
+> single one ends the same way: **V-CASE TRANSFERRED.** No hospital records. No court appearances.
+> No follow-up. Cole's own handwriting in the margin of the last entry: *"Twelve. That I found.
+> How many didn't get a traffic stop first?"*
+
+### Document — a security still, printed and creased from handling
+
+> Grainy, clearly pulled off a camera Cole was never supposed to have access to. A man, recognizable
+> despite the image quality as one of the twelve names on the list, months after his "transfer" —
+> alive. Not the same. Something has happened to the shape of him that the caption underneath, in
+> Cole's hand, states plainly: *"They didn't lose him. They kept him."*
+
+### Document — an internal email exchange, printed
+
+> **FROM:** hdaniels@ravenwoodpd.gov — *"Ma'am's called four times this week about her son. I know
+> what the file says. I don't believe the file."*
+>
+> **FROM:** Chief's Office — *"Refer all inquiries to the Vanguard liaison. That's department
+> policy."*
+>
+> **FROM:** hdaniels@ravenwoodpd.gov — *"With respect, the policy is why she's calling me and not
+> them."*
+>
+> **FROM:** Chief's Office — *"That's enough, Daniels."*
+>
+> No further messages in the thread. A note in Cole's own hand at the bottom of the printout:
+> *"Daniels transferred out three weeks after this. No record he ever started anywhere else."*
+
+### Document — Cole's own closing note, written last
+
+> *"We thought Vanguard was helping us protect Ravenwood. I think Ravenwood is what they've been
+> studying."*
+
+Jim closes the folder slowly. Looks at the coffee cup. The coat still on the hook.
+
+> **JIM:** *"...Nobody ever came back for any of this."*
+
+He takes the folder and the card. Leaves the coat where it is.
+
+> *Design/story note: this scripts* [Detective Aaron Cole's](../Characters/Aaron_Cole.md) *hidden
+> investigation exactly as described in* [`Locations/Police_Station.md`](../Locations/Police_Station.md)
+> *→ "The Vanguard Sub-Plot," and cites his locked closing line verbatim, per*
+> [`Characters/Aaron_Cole.md`](../Characters/Aaron_Cole.md) *→ "Dialogue Characteristics." Officer
+> Daniels is kept exactly as unnamed-beyond-a-surname and unresolved as his character file
+> specifies — "H. Daniels" here is the only expansion, just enough for an email header to read as
+> real. Obtaining the Vanguard Access Card here is what unlocks Scenes 43–45, below.*
+
+---
+
+## SCENE 43 — THE VANGUARD PUBLIC SAFETY LIAISON OFFICE
+
+Back in the bullpen, the Vanguard Access Card does what nothing else in the building could.
+
+*Interaction prompt: [USE ACCESS CARD]*
+
+A soft electronic chime, entirely unlike the mechanical clunk of every other lock in this station.
+The door marked **VANGUARD PUBLIC SAFETY LIAISON** swings open.
+
+Inside: a jarring change of decor — a sleek glass-topped desk, an ergonomic chair, a laptop closed
+and dark, recessed lighting still running clean and even on its own separate power circuit, nothing
+like the flickering emergency lights everywhere else in the building. It looks like it was airlifted
+in from a different building entirely and grafted onto this one, which — as far as Jim's concerned —
+is exactly what happened.
+
+> **JIM:** *"Corporate office. In a police station."*
+
+*Interaction prompt: [SEARCH FILING CABINET]*
+
+A locked filing cabinet gives easily to the same access card. Two binders inside.
+
+### Document — V-CASE classification protocol
+
+> Officer training material. **"Acute Industrial Neurochemical Exposure Resulting in Violent
+> Psychosis."** Symptom checklist. Procedure: isolate, restrain, avoid transport to Ravenwood
+> Memorial Hospital, surrender to Vanguard response personnel on arrival, classify all incident
+> footage as sealed pending internal review.
+
+> **JIM:** *"They gave you a whole procedure. Just never told you what it was actually for."*
+
+### Document — the confidential watchlist
+
+> A list of names and addresses, flagged for: repeated hospital visits, unusual injuries,
+> neurological symptoms, mine or refinery employment, homelessness, or reports of "unusual
+> activity" near Vanguard property. A traffic-stop radio code is noted at the top of the page:
+> *"Confirm a 13-Black to Dispatch on any match."*
+
+Jim scans the list. Stops on one line.
+
+> **JIM:** *"...T. Okonkwo."*
+
+The same name from the bullpen whiteboard — **SURVIVORS.** Flagged on this list months before
+tonight ever happened.
+
+> **JIM:** *"They knew who to watch before any of this started."*
+
+*ITEM AVAILABLE: no key item here — both binders are documents only, read and left in place.*
+
+> *Design/story note: scripts* [`Locations/Police_Station.md`](../Locations/Police_Station.md) *→
+> "The Vanguard Sub-Plot" — the V-CASE protocol binder and confidential watchlist, plus the "13-Black"
+> radio code from* [`CANON.md`](../CANON.md) *→ "Vanguard's Grip on Ravenwood PD." T. Okonkwo — the
+> same background name seeded on the whiteboard in Scene 25 — is deliberately used as the watchlist
+> match: she survives the night (per the whiteboard) despite being flagged for surveillance months
+> earlier, which is the point — not every flagged name ends up a V-CASE, but Vanguard was watching
+> regardless. The Liaison himself is absent; his identity and fate stay unresolved, per*
+> [`CANON.md`](../CANON.md)*.*
+
+---
+
+## SCENE 44 — THE BASEMENT STAIRWELL / THE COLD CELLS
+
+Off the booking corridor, a plain door reads **STORAGE — NO ADMITTANCE** — easy to walk straight
+past, which is clearly the point. The access card opens it the same way it opened everything else
+tonight.
+
+*Interaction prompt: [USE ACCESS CARD]*
+
+Behind the door: a narrow stairwell down, poured concrete, colder with every step — genuinely
+colder, not just the atmosphere of the thing. At the bottom, a small sign, official-looking, bolted
+to the wall rather than taped like everything else down here:
+
+> **TEMPORARY MEDICAL HOLDING — VANGUARD PUBLIC SAFETY COORDINATION — AUTHORIZED PERSONNEL ONLY**
+
+Beyond it: what used to be the station's drunk tank and long-term evidence storage, quietly rebuilt
+into something else entirely. Heavy riveted steel doors, nothing like the barred cells upstairs. A
+floor drain, centered, sloped toward it deliberately. Restraint rings bolted into the walls at
+several heights. A ventilation grille humming faintly — negative pressure, air pulled in rather than
+pushed out.
+
+> **JIM:** *"...'Temporary medical holding.'"*
+
+He looks at the first cell door — bent outward, hard, the steel folded rather than torn, like
+something on the inside simply stopped being small enough for the space it was in.
+
+*Interaction prompt: [EXAMINE CELL]*
+
+Empty. Whatever was in here left the way the door suggests, and didn't come back.
+
+The second cell door is intact. A handwritten note is taped beside the small observation slot, the
+handwriting familiar by now from other rooms in this building — an officer's, unsteady in a way his
+earlier reports never were.
+
+*Interaction prompt: [READ NOTE]*
+
+> *"If you're reading this and it's still me in here — please don't let me turn into one of those
+> things. I know that's not fair to ask. I don't have anyone else to ask."*
+
+No signature. Jim checks the slot anyway.
+
+*Interaction prompt: [LOOK THROUGH SLOT]*
+
+Empty. No body. No occupant, either way — whatever happened here, it isn't waiting behind this
+door.
+
+> **JIM:** *"...I hope somebody got here first."*
+
+He doesn't know if that's true. He leaves the note where it is.
+
+> *Design/story note: scripts* [`Locations/Police_Station.md`](../Locations/Police_Station.md) *→
+> "The Vanguard Sub-Plot" and "Outbreak Night," beat 11 — the Cold Cells, per that file's already-
+> resolved decision, stay purely environmental: no creature encounter, no body, no name attached to
+> the note. This is deliberate tragedy, not a fight, matching the identical design choice already
+> made for the Sally Port (Scene 41, above).*
+
+---
+
+## SCENE 45 — THE VANGUARD OBSERVATION BOOTH
+
+A second, separate door off the booking corridor — unmarked, easily mistaken for another storage
+closet — opens with the same access card onto a narrow, dark space Jim doesn't immediately recognize.
+Then he sees the glass.
+
+*Interaction prompt: [USE ACCESS CARD]*
+
+One-way mirror along the near wall, and on the other side of it: the interview room, the same table
+and bolted chairs Jim already stood in from the opposite angle (see Scene 32). From this side, it's
+obviously not what an interview-room observation booth is supposed to look like. A monitor bank
+displays a dead, looping still of the interview room's own camera feed. Medical equipment lines a
+narrow counter — injectors, blood-collection vials still racked and labeled with case numbers rather
+than names. Beneath the observation counter, hidden from anyone standing on the other side of the
+glass: restraints, bolted to the underside of what looked, from the interview room, like an ordinary
+chair.
+
+> **JIM:** *"That's not for suspects. That's for subjects."*
+
+*Interaction prompt: [EXAMINE VIAL LABELS]*
+
+Each vial is dated and numbered, no names — the same anonymizing convention as the watchlist's
+"13-Black" code. Several dates line up, roughly, with entries already crossed off Cole's
+missing-persons list one room over.
+
+> **JIM:** *"Industrial accident interviews. Sure."*
+
+He doesn't take anything from the counter.
+
+> *Design/story note: scripts* [`Locations/Police_Station.md`](../Locations/Police_Station.md) *→
+> "The Vanguard Sub-Plot" and* [`CANON.md`](../CANON.md) *→ "Vanguard's own interrogation room" —
+> the reverse angle of Scene 32's Interview Room, confirmed there as a deliberate framing choice.
+> This is the last of the four Vanguard Access Card doors; all of Scenes 42–45 are entirely optional
+> and none of them gate the Authority Crest (Scene 38) or any part of the mandatory critical path.*
+
+---
+
 **END OF WRITTEN MATERIAL FOR CHAPTER 2**
 
 *What comes next (planned, not yet scripted — see [`STORY_NOTES.md`](../STORY_NOTES.md)): the four
 remaining open-order districts (Southeast/Knowledge/Academy; Northeast/Medical/Hospital;
-Northwest/Industry/Refinery; North/Faith/Monastery), each built to the same "District Main-Location
-Design Standard" (see [`CANON.md`](../CANON.md)) as the Police Station above, leading to all five
-founders' emblems being returned to the Founders Memorial, the basin draining, and the staircase
-into Chapter 3 being revealed. The Authority Crest can be returned to the Founders Memorial any
-time Jim chooses to backtrack to Memorial Park — this is not forced to happen immediately after
-Scene 38.*
+Northwest/Industry/Refinery; North/Faith/Monastery) each have a full location-design document
+already written ([`Locations/Academy.md`](../Locations/Academy.md),
+[`Locations/Hospital.md`](../Locations/Hospital.md),
+[`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md),
+[`Locations/Monastery.md`](../Locations/Monastery.md)) but still need the same scene-by-scene
+scripting pass the Police Station just received above — dialogue, exact document text, and
+interaction prompts for every room, puzzle, and encounter already designed in prose. Once all five
+are scripted, this leads to all five founders' emblems being returned to the Founders Memorial, the
+basin draining, and the staircase into Chapter 3 being revealed. The Authority Crest can be
+returned to the Founders Memorial any time Jim chooses to backtrack to Memorial Park — this is not
+forced to happen immediately after Scene 38.*

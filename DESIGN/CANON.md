@@ -343,6 +343,15 @@ early hint that Vanguard's reach into the town predates the outbreak.
   affairs setup and disappeared before the outbreak. Never seen alive or dead — known only through
   his abandoned office and the investigation he hid from Vanguard. See "Vanguard's Grip on
   Ravenwood PD," above.
+- **Chief Marcus Doyle** — Ravenwood PD's chief of police (name decided 2026-08-13, needed for his
+  self-identification in the final-broadcast recording found in Records/Dispatch — see
+  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scene 26). Never seen alive or
+  dead; known through his own Chief's Office logbook (last entry: going to check on Corporal Reyes
+  himself) and that recording (publicly overriding Vanguard's containment order, ending on gunfire
+  and static). His ultimate fate stays deliberately unresolved, same convention as Cole and the
+  Vanguard Liaison. Deliberately distinct from "CHIEF E. WHITAKER," an unprompted, non-canonical
+  nameplate that appeared in one AI-generated Chief's Office room concept — see
+  [`Locations/Police_Station.md`](Locations/Police_Station.md) for that flag.
 - **Marshal Josiah Hale** — the Ravenwood Police Department's first peace officer (1887); one of
   Ravenwood/Vanguard's five founders. His name and portrait appear on the **Authority Crest**,
   recovered from a display case in the old 1887 station house.

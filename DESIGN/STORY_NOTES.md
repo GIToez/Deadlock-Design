@@ -1374,6 +1374,65 @@ the next entry for the current final numbering (Scenes 22–40).
     together). **This completes all five Chapter 2 main locations** (Police Station, Hospital,
     Foundry, Academy, Monastery) and all five founders/crests.
 
+## Direction Log (continued) — Police Station full scene-by-scene scripting (2026-08-13)
+
+> With all five Chapter 2 main locations now written at the location-design/prose level, the
+> project owner's next request was to move from prose to full scripts — "time to write out the
+> scripts, puzzles, dialogue, NPC etc etc for each district now. Starting with the police station."
+> [`Locations/Police_Station.md`](Locations/Police_Station.md) already had a scripted critical path
+> ([`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–40, written earlier
+> the same day during the RE-style restructure), but several beats flagged in that file's own
+> "Unresolved Ideas" were still only prose: the optional Vanguard sub-plot's four rooms, the Sally
+> Port breach point, the SURVIVORS/MISSING/DECEASED whiteboard, "Emergency Public Safety Directive
+> 7," and the Chief's final broadcast recording. This pass closes all of them.
+
+- **Scenes 25–26 expanded, in place.** Scene 25 (the Bullpen) now describes two additional doors
+  visible from the hub — the Vanguard Liaison Office's unmarked corporate placard (no visible lock)
+  and Detective Cole's propped-open office — plus a new "Optional — the whiteboard" beat covering
+  both the SURVIVORS/MISSING/DECEASED lists and the full text of "Emergency Public Safety Directive
+  7." Scene 26 (Sergeant Calloway) gained an optional dialogue branch where Jim can ask about Cole's
+  office (a short, restrained hook — "Cole. Yeah." — per the "environmental discovery, not
+  exposition" convention already governing this sub-plot, resolving the exact open question
+  [`Characters/Ruth_Calloway.md`](Characters/Ruth_Calloway.md) had flagged) and a new "Optional —
+  the dispatch recorder" beat playing both the St. Dymphna Hospital exchange (already-locked text,
+  now voiced for the first time) and the Chief's final broadcast in full.
+- **New Scenes 41–45, appended after Scene 40.** Rather than renumber any existing scene (several
+  other files already cite Police Station scene numbers directly — Dale_Pruitt.md, the Weapons/
+  Items files, Chapter_1, etc. — renumbering would have cascaded), the four Vanguard sub-plot rooms
+  and the Sally Port were written as new scenes at the end of the district's script, reachable
+  logically from the Bullpen/Booking Corridor at any point once their gating item is found:
+  - **Scene 41 — The Sally Port.** Environmental-only, per the already-resolved "no creature
+    encounter" decision — the half-lowered shutter, a jammed/dropped shotgun (flavor only, not a
+    pickup, so it can't be confused with the Armory's shotgun), and an optional ammo cache.
+  - **Scene 42 — Detective Cole's Office.** Full search sequence (desk, then ceiling tiles) yielding
+    the Vanguard Access Card and Cole's hidden folder — the missing-persons list, the security
+    still, the Daniels email exchange, and his locked closing line, quoted verbatim from
+    [`Characters/Aaron_Cole.md`](Characters/Aaron_Cole.md).
+  - **Scene 43 — The Vanguard Liaison Office.** The V-CASE protocol binder and confidential
+    watchlist; the watchlist match is deliberately the same **T. Okonkwo** background name seeded on
+    the Scene 25 whiteboard as a **survivor** — the point being that being watched didn't mean being
+    taken, which reads as more unsettling than a 1:1 victim match would have.
+  - **Scene 44 — The Cold Cells.** The bent cell door and the unsigned handwritten note, kept
+    exactly as unresolved/bodiless as the location file's prior decision specified.
+  - **Scene 45 — The Vanguard Observation Booth.** The reverse angle of the existing Interview Room
+    (Scene 32), confirmed as a deliberate framing choice.
+- **New decision: the Chief's name is Marcus Doyle** — needed because his final-broadcast recording
+  self-identifies ("This is Chief Marcus Doyle, Ravenwood Police Department..."). Chosen specifically
+  to avoid any confusion with "CHIEF E. WHITAKER," the unprompted, already-flagged non-canonical
+  nameplate from one AI-generated Chief's Office room render, and with Earl Whitaker at the Hotel.
+  Added to [`CANON.md`](CANON.md) → "Named Characters Confirmed." His ultimate fate remains exactly
+  as unresolved as before this pass — only his name changed.
+- **[`Locations/Police_Station.md`](Locations/Police_Station.md) updated throughout:** a fifth
+  revision note, the scene range in the header (22–40 → 22–45), scene citations added to every
+  affected item in "Documents" and "Key Items," and every relevant bullet under "Unresolved Ideas"
+  struck through and marked resolved/scripted rather than deleted, preserving the history of what
+  was open before this pass.
+- **Not done in this pass:** the same scripting treatment for the other four Chapter 2 districts
+  (Hospital, Foundry, Academy, Monastery) — each still has only its location-design/prose file and
+  no `Scripts/` entry of its own. Per the project owner's phrasing ("starting with the police
+  station"), the plan is to repeat this exact process — full scene-by-scene dialogue, puzzle
+  interaction prompts, document text, and NPC scenes — for each remaining district in turn.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /
