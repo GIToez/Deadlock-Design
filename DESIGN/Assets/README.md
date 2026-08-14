@@ -318,6 +318,38 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   nine of Worthy Academy's new key items, generated as part of its scene-by-scene scripting pass;
   style-anchored to the same item-icon convention.
 
+- **Room concept art style correction, take five — full flat-camera audit (2026-08-14).** Prompted
+  by the project owner flagging (repeatedly, and emphatically) that several renders had drifted
+  into a flat, straight-on/eye-level camera instead of the locked house style — an elevated 3/4
+  top-down camera at a steep tilted angle with a clearly diamond-rotated floor/paving pattern
+  receding into depth, per `police_station_bullpen_concept.png` and the Hotel screenshots. A full
+  re-audit of every district against that reference found the drift concentrated in Steelgate
+  Refinery and the Monastery (both originally generated in the same earlier batch); Downtown
+  Ravenwood, the Founders Memorial, and the Street Crossing were already compliant. Regenerated 13
+  Foundry files (`foundry_boardroom_concept.png`, `foundry_loading_yard_concept.png`,
+  `foundry_clinic_concept.png`, `foundry_break_room_concept.png`,
+  `foundry_managers_office_concept.png`, `foundry_vanguard_site_office_concept.png`,
+  `foundry_restricted_elevator_concept.png`, `foundry_exposure_records_concept.png`,
+  `foundry_security_checkpoint_concept.png`, `foundry_old_mine_workings_concept.png`,
+  `foundry_loading_docks_concept.png`, `foundry_black_vein_cavern_concept.png`, and
+  `foundry_rail_yard_concept.png`), 9 Monastery files
+  (`monastery_gate_approach_concept.png`, `monastery_cloister_concept.png`,
+  `monastery_bell_tower_concept.png`, `monastery_crypt_antechamber_concept.png`,
+  `monastery_old_seal_crypt_depths_concept.png`,
+  `monastery_sealed_passage_old_caves_concept.png`,
+  `monastery_hillside_residential_street_concept.png`,
+  `monastery_hillside_cemetery_concept.png`, and `monastery_overlook_trail_concept.png`), and 1
+  Memorial Park file (`memorial_park_guardhouse_concept.png`) — all now show the corrected camera
+  angle and floor pattern, including exterior/path scenes. See
+  [`STORY_NOTES.md`](../STORY_NOTES.md) → "Concept art perspective correction pass" for the full
+  list and rationale, and the updated captions in
+  [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md),
+  [`Locations/Monastery.md`](../Locations/Monastery.md), and
+  [`Locations/Memorial_Park.md`](../Locations/Memorial_Park.md). One new flagged error surfaced
+  during this pass: the regenerated `foundry_boardroom_concept.png` reads "STEELGATE REFINERY —
+  EST. 1897" on its wall logo, a non-canonical date — the Refinery was founded in **1887** per
+  [`CANON.md`](../CANON.md).
+
 ## Convention: concept art now also embedded directly in `Scripts/` files (locked 2026-08-14)
 
 > Per the project owner: *"should we add the concept maps to the scripts as well[?]"* — yes. Going

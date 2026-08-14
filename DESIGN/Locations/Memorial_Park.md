@@ -62,9 +62,12 @@ player returns to constantly between districts to save, restock, and fast-travel
 
   ![Guardhouse Interior — room concept](../Assets/Reference/memorial_park_guardhouse_concept.png)
 
-  > AI-generated room concept (2026-08-14). Matches the scripted desk, filing cabinet, VERN
+  > AI-generated room concept (2026-08-14, regenerated same day to correct a flat/eye-level camera
+  > drift — now matches the elevated 3/4 top-down perspective with diamond-tiled floor established
+  > by the police station and hotel concepts). Matches the scripted desk, filing cabinet, VERN
   > terminal, corkboard, and inventory chest closely; the window correctly shows a "RAVENWOOD PARK"
-  > gate sign rather than a naming error.
+  > gate sign rather than a naming error. The corkboard map is labeled "Memorial Park" rather than
+  > "Ravenwood Memorial Park" — a minor non-canonical simplification, not a contradiction.
 - **The Founders Memorial.** Jim approaches the central monument: a ~10-foot bronze female civic
   statue in a water basin, holding a large circular medallion-plaque — a small five-sided pentagon
   hub at the center (bearing a single weathered letter "V"), surrounded by five trapezoidal

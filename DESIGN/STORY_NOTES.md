@@ -1644,6 +1644,39 @@ the next entry for the current final numbering (Scenes 22–40).
 - **Not done in this pass:** the same treatment for the Monastery — the one remaining district,
   and the last surface location before Chapter 3.
 
+## Direction Log (continued) — Concept art perspective correction pass (2026-08-14)
+
+> Prompted by the project owner flagging that several room concepts had drifted into a flat,
+> straight-on/eye-level camera framing instead of the established house style — an elevated 3/4
+> top-down camera at a steep tilted angle with a clearly diamond-rotated floor/paving pattern
+> receding into depth, as set by
+> [`Assets/Reference/police_station_bullpen_concept.png`](Assets/Reference/police_station_bullpen_concept.png)
+> and the hotel and police station concepts generally.
+
+- **Full re-audit of every district's room concept art against the bullpen reference.** Confirmed
+  several images across Steelgate Refinery and the Monastery had the flat-camera issue despite
+  earlier captions claiming they were already correct; Downtown Ravenwood, the Founders Memorial,
+  and the Street Crossing concepts were already compliant on review.
+- **13 Foundry images regenerated:** Founder's Boardroom, Loading Yard, Clinic, Break Room/Locker
+  Room, Plant Manager's Office, Vanguard Site Office, Restricted Elevator, Exposure Records Room,
+  Security Checkpoint, Old Mine Workings, Loading Docks, the Black Vein Cavern, and the Rail Yard —
+  all now show the elevated isometric-style camera and a receding diamond floor/ground pattern.
+- **9 Monastery images regenerated:** the Gate Approach, the Cloister, the Bell Tower, the Crypt
+  Antechamber, the Old Seal/Crypt Depths, the Sealed Passage/Old Caves, the Hillside Residential
+  Street, the Hillside Cemetery, and the Overlook Trail — same correction, including exterior
+  scenes (paths/roads now show diamond-rotated paving instead of a flat landscape view).
+- **1 Memorial Park image regenerated:** the Guardhouse interior had the same flat, eye-level
+  drift; regenerated to match the corrected style while keeping every scripted prop (desk, filing
+  cabinet, VERN terminal, corkboard, inventory chest, "RAVENWOOD PARK" gate sign in the window).
+- **[`Locations/Foundry_Refinery.md`](Locations/Foundry_Refinery.md),
+  [`Locations/Monastery.md`](Locations/Monastery.md), and
+  [`Locations/Memorial_Park.md`](Locations/Memorial_Park.md) caption text updated** to describe the
+  corrected images and note the regeneration where a caption previously (incorrectly) claimed the
+  original flat-camera version was already compliant.
+- **No other districts required changes** — Police Station, the Hotel, St. Dymphna Hospital (after
+  its own earlier correction pass), Worthy Academy, and Downtown Ravenwood were all already
+  consistent with the reference style on this audit.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /
