@@ -10,6 +10,14 @@
 > reference that existed ahead of the rest of this chapter; both are now integrated below rather
 > than sitting as standalone placeholders.
 >
+> **Revision note (2026-08-13, same day):** the district received its full scene-by-scene
+> scripting pass — see the new [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md)
+> (17 scenes), plus new individual [`Items/Key_Items/`](../Items/Key_Items/README.md) writeups (and
+> AI-generated icon concept art) for all seven of this district's key items, closing out the
+> "not yet written" items previously flagged below. This is the second of Chapter 2's five
+> districts to be fully scripted, after the Police Station. Nothing already locked about this
+> district's rooms, puzzles, or fates changed.
+>
 > **Thematic pairing with the Police Station (per the project owner's explicit direction):** both
 > Chapter 2 institutions experience the same night from different angles, and their records are
 > meant to overlap directly — the same radio calls, the same missing ambulances, the same Highway
@@ -544,21 +552,23 @@ flowchart TD
 
 ## Key Items
 
-- **Fire Axe** (_no `Items/` writeup yet — see "Unresolved Ideas," below_) — Ambulance Bay;
+- **Fire Axe** ([full item writeup](../Items/Key_Items/Fire_Axe.md)) — Ambulance Bay;
   general-purpose forcing tool, flavor/utility item.
-- **Laboratory Key** (_not yet written_) — Radiology, off the dead orderly; opens the Laboratory.
-- **Administration Key** (_not yet written_) — the Laboratory; opens Administration.
-- **Surgical Wing Access Card** (_not yet written_) — Medical Arts Building (secondary location);
-  opens the Surgical Wing.
-- **Pry Bar** (_not yet written_) — Vanguard Quarantine Checkpoint (secondary location, optional);
-  forces the barricaded Psychiatric Ward stairwell.
-- **Chapel Key** (_not yet written_) — the ICU, on a clipboard; opens St. Dymphna Chapel.
-- **Medical Crest** (_not yet written_) — the district's founder's emblem; St. Dymphna Chapel
-  display case.
+- **Laboratory Key** ([full item writeup](../Items/Key_Items/Laboratory_Key.md)) — Radiology, off
+  the dead orderly; opens the Laboratory.
+- **Administration Key** ([full item writeup](../Items/Key_Items/Administration_Key.md)) — the
+  Laboratory; opens Administration.
+- **Surgical Wing Access Card** ([full item writeup](../Items/Key_Items/Surgical_Wing_Access_Card.md))
+  — Medical Arts Building (secondary location); opens the Surgical Wing.
+- **Pry Bar** ([full item writeup](../Items/Key_Items/Pry_Bar.md), optional) — Vanguard Quarantine
+  Checkpoint (secondary location); forces the barricaded Psychiatric Ward stairwell.
+- **Chapel Key** ([full item writeup](../Items/Key_Items/Chapel_Key.md)) — the ICU, on a
+  clipboard; opens St. Dymphna Chapel.
+- **Medical Crest** ([full item writeup](../Items/Key_Items/Medical_Crest.md)) — the district's
+  founder's emblem; St. Dymphna Chapel display case.
 
-> None of this district's key items have their own `Items/` writeup yet — see "Unresolved Ideas,"
-> below. Cross-links above are placeholders describing the intended target filenames, following
-> the same convention as the Police Station's key items.
+> All seven of this district's key items now have individual `Items/Key_Items/` writeups, complete
+> with AI-generated icon concept art — see [`Items/Key_Items/README.md`](../Items/Key_Items/README.md).
 
 ### Documents
 
@@ -648,21 +658,29 @@ in any order.
 - **This entire district is a first draft, pending review** — same status the Police Station had
   before its own restructure was approved. Room layout, exact key-item names, and the boss fight's
   mechanical detail are all subject to revision.
-- None of the new key items above have individual `Items/Key_Items/` writeups yet (Fire Axe,
-  Laboratory Key, Administration Key, Surgical Wing Access Card, Pry Bar, Chapel Key, Medical
-  Crest) — proposed as the next pass once this location's overall shape is confirmed, matching the
-  Police Station's own `Items/` audit.
-- Exact staging/wording for the hospital's final-transmission document and where it's physically
-  found — referenced in "Outbreak Night" and "Documents" above but not pinned to a specific room
-  yet.
+- ~~None of the new key items above have individual `Items/Key_Items/` writeups yet.~~
+  **Resolved/scripted (2026-08-13):** see [`Items/Key_Items/README.md`](../Items/Key_Items/README.md)
+  → "St. Dymphna Hospital" for all seven, each with AI-generated icon concept art.
+- ~~Exact staging/wording for the hospital's final-transmission document and where it's physically
+  found.~~ **Resolved (2026-08-13):** kept as the E.D./Administration-area outgoing broadcast
+  already described in "Outbreak Night," beat 18 — no additional room-specific staging was needed
+  beyond that beat's own text; not given its own dedicated scene in
+  [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), since it's already fully
+  quoted there and at [`Locations/Police_Station.md`](Police_Station.md).
 - Whether "The Surgeon" needs a different/better working nickname than a direct echo of "The
   Caretaker" naming pattern — flagged, not blocking.
-- Full scene-by-scene scripting into a new `Scripts/Chapter_2_Hospital.md` (or a shared Chapter 2
-  script file) — everything above is at the location-design/prose level, matching where the
-  Police Station stood before its own scene-by-scene pass.
-- Whether Richard Dalton (alive version) ever learns exactly what happened to Maria — see
-  [`Characters/Richard_Dalton.md`](../Characters/Richard_Dalton.md) → "Unresolved Ideas."
+- ~~Full scene-by-scene scripting into a new `Scripts/Chapter_2_Hospital.md`.~~ **Resolved
+  (2026-08-13):** see [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), 17
+  scenes covering the full district critical path and all three secondary locations.
+- Whether Richard Dalton (alive version) ever learns exactly what happened to Maria — deliberately
+  **not** resolved in the new script, per
+  [`Characters/Richard_Dalton.md`](../Characters/Richard_Dalton.md) → "Unresolved Ideas," which
+  explicitly asks for this to stay open until a future, separate decision.
+- ~~Where exactly Richard's body is staged if he doesn't survive.~~ **Resolved (2026-08-13):** near
+  the Ambulance Bay, face-down, one arm outstretched toward the hospital's side entrance — see
+  [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 2.
 - The Hospital Parking Structure's barricaded-civilian death beat has no name/character file —
   deliberately anonymous, consistent with how the game treats most minor environmental deaths.
 - Exact combat design (health, damage, phase structure) for both the Broodling and "The Surgeon" —
-  flagged in their own creature files, not solved here.
+  flagged in their own creature files, not solved here; the new script (Scenes 10 and 13) describes
+  their move sets narratively without locking specific numbers.

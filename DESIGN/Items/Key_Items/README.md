@@ -42,8 +42,25 @@ two entries are the same item).
   street bollards, opening the open-world exploration phase. Has a real in-game sprite
   (`spr_keycard.png`).
 
+**St. Dymphna Hospital (Chapter 2), added 2026-08-13:**
+
+- [`Fire_Axe.md`](Fire_Axe.md) — Ambulance Bay; general-purpose forcing tool, no confirmed
+  puzzle-gating use yet.
+- [`Laboratory_Key.md`](Laboratory_Key.md) — from a dead orderly in Radiology; opens the
+  Laboratory.
+- [`Administration_Key.md`](Administration_Key.md) — the Laboratory; opens Administration
+  (lore-only, doesn't gate anything further).
+- [`Surgical_Wing_Access_Card.md`](Surgical_Wing_Access_Card.md) — Medical Arts Building
+  (secondary location); opens the Surgical Wing.
+- [`Pry_Bar.md`](Pry_Bar.md) — optional, Vanguard Quarantine Checkpoint (secondary location);
+  forces the barricaded Psychiatric Ward stairwell.
+- [`Chapel_Key.md`](Chapel_Key.md) — the ICU, on a clipboard; opens St. Dymphna Chapel.
+- [`Medical_Crest.md`](Medical_Crest.md) — the Northeast District's founder's emblem; St. Dymphna
+  Chapel display case.
+
 Real sprites uploaded by the project owner: `spr_managerKey.png`, `spr_maintenanceKey.png`,
 `spr_graveyardKey.png` (three interchangeable generic key icons, shared across the plain "key"
 items above), `spr_keycard.png`, `spr_screwDriver.png`, `spr_fuseItem.gif`. AI-generated icons:
-Gate Crank Handle, Bolt Cutters, Pocketknife, and Authority Crest (no real sprite existed for
-these four visually distinct, one-of-a-kind objects).
+Gate Crank Handle, Bolt Cutters, Pocketknife, Authority Crest, Fire Axe, Laboratory Key,
+Administration Key, Surgical Wing Access Card, Pry Bar, Chapel Key, and Medical Crest (no real
+sprite existed for these visually distinct, one-of-a-kind objects).

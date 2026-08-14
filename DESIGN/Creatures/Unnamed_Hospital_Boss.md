@@ -116,7 +116,10 @@ fills for the Hotel and the Ashen Hound pair fills for the Police Station, per t
 
 ## Major Appearances
 
-None scripted yet.
+See [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 10 — the boss
+encounter in OR 3, deepest room of the Surgical Wing. Narrated at the level of move-set/behavior
+(the giant hand's lunge/slam, the tranquilizer-gun's ranged threat) rather than exact numbers,
+consistent with "Open Design Gaps," below.
 
 ## Story Significance
 
@@ -148,6 +151,5 @@ using rules that no longer applied.
   mechanical detail, beyond the two-weapon (hand-slam / tranquilizer-dart) shape proposed above.
 - Whether "Ashen Mutant" applies here as a formal classification, or is specific to The Maw (shared
   open question, see [`The_Maw.md`](The_Maw.md)).
-- Not yet integrated into any script — [`Scripts/`](../Scripts/) has no Hospital chapter scene-by-
-  scene content written yet (though [`Locations/Hospital.md`](../Locations/Hospital.md) now has
-  full location-design/prose-level detail).
+- ~~Not yet integrated into any script.~~ **Resolved (2026-08-13):** see
+  [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 10.

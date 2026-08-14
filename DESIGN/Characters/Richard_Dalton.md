@@ -86,9 +86,15 @@ emblem count on arrival (0–1 = alive, 2+ = dead) rather than strict visit orde
 
 ## Unresolved Ideas
 
-- Full scene-by-scene scripting of both the "alive, fleeing" and "already dead" versions of his
-  hospital-arrival beat.
+- ~~Full scene-by-scene scripting of both the "alive, fleeing" and "already dead" versions of his
+  hospital-arrival beat.~~ **Resolved/scripted (2026-08-13):** see
+  [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 2.
 - Whether/how Jim tells the alive version of Richard what actually happened to Maria and the
-  child — a strong candidate for one of the game's more emotionally weighty optional beats, not
-  yet written. Do not invent a resolution without explicit approval.
-- Where exactly Richard's body is staged if he doesn't survive — not yet decided.
+  child — a strong candidate for one of the game's more emotionally weighty optional beats, still
+  **not** written even after the district's scripting pass. Do not invent a resolution without
+  explicit approval. Scene 2 (alive version) ends on Richard's request that Jim come back and tell
+  him, and Scene 13 (the Maternity Ward) confirms what Jim now knows — but the actual return
+  conversation is deliberately left for a future decision.
+- ~~Where exactly Richard's body is staged if he doesn't survive.~~ **Resolved (2026-08-13):** near
+  the Ambulance Bay, face-down, one arm outstretched toward the hospital's side entrance — see
+  [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 2.

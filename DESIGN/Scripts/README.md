@@ -18,9 +18,17 @@ early on, since earlier source material used a confusing dual "Tab"/"Scene" numb
 ## Current files
 
 - [`Chapter_1_One_Night_Only.md`](Chapter_1_One_Night_Only.md) — the Ravenwood Hotel, in full (45 scenes). Locked.
-- [`Chapter_2_Ravenwood.md`](Chapter_2_Ravenwood.md) — the street crossing, Memorial Park, and the Downtown introduction (21
-  scenes written so far). The five districts beyond Downtown are planned in [`STORY_NOTES.md`](../STORY_NOTES.md) but
-  not yet scripted.
+- [`Chapter_2_Ravenwood.md`](Chapter_2_Ravenwood.md) — the street crossing, Memorial Park, the Downtown
+  introduction, and the Southwest District/Police Station in full (45 scenes, including its optional
+  Vanguard sub-plot).
+- [`Chapter_2_Hospital.md`](Chapter_2_Hospital.md) — the Northeast District/St. Dymphna Hospital in
+  full (17 scenes), kept as its own file rather than appended to `Chapter_2_Ravenwood.md`, per that
+  file's already-large size — restarts its own Scene 1 count.
+
+The three remaining districts (Academy, Foundry, Monastery) each have a full location-design file
+in [`Locations/`](../Locations/) but no `Scripts/` entry yet — planned as the same kind of
+standalone per-district file as `Chapter_2_Hospital.md`, per the project owner's request to script
+each district in turn (see [`STORY_NOTES.md`](../STORY_NOTES.md) for the Direction Log).
 
 Chapter 3 ("What Was Hidden") and the Epilogue ("One More Night") are outlined in [`CANON.md`](../CANON.md) and
 [`MASTER_STORY.md`](../MASTER_STORY.md) but have no script content yet.

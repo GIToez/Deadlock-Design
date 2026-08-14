@@ -1433,6 +1433,49 @@ the next entry for the current final numbering (Scenes 22–40).
   station"), the plan is to repeat this exact process — full scene-by-scene dialogue, puzzle
   interaction prompts, document text, and NPC scenes — for each remaining district in turn.
 
+## Direction Log (continued) — St. Dymphna Hospital full scene-by-scene scripting (2026-08-13)
+
+> Second district scripted, per the project owner's follow-up ("move on to the next area gotta
+> design the puzzles leading up to the emblem include lore notes etc etc"). Hospital was the
+> obvious next target — the project owner had already called it "the natural next step" earlier in
+> the session, and its location file (unlike the Police Station's) had **zero** `Items/Key_Items/`
+> writeups yet, so this pass combined two jobs: writing the script and, for the first time, giving
+> this district's key items their own files.
+
+- **New file: [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md), 17 scenes.** Kept
+  separate from [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md) (already 45
+  scenes) rather than appended to it — restarts its own Scene 1 count, matching
+  [`Scripts/README.md`](Scripts/README.md)'s existing "restarts at Scene 1 for each new chapter
+  file" rule, applied here at the per-district level since Chapter 2 itself has no natural
+  chapter-break between districts. Covers the full critical path (District Entry → Ambulance Bay →
+  E.D. hub → Radiology → Laboratory → Administration → the Medical Arts Building backtrack →
+  Surgical Wing → the boss fight → ICU → Chapel/Medical Crest) plus all optional content (the
+  Morgue, Maternity Ward/Broodling, NICU, the Vanguard Quarantine Checkpoint → Psychiatric Ward
+  chain, and the Parking Structure).
+- **Richard Dalton's Tier 2b branch, both versions, now fully scripted** (Scene 2) — the alive
+  version's panicked Ambulance Bay meeting, and a new decision for the dead version's staging
+  (face-down near the bay, one arm outstretched toward the entrance he never reached), resolving
+  the "not yet decided" flag on [`Characters/Richard_Dalton.md`](Characters/Richard_Dalton.md).
+  **Deliberately not written:** the actual "what does Jim tell Richard" return conversation — that
+  character file explicitly asks for this to stay open pending a separate decision, so Scene 2 ends
+  on his request and Scene 13 (the Maternity Ward) only confirms what Jim now privately knows.
+- **The Broodling and "The Surgeon" boss fight both fully staged narratively** (Scenes 10 and 13) —
+  move-set-level description (the giant hand's lunge/slam plus the tranquilizer-gun's ranged
+  threat; the Broodling's fast, low, hard-to-hit scrabbling) without locking specific damage/health
+  numbers, which both creature files already flag as a separate, later mechanical-design pass.
+- **Seven new [`Items/Key_Items/`](Items/Key_Items/README.md) files**, closing the gap the Police
+  Station's own `Items/` audit didn't cover yet, since Hospital.md didn't exist until after that
+  audit: Fire Axe, Laboratory Key, Administration Key, Surgical Wing Access Card, Pry Bar, Chapel
+  Key, and Medical Crest — each with a new AI-generated inventory-icon concept (small, flat-shaded
+  pixel-art icon on a plain dark background, matching the Police Station's own item-icon
+  convention), logged in [`Assets/README.md`](Assets/README.md).
+- **[`Locations/Hospital.md`](Locations/Hospital.md) updated throughout:** a new revision note, key
+  item cross-links replaced (no more "not yet written" placeholders), and every resolved bullet
+  under "Unresolved Ideas" struck through with a pointer to where it's now handled — same
+  preserve-the-history convention used for the Police Station's own pass.
+- **Not done in this pass:** the same treatment for Academy, Foundry, and Monastery — each still
+  has only its location-design/prose file. Next in line per this same repeated process.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /

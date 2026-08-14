@@ -277,6 +277,14 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   signature-encounter creature type an open question rather than locking a new one, per the source
   material's own framing.
 
+- **`Reference/item_fire_axe_concept.png`, `item_laboratory_key_concept.png`,
+  `item_administration_key_concept.png`, `item_surgical_wing_access_card_concept.png`,
+  `item_pry_bar_concept.png`, `item_chapel_key_concept.png`, `item_medical_crest_concept.png`**
+  (AI-generated, 2026-08-13) — inventory-icon concepts for all seven of St. Dymphna Hospital's new
+  key items, generated as part of its scene-by-scene scripting pass (see
+  [`Items/Key_Items/README.md`](../Items/Key_Items/README.md)); style-anchored to the existing
+  Police Station item icons (Bolt Cutters, Pocketknife, Authority Crest).
+
 Several other assets have been uploaded, placed directly alongside their character files instead:
 
 - `Characters/spr_cindy_jumpscare.gif` — embedded in

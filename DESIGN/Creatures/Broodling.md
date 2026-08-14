@@ -92,8 +92,9 @@ Single, one-off encounter in the Maternity Ward — see
 
 ## Major Appearances
 
-Not yet scripted scene-by-scene — see [`Locations/Hospital.md`](../Locations/Hospital.md) →
-"Maternity Ward."
+See [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), Scene 13 — the Maternity
+Ward discovery and fight, staged exactly per this file's "situational horror, not gratuitousness"
+direction.
 
 ## Story Significance
 
