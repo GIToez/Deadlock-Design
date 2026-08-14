@@ -2301,20 +2301,23 @@ or the five districts — none of those chapters have named characters yet.
   above so the two aren't done twice.
 - **Five Puzzle Philosophies — script rewrite (in progress; the single largest remaining task, per
   the "synchronization pass" audit above).** All five `Locations/` files fully describe their new
-  puzzle mechanics. **[`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md)
-  has been rewritten (2026-08-14)** to the Lockdown Puzzle — the security console, the four-zone
-  reset sequence, Diesel promoted to boss-tier (see "Creature Distribution System," below), and a
-  trimmed version of Jim's dialogue consistent with his 0-crest "Survival" arc stage. **Hospital,
-  Foundry, and Academy's scripts still reflect the old key-hunt mechanic** and need the same
-  treatment. Concretely still needed: (1) rewrite `Chapter_2_Hospital.md` to the Quarantine Puzzle,
-  `Chapter_2_Foundry.md` to the Casting Puzzle, and `Chapter_2_Academy.md` to the Archive Puzzle;
-  (2) write the Monastery's full scene-by-scene script directly against the Bell Tower mechanic and
-  its crest-count-gated deepest section, since it has no prior script to conflict with; (3) audit
-  `Items/Key_Items/` for the several retired keys flagged inline in each `Locations/` file — delete
-  or repurpose their writeups (the Police Station's Armory Key is now named "Armory Zone Override"
-  in the rewritten script; its `Items/` file still needs the matching rename); (4) while rewriting
-  each remaining script, apply the still-open dialogue/pacing items above (Jim's over-narration
-  trim, his crest-count arc, deliberate messiness in crossovers, the per-district
+  puzzle mechanics. **Two of four existing scripts rewritten so far (2026-08-14):**
+  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md) to the Lockdown
+  Puzzle (security console, four-zone reset sequence, Diesel promoted to boss-tier), and
+  [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md) to the Quarantine Puzzle (the
+  isolation control panel, the torn manual page + backup damper control gathering loop, the
+  pressure-gradient sequence into the Surgical Wing). Both trimmed Jim's dialogue and removed the
+  old self-aware "same shape as the station, different building" line the narrative review flagged.
+  **Foundry and Academy's scripts still reflect the old key-hunt mechanic.** Concretely still
+  needed: (1) rewrite `Chapter_2_Foundry.md` to the Casting Puzzle and `Chapter_2_Academy.md` to
+  the Archive Puzzle; (2) write the Monastery's full scene-by-scene script directly against the
+  Bell Tower mechanic and its crest-count-gated deepest section, since it has no prior script to
+  conflict with; (3) audit `Items/Key_Items/` for the several retired keys flagged inline in each
+  `Locations/` file — delete or repurpose their writeups (the Police Station's Armory Key is now
+  "Armory Zone Override," the Hospital's Surgical Wing Access Card is now "Backup Damper Control,"
+  in their rewritten scripts; their `Items/` files still need matching renames); (4) while
+  rewriting each remaining script, apply the still-open dialogue/pacing items above (Jim's
+  over-narration trim, his crest-count arc, deliberate messiness in crossovers, the per-district
   storytelling-material table, and the caution against over-attributing every civic failure to
   Vanguard).
 - **Creature Distribution System (locked 2026-08-14).** Per the project owner's direction: every

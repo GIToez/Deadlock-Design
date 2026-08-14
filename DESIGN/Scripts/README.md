@@ -39,12 +39,9 @@ owner early on, since earlier source material used a confusing dual "Tab"/"Scene
   five open-order districts.
 - [`Chapter_2_Police_Station.md`](Chapter_2_Police_Station.md) — the Southwest District/Police
   Station in full (24 scenes), including its optional Vanguard sub-plot. **Rewritten 2026-08-14**
-  to the Lockdown Puzzle mechanic (see [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies") —
-  the only one of the four already-existing district scripts updated so far.
+  to the Lockdown Puzzle mechanic (see [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies").
 - [`Chapter_2_Hospital.md`](Chapter_2_Hospital.md) — the Northeast District/St. Dymphna Hospital in
-  full (17 scenes). **Still reflects the old key-hunt mechanic** — needs a rewrite to the
-  Quarantine Puzzle; see [`STORY_NOTES.md`](../STORY_NOTES.md) → "Five Puzzle Philosophies —
-  script rewrite."
+  full (19 scenes). **Rewritten 2026-08-14** to the Quarantine Puzzle mechanic.
 - [`Chapter_2_Foundry.md`](Chapter_2_Foundry.md) — the Northwest District/Steelgate Refinery in
   full (17 scenes). **Still reflects the old key-hunt mechanic** — needs a rewrite to the Casting
   Puzzle.
