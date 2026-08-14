@@ -125,7 +125,8 @@ locations and its crest/emblem:
 - **Southwest — Authority Crest — [Ravenwood Police Station](Locations/Police_Station.md)**
   (closest to the park; the natural, though not forced, first destination — fully scripted, see
   [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md), Scenes 1–24)
-- **Southeast — Knowledge Crest — [Worthy Academy](Locations/Academy.md)**
+- **Southeast — Knowledge Crest — [Worthy Academy](Locations/Academy.md)** (fully scripted, see
+  [`Scripts/Chapter_2_Academy.md`](Scripts/Chapter_2_Academy.md), Scenes 1–17)
 - **Northeast — Medical Crest — [St. Dymphna Hospital](Locations/Hospital.md)** (fully scripted, see
   [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md), Scenes 1–17)
 - **Northwest — Industry Crest — [Steelgate Refinery](Locations/Foundry_Refinery.md)** (its rail

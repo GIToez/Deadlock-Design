@@ -310,6 +310,14 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
   correctly read "Ravenwood," breaking this project's long recurring "Ravencroft"/wrong-name
   pattern.
 
+- **`Reference/item_administration_office_key_concept.png`, `item_isolation_wing_key_concept.png`,
+  `item_auditorium_key_concept.png`, `item_academy_library_key_concept.png`,
+  `item_generator_fuel_concept.png`, `item_academy_fire_axe_concept.png`,
+  `item_principals_office_key_concept.png`, `item_founders_hall_key_concept.png`,
+  `item_knowledge_crest_concept.png`** (AI-generated, 2026-08-14) — inventory-icon concepts for all
+  nine of Worthy Academy's new key items, generated as part of its scene-by-scene scripting pass;
+  style-anchored to the same item-icon convention.
+
 ## Convention: concept art now also embedded directly in `Scripts/` files (locked 2026-08-14)
 
 > Per the project owner: *"should we add the concept maps to the scripts as well[?]"* — yes. Going
@@ -324,6 +332,9 @@ directly (e.g. via the GitHub web UI), using a short, descriptive filename
 > exact same files already logged in each district's own `Locations/` entry rather than generating
 > duplicates. District-entry/exterior-approach scenes with no single matching room (e.g. each
 > script's Scene 1) were deliberately left without an image rather than forcing a mismatch.
+> [`Scripts/Chapter_2_Academy.md`](../Scripts/Chapter_2_Academy.md) (15 of its 17 scenes) was
+> written directly with this convention already in place, per
+> [`Scripts/README.md`](../Scripts/README.md)'s locked rule to apply it going forward.
 > [`Scripts/Chapter_1_One_Night_Only.md`](../Scripts/Chapter_1_One_Night_Only.md) was **not**
 > touched in this pass — it predates this convention and is marked locked; revisit only if
 > explicitly requested.

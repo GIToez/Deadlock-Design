@@ -25,6 +25,13 @@
 > structural reconciliation, not a contradiction; nothing about its content changes, only where
 > it's categorized. Student Housing, Athletic Field, and Playgrounds remain this district's three
 > secondary locations.
+>
+> **Revision note (2026-08-14):** the district received its full scene-by-scene scripting pass —
+> see the new [`Scripts/Chapter_2_Academy.md`](../Scripts/Chapter_2_Academy.md) (17 scenes), plus
+> new individual [`Items/Key_Items/`](../Items/Key_Items/README.md) writeups (and AI-generated icon
+> concept art) for all nine of this district's key items. This is the fourth of Chapter 2's five
+> districts to be fully scripted, after the Police Station, Hospital, and Foundry. Nothing already
+> locked about this district's rooms, puzzles, or documents changed.
 
 ## Purpose in the Overall Story
 
@@ -540,26 +547,30 @@ flowchart TD
 
 ## Key Items
 
-- **Administration Office Key** (_no `Items/` writeup yet_) — the Cafeteria; opens the
-  Administration Office.
-- **Isolation Wing Key** (_no `Items/` writeup yet_) — the Administration Office; opens the
-  Isolation Wing.
-- **Auditorium Key** (_no `Items/` writeup yet_) — Student Housing (secondary location); opens the
-  Auditorium.
-- **Library Key** (_no `Items/` writeup yet_) — the Auditorium; opens the Library.
-- **Generator Fuel** (_no `Items/` writeup yet_) — Athletic Field (secondary location); opens the
-  Maintenance Basement.
-- **Fire Axe** (_no `Items/` writeup yet_) — the Maintenance Basement; forces the East Academic
-  Wing's jammed fire doors.
-- **Principal's Office Key** (_no `Items/` writeup yet_) — dropped after clearing the East
-  Academic Wing's pack encounter; opens the PA / Principal's Office.
-- **Founder's Hall Key** (_no `Items/` writeup yet_) — the PA / Principal's Office; opens
-  Founder's Hall.
-- **Knowledge Crest** (_no `Items/` writeup yet_) — the district's founder's emblem; Founder's
-  Hall display case.
+- **Administration Office Key** ([full item writeup](../Items/Key_Items/Administration_Office_Key.md))
+  — the Cafeteria; opens the Administration Office.
+- **Isolation Wing Key** ([full item writeup](../Items/Key_Items/Isolation_Wing_Key.md)) — the
+  Administration Office; opens the Isolation Wing.
+- **Auditorium Key** ([full item writeup](../Items/Key_Items/Auditorium_Key.md)) — Student Housing
+  (secondary location); opens the Auditorium.
+- **Library Key** ([full item writeup](../Items/Key_Items/Academy_Library_Key.md)) — the
+  Auditorium; opens the Library.
+- **Generator Fuel** ([full item writeup](../Items/Key_Items/Generator_Fuel.md)) — Athletic Field
+  (secondary location); opens the Maintenance Basement.
+- **Fire Axe** ([full item writeup](../Items/Key_Items/Academy_Fire_Axe.md)) — the Maintenance
+  Basement; forces the East Academic Wing's jammed fire doors.
+- **Principal's Office Key** ([full item writeup](../Items/Key_Items/Principals_Office_Key.md)) —
+  dropped after clearing the East Academic Wing's pack encounter; opens the PA / Principal's
+  Office.
+- **Founder's Hall Key** ([full item writeup](../Items/Key_Items/Founders_Hall_Key.md)) — the PA /
+  Principal's Office; opens Founder's Hall.
+- **Knowledge Crest** ([full item writeup](../Items/Key_Items/Knowledge_Crest.md)) — the
+  district's founder's emblem; Founder's Hall display case.
 
-> None of this district's key items have their own `Items/` writeup yet, same status as the
-> Hospital's and Foundry's own new key items — see "Unresolved Ideas," below.
+> All nine of this district's key items now have individual `Items/Key_Items/` writeups, complete
+> with AI-generated icon concept art — see [`Items/Key_Items/README.md`](../Items/Key_Items/README.md).
+> The Library Key and Fire Axe are filed as `Academy_Library_Key.md` and `Academy_Fire_Axe.md`
+> respectively, to avoid naming collisions with other districts' own same-named items.
 
 ### Documents
 
@@ -633,8 +644,9 @@ Faith Crest) or backtrack to Memorial Park.
 
 - **This entire district is a first draft, pending review** — same status the Foundry, Hospital,
   and (originally) the Police Station had before their own reviews/restructures were approved.
-- None of the nine new key items above have individual `Items/Key_Items/` writeups yet — proposed
-  as a future pass alongside the Foundry's and Hospital's own still-pending `Items/` audits.
+- ~~None of the nine new key items above have individual `Items/Key_Items/` writeups yet.~~
+  **Resolved/scripted (2026-08-14):** see [`Items/Key_Items/README.md`](../Items/Key_Items/README.md)
+  → "Worthy Academy" for all nine, each with AI-generated icon concept art.
 - Whether Bus One's fate (and the fate of the last defensive stand's escape group through the
   Maintenance Escape Corridor) should ever be resolved elsewhere in the game, or remain permanently
   ambiguous — explicitly left open per the source material's own framing ("whether that escape
@@ -648,9 +660,9 @@ Faith Crest) or backtrack to Memorial Park.
   Cole's and Daniel Fitch's treatment) rather than being described only within this location file —
   not done here, consistent with how the Police Station's Chief and the Hospital's Vanguard
   Liaison were also left undocumented outside their own location files.
-- Full scene-by-scene scripting into a `Scripts/` file — everything above is at the
-  location-design/prose level, matching where the Foundry and Hospital stood before their own
-  (still-pending) scripting passes.
+- ~~Full scene-by-scene scripting into a `Scripts/` file.~~ **Resolved (2026-08-14):** see
+  [`Scripts/Chapter_2_Academy.md`](../Scripts/Chapter_2_Academy.md), 17 scenes covering the full
+  district critical path and all three secondary locations.
 - The Harris family — introduced here purely as an environmental-storytelling detail (a name on a
   note) — could be expanded into a fuller subplot later if useful, but is not proposed as a named
   `Characters/` entry at this time.

@@ -70,11 +70,12 @@ RPD are the direct reference points), not a short, mostly-linear pass. Concrete 
   including a full room-connectivity blueprint at
   [`Locations/Police_Station.md`](Locations/Police_Station.md) matching
   [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)'s existing convention. St. Dymphna
-  Hospital and Steelgate Refinery have since received the same treatment
+  Hospital, Steelgate Refinery, and Worthy Academy have since received the same treatment
   ([`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md),
-  [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md)); the remaining two districts
-  (Academy, Monastery) should be written to the same bar (dense main location, multiple named
-  keys, a full blueprint, its own standalone script file) from the start. See
+  [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md),
+  [`Scripts/Chapter_2_Academy.md`](Scripts/Chapter_2_Academy.md)); the one remaining district (the
+  Monastery) should be written to the same bar (dense main location, multiple named keys, a full
+  blueprint, its own standalone script file) from the start. See
   [`STORY_NOTES.md`](STORY_NOTES.md) for the full restructuring history.
 
 ## Fundamental Premise

@@ -1600,6 +1600,50 @@ the next entry for the current final numbering (Scenes 22–40).
   passes, so this gap was specific to Downtown/Memorial Park predating the district-by-district
   convention entirely) — flagged only as a "worth a quick look eventually" item, not a known gap.
 
+## Direction Log (continued) — Worthy Academy full scene-by-scene scripting (2026-08-14)
+
+> Fourth district scripted, per the project owner's continued direction ("let's go on with the
+> next one"). Academy was next in the original writing order (Police Station → Hospital → Foundry
+> → Academy → Monastery), and was written directly as its own standalone file with the new
+> "concept art embedded in Scripts" convention already in place from the start, rather than applied
+> retroactively.
+
+- **New file: [`Scripts/Chapter_2_Academy.md`](Scripts/Chapter_2_Academy.md), 17 scenes.** Covers
+  the full critical path (District Entry → Front Entrance → the Gymnasium hub → the Cafeteria's
+  signature encounter → the Administration Office/Harris family reveal → the Isolation Wing → the
+  Student Housing/Auditorium/Library backtrack → the Athletic Field/Maintenance Basement/East Wing
+  backtrack culminating in the district's Shambler pack fight → the PA/Principal's Office → Founder's
+  Hall/Knowledge Crest → the mandatory Maintenance Escape Corridor climax) plus the optional Bus
+  Loading Area and Playgrounds. 15 of the 17 scenes embed the room concept already generated for
+  [`Locations/Academy.md`](Locations/Academy.md); only the district-entry approach and the
+  Maintenance Escape Corridor (which has no dedicated room render) have none.
+- **No new creature type introduced**, per the project owner's explicit framing that this
+  district's horror is about people, not a monster — every encounter (Scenes 3, 4, and 12) is a
+  standard Shambler, staged with different context (a volunteer, a Foundry employee, a group of
+  turned Isolation Wing patients) rather than a new visual/mechanical design.
+- **Principal Diane Ashford kept exactly as unresolved as her location-file treatment** — never
+  seen on-screen alive or dead, reconstructed entirely through her office (Scene 13) and the final
+  broadcast, same convention as Daniel Fitch and the Police Station's Chief.
+- **The Harris family thread paid off across three separate rooms in one script**, deliberately —
+  the Foundry's own optional evacuation slip (if found), the Administration Office's "I gave them
+  the Harris family" note (Scene 5), and Student Housing's packed, unclaimed duffel bag (Scene 7),
+  giving a name mentioned only in passing elsewhere a physical, personal object.
+- **Nine new [`Items/Key_Items/`](Items/Key_Items/README.md) files**, closing this district's own
+  `Items/` gap: Administration Office Key, Isolation Wing Key, Auditorium Key, Library Key
+  (filed as `Academy_Library_Key.md`), Generator Fuel, Fire Axe (filed as `Academy_Fire_Axe.md`),
+  Principal's Office Key, Founder's Hall Key, and Knowledge Crest — each with a new AI-generated
+  inventory-icon concept. Two items were deliberately filed with an "Academy_" prefix rather than
+  their plain in-fiction name, to avoid colliding with St. Dymphna Hospital's own Fire Axe and the
+  Monastery's own (not-yet-written) Library Key — same convention already established for the
+  Manager's Office Key/Manager's Key distinction.
+- **[`Locations/Academy.md`](Locations/Academy.md), [`CANON.md`](CANON.md),
+  [`MASTER_STORY.md`](MASTER_STORY.md), [`Scripts/README.md`](Scripts/README.md), and
+  [`Assets/README.md`](Assets/README.md) updated throughout** with the new script's cross-links and
+  resolved "Unresolved Ideas" bullets, same preserve-the-history convention used for the three
+  previous districts' passes.
+- **Not done in this pass:** the same treatment for the Monastery — the one remaining district,
+  and the last surface location before Chapter 3.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /

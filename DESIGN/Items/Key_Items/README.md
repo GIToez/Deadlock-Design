@@ -74,11 +74,34 @@ two entries are the same item).
 - [`Industry_Crest.md`](Industry_Crest.md) — the Northwest District's founder's emblem; Founder's
   Boardroom display case.
 
+**Worthy Academy (Chapter 2), added 2026-08-14:**
+
+- [`Administration_Office_Key.md`](Administration_Office_Key.md) — the Cafeteria; opens the
+  Administration Office.
+- [`Isolation_Wing_Key.md`](Isolation_Wing_Key.md) — the Administration Office; opens the
+  Isolation Wing.
+- [`Auditorium_Key.md`](Auditorium_Key.md) — Student Housing (secondary location); opens the
+  Auditorium.
+- [`Academy_Library_Key.md`](Academy_Library_Key.md) — the Auditorium; opens the Library. Filed
+  with an "Academy_" prefix to avoid a future naming collision with the Monastery's own Library Key.
+- [`Generator_Fuel.md`](Generator_Fuel.md) — Athletic Field (secondary location); opens the
+  Maintenance Basement.
+- [`Academy_Fire_Axe.md`](Academy_Fire_Axe.md) — the Maintenance Basement; forces the East
+  Academic Wing's jammed fire doors. Filed with an "Academy_" prefix to avoid a naming collision
+  with St. Dymphna Hospital's own Fire Axe.
+- [`Principals_Office_Key.md`](Principals_Office_Key.md) — dropped after clearing the East
+  Academic Wing's pack encounter; opens the PA / Principal's Office.
+- [`Founders_Hall_Key.md`](Founders_Hall_Key.md) — the PA / Principal's Office; opens Founder's
+  Hall.
+- [`Knowledge_Crest.md`](Knowledge_Crest.md) — the Southeast District's founder's emblem;
+  Founder's Hall display case.
+
 Real sprites uploaded by the project owner: `spr_managerKey.png`, `spr_maintenanceKey.png`,
 `spr_graveyardKey.png` (three interchangeable generic key icons, shared across the plain "key"
 items above), `spr_keycard.png`, `spr_screwDriver.png`, `spr_fuseItem.gif`. AI-generated icons:
 Gate Crank Handle, Bolt Cutters, Pocketknife, Authority Crest, Fire Axe, Laboratory Key,
 Administration Key, Surgical Wing Access Card, Pry Bar, Chapel Key, Medical Crest, Manager's
 Office Key, Restricted Elevator Access Card, Vanguard Site Key, Research Bay Key, Cutting Torch,
-Boardroom Key, and Industry Crest (no real sprite existed for these visually distinct,
-one-of-a-kind objects).
+Boardroom Key, Industry Crest, Administration Office Key, Isolation Wing Key, Auditorium Key,
+Academy Library Key, Generator Fuel, Academy Fire Axe, Principal's Office Key, Founder's Hall Key,
+and Knowledge Crest (no real sprite existed for these visually distinct, one-of-a-kind objects).
