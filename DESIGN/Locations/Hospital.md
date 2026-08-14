@@ -545,8 +545,9 @@ flowchart TD
 
 ## Creatures Encountered
 
-- **[Shamblers](../Creatures/Shambler.md)** — Radiology (the transformed patient, a tougher single
-  encounter), the Morgue (one scare-beat encounter), and the Psychiatric Ward (multiple, optional).
+- **[Shamblers](../Creatures/Shambler.md)**, themed to the hospital (gowns/scrubs) — Radiology
+  (the transformed patient, a tougher single encounter), the Morgue (one scare-beat encounter), and
+  the Psychiatric Ward (multiple, optional).
 - **[The Broodling](../Creatures/Broodling.md)** — the Maternity Ward's signature one-off
   encounter, mutated from Maria Dalton's unborn child.
 - **["The Surgeon"](../Creatures/Unnamed_Hospital_Boss.md)** — the district's boss encounter,

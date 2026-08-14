@@ -470,6 +470,43 @@ than a combat encounter, first appearing in Chapter 2 after Jim recovers his fir
 file for a locked-canon conflict in its source concept art (an incompatible multi-week sighting
 timeline) and a proposed resolution, not yet approved.
 
+## Creature Distribution System (locked 2026-08-14)
+
+Applies to all five Chapter 2 districts, going into the script rewrite:
+
+- **Every district has Shamblers, themed to that location.** The baseline
+  [Shambler](Creatures/Shambler.md) appears everywhere in the game, but its *dressing* should
+  reflect where it turned: police-uniform Shamblers at the Police Station, hospital gowns/scrubs at
+  St. Dymphna, work coveralls at Steelgate, staff/parent/student clothing at Worthy Academy, and
+  monastic robes at the Monastery. Same creature, same baseline behavior — the wardrobe is what
+  keeps five districts' worth of "generic infected" from feeling identical.
+- **Every district's main location has one boss-tier encounter**, not just the Hospital. Assigned
+  (2026-08-14): Police Station → **Alpha Ashen Hound** (Diesel, elevated to boss scale, with Baxter
+  as an add — see [`Creatures/Ashen_Hound.md`](Creatures/Ashen_Hound.md)); Hospital → **The
+  Surgeon** (already locked, see [`Creatures/Unnamed_Hospital_Boss.md`](Creatures/Unnamed_Hospital_Boss.md));
+  Foundry → **The Foreman** (new, an Exposure Cohort specimen exposed longest — see
+  [`Creatures/Exposure_Cohort.md`](Creatures/Exposure_Cohort.md)); Academy → **The Matron** (new —
+  see [`Creatures/The_Matron.md`](Creatures/The_Matron.md)); Monastery → **The Penitent** (new —
+  see [`Creatures/The_Penitent.md`](Creatures/The_Penitent.md)).
+- **Academy override, flagged rather than silently changed:** this district was previously locked
+  as introducing "no new creature type," on the theory that its horror should be about people, not
+  a monster. That's superseded now that every district needs a boss + 1–2 new creatures — The
+  Matron is designed to keep the *people, not an exotic monster* feeling (see her file) rather than
+  contradict the original intent outright, but the "no new creature" line itself is no longer
+  accurate and should be removed wherever it's still written.
+- **Each district's new creature type(s) unlock into the wider city once discovered**, the same
+  crest-count-scaling logic already used for the Zombie Conglomerate (see
+  [`Creatures/Zombie_Conglomerate.md`](Creatures/Zombie_Conglomerate.md)) and for Jim's own
+  emotional arc (see [`Characters/Jim_Mercer.md`](Characters/Jim_Mercer.md)): once Jim has
+  encountered a district's boss/signature creature, that creature type starts appearing — sparsely
+  at first, more often as more districts are cleared — as a roaming hazard on Ravenwood's open
+  streets between districts, not just inside its home location. This makes the city itself
+  progressively more dangerous in a way that's legible to the player (a Shambler-only street
+  suddenly having an Ashen Hound in it is a clear signal real progress has been made) and ties the
+  open-world danger level to crest count rather than a fixed timer. Not yet scripted as an actual
+  system — flagged in [`STORY_NOTES.md`](STORY_NOTES.md) alongside the Zombie Conglomerate's own
+  still-open combat/detection mechanics.
+
 ## Survivor System (design rule, applies from Chapter 2 onward)
 
 - **Tier 1 — Key story survivors:** a small number of fully developed characters, essential to the

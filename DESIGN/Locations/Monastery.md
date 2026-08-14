@@ -631,12 +631,13 @@ flowchart TD
 
 ## Creatures Encountered
 
-- **Deliberately left open (per the source material's own framing: "The exact creature can depend
-  on what enemy roster eventually fits the location").** The Old Seal / Crypt Depths' signature
-  pack encounter is written here as standard **[Shamblers](../Creatures/Shambler.md)** — infected
-  that reached the monastery via Vanguard's illicit tunnel from the Foundry side — but unlike the
-  Police Station (Ashen Hound), Hospital (Broodling + Boss), and Foundry (Exposure Cohort), no new
-  creature type is locked for this district. See "Unresolved Ideas," below.
+- **[Shamblers](../Creatures/Shambler.md)**, themed to the monastery (monastic robes) — the
+  approach to the Old Seal / Crypt Depths; infected that reached the monastery via Vanguard's
+  illicit tunnel from the Foundry side.
+- **[The Penitent](../Creatures/The_Penitent.md)** — the district's boss, in the Old Seal / Crypt
+  Depths, beyond the Shambler approach. This district's own *standard-tier* new creature (distinct
+  from The Penitent, per [`CANON.md`](../CANON.md)'s city-unlock system) is still undecided — see
+  "Unresolved Ideas," below.
 
 ## Puzzles
 
@@ -716,11 +717,10 @@ flowchart TD
 
 ## Boss Encounters
 
-- No unique named boss is proposed for this district (matching the Academy's own status) — the Old
-  Seal / Crypt Depths' pack fight fills that structural role. Deliberately left open per the source
-  material's own framing that the exact creature roster here "can depend on what enemy roster
-  eventually fits the location" — flagged as an open design gap below rather than invented without
-  support.
+- **[The Penitent](../Creatures/The_Penitent.md)** (locked 2026-08-14) — a monk sealed away
+  centuries ago, woken by the Bell Tower Puzzle's own success. Supersedes the earlier "no unique
+  boss" status; see his file for the full design and its direct tie to this district's locked
+  pre-Vanguard backstory.
 
 ## Crest Progression
 
@@ -746,12 +746,10 @@ fifth, drains the basin, and descends the revealed staircase — beginning Chapt
 - Neither of the two optional key items above has an individual `Items/Key_Items/` writeup yet —
   proposed as a future pass alongside the still-pending `Items/` audits for the Hospital, Foundry,
   and Academy.
-- **No unique named boss creature or new creature type is proposed for this district** — the
-  source material explicitly leaves this open ("the exact creature can depend on what enemy roster
-  eventually fits the location"). Given the Police Station, Hospital, and Foundry each have a
-  unique signature creature and the Academy deliberately doesn't, this is worth a final decision
-  pass once the full Chapter 2 enemy roster is reviewed together — reusing Shamblers here keeps
-  the option open without forcing a rushed design.
+- **Resolved (2026-08-14):** the district's boss is [The Penitent](../Creatures/The_Penitent.md).
+  Still open: this district's own *standard-tier* new creature that unlocks into the city-wide
+  roaming-hazard system (per [`CANON.md`](../CANON.md)) — every other district has one distinct
+  from its boss (Ashen Hounds, Broodlings, Exposure Cohort members); the Monastery doesn't yet.
 - Whether Brother Cormac deserves his own dedicated `Characters/` file (matching Aaron Cole's
   treatment) rather than being described only within this location file — not done here, consistent
   with how Fitch, Ashford, the Police Station's Chief, and the Hospital's Liaison were also left

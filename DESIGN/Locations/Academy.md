@@ -298,9 +298,10 @@ should never voice the contradiction himself, only let the player notice it.
 - **The East Academic Wing / Science Rooms.** Jammed fire doors (beat 21); forced open with the
   Fire Axe from the Maintenance Basement. Beyond them: this district's signature pack encounter —
   several turned Isolation Wing patients and civilians (standard
-  [Shamblers](../Creatures/Shambler.md); the Academy deliberately introduces **no new creature
-  type** — per the project owner's framing, this location's horror is about people, not a new
-  monster). Clearing it yields the **Principal's Office Key**.
+  [Shamblers](../Creatures/Shambler.md), themed to the shelter — staff, parent, and student
+  clothing rather than a distinct new type, per [`CANON.md`](../CANON.md) → "Creature Distribution
+  System"). Clearing it leads to **[The Matron](../Creatures/The_Matron.md)**, the district's boss,
+  and yields the **Principal's Office Key**.
 
   ![East Academic Wing / Science Rooms — room concept](../Assets/Reference/academy_east_wing_science_rooms_concept.png)
 
@@ -544,11 +545,10 @@ flowchart TD
 
 ## Creatures Encountered
 
-- **[Shamblers](../Creatures/Shambler.md)** only — the Cafeteria's single signature encounter and
-  the East Academic Wing's pack encounter. No new creature type is introduced for this district
-  (see "The East Academic Wing / Science Rooms," above, and "Unresolved Ideas," below) — a
-  deliberate choice consistent with the project owner's framing that the Academy's horror is about
-  people, not a new monster.
+- **[Shamblers](../Creatures/Shambler.md)**, themed to the shelter (staff/parent/student clothing)
+  — the Cafeteria's single signature encounter and the East Academic Wing's pack encounter.
+- **[The Matron](../Creatures/The_Matron.md)** — the district's boss, fought past the East Academic
+  Wing pack. See "Boss Encounters," below.
 
 ## Puzzles
 
@@ -654,10 +654,12 @@ flowchart TD
 
 ## Boss Encounters
 
-- No unique named boss is proposed for this district (matching the Foundry's own status) — the
-  East Academic Wing's Shambler pack fills that structural role. Consistent with the project
-  owner's framing that this location shouldn't introduce a new monster; flagged as an open design
-  gap below rather than invented without support from the source material.
+- **[The Matron](../Creatures/The_Matron.md)** (locked 2026-08-14) — the district's boss, fought at
+  the Isolation Wing/East Academic Wing, past the existing Shambler pack encounter. A teacher who
+  refused to hand her most symptomatic students to Vanguard's registry and mutated through weeks of
+  close contact with them rather than a single night's exposure. Supersedes the earlier "no unique
+  boss" status; see her file for the full design and how it preserves this district's
+  people-not-monsters identity.
 
 ## Crest Progression
 

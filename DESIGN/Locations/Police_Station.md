@@ -503,10 +503,10 @@ flowchart TD
 
 ## Creatures Encountered
 
-- **[Shamblers](../Creatures/Shambler.md)** — lobby (bypassable), bullpen, and the Holding Cells
-  (bypassable).
-- **[Ashen Hounds](../Creatures/Ashen_Hound.md)** — Diesel and Baxter, Corporal Reyes' K-9 partners;
-  the district's signature encounter.
+- **[Shamblers](../Creatures/Shambler.md)**, themed to the department (police uniforms) — lobby
+  (bypassable), bullpen, and the Holding Cells (bypassable).
+- **[Ashen Hounds](../Creatures/Ashen_Hound.md)** — Diesel (Alpha, boss-tier) and Baxter (standard),
+  Corporal Reyes' K-9 partners; the district's boss encounter.
 
 ## Puzzles
 
@@ -614,8 +614,9 @@ flowchart TD
 
 ## Boss Encounters
 
-No full boss fight in this district. The Ashen Hound pair in the K-9 Unit Room functions as the
-district's major encounter without escalating to boss-fight scale.
+- **Diesel, the Alpha Ashen Hound** (locked 2026-08-14 — see [`Creatures/Ashen_Hound.md`](../Creatures/Ashen_Hound.md))
+  — the district's boss, fought in the K-9 Unit Room alongside Baxter (standard-tier add).
+  Supersedes the earlier "no full boss fight" status.
 
 ## Crest Progression
 

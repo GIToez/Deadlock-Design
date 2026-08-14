@@ -560,10 +560,11 @@ flowchart TD
 
 ## Creatures Encountered
 
-- **[Shamblers](../Creatures/Shambler.md)** — Foundry Clinic (one tougher signature encounter).
+- **[Shamblers](../Creatures/Shambler.md)**, themed to the plant (work coveralls) — Foundry Clinic
+  (one tougher signature encounter).
 - **[The Exposure Cohort](../Creatures/Exposure_Cohort.md)** — the Security Checkpoint's signature
   pack encounter; several chronically-exposed workers whose mutation is more advanced/adapted than
-  a standard Shambler's.
+  a standard Shambler's, led by **The Foreman** (boss-tier — see "Boss Encounters," below).
 
 ## Puzzles
 
@@ -663,10 +664,10 @@ flowchart TD
 
 ## Boss Encounters
 
-- **[The Exposure Cohort](../Creatures/Exposure_Cohort.md)** — the district's signature pack
-  encounter, fought at the Security Checkpoint. No single unique named boss is proposed for this
-  district (unlike the Caretaker, Ashen Hounds, or "The Surgeon") — flagged as an open design gap
-  below rather than invented without support from the source material.
+- **The Foreman** (locked 2026-08-14 — see [`Creatures/Exposure_Cohort.md`](../Creatures/Exposure_Cohort.md)
+  → "The Foreman") — the district's boss, the longest-exposed member of the Exposure Cohort,
+  fighting alongside two or three standard-tier cohort members at the Security Checkpoint rather
+  than in a separate boss room. Supersedes the earlier "no unique boss" status.
 
 ## Crest Progression
 

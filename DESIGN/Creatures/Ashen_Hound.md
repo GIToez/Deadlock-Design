@@ -55,15 +55,23 @@ approach.
 
 ## Gameplay Role
 
-The Southwest District's signature encounter (per [`AI.json`](../AI.json)'s "at least one major
-encounter or boss" rule for each district) — deliberately placed **inside the main station
-building** rather than a secondary location, so the district's densest content also carries its
-hardest fight. It happens immediately after finding Corporal Reyes' body and *before* the shotgun
-(see [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scenes 7–8) — Jim has
-to survive it with whatever he's already carrying, and the shotgun that follows reads as a reward
-for getting through it rather than a tool handed out in advance. Not framed as a full boss fight on
-the Caretaker's scale — no phases, no unique arena mechanic — just a hard, fast, two-on-one fight in
-a tight concrete kennel room that gives the player nowhere to retreat to.
+**The Police Station's boss encounter (locked 2026-08-14, per [`CANON.md`](../CANON.md) →
+"Creature Distribution System"): Diesel is the Alpha Ashen Hound**, larger and tougher than a
+standard Ashen Hound, with Baxter fighting alongside him as a second, standard-tier add — a
+two-stage read (the smaller, faster Baxter forces Jim to split attention; Diesel is the actual
+damage/health threat) rather than two identical enemies. Deliberately placed **inside the main
+station building** rather than a secondary location, so the district's densest content also
+carries its hardest fight. It happens immediately after finding Corporal Reyes' body and *before*
+the shotgun (see [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md)) —
+Jim has to survive it with whatever he's already carrying, and the shotgun that follows reads as a
+reward for getting through it rather than a tool handed out in advance. Smaller in scale than the
+Caretaker or The Surgeon (no phases, no unique arena mechanic) — a hard, fast fight in a tight
+concrete kennel room that gives the player nowhere to retreat to, but still the district's boss
+encounter rather than a lesser "signature encounter" beneath that tier.
+**Standard-tier Ashen Hounds (not Diesel specifically) are also this district's contribution to
+the city-wide creature unlock system** — once Jim survives the K-9 Unit Room, single Ashen Hounds
+or small pairs can begin appearing as a roaming hazard on Ravenwood's open streets, scaling with
+crest count same as every other district's creature (see [`CANON.md`](../CANON.md)).
 
 ## Encounter Progression
 
@@ -71,9 +79,10 @@ a tight concrete kennel room that gives the player nowhere to retreat to.
   ([`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scene 7) — encountered
   immediately after finding Corporal Reyes' body, one kennel gate already bent open and the second
   straining as Jim investigates.
-- Expected to recur as a creature class in later districts (not yet decided which ones); this file
-  establishes the baseline for any future Ashen Hound encounters so they don't need to be
-  redesigned from scratch.
+- After the K-9 Unit Room, standard Ashen Hounds recur city-wide as a roaming hazard rather than in
+  another district's main location — see "Gameplay Role," above, and
+  [`CANON.md`](../CANON.md) → "Creature Distribution System." This file establishes the baseline
+  for those later encounters so they don't need to be redesigned from scratch.
 
 ## Major Appearances
 

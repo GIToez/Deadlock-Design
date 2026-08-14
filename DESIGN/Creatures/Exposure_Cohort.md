@@ -66,16 +66,33 @@ standard Shambler fight.
 
 ## Gameplay Role / Combat Role
 
-Proposed as the Foundry district's signature multi-enemy encounter, guarding the passage toward
-the Founder's Boardroom and the Black Vein Cavern beyond it — see
+The Foundry district's signature multi-enemy encounter, guarding the passage toward the Founder's
+Boardroom and the Black Vein Cavern beyond it — see
 [`Locations/Foundry_Refinery.md`](../Locations/Foundry_Refinery.md) → "Storyline" → "The Security
 Checkpoint." Full combat kit (health, damage, specific attacks) not yet designed.
 
+### The Foreman (boss-tier, locked 2026-08-14)
+
+Per [`CANON.md`](../CANON.md) → "Creature Distribution System," the Foundry needs its own boss
+encounter, not just a pack fight. **The Foreman** is a specific Exposure Cohort individual — the
+shift supervisor who signed off on "acceptable" exposure levels for years before becoming one
+himself, the longest-monitored name on the EXPOSURE COHORTS list — mutated furthest of the group:
+larger, visibly fused with equipment he was near constantly (a segment of conveyor guard rail
+grown into one forearm, a hard hat melted into skull ridge), moving with the same "settled,
+adapted" quality as the rest of the cohort but taken further. Fights alongside two or three
+standard Exposure Cohort members at the Security Checkpoint rather than alone, so the encounter
+reads as "the pack, plus the one who's been at it longest" rather than a separate boss room.
+Thematically the sharpest point of the district's angle on Vanguard: he wasn't a victim who didn't
+know — he was the man whose job was managing the cover-up, and the mutation got him anyway.
+
 ## Encounter Progression
 
-Single, one-off pack encounter — not proposed as a recurring enemy type found throughout the rest
-of the game, consistent with how the Ashen Hound pair and "The Surgeon" are each scoped to their
-own district only.
+The pack fight itself (standard Exposure Cohort members plus The Foreman) is a single, one-off
+encounter at the Security Checkpoint. **Standard-tier Exposure Cohort individuals (not The
+Foreman) are this district's contribution to the city-wide creature unlock system** (see
+[`CANON.md`](../CANON.md)) — once Jim survives the Security Checkpoint, isolated Exposure Cohort
+members can begin appearing as a roaming hazard on Ravenwood's open streets, scaling with crest
+count same as every other district's creature.
 
 ## Major Appearances
 
