@@ -1,35 +1,35 @@
 # Our Lady of Solace Monastery
 
 > The North District's main location — Faith Crest, and the **last surface location before Jim
-> descends beneath Memorial Park**. Everything below is new (2026-08-13, proposed pending review),
-> written to the same [`CANON.md`](../CANON.md) → "District Main-Location Design Standard" bar as
-> [`Locations/Police_Station.md`](Police_Station.md), [`Locations/Hospital.md`](Hospital.md),
-> [`Locations/Foundry_Refinery.md`](Foundry_Refinery.md), and [`Locations/Academy.md`](Academy.md):
-> a dense, multi-key, backtracking-driven exploration space, targeting roughly 2–3 hours of
-> gameplay.
+> descends beneath Memorial Park**. Not yet scripted scene-by-scene — see
+> [`STORY_NOTES.md`](../STORY_NOTES.md) for full background/history.
 >
-> **Thematic identity (per the project owner's explicit direction):** where the Police Station,
-> Hospital, Foundry, and Academy each reveal what Vanguard did to Ravenwood in the modern era, the
-> Monastery reveals something older — **Ravenwood encountered the effects of the Black Vein
-> generations before Vanguard ever arrived.** The monks didn't understand it scientifically; they
-> described it in the religious language available to them ("Corruption," "The Black Root," "The
-> Wound Beneath the Mountain," "The Stone That Mends Wrongly"), and at some point deliberately
-> sealed something beneath the monastery. *"The Monastery isn't about religion defeating science.
-> It's about memory versus arrogance... Vanguard found those warnings. Studied them. Catalogued
-> them. Then decided the people who wrote them simply weren't sophisticated enough to succeed
-> where Vanguard would."*
+> **Thematic identity:** where the Police Station, Hospital, Foundry, and Academy each reveal what
+> Vanguard did to Ravenwood in the modern era, the Monastery reveals something older — Ravenwood
+> encountered the effects of the Black Vein generations before Vanguard ever arrived. The monks
+> didn't understand it scientifically; they described it in the religious language available to
+> them ("Corruption," "The Black Root," "The Wound Beneath the Mountain," "The Stone That Mends
+> Wrongly"), and at some point deliberately sealed something beneath the monastery. This isn't
+> religion defeating science — it's memory versus arrogance: Vanguard found those warnings,
+> studied them, catalogued them, then decided the people who wrote them simply weren't
+> sophisticated enough to succeed where Vanguard would.
+>
+> **Puzzle mechanic (locked 2026-08-14): the Bell Tower Puzzle.** See "The Bell Tower," below, and
+> [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies." Unlike the other four districts, this is
+> the Monastery's actual design from the start, not a retrofit — its future script should be
+> written directly against this mechanic.
 
 ## Purpose in the Overall Story
 
-The North District's main "mansion/RPD"-style location, following the same structural rules as the
-Police Station, Hospital, Foundry, and Academy: a central hub (the Chapel) visibly gates several
-locked doors at once, and reaching the **Faith Crest** requires a genuine multi-key backtracking
-loop across the main monastery building and three secondary locations. Unlike the other four
-districts, the Monastery's revelation isn't institutional betrayal — it's that Vanguard's entire
-"discovery" of Black Vein was never a discovery at all. People had already found it, suffered its
-consequences, and made the simple decision to seal it away. This is also the direct narrative
-bridge into Chapter 3: the Monastery is explicitly the last surface-world location, and its final
-broadcast is the last clue pointing Jim underground.
+The North District's main "mansion/RPD"-style location: a central hub (the Chapel) visibly gates
+several sealed points at once, and reaching the **Faith Crest** means interpreting the monastery's
+own centuries-old mechanical bell system, not assembling a matching set of keys — the one district
+where Vanguard didn't design the obstacle, it only found it. Unlike the other four districts, the
+Monastery's revelation isn't institutional betrayal — it's that Vanguard's entire "discovery" of
+Black Vein was never a discovery at all. People had already found it, suffered its consequences,
+and made the simple decision to seal it away. This is also the direct narrative bridge into Chapter
+3: the Monastery is explicitly the last surface-world location, and its final broadcast is the last
+clue pointing Jim underground.
 
 ## Outbreak Night — What Actually Happened (proposed 2026-08-13, pending review)
 
@@ -260,6 +260,31 @@ understands nearly the entire surface-level history of Ravenwood's catastrophe:
   water" is contaminated groundwater. The Monastery isn't revealing that the game has become
   supernatural — it's revealing people observed the same biological phenomenon long before they had
   the language to describe it scientifically.
+
+## The Bell Tower
+
+No electronics, no card readers, no Vanguard terminal solves this — the Faith Crest has been
+reachable since the monastery's construction, and Vanguard didn't design this mechanism, it only
+found it.
+
+Four bell ropes in the tower are tied to a mechanical combination lock built into the monastery
+itself: one raises a counterweight, one releases a floor latch, one moves a stone locking bar, one
+resets the mechanism — long assumed to be purely ceremonial ringing. The order is never spelled out
+as a number sequence; the player derives it from a mural depicting Dawn → Labor → Mourning → Rest
+(each phase under a different bell), a prayer book marking the order of daily calls, and four
+cloister statues facing the four corresponding directions. Each pull is a major, audible event,
+heard across Ravenwood, with escalating payoff: first bell, nothing; second, a distant `THUNK`;
+third, stone grinding beneath the chapel; fourth, the floor shifts and a circular stone seal
+retracts beneath the altar. Ringing the bells also draws enemies toward the monastery — solving the
+puzzle transitions directly into a survival stretch, Jim having just announced his exact location
+to half the ridge. The crypt and the Faith Crest are the payoff, alongside the oldest evidence in
+the game that something beneath Ravenwood was known long before Vanguard existed.
+
+**Reconciliation note:** the room descriptions below still route the Cloister/Bell Tower/Crypt
+Antechamber through a Cloister Key → Bell Tower Key → Crypt Antechamber Key chain, written before
+this mechanic was locked. Since this district has no script yet, that chain should be replaced by
+the bell-ringing mechanic above when this district is actually scripted, rather than layered on top
+of it.
 
 ## Storyline
 
@@ -592,24 +617,17 @@ flowchart TD
 
 ## Puzzles
 
-- **The Chapel hub.** Four visibly locked points (Library/Archive, Cloister, Bell Tower, Crypt
-  Antechamber) are all seen at once before any of them can be opened — same "see the shape of
-  what's left to solve" convention as the other four main locations.
-- **The Guest Quarters → Library chain.** A straightforward single-purpose lock-and-key sequence
-  introducing the archive and the cave-map clue toward Overlook Trail.
-- **The Overlook Trail → Hidden Archive → Cloister → Bell Tower chain.** The Archive Key can't be
-  found inside the main building at all — a deliberate district-wide backtrack, mirroring the
-  Foundry's Loading Docks, the Hospital's Medical Arts Building, and the Academy's Student Housing
-  conventions. The Cloister Key and Bell Tower Key are then found in sequence inside the building
-  itself, short internal follow-up steps.
-- **The Hillside Cemetery → Crypt Antechamber → the Old Seal chain.** The Crypt Antechamber Key is
-  likewise found at a separate secondary location, and the Breaching Tool recovered in the
-  Antechamber is needed to force the ancient gate beyond — the second deliberate district-wide
-  backtrack.
-- **The Old Seal → Reliquary → Sealed Passage chain.** The Faith Crest, and the mandatory Sealed
-  Passage climax beyond it, are only reachable after clearing the district's signature pack
-  encounter, keeping the emblem — and the game's final surface-world scene — behind the deepest,
-  most-gated point, per the design standard.
+- **The Bell Tower Puzzle (main, target design — see "The Bell Tower," above).** Derive the correct
+  bell-ringing order from the monastery's own mural, prayer book, and cloister statues, then ring
+  the four bells in that order to open the crypt seal beneath the altar — no keys, no electronics,
+  and a survival stretch as its direct cost.
+- **The Overlook Trail → Hidden Archive backtrack.** Kept as-is: reaching Brother Cormac's secret
+  collection still requires a district-wide backtrack to the Overlook Trail secondary location,
+  independent of the Bell Tower mechanic.
+- **The Hillside Cemetery → Crypt Antechamber backtrack.** Kept as-is: the Antechamber's own
+  Vanguard excavation equipment is still reached via the Hillside Cemetery secondary location.
+- *(Still to reconcile: the room-by-room key chain in "Storyline," above, predates this mechanic —
+  see the reconciliation note there.)*
 
 ## Key Items
 

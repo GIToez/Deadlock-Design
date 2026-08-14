@@ -39,29 +39,36 @@ future writing, confirmed by reference screenshots from the project owner (2026-
 See [`README.md`](README.md) → "Presentation & Camera" for the corresponding writing rule, and
 [`Assets/`](Assets/README.md) for reference screenshots once uploaded.
 
-## District Main-Location Design Standard (locked 2026-08-13)
+## District Main-Location Design Standard (locked 2026-08-13; puzzle-mechanic clause revised 2026-08-14)
 
 Each of the five districts' **main location** (Police Station, Hospital, Academy, Refinery,
-Monastery) is a substantial, interconnected, key-item-gated exploration space — explicitly modeled
-on classic survival-horror "mansion/police station" design (Resident Evil's Spencer Mansion and
-RPD are the direct reference points), not a short, mostly-linear pass. Concrete implications:
+Monastery) is a substantial, interconnected exploration space — explicitly modeled on classic
+survival-horror "mansion/police station" density (Resident Evil's Spencer Mansion and RPD are the
+direct reference points for *scope and interconnection*, not for the specific mechanic every
+district should use), not a short, mostly-linear pass. Concrete implications:
 
 - **Target scope: roughly 2–3 hours of gameplay per main location** — comparable in depth to the
   Ravenwood Hotel (Chapter 1's 46-scene main location), not to the shorter, faster secondary
   locations within the same district.
-- **Multiple specific key items, not one or two.** Progression should require finding several
-  distinct, named key items — each opening a specific door/container elsewhere, the way RE's
-  suit-symbol keys (spade/diamond/club/heart) each open exactly one thing. Avoid single
-  do-everything keys or purely dialogue-gated progression.
-- **Backtracking across the whole district is the point, not a flaw.** A main location's secondary
-  locations (e.g. the Police Station's Fire Station, Municipal Garage, City Courthouse) should be
-  woven into the **same interlocking puzzle**, not fully separate optional side content — an item
-  found at one building should often be required to progress at another, forcing the player to
-  physically walk the district multiple times, the way RE2's RPD, the adjoining gun shop kiosk, and
-  the surrounding zones all feed into one connected lock-and-key structure.
+- **Each district's puzzle mechanic must be distinct — see "Five Puzzle Philosophies," below
+  (revised 2026-08-14).** The original version of this standard called for "multiple specific key
+  items... the way RE's suit-symbol keys each open exactly one thing" uniformly across all five
+  districts. That's now explicitly **not** the standard — a uniform key-hunt across all five
+  districts was identified as a repetition risk (see [`STORY_NOTES.md`](STORY_NOTES.md) → "Chapter
+  2 narrative craft review"). The Hotel's repair-and-backtrack puzzle is the **benchmark to differ
+  from**, and each of the five crest locations gets its own puzzle philosophy built from something
+  unique to that institution (see below) — physical keys are still fine as *one ingredient* within
+  a district's mechanic (the Police Station's Lockdown puzzle still uses a few), but no district
+  should be a pure "find the item shaped like the lock" hunt end to end.
+- **Backtracking across the whole district is still the point, not a flaw.** A main location's
+  secondary locations (e.g. the Police Station's Fire Station, Municipal Garage, City Courthouse)
+  should stay woven into the same interlocking puzzle, not fully separate optional side content —
+  clues/tools found at one building should often be required to progress at another, forcing the
+  player to physically walk the district multiple times.
 - **A central hub room the player returns to repeatedly** (RE's mansion foyer / RPD main hall
-  equivalent) that visibly gates several locked doors at once from the start, so the player can see
-  the shape of what's left to solve.
+  equivalent) that visibly gates several locked/sealed points at once from the start, so the player
+  can see the shape of what's left to solve — this stays true regardless of mechanic; the Police
+  Station's version is now a zone-lockdown control board rather than three separately-keyed doors.
 - **The emblem itself is the last thing found**, behind the deepest/most gated point of the
   location — a reward for finishing the loop, not something encountered early or in passing.
 - This standard is **retroactive**: the Police Station, originally scripted before this standard
@@ -74,9 +81,33 @@ RPD are the direct reference points), not a short, mostly-linear pass. Concrete 
   ([`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md),
   [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md),
   [`Scripts/Chapter_2_Academy.md`](Scripts/Chapter_2_Academy.md)); the one remaining district (the
-  Monastery) should be written to the same bar (dense main location, multiple named keys, a full
-  blueprint, its own standalone script file) from the start. See
-  [`STORY_NOTES.md`](STORY_NOTES.md) for the full restructuring history.
+  Monastery) should be written to the same bar (dense main location, a full blueprint, its own
+  standalone script file) from the start, built directly around its own puzzle philosophy below
+  rather than a key hunt. See [`STORY_NOTES.md`](STORY_NOTES.md) for the full restructuring
+  history — **as of 2026-08-14, the four already-scripted districts' `Scripts/` files still
+  reflect the old key-hunt mechanic and have not yet been rewritten to match the puzzle
+  philosophies below; only the Police Station's `Locations/` file has been updated so far.**
+
+### Five Puzzle Philosophies (locked 2026-08-14)
+
+Each crest location uses a mechanic built from something unique to that institution, with its own
+interaction verb — full design detail for each is in
+[`STORY_NOTES.md`](STORY_NOTES.md) → "Five Puzzle Philosophies":
+
+| Location | Puzzle | Verb |
+|---|---|---|
+| Ravenwood Hotel (benchmark, already built) | Auxiliary power repair-and-backtrack | Repair |
+| Police Station | Emergency security lockdown — undo the department's own self-triggered lockdown in the correct sequence | Route / Unlock |
+| St. Dymphna Hospital | Negative-pressure quarantine — create safe pressure gradients through sealed isolation zones | Contain |
+| Steelgate Refinery | Industrial casting line — operate furnace, crane, and cooling stages to free the crest from a seized mold | Operate |
+| Worthy Academy | Ravenwood historical archive — reconstruct the true founding chronology to open a hidden mechanical catch | Understand |
+| Our Lady of Solace Monastery | Ancient bell/counterweight mechanism — interpret non-numeric clues into the correct bell-ringing order | Interpret / Activate |
+
+Beyond avoiding repetition, each puzzle also teaches the player something true about Ravenwood
+just by being solved: the Hotel teaches exploration, the Police Station teaches how the town was
+controlled, the Hospital teaches how Ashen behaves, the Foundry teaches where the problem
+physically came from, the Academy teaches Ravenwood's history, and the Monastery teaches that
+Ravenwood's connection to what lies underground predates Vanguard.
 
 ## Fundamental Premise
 

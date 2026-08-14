@@ -1,523 +1,353 @@
 # Ravenwood Police Station
 
 > The Southwest District's main location — Authority Crest. Full scene-by-scene script:
-> [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scenes 1–24 (district
-> entry through the three secondary locations, plus the optional Vanguard sub-plot and the Sally
-> Port breach point, scripted 2026-08-13). [`AI.json`](../AI.json) only reached outline-level
-> detail for this district — the interior of the station itself, its survivor, and the emblem's
-> appearance/location were all open questions it never answered. Everything below beyond the
-> district's overall shape (closest to the park, natural first stop, three named secondary
-> locations) is new (2026-08-13) and should be treated as a proposal pending review.
+> [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md). Built as the
+> first of the five districts' main "mansion/RPD"-style locations, targeting roughly 2–3 hours of
+> exploration, comparable in density to the Ravenwood Hotel. Full revision history is in
+> [`STORY_NOTES.md`](../STORY_NOTES.md) rather than duplicated here.
 >
-> **Revision note:** this location was restructured (2026-08-13, approved) to match the new
-> [`CANON.md`](../CANON.md) → "District Main-Location Design Standard" — a Resident Evil
-> mansion/RPD-style key-and-lock exploration space, not a short linear pass. An earlier draft
-> placed the Ashen Hound encounter at the Municipal Garage and an "evidence room" at the
-> Courthouse; both were corrected (K-9 unit moved into the station itself; the Courthouse's room
-> renamed and re-purposed) after review — see [`STORY_NOTES.md`](../STORY_NOTES.md) for the full
-> before/after rationale.
->
-> **Second revision note (2026-08-13, same day):** the project owner supplied a much deeper
-> reframe of the department's relationship with Vanguard — see [`CANON.md`](../CANON.md) →
-> "Vanguard's Grip on Ravenwood PD." Four new optional rooms and a new never-seen character
-> ([Detective Aaron Cole](../Characters/Aaron_Cole.md)) were added as a parallel discovery track;
-> see "The Vanguard Sub-Plot," below. Nothing already locked about this district (Calloway, the
-> shotgun, the Authority Crest, Diesel/Baxter, or the four existing buildings) changed.
->
-> **Third revision note (2026-08-13, same day):** the project owner supplied a full outbreak-night
-> timeline for the department — see "Outbreak Night — What Actually Happened," below. This adds
-> one new room (the Sally Port — the actual breach point) plus several documents/environmental
-> beats (the SURVIVORS/MISSING/DECEASED whiteboard, "Emergency Public Safety Directive 7," the
-> Chief's final broadcast recording, the Cold Cells' destroyed door and handwritten note) woven
-> into existing rooms. Nothing already locked changed; this only adds texture to how/why the
-> station fell.
->
-> **Fourth revision note (2026-08-13, same day):** two small crossover documents were added to the
-> "Documents" list, below, linking this district's shared outbreak night directly to
-> [St. Dymphna Hospital](Hospital.md), the Northeast district's own newly-written main location —
-> per the project owner's explicit request that the two locations' records overlap (the same
-> radio calls, the same missing ambulances, the same Highway 13 shutdown). Nothing else in this
-> file changed.
->
-> **Fifth revision note (2026-08-13, same day):** the district received its full scene-by-scene
-> scripting pass — see [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md),
-> Scenes 4–5 (expanded) and new Scenes 20–24. This resolves every "not yet scripted" item
-> previously flagged under "Unresolved Ideas," below, closes the Vanguard Sub-Plot's discovery
-> sequence into full dialogue/document text, and decides the Chief's name (**Marcus Doyle**, used
-> only in his final-broadcast recording — deliberately distinct from the unconfirmed
-> "CHIEF E. WHITAKER" nameplate that appeared in one AI-generated room render). This makes the
-> Police Station the first of Chapter 2's five districts to be fully scripted rather than left at
-> the location-design/prose level. Nothing already locked (Calloway, Reyes, the shotgun, the
-> Authority Crest, Diesel/Baxter, the four buildings, or any prior revision note above) changed.
->
-> **Sixth revision note (2026-08-13, same day):** per the project owner's request to split each
-> district into its own script file, this district's script was moved out of
-> `Chapter_2_Ravenwood.md` (where it previously lived as Scenes 22–45) into its own file,
-> [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), renumbered there
-> as Scenes 1–24. Every scene citation in this file has been updated to the new numbers. See
-> [`STORY_NOTES.md`](../STORY_NOTES.md) for the renumbering map. No content changed — only the file
-> location and scene numbers.
+> **Puzzle mechanic (locked 2026-08-14): the Lockdown Puzzle.** This location's puzzle is not a
+> key hunt. It's an emergency security system the department's own officers triggered against
+> themselves as the station fell — Jim has to reconstruct what happened and undo it in sequence.
+> See "The Lockdown System," below, and [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies."
+> **Note:** [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md) has not
+> yet been rewritten to match this mechanic and still reflects the older key-based version — that
+> script needs a full pass before this district is playable end to end as designed here.
 
 ## Purpose in the Overall Story
 
-The natural first of the five open-order districts — closest to Memorial Park, and the explicit
-destination the guardhouse groundskeeper's note points toward ("look at the police station... the
-old building... not the annex"). Built as the first of the five districts' main "mansion/RPD"-style
-locations: a single hub room (the Bullpen) visibly gates several locked doors at once, and reaching
-the **Authority Crest** requires a genuine multi-key backtracking loop across the main station and
-its three secondary locations, targeting roughly 2–3 hours of exploration — comparable in density
-to the Ravenwood Hotel.
+The natural first of the five open-order districts — closest to Memorial Park, and the destination
+the guardhouse groundskeeper's note points toward ("look at the police station... the old
+building... not the annex"). A single hub room (the Bullpen) visibly shows the shape of what's left
+to solve from the start; reaching the **Authority Crest** means understanding and reversing the
+department's own final act — locking itself down — rather than assembling a matching set of keys.
 
-## Outbreak Night — What Actually Happened (proposed 2026-08-13, pending review)
+## Outbreak Night — What Actually Happened
 
-> The station's outbreak night is a **slow institutional collapse, not a monster attack** — cops
-> spending the first half of the night genuinely trying to do their jobs while Vanguard fed them
-> bad orders, suppressed information, and actively prevented them from responding correctly. By
-> the time Jim arrives, almost the entire downfall can be reconstructed from radios, bodies,
-> barricades, paperwork, and the environment itself — not delivered through exposition. This
-> timeline is the master reference behind the specific documents/details placed in `Storyline`,
-> below; it does not change anything already locked (Calloway, Reyes, the shotgun, the Authority
-> Crest are all still exactly as established).
+The station's fall is a slow institutional collapse, not a monster attack — cops spending the first
+half of the night genuinely trying to do their jobs while Vanguard fed them bad orders, suppressed
+information, and prevented them from responding correctly. By the time Jim arrives, almost the
+entire downfall can be reconstructed from radios, bodies, barricades, paperwork, and the
+environment itself.
 
-1. **Early evening.** The storm is already hammering Ravenwood when dispatch starts getting an
-   unusual volume of calls — domestic fights, people wandering into traffic, motiveless assaults,
-   residents screaming about "sick people," industrial workers convulsing, aggressive animals,
-   missing-person reports, alarms from Vanguard-controlled properties. Officers assume it's the
-   storm. Then Vanguard calls the Chief directly: *a minor industrial containment incident* —
-   nothing more — and specifically requests unusual medical cases not be taken to Ravenwood
-   Memorial Hospital, but processed under the existing **V-CASE procedure** instead. The first
+1. **Early evening.** Dispatch starts getting an unusual volume of calls — domestic fights, people
+   wandering into traffic, motiveless assaults, industrial workers convulsing, aggressive animals,
+   missing-person reports. Officers assume it's the storm. Vanguard calls the Chief directly: a
+   minor industrial containment incident, nothing more — and asks that unusual medical cases be
+   processed under the existing **V-CASE procedure** rather than taken to the hospital. The first
    catastrophic decision, made in good faith.
-2. **The Cold Cells fill up.** Officers bring in detainees over the following hours — some
-   violent, some terrified, some barely symptomatic at all. Normally Vanguard removes V-CASEs
-   almost immediately; tonight, nobody comes. The cells keep filling. Dispatch calls the Liaison
-   repeatedly. No response.
-3. **Vanguard takes control of police communications.** An emergency directive — **"EMERGENCY
-   PUBLIC SAFETY DIRECTIVE 7"** — arrives through the Liaison system: establish roadblocks, prevent
-   residents from leaving Ravenwood, restrict access to Vanguard facilities, detain anyone showing
-   contamination symptoms, keep civilians away from Highway 13, maintain radio silence about "the
-   industrial incident." Framed as preventing chemical exposure from spreading. The department
-   complies — and, per [`CANON.md`](../CANON.md), this becomes one of the cruelest facts Jim can
-   later reconstruct: **the police helped trap everyone inside Ravenwood**, believing they were
-   protecting people outside it.
-4. **Officers start suspecting Vanguard knows more than it's saying.** Radio traffic gets
+2. **The Cold Cells fill up.** Detainees come in over the following hours — some violent, some
+   terrified, some barely symptomatic. Vanguard normally removes V-CASEs almost immediately;
+   tonight, nobody comes.
+3. **Vanguard takes control of police communications.** "**Emergency Public Safety Directive 7**"
+   arrives through the Liaison system: roadblocks, prevent residents from leaving Ravenwood,
+   restrict access to Vanguard facilities, detain anyone showing symptoms, radio silence about "the
+   industrial incident." The department complies — and, per [`CANON.md`](../CANON.md), this becomes
+   one of the cruelest facts Jim can reconstruct: the police helped trap everyone inside Ravenwood
+   while believing they were protecting people outside it.
+4. **Officers start suspecting Vanguard knows more than it's saying.** Radio traffic turns
    disturbing — someone hit by a car gets back up; a restrained suspect breaks his own arm and
-   doesn't react; a patrol unit near a Vanguard installation reports "there are bodies out here...
-   a lot" and is ordered away instead of given backup. Friction starts inside the department —
-   some officers want to keep following Vanguard procedure, others want ambulances and fire crews
-   sent in for real.
-5. **The first rupture.** Basement detainees start deteriorating — one stops responding, one won't
-   stop screaming, something starts smashing against a cell door. Once a detainee transforms far
-   enough to become genuinely dangerous, two officers go down to check; shots are fired, then
-   silence; a third finds one badly injured and the other dead — and the detainee still moving.
-   This is the moment the department stops believing it's a chemical spill.
-6. **The Chief calls Vanguard directly**, breaking protocol, demanding answers as officers start
-   dying. Vanguard's reply: *"Maintain containment."* He says officers are dying; Vanguard calls
-   the department **"an essential containment asset"** — not emergency responders, not law
-   enforcement. *Asset.* Likely the moment he understands the relationship was never what he
+   doesn't react; a patrol unit near a Vanguard site reports bodies and is ordered away instead of
+   given backup.
+5. **The first rupture.** A detainee being booked deteriorates past the point of restraint. This is
+   the **Holding-Cell Lockdown** — the first of four security zones sealed that night, and the
+   moment the department stops believing it's a chemical spill.
+6. **The Chief calls Vanguard directly**, demanding answers as officers start dying. The reply:
+   "maintain containment," and the department is called "an essential containment asset" — not
+   emergency responders. Likely the moment he understands the relationship was never what he
    thought.
-7. **Officers start disobeying Vanguard.** Not everyone stays loyal to the directive — several
-   redirect patrol cars toward neighborhoods, escort civilians to safer buildings, push toward the
-   hospital, try to open the southern Highway 13 evacuation route. **One cruiser is dispatched
-   toward the Ravenwood Hotel** — a plausible, unconfirmed connective thread to
+7. **Officers start disobeying Vanguard** — redirecting patrols toward neighborhoods, escorting
+   civilians to safer buildings, pushing to open the Highway 13 evacuation route. One cruiser is
+   dispatched toward the Ravenwood Hotel — a plausible, unconfirmed link to
    [Officer Dale Pruitt's](../Characters/Dale_Pruitt.md) cruiser crashing through the hotel's front
-   doors in Chapter 1; see that character's file for the caveat on treating this as locked.
-8. **Vanguard shuts them down.** Vanguard security teams start appearing around Ravenwood — not to
-   help civilians, but to secure labs, research sites, contaminated materials, data, and Ashen
-   personnel. Police get turned away at certain checkpoints; eventually Vanguard sends **"ALL RPD
-   UNITS RETURN TO STATION"** over the network — an order the Chief never issued. Some officers
-   obey it. Some don't.
-9. **The Highway 13 confrontation.** Officers start dismantling the roadblock for backed-up
-   civilian traffic. Vanguard vehicles arrive; their commander orders the checkpoint restored;
-   the police refuse. A standoff — nobody wants to fire on people they've worked alongside for
-   years — breaks when a mutated civilian attacks nearby. Chaos. Shots fired; nobody knows who
-   fired first. Police and Vanguard are functionally enemies from this point on — the source of
-   the mixed RPD/Vanguard wreckage and bullet damage visible in the station's own wrecked patrol
-   lot (see "Arrival / Setup," below).
+   doors in Chapter 1.
+8. **Vanguard shuts them down**, moving security teams to secure labs, research sites, and Ashen
+   personnel instead of helping civilians, then sends "**ALL RPD UNITS RETURN TO STATION**" over the
+   network — an order the Chief never issued. Some officers obey it. Some don't.
+9. **The Highway 13 confrontation.** Officers dismantle the roadblock for backed-up civilian
+   traffic; Vanguard vehicles arrive and order it restored; the police refuse. A mutated civilian
+   attacks nearby and the standoff breaks into chaos — nobody knows who fired first. Police and
+   Vanguard are functionally enemies from this point on, the source of the mixed RPD/Vanguard
+   wreckage visible in the station's own patrol lot.
 10. **The station becomes a shelter.** Surviving officers return with civilians. The Property &
-    Evidence Room becomes an improvised armory; interview rooms become treatment rooms; Dispatch
-    coordinates survivors; someone starts a whiteboard: **SURVIVORS / MISSING / DECEASED.** The
-    names slowly stop being updated.
-11. **The Cold Cells become the disaster.** Detainees start mutating with officers unable to bring
-    themselves to act while some are still clearly, recognizably human — including, for at least
-    one officer, someone he's known his whole life, begging not to be let become "one of those
-    things." Jim finds at least one cell destroyed from the inside.
-12. **The station is breached — through the vehicle bay, not the front door.** Officers rush an
-    injured, contaminated colleague in through the **Sally Port** (the station's own attached
-    vehicle bay, not the separate Municipal Garage secondary location); creatures follow the
-    vehicle in unnoticed while everyone's distracted. Emergency shutters close, isolating part of
-    the building; power fails; Dispatch loses contact with officers downstairs.
-13. **Internal breakdown.** Exhausted survivors split over whether to hold the station or
-    evacuate, whether to release the Cold Cells' detainees or put them all down, and — once
-    someone finds Cole's hidden investigation and the Vanguard files — over the realization that
-    Vanguard had flagged some of the people downstairs on its watchlist *months* before the
-    outbreak.
-14. **The Chief's final broadcast.** Not knowing if anyone's listening, the Chief gets on the
-    emergency network and publicly overrides Vanguard: *"All surviving officers disregard Vanguard
-    containment orders. Help civilians evacuate by any route available. Do not surrender injured
-    persons to Vanguard personnel... Whatever they told us this was — they lied."* Static.
-    Gunfire. Transmission ends. This marks the effective death of the department as an
-    institution — found by Jim as a recording in Records/Dispatch (see "Storyline," below); the
-    Chief's own ultimate fate stays deliberately unresolved, same as before this addition.
-15. **The final stand.** A last group of officers and civilians tries to reach Memorial Park while
-    others stay behind to draw creatures away and buy time; a few barricade the main hallway until
-    ammo runs out. The station goes dark. The radio goes silent — except for the one intermittent
-    transmission Jim hears on arrival (see "Arrival / Setup," below).
+    Evidence Room becomes an improvised armory; interview rooms become treatment rooms; someone
+    starts a whiteboard: **SURVIVORS / MISSING / DECEASED.** The names slowly stop being updated.
+11. **The second lockdown.** An officer moves recovered case files and biological samples into the
+    Property & Evidence Room and manually seals it once he realizes what's actually happening — the
+    **Evidence Lockdown**, triggered specifically to keep Vanguard from simply walking in and taking
+    what the department had started gathering on them.
+12. **Corporal Eli Reyes secures the Armory** — the **Armory Lockdown** — then, per the Chief's
+    direct order, is sent to isolate the old 1887 station house last, the final and most sensitive
+    zone. On the way, he stops at the K-9 Unit Room to check on his own dogs, Diesel and Baxter.
+    He never leaves that room alive.
+13. **The station is breached — through the vehicle bay, not the front door.** Officers rush an
+    injured, contaminated colleague in through the Sally Port; something follows the vehicle in
+    unnoticed while everyone's distracted. Emergency shutters close, power fails in sections, and
+    Dispatch loses contact with officers downstairs.
+14. **The fourth lockdown, triggered by someone else.** When Reyes stops responding, the Chief
+    seals the **Old Station Isolation** himself, remotely, from Records/Dispatch — completing the
+    assignment Reyes never got to finish. This is why the old station house ends up sealed at all:
+    not a deliberate act by the man sent to do it, but a decision made in his silence.
+15. **Internal breakdown**, once the Cold Cells' detainees start mutating and, later, once Cole's
+    hidden investigation surfaces the extent of Vanguard's watchlist.
+16. **The Chief's final broadcast.** *"All surviving officers disregard Vanguard containment
+    orders. Help civilians evacuate by any route available. Do not surrender injured persons to
+    Vanguard personnel... Whatever they told us this was — they lied."* Static. Gunfire.
+    Transmission ends. Found by Jim as a recording in Records/Dispatch. The Chief's own fate stays
+    unresolved.
+17. **The final stand.** A last group tries to reach Memorial Park while others stay behind to draw
+    creatures away. The station goes dark, except for the one intermittent transmission Jim hears
+    on arrival.
 
 ## Arrival / Setup
 
-- As Jim approaches, a police radio somewhere inside is still transmitting, faint and
-  intermittent: *"...any officer... please respond..."* then static — a deliberate hint that
-  someone, or something automated, might still be active inside, before Jim ever opens a door.
-  The station should read as **very recent**, not decades-abandoned: emergency lights still
-  flashing, a cruiser idling outside, phones ringing unanswered, a half-written incident report, a
-  dropped shotgun in a hallway, a barricade that failed twenty minutes ago rather than twenty
-  years ago.
-- Jim leaves Downtown Ravenwood (after City Hall) and crosses into the Southwest civic complex —
-  visually distinct from downtown: institutional architecture, wider streets, chain-link, the
-  department's own failed emergency response (crashed/abandoned cruisers, a scattered barricade —
-  some of the damage bearing mixed RPD and Vanguard markings, the physical trace of the Highway 13
-  confrontation) visible before Jim ever reaches the building itself.
-- The station is two connected structures: a **modern annex** (the working police department —
-  lobby, bullpen, records/dispatch, Chief's office, K-9 unit room, armory, property & evidence
-  room) and, separated by a breezeway, the **original 1887 station house** — a small stone
-  building, now boarded up and used only for historical display, that the modern department has
-  stopped thinking about. The groundskeeper's note's distinction ("not the annex — the original
-  1890s structure") is the reason this split exists.
+As Jim approaches, a police radio somewhere inside is still transmitting, faint and intermittent:
+*"...any officer... please respond..."* then static. The station reads as very recent, not
+decades-abandoned — emergency lights still flashing, a cruiser idling outside, a half-written
+incident report, a barricade that failed twenty minutes ago rather than twenty years ago.
+
+The station is two connected structures: a **modern annex** (lobby, bullpen, records/dispatch,
+Chief's office, K-9 unit room, armory, property & evidence room) and, separated by a breezeway, the
+**original 1887 station house** — a small stone building, boarded up and used only for historical
+display, that the modern department stopped thinking about. The groundskeeper's note's distinction
+("not the annex — the original 1890s structure") is why this split exists.
+
+## The Lockdown System
+
+When Jim reaches the Bullpen, the central security console still reads:
+
+```
+EMERGENCY LOCKDOWN ACTIVE
+COMMAND AUTHORIZATION INCOMPLETE
+SECURE AREAS: 4
+```
+
+Four zones were sealed manually, from four different control points around the building, as the
+department collapsed: the **Holding Cells** (Booking & Processing), the **Property & Evidence
+Room**, the **Armory**, and the **Breezeway** into the old station house. The console can't simply
+switch them off — each has to be reset at its own control point, and the system was built to
+prevent a prisoner from ever having a continuous path to the outside, so resetting one zone can
+automatically re-secure another. Jim has to physically route himself through the building, closing
+doors behind him as he goes.
+
+He reconstructs the sequence from what he finds, not from a countdown or a hint marker:
+
+- **Records/Dispatch** (Calloway, or her body) establishes roughly when the first lockdown began.
+- **The Chief's Office** logbook lists which officer was sent to secure which zone, and in what
+  order.
+- **Booking & Processing** shows the Holding-Cell Lockdown was triggered first — a detainee turned
+  mid-processing.
+- **The Property & Evidence Room**, once reached, holds its own internal log showing it was sealed
+  second, deliberately, to keep evidence out of Vanguard's hands.
+- **The K-9 Unit Room** — Corporal Reyes' body — reveals he secured the Armory third, then was
+  ordered to isolate the old station house last, and never made it.
+
+Once Jim understands the order — Holding Cells, then Evidence, then Armory, then the old station
+house — the console's logic makes sense: each zone's control point can only be reached by passing
+through the one before it, and reaching it re-secures the one behind. The path in is also, briefly,
+the only way through.
 
 ## Storyline
 
-- **The Lobby.** A bulletproof-glass reception window (intact) traps a lone shambler behind it — a
-  deliberate non-threat, meant to be seen and bypassed rather than fought.
+- **The Lobby.** A bulletproof-glass reception window traps a lone shambler behind it — visible,
+  bypassable, not a fight.
 
   ![Station Lobby — room concept](../Assets/Reference/police_station_lobby_concept.png)
 
-  > AI-generated room concept (2026-08-13). Matches the scripted beat closely (glass-shielded
-  > shambler, waiting-room seating, directory sign).
-- **The Bullpen (hub).** One shambler encounter. From here, Jim can see three locked/sealed
-  points at once: the **Armory** (keyed lock), the **Chief's Office** (keyed lock), and the
-  **Property & Evidence Room** (padlocked shut). Sergeant Calloway's voice is heard from the
-  barricaded Records/Dispatch room at the back. A whiteboard nearby still reads **SURVIVORS /
-  MISSING / DECEASED** in three columns, the handwriting getting less careful toward the bottom of
-  each list before it simply stops. A printed copy of **"EMERGENCY PUBLIC SAFETY DIRECTIVE 7"** —
-  the Vanguard-issued order to seal the town rather than evacuate it — is pinned to the same board,
-  found alongside the reports it contradicts.
+- **The Bullpen (hub).** One shambler encounter. The central security console dominates the room,
+  its four-zone readout visible from almost anywhere in it. A whiteboard nearby still reads
+  **SURVIVORS / MISSING / DECEASED** in three columns, the handwriting getting less careful toward
+  the bottom before it simply stops. A printed copy of **Emergency Public Safety Directive 7** is
+  pinned beside the reports it contradicts.
 
   ![Bullpen — room concept](../Assets/Reference/police_station_bullpen_concept.png)
 
-  > AI-generated room concept (2026-08-13), styled to match the uploaded Hotel screenshots — a
-  > general approximation of layout/mood, not a locked floor plan. Matches the scripted room
-  > closely (all four labeled doors, the tactical map, the coffee station, the overturned-desk
-  > barricade).
-- **The Sally Port.** A short connector off the Bullpen into the station's own attached vehicle
-  bay — not the separate Municipal Garage secondary location down the street, but the annex's own
-  secure entry for prisoner transport. This is where the station was actually breached: officers
-  rushed an injured, contaminated colleague in through here late in the outbreak, and something
-  followed the vehicle in unnoticed while everyone was distracted. A halfway-lowered emergency
-  shutter, dead vehicle-bay lighting, and a dropped shotgun in the doorway mark where the breach
-  happened; per "Outbreak Night — What Actually Happened," above, this is also why part of the
-  building reads as isolated/without power rather than simply abandoned.
+- **The Sally Port.** A short connector off the Bullpen into the station's own vehicle bay — where
+  the station was actually breached, late in the outbreak, when officers rushed an injured
+  colleague in and something followed unnoticed. A half-lowered emergency shutter and a dropped
+  shotgun mark where it happened.
 
   ![The Sally Port — room concept](../Assets/Reference/police_station_sally_port_concept.png)
 
-  > AI-generated room concept (2026-08-13).
-- **Sergeant Calloway.** If the station is visited first, she's alive, barricaded in
-  Records/Dispatch. She confirms Deadlock Protocol's scope (sealed at the county line, not just
-  Ravenwood), gives Jim the **Chief's Office Key**, explains that **Corporal Eli Reyes** — who has
-  the armory key —   went to check on the K-9 unit around midnight and never came back, and mentions
-  the Property Room's padlock needs bolt cutters, available at the Fire Station. She stays behind.
-  If a different district is visited first, she doesn't survive; see her character file for the
-  (not yet scripted) alternate version of this beat. Either way, a recording of the **Chief's
-  final broadcast** — publicly overriding Vanguard's containment order over the emergency network,
-  ending mid-transmission on gunfire — is found/playable in this room. See "Outbreak Night — What
-  Actually Happened," above, for the full timeline this recording is the emotional capstone of.
+- **Records / Dispatch.** If the station is visited first, Sergeant Calloway is alive here,
+  barricaded in. She confirms Deadlock Protocol's scope, tells Jim roughly when the lockdowns
+  began, and mentions Corporal Reyes went to check on the K-9 unit around midnight and never came
+  back. If a different district is visited first, she doesn't survive, and the same information
+  comes from her own notes instead. Either way, the Chief's final broadcast — publicly overriding
+  Vanguard's containment order, ending on gunfire — is playable here.
 
   ![Records/Dispatch — room concept](../Assets/Reference/police_station_dispatch_concept.png)
 
-  > AI-generated room concept (2026-08-13). Note: the image invented a second, unrelated desk
-  > nameplate reading "DET. HARRIS" — flagged as non-canonical filler, not a new character; this
-  > district has no detective named Harris in any script or character file.
-- **The Chief's Office.** Calloway's key opens it. The Chief's own logbook confirms Reyes went to
-  check on the K-9 unit and never returned — and that the Chief went after him in turn (his own
-  fate is left unresolved, a deliberate loose thread). The desk holds the **Old Station Skeleton
-  Key** — kept here specifically because the old building has historically been the Chief's
-  responsibility, not the desk sergeant's.
+- **The Chief's Office.** Opened with a key Calloway carries. His logbook lists the lockdown
+  assignments in order — Holding Cells, Evidence, Armory, the old station house last — and confirms
+  he went looking for Reyes himself once Reyes stopped responding. His own fate is left open.
 
   ![Chief's Office — room concept](../Assets/Reference/police_station_chiefs_office_concept.png)
 
-  > AI-generated room concept (2026-08-13). Note: the image invented a desk nameplate reading
-  > "CHIEF E. WHITAKER" — unprompted, and **not confirmed anywhere in the script**. This is
-  > flagged rather than treated as a hint: it's plausibly the generator echoing the "E. Whitaker"
-  > nameplate already seen in the Hotel's Manager's Office reference screenshot (used as a style
-  > reference here), not an intentional connection between the Chief and Earl Whitaker. Do not
-  > treat this as confirming the Chief's name/identity without an explicit decision.
-- **The Back Hallway.** A short, quiet corridor off the Bullpen leading to the Break Room and the
-  K-9 Unit Room.
+- **The Back Hallway.** Connects the Bullpen to the Break Room and the K-9 Unit Room.
 
   ![Back Hallway — room concept](../Assets/Reference/police_station_back_hallway_concept.png)
 
-  > AI-generated room concept (2026-08-13).
-- **The K-9 Unit Room.** Down the back hallway: Corporal Reyes' body, one kennel gate already bent
-  open, the **Armory Key** still on his belt. Investigating triggers the district's signature
-  encounter — two Ashen Hounds (Diesel and Baxter, Reyes' own K-9 partners) — in a tight concrete
-  room with nowhere to retreat to.
+- **The K-9 Unit Room.** Corporal Reyes' body, one kennel gate bent open, and the Armory's own
+  control override still clipped to his belt. Investigating triggers the district's signature
+  encounter — Diesel and Baxter, Reyes' own K-9 partners, turned — in a tight concrete room with
+  nowhere to retreat to.
 
   ![K-9 Unit Room — room concept](../Assets/Reference/police_station_k9_room_concept.png)
 
-  > AI-generated room concept (2026-08-13).
-- **The Armory.** Reyes' key opens a room of mostly-emptied gun racks; one still holds a clamped-
-  down shotgun and two boxes of shells, freed with a tool from Jim's own kit. The district's key
-  equipment reward, deliberately recovered only after the Ashen Hound fight rather than before it.
+- **The Armory.** Reyes' override resets the Armory's own lockdown. Mostly-emptied gun racks; one
+  still holds a clamped-down shotgun and two boxes of shells. A wall panel here also controls the
+  Breezeway — the post Reyes was heading to when he stopped to check on his dogs.
 
   ![Armory — room concept](../Assets/Reference/police_station_armory_concept.png)
 
-  > AI-generated room concept (2026-08-13, regenerated twice same day — the first two attempts both
-  > drifted into a flat vector-cartoon look (thick black outlines, no pixel-art grain) instead of the
-  > project's painterly 2.5D pixel-art style; see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept
-  > art style correction, take three" for the final fix, anchored directly to a real Hotel screenshot
-  > and a known-good room concept). Matches the
-  > scripted "mostly-emptied racks, one clamped-down shotgun" beat closely.
-- **The Break Room.** A small, deliberately quiet optional stop off the same back hallway as the
-  K-9 Unit Room — Corporal Reyes' employee locker holds an old photo of him with Diesel and Baxter
-  at their K-9 graduation, a small emotional beat added after his death is already known, plus a
+- **The Break Room.** A small, quiet optional stop off the same hallway as the K-9 Unit Room —
+  Reyes' locker holds an old photo of him with Diesel and Baxter at their K-9 graduation, plus a
   Medkit and ammunition.
 
   ![Break Room — room concept](../Assets/Reference/police_station_break_room_concept.png)
 
-  > AI-generated room concept (2026-08-13). Note: the image labeled Reyes' locker "K. HARRISON"
-  > instead of "E. REYES" — flagged as a generation error, not canon; the K-9 graduation photo
-  > and dog paw-print detailing inside the open locker are otherwise exactly the scripted beat.
-- **The Booking Corridor.** A wider hallway off the Bullpen with a directory sign pointing toward
-  Booking, the Interview Room, and the Modern Holding Cells.
+- **The Booking Corridor.** A wider hallway off the Bullpen leading to Booking, the Interview Room,
+  and the Holding Cells.
 
   ![Booking Corridor — room concept](../Assets/Reference/police_station_booking_corridor_concept.png)
 
-  > AI-generated room concept (2026-08-13, regenerated once — the first attempt drifted into a flat
-  > vector-cartoon look instead of the project's painterly 2.5D pixel-art style; this version
-  > corrects it, style-anchored directly to the Booking & Processing and Bullpen renders).
-- **Booking & Processing.** A fingerprint station, mugshot backdrop, and personal-effects lockers —
-  two still tagged and closed, one yielding an optional pocketknife.
+- **Booking & Processing.** A fingerprint station, a mugshot backdrop, and the Holding Cells' own
+  control point — a wall terminal logging exactly when and why the first lockdown triggered: a
+  detainee mid-processing who stopped being a person Jim can help. Personal-effects lockers nearby,
+  one yielding an optional pocketknife.
 
   ![Booking & Processing — room concept](../Assets/Reference/police_station_booking_concept.png)
 
-  > AI-generated room concept (2026-08-13).
 - **The Interview Room.** A recorder left running holds an old interview about unsettling animal
-  behavior near North Ridge before the outbreak — cross-referencing the newspaper clipping already
-  found at Downtown's library — filed and forgotten rather than acted on.
+  behavior near North Ridge, filed and forgotten — cross-referencing the newspaper clipping already
+  found at Downtown's library ([`Locations/Downtown_Ravenwood.md`](Downtown_Ravenwood.md)) and the
+  Monastery's own much older archive of the same pattern
+  ([`Locations/Monastery.md`](Monastery.md) → "Outbreak Night").
 
   ![Interview Room — room concept](../Assets/Reference/police_station_interview_room_concept.png)
 
-  > AI-generated room concept (2026-08-13, regenerated twice same day — the first two attempts both
-  > drifted into a flat vector-cartoon look (thick black outlines, no pixel-art grain) instead of the
-  > project's painterly 2.5D pixel-art style; see [`STORY_NOTES.md`](../STORY_NOTES.md) "Room concept
-  > art style correction, take three" for the final fix, anchored directly to a real Hotel screenshot
-  > and a known-good room concept).
-- **Modern Holding Cells.** Two working cells, in contrast with the old station house's disused
-  ones — one empty with a torn, discarded uniform shirt; one holding a shambler safely behind bars,
-  the same "visible but harmless" convention as the lobby's glass-shielded shambler.
+- **The Holding Cells.** Once reset, two working cells — one empty with a torn, discarded uniform
+  shirt; one holding a shambler safely behind bars, same convention as the lobby. A second, interior
+  control point reachable only from inside resets the Property & Evidence Room's lockdown next,
+  automatically re-securing the cell block behind Jim.
 
   ![Modern Holding Cells — room concept](../Assets/Reference/police_station_modern_cells_concept.png)
 
-  > AI-generated room concept (2026-08-13). Matches the scripted "one empty, one caged shambler"
-  > beat closely.
-- **The Fire Station** (secondary, load-bearing). Supplies, timeline lore via a dispatch call-sheet
-  board that cuts off mid-sentence — and a pair of **bolt cutters**, needed back at the station.
+- **The Fire Station** (secondary). Supplies, a dispatch call-sheet board that cuts off
+  mid-sentence, and a pair of **bolt cutters** — the Property & Evidence Room's electronic lockdown
+  and its physical padlock are two separate things; the department's own added security on top of
+  the automated system.
 
   ![Ravenwood Fire Station — room concept](../Assets/Reference/police_station_fire_station_concept.png)
 
-  > AI-generated room concept (2026-08-13). Matches the scripted dispatch call-sheet board and
-  > bolt cutters closely.
-- **The Property & Evidence Room.** Bolt cutters open the padlock. A proper long-term evidence
-  storage room (not just a wall locker) containing the **Evidence Room Key** (itself tagged as
-  evidence, "release pending" to the municipal court) plus optional loot.
+- **The Property & Evidence Room.** Resetting the lockdown from the Holding Cells' interior control
+  point releases the automated door; the bolt cutters (from the Fire Station) still handle the
+  padlock the department added afterward. Inside: a proper long-term evidence room, an interior log
+  confirming this was the second zone sealed — deliberately, to keep it from Vanguard — and the
+  **Evidence Room Key**, itself tagged as evidence, which opens the Courthouse's Clerk's Exhibit
+  Storage across town. A wall terminal here resets the Armory next.
 
   ![Property & Evidence Room — room concept](../Assets/Reference/police_station_evidence_room_concept.png)
 
-  > AI-generated room concept (2026-08-13).
-- **The Municipal Garage** (secondary, now optional). Supplies, a mechanic's office note, a
-  navigation shortcut gate, and Corporal Reyes' own parked patrol cruiser — a light connective
-  detail (he walked the rest of the way in on foot) rather than a combat encounter.
+- **The Municipal Garage** (secondary, optional). Supplies, a mechanic's note, a shortcut gate to
+  the street grid, and Corporal Reyes' own parked cruiser — he walked the rest of the way in on
+  foot.
 
   ![Municipal Garage / Impound Lot — room concept](../Assets/Reference/police_station_municipal_garage_concept.png)
 
-  > AI-generated room concept (2026-08-13). Note: the wall sign reads "CITY OF RAVENCROFT" instead
-  > of Ravenwood — flagged as a generation error, not a new city name; the game's city is locked
-  > as **Ravenwood** in [`CANON.md`](../CANON.md).
-- **The Breezeway / Navigation Puzzle.** The direct connecting door into the old station house is
-  locked with an antique deadbolt. The Old Station Skeleton Key (from the Chief's Office) opens it
-  directly — no workaround needed.
+- **The Breezeway.** The Armory's wall panel resets this zone's lockdown, retracting the steel
+  shutter over the original antique deadbolt door. The Old Station Skeleton Key, from the Chief's
+  Office, still has to turn the physical lock underneath — the last of the four zones, and the one
+  Reyes never got to secure himself.
 
   ![Breezeway — room concept](../Assets/Reference/police_station_breezeway_concept.png)
 
-  > AI-generated room concept (2026-08-13). Deliberately shows the architectural transition from the
-  > modern annex's cinderblock/steel door to the old station house's stone and antique deadbolt door
-  > — the visual cue for the split the groundskeeper's note refers to ("not the annex... the original
-  > 1890s structure").
 - **The Old Station House.** A single hushed room, stone walls, a wall of every chief/marshal's
   photograph going back to 1887. A dusty glass display case holds the **Authority Crest** — a
   bronze, wedge-shaped medallion bearing a relief portrait of Marshal Josiah Hale, his name and
-  title, and a small relief of a skeleton key. Breaking the case (old, brittle glass) retrieves it —
-  the direct payoff of the Memorial Park guardhouse note.
+  title, and a small relief of a skeleton key. Breaking the case retrieves it — the direct payoff
+  of the Memorial Park guardhouse note.
 
   ![Old Station House Main Hall — room concept](../Assets/Reference/police_station_old_main_hall_concept.png)
 
-  > AI-generated room concept (2026-08-13) — regenerated once after a first attempt rendered the
-  > emblem as a triangular/pyramid shape and invented several unrelated chief names, both of which
-  > contradict the locked wedge-shaped medallion and Marshal Josiah Hale specifically. This version
-  > corrects the shape and keeps the photo wall generic/illegible rather than inventing names.
 - **The Old Holding Cells.** A small optional area behind the main hall — disused cells repurposed
   for records storage. A damaged 1887 town-charter document lists Hale among five "Incorporators of
-  Ravenwood," the other four names illegible from water damage — a deliberate, honest way to defer
-  naming the remaining four founders until their districts are written.
+  Ravenwood" — the other four now identified as Nathaniel Voss, Elias Thorne, Eleanor Worthy, and
+  Matthias Kane, per [`CANON.md`](../CANON.md). A small relay device, easy to miss behind a records
+  cabinet, doesn't match any department inventory tag — Vanguard had a listening post in the one
+  building the department itself had forgotten about.
 
   ![Old Holding Cells — room concept](../Assets/Reference/police_station_old_cells_concept.png)
 
-  > AI-generated room concept (2026-08-13), style-anchored to the Old Station House main hall
-  > render to keep the antique-stone-building look consistent.
-- **The City Courthouse** (secondary, optional). An unresolved survivor-camp environmental beat,
-  plus a **Clerk's Exhibit Storage** room (renamed and re-purposed from an earlier draft's
-  "evidence room" — a courthouse holds active trial exhibits, not long-term evidence, which is the
-  station's job) openable with the Evidence Room Key.
+- **The City Courthouse** (secondary, optional). An unresolved survivor-camp beat, plus a Clerk's
+  Exhibit Storage room openable with the Evidence Room Key.
 
   ![City Courthouse — room concept](../Assets/Reference/police_station_courthouse_concept.png)
 
-  > AI-generated room concept (2026-08-13). Depicts the courtroom itself plus the abandoned
-  > survivor-camp alcove and the Clerk's Exhibit Storage door together for one combined reference.
+### The Vanguard Sub-Plot (optional)
 
-### The Vanguard Sub-Plot (optional, proposed 2026-08-13)
+Per [`CANON.md`](../CANON.md) → "Vanguard's Grip on Ravenwood PD": the officers here aren't secret
+Vanguard villains — they're cops who believed they were protecting Ravenwood while Vanguard quietly
+turned the department into an unofficial containment arm around them. This sub-plot is optional and
+doesn't gate the Authority Crest.
 
-> Per [`CANON.md`](../CANON.md) → "Vanguard's Grip on Ravenwood PD": the officers here aren't
-> secretly Vanguard villains — they're real cops who believed they were protecting Ravenwood while
-> Vanguard quietly turned the department into an unofficial containment arm around them. This
-> entire sub-plot is **optional and does not gate the Authority Crest** or any part of the
-> mandatory critical path — it's a parallel discovery track for players who dig, built to reward
-> the district's already-established "backtracking is the point" design standard with a second,
-> darker layer once the Vanguard Access Card is found. Delivered primarily through environmental
-> discovery (found documents, an abandoned office, a hidden room), per the game's established
-> storytelling convention — not through NPC dialogue dumps. **Fully scripted 2026-08-13** — see
-> [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scenes 21–24, plus
-> Calloway's restrained acknowledgment of Cole added to Scene 5.
-
-- **Detective Cole's Office.** A small, undisturbed detective's office off the Bullpen — a coffee
-  cup left on the desk, a family photograph, a coat still hanging on a hook, and a corkboard case-
-  map connecting a string of local disappearances. Unlocked; anyone can walk in. Searching the
-  desk (or the ceiling tiles above it) turns up **Aaron Cole's hidden investigation** — the
-  documents that connect every disappearance to a shared "V-CASE TRANSFERRED" marking — and a
-  duplicate **Vanguard Access Card** he used to get as far as he did before Vanguard had him
-  discredited and removed. See [`Characters/Aaron_Cole.md`](../Characters/Aaron_Cole.md).
+- **Detective Cole's Office.** A small, undisturbed office off the Bullpen — a coffee cup left on
+  the desk, a family photo, a corkboard case-map connecting a string of local disappearances.
+  Unlocked. Searching the desk turns up **Aaron Cole's hidden investigation** and a duplicate
+  **Vanguard Access Card**. See [`Characters/Aaron_Cole.md`](../Characters/Aaron_Cole.md).
 
   ![Detective Cole's Office — room concept](../Assets/Reference/police_station_coles_office_concept.png)
 
-  > AI-generated room concept (2026-08-13).
-- **The Vanguard Public Safety Liaison Office.** One of the doors the Bullpen visibly gates from
-  the start, alongside the Armory, Chief's Office, and Property Room — but this one bears a
-  corporate placard instead of a police one, a deliberate "what is this doing here" hook. Opens
-  with the Vanguard Access Card. Inside: sleek, cold, out-of-place corporate furniture; a
-  glass-topped desk; a laptop; a filing cabinet holding the **V-CASE classification protocol
-  binder** and the department's **confidential watchlist**. The Liaison himself is absent — his
-  fate on the night of the outbreak is deliberately unresolved. At least one name on the
-  watchlist matches a name from the Bullpen's SURVIVORS/MISSING/DECEASED board — flagged by the
-  handwriting as someone the officers knew personally — silent, damning proof Vanguard had
-  identified specific Ravenwood residents as future subjects *months* before the outbreak, not
-  discovered them that night.
+- **The Vanguard Public Safety Liaison Office.** A corporate placard instead of a police one, a
+  deliberate "what is this doing here" hook. Opens with the Vanguard Access Card. Inside: a
+  filing cabinet holding the **V-CASE classification protocol binder** and the department's own
+  **confidential watchlist** — at least one name on it matches a name from the Bullpen's own
+  SURVIVORS/MISSING/DECEASED board.
 
   ![Vanguard Public Safety Liaison Office — room concept](../Assets/Reference/police_station_vanguard_liaison_office_concept.png)
 
-  > AI-generated room concept (2026-08-13). The wall display's "V" emblem is a deliberate echo of
-  > the same weathered "V" at the center of the Founders Memorial's medallion (see
-  > [`CANON.md`](../CANON.md)) — reinforcing the Vanguard connection visually, not a new detail
-  > introduced by the render.
-- **The Basement Stairwell → the Cold Cells.** A door off the Booking Corridor, easy to walk past —
-  it just looks like basement storage access. Opens with the Vanguard Access Card, revealing a
-  stairwell down into the station's old drunk-tank/evidence-storage basement, quietly renovated by
-  Vanguard: heavy riveted steel doors, a floor drain, restraint rings bolted into the walls,
-  negative-pressure ventilation, and a small sign reading "TEMPORARY MEDICAL HOLDING" — officially
-  documented that way, nicknamed "the Cold Cells" by the cops who used them. This is where V-CASEs
-  were held until Vanguard arrived at night and the prisoner disappeared, with no transfer
-  paperwork, no court appearance, no hospital record. **On the night of the outbreak, nobody came.**
-  One cell door is found bent outward from the inside; a second, still intact, has a handwritten
-  note taped beside its slot — an officer's own words, addressed to someone he'd known his whole
-  life, ending: *"Please don't let me turn into one of those things."* No body, no occupant — the
-  cell is empty either way, a deliberate choice (see "Unresolved Ideas," below) to leave what
-  happened to that person unresolved rather than staged as a combat encounter.
+- **The Basement Stairwell → the Cold Cells.** A door off the Booking Corridor, easy to mistake for
+  storage access. Opens with the Vanguard Access Card, revealing a quietly renovated basement:
+  heavy steel doors, a floor drain, restraint rings, negative-pressure vents, and a sign reading
+  "TEMPORARY MEDICAL HOLDING" — nicknamed "the Cold Cells" by the officers who used them. On the
+  night of the outbreak, nobody from Vanguard came. One cell door is bent outward from the inside; a
+  second has a handwritten note taped beside it: *"Please don't let me turn into one of those
+  things."* No body either way.
 
   ![The Cold Cells — room concept](../Assets/Reference/police_station_cold_cells_concept.png)
 
-  > AI-generated room concept (2026-08-13).
-- **The Vanguard Observation Booth.** A hidden space behind the Interview Room's one-way glass —
-  reachable via a separate door off the Booking Corridor, also opened with the Vanguard Access
-  Card. What looks from the interview-room side like an ordinary observation room is revealed from
-  behind the glass to be a small Vanguard control booth: injectors, blood-collection supplies, a
-  monitor bank on the interview room feed, and a chair with restraints hidden underneath it.
-  Vanguard requested certain suspects be questioned in that room, ostensibly gathering information
-  about "industrial accidents" — in fact testing whether extreme stress can trigger Black Vein
-  exposure symptoms. Some of the "interrogations" were experiments.
+- **The Vanguard Observation Booth.** A hidden space behind the Interview Room's one-way glass,
+  reached via a separate door off the Booking Corridor and the same Access Card. Injectors,
+  blood-collection supplies, a monitor bank, and a chair with restraints hidden underneath —
+  Vanguard's own secret use of "industrial accident" interviews to test whether stress alone can
+  trigger Black Vein symptoms.
 
   ![Vanguard Observation Booth — room concept](../Assets/Reference/police_station_vanguard_observation_booth_concept.png)
 
-  > AI-generated room concept (2026-08-13), deliberately framed as the reverse angle of the
-  > existing Interview Room render — the same one-way glass, seen from the other side.
-
 ## Important Rooms / Areas
 
-**Modern Annex:**
-- Lobby (reception window, a bypassable shambler)
-- Bullpen (hub — visibly gates the Armory, Chief's Office, and Property Room from the start;
-  SURVIVORS/MISSING/DECEASED whiteboard; Emergency Public Safety Directive 7)
-- Sally Port (the station's own vehicle bay — the actual outbreak-night breach point, distinct
-  from the separate Municipal Garage secondary location)
-- Records / Dispatch (Sergeant Calloway; the Chief's final broadcast recording)
-- Chief's Office (Old Station Skeleton Key; Reyes/Chief logbook)
-- Back Hallway (connector — Bullpen to Break Room and K-9 Unit Room)
-- Break Room (optional; Reyes' locker/photo; Medkit + ammo)
-- K-9 Unit Room (Corporal Reyes' body; Armory Key; Ashen Hound fight)
-- Armory (locked; shotgun + shells)
-- Booking Corridor (connector — Bullpen to Booking, Interview Room, and Modern Holding Cells)
-- Booking & Processing (optional pocketknife; personal-effects lockers)
-- Interview Room (optional lore: pre-outbreak animal-behavior report, filed and forgotten)
-- Modern Holding Cells (optional; one empty, one holding a safely-caged shambler)
-- Property & Evidence Room (padlocked; Evidence Room Key)
-- Breezeway (connects annex to the old station house; opened with the Skeleton Key)
-- Detective Cole's Office (optional; unlocked; hidden investigation + Vanguard Access Card)
-- Vanguard Public Safety Liaison Office (optional; needs Vanguard Access Card; V-CASE protocol
-  binder, confidential watchlist)
-- Basement Stairwell → the Cold Cells (optional; needs Vanguard Access Card; Vanguard's hidden
-  holding area)
-- Vanguard Observation Booth (optional; needs Vanguard Access Card; hidden behind the Interview
-  Room's one-way glass)
+**Modern Annex:** Lobby · Bullpen (hub, security console) · Sally Port · Records/Dispatch · Chief's
+Office · Back Hallway · Break Room · K-9 Unit Room · Armory (Zone 3 + Breezeway control) · Booking
+Corridor · Booking & Processing (Zone 1 control) · Interview Room · Holding Cells (Zone 1, interior
+Zone 2 control) · Property & Evidence Room (Zone 2, Armory control) · Breezeway (Zone 4) ·
+Detective Cole's Office · Vanguard Liaison Office · Basement Stairwell → Cold Cells · Vanguard
+Observation Booth.
 
-**Original 1887 Station House:**
-- Main Hall (photograph wall; the Authority Crest display case)
-- Old Holding Cells (optional; records storage; damaged founding document; optional Medkit)
+**Original 1887 Station House:** Main Hall (Authority Crest) · Old Holding Cells (hidden Vanguard
+relay).
 
-**Secondary Locations (district, not the main building):**
-- Ravenwood Fire Station (load-bearing: bolt cutters)
-- Municipal Garage / Impound Lot (optional: supplies, shortcut gate, Reyes' parked cruiser)
-- City Courthouse (optional: Clerk's Exhibit Storage, survivor-camp lore)
+**Secondary Locations:** Ravenwood Fire Station (bolt cutters) · Municipal Garage / Impound Lot ·
+City Courthouse.
 
 ## Blueprint (Room Connectivity)
 
-> Not a to-scale architectural floor plan — a **relational** diagram of how rooms connect, and
-> what's in each one, derived directly from `Storyline` and
-> [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md) above, Scenes 1–24. Split
-> into one diagram per building/area, same convention as
-> [`Ravenwood_Hotel.md`](Ravenwood_Hotel.md)'s blueprint — read them top to bottom; each one notes
-> where it picks up from another. Solid arrows are direct, always-available connections; dashed
-> arrows are connections gated behind a story condition (a key, a tool, etc.) — the label on the
-> arrow says what unlocks it.
+> A relational diagram, not a to-scale floor plan — split into one diagram per building/area, same
+> convention as [`Ravenwood_Hotel.md`](Ravenwood_Hotel.md)'s blueprint. Solid arrows are always
+> available; dashed arrows are gated behind a story condition, labeled on the arrow.
 >
-> Legend: 👤 NPC · ☠️ enemy/infected/boss · 🗝️ key item · 📄 document · 🔧 manual/mechanical
-> (non-power) puzzle · 🚪 gate/access control/shortcut.
->
-> **Shape/color key** — same as the Hotel's blueprint:
->
-> - 🟣 **rectangle, purple** — a room with actual content (NPCs, items, enemies, events).
-> - 🟡 **pill/stadium, amber** — a hallway, corridor, or crossover — a pure connector.
-> - 🔴 **rectangle, red** — a boss or signature-encounter room.
-> - 🔵 **pill, blue** — exterior space (street, district entry, parking lot).
-> - ⚪ **dashed grey pill** — a pointer back to a node defined in full on another diagram.
-> - 🟪 **rectangle, purple** — part of the optional Vanguard sub-plot (see "The Vanguard Sub-Plot,"
->   above) — visually distinct on purpose, the same way the room concepts themselves read as
->   incongruous with the rest of the station.
+> Legend: 👤 NPC · ☠️ enemy/infected/boss · 🗝️ key item · 📄 document · 🔒 lockdown zone control ·
+> 🚪 gate/shortcut.
 
 ### 1. District Entry → Station Exterior → Lobby → Bullpen (hub)
 
@@ -526,12 +356,11 @@ flowchart TD
     ENTRY(["Southwest District Entry<br/>from Downtown / City Hall"])
     EXT["Police Station Exterior<br/>wrecked patrol lot"]
     LOBBY["Station Lobby<br/>☠️ shambler — behind glass, bypassable"]
-    BULLPEN["🏢 BULLPEN — hub<br/>☠️ shambler<br/>sees Armory · Chief's Office · Property Room all locked at once"]
+    BULLPEN["🏢 BULLPEN — hub<br/>☠️ shambler<br/>🔒 security console: 4 zones sealed"]
 
     ENTRY --> EXT --> LOBBY --> BULLPEN
 
     classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
-    classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
     classDef exterior fill:#E3F0FF,stroke:#4A76C9,color:#0d1f3a
     class ENTRY,EXT exterior
     class LOBBY,BULLPEN room
@@ -543,21 +372,21 @@ flowchart TD
 flowchart TD
     BULLPENREF(["🏢 Bullpen<br/>(from Diagram 1)"])
     DISPATCH["Records/Dispatch<br/>👤 Sgt. Calloway<br/>🗝️ Chief's Office Key"]
-    CHIEF["Chief's Office<br/>📄 Chief's logbook<br/>🗝️ Old Station Skeleton Key"]
+    CHIEF["Chief's Office<br/>📄 lockdown-order logbook"]
     BREAK["Break Room<br/>👤 Cpl. Reyes' locker/photo (optional)"]
-    K9ROOM["🐕 K-9 UNIT ROOM<br/>☠️☠️ Diesel & Baxter — signature encounter<br/>👤 Cpl. Reyes' body<br/>🗝️ Armory Key"]
-    ARMORY["Armory<br/>🗝️ Shotgun + Shells"]
+    K9ROOM["🐕 K-9 UNIT ROOM<br/>☠️☠️ Diesel & Baxter — signature encounter<br/>👤 Cpl. Reyes' body<br/>🗝️ Armory zone override"]
+    ARMORY["Armory — Zone 3<br/>🔒 resets here; also controls Breezeway<br/>🗝️ Shotgun + Shells"]
     BACKHALL(["Back Hallway"])
     COLE["Detective Cole's Office<br/>📄 hidden investigation<br/>🗝️ Vanguard Access Card"]
     VLIAISON["Vanguard Liaison Office<br/>📄 V-CASE protocol binder<br/>📄 confidential watchlist"]
-    SALLYPORT["Sally Port<br/>💥 outbreak-night breach point<br/>🚪 emergency shutter, half-lowered"]
+    SALLYPORT["Sally Port<br/>💥 outbreak-night breach point"]
 
     BULLPENREF --> DISPATCH
     BULLPENREF -. Chief's Office Key .-> CHIEF
     BULLPENREF --> BACKHALL
     BACKHALL --> BREAK
     BACKHALL --> K9ROOM
-    BULLPENREF -. Armory Key, from Reyes .-> ARMORY
+    K9ROOM -. Reyes' override, from his body .-> ARMORY
     BULLPENREF --> COLE
     BULLPENREF -. Vanguard Access Card, from Cole's Office .-> VLIAISON
     BULLPENREF --> SALLYPORT
@@ -574,25 +403,25 @@ flowchart TD
     class COLE,VLIAISON vanguard
 ```
 
-### 3. The Booking Wing (branches off the Bullpen)
+### 3. The Booking Wing → Zones 1 & 2 (branches off the Bullpen)
 
 ```mermaid
 flowchart TD
     BULLPENREF2(["🏢 Bullpen<br/>(from Diagram 1)"])
     BOOKCORR(["Booking Corridor"])
-    BOOKING["Booking & Processing<br/>🗝️ Pocketknife (optional)"]
+    BOOKING["Booking & Processing — Zone 1 control<br/>🔒 resets Holding Cells<br/>🗝️ Pocketknife (optional)"]
     INTERVIEW["Interview Room<br/>📄 Interview recording"]
     OBSBOOTH["Vanguard Observation Booth<br/>📄 evidence of Black Vein stress-trigger testing"]
-    CELLS["Modern Holding Cells<br/>☠️ shambler — behind bars, bypassable"]
-    PROPERTY["Property & Evidence Room<br/>🔧 padlock — needs Bolt Cutters<br/>🗝️ Evidence Room Key"]
+    CELLS["Holding Cells — Zone 1<br/>☠️ shambler — behind bars, bypassable<br/>🔒 interior control resets Evidence next"]
+    PROPERTY["Property & Evidence Room — Zone 2<br/>🔧 padlock — needs Bolt Cutters<br/>🗝️ Evidence Room Key<br/>🔒 controls Armory next"]
     BASEMENTREF(["🔒 Basement Stairwell / Cold Cells<br/>(see Diagram 6)"])
 
     BULLPENREF2 --> BOOKCORR
-    BOOKCORR --> BOOKING --> INTERVIEW
+    BOOKCORR --> BOOKING -. resets Zone 1 .-> CELLS
     BOOKCORR -. Vanguard Access Card, from Cole's Office .-> OBSBOOTH
-    BOOKCORR --> CELLS
+    CELLS -. interior control, resets Zone 2 .-> PROPERTY
     BOOKCORR -. Vanguard Access Card, from Cole's Office .-> BASEMENTREF
-    BULLPENREF2 -. Bolt Cutters, from Fire Station .-> PROPERTY
+    PROPERTY -. Bolt Cutters, from Fire Station, for the padlock .-> PROPERTY
 
     classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
     classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
@@ -604,21 +433,21 @@ flowchart TD
     class OBSBOOTH vanguard
 ```
 
-### 4. Breezeway → Old Station House
+### 4. Armory → Breezeway → Old Station House (Zones 3 & 4)
 
 ```mermaid
 flowchart TD
-    BULLPENREF3(["🏢 Bullpen<br/>(from Diagram 1)"])
-    BREEZE(["Breezeway<br/>🔧 antique deadbolt — needs Skeleton Key"])
+    ARMORYREF(["Armory — Zone 3<br/>(from Diagram 2)"])
+    BREEZE(["Breezeway — Zone 4<br/>🔒 Armory panel resets shutter<br/>🗝️ then needs Old Station Skeleton Key"])
     MAINHALL["Old Station House — Main Hall<br/>🗝️ AUTHORITY CREST<br/>📄 Marshal Josiah Hale nameplate"]
-    OLDCELLS["Old Holding Cells<br/>📄 damaged 1887 charter document"]
+    OLDCELLS["Old Holding Cells<br/>📄 damaged 1887 charter document<br/>📄 hidden Vanguard relay device"]
 
-    BULLPENREF3 -. Old Station Skeleton Key .-> BREEZE --> MAINHALL --> OLDCELLS
+    ARMORYREF -. resets Zone 4, needs Skeleton Key from Chief's Office .-> BREEZE --> MAINHALL --> OLDCELLS
 
     classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
     classDef hallway fill:#FFF3D6,stroke:#D9A404,color:#3a2e00
     classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
-    class BULLPENREF3 ref
+    class ARMORYREF ref
     class BREEZE hallway
     class MAINHALL,OLDCELLS room
 ```
@@ -629,7 +458,7 @@ flowchart TD
 flowchart TD
     BOOKCORRREF(["Booking Corridor<br/>(from Diagram 3)"])
     STAIRS(["Basement Stairwell<br/>🔧 needs Vanguard Access Card"])
-    COLDCELLS["⚠️ THE COLD CELLS<br/>officially 'TEMPORARY MEDICAL HOLDING'<br/>heavy steel doors · floor drain · restraint rings<br/>negative-pressure vents"]
+    COLDCELLS["⚠️ THE COLD CELLS<br/>officially 'TEMPORARY MEDICAL HOLDING'<br/>heavy steel doors · floor drain · restraint rings"]
 
     BOOKCORRREF -. Vanguard Access Card, from Cole's Office .-> STAIRS --> COLDCELLS
 
@@ -640,12 +469,6 @@ flowchart TD
     class STAIRS hallway
     class COLDCELLS vanguard
 ```
-
-> Kept in the Vanguard-purple color, not boss-encounter red, since this isn't a combat encounter —
-> it's the sub-plot's thematic capstone, the physical proof of everything Cole's investigation and
-> the Liaison Office's documents describe. No unique enemy is placed here by design; an ordinary
-> Shambler encounter here is optional, not required — see "Unresolved Ideas," below, for whether it
-> should stay empty for atmosphere or hold one.
 
 ### 6. Secondary Locations (reached from the District Entry, not the station directly)
 
@@ -672,249 +495,154 @@ flowchart TD
 - **[Sergeant Ruth Calloway](../Characters/Ruth_Calloway.md)** — Tier 2 conditional survivor; alive
   only if this is the first district visited.
 - **[Corporal Eli Reyes](../Characters/Eli_Reyes.md)** — never seen alive; found dead in the K-9
-  Unit Room, still holding one of his dogs' leashes.
-- **Chief Marcus Doyle** — never seen alive or dead; named (2026-08-13) only for his self-
-  identification in the final-broadcast recording found in Records/Dispatch (see
-  [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scene 5). Otherwise known
-  only through the Chief's Office logbook. No dedicated character file — his ultimate fate stays
-  deliberately unresolved, same convention as Cole and the Vanguard Liaison.
+  Unit Room, killed by his own turned dogs while on his way to isolate the old station house.
+- **Chief Marcus Doyle** — never seen alive or dead; self-identifies in the final-broadcast
+  recording. Otherwise known only through his logbook. His ultimate fate stays unresolved.
 - **[Detective Aaron Cole](../Characters/Aaron_Cole.md)** — never seen alive or dead; disappeared
-  before the outbreak (a deliberately older wound than the rest of the district's losses), known
-  entirely through his abandoned office and hidden investigation.
+  before the outbreak, known entirely through his abandoned office and hidden investigation.
 
 ## Creatures Encountered
 
-- **[Shamblers](../Creatures/Shambler.md)** — lobby (behind glass, bypassable), bullpen (one
-  fought), and the modern holding cells (behind bars, bypassable — same convention as the lobby).
-- **[Ashen Hounds](../Creatures/Ashen_Hound.md)** — Diesel and Baxter, Corporal Reyes' K-9
-  partners; the district's signature/major encounter, fought in their own kennel room inside the
-  main station building.
+- **[Shamblers](../Creatures/Shambler.md)** — lobby (bypassable), bullpen, and the Holding Cells
+  (bypassable).
+- **[Ashen Hounds](../Creatures/Ashen_Hound.md)** — Diesel and Baxter, Corporal Reyes' K-9 partners;
+  the district's signature encounter.
 
 ## Puzzles
 
-- **The Bullpen hub.** Three visibly locked/sealed points (Armory, Chief's Office, Property Room)
-  are all seen at once before any of them can be opened — the player can see the shape of what's
-  left to solve from the start, per the district design standard.
-- **The Reyes/Armory Key chain.** Calloway can't give Jim the armory key directly — it's on
-  Corporal Reyes, who has to be found first (K-9 Unit Room), which is also how the district's
-  signature fight gets triggered.
-- **The Fire Station → Property Room chain.** The Property Room's padlock can't be opened without
-  bolt cutters, found two blocks away at the Fire Station — a deliberate backtrack, though this
-  entire chain is optional bonus content (ammo/loot + the Courthouse cross-location key) rather
-  than something gating the Authority Crest.
-- **The Skeleton Key / Breezeway.** The connecting door into the old station house requires the Old
-  Station Skeleton Key from the Chief's Office — a specific, single-purpose key rather than a
-  generic workaround.
-- **The Vanguard Access Card chain (optional).** Searching Detective Cole's desk/ceiling tiles
-  yields a single card that opens three separate doors across the station (the Liaison Office, the
-  Basement Stairwell, and the Observation Booth) — a deliberate "one key, whole hidden layer"
-  reveal, distinct from the main critical path's one-key-per-door convention, meant to land as a
-  gut-punch once the player realizes how much of the station Vanguard could already move through
-  freely.
+- **The Lockdown Puzzle (main).** See "The Lockdown System," above — reconstruct the trigger order
+  of four sealed zones from scattered evidence (Dispatch's timeline, the Chief's logbook, Booking's
+  incident log, the Evidence Room's own record, and Reyes' last assignment), then physically route
+  through the building resetting them in that order, since resetting one automatically re-secures
+  the zone behind it. The old station house — and the Authority Crest — is the last zone freed.
+- **The Fire Station → Property Room chain.** The evidence room's electronic lock and its added
+  physical padlock are separate; the padlock still needs bolt cutters from the Fire Station, two
+  blocks away — a deliberate, optional backtrack (loot + the Courthouse's cross-location key), not
+  something gating the crest.
+- **The Vanguard Access Card chain (optional).** Searching Detective Cole's desk yields a single
+  card that opens three separate doors across the station (the Liaison Office, the Basement
+  Stairwell, and the Observation Booth) — a "one key, whole hidden layer" reveal, distinct from the
+  main puzzle's sequence-based logic, meant to land once the player realizes how freely Vanguard
+  could already move through the building.
 
 ## Key Items
 
 - **Chief's Office Key** ([full item writeup](../Items/Key_Items/Chiefs_Office_Key.md)) — from
   Sergeant Calloway (or her body); opens the Chief's Office.
 - **Old Station Skeleton Key** ([full item writeup](../Items/Key_Items/Old_Station_Skeleton_Key.md))
-  — Chief's Office desk; opens the breezeway door into the old station house.
-- **Armory Key** ([full item writeup](../Items/Key_Items/Armory_Key.md)) — from Corporal Reyes'
-  body (K-9 Unit Room); opens the armory.
+  — Chief's Office desk; the physical lock underneath the Breezeway's electronic shutter, needed
+  once the Armory's control panel resets Zone 4.
+- **Reyes' Armory Zone Override** (was: Armory Key; [full item writeup](../Items/Key_Items/Armory_Key.md),
+  pending a rename pass) — from Corporal Reyes' body in the K-9 Unit Room; resets the Armory's own
+  lockdown and, from inside, the Breezeway's control panel.
 - **Shotgun** + **Shotgun Shells x12** ([full item writeup](../Items/Consumables/Shotgun_Shells.md))
-  — armory. Confirmed (2026-08-13) as the
-  **["Ranger 870" Pump Shotgun](../Weapons/Ranger_870_Pump_Shotgun.md)**.
+  — Armory, once its lockdown is reset. The **["Ranger 870" Pump Shotgun](../Weapons/Ranger_870_Pump_Shotgun.md)**.
 - **Pocketknife** (optional, [full item writeup](../Items/Key_Items/Pocketknife.md)) — Booking &
-  Processing; utility/flavor item, no confirmed mechanical use yet.
+  Processing; flavor item, no confirmed mechanical use yet.
 - **Bolt Cutters** ([full item writeup](../Items/Key_Items/Bolt_Cutters.md)) — Fire Station; opens
-  the Property & Evidence Room's padlock.
+  the Property & Evidence Room's physical padlock (separate from its electronic lockdown).
 - **Evidence Room Key** ([full item writeup](../Items/Key_Items/Evidence_Room_Key.md)) — Property
   & Evidence Room; opens the Courthouse's Clerk's Exhibit Storage.
-- **Authority Crest** ([full item writeup](../Items/Key_Items/Authority_Crest.md)) — the
-  district's founder's emblem; old station house display case.
+- **Authority Crest** ([full item writeup](../Items/Key_Items/Authority_Crest.md)) — old station
+  house display case.
 - **Vanguard Access Card** ([full item writeup](../Items/Key_Items/Vanguard_Access_Card.md),
-  optional) — found searching Detective Cole's desk/ceiling tiles; opens the Vanguard Liaison
-  Office, the Basement Stairwell/Cold Cells, and the Vanguard Observation Booth. Does not gate the
-  Authority Crest.
+  optional) — Detective Cole's desk; opens the Liaison Office, the Basement Stairwell/Cold Cells,
+  and the Observation Booth. Does not gate the Authority Crest.
 
 ### Documents
 
-- **SURVIVORS / MISSING / DECEASED whiteboard** (Bullpen; scripted 2026-08-13, see
-  [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scene 4) — three running
-  lists that get less careful toward the bottom before simply stopping; see "Outbreak Night — What
-  Actually Happened," above.
-- **"Emergency Public Safety Directive 7"** (Bullpen; scripted 2026-08-13, same scene) — the
-  Vanguard-issued order to seal Ravenwood rather than evacuate it, framed as preventing chemical
-  exposure from spreading.
+- **SURVIVORS / MISSING / DECEASED whiteboard** (Bullpen) — three running lists that get less
+  careful toward the bottom before simply stopping.
+- **Emergency Public Safety Directive 7** (Bullpen) — the order to seal Ravenwood rather than
+  evacuate it, framed as preventing chemical exposure from spreading.
 - **Dispatch radio log, "Unit Twelve, respond Ravenwood Memorial, violent patient, radiology"**
-  (Bullpen/Records-Dispatch, added 2026-08-13) — sounds like just another bizarre disturbance from
-  this side of the radio; the other half of the same event — the CT-suite patient who tore free
-  and killed an orderly — is what Jim actually finds at
-  [`Locations/Hospital.md`](Hospital.md) → "Radiology." One of several direct crossover documents
-  between the two locations' shared night.
+  (Records/Dispatch) — the other half of this event is what Jim finds at
+  [`Locations/Hospital.md`](Hospital.md) → "Radiology."
 - **Dispatch radio log, "Foundry requesting additional ambulances" / "Negative. Vanguard
-  containment directive now active." / "I've got thirty injured people here." / "I know."**
-  (Records/Dispatch, added 2026-08-13) — RPD's side of the same exchange logged from the other end
-  at [`Locations/Foundry_Refinery.md`](Foundry_Refinery.md), beat 13; one of the earliest signs the
-  night's first casualties came from the Foundry, not the town itself.
-- **A fragmentary, mostly-unreadable transmission — "...not a chemical...", "...Vanguard
-  knew...", "...mine is the...", then static** (Records/Dispatch, added 2026-08-13) — the
-  incomplete police-side half of the Foundry manager's urgent warning
-  ([`Locations/Foundry_Refinery.md`](Foundry_Refinery.md), beat 17); officers never had enough
-  time or context that night to understand what it meant. Deliberately presented as a genuine
-  puzzle piece here — full context only available after visiting the Foundry.
-- **The Chief's final broadcast** (Records/Dispatch, audio recording; scripted 2026-08-13, see
-  [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scene 5) — publicly
-  overriding Vanguard's containment order over the emergency network; ends on gunfire and static.
-  Now self-identified as **Chief Marcus Doyle** in the recording. Immediately preceded (added
-  2026-08-13) by a recorded exchange with St. Dymphna Hospital — *"RPD, are you
-  receiving?" / "Memorial, go ahead." / "We have forty-plus civilians and can't move them." /
-  "We're trying to open Highway 13."* — and, later, unanswered: *"RPD?"* Static. *"Ravenwood
-  Police, please respond."* Nothing. See
-  [`Locations/Hospital.md`](Hospital.md) → "Outbreak Night," beat 18, for the same exchange from
-  the hospital's side.
-- Chief's logbook (Chief's Office) — confirms the Reyes/K-9 timeline; his own fate left open.
-- Commendation wall (Chief's Office) — background references to Marshal Hale's founding-era name.
-- Interview recording (Interview Room) — a pre-outbreak report of unsettling animal behavior near
-  North Ridge, filed and forgotten; cross-references the newspaper clipping at Downtown's library.
-- **Dispatch radio log, "We've got two hundred people here." / "I know."** (Records/Dispatch,
-  added 2026-08-13) — the order pulling half the Academy's security detail to reinforce Highway
-  13; the police-side half of a crossover discoverable at
-  [`Locations/Academy.md`](Academy.md), beat 14. Some of those officers are the same ones later
-  lost at Highway 13, below.
-- **A handwritten sign, "You heard him," recovered from an evidence bag** (Records/Dispatch, added
-  2026-08-13) — logged after an officer used the Chief's own citywide broadcast to physically
-  refuse Vanguard access to Worthy Academy; the full standoff is told from the Academy's side at
-  [`Locations/Academy.md`](Academy.md), beats 16–18.
-- **The Academy's final, unanswered broadcast, recorded here after most officers are already dead**
-  (Records/Dispatch, added 2026-08-13) — *"This is Ravenwood Academy emergency shelter. We have
-  civilians remaining inside. We have children here." "Any Ravenwood unit receiving, please
-  respond."* Nothing. *"Anybody?"* Static. Nobody at the station is left to answer it. See
-  [`Locations/Academy.md`](Academy.md), beat 28, for the same transmission from the shelter's
-  side.
-- **Radio traffic from the Monastery standoff: an officer sent to investigate armed Vanguard
-  personnel attempting forced entry, and his own later note that a monk handed him "an old
-  Vanguard memorandum"** (Records/Dispatch, added 2026-08-13) — the police-side half of a
-  crossover discoverable at [`Locations/Monastery.md`](Monastery.md), beats 18–20; that same
-  memorandum is what turns him against Vanguard before the Chief's citywide broadcast even
-  reaches him.
+  containment directive now active."** (Records/Dispatch) — logged from the other end at
+  [`Locations/Foundry_Refinery.md`](Foundry_Refinery.md), one of the earliest signs the night's
+  first casualties came from the Foundry.
+- **A fragmentary transmission — "...not a chemical...", "...Vanguard knew...", "...mine is
+  the...", then static** (Records/Dispatch) — the incomplete police-side half of the Foundry
+  manager's warning ([`Locations/Foundry_Refinery.md`](Foundry_Refinery.md)); full context only
+  available after visiting the Foundry.
+- **The Chief's final broadcast** (Records/Dispatch, audio) — overriding Vanguard's containment
+  order, ending on gunfire and static. Immediately preceded by a recorded exchange with St.
+  Dymphna Hospital — see [`Locations/Hospital.md`](Hospital.md) → "Outbreak Night" for the same
+  exchange from the hospital's side.
+- Chief's logbook (Chief's Office) — the lockdown assignment order; his own fate left open.
+- Interview recording (Interview Room) — the pre-outbreak North Ridge animal-behavior report,
+  filed and forgotten; cross-references Downtown's library and the Monastery's own archives.
+- **Dispatch radio log, "We've got two hundred people here." / "I know."** (Records/Dispatch) — the
+  order pulling half the Academy's security detail to reinforce Highway 13; see
+  [`Locations/Academy.md`](Academy.md).
+- **A handwritten sign, "You heard him," recovered from an evidence bag** (Records/Dispatch) — an
+  officer used the Chief's own broadcast to refuse Vanguard access to Worthy Academy; full standoff
+  at [`Locations/Academy.md`](Academy.md).
+- **The Academy's final, unanswered broadcast** (Records/Dispatch) — *"This is Ravenwood Academy
+  emergency shelter... we have children here."* Nothing. Nobody at the station is left to answer.
+  See [`Locations/Academy.md`](Academy.md).
+- **Radio traffic from the Monastery standoff** (Records/Dispatch) — an officer sent to investigate
+  armed Vanguard personnel, and his own note that a monk handed him "an old Vanguard memorandum" —
+  see [`Locations/Monastery.md`](Monastery.md).
 - Marshal Josiah Hale's display-case nameplate (old station house).
-- Damaged 1887 town-charter page listing five "Incorporators of Ravenwood" (old holding cells;
-  only Hale's name is legible).
-- Evidence tag on the Evidence Room Key itself (Property Room) — flavor only.
-- Fire Station dispatch call-sheet board (cuts off mid-call, night of the outbreak).
-- Municipal Garage mechanic's maintenance log / personal note (birthday cake reminder, never used).
-- Courthouse judge's-bench case file (an ordinary pre-outbreak property dispute).
-- **Detective Cole's case board and hidden investigation** (his office, optional; scripted
-  2026-08-13, see [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scene 21)
-  — connects a string of local disappearances via the shared "V-CASE TRANSFERRED" marking; includes
-  a Vanguard security image proving at least one "transferred" person was still alive months later
-  but monstrously mutated, and an internal email exchange (a mother calling repeatedly about her
-  missing son; an officer named Daniels pushing back on the department's Vanguard-referral policy;
-  the Chief shutting the exchange down — "Refer all inquiries to Vanguard" / "That's enough,
-  Daniels."; Daniels is later "transferred," with no record he ever joined another department).
-  Ends with Cole's own note: *"We thought Vanguard was helping us protect Ravenwood. I think
-  Ravenwood is what they've been studying."* See
-  [`Characters/Aaron_Cole.md`](../Characters/Aaron_Cole.md).
-- **V-CASE classification protocol binder** (Vanguard Liaison Office, optional; scripted
-  2026-08-13, Scene 22) — the "acute industrial neurochemical exposure resulting in violent
-  psychosis" cover story given to officers, and the isolate/restrain/avoid-hospitals/surrender-to-
-  Vanguard/seal-footage procedure for anyone classified a V-CASE.
-- **Confidential watchlist** (Vanguard Liaison Office, optional; scripted 2026-08-13, same scene) —
-  people flagged for repeated hospital visits, unusual injuries, neurological symptoms,
-  mine/refinery employment, homelessness, or reporting strange things near Vanguard property;
-  includes the traffic-stop radio code convention (e.g. "confirm a 13-Black") officers used to flag
-  a match. At least one flagged name (**T. Okonkwo**) matches a name on the Bullpen's
-  SURVIVORS/MISSING/DECEASED board.
-- **Evidence of Black Vein stress-trigger testing** (Vanguard Observation Booth, optional; scripted
-  2026-08-13, Scene 24) — ties the "industrial accident interviews" cover story to actual
-  experimentation on interview subjects.
-- **A handwritten note taped beside a Cold Cells door** (optional; scripted 2026-08-13, Scene 23) —
-  an officer's own words to
-  someone he'd known his whole life: *"Please don't let me turn into one of those things."*
+- Damaged 1887 town-charter page listing five "Incorporators of Ravenwood" (old holding cells).
+- **Detective Cole's case board and hidden investigation** (his office, optional) — connects a
+  string of disappearances via a shared "V-CASE TRANSFERRED" marking, plus an internal email trail
+  ending with an officer named Daniels himself "transferred," never seen again. Ends with Cole's own
+  note: *"We thought Vanguard was helping us protect Ravenwood. I think Ravenwood is what they've
+  been studying."* See [`Characters/Aaron_Cole.md`](../Characters/Aaron_Cole.md).
+- **V-CASE classification protocol binder** (Vanguard Liaison Office, optional) — the cover story
+  given to officers, and the isolate/restrain/surrender-to-Vanguard procedure for anyone classified
+  a V-CASE.
+- **Confidential watchlist** (Vanguard Liaison Office, optional) — names flagged for repeated
+  hospital visits, unusual injuries, mine/refinery employment, or reports near Vanguard property.
+- **Evidence of Black Vein stress-trigger testing** (Vanguard Observation Booth, optional).
+- **A handwritten note taped beside a Cold Cells door** (optional) — *"Please don't let me turn
+  into one of those things."*
 
 ## Major Scripted Events
 
 - Sergeant Calloway's rescue-or-discovery beat (conditional on visit order).
 - Discovering Corporal Reyes' body and the two-Ashen-Hound fight in the K-9 Unit Room.
-- Retrieving the shotgun from the armory, immediately after surviving that fight.
+- Reconstructing and reversing the four-zone lockdown, ending at the old station house.
 - The Fire Station → Property Room bolt-cutter chain (optional).
-- Unlocking the breezeway with the Old Station Skeleton Key and breaking the display case to
-  retrieve the Authority Crest — direct payoff of the Memorial Park guardhouse note.
-- (Optional) Discovering Detective Cole's hidden investigation and the Vanguard Access Card, then
-  using it to uncover the Liaison Office, the Cold Cells, and the Vanguard Observation Booth — see
-  "The Vanguard Sub-Plot," above.
-- (Optional) Finding and playing the Chief's final broadcast recording in Records/Dispatch — the
-  emotional capstone of "Outbreak Night — What Actually Happened," above.
+- Breaking the display case to retrieve the Authority Crest — direct payoff of the guardhouse note.
+- (Optional) Discovering Detective Cole's hidden investigation and using the Vanguard Access Card
+  to uncover the Liaison Office, the Cold Cells, and the Observation Booth.
+- (Optional) Finding and playing the Chief's final broadcast recording.
 
 ## Boss Encounters
 
-No full boss fight in this district (contrast with Chapter 1's Caretaker). The Ashen Hound pair in
-the K-9 Unit Room functions as the district's "major encounter" per [`AI.json`](../AI.json)'s
-per-district design rule, without escalating to boss-fight scale.
+No full boss fight in this district. The Ashen Hound pair in the K-9 Unit Room functions as the
+district's major encounter without escalating to boss-fight scale.
 
 ## Crest Progression
 
 Source of the **Authority Crest** (Southwest / ORDER wedge / Key symbol — see
 [`CANON.md`](../CANON.md) → "The Founders & the Five Crests"). Can be returned to the Founders
-Memorial any time Jim backtracks to Memorial Park; not forced immediately after pickup.
+Memorial any time Jim backtracks to Memorial Park.
 
 ## Exit / Progression to Next Area
 
-Once the Authority Crest and shotgun are collected and the three secondary locations explored, Jim
-is free to head to any of the remaining four districts (Hospital, Academy, Refinery, Monastery, in
-any order) — not yet scripted, but now expected to follow this same main-location design standard.
+Once the Authority Crest is collected and the secondary locations explored, Jim is free to head to
+any of the remaining four districts in any order.
 
 ## Unresolved Ideas
 
-- The alternate ("Calloway already turned") version of Scene 5 is described in her character file
+- The alternate ("Calloway already turned") version of her scene is described in her character file
   but not yet scripted scene-by-scene.
-- The Chief's own fate (mentioned in his logbook as having gone looking for Reyes) is deliberately
-  left open — not resolved anywhere in this district.
-- The other four founders' names (deferred via the damaged charter document) — to be decided when
-  their respective districts are written, ideally with a consistent period-appropriate naming feel
-  to Marshal Josiah Hale.
-- Whether the Courthouse's abandoned survivor camp connects to anyone/anything later in the game,
-  or stays a purely atmospheric dead end.
-- Who was in the modern holding cells' empty cell, and where they ended up — deliberately unstated.
-- Who reported the North Ridge animal-behavior sighting on the Interview Room's recorder — left
-  anonymous, consistent with how the game generally treats early-warning-sign witnesses.
-- **The Vanguard sub-plot:**
-  - ~~Whether Sergeant Calloway (first-visit version) gets a small, deliberately restrained
-    dialogue hook acknowledging Cole/the Cold Cells if asked.~~ **Resolved/scripted (2026-08-13):**
-    see [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scene 5,
-    "Optional dialogue — Detective Cole's office" — a short hook, not a retelling, per the game's
-    "environmental discovery, not exposition" convention.
-  - The Vanguard Liaison's name and what happened to him the night of the outbreak — deliberately
-    unresolved, matching the Chief's own unresolved fate elsewhere in this district.
-  - Detective Cole's own fate (alive elsewhere, dead, or himself a V-CASE) — deliberately left
-    open, same convention as Fennimore and the Chief.
-  - ~~Whether the Cold Cells should hold an optional Shambler encounter or stay an empty, purely
-    atmospheric reveal.~~ **Resolved (2026-08-13):** stays empty and atmospheric — the bent cell
-    door and the handwritten note are the payoff, not a fight; per the project owner's outbreak-
-    night timeline, this room is meant to land as tragedy, not combat.
-  - Whether Officer Daniels' disappearance (referenced in Cole's email trail) ever gets more than
-    a background-document mention, or stays a deliberate parallel data point implying this has
-    happened more than once.
-  - ~~Full scene-by-scene scripting of the whole sub-plot.~~ **Resolved/scripted (2026-08-13):** see
-    [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scenes 21–24.
-  - Whether this sub-plot's "town as a field study" thread should eventually connect explicitly to
-    Chapter 3's reveal of how containment failed — see [`CANON.md`](../CANON.md) → "Vanguard's Grip
-    on Ravenwood PD," which frames it as a strong contributing thread, not a full answer.
-- **The "Outbreak Night — What Actually Happened" timeline:**
-  - ~~Whether the Sally Port breach point needs its own creature encounter.~~ **Resolved
-    (2026-08-13):** stays environmental-only, consistent with the Cold Cells resolution above — see
-    [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scene 20.
-  - The Highway 13 confrontation is currently represented only as environmental evidence (mixed
-    RPD/Vanguard wreckage in the station's own patrol lot) rather than a playable scene or
-    location — Highway 13 itself is a fixed, non-interactive shot per Chapter 1's convention, so
-    this is deliberate, not an oversight.
-  - Whether Officer Dale Pruitt's cruiser being the one "dispatched toward the hotel" (per this
-    timeline's step 7) should ever become more than a suggested, unconfirmed connective thread —
-    see [`Characters/Dale_Pruitt.md`](../Characters/Dale_Pruitt.md) for the caveat.
-  - ~~The Chief's exact name.~~ **Resolved (2026-08-13): Chief Marcus Doyle** — decided specifically
-    to self-identify in his final-broadcast recording; deliberately distinct from the unconfirmed
-    "CHIEF E. WHITAKER" AI-render nameplate flagged elsewhere in this file. His own ultimate fate
-    stays exactly as unresolved as before.
-  - ~~Full scene-by-scene scripting of this timeline's specific beats (the whiteboard, Directive 7,
-    the final broadcast, the Sally Port breach).~~ **Resolved/scripted (2026-08-13):** see
-    [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scenes 4, 5, and 20.
+- The Chief's own fate — went looking for Reyes, per his logbook — stays deliberately open.
+- Whether the Courthouse's abandoned survivor camp connects to anyone/anything later, or stays a
+  purely atmospheric dead end.
+- Who was in the Holding Cells' empty cell, and where they ended up — deliberately unstated.
+- The Vanguard Liaison's name and fate; Detective Cole's own fate — deliberately unresolved, same
+  convention as the Chief.
+- Whether Officer Daniels' disappearance (Cole's email trail) ever gets more than a background
+  mention, or stays a deliberate implication this has happened before.
+- **Renaming "Armory Key" to "Reyes' Armory Zone Override"** in
+  [`Items/Key_Items/Armory_Key.md`](../Items/Key_Items/Armory_Key.md) to match the Lockdown
+  Puzzle's framing — not yet done; this file currently flags the intended change inline.
+- [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md) needs a full
+  rewrite to actually script the Lockdown Puzzle described above — everything in this file's
+  "Storyline" and "Puzzles" sections is the target design, not yet reflected scene-by-scene.

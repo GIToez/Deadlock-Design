@@ -1,48 +1,37 @@
 # Worthy Academy
 
-> The Southeast District's main location — Knowledge Crest. Everything below is new (2026-08-13,
-> proposed pending review), written to the same [`CANON.md`](../CANON.md) → "District Main-
-> Location Design Standard" bar as [`Locations/Police_Station.md`](Police_Station.md),
-> [`Locations/Hospital.md`](Hospital.md), and [`Locations/Foundry_Refinery.md`](Foundry_Refinery.md):
-> a dense, multi-key, backtracking-driven exploration space, targeting roughly 2–3 hours of
-> gameplay.
+> The Southeast District's main location — Knowledge Crest. Full scene-by-scene script:
+> [`Scripts/Chapter_2_Academy.md`](../Scripts/Chapter_2_Academy.md). Full revision history is in
+> [`STORY_NOTES.md`](../STORY_NOTES.md) rather than duplicated here.
 >
-> **Thematic identity (per the project owner's explicit direction):** where the Foundry, Hospital,
-> and Police Station each show a Ravenwood *institution* discovering Vanguard's betrayal, the
-> Academy shows **ordinary civilians** who did everything right — went to the designated shelter,
-> listened to police, registered their families, waited for evacuation — and were failed anyway,
-> because Vanguard had already spent years quietly compromising every institution they trusted.
-> *"The Academy represents the final failure of Ravenwood's emergency system."* Its environmental
-> storytelling is deliberately **personal** rather than institutional: handwritten rosters, teacher
-> notes, children's drawings, family photographs, PA announcements, lost-and-found items — not
-> machinery, medical charts, or dispatch logs.
+> **Thematic identity:** where the Foundry, Hospital, and Police Station each show a Ravenwood
+> *institution* discovering Vanguard's betrayal, the Academy shows **ordinary civilians** who did
+> everything right — went to the designated shelter, listened to police, registered their
+> families, waited for evacuation — and were failed anyway, because Vanguard had already spent
+> years quietly compromising every institution they trusted. Its environmental storytelling is
+> deliberately **personal** rather than institutional: handwritten rosters, teacher notes,
+> children's drawings, family photographs, PA announcements, lost-and-found items — not machinery,
+> medical charts, or dispatch logs.
 >
-> **Structural note:** [`STORY_NOTES.md`](../STORY_NOTES.md)'s earlier city-layout table listed
-> "Academy Library" as one of this district's secondary locations, alongside Student Housing,
-> Athletic Field, and Playgrounds. Per the source material below (the campus's own library is one
-> of its core rooms, and becomes "The Library Group" survivor pocket), the library is treated here
-> as **part of the main Academy building**, not a separate off-campus location — a minor
-> structural reconciliation, not a contradiction; nothing about its content changes, only where
-> it's categorized. Student Housing, Athletic Field, and Playgrounds remain this district's three
-> secondary locations.
+> The campus library is treated as part of the main Academy building, not a separate off-campus
+> location. Student Housing, Athletic Field, and Playgrounds are this district's three secondary
+> locations.
 >
-> **Revision note (2026-08-14):** the district received its full scene-by-scene scripting pass —
-> see the new [`Scripts/Chapter_2_Academy.md`](../Scripts/Chapter_2_Academy.md) (17 scenes), plus
-> new individual [`Items/Key_Items/`](../Items/Key_Items/README.md) writeups (and AI-generated icon
-> concept art) for all nine of this district's key items. This is the fourth of Chapter 2's five
-> districts to be fully scripted, after the Police Station, Hospital, and Foundry. Nothing already
-> locked about this district's rooms, puzzles, or documents changed.
+> **Puzzle mechanic (locked 2026-08-14): the Archive Puzzle.** See "The Archive," below, and
+> [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies." **Note:** specified here as the target
+> design but not yet folded into the Storyline walkthrough below or into
+> [`Scripts/Chapter_2_Academy.md`](../Scripts/Chapter_2_Academy.md), both of which still describe
+> the older key-chain version pending a full rewrite pass.
 
 ## Purpose in the Overall Story
 
-The Southeast District's main "mansion/RPD"-style location, following the same structural rules as
-the Police Station, Hospital, and Foundry: a central hub (the Gymnasium) visibly gates several
-locked doors at once, and reaching the **Knowledge Crest** requires a genuine multi-key
-backtracking loop across the main campus building and three secondary locations. Where the other
-three institutions each fail because Vanguard corrupted them from within, Worthy Academy fails
-because it did exactly what a civilian shelter is supposed to do — and Vanguard used that
-cooperation against it, turning the shelter's own registry into a tool for locating exposure
-cohorts and their families.
+The Southeast District's main "mansion/RPD"-style location: a central hub (the Gymnasium) visibly
+gates several sealed points at once, and reaching the **Knowledge Crest** means reconstructing
+Ravenwood's own founding history well enough to find where Principal Ashford hid it, not
+assembling a matching set of keys. Where the other three institutions each fail because Vanguard
+corrupted them from within, Worthy Academy fails because it did exactly what a civilian shelter is
+supposed to do — and Vanguard used that cooperation against it, turning the shelter's own registry
+into a tool for locating exposure cohorts and their families.
 
 ## Outbreak Night — What Actually Happened (proposed 2026-08-13, pending review)
 
@@ -211,6 +200,23 @@ See "Documents," below, and the corresponding crossover entries added to
   to be the safe place.
 - Fragments of Principal Ashford's PA announcements can still intermittently play from damaged
   speakers throughout the building, escalating in urgency the deeper Jim goes.
+
+## The Archive
+
+The Knowledge Crest was part of the school's Founder's Hall exhibit, but Principal Ashford removed
+it during the evacuation and hid it using the school's own history, not at random.
+
+A large Ravenwood historical timeline hangs in the library (Founding of Ravenwood → Steelgate Opens
+→ St. Dymphna Founded → RPD Established → Worthy Academy Opens → Monastery Built), several of its
+plaques removed or shifted out of order. Scattered through the Academy: a yearbook, a founder
+portrait, an old newspaper, school trophies, a library book, a class history project — none gives a
+combination on its own, but together they let the player reconstruct the true chronology. In the
+archive, five movable founder plaques (one per civic institution) have to be placed in that
+chronological order. Getting it right trips no electronics — just a mechanical `CLICK`, and the
+timeline display swings outward on a physical catch to reveal Principal Ashford's emergency
+archive and the crest. One of the historical documents used to solve this can quietly contradict
+another (official records dating Steelgate's opening to 1968, while another document implies
+earlier mining activity) — left unexplained here, on purpose, for Chapter 3.
 
 ## Storyline
 
@@ -528,22 +534,18 @@ flowchart TD
 
 ## Puzzles
 
-- **The Gymnasium hub.** Four visibly locked/barricaded points (Administration Office, Auditorium,
-  Library, Maintenance Basement) are all seen at once before any of them can be opened — same "see
-  the shape of what's left to solve" convention as the other three main locations.
-- **The Cafeteria → Administration → Isolation Wing key chain.** A straightforward single-purpose
-  lock-and-key sequence revealing the Vanguard registry/Harris family material.
-- **The Student Housing → Auditorium → Library chain.** The Auditorium Key can't be found inside
-  the main building at all — a deliberate district-wide backtrack, mirroring the Foundry's Loading
-  Docks and the Hospital's Medical Arts Building conventions. The Library Key is then found inside
-  the Auditorium itself, a short internal follow-up step.
-- **The Athletic Field → Maintenance Basement → East Wing chain.** Generator Fuel is likewise found
-  at a separate secondary location, and the Fire Axe recovered in the Basement is needed to force
-  the East Wing's jammed doors — the second deliberate district-wide backtrack.
-- **The East Wing → Principal's Office → Founder's Hall → Escape Corridor chain.** The Knowledge
-  Crest, and the Maintenance Escape Corridor beyond it, are only reachable after clearing the
-  district's signature pack encounter, keeping the emblem — and the location's emotional climax —
-  behind the deepest, most-gated point, per the design standard.
+- **The Archive Puzzle (main, target design — see "The Archive," above).** Reconstruct Ravenwood's
+  true founding chronology from scattered documents/objects across the campus, then place five
+  founder plaques in that order to open the hidden catch behind the library's timeline display —
+  almost entirely a knowledge puzzle rather than a key hunt, fitting the Academy's existing
+  people-not-monsters design intent.
+- **The Athletic Field → Maintenance Basement → East Wing chain.** Kept as-is: Generator Fuel is
+  found at a separate secondary location, and the Fire Axe recovered in the Basement is needed to
+  force the East Wing's jammed doors — a district-wide backtrack independent of the Archive puzzle.
+- *(Superseded, not yet rewritten below in "Storyline"/"Key Items": the original version of this
+  puzzle was a straightforward Cafeteria → Administration → Isolation Wing → Auditorium → Library
+  key chain. That prose and the room-by-room key gating below still reflect it — see the note at
+  the top of this file.)*
 
 ## Key Items
 
@@ -574,6 +576,9 @@ flowchart TD
 
 ### Documents
 
+- **A torn evacuation-route map, identical to the one crossed out route-by-route at City Hall**
+  (Gymnasium registration table, optional) — the shelter tracking the same collapsing options in
+  real time as the city government; see [`Locations/Downtown_Ravenwood.md`](Downtown_Ravenwood.md).
 - **The shelter registration rosters and Vanguard's registry demand** (Administration Office) —
   names, addresses, medical conditions, employment, hospitalization history; Foundry employees
   specifically flagged.

@@ -1,40 +1,35 @@
 # Steelgate Refinery
 
-> The Northwest District's main location — Industry Crest. Everything below is new (2026-08-13,
-> proposed pending review), written to the same [`CANON.md`](../CANON.md) → "District Main-
-> Location Design Standard" bar as [`Locations/Police_Station.md`](Police_Station.md) and
-> [`Locations/Hospital.md`](Hospital.md): a dense, multi-key, backtracking-driven exploration
-> space, targeting roughly 2–3 hours of gameplay.
+> The Northwest District's main location — Industry Crest. Full scene-by-scene script:
+> [`Scripts/Chapter_2_Foundry.md`](../Scripts/Chapter_2_Foundry.md). Full revision history is in
+> [`STORY_NOTES.md`](../STORY_NOTES.md) rather than duplicated here.
 >
-> **Thematic pairing with the Police Station and Hospital (per the project owner's explicit
-> direction):** all three Chapter 2 institutions experience the same night from different angles,
-> with directly overlapping records. See "Outbreak Night," below, and "How the Three Outbreak
-> Stories Connect" for the specific crossover documents. Distinguished thematically as: *"Police
-> Station: Vanguard turned the people protecting Ravenwood into an extension of their containment
-> system. Hospital: Vanguard turned Ravenwood's injured into research assets. Foundry: Vanguard
-> turned Ravenwood's workers into long-term exposure subjects and built an entire industrial
-> operation over the source."* The Foundry is also where Jim learns the outbreak isn't a single
-> bad night — Vanguard has been exploiting what's under Ravenwood since **1968** (see
-> [`CANON.md`](../CANON.md) → "Origin of the Outbreak").
+> **Thematic pairing with the Police Station and Hospital:** all three Chapter 2 institutions
+> experience the same night from different angles, with directly overlapping records — see
+> "Outbreak Night," below, and "How the Three Outbreak Stories Connect." *Police Station: Vanguard
+> turned the people protecting Ravenwood into an extension of their containment system. Hospital:
+> Vanguard turned Ravenwood's injured into research assets. Foundry: Vanguard turned Ravenwood's
+> workers into long-term exposure subjects and built an entire industrial operation over the
+> source.* The Foundry is also where Jim learns the outbreak isn't a single bad night — Vanguard
+> has been exploiting what's under Ravenwood since **1968** (see [`CANON.md`](../CANON.md) →
+> "Origin of the Outbreak").
 >
-> **Revision note (2026-08-13, same day):** the district received its full scene-by-scene
-> scripting pass — see the new [`Scripts/Chapter_2_Foundry.md`](../Scripts/Chapter_2_Foundry.md)
-> (17 scenes), plus new individual [`Items/Key_Items/`](../Items/Key_Items/README.md) writeups
-> (and AI-generated icon concept art) for all seven of this district's key items. This is the third
-> of Chapter 2's five districts to be fully scripted, after the Police Station and Hospital.
-> Nothing already locked about this district's rooms, puzzles, or documents changed.
+> **Puzzle mechanic (locked 2026-08-14): the Casting Puzzle.** See "The Casting Line," below, and
+> [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies." **Note:** specified here as the target
+> design but not yet folded into the Storyline walkthrough below or into
+> [`Scripts/Chapter_2_Foundry.md`](../Scripts/Chapter_2_Foundry.md), both of which still describe
+> the older key-chain version pending a full rewrite pass.
 
 ## Purpose in the Overall Story
 
-The Northwest District's main "mansion/RPD"-style location, following the same structural rules as
-the Police Station and Hospital: a central hub (the Casting Hall) visibly gates several locked
-doors at once, and reaching the **Industry Crest** requires a genuine multi-key backtracking loop
-across the main plant, its restricted underground levels, and three secondary locations. Where the
-Police Station and Hospital each discover Vanguard's betrayal over the course of one night, the
-Foundry is where Jim learns the betrayal is decades old — Steelgate Refinery is the closest
-civilian-industrial site to the natural cave system containing Black Vein itself, and Vanguard has
-used it as a controlled access point into those caverns since 1968, studying both the vein and the
-workers above it the entire time.
+The Northwest District's main "mansion/RPD"-style location: a central hub (the Casting Hall)
+visibly gates several sealed points at once, and reaching the **Industry Crest** means physically
+operating the plant's own casting line to free it from a seized mold, not assembling a matching set
+of keys. Where the Police Station and Hospital each discover Vanguard's betrayal over the course of
+one night, the Foundry is where Jim learns the betrayal is decades old — Steelgate Refinery is the
+closest civilian-industrial site to the natural cave system containing Black Vein itself, and
+Vanguard has used it as a controlled access point into those caverns since 1968, studying both the
+vein and the workers above it the entire time.
 
 ## Outbreak Night — What Actually Happened (proposed 2026-08-13, pending review)
 
@@ -189,6 +184,23 @@ this table in-game.
 - Signs throughout the plant point downward — **LOWER PROCESSING**, **AUTHORIZED PERSONNEL ONLY**,
   **GEOLOGICAL ACCESS**, **VANGUARD RESTRICTED AREA** — deliberately building curiosity about what's
   underneath the plant well before Jim can act on it.
+
+## The Casting Line
+
+The Industry Crest is mounted in the plant's ceremonial first-casting mold, sealed inside a seized
+mold carriage since Vanguard shut off the underground level. Jim doesn't manufacture the crest — he
+operates the abandoned casting line well enough to free it.
+
+The line runs Ore Hopper → Furnace → Casting Ladle → Mold/Cooling Line, in four physical stages
+rather than a fetch quest: (1) restore furnace fuel flow through manual gas valves, watching
+pressure — too much trips a safety relief, too little won't sustain the burner; (2) operate the
+overhead crane by hand (left/right, forward/back, lower/raise, its shadow visibly sweeping the
+floor) to position the casting ladle over the seized mold's receptacle; (3) heat the mold just
+enough to expand the collar holding the crest assembly, not enough to melt anything important; (4)
+engage the cooling line — water blasts the casting bed, thermal contraction snaps the collar, and
+the ancient mold separates. Beneath the machinery, once it's done: a descending geological access
+shaft — Steelgate wasn't built here because Ravenwood needed a foundry. The foundry exists here
+because of what was underneath it.
 
 ## Storyline
 
@@ -531,20 +543,20 @@ flowchart TD
 
 ## Puzzles
 
-- **The Casting Hall hub.** Three visibly locked/sealed points (Manager's Office, Vanguard Site
-  Office, Restricted Elevator) are all seen at once before any of them can be opened — same "see
-  the shape of what's left to solve" convention as the other two main locations.
-- **The Clinic → Manager's Office → Elevator key chain.** A straightforward single-purpose
-  lock-and-key sequence gating access underground.
-- **The Loading Docks → Vanguard Site Office chain.** The Vanguard Site Key can't be found inside
-  the main plant at all — a deliberate district-wide backtrack, mirroring the Police Station's
-  Fire Station and the Hospital's Medical Arts Building conventions.
-- **The Machine Shops → Security Checkpoint chain.** The Cutting Torch needed to force the
-  Security Checkpoint's reinforced door is likewise found at a separate secondary building.
-- **The Security Checkpoint → Boardroom → Cavern chain.** The Industry Crest, and the Black Vein
-  Cavern beyond it, are only reachable after clearing the district's signature pack encounter,
-  keeping the emblem — and the location's emotional climax — behind the deepest, most-gated point,
-  per the design standard.
+- **The Casting Puzzle (main, target design — see "The Casting Line," above).** Free the Industry
+  Crest by operating the plant's furnace, crane, and cooling stages in sequence, rather than
+  collecting keys — the emblem stays behind the deepest, most-gated point in the district either
+  way.
+- **The Loading Docks → Vanguard Site Office chain.** Still relevant: a component needed to
+  restore the furnace's fuel line (reframed from the Vanguard Site Key) is found at a separate
+  secondary building — a deliberate district-wide backtrack, mirroring the Police Station's Fire
+  Station and the Hospital's Medical Arts Building conventions.
+- **The Machine Shops → Security Checkpoint chain.** Kept as-is: the Cutting Torch needed to force
+  the Security Checkpoint's reinforced door is found at a separate secondary building, independent
+  of the main casting-line puzzle.
+- *(Superseded, not yet rewritten below in "Storyline"/"Key Items": the original version of this
+  puzzle was a straightforward Clinic → Manager's Office → Elevator key chain. That prose and the
+  room-by-room key gating below still reflect it — see the note at the top of this file.)*
 
 ## Key Items
 
@@ -568,6 +580,11 @@ flowchart TD
 
 ### Documents
 
+- **A clipped copy of the *Ravenwood Gazette*'s "STEELGATE REFINERY ANNOUNCES TEMPORARY CLOSURE"**
+  (Plant Manager's Office, optional) — the cover story Fitch's office fed the local paper three
+  weeks before the outbreak; the original clipping, alongside a matching animal-death report, is
+  what Jim reads first at Downtown's public library — see
+  [`Locations/Downtown_Ravenwood.md`](Downtown_Ravenwood.md).
 - **"EXPOSURE COHORTS" employee files** (Exposure Records Room) — years of chronic-exposure
   monitoring disguised as an occupational-health program.
 - **The Fitch/Vanguard confrontation transcript** (Manager's Office) — *"Contamination risk to

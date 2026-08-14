@@ -1778,6 +1778,218 @@ structure as a chronology-reconstruction mechanic rather than a purely gameplay-
 yet implemented in any script or `Locations/` file, and not yet decided what the Monastery's unique
 piece is.
 
+## Direction Log (continued) — Five Puzzle Philosophies (approved 2026-08-14)
+
+> Follow-up to the "Chapter 2 narrative craft review" entry above, which flagged structural
+> repetition across districts as a delivery problem, not a story problem. The project owner's
+> answer: don't just disguise the repetition narratively — give the five crest locations five
+> genuinely different **puzzle mechanics**, each built around something unique to that
+> institution, with the Ravenwood Hotel's repair-and-backtrack puzzle (Power East → tool → find
+> component elsewhere → repair West → new route → courtyard) kept as the *benchmark to differ
+> from*, not to repeat. Explicitly locked as **"the version worth building"** — this is now the
+> target design for all five main locations, not a brainstorm. See "Five Puzzle Philosophies" in
+> [`CANON.md`](CANON.md) for the locked summary table; full mechanic detail for each district is
+> recorded here.
+>
+> **Implementation status (2026-08-14):** The Police Station — called out explicitly as "the
+> first place to distinguish more strongly," since its current material leans hardest into
+> Resident-Evil-style keys-and-locked-rooms — has had its puzzle backbone actually rewritten in
+> [`Locations/Police_Station.md`](Locations/Police_Station.md) (Storyline, Puzzles, Key Items, and
+> Blueprint sections) to the new Lockdown/Route mechanic below. The other three already-scripted
+> districts (Hospital, Foundry, Academy) have their new puzzle mechanics fully specified in their
+> own `Locations/` files as an approved addendum, **not yet folded into their existing
+> Storyline/Blueprint prose** — treat the addendum as the target design and the older
+> key-based Storyline text as superseded-but-not-yet-rewritten (flagged in each file). The
+> Monastery (not yet scripted at all) gets its mechanic specified directly as its actual future
+> design. **None of the four already-scripted districts' `Scripts/Chapter_2_*.md` scene-by-scene
+> prose has been rewritten yet** — that's the largest remaining piece of this work, tracked in
+> "Things That Still Need Development," below, since each script's prose was written against the
+> old key-hunt mechanic and will need real narrative reconstruction, not a find-and-replace.
+
+**The core idea:** each district's puzzle mechanic should be built from something unique to that
+institution, use a distinct interaction verb, and — as a side effect — *teach the player something
+true about Ravenwood* just by being solved. Collecting all five crests should feel like *solving
+Ravenwood*, not collecting five video-game tokens.
+
+| Location | Theme | Puzzle | Verb |
+|---|---|---|---|
+| Ravenwood Hotel (benchmark, already built) | — | Auxiliary power repair-and-backtrack | Repair |
+| Police Station | Authority / Procedure | Emergency security lockdown | Route / Unlock |
+| St. Dymphna Hospital | Medicine / Containment | Negative-pressure quarantine | Contain |
+| Steelgate Refinery | Industry / Machinery | Industrial casting line | Operate |
+| Worthy Academy | Knowledge / Reconstruction | Ravenwood historical archive | Understand |
+| Our Lady of Solace Monastery | Faith / History / Mechanical Architecture | Ancient bell/counterweight mechanism | Interpret / Activate |
+
+### 1. Police Station — The Lockdown Puzzle (Route / Unlock)
+
+Not a repair puzzle, not a fetch-three-keys puzzle. Jim has to reconstruct what happened during the
+department's final minutes and undo its own emergency lockdown, in the correct order, to reach the
+original 1887 station house — sealed because Vanguard had secretly repurposed it.
+
+- **Setup:** the old station house is inaccessible on arrival. The modern station's central
+  security console reads `EMERGENCY LOCKDOWN ACTIVE / COMMAND AUTHORIZATION INCOMPLETE / SECURE
+  AREAS: 4` — four zones (Armory, Holding Cells, Evidence, Old Station) were sealed manually, from
+  different stations around the building, as the department collapsed. The system can't just be
+  switched off; it has to be unwound in the sequence it was triggered.
+- **Discovery (reconstructing the sequence):** Dispatch/Calloway establishes when lockdown began;
+  the Chief's Office logbook establishes which officer secured which section; Booking reveals one
+  zone was sealed because a detainee turned; the Evidence Room shows another zone sealed later
+  still; the K-9 Unit Room/Reyes reveals he was sent toward the old station *last* — meaning
+  the Old Station was the final, not the first, section sealed. Jim's realization: *"These weren't
+  all locked simultaneously. They were progressively sealed as the station collapsed."*
+- **Mechanic:** at the central security desk, a physical/electronic zone-control board. The system
+  was designed to prevent prisoners from ever having a continuous path to the exterior — so
+  opening one zone can automatically re-secure another. The player has to physically route Jim
+  through the building, changing security states as he moves (open Gate A, walk through, trigger
+  the next control from the far side, Gate A re-secures, Gate B opens, and so on) until a path into
+  the old station exists. Functionally "manipulating a prison," using the department's own
+  containment logic against itself.
+- **Payoff:** the old station house holds the Authority Crest, and — per the existing Vanguard
+  sub-plot — evidence that Vanguard had a secret watching post over the very containment system
+  Jim just solved. Thematic point: *Jim uses the department's own system of authority to reach the
+  place where that authority was compromised.*
+
+### 2. St. Dymphna Hospital — The Quarantine Puzzle (Contain)
+
+Not a power puzzle. Built around something hospitals uniquely have: negative-pressure isolation.
+The Medical Crest sits in the historic chapel/display area on the far side of a treatment wing the
+outbreak caused staff to convert into sealed emergency quarantine zones — and the automated system
+sealed them for good when everything went wrong.
+
+- **System:** an emergency isolation panel controls five zones — Air Intake, Isolation Ward,
+  Surgical Wing, Decontamination Corridor, Exhaust — via large analog pressure gauges
+  (green/yellow/red). Two incompatible zones can't be open at once; doing so trips `PRESSURE
+  FAILURE — SAFETY INTERLOCK` and locks every door. A dead doctor's instructions teach the rule
+  naturally: *"Never create a positive-pressure path from Isolation into General Care."*
+- **Mechanic:** the player creates safe pressure gradients rather than simply unlocking doors —
+  e.g. close General Intake → vent Isolation → the gauge drops → the Isolation door releases → Jim
+  crosses → he's now trapped on that side → find the manual damper → seal Isolation behind him →
+  pressurize Surgical → the Surgical door opens → repeat. A room-sized valve puzzle expressed
+  through hospital airflow instead of pipes/electricity.
+- **Horror hooks specific to the mechanic:** opening a vent and hearing something crawling in the
+  ductwork; depressurizing a ward and having plastic isolation curtains suck inward around Jim;
+  glimpsing something through observation glass before a section is even opened.
+- **Payoff:** the crest sits in the original hospital chapel/founder's medical exhibit. Thematic
+  point, delivered by the mechanic itself rather than a note: *the hospital wasn't trying to keep
+  something out — it was desperately trying to keep something in.*
+
+### 3. Steelgate Refinery — The Casting Puzzle (Operate)
+
+The clearest machinery opportunity of the five. Jim physically operates an industrial casting line
+to free the Industry Crest — not manufacture the crest itself, *release* it from the seized
+ceremonial first-casting mold it's been mounted in since the plant opened, now sealed off along
+with the rest of the underground level.
+
+- **System:** a full foundry line — Ore Hopper → Furnace → Casting Ladle → Mold/Cooling Line — with
+  the crest assembly sitting inside a seized mold carriage.
+- **Mechanic, in stages (machinery stages, not fetch quests):** (1) restore furnace fuel flow via
+  physical gas valves, not an electrical switch — watch pressure, since too much trips a safety
+  relief and too little won't sustain the burner; (2) operate the overhead crane manually
+  (left/right, forward/back, lower/raise — its shadow visibly moves across the floor) to position
+  the casting ladle over the correct receptacle; (3) heat the seized mold just enough to expand the
+  collar holding the crest assembly, not enough to melt anything important; (4) engage the cooling
+  line — water blasts the casting bed, thermal contraction snaps the seized locking collar, and the
+  ancient mold separates.
+- **Payoff:** the Industry Crest, and beneath the casting machinery, a descending geological access
+  shaft. Thematic point: *Steelgate wasn't built here because Ravenwood needed a foundry — the
+  foundry exists here because of what was underneath it* — directly reinforcing material already
+  central to this district (the Black Vein Cavern, the 1968 excavation).
+
+### 4. Worthy Academy — The Archive Puzzle (Understand)
+
+Almost entirely mental — no generator, no big key hunt, the closest thing the game has to an
+old-school mansion riddle. Principal Ashford didn't hide the Knowledge Crest randomly during the
+evacuation — she used the school's own history to hide it, and the player has to learn that history
+to find it.
+
+- **Central object:** a large Ravenwood historical timeline display in the library (Founding of
+  Ravenwood → Steelgate Opens → St. Dymphna Founded → RPD Established → Worthy Academy Opens →
+  Monastery Built), with several plaques removed or shifted out of order. Scattered through the
+  Academy: a yearbook, a founder portrait, an old newspaper, school trophies, a library book, a
+  class history project — none individually gives a combination; together they let the player
+  reconstruct the correct chronology.
+- **Mechanic:** five movable founder plaques (one per civic institution) in the archive must be
+  placed in the correct founding-chronology order (not a numeric code) — Authority → Faith →
+  Industry → Medicine → Knowledge, or whatever this project's actual locked founding chronology
+  turns out to be once cross-checked against `CANON.md`'s "The Founders & the Five Crests." Getting
+  it right triggers no electronics — just a mechanical `CLICK` and the timeline display swinging
+  outward on a physical catch.
+- **Payoff:** behind the display, Principal Ashford's emergency archive and the Knowledge Crest.
+  Built-in seed for later mystery: one of the historical documents used to solve the puzzle can
+  quietter contradict another (e.g. official records say Steelgate opened in 1968, but another
+  document proves mining activity years earlier) — **deliberately left unexplained here**, payoff
+  reserved for underground in Chapter 3.
+- Reinforces the Academy's existing design intent (people/records over a new monster) by making its
+  puzzle itself about *learning*, not fighting or fetching.
+
+### 5. Our Lady of Solace Monastery — The Bell Tower Puzzle (Interpret / Activate)
+
+Should feel the oldest of the five: no electronics, no card readers, no Vanguard terminal solving
+it. The Faith Crest has been reachable since the monastery's construction — the monks knew how;
+Vanguard didn't design this mechanism, they merely found it.
+
+- **System:** four bell ropes in the tower, each secretly tied to part of a mechanical combination
+  lock built into the monastery itself — one raises a counterweight, one releases a floor latch,
+  one moves a stone locking bar, one resets the mechanism. Long assumed to be purely ceremonial
+  ringing.
+- **Clues (never spelled out as a number sequence):** a mural depicting Dawn → Labor → Mourning →
+  Rest, each phase under a different bell; a prayer book marking the order of daily calls; four
+  cloister statues facing the four corresponding directions. The player derives the ringing order
+  from these, rather than being told it directly.
+- **Mechanic/execution:** each bell pull is a major, audible event (heard across Ravenwood) with
+  escalating environmental payoff — first bell, nothing; second, a distant `THUNK`; third, stone
+  grinding beneath the chapel; fourth, the monastery floor shifts and a circular stone seal retracts
+  beneath the altar.
+- **The cost:** ringing the bells draws enemies toward the monastery — solving the puzzle
+  transitions directly into a survival stretch, with Jim's own realization that he's just announced
+  his exact location to half the ridge.
+- **Payoff:** the crypt and the Faith Crest. This location should also carry the oldest evidence
+  that something beneath Ravenwood was known long before Vanguard existed, consistent with
+  `CANON.md`'s existing "Ravenwood encountered Black Vein's effects generations before either
+  Vanguard access point existed" material — without implying anything supernatural.
+
+### Why this matters beyond variety
+
+Beyond avoiding repetition, the puzzles become a teaching structure: the Hotel teaches exploration;
+the Police Station teaches how the town was controlled; the Hospital teaches how Ashen behaves; the
+Foundry teaches where the problem physically came from; the Academy teaches Ravenwood's history;
+the Monastery teaches that Ravenwood's connection to what lies underground predates Vanguard. By
+the time all five crests are returned to Memorial Park, the player has completed five lessons
+preparing them to understand Chapter 3's reveal — not just collected five tokens.
+
+## Direction Log (continued) — consistency and declutter pass (2026-08-14)
+
+> The project owner pointed out that districts were written one by one over several sessions, so
+> earlier ones (Police Station, Hospital, Foundry) don't interlink with later ones (Academy,
+> Monastery, Downtown/Memorial Park) as richly as the later files reference backward — plus a
+> general request for fewer visible development notes and a less "generated" feel across the
+> design documents.
+
+- **Cross-linking audit.** Confirmed the asymmetry: Monastery's outbreak-night material already
+  cross-references the Police Station, Hospital, and Foundry three times each, but those three
+  files only referenced Monastery once each before this pass (now two, for the Police Station,
+  after the Lockdown Puzzle rewrite below added an Interview Room cross-reference). More notably,
+  Downtown Ravenwood and Memorial Park — written last — weren't referenced back from Hospital,
+  Foundry, or Academy at all. Added one natural reciprocal document cross-reference to each: the
+  Foundry's Manager's Office now references the same newspaper clipping Jim reads first at
+  Downtown's library; the Hospital's records desk now has a partial version of City Hall's Carl
+  Hess broadcast; the Academy's registration table now has a torn evacuation map matching City
+  Hall's own crossed-out whiteboard. Not an exhaustive pass — a few well-chosen links rather than
+  forcing every possible connection.
+- **Declutter pass on `Locations/Police_Station.md`, `Hospital.md`, `Foundry_Refinery.md`,
+  `Academy.md`, and `Monastery.md`.** Each file's header previously stacked several multi-paragraph
+  "Revision note" blockquotes (proposal dates, "pending review" tags, what changed and why) directly
+  in the design document itself. Condensed each to a short pointer at this file for full history,
+  since that history already lives here in full. Room-concept image captions were similarly
+  over-explaining generation attempts inline; this pass didn't rewrite all of them, but the Police
+  Station's full rewrite (below) sets the target: a short line describing what the image shows,
+  not a log of how many times it was regenerated.
+- **What this pass did not do:** rewrite any dialogue. The project owner's separate note that
+  Jim's dialogue and NPC voice should read as more natural/less AI-generated is a `Scripts/`-level
+  concern, not a `Locations/`-level one — tracked as its own item in "Things That Still Need
+  Development," below, since it requires reading and rewriting actual scene prose across four
+  large script files rather than restructuring reference documents.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /
@@ -1934,6 +2146,32 @@ or the five districts — none of those chapters have named characters yet.
   (5) decide what unique piece of the outbreak-night chronology the Monastery alone can know, per
   the "outbreak-night chronology as a five-piece jigsaw" idea above, and thread it into the
   not-yet-written Monastery script.
+- **Dialogue/voice naturalism pass** (per "consistency and declutter pass," above, and echoing the
+  narrative-craft review's point about Jim's over-narration) — not yet started. The actual scene
+  prose in `Scripts/Chapter_2_{Police_Station,Hospital,Foundry,Academy}.md` (and eventually the
+  Monastery's future script) should be reviewed line-by-line for dialogue/description that reads
+  as generated rather than written — stilted phrasing, over-explanation, document reactions that
+  just restate what was read — and rewritten to sound like something a specific, tired,
+  frightened person would actually say. This is a large task best scoped per-district rather than
+  attempted in one pass, and should be coordinated with the Jim-over-narration trim already tracked
+  above so the two aren't done twice.
+- **Five Puzzle Philosophies — full script/items implementation** (per the Direction Log entry
+  above; largest remaining structural task). The Police Station's `Locations/` file has been
+  rewritten to the new Lockdown/Route mechanic; Hospital, Foundry, and Academy have their new
+  mechanics specified as approved addenda in their own `Locations/` files but **not yet folded
+  into their Storyline prose**, and none of the four districts' `Scripts/Chapter_2_*.md`
+  scene-by-scene scripts have been rewritten to match yet — they still describe the old key-hunt
+  puzzle in prose form, even where the `Locations/` file no longer does (most acute for the Police
+  Station right now, whose `Locations/` and `Scripts/` files actively disagree until the script is
+  rewritten). Concretely still needed: (1) full narrative rewrite of
+  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md) to the Lockdown/Route
+  mechanic; (2) fold the Hospital/Foundry/Academy addenda into their own `Storyline`/`Blueprint`
+  sections and then their scripts; (3) write the Monastery's full scene-by-scene script directly
+  against the Bell Tower mechanic from the start, since it has no prior script to conflict with;
+  (4) audit `Items/Key_Items/` for items that no longer make sense once a district's puzzle no
+  longer works as a pure key hunt (e.g. the Police Station's per-door keys may partly become
+  console/control-board states instead of physical items — not yet decided which keys survive in
+  some form versus get replaced outright).
 
 ## Audit — [`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx) (uploaded 2026-08-12)
 

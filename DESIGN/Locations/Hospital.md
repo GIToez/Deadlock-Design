@@ -1,41 +1,32 @@
 # St. Dymphna Hospital
 
-> The Northeast District's main location — Medical Crest. Everything below is new (2026-08-13,
-> proposed pending review), written to the same [`CANON.md`](../CANON.md) → "District Main-
-> Location Design Standard" bar as [`Locations/Police_Station.md`](Police_Station.md): a dense,
-> multi-key, backtracking-driven exploration space rather than a short linear pass, targeting
-> roughly 2–3 hours of gameplay. The Hospital Boss (see
-> [`Creatures/Unnamed_Hospital_Boss.md`](../Creatures/Unnamed_Hospital_Boss.md)) and
-> [Maria/Richard Dalton's](../Characters/Maria_Dalton.md) fates were the two pieces of forward
-> reference that existed ahead of the rest of this chapter; both are now integrated below rather
-> than sitting as standalone placeholders.
+> The Northeast District's main location — Medical Crest. Full scene-by-scene script:
+> [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md). Full revision history is in
+> [`STORY_NOTES.md`](../STORY_NOTES.md) rather than duplicated here.
 >
-> **Revision note (2026-08-13, same day):** the district received its full scene-by-scene
-> scripting pass — see the new [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md)
-> (17 scenes), plus new individual [`Items/Key_Items/`](../Items/Key_Items/README.md) writeups (and
-> AI-generated icon concept art) for all seven of this district's key items, closing out the
-> "not yet written" items previously flagged below. This is the second of Chapter 2's five
-> districts to be fully scripted, after the Police Station. Nothing already locked about this
-> district's rooms, puzzles, or fates changed.
+> **Thematic pairing with the Police Station:** both institutions experience the same night from
+> different angles, and their records overlap directly — the same radio calls, the same missing
+> ambulances, the same Highway 13 shutdown, even some of the same named officers. See "Outbreak
+> Night," below, and [`Locations/Police_Station.md`](Police_Station.md) for the crossover documents
+> on both sides. *Police Station — "We followed Vanguard's orders until we realized those orders
+> were killing the town." Hospital — "We tried to save everyone until we realized Vanguard never
+> wanted everyone saved."*
 >
-> **Thematic pairing with the Police Station (per the project owner's explicit direction):** both
-> Chapter 2 institutions experience the same night from different angles, and their records are
-> meant to overlap directly — the same radio calls, the same missing ambulances, the same Highway
-> 13 shutdown, even some of the same named officers. See "Outbreak Night," below, and
-> [`Locations/Police_Station.md`](Police_Station.md) for the crossover documents on both sides.
-> Distinguished thematically as: *Police Station — "We followed Vanguard's orders until we
-> realized those orders were killing the town." Hospital — "We tried to save everyone until we
-> realized Vanguard never wanted everyone saved."*
+> **Puzzle mechanic (locked 2026-08-14): the Quarantine Puzzle.** See "The Quarantine System,"
+> below, and [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies." **Note:** this mechanic is
+> specified here as the target design but not yet folded into the Storyline walkthrough below or
+> into [`Scripts/Chapter_2_Hospital.md`](../Scripts/Chapter_2_Hospital.md), both of which still
+> describe the older key-chain version pending a full rewrite pass.
 
 ## Purpose in the Overall Story
 
-The Northeast District's main "mansion/RPD"-style location, following the same structural rules as
-the Police Station: a central hub (the Emergency Department's triage hall) visibly gates several
-locked doors at once, and reaching the **Medical Crest** requires a genuine multi-key backtracking
-loop across the main hospital building and its three secondary locations. Where the Police Station
-is about a town institution discovering it had been lied to, the Hospital is about a town
-institution discovering it was being actively prevented from doing the one thing it exists to
-do — treat the sick and injured — because Vanguard's actual priority was never public health.
+The Northeast District's main "mansion/RPD"-style location: a central hub (the Emergency
+Department's triage hall) visibly gates several sealed points at once, and reaching the **Medical
+Crest** means mastering the hospital's own emergency isolation system, not assembling a matching
+set of keys. Where the Police Station is about a town institution discovering it had been lied to,
+the Hospital is about a town institution discovering it was being actively prevented from doing the
+one thing it exists to do — treat the sick and injured — because Vanguard's actual priority was
+never public health.
 
 ## Outbreak Night — What Actually Happened (proposed 2026-08-13, pending review)
 
@@ -194,6 +185,28 @@ do — treat the sick and injured — because Vanguard's actual priority was nev
     to find her and come back and tell him what happened.
   - **2+ emblems:** Richard already ran and was killed before Jim arrived. Jim finds his body near
     the Ambulance Bay instead of meeting him alive.
+
+## The Quarantine System
+
+The Medical Crest sits in the hospital's historic chapel/founder's exhibit, on the far side of the
+treatment wing the outbreak forced staff to convert into emergency negative-pressure quarantine —
+and which the automated system sealed for good once things went wrong.
+
+An emergency isolation panel controls five zones: **Air Intake, Isolation Ward, Surgical Wing,
+Decontamination Corridor, Exhaust.** Large analog pressure gauges read green/yellow/red. Two
+incompatible zones can't be open at once — doing so trips `PRESSURE FAILURE — SAFETY INTERLOCK` and
+locks every door on the panel. A dead doctor's own instructions, found near the panel, teach the
+rule the player needs rather than stating it as a puzzle hint: *"Never create a positive-pressure
+path from Isolation into General Care."*
+
+The player creates safe pressure gradients rather than simply opening doors: close General Intake,
+vent Isolation, watch the gauge drop, cross once the door releases, then seal Isolation behind
+Jim and pressurize Surgical to open the next door — each step trapping Jim briefly on the far side
+before the next transition. The mechanic doubles as a horror delivery system: opening a vent can
+reveal something moving in the ductwork; depressurizing a ward can suck plastic isolation curtains
+inward around Jim; sealed observation glass can show something on the other side before that
+section is ever opened. The system itself tells part of the story once solved — the hospital wasn't
+trying to keep something out. It was trying to keep something in.
 
 ## Storyline
 
@@ -533,22 +546,21 @@ flowchart TD
 
 ## Puzzles
 
-- **The E.D. hub.** Four visibly locked/barricaded points (Laboratory, Administration, Surgical
-  Wing, Psychiatric Ward stairwell) are all seen at once before any of them can be opened — same
-  "see the shape of what's left to solve" convention as the Police Station's Bullpen.
-- **The Radiology → Laboratory → Administration key chain.** Each room's key is found in the
-  previous one, a straightforward single-purpose lock-and-key sequence rather than a single
-  do-everything key.
-- **The Medical Arts Building → Surgical Wing chain.** The Surgical Wing Access Card can't be
-  found inside the main hospital at all — it's at a separate secondary building, forcing the
-  player to leave the hospital and come back, the same "backtracking across the whole district is
-  the point" principle as the Police Station's Fire Station → Property Room bolt-cutter chain.
-- **The Vanguard Quarantine Checkpoint → Psychiatric Ward chain (optional).** The Pry Bar needed to
-  force the barricaded stairwell is found at a different secondary building entirely, mirroring
-  the Fire Station chain's structure for the district's other main optional wing.
-- **The Surgical Wing → ICU → Chapel chain.** The Chapel Key — and therefore the Medical Crest
-  itself — is only reachable after clearing the boss encounter and passing through the ICU,
-  keeping the emblem behind the deepest, most-gated point in the district per the design standard.
+- **The Quarantine Puzzle (main, target design — see "The Quarantine System," above).** Reach the
+  Surgical Wing and, beyond it, the Chapel and Medical Crest by managing pressure gradients across
+  five isolation zones rather than collecting keys — sealing one zone to safely open the next,
+  with the Medical Crest still reserved for the deepest, most-gated point in the district.
+- **The Medical Arts Building → Surgical Wing chain.** Still relevant under the new mechanic: a
+  physical component needed at the isolation panel (framed as a backup damper control rather than
+  an access card) is found at a separate secondary building, forcing the player to leave the
+  hospital and come back — same "backtracking across the whole district is the point" principle as
+  the Police Station's Fire Station → Property Room chain.
+- **The Vanguard Quarantine Checkpoint → Psychiatric Ward chain (optional).** Kept as optional
+  content; the Pry Bar needed to force the barricaded stairwell is found at a different secondary
+  building, independent of the main pressure-gradient puzzle.
+- *(Superseded, not yet rewritten below in "Storyline"/"Key Items": the original version of this
+  puzzle was a straightforward Radiology → Laboratory → Administration key chain. That prose and
+  the room-by-room key gating below still reflect it — see the note at the top of this file.)*
 
 ## Key Items
 
@@ -572,6 +584,10 @@ flowchart TD
 
 ### Documents
 
+- **A patched-through recording of Deputy Administrator Carl Hess's emergency broadcast** (Records
+  desk, optional) — the same audio log Jim can find whole at Downtown's City Hall, cut off here
+  mid-sentence by a dead phone line; see
+  [`Locations/Downtown_Ravenwood.md`](Downtown_Ravenwood.md).
 - **Vanguard's V-CASE protocol for hospital staff** (Administration) — *stabilize and isolate
   pending specialist transfer*, with the same underlying classification system as the Police
   Station's V-CASE procedure, given to a different profession with different, medically
