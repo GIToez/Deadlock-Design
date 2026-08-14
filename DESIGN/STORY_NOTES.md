@@ -2299,24 +2299,40 @@ or the five districts — none of those chapters have named characters yet.
   frightened person would actually say. This is a large task best scoped per-district rather than
   attempted in one pass, and should be coordinated with the Jim-over-narration trim already tracked
   above so the two aren't done twice.
-- **Five Puzzle Philosophies — script rewrite (now the single largest remaining task, per the
-  "synchronization pass" audit above).** All five `Locations/` files now fully describe their new
-  puzzle mechanics (Police Station's Storyline was fully rewritten; Hospital, Foundry, and Academy
-  have had their old mandatory key chains removed and replaced with the new mechanics directly in
-  their Storyline sections; the Monastery's Storyline was cleaned the same way). **None of the four
-  districts' `Scripts/Chapter_2_*.md` scene-by-scene scripts have been rewritten to match yet** —
-  they still contain the old key-hunt scene prose. Concretely still needed: (1) full narrative
-  rewrite of all four existing scripts to their new mechanics — Police Station (Lockdown/Route),
-  Hospital (Quarantine/Contain), Foundry (Casting/Operate), Academy (Archive/Understand); (2) write
-  the Monastery's full scene-by-scene script directly against the Bell Tower mechanic and its
-  crest-count-gated deepest section, since it has no prior script to conflict with; (3) audit
-  `Items/Key_Items/` for the several retired keys flagged inline in each `Locations/` file
-  (Hospital's old Laboratory/Administration/Chapel Keys, the Foundry's old Manager's Office Key,
-  the Academy's old Library Key, the Police Station's Armory Key pending a rename) — delete or
-  repurpose their writeups; (4) while rewriting, apply the still-open dialogue/pacing items above
-  (Jim's over-narration trim, his crest-count arc, deliberate messiness in crossovers, the
-  per-district storytelling-material table, and the caution against over-attributing every civic
-  failure to Vanguard).
+- **Five Puzzle Philosophies — script rewrite (in progress; the single largest remaining task, per
+  the "synchronization pass" audit above).** All five `Locations/` files fully describe their new
+  puzzle mechanics. **[`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md)
+  has been rewritten (2026-08-14)** to the Lockdown Puzzle — the security console, the four-zone
+  reset sequence, Diesel promoted to boss-tier (see "Creature Distribution System," below), and a
+  trimmed version of Jim's dialogue consistent with his 0-crest "Survival" arc stage. **Hospital,
+  Foundry, and Academy's scripts still reflect the old key-hunt mechanic** and need the same
+  treatment. Concretely still needed: (1) rewrite `Chapter_2_Hospital.md` to the Quarantine Puzzle,
+  `Chapter_2_Foundry.md` to the Casting Puzzle, and `Chapter_2_Academy.md` to the Archive Puzzle;
+  (2) write the Monastery's full scene-by-scene script directly against the Bell Tower mechanic and
+  its crest-count-gated deepest section, since it has no prior script to conflict with; (3) audit
+  `Items/Key_Items/` for the several retired keys flagged inline in each `Locations/` file — delete
+  or repurpose their writeups (the Police Station's Armory Key is now named "Armory Zone Override"
+  in the rewritten script; its `Items/` file still needs the matching rename); (4) while rewriting
+  each remaining script, apply the still-open dialogue/pacing items above (Jim's over-narration
+  trim, his crest-count arc, deliberate messiness in crossovers, the per-district
+  storytelling-material table, and the caution against over-attributing every civic failure to
+  Vanguard).
+- **Creature Distribution System (locked 2026-08-14).** Per the project owner's direction: every
+  district has Shamblers themed to that location (police uniforms, hospital gowns, work coveralls,
+  shelter clothing, monastic robes), every district's main location has one boss-tier encounter
+  (not just the Hospital), and each district's new creature type unlocks into the wider city as a
+  roaming hazard once discovered, scaling with crest count the same way the Zombie Conglomerate and
+  Jim's own arc do. Bosses assigned: Police Station → **Diesel, the Alpha Ashen Hound** (existing
+  creature, promoted to boss scale); Hospital → **The Surgeon** (already locked); Foundry → **The
+  Foreman** (new — the Exposure Cohort's longest-exposed member, see
+  [`Creatures/Exposure_Cohort.md`](Creatures/Exposure_Cohort.md)); Academy → **The Matron** (new —
+  see [`Creatures/The_Matron.md`](Creatures/The_Matron.md), designed to preserve the district's
+  "people, not a monster" identity despite overriding its earlier "no new creature type" lock);
+  Monastery → **The Penitent** (new — see [`Creatures/The_Penitent.md`](Creatures/The_Penitent.md),
+  a monk sealed away centuries ago, tied directly to the district's own locked pre-Vanguard
+  backstory). The city-wide unlock mechanic itself (detection, spawn rules, how "sparse at first,
+  more often later" actually works) is not yet designed — flagged alongside the Zombie
+  Conglomerate's own open combat/detection gaps.
 
 ## Audit — [`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx) (uploaded 2026-08-12)
 

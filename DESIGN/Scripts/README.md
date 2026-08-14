@@ -38,13 +38,21 @@ owner early on, since earlier source material used a confusing dual "Tab"/"Scene
   Downtown introduction (21 scenes) — the shared entry point before Jim splits off into any of the
   five open-order districts.
 - [`Chapter_2_Police_Station.md`](Chapter_2_Police_Station.md) — the Southwest District/Police
-  Station in full (24 scenes), including its optional Vanguard sub-plot.
+  Station in full (24 scenes), including its optional Vanguard sub-plot. **Rewritten 2026-08-14**
+  to the Lockdown Puzzle mechanic (see [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies") —
+  the only one of the four already-existing district scripts updated so far.
 - [`Chapter_2_Hospital.md`](Chapter_2_Hospital.md) — the Northeast District/St. Dymphna Hospital in
-  full (17 scenes).
+  full (17 scenes). **Still reflects the old key-hunt mechanic** — needs a rewrite to the
+  Quarantine Puzzle; see [`STORY_NOTES.md`](../STORY_NOTES.md) → "Five Puzzle Philosophies —
+  script rewrite."
 - [`Chapter_2_Foundry.md`](Chapter_2_Foundry.md) — the Northwest District/Steelgate Refinery in
-  full (17 scenes).
+  full (17 scenes). **Still reflects the old key-hunt mechanic** — needs a rewrite to the Casting
+  Puzzle.
 - [`Chapter_2_Academy.md`](Chapter_2_Academy.md) — the Southeast District/Worthy Academy in full
-  (17 scenes).
+  (17 scenes). **Still reflects the old key-hunt mechanic** — needs a rewrite to the Archive
+  Puzzle.
+- **Monastery** — no script file yet at all; needs to be written from scratch directly against the
+  Bell Tower Puzzle. See [`Locations/Monastery.md`](../Locations/Monastery.md).
 
 The one remaining district (the Monastery) has a full location-design file in
 [`Locations/`](../Locations/) but no `Scripts/` entry yet — planned as the same kind of standalone
