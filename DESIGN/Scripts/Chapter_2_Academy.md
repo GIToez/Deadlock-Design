@@ -42,9 +42,7 @@ Taped to the doors at eye height: a single sheet of paper.
 
 > *"You heard him."*
 
-No further explanation.
-
-> **JIM:** *"Somebody made a choice and wanted it on the record."*
+No further explanation. Jim looks at it a moment, then keeps moving.
 
 *Interaction prompt: [OPEN DOORS]*
 
@@ -228,7 +226,7 @@ section of the shelter. A chalkboard at the front is covered edge to edge in pla
 > *BUS ONE — DEPARTURE STAGING — 32 CONFIRMED — CHILDREN PAIRED WITH ASSIGNED ADULT — POLICE
 > ESCORT REQUESTED — ROUTE: MEMORIAL PARK VIA MAIN ST*
 
-> **JIM:** *"They actually had a plan. A real one."*
+Jim reads it once, all the way through.
 
 ### Optional — a display of school trophies
 
@@ -316,8 +314,6 @@ carved beside her shoulder.
 > **ELEANOR WORTHY**
 > **FOUNDER**
 > **1887**
-
-> **JIM:** *"Eleanor Worthy. Founder."*
 
 He looks back at the swung-open timeline.
 
@@ -420,9 +416,7 @@ The Principal's Office Key opens a modest office overlooking the front drive.
 > civilians remaining inside. We have children here."* (static) *"Any Ravenwood unit receiving,
 > please respond."* (nothing) *"Anybody?"* (static, then silence)
 
-The recording ends there.
-
-> **JIM:** *"...Somebody heard that. Nobody could get here."*
+The recording ends there. Jim stands in the quiet office for a moment, then keeps moving.
 
 ### Optional — desk drawer
 

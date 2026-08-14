@@ -375,7 +375,7 @@ flowchart TD
     DISPATCH["Records/Dispatch<br/>👤 Sgt. Calloway<br/>🗝️ Chief's Office Key"]
     CHIEF["Chief's Office<br/>📄 lockdown-order logbook"]
     BREAK["Break Room<br/>👤 Cpl. Reyes' locker/photo (optional)"]
-    K9ROOM["🐕 K-9 UNIT ROOM<br/>☠️☠️ Diesel & Baxter — signature encounter<br/>👤 Cpl. Reyes' body<br/>🗝️ Armory zone override"]
+    K9ROOM["🐕 K-9 UNIT ROOM<br/>☠️☠️ boss fight: DIESEL (Alpha) + Baxter<br/>👤 Cpl. Reyes' body<br/>🗝️ Armory zone override"]
     ARMORY["Armory — Zone 3<br/>🔒 resets here; also controls Breezeway<br/>🗝️ Shotgun + Shells"]
     BACKHALL(["Back Hallway"])
     COLE["Detective Cole's Office<br/>📄 hidden investigation<br/>🗝️ Vanguard Access Card"]

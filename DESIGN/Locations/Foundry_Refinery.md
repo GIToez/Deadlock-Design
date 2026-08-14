@@ -517,7 +517,7 @@ flowchart TD
 flowchart TD
     RECORDSREF(["Exposure Records Room<br/>(from Diagram 3)"])
     SHOPSREF(["Machine Shops<br/>(see Diagram 5)"])
-    CHECKPOINT["🔴 SECURITY CHECKPOINT<br/>🔧 reinforced door — needs Cutting Torch<br/>☠️☠️ THE EXPOSURE COHORT — signature pack encounter<br/>🗝️ Boardroom Key"]
+    CHECKPOINT["🔴 SECURITY CHECKPOINT<br/>🔧 reinforced door — needs Cutting Torch<br/>☠️☠️ boss fight: THE FOREMAN + Exposure Cohort<br/>🗝️ Boardroom Key"]
     MINE["Old Mine Workings<br/>📄 1968 survey map (optional)"]
     BOARDROOM["Founder's Boardroom<br/>📄 empty display case + Elias Thorne founding plaque<br/>(Industry Crest already collected, from the Casting Line)"]
     CAVERN["⚠️ THE BLACK VEIN CAVERN<br/>mandatory story beat, no combat<br/>📄 final Foundry broadcast"]
@@ -684,9 +684,8 @@ Memorial any time Jim backtracks to Memorial Park; not forced immediately after 
 
 ## Exit / Progression to Next Area
 
-Once the Industry Crest is collected, the Exposure Cohort defeated, and the Black Vein Cavern
-witnessed, Jim is free to head to any of the remaining districts (Academy, Monastery — Police
-Station and Hospital already covered) in any order.
+Once the Industry Crest is collected, The Foreman and the Exposure Cohort defeated, and the Black
+Vein Cavern witnessed, Jim is free to head to any of the remaining districts in any order.
 
 ## Unresolved Ideas
 

@@ -98,9 +98,7 @@ A clipboard hangs beside the phone, a nurse's handwriting recording her own call
 >
 > *"12:07 AM — Asked why. No answer given."*
 
-The log ends there.
-
-> **JIM:** *"She figured it out faster than most people got the chance to."*
+The log ends there. Jim sets the clipboard back down slowly.
 
 Movement from the gurney — what's restrained there is long past needing restraints.
 
@@ -147,7 +145,7 @@ A yellow legal pad, filled with a manager's shorthand from a phone call.
 > 'Evacuation poses an unacceptable contamination risk.'" / "Asked: contamination risk to who?" /
 > "No answer."*
 
-> **JIM:** *"He asked the right question. Just to the wrong people."*
+Jim sets the pad down without saying anything.
 
 Clipped to a maintenance clipboard beside the notes, easy to overlook: a furnace inspection log,
 listing a specific safe operating pressure range.
@@ -197,7 +195,7 @@ clearly disabled for ordinary plant use.
 >
 > *"VANGUARD INDUSTRIES — SITE ACQUISITION MEMORANDUM — STEELGATE REFINERY — 1968."*
 
-> **JIM:** *"1968. That's not one bad night. That's fifty-some years."*
+> **JIM:** *"...1968."*
 
 ### Optional — the locked filing cabinet
 

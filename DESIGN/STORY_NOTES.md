@@ -2129,6 +2129,46 @@ preparing them to understand Chapter 3's reveal — not just collected five toke
   let some civic failures be genuinely mundane — panic, storm damage, ordinary bad judgment calls —
   so Vanguard reads as opportunistic rather than omniscient.
 
+## Direction Log (continued) — follow-up pass: items audit, dialogue trim, final consistency check (2026-08-14)
+
+> The three items flagged as remaining work after the full script rewrite — see "Five Puzzle
+> Philosophies — script rewrite," above — are now done.
+
+**1. `Items/Key_Items/` audit.** Deleted the retired key writeups whose rooms are now unlocked
+(Laboratory Key, Administration Key, Chapel Key, Manager's Office Key, Academy's Library Key).
+Renamed the repurposed ones to match their new role: "Armory Key" → **Armory Zone
+Override**; "Surgical Wing Access Card" → **Backup Damper Control**. Added a new
+**Isolation Manual Page** item (replacing the old Laboratory Key's pickup beat) and three
+previously-missing Monastery item writeups (**Archive Key**, **Crypt Antechamber Key**, **Faith
+Crest**). Updated `Vanguard_Site_Key.md`, `Bolt_Cutters.md`, `Evidence_Room_Key.md`,
+`Industry_Crest.md`, `Knowledge_Crest.md`, and `Medical_Crest.md` to describe their revised, more
+optional roles. `Items/Key_Items/README.md` fully rewritten to match.
+
+**2. Dialogue/pacing pass.** Trimmed Jim's post-document commentary across all five scripts,
+weighted toward the districts that feel later in a typical playthrough — light cuts to Police
+Station and Hospital (natural early districts, where more talking still fits), heavier cuts to
+Foundry, Academy, and especially Monastery (already written sparse from scratch). Removed lines
+that just repeated a plaque/document the player had already read in full (e.g. Jim saying a
+founder's name and title right after the game already displayed it) at the Police Station,
+Hospital, Foundry, Academy, and Monastery crest rooms alike. Added one concrete "deliberate
+messiness" beat per the earlier narrative-craft review: a badly garbled, never-identified radio
+transmission in the Police Station's Records/Dispatch scene (*"...not a chemical..." / "...Vanguard
+knew..." / "...mine is the..."*, then static) that Jim can't resolve — a transmission that never
+gets through, rather than another clue that pays off. The Academy's existing 1968-vs-mining-activity
+contradiction (left unexplained on purpose) already covered the "two records disagree" case from
+the same review.
+
+**3. Final consistency pass.** Caught and fixed several leftover mermaid-diagram references to
+retired mechanics that the earlier rewrites missed: Monastery's Guest Quarters node still listed a
+"Library Key"; the Foundry's Security Checkpoint and Academy's East Academic Wing diagram nodes
+didn't reflect their new bosses (The Foreman, The Matron); the Monastery's Old Seal diagram
+collapsed the Cave-Touched pack encounter and The Penitent boss into one node with a duplicate,
+conflicting class assignment. Also corrected several `Locations/` files' "Exit / Progression"
+sections, which had hardcoded an assumed visit order ("Jim is free to head to Academy, Monastery —
+Police Station and Hospital already covered") left over from when the districts were designed in
+sequence — these now correctly say "any of the remaining districts in any order," consistent with
+the game's actual open-order design.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /
@@ -2317,20 +2357,21 @@ or the five districts — none of those chapters have named characters yet.
   [`Locations/Monastery.md`](Locations/Monastery.md)). All five rewrites trimmed Jim's dialogue and
   removed the old self-aware "same shape as X, different building" lines the narrative review
   flagged.
-  **Remaining follow-up work, not yet done:** (1) audit `Items/Key_Items/` for the several retired
-  keys flagged inline in each `Locations/` file — delete or repurpose their writeups (Police
-  Station's "Armory Zone Override," Hospital's "Backup Damper Control," Foundry's retired
-  Manager's Office Key, Academy's retired Library Key); (2) a dedicated dialogue/pacing pass across
-  all five scripts applying the narrative-craft review's remaining items in full (Jim's
-  over-narration trim was applied loosely during each rewrite but not measured against the
-  25–35% target precisely; his crest-count arc should be checked scene-by-scene, not just noted in
-  passing; deliberate messiness in crossovers hasn't been added anywhere yet; the per-district
-  storytelling-material table hasn't been audited against final document choices; the caution
-  against over-attributing every civic failure to Vanguard hasn't been specifically checked); (3) a
-  final consistency pass across all five `Locations/` files, checking for the same kind of "two
-  answers for one puzzle" drift caught twice during this pass — five districts redesigned quickly
-  in sequence makes a third undiscovered slip plausible; (4) give the Cave-Touched a proper
-  `Creatures/` file if the Monastery's own bestiary needs more than the current inline description.
+  **Follow-up work status:** items (1) `Items/Key_Items/` audit, (2) dialogue/pacing pass, and (3)
+  final consistency pass across all five `Locations/` files are now done — see "follow-up pass:
+  items audit, dialogue trim, final consistency check," above. **Still not done:** (4) give the
+  Cave-Touched a proper `Creatures/` file if the Monastery's own bestiary needs more than the
+  current inline description; (5) a deeper, scene-by-scene audit of Jim's crest-count arc against
+  [`Characters/Jim_Mercer.md`](Characters/Jim_Mercer.md)'s 0–5 breakdown — the dialogue pass cut
+  redundant lines and weighted the cuts toward later-feeling districts, but didn't write explicit
+  crest-count conditionals into the scripts themselves (only the Monastery's Sealed Passage has
+  one, since that gate is mechanical, not just tonal); (6) more "deliberate messiness" beats beyond
+  the one added to the Police Station — the review asked for a few instances across the whole
+  chapter, and only one new one plus one pre-existing one (the Academy's 1968 contradiction) are
+  confirmed in place; (7) the per-district storytelling-material table (Police =
+  reports/radio/procedure, Hospital = bodies/treatment spaces, Foundry = machinery/belongings,
+  Academy = human remnants/personal notes, Monastery = architecture/murals/old texts) held up on a
+  spot-check during the rewrite but hasn't been formally audited document-by-document.
 - **Creature Distribution System (locked 2026-08-14).** Per the project owner's direction: every
   district has Shamblers themed to that location (police uniforms, hospital gowns, work coveralls,
   shelter clothing, monastic robes), every district's main location has one boss-tier encounter

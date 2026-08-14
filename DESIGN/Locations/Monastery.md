@@ -484,8 +484,8 @@ gating the Faith Crest.
 - The Bell Tower (unlocked; the puzzle itself — ring the four bells in the derived order)
 - Crypt Antechamber (optional; needs Crypt Antechamber Key from Hillside Cemetery; dead end by
   design, not a shortcut)
-- The Old Seal / Crypt Depths (reached once the Bell Tower puzzle opens the altar seal; signature
-  pack encounter)
+- The Old Seal / Crypt Depths (reached once the Bell Tower puzzle opens the altar seal;
+  Cave-Touched pack encounter, then the boss fight against The Penitent)
 - The Reliquary (unlocked once the crypt is reached; FAITH CREST)
 - The Sealed Passage / Old Caves (mandatory story beat, reached past the Reliquary; no lock, no
   combat; final surface-world scene before Chapter 3)
@@ -536,7 +536,7 @@ flowchart TD
 ```mermaid
 flowchart TD
     CHAPELREF(["⛪ Chapel<br/>(from Diagram 1)"])
-    GUEST["Guest Quarters / Infirmary Cell<br/>☠️ signature encounter<br/>🗝️ Library Key"]
+    GUEST["Guest Quarters / Infirmary Cell<br/>☠️ signature encounter<br/>📄 cave map fragment (optional)"]
     SPRING["The Spring / Well Chamber<br/>📄 'the lower water has turned' (optional)"]
 
     CHAPELREF --> GUEST
@@ -581,20 +581,21 @@ flowchart TD
     BELLREF(["🔧 Bell Tower puzzle solved<br/>(from Diagram 3)"])
     CEMETERYREF(["Hillside Cemetery<br/>(see Diagram 5)"])
     ANTECHAMBER["Crypt Antechamber (optional, dead end)<br/>👤 Vanguard's failed excavation attempt"]
-    OLDSEAL["🔴 THE OLD SEAL / CRYPT DEPTHS<br/>☠️☠️ infected via Vanguard's illicit tunnel"]
+    OLDSEAL["THE OLD SEAL / CRYPT DEPTHS<br/>☠️ the Cave-Touched (pack encounter)"]
+    PENITENT["🔴 THE PENITENT'S CHAMBER<br/>☠️☠️ boss fight: THE PENITENT"]
     RELIQUARY["The Reliquary<br/>🗝️ FAITH CREST<br/>📄 founding record"]
     SEALEDPASSAGE["⚠️ THE SEALED PASSAGE / OLD CAVES<br/>mandatory story beat, no combat<br/>📄 'A vein without end'<br/>final surface scene before Chapter 3"]
 
     CEMETERYREF -. Crypt Antechamber Key, optional .-> ANTECHAMBER
-    BELLREF --> OLDSEAL --> RELIQUARY --> SEALEDPASSAGE
+    BELLREF --> OLDSEAL --> PENITENT --> RELIQUARY --> SEALEDPASSAGE
 
     classDef room fill:#EDEBFF,stroke:#7C6EE0,color:#1a1a2e
     classDef boss fill:#FFE0E0,stroke:#C0392B,color:#3a0d0d,stroke-width:2px
     classDef ref fill:#F5F5F5,stroke:#999999,color:#444444,stroke-dasharray:3 3
     classDef vanguard fill:#E0D6EC,stroke:#6A3FA0,color:#2a1a3a,stroke-width:2px
     class BELLREF,CEMETERYREF ref
-    class ANTECHAMBER,RELIQUARY room
-    class OLDSEAL boss
+    class ANTECHAMBER,OLDSEAL,RELIQUARY room
+    class PENITENT boss
     class SEALEDPASSAGE vanguard
 ```
 

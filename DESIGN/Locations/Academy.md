@@ -490,7 +490,7 @@ flowchart TD
     GYMREF3(["🏫 Gymnasium<br/>(from Diagram 1)"])
     FIELDREF(["Athletic Field<br/>(see Diagram 5)"])
     BASEMENT["Maintenance Basement<br/>👤 custodians' last stand<br/>🗝️ Fire Axe"]
-    EASTWING["🔴 EAST ACADEMIC WING / SCIENCE ROOMS<br/>🔧 jammed fire doors — needs Fire Axe<br/>☠️☠️ turned Isolation Wing patients (Shamblers)<br/>🗝️ Principal's Office Key"]
+    EASTWING["🔴 EAST ACADEMIC WING / SCIENCE ROOMS<br/>🔧 jammed fire doors — needs Fire Axe<br/>☠️ Shambler pack, then boss fight: THE MATRON<br/>🗝️ Principal's Office Key"]
     PAOFFICE["PA / Principal's Office<br/>📄 final Academy broadcast<br/>🗝️ Founder's Hall Key"]
     HALL["Founder's Hall<br/>📄 empty case + Ashford's note → points to Library archive<br/>📄 five-founders founding record"]
     CORRIDOR["⚠️ MAINTENANCE ESCAPE CORRIDOR<br/>mandatory story beat once Crest is in hand, no combat<br/>📄 'If they make it out, that's enough'"]
@@ -669,9 +669,9 @@ Memorial any time Jim backtracks to Memorial Park; not forced immediately after 
 
 ## Exit / Progression to Next Area
 
-Once the Knowledge Crest is collected, the East Wing's pack encounter cleared, and the Maintenance
-Escape Corridor witnessed, Jim is free to head to the one remaining district (the Monastery,
-Faith Crest) or backtrack to Memorial Park.
+Once the Knowledge Crest is collected, The Matron defeated, and the Maintenance Escape Corridor
+witnessed, Jim is free to head to any of the remaining districts in any order, or backtrack to
+Memorial Park.
 
 ## Unresolved Ideas
 

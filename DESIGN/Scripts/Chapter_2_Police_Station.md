@@ -173,9 +173,7 @@ Pinned crooked over the corner of the DECEASED column, a printed sheet.
 > 4. DETAIN ANY INDIVIDUAL EXHIBITING CONTAMINATION SYMPTOMS PER STANDING V-CASE PROTOCOL.
 > 5. MAINTAIN RADIO SILENCE REGARDING THE INDUSTRIAL INCIDENT ON ALL OPEN CHANNELS.
 
-Jim lowers the sheet.
-
-> **JIM:** *"...They sealed the town so nothing that happened here would have to leave the room."*
+Jim lowers the sheet without saying anything.
 
 ### Optional — the padlocked Property & Evidence Room door
 
@@ -291,6 +289,18 @@ Calloway doesn't stop him.
 > them." / "We're trying to open Highway 13."* (long static) *"RPD?"* (static) *"Ravenwood Police,
 > please respond."* Nothing.
 
+Another entry, earlier, badly degraded — half the words lost to static rather than a clean
+recording.
+
+> **LOG — UNKNOWN SOURCE, PARTIALLY LOST:**
+>
+> *"...not a chemical..."* (static) *"...Vanguard knew..."* (static) *"...mine is the..."*
+
+Static swallows the rest. No callsign, no timestamp anyone bothered writing down. Jim listens to
+it twice. It doesn't get any clearer the second time.
+
+> **JIM:** *"...Whoever that was, I hope somebody else heard the rest of it."*
+
 A short gap of tape hiss. Then the Chief's final broadcast.
 
 > **LOG — CHIEF'S FINAL BROADCAST, ALL FREQUENCIES:**
@@ -405,9 +415,7 @@ window. A tape recorder sits on the table, red light blinking.
 >
 > **OFFICER (RECORDING):** *"We'll note it. Appreciate you coming in."*
 
-The recording clicks off.
-
-> **JIM:** *"Somebody actually listened. Just didn't do anything with it."*
+The recording clicks off. Jim doesn't say anything.
 
 > *Design note: cross-references the North Ridge animal-death clipping at Downtown's library and
 > the Monastery's own much older archive of the same pattern — see
@@ -448,8 +456,6 @@ Chief's own.
 
 > 11:31 PM — Moved intake here and sealed the block manually. If Vanguard's already inside the
 > building, this is the one room I can still control.
-
-> **JIM:** *"He knew, this early."*
 
 A wall terminal beside the counter reads **ZONE 3 — ARMORY.**
 
@@ -615,7 +621,7 @@ Underneath it: the antique deadbolt door itself, still shut.
 The Old Station Skeleton Key fits it exactly — the mechanism turning over with the heavy resistance
 of a lock that hasn't been used in a long time.
 
-> **JIM:** *"Zone four. Last one Reyes was supposed to close. Guess the Chief finished it for him."*
+> **JIM:** *"...Zone four."*
 
 ---
 
@@ -644,7 +650,8 @@ on a statue in a park two blocks away.
 
 *ITEM ACQUIRED: AUTHORITY CREST*
 
-> **JIM:** *"Marshal Josiah Hale. First peace officer of Ravenwood."*
+He doesn't say anything else. He looks at the wall of photographs behind the case for a moment,
+then turns to go.
 
 ---
 

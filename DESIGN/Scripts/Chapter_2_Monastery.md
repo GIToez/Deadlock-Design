@@ -140,7 +140,7 @@ A folded memorandum, Vanguard letterhead, left behind.
 > *Internal correspondence acknowledging historical monastery records describing regenerative
 > anomalies "consistent with current field observations," dated years before tonight.*
 
-> **JIM:** *"They knew. Before any of this."*
+Jim folds it once and pockets it without saying anything.
 
 Four weathered statues stand at the colonnade's four corners, each facing a different direction.
 
@@ -250,8 +250,6 @@ A relief portrait: a hooded, bearded man. Cast beneath it:
 > **ABBOT MATTHIAS KANE**
 > **FOUNDER**
 > **1887**
-
-> **JIM:** *"Matthias Kane. Founder."*
 
 He looks around the small room once more.
 
@@ -370,7 +368,7 @@ marks — hidden behind ancient masonry.
 
 A failed drill rig, snapped bit still lodged in stone that never gave way.
 
-> **JIM:** *"...Tried to skip the bells entirely. Didn't work."*
+> **JIM:** *"...Nope."*
 
 The room doesn't lead anywhere else. Jim doesn't spend long in it.
 

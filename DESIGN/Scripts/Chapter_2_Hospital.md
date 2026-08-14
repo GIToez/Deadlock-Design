@@ -183,9 +183,7 @@ monitor still on.
 > rather than suppress cellular activity. Requesting authorization for tissue sampling outside
 > Ravenwood — "*
 
-The document ends there, unsent.
-
-> **JIM:** *"Cellular activity accelerates. That's not a disease."*
+The document ends there, unsent. Jim reads the last line again before he moves on.
 
 ### Optional — sample racks
 
@@ -453,8 +451,6 @@ A glass-fronted case beside the portrait — an actual working latch, not brittl
 
 *ITEM ACQUIRED: MEDICAL CREST*
 
-> **JIM:** *"Dr. Nathaniel Voss. Founding physician."*
-
 He looks back at the empty pews.
 
 > **JIM:** *"Hope whatever you built held up better than the building did."*
@@ -528,7 +524,7 @@ A logbook on the counter, checkpoint traffic recorded in a clipped hand.
 > the Highway 13 confrontation: *"Checkpoint requests reinforcement. RPD non-compliant. Advise."*
 > No response logged after that entry.
 
-> **JIM:** *"RPD non-compliant. That's them refusing to fire on their own town."*
+Jim reads it twice before he moves on.
 
 ### Optional — the equipment locker
 

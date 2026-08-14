@@ -673,10 +673,9 @@ Memorial any time Jim backtracks to Memorial Park; not forced immediately after 
 
 ## Exit / Progression to Next Area
 
-Once the Medical Crest is collected, the Surgical Wing boss defeated, and (optionally) the
-Maternity Ward, Psychiatric Ward, and all three secondary locations explored, Jim is free to head
-to any of the remaining districts (Academy, Refinery, Monastery — Police Station already covered)
-in any order.
+Once the Medical Crest is collected, "The Surgeon" defeated, and (optionally) the Maternity Ward,
+Psychiatric Ward, and all three secondary locations explored, Jim is free to head to any of the
+remaining districts in any order.
 
 ## Unresolved Ideas
 
