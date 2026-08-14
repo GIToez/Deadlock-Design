@@ -10,13 +10,15 @@ same convention as the [Authority Crest](Authority_Crest.md).*
 ## Description
 
 A bronze, wedge-shaped medallion bearing a relief portrait of Dr. Nathaniel Voss, his name and
-title, and a serpent-and-staff caduceus emblem. Kept in a glass-fronted case in St. Dymphna Chapel;
-opened with the [Chapel Key](Chapel_Key.md).
+title, and a serpent-and-staff caduceus emblem. Kept in a glass-fronted case in St. Dymphna Chapel,
+unlocked once the ICU is passed — no key of its own (revised 2026-08-14, once the Quarantine
+Puzzle replaced the district's old key chain; the Chapel Key that used to open this case is
+retired).
 
 ## Story Placement
 
 **St. Dymphna Hospital** (Chapter 2) — the Northeast District's founder's emblem (MEDICINE wedge,
 Serpent-Caduceus symbol — see [`CANON.md`](../../CANON.md) → "The Founders & the Five Crests").
-Found in St. Dymphna Chapel's display case; the direct payoff of the district's entire multi-key
-loop. Can be returned to the Founders Memorial any time Jim backtracks to Memorial Park. See
+Found in St. Dymphna Chapel's display case, the direct payoff of the district's Quarantine Puzzle.
+Can be returned to the Founders Memorial any time Jim backtracks to Memorial Park. See
 [`Locations/Hospital.md`](../../Locations/Hospital.md) → "Crest Progression."

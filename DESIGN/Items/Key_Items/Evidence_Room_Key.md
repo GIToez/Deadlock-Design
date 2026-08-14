@@ -15,7 +15,8 @@ Courthouse's Clerk's Exhibit Storage.
 
 ## Story Placement
 
-**Police Station** (Chapter 2) — found in the Property & Evidence Room (opened with
-[Bolt Cutters](Bolt_Cutters.md)); opens the City Courthouse's Clerk's Exhibit Storage (secondary
-location, optional). See [`Locations/Police_Station.md`](../../Locations/Police_Station.md) →
-"Key Items."
+**Police Station** (Chapter 2, optional) — found in the padlocked locker inside the Property &
+Evidence Room (opened with [Bolt Cutters](Bolt_Cutters.md)); opens the City Courthouse's Clerk's
+Exhibit Storage (secondary location, optional). Entirely optional bonus content, not required to
+reach the Authority Crest. See
+[`Locations/Police_Station.md`](../../Locations/Police_Station.md) → "Key Items."
