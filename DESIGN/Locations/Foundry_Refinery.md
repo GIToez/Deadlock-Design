@@ -197,7 +197,10 @@ this table in-game.
 
   ![Loading Yard — room concept](../Assets/Reference/foundry_loading_yard_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift flagged
+  > by the project owner ("the police and hotel are pretty much good, those should be how the
+  > others are rendered") — now a flat 3/4 perspective matching that reference style, and
+  > correctly reads "Steelgate Refinery" throughout the whole regenerated set below.
 - **The Casting Hall (hub).** A vast industrial floor — active conveyor lines, an idle overhead
   crane, and at least one still-molten holding vat, radiating heat and orange light across the
   room. From here, Jim can see several locked/sealed points at once: the **Plant Manager's
@@ -207,7 +210,8 @@ this table in-game.
 
   ![Casting Hall — room concept](../Assets/Reference/foundry_casting_hall_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift — this
+  > render became the district's anchor reference for the rest of the regeneration pass.
 - **The Foundry Clinic.** Small on-site first aid room; a restraint gurney with a single tough
   Shambler-tier encounter (Outbreak Night beat 11's worker, fully turned by the time Jim arrives),
   a wall phone still connected, and the nurse's own log of her calls to the hospital and to
@@ -215,7 +219,7 @@ this table in-game.
 
   ![Foundry Clinic — room concept](../Assets/Reference/foundry_clinic_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift.
 - **The Break Room / Locker Room.** Rows of employee lockers, several forced open, personal
   effects scattered — family photos, half-eaten lunches, a birthday card. One locker, tagged with
   a name matching the exposure-records reveal below, holds a personal note about worsening
@@ -224,9 +228,10 @@ this table in-game.
 
   ![Break Room / Locker Room — room concept](../Assets/Reference/foundry_break_room_concept.png)
 
-  > AI-generated room concept (2026-08-13). Note: the render carried over police-specific set
-  > dressing (badge-shield stickers, a "K9" locker tag) from its style-reference image — non-canonical
-  > for a Foundry locker room and should be ignored/replaced if this room is redrawn.
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift — this
+  > also incidentally fixed the earlier version's non-canonical police-specific set dressing
+  > (badge stickers, a "K9" locker tag); the new render correctly shows industrial worker
+  > effects (hard hats, work gloves, safety vests) instead.
 - **The Plant Manager's Office.** Opened with the Manager's Office Key. Daniel Fitch's own desk:
   the confrontation transcript with the Vanguard liaison (*"Contamination risk to who?"*), the
   intercom control he used to order the evacuation, and the **Restricted Elevator Access Card** —
@@ -234,10 +239,10 @@ this table in-game.
 
   ![Plant Manager's Office — room concept](../Assets/Reference/foundry_managers_office_concept.png)
 
-  > AI-generated room concept (2026-08-13). The desk nameplate correctly reads "D. FITCH — PLANT
-  > MANAGER," but the wall map/photo invented the name "Ravencroft Manufacturing Plant" and a
-  > "May 14, 1987" groundbreaking date — both non-canonical (the facility is Steelgate Refinery,
-  > founded 1887) and should be treated as a generation error, same as similar errors elsewhere.
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift — this
+  > also incidentally fixed the earlier version's wrong "Ravencroft"/wrong-date wall map; the desk
+  > nameplate again correctly reads "D. FITCH — PLANT MANAGER" and the new wall map reads
+  > "Steelgate Refinery" with no invented date.
 - **The Vanguard Site Office.** A separate, out-of-place corporate office within the industrial
   plant — same "incongruous" visual language as the Police Station's Vanguard Liaison Office.
   Opened with the **Vanguard Site Key**, found at the secondary Loading Docks location (see below)
@@ -247,7 +252,7 @@ this table in-game.
 
   ![Vanguard Site Office — room concept](../Assets/Reference/foundry_vanguard_site_office_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift.
 - **The Restricted Elevator.** Card-reader lock; opened with the Access Card from the Manager's
   Office. Descends into the Vanguard-controlled underground levels — the architectural transition
   is immediate and deliberate: industrial brick and steel giving way to sterile reinforced
@@ -255,7 +260,7 @@ this table in-game.
 
   ![Restricted Elevator — room concept](../Assets/Reference/foundry_restricted_elevator_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift.
 - **The Exposure Records Room.** Unlocked once underground. Rows of employee files organized by
   **EXPOSURE COHORT** rather than name or department — blood tests spanning up to twelve years,
   behavioral-change notes, bone-density scans, exposure-duration estimates. This is where Jim (and
@@ -264,7 +269,7 @@ this table in-game.
 
   ![Exposure Records Room — room concept](../Assets/Reference/foundry_exposure_records_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift.
 - **The Research Bay.** Opened with the Research Bay Key. Decontamination equipment, biological
   sampling stations, restraint equipment, and tissue-storage containers — the underground
   counterpart to the Hospital's Laboratory. Also holds the **"SITE LOSS ACCEPTABLE"** internal
@@ -272,7 +277,7 @@ this table in-game.
 
   ![Research Bay — room concept](../Assets/Reference/foundry_research_bay_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift.
 - **The Security Checkpoint.** A reinforced door blocks the passage toward the Lower Processing
   corridor; forcing it requires the **Cutting Torch**, found at the secondary Machine Shops
   location (see below) — a second deliberate district-wide backtrack. Beyond it: this district's
@@ -282,7 +287,7 @@ this table in-game.
 
   ![Security Checkpoint — room concept](../Assets/Reference/foundry_security_checkpoint_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift.
 - **The Old Mine Workings** (optional detour off the Lower Processing corridor). Older, rougher
   tunnels than the rest of the underground level — the "structurally unsafe" sections from
   Outbreak Night beat 1. Optional supplies and a faded 1968-dated survey map showing the earliest
@@ -290,7 +295,7 @@ this table in-game.
 
   ![Old Mine Workings — room concept](../Assets/Reference/foundry_old_mine_workings_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift.
 - **The Founder's Boardroom.** Opened with the Boardroom Key. A small, incongruously formal room
   this deep underground — a long table, portraits of past Refinery leadership, and a display case
   holding the **Industry Crest**: a bronze, wedge-shaped medallion bearing a relief portrait of
@@ -299,11 +304,12 @@ this table in-game.
 
   ![Founder's Boardroom — room concept](../Assets/Reference/foundry_boardroom_concept.png)
 
-  > AI-generated room concept (2026-08-13). Note: the portrait nameplates rendered as "Henry
-  > Caldwell," "Amos Briggs," "Edward Halliday," "Margaret Devlin," and "Jonas Ward" — none of these
-  > is the canonical founder name (**Elias Thorne**, per [`CANON.md`](../CANON.md)). Treat these as
-  > generic past-leadership portraits, not Thorne himself, until/unless this room is redrawn with
-  > the correct name.
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift. Note:
+  > the portrait/plaque nameplates still rendered wrong names ("W. H. Hargrove," "A. M. Dunham,"
+  > "R. P. Caldwell," "E. J. Whitmore," "J. T. Halsey," "M. L. Carter," "H. V. Brennan,"
+  > "L. K. Rowan") — none of these is the canonical founder name (**Elias Thorne**, per
+  > [`CANON.md`](../CANON.md)). Treat these as generic past-leadership portraits, not Thorne
+  > himself, until/unless this room is redrawn with the correct name.
 - **The Black Vein Cavern.** Past the Boardroom, a short passage where all human construction
   gradually stops — reinforced concrete gives way to older mine tunnel, then bare rock, then a
   natural cave threshold. Beyond it: Black Vein itself, not contained in any lab or vessel, running
@@ -314,28 +320,29 @@ this table in-game.
 
   ![Black Vein Cavern — room concept](../Assets/Reference/foundry_black_vein_cavern_concept.png)
 
-  > AI-generated room concept (2026-08-13). Note: per [`CANON.md`](../CANON.md) → "Origin of the
-  > Outbreak," this cave system is **not** physically connected to Chapter 3's facility beneath
-  > Memorial Park — Vanguard deliberately compartmentalized the two access points. This room is a
-  > foreshadowing gut-punch, not a shortcut past Chapter 3.
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift. Note:
+  > per [`CANON.md`](../CANON.md) → "Origin of the Outbreak," this cave system is **not**
+  > physically connected to Chapter 3's facility beneath Memorial Park — Vanguard deliberately
+  > compartmentalized the two access points. This room is a foreshadowing gut-punch, not a
+  > shortcut past Chapter 3.
 - **The Machine Shops** (secondary, load-bearing). A separate workshop building; the **Cutting
   Torch** needed to force the Security Checkpoint is found here, mid-repair on a workbench.
 
   ![Machine Shops — room concept](../Assets/Reference/foundry_machine_shops_concept.png)
 
-  > AI-generated room concept (2026-08-13). Note: wall sign reads "Ravencroft Machine Shop" — a
-  > recurring AI naming-generation error (see the same "Ravencroft" mistake previously flagged and
-  > corrected at the Police Station's Municipal Garage); the district is Ravenwood, not Ravencroft.
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift — this
+  > also incidentally fixed the earlier version's "Ravencroft" naming error; the new sign
+  > correctly reads "Steelgate Machine Shop."
 - **The Loading Docks** (secondary, load-bearing). A separate cargo/shipping building; the
   **Vanguard Site Key** needed to open the Vanguard Site Office is found here, alongside shipment
   manifests confirming the "refrigerated transport trucks" workers noticed for years.
 
   ![Loading Docks — room concept](../Assets/Reference/foundry_loading_docks_concept.png)
 
-  > AI-generated room concept (2026-08-13). Notes: (1) wall sign reads "Ravencroft Shipping" — the
-  > same recurring "Ravencroft" naming error flagged elsewhere; (2) the render depicts an ambulance
-  > backed into a bay rather than the "refrigerated transport truck" described in the text — treat
-  > the vehicle type as a generation error, not a canon detail.
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift — this
+  > also incidentally fixed both earlier flagged errors: the sign now correctly reads "Steelgate
+  > Shipping," and a refrigerated transport truck ("COLD HAUL") is backed into the bay instead of
+  > an ambulance.
 - **The Rail Yard** (secondary, optional). Tracks leading directly into the mountainside — per the
   district's own established city-map detail, Black Vein's original entry point, predating even
   the Foundry's 1968 excavation. Optional lore/loot; a rusted 1968-dated rail car still sits at the
@@ -343,9 +350,9 @@ this table in-game.
 
   ![Rail Yard — room concept](../Assets/Reference/foundry_rail_yard_concept.png)
 
-  > AI-generated room concept (2026-08-13). Note: sign reads "Ravencroft Rail Yard" — same recurring
-  > naming error flagged above; otherwise a strong match for the tunnel-into-the-mountain / sealed
-  > boxcar description.
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift — this
+  > also incidentally fixed the earlier "Ravencroft" naming error; the sign now correctly reads
+  > "Steelgate Rail Yard."
 
 ## Important Rooms / Areas
 

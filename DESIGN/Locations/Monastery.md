@@ -269,7 +269,9 @@ understands nearly the entire surface-level history of Ravenwood's catastrophe:
 
   ![Monastery Gate / Approach — room concept](../Assets/Reference/monastery_gate_approach_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept (2026-08-13; regenerated 2026-08-14 to fix a full-isometric style
+  > drift flagged by the project owner — now a flat, painterly landscape view matching the
+  > Police Station/Hotel reference style).
 - **The Chapel (hub).** Civilians and injured; pews pushed aside for makeshift cots, candles burned
   down to stubs, and a Vanguard decontamination station incongruously installed beneath a
   centuries-old side staircase. From here, Jim can see the Library/Archive (locked), the Cloister
@@ -279,10 +281,13 @@ understands nearly the entire surface-level history of Ravenwood's catastrophe:
 
   ![Chapel — room concept](../Assets/Reference/monastery_chapel_concept.png)
 
-  > AI-generated room concept (2026-08-13). Non-canonical generation error: the render carried over
-  > a "Dr. Edward Halloway" portrait/plaque and a caduceus stained-glass window from its Hospital
-  > style-reference image — both belong to [`Locations/Hospital.md`](Hospital.md), not this
-  > location; ignore that portrait, plaque, and window design.
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift flagged
+  > by the project owner ("the police and hotel are pretty much good, those should be how the
+  > others are rendered") — this render replaced the original 2026-08-13 version and became the
+  > new anchor reference for the rest of this district's regeneration pass. Correctly shows the
+  > Vanguard decontamination station beneath the side staircase, pews-as-cots, and candles; the
+  > earlier version's non-canonical Hospital-style-reference carryover (a "Dr. Edward Halloway"
+  > portrait and caduceus stained glass) is gone.
 - **Guest Quarters / Infirmary Cell.** Open from the Chapel. Where the injured Foundry worker was
   sheltered — this district's signature single encounter (fully turned by the time Jim arrives).
   Torn bedsheets used as improvised restraints, a scattered cave map with a circled tunnel
@@ -290,14 +295,16 @@ understands nearly the entire surface-level history of Ravenwood's catastrophe:
 
   ![Guest Quarters / Infirmary Cell — room concept](../Assets/Reference/monastery_guest_quarters_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift flagged
+  > by the project owner — now a flat 3/4 perspective matching the Police Station/Hotel reference.
 - **The Spring / Well Chamber.** Open from the Chapel, optional. The monastery's original natural
   spring, now running dark with mineral sediment — the literal "the lower water has turned"
   moment. No key items; pure environmental storytelling.
 
   ![Spring / Well Chamber — room concept](../Assets/Reference/monastery_spring_well_chamber_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift flagged
+  > by the project owner — now a flat 3/4 perspective matching the Police Station/Hotel reference.
 - **Library / Archive.** Opened with the Library Key. The monastery's Vanguard-accessible archive —
   cave maps, burial records, and correspondence between earlier abbots — plus a clue toward a
   hidden entrance whose actual key is not here, but at the secondary Overlook Trail location (see
@@ -305,7 +312,8 @@ understands nearly the entire surface-level history of Ravenwood's catastrophe:
 
   ![Library / Archive — room concept](../Assets/Reference/monastery_library_archive_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift flagged
+  > by the project owner — now a flat 3/4 perspective matching the Police Station/Hotel reference.
 - **The Hidden Archive.** Opened with the **Archive Key**, found at Overlook Trail. Brother
   Cormac's secret collection: original cave maps, drawings of abnormal bone growth, livestock
   deformity records, and the "the stone does not restore what is lost" document. The **Cloister
@@ -313,7 +321,10 @@ understands nearly the entire surface-level history of Ravenwood's catastrophe:
 
   ![Hidden Archive — room concept](../Assets/Reference/monastery_hidden_archive_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift. Two
+  > non-canonical generation errors: it baked in an unprompted "MONASTERY HIDDEN ARCHIVE / Brother
+  > Cormac's Secret Collection / OF FORBIDDEN RECORDS" caption card and a "DON GABRIEL MUSEUM"
+  > door sign — ignore both; this room has no such signage.
 - **The Cloister.** Opened with the Cloister Key. The police's defensive position during the
   Vanguard standoff (beats 18–20) — sandbags, a barricaded colonnade, spent shell casings, and the
   old Vanguard memorandum the monk handed the responding officer. The **Bell Tower Key** is found
@@ -321,14 +332,16 @@ understands nearly the entire surface-level history of Ravenwood's catastrophe:
 
   ![Cloister — room concept](../Assets/Reference/monastery_cloister_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift flagged
+  > by the project owner — now a flat 3/4 perspective matching the Police Station/Hotel reference.
 - **The Bell Tower.** Opened with the Bell Tower Key. The radio/observation room and the bells
   themselves — rope-pull mechanism, a view across the whole ridge and burning town below, and a
   logbook entry describing the emergency ringing pattern used in beat 26.
 
   ![Bell Tower — room concept](../Assets/Reference/monastery_bell_tower_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift flagged
+  > by the project owner — now a flat 3/4 perspective matching the Police Station/Hotel reference.
 - **Crypt Antechamber.** Locked; opened with the **Crypt Antechamber Key**, found at the secondary
   Hillside Cemetery location (see below) — a second deliberate district-wide backtrack. Modern
   Vanguard equipment hidden behind ancient masonry: cables, sensors, drilling marks — the
@@ -337,7 +350,8 @@ understands nearly the entire surface-level history of Ravenwood's catastrophe:
 
   ![Crypt Antechamber — room concept](../Assets/Reference/monastery_crypt_antechamber_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift flagged
+  > by the project owner — now a flat 3/4 perspective matching the Police Station/Hotel reference.
 - **The Old Seal / Crypt Depths.** Forced open with the Breaching Tool. This district's signature
   pack encounter — infected that reached the monastery through Vanguard's own illicit tunnel
   connection to the wider cave network (see "Creatures Encountered," below, for the deliberately
@@ -346,7 +360,8 @@ understands nearly the entire surface-level history of Ravenwood's catastrophe:
 
   ![The Old Seal / Crypt Depths — room concept](../Assets/Reference/monastery_old_seal_crypt_depths_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift flagged
+  > by the project owner — now a flat 3/4 perspective matching the Police Station/Hotel reference.
 - **The Reliquary.** Opened with the Reliquary Key. A small, dignified sacred chamber housing
   relics and the monastery's own founding record. A reliquary case holds the **Faith Crest**: a
   bronze, wedge-shaped medallion bearing a relief portrait of **Abbot Matthias Kane**, his name
@@ -355,7 +370,10 @@ understands nearly the entire surface-level history of Ravenwood's catastrophe:
 
   ![The Reliquary — room concept](../Assets/Reference/monastery_reliquary_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift.
+  > Non-canonical generation error: the display plaque reads "ABBOT MATTHEW, FOUNDER, A.D. 1157" —
+  > this district's locked founder is **Abbot Matthias Kane**, chartering the modern order in
+  > **1887** (see [`CANON.md`](../CANON.md)); ignore the render's name and date.
 - **The Sealed Passage / Old Caves.** Past the Reliquary, a further descent into the oldest sealed
   section — the mandatory, non-combat climax, reached only after the Faith Crest is already in
   hand, deliberately placed after the gameplay reward rather than gating it, same convention as the
@@ -365,7 +383,8 @@ understands nearly the entire surface-level history of Ravenwood's catastrophe:
 
   ![The Sealed Passage / Old Caves — room concept](../Assets/Reference/monastery_sealed_passage_old_caves_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift flagged
+  > by the project owner — now a flat 3/4 perspective matching the Police Station/Hotel reference.
 - **Hillside Residential Street** (secondary, optional). Per
   [`STORY_NOTES.md`](../STORY_NOTES.md)'s earlier city-layout notes: an unsent letter warning the
   monastery about Black Vein, and a deliberate quiet emotional beat — a calm, living dog on a
@@ -373,7 +392,8 @@ understands nearly the entire surface-level history of Ravenwood's catastrophe:
 
   ![Hillside Residential Street — room concept](../Assets/Reference/monastery_hillside_residential_street_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift flagged
+  > by the project owner — now a flat 3/4 perspective matching the Police Station/Hotel reference.
 - **Hillside Cemetery** (secondary, load-bearing). Per
   [`STORY_NOTES.md`](../STORY_NOTES.md)'s earlier city-layout notes: disturbed graves and one very
   recent unmarked grave — dug specifically to hide something. The **Crypt Antechamber Key** is
@@ -381,10 +401,9 @@ understands nearly the entire surface-level history of Ravenwood's catastrophe:
 
   ![Hillside Cemetery — room concept](../Assets/Reference/monastery_hillside_cemetery_concept.png)
 
-  > AI-generated room concept (2026-08-13). Non-canonical generation error: the entry sign reads
-  > "Steelgate Cemetery, Est. 1887" — Steelgate is the Foundry's own name (see
-  > [`Locations/Foundry_Refinery.md`](Foundry_Refinery.md)), unrelated to this hillside cemetery;
-  > ignore the sign text.
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift flagged
+  > by the project owner — this also incidentally fixed the earlier version's non-canonical
+  > "Steelgate Cemetery" sign error; the new render correctly reads "Hillside Cemetery."
 - **Overlook Trail** (secondary, load-bearing). Per [`STORY_NOTES.md`](../STORY_NOTES.md)'s earlier
   city-layout notes: a quiet vista of the whole burning city, reframing the disaster's scale for
   the player. A monk who died fleeing with documents lies along the trail; the **Archive Key** is
@@ -392,7 +411,8 @@ understands nearly the entire surface-level history of Ravenwood's catastrophe:
 
   ![Overlook Trail — room concept](../Assets/Reference/monastery_overlook_trail_concept.png)
 
-  > AI-generated room concept (2026-08-13).
+  > AI-generated room concept, regenerated 2026-08-14 to fix a full-isometric style drift flagged
+  > by the project owner — now a flat 3/4 perspective matching the Police Station/Hotel reference.
 
 ## Important Rooms / Areas
 
