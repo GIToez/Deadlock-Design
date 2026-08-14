@@ -2301,25 +2301,31 @@ or the five districts — none of those chapters have named characters yet.
   above so the two aren't done twice.
 - **Five Puzzle Philosophies — script rewrite (in progress; the single largest remaining task, per
   the "synchronization pass" audit above).** All five `Locations/` files fully describe their new
-  puzzle mechanics. **Two of four existing scripts rewritten so far (2026-08-14):**
+  puzzle mechanics. **Three of four existing scripts rewritten so far (2026-08-14):**
   [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md) to the Lockdown
-  Puzzle (security console, four-zone reset sequence, Diesel promoted to boss-tier), and
-  [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md) to the Quarantine Puzzle (the
-  isolation control panel, the torn manual page + backup damper control gathering loop, the
-  pressure-gradient sequence into the Surgical Wing). Both trimmed Jim's dialogue and removed the
-  old self-aware "same shape as the station, different building" line the narrative review flagged.
-  **Foundry and Academy's scripts still reflect the old key-hunt mechanic.** Concretely still
-  needed: (1) rewrite `Chapter_2_Foundry.md` to the Casting Puzzle and `Chapter_2_Academy.md` to
-  the Archive Puzzle; (2) write the Monastery's full scene-by-scene script directly against the
-  Bell Tower mechanic and its crest-count-gated deepest section, since it has no prior script to
-  conflict with; (3) audit `Items/Key_Items/` for the several retired keys flagged inline in each
-  `Locations/` file — delete or repurpose their writeups (the Police Station's Armory Key is now
-  "Armory Zone Override," the Hospital's Surgical Wing Access Card is now "Backup Damper Control,"
-  in their rewritten scripts; their `Items/` files still need matching renames); (4) while
-  rewriting each remaining script, apply the still-open dialogue/pacing items above (Jim's
-  over-narration trim, his crest-count arc, deliberate messiness in crossovers, the per-district
-  storytelling-material table, and the caution against over-attributing every civic failure to
-  Vanguard).
+  Puzzle, [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md) to the Quarantine
+  Puzzle, and [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md) to the Casting Puzzle
+  (furnace pressure log + crane override gathering loop, the four-stage line operation, The
+  Foreman promoted to boss-tier alongside the Exposure Cohort). The Foundry rewrite also fixed a
+  contradiction introduced during the puzzle-design pass itself: the Industry Crest had ended up
+  described in two places at once (the seized mold, per the new puzzle, and the Founder's
+  Boardroom's display case, per older unedited text) — the Boardroom's case is now explicitly
+  empty, with the crest coming only from the Casting Line. All three rewrites trimmed Jim's
+  dialogue and removed the old self-aware "same shape as the station/hospital, different building"
+  lines the narrative review flagged. **Academy's script still reflects the old key-hunt
+  mechanic.** Concretely still needed: (1) rewrite `Chapter_2_Academy.md` to the Archive Puzzle;
+  (2) write the Monastery's full scene-by-scene script directly against the Bell Tower mechanic and
+  its crest-count-gated deepest section, since it has no prior script to conflict with; (3) audit
+  `Items/Key_Items/` for the several retired keys flagged inline in each `Locations/` file — delete
+  or repurpose their writeups (Police Station's "Armory Zone Override," Hospital's "Backup Damper
+  Control," Foundry's retired Manager's Office Key — their `Items/` files still need matching
+  updates); (4) while rewriting each remaining script, apply the still-open dialogue/pacing items
+  above (Jim's over-narration trim, his crest-count arc, deliberate messiness in crossovers, the
+  per-district storytelling-material table, and the caution against over-attributing every civic
+  failure to Vanguard); (5) **do a final consistency pass across all rewritten `Locations/` files
+  once every script is done**, checking for the same kind of "two answers for one puzzle" drift
+  just caught in the Foundry — the puzzle-design pass moved fast across five districts and this is
+  unlikely to be the only such slip.
 - **Creature Distribution System (locked 2026-08-14).** Per the project owner's direction: every
   district has Shamblers themed to that location (police uniforms, hospital gowns, work coveralls,
   shelter clothing, monastic robes), every district's main location has one boss-tier encounter

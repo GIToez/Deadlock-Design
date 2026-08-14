@@ -43,8 +43,9 @@ owner early on, since earlier source material used a confusing dual "Tab"/"Scene
 - [`Chapter_2_Hospital.md`](Chapter_2_Hospital.md) — the Northeast District/St. Dymphna Hospital in
   full (19 scenes). **Rewritten 2026-08-14** to the Quarantine Puzzle mechanic.
 - [`Chapter_2_Foundry.md`](Chapter_2_Foundry.md) — the Northwest District/Steelgate Refinery in
-  full (17 scenes). **Still reflects the old key-hunt mechanic** — needs a rewrite to the Casting
-  Puzzle.
+  full (19 scenes). **Rewritten 2026-08-14** to the Casting Puzzle mechanic — also fixes an
+  internal contradiction where the Industry Crest was previously described in two places at once
+  (the seized mold and the Founder's Boardroom's display case, now empty).
 - [`Chapter_2_Academy.md`](Chapter_2_Academy.md) — the Southeast District/Worthy Academy in full
   (17 scenes). **Still reflects the old key-hunt mechanic** — needs a rewrite to the Archive
   Puzzle.

@@ -341,10 +341,13 @@ underneath it.
   > AI-generated room concept, regenerated 2026-08-14 (twice, same flat-camera correction as
   > above); the survey map shown is dated 1968, matching canon, with no invented names.
 - **The Founder's Boardroom.** Opened with the Boardroom Key. A small, incongruously formal room
-  this deep underground — a long table, portraits of past Refinery leadership, and a display case
-  holding the **Industry Crest**: a bronze, wedge-shaped medallion bearing a relief portrait of
-  **Elias Thorne**, his name and title, and an anvil emblem. The direct payoff of this district's
-  entire loop, matching the Old Station House and St. Dymphna Chapel convention exactly.
+  this deep underground — a long table, portraits of past Refinery leadership, and a glass display
+  case, empty, its felt backing showing the wedge-shaped outline of what used to sit there. A small
+  founding plaque beside it names **Elias Thorne**, his title, and an anvil emblem — the Industry
+  Crest itself isn't here anymore; per "The Casting Line," above, it's already in Jim's hands by
+  the time he reaches this room, freed from the seized mold back at the Casting Hall rather than
+  found behind glass down here. Reaching this room is still worthwhile — Thorne's own history, and
+  the direct route to the Black Vein Cavern beyond it.
 
   ![Founder's Boardroom — room concept](../Assets/Reference/foundry_boardroom_concept.png)
 
@@ -419,7 +422,8 @@ underneath it.
 - Security Checkpoint (reinforced door; needs Cutting Torch from the Machine Shops; Exposure
   Cohort pack encounter; Boardroom Key)
 - Old Mine Workings (optional; off the Lower Processing corridor)
-- Founder's Boardroom (locked; needs Boardroom Key; INDUSTRY CREST)
+- Founder's Boardroom (locked; needs Boardroom Key; empty display case — the Industry Crest is
+  already collected by this point, from the Casting Line puzzle)
 - The Black Vein Cavern (mandatory story beat, reached past the Boardroom; no lock, no combat)
 
 **Secondary Locations (district, not the main plant):**
@@ -515,7 +519,7 @@ flowchart TD
     SHOPSREF(["Machine Shops<br/>(see Diagram 5)"])
     CHECKPOINT["🔴 SECURITY CHECKPOINT<br/>🔧 reinforced door — needs Cutting Torch<br/>☠️☠️ THE EXPOSURE COHORT — signature pack encounter<br/>🗝️ Boardroom Key"]
     MINE["Old Mine Workings<br/>📄 1968 survey map (optional)"]
-    BOARDROOM["Founder's Boardroom<br/>🗝️ INDUSTRY CREST<br/>📄 Elias Thorne founding plaque"]
+    BOARDROOM["Founder's Boardroom<br/>📄 empty display case + Elias Thorne founding plaque<br/>(Industry Crest already collected, from the Casting Line)"]
     CAVERN["⚠️ THE BLACK VEIN CAVERN<br/>mandatory story beat, no combat<br/>📄 final Foundry broadcast"]
 
     SHOPSREF -. Cutting Torch .-> RECORDSREF
@@ -599,7 +603,8 @@ flowchart TD
 - **Boardroom Key** ([full item writeup](../Items/Key_Items/Boardroom_Key.md)) — dropped after
   clearing the Exposure Cohort at the Security Checkpoint; opens the Founder's Boardroom.
 - **Industry Crest** ([full item writeup](../Items/Key_Items/Industry_Crest.md)) — the district's
-  founder's emblem; Founder's Boardroom display case.
+  founder's emblem; freed from the seized mold carriage by the Casting Line puzzle, at the Casting
+  Hall — not the Founder's Boardroom, whose display case is now empty.
 
 > The former Manager's Office Key is retired now that the office is unlocked; its
 > `Items/Key_Items/` writeup should be deleted or repurposed in a future pass — not yet done here.
@@ -657,8 +662,10 @@ flowchart TD
   Office, Vanguard Site Office, and Restricted Elevator, then running the Casting Line puzzle to
   free the Industry Crest's mold and open the way underground.
 - Finding the EXPOSURE COHORTS records and realizing the "health program" was surveillance.
-- The Machine Shops → Security Checkpoint backtrack, culminating in the Exposure Cohort fight.
-- Retrieving the Industry Crest from the Founder's Boardroom.
+- The Machine Shops → Security Checkpoint backtrack, culminating in the boss fight against The
+  Foreman and the rest of the Exposure Cohort.
+- Reaching the Founder's Boardroom and finding Elias Thorne's history — and the empty case where
+  the crest used to sit.
 - The mandatory, non-combat Black Vein Cavern reveal — the location's true climax, occurring after
   the crest is already collected.
 
