@@ -1,7 +1,8 @@
 # Our Lady of Solace Monastery
 
-> The North District's main location — Faith Crest. Not yet scripted scene-by-scene — see
-> [`STORY_NOTES.md`](../STORY_NOTES.md) for full background/history.
+> The North District's main location — Faith Crest. Full scene-by-scene script:
+> [`Scripts/Chapter_2_Monastery.md`](../Scripts/Chapter_2_Monastery.md). Full revision history is
+> in [`STORY_NOTES.md`](../STORY_NOTES.md) rather than duplicated here.
 >
 > **Open-order exception (locked 2026-08-14):** the Monastery is mechanically open-order like the
 > other four districts — Jim can visit it first, last, or anywhere between, explore most of it, and
@@ -399,10 +400,9 @@ gating the Faith Crest.
   > matches the elevated 3/4 top-down camera and diamond floor pattern of the reference style.
 - **The Old Seal / Crypt Depths.** Reached once the Bell Tower's stone seal retracts beneath the
   altar — no tool, no key, just the mechanism Jim solved. This district's signature pack
-  encounter — infected that reached the monastery through Vanguard's own illicit tunnel connection
-  to the wider cave network (see "Creatures Encountered," below, for the deliberately open question
-  of exactly which). Generations-old warning inscriptions and sealed burial niches line the way to
-  the Reliquary beyond.
+  encounter — the Cave-Touched (see "Creatures Encountered," below), who reached the monastery
+  through Vanguard's own illicit tunnel connection to the wider cave network. Generations-old
+  warning inscriptions and sealed burial niches line the way to the Reliquary beyond.
 
   ![The Old Seal / Crypt Depths — room concept](../Assets/Reference/monastery_old_seal_crypt_depths_concept.png)
 
@@ -631,13 +631,17 @@ flowchart TD
 
 ## Creatures Encountered
 
-- **[Shamblers](../Creatures/Shambler.md)**, themed to the monastery (monastic robes) — the
-  approach to the Old Seal / Crypt Depths; infected that reached the monastery via Vanguard's
-  illicit tunnel from the Foundry side.
+- **The Cave-Touched** (resolved 2026-08-14) — this district's standard-tier new creature, per
+  [`CANON.md`](../CANON.md) → "Creature Distribution System": infected who wandered into the wider
+  cave network and were changed by direct proximity to exposed Black Vein rather than a Vanguard
+  facility or a bite — faint mineral-streaked skin, unusually calm and settled movement, a lesser,
+  earlier echo of what centuries of the same exposure eventually made of The Penitent. Encountered
+  in a small group approaching the Old Seal / Crypt Depths, reached through Vanguard's own illicit
+  tunnel connection to the wider network. Once encountered here, standard-tier Cave-Touched can
+  begin appearing as a roaming hazard elsewhere in Ravenwood, same as every other district's
+  creature.
 - **[The Penitent](../Creatures/The_Penitent.md)** — the district's boss, in the Old Seal / Crypt
-  Depths, beyond the Shambler approach. This district's own *standard-tier* new creature (distinct
-  from The Penitent, per [`CANON.md`](../CANON.md)'s city-unlock system) is still undecided — see
-  "Unresolved Ideas," below.
+  Depths, beyond the Cave-Touched approach.
 
 ## Puzzles
 
@@ -746,17 +750,19 @@ fifth, drains the basin, and descends the revealed staircase — beginning Chapt
 - Neither of the two optional key items above has an individual `Items/Key_Items/` writeup yet —
   proposed as a future pass alongside the still-pending `Items/` audits for the Hospital, Foundry,
   and Academy.
-- **Resolved (2026-08-14):** the district's boss is [The Penitent](../Creatures/The_Penitent.md).
-  Still open: this district's own *standard-tier* new creature that unlocks into the city-wide
-  roaming-hazard system (per [`CANON.md`](../CANON.md)) — every other district has one distinct
-  from its boss (Ashen Hounds, Broodlings, Exposure Cohort members); the Monastery doesn't yet.
+- ~~Whether this district has a standard-tier new creature distinct from its boss.~~ **Resolved
+  (2026-08-14):** the district's boss is [The Penitent](../Creatures/The_Penitent.md), and its
+  standard-tier creature is the Cave-Touched (see "Creatures Encountered," above) — no dedicated
+  `Creatures/` file yet, unlike the other four districts' own new creatures; a future pass should
+  give it one if it needs more mechanical detail than described inline here.
 - Whether Brother Cormac deserves his own dedicated `Characters/` file (matching Aaron Cole's
   treatment) rather than being described only within this location file — not done here, consistent
   with how Fitch, Ashford, the Police Station's Chief, and the Hospital's Liaison were also left
   undocumented outside their own location files.
-- Full scene-by-scene scripting into a `Scripts/` file — everything above is at the
-  location-design/prose level, matching where the Foundry, Hospital, and Academy stood before
-  their own (still-pending) scripting passes.
+- ~~Full scene-by-scene scripting into a `Scripts/` file.~~ **Resolved (2026-08-14):** see
+  [`Scripts/Chapter_2_Monastery.md`](../Scripts/Chapter_2_Monastery.md), 17 scenes, written
+  directly against the Bell Tower Puzzle and the crest-count-gated Sealed Passage — the fifth and
+  final district to receive a full script.
 - The reconciliation between Abbot Matthias Kane's 1887 founder credit and the monastery/cave
   system's much older, unspecified original age is flagged in [`CANON.md`](../CANON.md) — the
   exact "how old is the pre-1887 monastery" question is left deliberately vague rather than

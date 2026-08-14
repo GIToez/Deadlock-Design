@@ -26,10 +26,13 @@ owner early on, since earlier source material used a confusing dual "Tab"/"Scene
 > district route passes through first.
 >
 > **Convention, locked 2026-08-14:** every scene with a matching room-concept image in its
-> `Locations/` file now embeds that same image directly, right after the scene header — see
+> `Locations/` file embeds that same image directly, right after the scene header — see
 > [`Assets/README.md`](../Assets/README.md) → "Concept art now also embedded directly in
-> `Scripts/` files." Applied retroactively to all four Chapter 2 script files below; apply it going
-> forward to Academy and Monastery as they're written.
+> `Scripts/` files." Applied to all five Chapter 2 district scripts. The image caption line
+> ("AI-generated room concept, for visual reference — see `Locations/...`") was dropped during each
+> district's puzzle-mechanic rewrite, per the same declutter direction that trimmed the stacked
+> "Revision note" blockquotes in the `Locations/` files themselves — the image speaks for itself;
+> a one-line pointer back to the `Locations/` file isn't needed on every single scene.
 
 ## Current files
 
@@ -49,15 +52,18 @@ owner early on, since earlier source material used a confusing dual "Tab"/"Scene
 - [`Chapter_2_Academy.md`](Chapter_2_Academy.md) — the Southeast District/Worthy Academy in full
   (18 scenes). **Rewritten 2026-08-14** to the Archive Puzzle mechanic, including
   [The Matron](../Creatures/The_Matron.md) as the district's new boss.
-- **Monastery** — no script file yet at all; needs to be written from scratch directly against the
-  Bell Tower Puzzle. See [`Locations/Monastery.md`](../Locations/Monastery.md). **This is now the
-  only district left to script** — all four already-scripted districts have been rewritten to
-  their new puzzle mechanics.
+- [`Chapter_2_Monastery.md`](Chapter_2_Monastery.md) — the North District/Our Lady of Solace
+  Monastery in full (17 scenes). **Written from scratch 2026-08-14** directly against the Bell
+  Tower Puzzle mechanic, including [The Penitent](../Creatures/The_Penitent.md) as the district's
+  boss and a conditional branch at the Sealed Passage / Old Caves depending on whether Jim holds
+  four or more crests. This is the fifth and final district script — **all five Chapter 2 main
+  locations now have a full scene-by-scene script matching their locked puzzle mechanic.**
 
-The one remaining district (the Monastery) has a full location-design file in
-[`Locations/`](../Locations/) but no `Scripts/` entry yet — planned as the same kind of standalone
-per-district file, per the project owner's request to script each district in turn (see
-[`STORY_NOTES.md`](../STORY_NOTES.md) for the Direction Log).
+Remaining work on the script layer (not yet done, tracked in [`STORY_NOTES.md`](../STORY_NOTES.md)):
+a dialogue/pacing pass applying the narrative-craft review's still-open items (Jim's over-narration
+trim, deliberate messiness in crossovers, the per-district storytelling-material table), and an
+`Items/Key_Items/` audit to delete or repurpose the several retired key writeups flagged inline
+across the `Locations/` files.
 
 Chapter 3 ("What Was Hidden") and the Epilogue ("One More Night") are outlined in [`CANON.md`](../CANON.md) and
 [`MASTER_STORY.md`](../MASTER_STORY.md) but have no script content yet.

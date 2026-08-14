@@ -2299,33 +2299,38 @@ or the five districts — none of those chapters have named characters yet.
   frightened person would actually say. This is a large task best scoped per-district rather than
   attempted in one pass, and should be coordinated with the Jim-over-narration trim already tracked
   above so the two aren't done twice.
-- **Five Puzzle Philosophies — script rewrite (in progress; the single largest remaining task, per
-  the "synchronization pass" audit above).** All five `Locations/` files fully describe their new
-  puzzle mechanics. **All four existing district scripts have now been rewritten (2026-08-14):**
-  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md) to the Lockdown
-  Puzzle, [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md) to the Quarantine
-  Puzzle, [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md) to the Casting Puzzle, and
-  [`Scripts/Chapter_2_Academy.md`](Scripts/Chapter_2_Academy.md) to the Archive Puzzle (eight
-  historical clue objects seeded across earlier scenes, the timeline-reconstruction puzzle in the
-  Library, and [The Matron](Creatures/The_Matron.md) placed as the boss at the East Academic
-  Wing). The Academy rewrite also caught and fixed the same "old Library Key" leftover the
-  Foundry's Boardroom crest had — the Founder's Hall's case is now explicitly empty with a redirect
-  note, and the Auditorium's backstage nail no longer hands out a Library Key that no longer means
-  anything. All four rewrites trimmed Jim's dialogue and removed the old self-aware "same shape as
-  X, different building" lines the narrative review flagged. **Only the Monastery has no script at
-  all yet.** Concretely still needed: (1) write the Monastery's full scene-by-scene script directly
-  against the Bell Tower mechanic and its crest-count-gated deepest section; (2) audit
-  `Items/Key_Items/` for the several retired keys flagged inline in each `Locations/` file — delete
-  or repurpose their writeups (Police Station's "Armory Zone Override," Hospital's "Backup Damper
-  Control," Foundry's retired Manager's Office Key, Academy's retired Library Key — their `Items/`
-  files still need matching updates); (3) while writing the Monastery script, apply the still-open
-  dialogue/pacing items above (Jim's over-narration trim — by this point he should be well past 0
-  crests and saying noticeably less — his crest-count arc, deliberate messiness in crossovers, the
-  per-district storytelling-material table, and the caution against over-attributing every civic
-  failure to Vanguard); (4) **do a final consistency pass across all five `Locations/` files once
-  the Monastery script is done**, checking for the same kind of "two answers for one puzzle" drift
-  caught twice already (Foundry's Boardroom, Academy's Library Key) — the puzzle-design pass moved
-  fast across five districts and a third slip wouldn't be surprising.
+- **Five Puzzle Philosophies — script rewrite: COMPLETE for all five districts (2026-08-14).**
+  All five `Locations/` files fully describe their new puzzle mechanics, and **all five
+  `Scripts/Chapter_2_*.md` files now match them**:
+  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md) (Lockdown Puzzle),
+  [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md) (Quarantine Puzzle),
+  [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md) (Casting Puzzle),
+  [`Scripts/Chapter_2_Academy.md`](Scripts/Chapter_2_Academy.md) (Archive Puzzle, with
+  [The Matron](Creatures/The_Matron.md) as boss), and
+  [`Scripts/Chapter_2_Monastery.md`](Scripts/Chapter_2_Monastery.md) (Bell Tower Puzzle, written
+  from scratch since it had no prior script, with [The Penitent](Creatures/The_Penitent.md) as
+  boss and a conditional branch at the Sealed Passage depending on crest count). Along the way this
+  pass caught and fixed two contradictions the puzzle-design pass itself had introduced (the
+  Foundry's Industry Crest existing in two places at once; the Academy's stale Library Key), and
+  resolved the Monastery's last open creature question by naming its standard-tier new creature
+  **the Cave-Touched** (no dedicated `Creatures/` file yet — inline description only in
+  [`Locations/Monastery.md`](Locations/Monastery.md)). All five rewrites trimmed Jim's dialogue and
+  removed the old self-aware "same shape as X, different building" lines the narrative review
+  flagged.
+  **Remaining follow-up work, not yet done:** (1) audit `Items/Key_Items/` for the several retired
+  keys flagged inline in each `Locations/` file — delete or repurpose their writeups (Police
+  Station's "Armory Zone Override," Hospital's "Backup Damper Control," Foundry's retired
+  Manager's Office Key, Academy's retired Library Key); (2) a dedicated dialogue/pacing pass across
+  all five scripts applying the narrative-craft review's remaining items in full (Jim's
+  over-narration trim was applied loosely during each rewrite but not measured against the
+  25–35% target precisely; his crest-count arc should be checked scene-by-scene, not just noted in
+  passing; deliberate messiness in crossovers hasn't been added anywhere yet; the per-district
+  storytelling-material table hasn't been audited against final document choices; the caution
+  against over-attributing every civic failure to Vanguard hasn't been specifically checked); (3) a
+  final consistency pass across all five `Locations/` files, checking for the same kind of "two
+  answers for one puzzle" drift caught twice during this pass — five districts redesigned quickly
+  in sequence makes a third undiscovered slip plausible; (4) give the Cave-Touched a proper
+  `Creatures/` file if the Monastery's own bestiary needs more than the current inline description.
 - **Creature Distribution System (locked 2026-08-14).** Per the project owner's direction: every
   district has Shamblers themed to that location (police uniforms, hospital gowns, work coveralls,
   shelter clothing, monastic robes), every district's main location has one boss-tier encounter
