@@ -1677,6 +1677,107 @@ the next entry for the current final numbering (Scenes 22–40).
   its own earlier correction pass), Worthy Academy, and Downtown Ravenwood were all already
   consistent with the reference style on this audit.
 
+## Direction Log (continued) — Chapter 2 narrative craft review (2026-08-14)
+
+> The project owner read the fully-scripted Police Station, Hospital, Foundry, and Academy
+> chapters (plus Chapter 1 and the Downtown/Memorial Park material) as narrative documents, not
+> just structurally, and gave a full craft review. Recorded here in detail because it's directional
+> for every future revision pass on Chapter 2 — not a one-off note.
+
+**What's working well:**
+
+- **Cross-district interconnectedness is the chapter's biggest strength.** Police radio calls
+  surface on the hospital side, Foundry symptoms echo into the Academy, Vanguard directives recur
+  across multiple institutions, and the player keeps reconstructing one shared night from
+  different vantage points — the locations read as one outbreak, not five isolated horror levels.
+- **The Police Station's institutional horror lands.** Vanguard hasn't replaced the department
+  with cartoon villains — it has embedded itself inside a still-mostly-normal institution and can
+  invoke agreements that turn local police into containment personnel (Directive 7, ordering
+  officers to prevent civilians from leaving Ravenwood, is the clearest example of this "ugly
+  institutional horror"). Reyes and the K-9 material give the station an emotional core so it isn't
+  *only* about conspiracy documents.
+- **The Hospital may be the strongest district conceptually** — it *demonstrates* Ashen rather than
+  explaining it: doctors observe trauma triggering accelerated cellular activity, staff realize
+  standard treatment may worsen the condition, and the place meant to save people becomes where the
+  outbreak compounds fastest. This horror flows directly from the Black Vein/Ashen rules rather
+  than generic zombie-hospital imagery.
+- **The Foundry establishes that this predates the outbreak night itself.** Workers reporting
+  headaches, joint pain, and other symptoms *before* the outbreak, normalized by the company
+  clinic, gives Vanguard's behavior real history — they had already built systems for ignoring,
+  controlling, and classifying warning signs, rather than improvising a cover-up after the fact.
+- **The Academy reads much better in full script form.** Making it the civilian shelter gives it a
+  distinct moral horror from the other four districts; the roster request targeting former
+  Steelgate employees is particularly effective because it implies Vanguard was using the shelter
+  population as a searchable exposure database while presenting it as evacuation planning. It also
+  keeps the district's horror about people, not an exotic monster, per the existing design intent.
+- **Leaving named people unresolved works and should continue.** The Chief disappearing, Daniel
+  Fitch never getting a neat body, and Cindy's robe appearing without confirming whether she's
+  alive, dead, or turned all make Ravenwood feel bigger than Jim's path through it. Explicit
+  instruction: **resist tying every named person into a neat conclusion.**
+- **Chapter 1 still has the best personal character storytelling** — Sarah's phone call establishes
+  Jim's humor, stubbornness, job, marriage, and normal life without exposition, before Ravenwood
+  destroys that normality. Chapter 2 is currently stronger on worldbuilding than on personal
+  character development for Jim specifically.
+
+**Concerns to address in future revision passes:**
+
+1. **Structural repetition is becoming visible across districts.** Several districts currently
+   share a literal shape: Jim enters a central hub room, sees several locked destinations, one
+   route is open, a Shambler appears. The Hospital, Foundry, and Academy all repeat this. **Keep
+   the underlying navigation/level-design grammar** (it's readable and works as game design) **but
+   disguise it narratively per district** so it doesn't read as "same shape, different building":
+   - Hospital: frame as Jim following the collapse of triage and emergency response.
+   - Foundry: frame as Jim descending through successive layers of corporate secrecy.
+   - Academy: frame as Jim reconstructing where different groups of civilians were separated and
+     what became of them.
+   - **Critical: never have Jim's dialogue acknowledge the repeated structure itself** (no "same
+     shape again" or equivalent lampshading) — the player will already recognize the pattern;
+     having Jim comment on it exposes the scaffolding rather than disguising it.
+2. **Jim over-narrates document discoveries.** His short, purely reactive lines
+   ("...Richard." / "Oh, no." / "...Cindy.") work well and should be kept. But across many document
+   interactions he immediately verbalizes the implication the player just read, which risks making
+   him feel like a narrator explaining the story rather than a man surviving it. **Cut roughly
+   25–35% of his post-document commentary**, prioritizing cuts where his line simply restates the
+   document's meaning — let the player have the realization instead.
+3. **Evidence density risks over-explaining Vanguard before the Chapter 3 reveal.** Nearly every
+   room currently delivers another note, recording, roster, log, clipboard, memo, or broadcast.
+   Document-heavy rooms should feel natural to their setting (police reports in a station, charts
+   in a hospital, logs in the Foundry), but the cumulative effect across all five districts must
+   leave the player at the Chapter 3 threshold thinking **"I understand what Vanguard did to
+   Ravenwood"** — not **"I understand exactly what Vanguard discovered, why Ashen exists, what the
+   Black Vein really is, and how everything works."** The underground reveal needs room to
+   fundamentally recontextualize what the player thinks happened; a future pass should look at
+   trimming/redistributing document density with this ceiling in mind, not just cutting Jim's
+   reactions to them.
+4. **Chapter 2 needs more of Jim's own personal story, not just Ravenwood's.** The chapter is
+   currently stronger on worldbuilding than on advancing Jim's character. Future passes should look
+   for several moments per district (not necessarily many) that push Jim's own arc forward, in the
+   spirit of Chapter 1's Sarah-call approach, rather than relying solely on environmental/document
+   worldbuilding.
+
+**Project owner's per-district story-strength ratings** (a healthy spread, not a ranking to
+"fix"):
+
+| District | Strongest at |
+|---|---|
+| Chapter 1 | Character + atmosphere |
+| Police Station | Institutional horror |
+| Hospital | Ashen/body-horror logic |
+| Foundry | Conspiracy/history |
+| Academy | Civilian/moral horror |
+| Downtown/Memorial Park | Connective mystery + atmosphere |
+
+**New story opportunity flagged — outbreak-night chronology as a five-piece jigsaw.** The five
+districts could collectively tell the complete chronology of outbreak night, each holding a
+different missing piece: the Police Station knows what orders were given; the Hospital knows what
+the condition did; the Foundry knows where it started; the Academy knows what happened to
+civilians; and **the Monastery can know something none of the other four could possibly know**
+(not yet specified — an open creative slot, not a locked detail). Finishing all five would then
+feel like *solving Ravenwood*, not simply collecting five crests. This reframes the crest-collection
+structure as a chronology-reconstruction mechanic rather than a purely gameplay-gating device — not
+yet implemented in any script or `Locations/` file, and not yet decided what the Monastery's unique
+piece is.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /
@@ -1822,6 +1923,17 @@ or the five districts — none of those chapters have named characters yet.
 - Fate/resolution of Cindy Sweets and the Daltons (see "Still-Open Questions" above). Gerta's fate
   is now resolved (see "Resolved / Superseded Items" above).
 - The precise mechanism/cause of the Black Vein outbreak.
+- **Chapter 2 narrative-craft revision pass** (per "Chapter 2 narrative craft review," above) — not
+  yet started. Concretely: (1) narratively disguise the Hospital/Foundry/Academy's shared
+  hub-and-locked-doors structure per district without changing the underlying level design, and
+  make sure Jim's dialogue never lampshades the repetition; (2) trim ~25–35% of Jim's
+  post-document commentary that just restates what the player already read, across all four
+  scripted districts; (3) review overall document/evidence density chapter-wide against the "player
+  should understand *what* Vanguard did, not exactly *how* Ashen/Black Vein work" ceiling ahead of
+  Chapter 3; (4) add a handful of Jim-personal-story beats per district, not only worldbuilding;
+  (5) decide what unique piece of the outbreak-night chronology the Monastery alone can know, per
+  the "outbreak-night chronology as a five-piece jigsaw" idea above, and thread it into the
+  not-yet-written Monastery script.
 
 ## Audit — [`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx) (uploaded 2026-08-12)
 
