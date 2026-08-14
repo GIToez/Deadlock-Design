@@ -570,7 +570,7 @@ outward. Documents are scattered across the counter, several stamped **"V-CASE T
 > Names, dates, and transfer stamps matching the Police Station's own confidential watchlist
 > almost exactly.
 
-> **JIM:** *"Same stamp. Same program. Different building."*
+Jim doesn't say anything. He's already seen this stamp once tonight.
 
 Shapes move between the cells — more than one.
 
@@ -613,7 +613,6 @@ wider district street grid.*
 **END OF WRITTEN MATERIAL FOR ST. DYMPHNA HOSPITAL**
 
 *Once the Medical Crest is collected and the secondary locations explored, Jim is free to head to
-any of the remaining districts in any order. This script has been rewritten to the Quarantine
-Puzzle (2026-08-14); Foundry and Academy still need the same treatment, and the Monastery still
-needs a script written from scratch — see [`STORY_NOTES.md`](../STORY_NOTES.md) → "Five Puzzle
-Philosophies — script rewrite."*
+any of the remaining districts in any order. All five Chapter 2 districts now have complete
+scripts matching their own puzzle philosophy (2026-08-14) — see
+[`STORY_NOTES.md`](../STORY_NOTES.md) → "Five Puzzle Philosophies — script rewrite."*

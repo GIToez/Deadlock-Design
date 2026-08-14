@@ -2430,6 +2430,84 @@ or the five districts — none of those chapters have named characters yet.
   more often later" actually works) is not yet designed — flagged alongside the Zombie
   Conglomerate's own open combat/detection gaps.
 
+## Consistency/polish pass following the third narrative audit (2026-08-14)
+
+> The project owner's third read-through of the rewritten scripts confirmed the carbon-copy
+> problem, the key-hunt problem, the hub-repetition problem, and Jim's missing arc are all now
+> fixed in the scripts themselves, not just the location design docs — and narrowed remaining work
+> to: stale documentation, one real logic hole (the Monastery's crest-count gate), one real
+> dialogue bug (the Monastery's "...Five" line), a handful of individual redundant lines, and
+> capturing new brainstorming on the Zombie Conglomerate. All five items addressed below.
+
+- **Documentation synchronization (the biggest item flagged).** [`CANON.md`](CANON.md) and
+  [`MASTER_STORY.md`](MASTER_STORY.md) still stated, as of the start of this pass, that the four
+  already-scripted districts' `Scripts/` files "still reflect the old key-hunt mechanic and have
+  not yet been rewritten" and that puzzle/progression rewrites were "pending" — both false since
+  the puzzle-philosophy rewrite pass completed all five scripts. Fixed: `CANON.md`'s "District
+  Main-Location Design Standard" section and `MASTER_STORY.md`'s district list, closing paragraph,
+  and "Major Story Progression" section now all state plainly that all five district scripts are
+  complete. Also fixed the same stale claim in each `Locations/` file's own header note (Police
+  Station, Hospital, Foundry, Academy, Monastery all previously said their own script "has not yet
+  been rewritten" or "still describes the older key-chain version") and in each script's own
+  "END OF WRITTEN MATERIAL" footer (Police Station, Hospital, Foundry, and Academy each said later
+  districts "still need the same treatment" and "the Monastery still needs a script written from
+  scratch," which stopped being true once the Monastery's script was written). As the project owner
+  put it, this class of error doesn't affect the player, but risks confusing Cursor/AI into undoing
+  correct work later — worth fixing immediately rather than letting it accumulate.
+- **The Monastery's crest-count gate now has an in-world cause (the biggest logic hole flagged).**
+  The Sealed Passage / Old Caves previously unlocked purely because Jim's inventory held "four or
+  more crests" — as the project owner pointed out, nothing physically changed at the Monastery
+  between visits, the door doesn't read inventory, and Deadlock isn't supernatural, so this was
+  game logic wearing a narrative gate's clothes. **Fixed by introducing
+  [`Items/Key_Items/Founders_Token.md`](Items/Key_Items/Founders_Token.md):** a small brass token
+  that drops from a hidden mechanism behind the Founders Memorial's own FAITH recess the first time
+  Jim returns with any four of the five crests inserted, regardless of which four. In-world
+  justification: Abbot Matthias Kane — both a Memorial founder and the Monastery's own 1887
+  charterer — built his own recess as a personal failsafe, verifying the rest of Ravenwood's
+  institutions before ever exposing what his own order had sealed. The token itself fits a
+  previously-invisible lock at the Sealed Passage's threshold. This is a genuine physical object
+  Jim has to go get and carry back, not an abstract count — and it naturally requires at least one
+  return trip to Memorial Park between a fourth crest and the Monastery's deepest scene, which is
+  exactly the kind of causal chain the project owner asked for ("he now genuinely possesses
+  something or knows something he didn't before"). Updated
+  [`Locations/Memorial_Park.md`](Locations/Memorial_Park.md) (new "Founder's Token" beat, Key Items,
+  Major Scripted Events), [`Locations/Monastery.md`](Locations/Monastery.md) (header note, Sealed
+  Passage description, Important Rooms, blueprint diagram, Exit/Progression, Unresolved Ideas), and
+  [`Scripts/Chapter_2_Monastery.md`](Scripts/Chapter_2_Monastery.md) Scene 12 (branches on the token
+  rather than a crest-count check, with an explicit design note explaining the change).
+- **Fixed the Monastery's "...Five" dialogue bug.** Since the Monastery is open-order, the Faith
+  Crest can be Jim's first crest just as easily as his fifth — the old unconditional *"...Five"*
+  line only made sense in the one case where it happened to be his last. Fixed in
+  [`Scripts/Chapter_2_Monastery.md`](Scripts/Chapter_2_Monastery.md): now branches on whether Faith
+  is actually Jim's fifth crest (keeps the line, since it's a genuine payoff in that case) or any
+  other number (no line at all, consistent with the project's general preference for silence over
+  over-explaining, and with Jim's arc thinning out rather than escalating).
+- **Trimmed the last individually-flagged redundant lines.** In
+  [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md): the shaft reveal's *"Steelgate
+  wasn't built here because anybody needed a foundry"* (an explicit conclusion immediately after
+  the shaft appears, already followed by "he doesn't finish the thought out loud") became a quieter
+  *"...Of course"*; the loading-dock manifest's *"Workers noticed these trucks for years and never
+  knew what was in them"* (restating what the manifest text itself already says) was cut entirely
+  in favor of Jim setting the clipboard down without comment. In
+  [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md): the isolation-cells scene's
+  *"Same stamp. Same program. Different building"* — flagged by the project owner as the one line
+  that still felt like the old self-aware "same shape, different building" pattern — was cut in
+  favor of "Jim doesn't say anything. He's already seen this stamp once tonight," keeping the
+  Police Station crossover connection without restating it aloud.
+- **Captured new Zombie Conglomerate brainstorming.** Per the project owner: it's best understood
+  as a "world boss" or "city boss" — spotted first after the first crest, then roaming/rolling the
+  city with a chance encounter on any given crossing, per the already-locked crest-count escalation
+  table. New idea captured in
+  [`Creatures/Zombie_Conglomerate.md`](Creatures/Zombie_Conglomerate.md): because of its size, it
+  could periodically be deliberately baited into pushing over cars or clearing debris blocking an
+  otherwise-inaccessible location — turning what's otherwise a pure avoidance hazard into an
+  occasional "lure the thing you can't fight into solving this obstacle for you" risk/reward tool.
+  Whether it's ever killable is explicitly left open per the project owner ("not quite sure if you
+  will be killable by the end — we can figure that one out later"); Chapter 2 treats it as strictly
+  unkillable regardless of how that's eventually resolved. Both ideas are concept-only — no
+  mechanical detail (bait mechanic, which locations use it, stage/crest gating, or if/how/when it
+  becomes killable) has been chosen yet.
+
 ## Audit — [`Deadlock Protocol - Story Design Rebuild.docx`](Deadlock%20Protocol%20-%20Story%20Design%20Rebuild.docx) (uploaded 2026-08-12)
 
 > Read in full and transcribed into [`CANON.md`](CANON.md), [`MASTER_STORY.md`](MASTER_STORY.md), and

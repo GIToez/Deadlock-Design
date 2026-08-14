@@ -25,9 +25,15 @@ King"** by anyone unlucky enough to survive seeing it and talk about it afterwar
 initials as its technical designation, which is treated here as a deliberate, in-world coincidence
 worth keeping rather than a naming conflict to resolve.
 
-Unlike every other creature in the game, the Zombie Conglomerate is explicitly **not a fight** — it
-is a roaming, unpredictable, unkillable environmental hazard, structurally closer to a natural
-disaster than an enemy. Per the dossier: *"There is no killing it. There is only avoiding it."*
+Unlike every other creature in the game, the Zombie Conglomerate is explicitly **not a fight**
+during Chapter 2 — it's a roaming, unpredictable **world/city boss** in the sense of being a
+persistent, unique, oversized hazard the player can encounter repeatedly across the whole map
+rather than a scripted arena encounter, structurally closer to a natural disaster than a
+traditional enemy. Per the dossier: *"There is no killing it. There is only avoiding it."* Whether
+that stays true for the entire game, or whether it becomes killable by some later point (e.g. a
+Chapter 3 endgame beat), is an open design question — see "Open Design Gaps," below. Nothing in
+Chapter 2 should imply it either way; treat it as unkillable for all of Chapter 2 regardless of how
+that question is eventually resolved.
 
 ## Origin
 
@@ -121,6 +127,20 @@ the remainder of Chapter 2's open-world exploration. Proposed design intent (pen
 - **Also serves as a natural pacing/tension tool** for the open city sections between districts,
   giving Chapter 2's "safe once cleared" streets an ongoing source of dread the way the Caretaker
   and Fennimore's pincer ambush did for the hotel's back half.
+- **Environmental interaction — turning avoidance into a tool (proposed 2026-08-14, by the project
+  owner):** *"Periodically as you explore the city, due to his large size he might be used to push
+  over cars or unblock locations to access if you can get his attention."* Rather than being purely
+  a hazard to avoid, its mass can be deliberately baited (via noise/movement, consistent with its
+  established "attracted to noise, heat, and movement" behavior) into rolling through a specific
+  spot — crushing a car blocking a shortcut, collapsing debris sealing an alley, etc. — turning what
+  would otherwise be an obstacle-clearing key/tool puzzle into "lure the thing you can't fight into
+  doing it for you." This reframes it from a pure stalker mechanic into an occasional risk/reward
+  tool: getting its attention on purpose, at a chosen location, then getting clear before it arrives
+  and starts feeding. Not yet designed in mechanical detail — which specific blocked locations (if
+  any) use this, how the player baits it to a chosen spot instead of just wherever it currently is,
+  and whether this is available from the first sighting (1 crest) or only once it's large enough to
+  meaningfully move obstacles (per the growth-stage table, more plausible at Stage 3+/2+ crests) are
+  all open.
 
 ## Encounter Progression
 
@@ -153,3 +173,11 @@ its own internal notes admit they no longer understand or control.
   crest-count escalation table above.
 - The proposed resolution to the sighting-timeline conflict (see above) needs explicit approval
   before being treated as locked.
+- **Whether it's ever killable, deliberately left open (2026-08-14) per the project owner:** *"not
+  quite sure if you will be killable by the end we can figure that one out later."* Chapter 2
+  should treat it as strictly unkillable throughout; if a later point in the game (most plausibly a
+  Chapter 3 endgame beat, once Jim has left Chapter 2's rules behind) makes it killable, that's a
+  decision to make when Chapter 3 is actually designed, not now.
+- **The "lure it into clearing an obstacle" interaction (see "Gameplay Role," above) is a concept
+  only** — no specific blocked locations, bait mechanic, or crest-count/stage gating have been
+  chosen yet.

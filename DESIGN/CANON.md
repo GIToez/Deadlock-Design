@@ -82,20 +82,17 @@ district should use), not a short, mostly-linear pass. Concrete implications:
   location — a reward for finishing the loop, not something encountered early or in passing.
 - This standard is **retroactive**: the Police Station, originally scripted before this standard
   was locked, has since been rewritten to match it (2026-08-13) and fully scene-by-scene scripted —
-  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md), Scenes 1–24,
-  including a full room-connectivity blueprint at
-  [`Locations/Police_Station.md`](Locations/Police_Station.md) matching
-  [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)'s existing convention. St. Dymphna
-  Hospital, Steelgate Refinery, and Worthy Academy have since received the same treatment
-  ([`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md),
-  [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md),
-  [`Scripts/Chapter_2_Academy.md`](Scripts/Chapter_2_Academy.md)); the one remaining district (the
-  Monastery) should be written to the same bar (dense main location, a full blueprint, its own
-  standalone script file) from the start, built directly around its own puzzle philosophy below
-  rather than a key hunt. See [`STORY_NOTES.md`](STORY_NOTES.md) for the full restructuring
-  history — **as of 2026-08-14, the four already-scripted districts' `Scripts/` files still
-  reflect the old key-hunt mechanic and have not yet been rewritten to match the puzzle
-  philosophies below; only the Police Station's `Locations/` file has been updated so far.**
+  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md), including a full
+  room-connectivity blueprint at [`Locations/Police_Station.md`](Locations/Police_Station.md)
+  matching [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)'s existing convention.
+  **All five districts' scripts are now complete and match their own puzzle philosophy below
+  (2026-08-14):** [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md)
+  (Lockdown Puzzle), [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md) (Quarantine
+  Puzzle), [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md) (Casting Puzzle),
+  [`Scripts/Chapter_2_Academy.md`](Scripts/Chapter_2_Academy.md) (Archive Puzzle), and
+  [`Scripts/Chapter_2_Monastery.md`](Scripts/Chapter_2_Monastery.md) (Bell Tower Puzzle, written
+  from scratch rather than a retrofit, since it never had an older script to begin with). See
+  [`STORY_NOTES.md`](STORY_NOTES.md) for the full restructuring history.
 
 ### Five Puzzle Philosophies (locked 2026-08-14)
 
@@ -257,6 +254,15 @@ hotel-chapter detail.
   district its emblem belongs to. Jim can read this directly off the statue at Memorial Park at
   any time, before collecting anything — it's a hint built into the monument itself, not something
   revealed only after finding a given emblem.
+- **The FAITH recess has a second, hidden function (locked 2026-08-14).** Abbot Matthias Kane —
+  Memorial founder and the Monastery's own 1887 charterer — built his own recess to also react once
+  any four of the other recesses are filled, dropping
+  **[the Founder's Token](Items/Key_Items/Founders_Token.md)**: a physical object Jim must carry to
+  the Monastery to open its Sealed Passage / Old Caves. See
+  [`Locations/Memorial_Park.md`](Locations/Memorial_Park.md) → "The Founder's Token" and
+  [`Locations/Monastery.md`](Locations/Monastery.md) → "The Sealed Passage / Old Caves." This gives
+  the Monastery's late-game story gate (see "Five Puzzle Philosophies," above) an actual in-world
+  cause rather than a raw inventory-count check.
 - **Crest / district / slot reference table:**
 
 | Direction | Crest Name | Location | Statue Slot Label | Institution Symbol | Wedge Position |

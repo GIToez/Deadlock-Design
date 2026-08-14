@@ -12,7 +12,9 @@
 > [`Characters/Jim_Mercer.md`](../Characters/Jim_Mercer.md), assume Jim is carrying at least two or
 > three crests by the time he reaches here in most playthroughs, and write him accordingly: fewer
 > questions, shorter reactions, more silence. This script includes a conditional branch at the
-> Sealed Passage (Scene 12) depending on whether Jim has four or more crests when he gets there.
+> Sealed Passage (Scene 12) depending on whether Jim has
+> [the Founder's Token](../Items/Key_Items/Founders_Token.md) yet, and a conditional branch at the
+> Faith Crest pickup (Scene 11) depending on whether it's actually Jim's fifth crest.
 >
 > Brother Cormac is never seen alive or dead in this script, per his location file's convention —
 > everything about him is reconstructed from the Hidden Archive, the Cloister, and the final
@@ -253,30 +255,51 @@ A relief portrait: a hooded, bearded man. Cast beneath it:
 
 He looks around the small room once more.
 
+**If this is Jim's fifth crest** (Faith completes the set):
+
 > **JIM:** *"...Five."*
+
+He doesn't say anything else. He knows exactly what that means now.
+
+**If this is any other number** (the Monastery is open-order — Faith could be Jim's first crest
+just as easily as his last):
+
+He pockets it without a word.
+
+> *Design note: an earlier version of this line always said "...Five," which only makes sense if
+> Faith happens to be Jim's fifth crest. Since district order is fully open, this is a real
+> contradiction if Faith is collected first, second, third, or fourth instead — branch on actual
+> crest count at the moment of pickup, not the district's position in a fixed list.*
 
 ---
 
 ## SCENE 12 — THE SEALED PASSAGE / OLD CAVES
 
-Past the Reliquary, a further descent — the oldest sealed section of all.
+Past the Reliquary, a further descent — the oldest sealed section of all. At the threshold, beneath
+the ancient warning inscriptions, a small, worn lock sits where Jim wouldn't have thought to look
+for one — a keyhole shaped for something specific, not a standard mechanism.
 
-### If Jim has fewer than 4 crests total
+### If Jim does not have the Founder's Token yet
 
-*Interaction prompt: [ENTER PASSAGE]*
+*Interaction prompt: [EXAMINE LOCK]*
 
-The passage is there. The door isn't. Jim pushes against it; nothing happens — not locked,
-exactly, just not ready for him yet.
+Wrong shape for anything he's carrying.
 
-> **JIM:** *"...Not yet, I guess."*
+> **JIM:** *"...Not with what I've got."*
 
-He doesn't push a second time. He'll be back.
+He doesn't force it. He'll be back.
 
-### If Jim has 4 or more crests total
+> *Design note: the Founder's Token drops from the Founders Memorial's own FAITH recess once any
+> four crests are returned there — see [`Locations/Memorial_Park.md`](../Locations/Memorial_Park.md)
+> → "The Founder's Token." A physical object Jim has to go get and bring back, not an abstract
+> inventory count.*
 
-*Interaction prompt: [ENTER PASSAGE]*
+### If Jim has the Founder's Token
 
-The door gives. Ancient stone walls transition into raw cave rock. Deep-carved warning
+*Interaction prompt: [USE FOUNDER'S TOKEN]*
+
+The token fits the lock exactly — worn into precisely this shape, Jim realizes, on purpose. The
+door gives. Ancient stone walls transition into raw cave rock. Deep-carved warning
 inscriptions line the way, and a mineral vein glows faintly in the rock itself — the same dark
 branching pattern Jim's seen before, at the Foundry, on a much smaller scale.
 
@@ -313,7 +336,7 @@ Jim stands in the passage a long moment.
 He turns back the way he came — Memorial Park, and whatever's actually underneath it, waiting.
 
 > *Design note: this is the last surface-world scene in the game before Chapter 3, guaranteed by
-> the crest-count gate rather than visit order — see
+> the Founder's Token's own dependency on four other districts rather than visit order — see
 > [`Locations/Monastery.md`](../Locations/Monastery.md) → "The Sealed Passage / Old Caves."*
 
 ---
@@ -415,5 +438,5 @@ Jim reads it twice, then doesn't try to say anything about it.
 locked puzzle mechanics per [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies." Once the Faith
 Crest is collected (and, if Jim's fifth crest, the Sealed Passage witnessed), Jim returns to
 Memorial Park, places the final emblem, and descends into Chapter 3 — not yet written. See*
-[`STORY_NOTES.md`](../STORY_NOTES.md) *for remaining open items (Items/Key_Items audits, the
-dialogue/pacing pass, deliberate messiness in crossovers) still to apply across all five scripts.*
+[`STORY_NOTES.md`](../STORY_NOTES.md) *for the full history of this rewrite and any remaining
+polish items.*

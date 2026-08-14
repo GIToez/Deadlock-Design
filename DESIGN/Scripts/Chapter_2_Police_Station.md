@@ -874,7 +874,6 @@ He doesn't take anything from the counter.
 **END OF WRITTEN MATERIAL FOR THE POLICE STATION**
 
 *Once the Authority Crest and shotgun are collected and the secondary locations explored, Jim is
-free to head to any of the remaining four districts in any order. This script has been rewritten
-to the Lockdown Puzzle (2026-08-14); Hospital, Foundry, and Academy still need the same treatment,
-and the Monastery still needs a script written from scratch — see*
+free to head to any of the remaining four districts in any order. All five Chapter 2 districts now
+have complete scripts matching their own puzzle philosophy (2026-08-14) — see*
 [`STORY_NOTES.md`](../STORY_NOTES.md) *→ "Five Puzzle Philosophies — script rewrite."*

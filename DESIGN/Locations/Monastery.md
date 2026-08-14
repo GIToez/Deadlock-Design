@@ -4,15 +4,21 @@
 > [`Scripts/Chapter_2_Monastery.md`](../Scripts/Chapter_2_Monastery.md). Full revision history is
 > in [`STORY_NOTES.md`](../STORY_NOTES.md) rather than duplicated here.
 >
-> **Open-order exception (locked 2026-08-14):** the Monastery is mechanically open-order like the
-> other four districts — Jim can visit it first, last, or anywhere between, explore most of it, and
-> recover the Faith Crest whenever he gets there. But its deepest section — **the Sealed Passage /
-> Old Caves and Brother Cormac's final broadcast** — stays sealed until Jim holds **four or more
-> crests**, regardless of when he physically reaches the door. This resolves the contradiction
-> between "district order is fully open" and "the Monastery is the last surface location before
-> Chapter 3": the *building* is open-order, but its *deepest revelation* isn't, so it always lands
-> as the narrative bridge into Chapter 3 no matter what order the player visits districts in. See
-> "The Sealed Passage / Old Caves," below.
+> **Open-order exception (locked 2026-08-14, physical mechanism added 2026-08-14).** The Monastery
+> is mechanically open-order like the other four districts — Jim can visit it first, last, or
+> anywhere between, explore most of it, and recover the Faith Crest whenever he gets there. But its
+> deepest section — **the Sealed Passage / Old Caves and Brother Cormac's final broadcast** — needs
+> **[the Founder's Token](../Items/Key_Items/Founders_Token.md)**, an actual physical object that
+> only exists once Jim has returned any four of the five crests to the Founders Memorial at
+> Memorial Park — see [`Locations/Memorial_Park.md`](Memorial_Park.md) → "The Founder's Token." An
+> earlier version of this gate checked raw crest count with no in-world cause for why the door
+> responded to it; this version gives it one — nothing changes at the Monastery until Jim
+> physically carries the token there. This still resolves the contradiction between "district
+> order is fully open" and "the Monastery is the last surface location before Chapter 3": the
+> *building* is open-order, but its *deepest revelation* requires an object that can't exist until
+> four other districts are substantially done, so it always lands as the narrative bridge into
+> Chapter 3 no matter what order the player visits districts in. See "The Sealed Passage / Old
+> Caves," below.
 >
 > **Thematic identity:** where the Police Station, Hospital, Foundry, and Academy each reveal what
 > Vanguard did to Ravenwood in the modern era, the Monastery reveals something older — Ravenwood
@@ -25,9 +31,10 @@
 > sophisticated enough to succeed where Vanguard would.
 >
 > **Puzzle mechanic (locked 2026-08-14): the Bell Tower Puzzle.** See "The Bell Tower," below, and
-> [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies." Unlike the other four districts, this is
-> the Monastery's actual design from the start, not a retrofit — its future script should be
-> written directly against this mechanic.
+> [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies." Unlike the other four districts, this
+> was the Monastery's actual design from the start, not a retrofit —
+> [`Scripts/Chapter_2_Monastery.md`](../Scripts/Chapter_2_Monastery.md) was written directly
+> against it rather than adapted from an older script.
 
 ## Purpose in the Overall Story
 
@@ -37,7 +44,7 @@ set of keys — the one district where Vanguard didn't design the obstacle, it o
 the other four districts, the Monastery's revelation isn't institutional betrayal — it's that
 Vanguard's entire "discovery" of Black Vein was never a discovery at all. People had already found
 it, suffered its consequences, and made the simple decision to seal it away. This is also the
-direct narrative bridge into Chapter 3 — guaranteed by the crest-count gate above, not by forcing
+direct narrative bridge into Chapter 3 — guaranteed by the Founder's Token above, not by forcing
 this district to be visited last.
 
 ## Outbreak Night — What Actually Happened (proposed 2026-08-13, pending review)
@@ -423,15 +430,18 @@ gating the Faith Crest.
   > this district's locked founder is **Abbot Matthias Kane**, chartering the modern order in
   > **1887** (see [`CANON.md`](../CANON.md)); ignore the render's name and date.
 - **The Sealed Passage / Old Caves.** Past the Reliquary, a further descent into the oldest sealed
-  section. Reachable physically once the Faith Crest is in hand, same convention as the Foundry's
-  Black Vein Cavern and the Academy's Maintenance Escape Corridor — but this section additionally
-  stays sealed by a separate, deliberate story gate until Jim holds **four or more crests total**,
-  regardless of when he obtained the Faith Crest itself. If he reaches it with fewer than four,
-  the passage is there but inert — the door doesn't respond, a small mercy compared to forcing him
-  to leave and come back later once the game tracks him crossing the threshold. Once the gate is
-  satisfied: ancient warning inscriptions, the oldest record ("A vein without end"), and Brother
-  Cormac's final broadcast (beat 33) — **the last surface-world scene in the game before Chapter
-  3, guaranteed by the crest-count gate rather than by visit order.**
+  section. Physically reachable once the Faith Crest is in hand, same convention as the Foundry's
+  Black Vein Cavern and the Academy's Maintenance Escape Corridor — but a previously-invisible
+  lock at its threshold, beneath the ancient warning inscriptions, only opens with
+  **[the Founder's Token](../Items/Key_Items/Founders_Token.md)**, dropped from the Founders
+  Memorial's own hidden mechanism once any four crests are returned there (see
+  [`Locations/Memorial_Park.md`](Memorial_Park.md) → "The Founder's Token"). If Jim reaches the
+  door without the token yet, it simply doesn't open — an ordinary locked door, not a mysterious
+  inventory check, and one he can plausibly notice on an early visit and come back to once he has
+  what it actually needs. Once opened: ancient warning inscriptions, the oldest record ("A vein
+  without end"), and Brother Cormac's final broadcast (beat 33) — **the last surface-world scene
+  in the game before Chapter 3**, guaranteed by the token's own dependency on four other districts
+  rather than by visit order.
 
   ![The Sealed Passage / Old Caves — room concept](../Assets/Reference/monastery_sealed_passage_old_caves_concept.png)
 
@@ -487,8 +497,8 @@ gating the Faith Crest.
 - The Old Seal / Crypt Depths (reached once the Bell Tower puzzle opens the altar seal;
   Cave-Touched pack encounter, then the boss fight against The Penitent)
 - The Reliquary (unlocked once the crypt is reached; FAITH CREST)
-- The Sealed Passage / Old Caves (mandatory story beat, reached past the Reliquary; no lock, no
-  combat; final surface-world scene before Chapter 3)
+- The Sealed Passage / Old Caves (mandatory story beat, reached past the Reliquary; needs the
+  Founder's Token from Memorial Park; no combat; final surface-world scene before Chapter 3)
 
 **Secondary Locations (district, not the main monastery building):**
 - Hillside Residential Street (optional: environmental storytelling only)
@@ -584,7 +594,7 @@ flowchart TD
     OLDSEAL["THE OLD SEAL / CRYPT DEPTHS<br/>☠️ the Cave-Touched (pack encounter)"]
     PENITENT["🔴 THE PENITENT'S CHAMBER<br/>☠️☠️ boss fight: THE PENITENT"]
     RELIQUARY["The Reliquary<br/>🗝️ FAITH CREST<br/>📄 founding record"]
-    SEALEDPASSAGE["⚠️ THE SEALED PASSAGE / OLD CAVES<br/>mandatory story beat, no combat<br/>📄 'A vein without end'<br/>final surface scene before Chapter 3"]
+    SEALEDPASSAGE["⚠️ THE SEALED PASSAGE / OLD CAVES<br/>🗝️ needs the Founder's Token, from Memorial Park<br/>📄 'A vein without end'<br/>final surface scene before Chapter 3"]
 
     CEMETERYREF -. Crypt Antechamber Key, optional .-> ANTECHAMBER
     BELLREF --> OLDSEAL --> PENITENT --> RELIQUARY --> SEALEDPASSAGE
@@ -712,9 +722,9 @@ flowchart TD
   attempt to drill past the bell mechanism entirely.
 - The Old Seal / Crypt Depths pack encounter, once the altar seal retracts.
 - Retrieving the Faith Crest from the Reliquary.
-- The mandatory, non-combat Sealed Passage / Old Caves finale, unlocked once Jim holds four or more
-  crests — **the last surface-world scene in the game**, delivering Brother Cormac's final
-  broadcast and the direct narrative handoff into Chapter 3.
+- The mandatory, non-combat Sealed Passage / Old Caves finale, unlocked with the Founder's Token
+  from Memorial Park — **the last surface-world scene in the game**, delivering Brother Cormac's
+  final broadcast and the direct narrative handoff into Chapter 3.
 
 ## Boss Encounters
 
@@ -733,11 +743,12 @@ staircase down to Chapter 3.
 
 ## Exit / Progression to Next Area
 
-Once the Faith Crest is collected, all five districts are complete. If the Monastery happened to be
-Jim's fifth district, the Sealed Passage / Old Caves finale is already unlocked and plays
-immediately. If it wasn't, he's already seen it on an earlier visit once his fourth crest came in —
-either way, by the time all five emblems are in hand, Jim returns to Memorial Park, places the
-fifth, drains the basin, and descends the revealed staircase — beginning Chapter 3.
+Once the Faith Crest is collected, all five districts are complete. Whether the Sealed Passage's
+finale has already played depends on whether Jim picked up the Founder's Token before or after
+finishing this district — if he had it already, he's seen it; if not, one more trip back here with
+the token (obtained once any four crests are returned to the Founders Memorial) finishes it. Either
+way, by the time all five emblems are in hand, Jim returns to Memorial Park, places the fifth,
+drains the basin, and descends the revealed staircase — beginning Chapter 3.
 
 ## Unresolved Ideas
 
@@ -757,8 +768,8 @@ fifth, drains the basin, and descends the revealed staircase — beginning Chapt
   undocumented outside their own location files.
 - ~~Full scene-by-scene scripting into a `Scripts/` file.~~ **Resolved (2026-08-14):** see
   [`Scripts/Chapter_2_Monastery.md`](../Scripts/Chapter_2_Monastery.md), 17 scenes, written
-  directly against the Bell Tower Puzzle and the crest-count-gated Sealed Passage — the fifth and
-  final district to receive a full script.
+  directly against the Bell Tower Puzzle and the Founder's-Token-gated Sealed Passage — the fifth
+  and final district to receive a full script.
 - The reconciliation between Abbot Matthias Kane's 1887 founder credit and the monastery/cave
   system's much older, unspecified original age is flagged in [`CANON.md`](../CANON.md) — the
   exact "how old is the pre-1887 monastery" question is left deliberately vague rather than

@@ -83,6 +83,14 @@ player returns to constantly between districts to save, restock, and fast-travel
   base — the suggestion of a door — and concludes the basin needs to be drained (i.e., all five
   recesses filled) before whatever's underneath can be reached.
 
+  **The FAITH recess's own mechanism (locked 2026-08-14 — see "The Founder's Token," below).**
+  Unlike the other four, the FAITH wedge's mounting isn't purely decorative-until-full: Abbot
+  Matthias Kane, per [`CANON.md`](../CANON.md) both a Memorial founder and the Monastery's own
+  1887 charterer, built his own recess to react once **any four of the other five** are filled —
+  a personal failsafe verifying the rest of Ravenwood's institutions before ever exposing what his
+  own order had sealed. This has nothing to do with how many crests Jim happens to be carrying; it
+  only responds to what's physically returned to the statue.
+
   ![The Founders Memorial — room concept](../Assets/Reference/memorial_park_founders_memorial_concept.png)
 
   > AI-generated room concept (2026-08-14) — a wide establishing shot of the full statue and basin,
@@ -91,6 +99,16 @@ player returns to constantly between districts to save, restock, and fast-travel
   > primary reference for that detail.
 - **Opening the City.** Returning to the street with the keycard, Jim lowers the bollards. The
   street opens in both directions and Ravenwood's open-world exploration phase begins.
+- **The Founder's Token (locked 2026-08-14).** The first time Jim returns to the Founders Memorial
+  with any four of the five crests already inserted — regardless of which four — a fine seam
+  around the FAITH recess's own mounting grinds open on hinges nobody knew were there, and a small
+  brass token drops free into the basin's shallow water. Old, unlabeled, its edge worn into the
+  shape of a keyhole rather than a wedge. Jim doesn't know what it's for yet. It fits a
+  previously-invisible lock at the threshold of the Monastery's Sealed Passage / Old Caves — see
+  [`Locations/Monastery.md`](Monastery.md) → "The Sealed Passage / Old Caves." This is a physical
+  object Jim has to carry there, not an abstract "enough crests collected" check — replacing an
+  earlier, purely mechanical crest-count gate that had no in-world explanation for what actually
+  changed at the Monastery between visits.
 
 ## Important Rooms / Areas
 
@@ -134,12 +152,21 @@ eerie" first impression.
   directly off the statue on the very first visit, not something that only unlocks after finding
   an emblem elsewhere — the player can, in principle, work out the general direction of all five
   districts before ever leaving the park.
+- **The Founder's Token.** Inserting any four of the five crests triggers the FAITH recess's own
+  hidden mechanism (see "Storyline," above), dropping a small brass token Jim needs to physically
+  carry to the Monastery to open its Sealed Passage / Old Caves — see
+  [`Locations/Monastery.md`](Monastery.md) → "The Sealed Passage / Old Caves." This means at least
+  one return trip to Memorial Park is required between collecting a fourth crest and finishing the
+  Monastery's own deepest section, regardless of district visit order.
 
 ## Key Items
 
 - **Bollard Override Keycard** ([full item writeup](../Items/Key_Items/Bollard_Override_Keycard.md))
   — found on the guardhouse desk; lowers the street bollards.
 - **Ravenwood Memorial Park Map** — found on the guardhouse corkboard; added to inventory.
+- **The Founder's Token** ([full item writeup](../Items/Key_Items/Founders_Token.md)) — drops from
+  the FAITH recess's hidden mechanism once any four crests are inserted; opens the Monastery's
+  Sealed Passage / Old Caves.
 
 ### Documents (full text — see [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md))
 
@@ -156,6 +183,10 @@ eerie" first impression.
 - Securing the south gate.
 - Activating the VERN terminal / discovering the Founders Memorial for the first time.
 - Lowering the bollards and opening the city.
+- (Later, once four crests are collected) Returning to insert the fourth crest and finding the
+  Founder's Token — not yet scripted scene-by-scene; see
+  [`Locations/Monastery.md`](Monastery.md) → "The Sealed Passage / Old Caves" for the design and
+  [`STORY_NOTES.md`](../STORY_NOTES.md) for the rationale.
 
 ## Boss Encounters
 

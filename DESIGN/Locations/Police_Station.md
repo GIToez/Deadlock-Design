@@ -10,9 +10,8 @@
 > key hunt. It's an emergency security system the department's own officers triggered against
 > themselves as the station fell — Jim has to reconstruct what happened and undo it in sequence.
 > See "The Lockdown System," below, and [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies."
-> **Note:** [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md) has not
-> yet been rewritten to match this mechanic and still reflects the older key-based version — that
-> script needs a full pass before this district is playable end to end as designed here.
+> [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md) has been
+> rewritten to match this mechanic in full.
 
 ## Purpose in the Overall Story
 

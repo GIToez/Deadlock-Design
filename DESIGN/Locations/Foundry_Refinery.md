@@ -15,10 +15,9 @@
 > "Origin of the Outbreak").
 >
 > **Puzzle mechanic (locked 2026-08-14): the Casting Puzzle.** See "The Casting Line," below, and
-> [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies." **Note:** specified here as the target
-> design but not yet folded into the Storyline walkthrough below or into
-> [`Scripts/Chapter_2_Foundry.md`](../Scripts/Chapter_2_Foundry.md), both of which still describe
-> the older key-chain version pending a full rewrite pass.
+> [`CANON.md`](../CANON.md) → "Five Puzzle Philosophies." The Storyline walkthrough below and
+> [`Scripts/Chapter_2_Foundry.md`](../Scripts/Chapter_2_Foundry.md) have both been rewritten to
+> match it in full.
 
 ## Purpose in the Overall Story
 

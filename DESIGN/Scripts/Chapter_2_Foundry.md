@@ -299,7 +299,7 @@ Inside: a bronze, wedge-shaped medallion.
 Beneath the machinery, where the mold carriage sat, a second thing is now visible — a shaft going
 down, older and rougher than anything Vanguard built.
 
-> **JIM:** *"Steelgate wasn't built here because anybody needed a foundry."*
+> **JIM:** *"...Of course."*
 
 He doesn't finish the thought out loud.
 
@@ -341,7 +341,7 @@ Years of shipment records, mostly mundane. Scattered among them:
 > *"REFRIGERATED TRANSPORT — DESTINATION REDACTED — RECURRING, MONTHLY — AUTHORIZATION: VANGUARD
 > SITE OFFICE."*
 
-> **JIM:** *"Workers noticed these trucks for years and never knew what was in them."*
+Jim sets the clipboard down without saying anything.
 
 *Interaction prompt: [SEARCH OFFICE]*
 
@@ -557,7 +557,6 @@ The door groans open, revealing nothing but decades-old rock debris and darkness
 **END OF WRITTEN MATERIAL FOR STEELGATE REFINERY**
 
 *Once the Industry Crest is collected, the Foreman/Exposure Cohort defeated, and the Black Vein
-Cavern witnessed, Jim is free to head to any of the remaining districts in any order. This script
-has been rewritten to the Casting Puzzle (2026-08-14); Academy still needs the same treatment, and
-the Monastery still needs a script written from scratch — see [`STORY_NOTES.md`](../STORY_NOTES.md)
-→ "Five Puzzle Philosophies — script rewrite."*
+Cavern witnessed, Jim is free to head to any of the remaining districts in any order. All five
+Chapter 2 districts now have complete scripts matching their own puzzle philosophy (2026-08-14) —
+see [`STORY_NOTES.md`](../STORY_NOTES.md) → "Five Puzzle Philosophies — script rewrite."*

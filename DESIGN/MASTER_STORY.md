@@ -122,29 +122,30 @@ itself, readable on first arrival.
 is arranged as five districts around a central downtown, each home to one of the five major
 locations and its crest/emblem:
 
+**All five districts now have complete scene-by-scene scripts, each built around its own puzzle
+philosophy (see [`CANON.md`](CANON.md) → "Five Puzzle Philosophies"):**
+
 - **Southwest — Authority Crest — [Ravenwood Police Station](Locations/Police_Station.md)**
-  (closest to the park; the natural, though not forced, first destination — script exists, see
-  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md), Scenes 1–24, but its
-  puzzle/progression is being rewritten to the Lockdown Puzzle — see
-  [`CANON.md`](CANON.md) → "Five Puzzle Philosophies")
-- **Southeast — Knowledge Crest — [Worthy Academy](Locations/Academy.md)** (script exists, see
-  [`Scripts/Chapter_2_Academy.md`](Scripts/Chapter_2_Academy.md), Scenes 1–17, puzzle/progression
-  rewrite to the Archive Puzzle pending)
-- **Northeast — Medical Crest — [St. Dymphna Hospital](Locations/Hospital.md)** (script exists, see
-  [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md), Scenes 1–17, puzzle/progression
-  rewrite to the Quarantine Puzzle pending)
+  (closest to the park; the natural, though not forced, first destination — the Lockdown Puzzle;
+  see [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md))
+- **Southeast — Knowledge Crest — [Worthy Academy](Locations/Academy.md)** (the Archive Puzzle;
+  see [`Scripts/Chapter_2_Academy.md`](Scripts/Chapter_2_Academy.md))
+- **Northeast — Medical Crest — [St. Dymphna Hospital](Locations/Hospital.md)** (the Quarantine
+  Puzzle; see [`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md))
 - **Northwest — Industry Crest — [Steelgate Refinery](Locations/Foundry_Refinery.md)** (its rail
   yard tracks lead into the mountain — the primary modern industrial access point into the Black
   Vein cave network, not where Black Vein itself "entered" Ravenwood, since it's a natural
   formation predating any human contact with it, per [`CANON.md`](CANON.md) → "Origin of the
-  Outbreak"; script exists, see [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md),
-  Scenes 1–17, puzzle/progression rewrite to the Casting Puzzle pending)
+  Outbreak"; the Casting Puzzle; see [`Scripts/Chapter_2_Foundry.md`](Scripts/Chapter_2_Foundry.md))
 - **North — Faith Crest — [Our Lady of Solace Monastery](Locations/Monastery.md)** (the most
-  isolated district; not yet scripted. Mechanically open-order like the other four, but its
-  deepest section — the Sealed Passage / Old Caves and Brother Cormac's final broadcast — only
-  unlocks once Jim holds four or more crests, so it always functions as the narrative bridge into
-  Chapter 3 regardless of visit order; see [`Locations/Monastery.md`](Locations/Monastery.md) →
-  "The Bell Tower" and [`CANON.md`](CANON.md) → "Five Puzzle Philosophies")
+  isolated district; the Bell Tower Puzzle, written directly against this design from the start
+  rather than adapted from an older script — see
+  [`Scripts/Chapter_2_Monastery.md`](Scripts/Chapter_2_Monastery.md). Mechanically open-order like
+  the other four, but its deepest section — the Sealed Passage / Old Caves and Brother Cormac's
+  final broadcast — needs [the Founder's Token](Items/Key_Items/Founders_Token.md), which only
+  exists once Jim has returned any four crests to the Founders Memorial, so it always functions as
+  the narrative bridge into Chapter 3 regardless of visit order; see
+  [`Locations/Monastery.md`](Locations/Monastery.md) → "The Bell Tower")
 
 Exploration order is fully open, with that one exception. Each district also contains 2–3
 secondary locations (supplies, lore, optional survivors) between downtown and the main objective —
@@ -176,12 +177,12 @@ yet integrated into the scripted city exploration — see [`STORY_NOTES.md`](STO
 the medallion; the water basin drains, revealing a hidden staircase beneath the statue — the
 entrance to the underground [Vanguard Facility](Locations/Vanguard_Facility.md).
 
-*(Scene-by-scene script for what's written so far — the street crossing, Memorial Park, and the
+*(Scene-by-scene script for the shared entry point — the street crossing, Memorial Park, and the
 Downtown introduction — is in [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md).
-Four of the five districts have an existing script (Police Station, Hospital, Foundry, Academy) —
-see the per-district notes above for their pending puzzle/progression rewrites — and the fifth
-(Monastery) is planned in detail in [`STORY_NOTES.md`](STORY_NOTES.md) but not yet written
-scene-by-scene at all.)*
+All five open-order districts have complete scene-by-scene scripts as of 2026-08-14 — see the
+per-district links above. Remaining follow-up work on the scripts themselves (a deeper dialogue
+pass, an `Items/Key_Items/` cleanup, etc.) is tracked in [`STORY_NOTES.md`](STORY_NOTES.md), not
+here.)*
 
 ### Chapter 3 — What Was Hidden (Underground)
 
@@ -204,10 +205,10 @@ fuller outline (everything currently known, including what's still unresolved).*
 
 ## Major Story Progression
 
-See the chapter breakdown above for the fully established progression through the start of
-Chapter 2's open-world phase. Beyond the Downtown introduction, the five districts and everything
-underground has not yet been written scene-by-scene (see [`STORY_NOTES.md`](STORY_NOTES.md) for the planning
-material that exists for it).
+See the chapter breakdown above for the fully established progression through Chapter 2 — the
+Downtown introduction and all five open-order districts are now written scene-by-scene in full.
+Everything underground (Chapter 3) and the Epilogue remain outline-only — see
+[`STORY_NOTES.md`](STORY_NOTES.md) for the planning material that exists for them.
 
 ## How Locations Connect
 

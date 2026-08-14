@@ -532,7 +532,7 @@ No key item. No document. No creature.
 **END OF WRITTEN MATERIAL FOR WORTHY ACADEMY**
 
 *Once the Knowledge Crest is collected, The Matron defeated, and the Maintenance Escape Corridor
-witnessed, Jim is free to head to the one remaining district (the Monastery, Faith Crest) or
-backtrack to Memorial Park. This script has been rewritten to the Archive Puzzle (2026-08-14); the
-Monastery still needs a script written from scratch — see [`STORY_NOTES.md`](../STORY_NOTES.md) →
-"Five Puzzle Philosophies — script rewrite."*
+witnessed, Jim is free to head to any of the remaining districts in any order, or backtrack to
+Memorial Park. All five Chapter 2 districts now have complete scripts matching their own puzzle
+philosophy (2026-08-14) — see [`STORY_NOTES.md`](../STORY_NOTES.md) → "Five Puzzle Philosophies —
+script rewrite."*
