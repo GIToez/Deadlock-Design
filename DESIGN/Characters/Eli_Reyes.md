@@ -56,13 +56,14 @@ the fact.
 
 Never appears in person. His story is told entirely through environmental discovery, in order:
 
-1. **Calloway's dialogue** ([`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md),
-   Scene 26) — first mention: he has the armory key, went to check on the K-9 unit around
+1. **Calloway's dialogue**
+   ([`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md),
+   Scene 5) — first mention: he has the armory key, went to check on the K-9 unit around
    midnight, hasn't been heard from since.
-2. **The Chief's Office** (Scene 27) — the Chief's own logbook confirms the timeline: Reyes went
+2. **The Chief's Office** (Scene 6) — the Chief's own logbook confirms the timeline: Reyes went
    to check on the dogs, didn't come back, and the Chief went after him in turn (the Chief's own
    fate is left unresolved — a deliberate loose thread, not connected to Reyes).
-3. **The K-9 Unit Room** (Scene 28) — his body, the Armory Key still on his belt, and the Ashen
+3. **The K-9 Unit Room** (Scene 7) — his body, the Armory Key still on his belt, and the Ashen
    Hound fight that follows immediately after Jim finds him.
 4. **Municipal Garage** (Scene 32, optional) — his parked patrol cruiser, door open, radio still
    crackling — a small, non-mandatory detail implying he left the car here and walked the rest of
@@ -70,9 +71,10 @@ Never appears in person. His story is told entirely through environmental discov
 
 ## Important Scenes
 
-- First mentioned — [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 26.
-- Chief's logbook entry — Scene 27.
-- Body, Armory Key, and the Ashen Hound fight — Scene 28.
+- First mentioned — [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md),
+  Scene 5.
+- Chief's logbook entry — Scene 6.
+- Body, Armory Key, and the Ashen Hound fight — Scene 7.
 - Parked cruiser (optional) — Scene 32.
 
 ## Dialogue Characteristics

@@ -1476,6 +1476,49 @@ the next entry for the current final numbering (Scenes 22–40).
 - **Not done in this pass:** the same treatment for Academy, Foundry, and Monastery — each still
   has only its location-design/prose file. Next in line per this same repeated process.
 
+## Direction Log (continued) — splitting each district into its own script file (2026-08-13)
+
+> The project owner's follow-up after the Hospital pass: *"Yea we should split each district into
+> its own file to make it easier. Let's keep going forward with the next district."* Since
+> `Chapter_2_Hospital.md` had already established the "one standalone file per district, restarting
+> its own Scene 1 count" pattern, this pass retroactively applied the same split to the Police
+> Station, which up to this point still lived inside `Chapter_2_Ravenwood.md` as Scenes 22–45.
+
+- **New file: [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md).** The
+  Police Station's full script (all 24 scenes, dialogue and document text completely unchanged) was
+  cut out of `Chapter_2_Ravenwood.md` and moved here, renumbered to its own Scene 1–24 count.
+  **Renumbering map**, kept here for anyone with an old note still citing a pre-split number:
+  old Scene 22→1, 23→2, 24→3, 25→4, 26→5, 27→6, 28→7, 29→8, 30→9, 31→10, 32→11, 33→12, 34→13,
+  35→14, 36→15, 37→16, 38→17, 39→18, 40→19, 41→20, 42→21, 43→22, 44→23, 45→24.
+- **`Chapter_2_Ravenwood.md` retitled and trimmed to "Chapter 2 — Ravenwood (Downtown & Memorial
+  Park)"** — now covers only Scenes 1–21 (the street crossing, Memorial Park, and the Downtown
+  introduction), the shared entry point every district route passes through before splitting off.
+  Its header and closing footer were rewritten to point at the per-district files instead of
+  describing an ever-growing single chapter.
+- **Every cross-reference updated**, not just within the two split files themselves:
+  [`Locations/Police_Station.md`](Locations/Police_Station.md) (a new sixth revision note plus
+  every scene citation throughout), [`CANON.md`](CANON.md), [`MASTER_STORY.md`](MASTER_STORY.md),
+  [`Scripts/README.md`](Scripts/README.md), [`Creatures/Ashen_Hound.md`](Creatures/Ashen_Hound.md),
+  [`Characters/README.md`](Characters/README.md), [`Characters/Eli_Reyes.md`](Characters/Eli_Reyes.md),
+  [`Characters/Ruth_Calloway.md`](Characters/Ruth_Calloway.md), and
+  [`Weapons/Ranger_870_Pump_Shotgun.md`](Weapons/Ranger_870_Pump_Shotgun.md) all had their
+  `Chapter_2_Ravenwood.md` + old-scene-number citations replaced with
+  `Chapter_2_Police_Station.md` + the new numbers. Two internal cross-references inside the moved
+  content itself (a pointer back to Memorial Park's guardhouse note, and to Downtown's library
+  clipping) were upgraded from bare "(Scene N)" mentions to explicit
+  `Chapter_2_Ravenwood.md`-qualified links, since a same-file implicit reference would otherwise now
+  be ambiguous between the two files' own Scene 10s/20s.
+- **Deliberately left untouched:** older historical log entries elsewhere in this file (e.g. "the
+  originally-written Police Station, then Scenes 22–33, was too...") that narrate the *history* of
+  earlier restructuring passes using superseded scene numbers — those already describe a past state
+  using qualifying language ("then Scenes X"), so rewriting them to current numbers would misrepresent
+  what was actually true at the time they're describing. Only "current status" references were
+  updated.
+- **Not done in this pass:** the same per-district file split doesn't apply yet to Academy, Foundry,
+  or Monastery, since none of them have a `Scripts/` file yet at all — they'll simply be written
+  directly as their own standalone files from the start, per [`Scripts/README.md`](Scripts/README.md)'s
+  now-locked convention.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /

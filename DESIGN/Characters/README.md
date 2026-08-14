@@ -36,11 +36,11 @@ A character document may contain:
 ## Current files (Chapter 2 — Ravenwood / Southwest District)
 
 - [`Ruth_Calloway.md`](Ruth_Calloway.md) — Ravenwood PD desk sergeant; the Police Station's Tier 2
-  conditional survivor — see [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md),
-  Scene 26.
+  conditional survivor — see
+  [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scene 5.
 - [`Eli_Reyes.md`](Eli_Reyes.md) — Ravenwood PD's K-9 unit handler, never seen alive; found dead in
   the station's K-9 Unit Room, killed by his own K-9 partners — see
-  [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scenes 26–28.
+  [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scenes 5–7.
 - [`Aaron_Cole.md`](Aaron_Cole.md) — Ravenwood PD detective, never seen alive or dead; disappeared
   before the outbreak after secretly investigating Vanguard's role in the department — see
   [`CANON.md`](../CANON.md) → "Vanguard's Grip on Ravenwood PD" and

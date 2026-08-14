@@ -76,8 +76,9 @@ it.
 
 ## Important Scenes
 
-- Records/Dispatch room — [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md),
-  Scene 26 (alive version). Alternate/dead version not yet scripted — see Story Arc above.
+- Records/Dispatch room —
+  [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md),
+  Scene 5 (alive version). Alternate/dead version not yet scripted — see Story Arc above.
 
 ## Dialogue Characteristics
 

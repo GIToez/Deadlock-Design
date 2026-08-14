@@ -1,13 +1,13 @@
 # Chapter 2 — St. Dymphna Hospital
 
-> Scene-by-scene script for the Northeast District — Medical Crest. Kept in its own file rather
-> than appended to [`Chapter_2_Ravenwood.md`](Chapter_2_Ravenwood.md) (which already runs 45 scenes
-> covering Downtown and the Police Station) — per that file's own convention, scene numbering
-> restarts at Scene 1 here rather than continuing a single citywide count. Everything below scripts
-> [`Locations/Hospital.md`](../Locations/Hospital.md) in full: dialogue, document text, interaction
-> prompts, and the district's boss encounter. Written 2026-08-13, the second of Chapter 2's five
-> districts to receive this treatment after
-> [`Chapter_2_Ravenwood.md`](Chapter_2_Ravenwood.md)'s Police Station scenes — see
+> Scene-by-scene script for the Northeast District — Medical Crest. Kept in its own file, matching
+> the standalone-per-district convention (each district gets its own `Scripts/Chapter_2_<District>.md`
+> file, restarting its own Scene 1 count) — see
+> [`Chapter_2_Police_Station.md`](Chapter_2_Police_Station.md) for the first district scripted this
+> way. Everything below scripts [`Locations/Hospital.md`](../Locations/Hospital.md) in full:
+> dialogue, document text, interaction prompts, and the district's boss encounter. Written
+> 2026-08-13, the second of Chapter 2's five districts to receive this treatment after
+> [`Chapter_2_Police_Station.md`](Chapter_2_Police_Station.md) — see
 > [`STORY_NOTES.md`](../STORY_NOTES.md) for the Direction Log entry covering this pass, including
 > the new [`Items/Key_Items/`](../Items/Key_Items/README.md) writeups it required.
 >

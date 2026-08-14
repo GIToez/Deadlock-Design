@@ -65,12 +65,15 @@ RPD are the direct reference points), not a short, mostly-linear pass. Concrete 
 - **The emblem itself is the last thing found**, behind the deepest/most gated point of the
   location — a reward for finishing the loop, not something encountered early or in passing.
 - This standard is **retroactive**: the Police Station, originally scripted before this standard
-  was locked, has since been rewritten to match it (2026-08-13) —
-  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–40, including a
-  full room-connectivity blueprint at [`Locations/Police_Station.md`](Locations/Police_Station.md)
-  matching [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)'s existing convention.
-  The remaining four districts should be written to the same bar (dense main location, multiple
-  named keys, a full blueprint) from the start. See [`STORY_NOTES.md`](STORY_NOTES.md) for the
+  was locked, has since been rewritten to match it (2026-08-13) and fully scene-by-scene scripted —
+  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md), Scenes 1–24,
+  including a full room-connectivity blueprint at
+  [`Locations/Police_Station.md`](Locations/Police_Station.md) matching
+  [`Locations/Ravenwood_Hotel.md`](Locations/Ravenwood_Hotel.md)'s existing convention. St. Dymphna
+  Hospital has since received the same treatment
+  ([`Scripts/Chapter_2_Hospital.md`](Scripts/Chapter_2_Hospital.md)); the remaining three districts
+  should be written to the same bar (dense main location, multiple named keys, a full blueprint,
+  its own standalone script file) from the start. See [`STORY_NOTES.md`](STORY_NOTES.md) for the
   full restructuring history.
 
 ## Fundamental Premise
@@ -345,8 +348,8 @@ early hint that Vanguard's reach into the town predates the outbreak.
   Ravenwood PD," above.
 - **Chief Marcus Doyle** — Ravenwood PD's chief of police (name decided 2026-08-13, needed for his
   self-identification in the final-broadcast recording found in Records/Dispatch — see
-  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scene 26). Never seen alive or
-  dead; known through his own Chief's Office logbook (last entry: going to check on Corporal Reyes
+  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md), Scene 5). Never seen
+  alive or dead; known through his own Chief's Office logbook (last entry: going to check on Corporal Reyes
   himself) and that recording (publicly overriding Vanguard's containment order, ending on gunfire
   and static). His ultimate fate stays deliberately unresolved, same convention as Cole and the
   Vanguard Liaison. Deliberately distinct from "CHIEF E. WHITAKER," an unprompted, non-canonical
@@ -396,7 +399,7 @@ early hint that Vanguard's reach into the town predates the outbreak.
   ultimate fate is deliberately unresolved, same convention as Fitch, Ashford, the Police
   Station's Chief, and the Hospital's Liaison.
 - (The character/founder additions above are new as of 2026-08-13 — see
-  [`Scripts/Chapter_2_Ravenwood.md`](Scripts/Chapter_2_Ravenwood.md), Scenes 22–40, and
+  [`Scripts/Chapter_2_Police_Station.md`](Scripts/Chapter_2_Police_Station.md), Scenes 1–24, and
   [`STORY_NOTES.md`](STORY_NOTES.md) for context on what was proposed versus already locked.)
 
 ## Creature Classification: Ashen Mutant

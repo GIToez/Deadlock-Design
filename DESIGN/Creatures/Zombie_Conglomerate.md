@@ -139,7 +139,7 @@ its own internal notes admit they no longer understand or control.
   chase sequence).
 - Whether it dynamically grows within a single playthrough/night, or is simply placed at a fixed
   stage for any given encounter, is undecided.
-- Not yet integrated into [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md) as
-  an actual scripted or systemic encounter — this file establishes concept/lore/behavior only.
+- Not yet integrated into any [`Scripts/`](../Scripts/) file as an actual scripted or systemic
+  encounter — this file establishes concept/lore/behavior only.
 - The proposed resolution to the sighting-timeline conflict (see above) needs explicit approval
   before being treated as locked.

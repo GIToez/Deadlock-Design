@@ -11,7 +11,7 @@
 
 *Concept art (2026-08-13), for visual reference only — not a literal in-game screenshot. Depicts
 "Diesel," one of the two Ashen Hounds fought in the Police Station's K-9 Unit Room
-([`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 28): ash-gray,
+([`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scene 7): ash-gray,
 cracked hide over visibly wrong musculature, faint dark vein-like discoloration beneath the skin,
 pale clouded eyes, low predatory stance, and the tattered RAVENWOOD PD K-9 UNIT collar that
 identifies what it used to be.
@@ -59,7 +59,7 @@ The Southwest District's signature encounter (per [`AI.json`](../AI.json)'s "at 
 encounter or boss" rule for each district) — deliberately placed **inside the main station
 building** rather than a secondary location, so the district's densest content also carries its
 hardest fight. It happens immediately after finding Corporal Reyes' body and *before* the shotgun
-(see [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scenes 28–29) — Jim has
+(see [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scenes 7–8) — Jim has
 to survive it with whatever he's already carrying, and the shotgun that follows reads as a reward
 for getting through it rather than a tool handed out in advance. Not framed as a full boss fight on
 the Caretaker's scale — no phases, no unique arena mechanic — just a hard, fast, two-on-one fight in
@@ -68,7 +68,7 @@ a tight concrete kennel room that gives the player nowhere to retreat to.
 ## Encounter Progression
 
 - First (and so far only) appearance: the Police Station's K-9 Unit Room, Southwest District
-  ([`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 28) — encountered
+  ([`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scene 7) — encountered
   immediately after finding Corporal Reyes' body, one kennel gate already bent open and the second
   straining as Jim investigates.
 - Expected to recur as a creature class in later districts (not yet decided which ones); this file
@@ -77,8 +77,8 @@ a tight concrete kennel room that gives the player nowhere to retreat to.
 
 ## Major Appearances
 
-- [`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md), Scene 28 (Diesel and
-  Baxter, K-9 Unit Room).
+- [`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scene 7 (Diesel
+  and Baxter, K-9 Unit Room).
 
 ## Story Significance
 

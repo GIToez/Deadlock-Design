@@ -42,9 +42,9 @@ dispatching Shamblers, and delivering devastating takedowns when cornered.
 **Confirmed — approved by the project owner (2026-08-13).** This is the Police Station Armory's
 equipment reward — "a clamped-down shotgun and two boxes of shells" (the game's **second
 firearm**, per [`MASTER_STORY.md`](../MASTER_STORY.md) and
-[`Scripts/Chapter_2_Ravenwood.md`](../Scripts/Chapter_2_Ravenwood.md)). Matches the Ranger 870's
-own description ("a rugged 12-gauge shotgun... manual pump") closely, including the pump-action
-detail. [`Locations/Police_Station.md`](../Locations/Police_Station.md) now names it specifically
-and links here (the locked script prose in `Scripts/Chapter_2_Ravenwood.md` still just says "the
-shotgun," left as-is per the project's "preserve existing material unless a rewrite is requested"
-rule).
+[`Scripts/Chapter_2_Police_Station.md`](../Scripts/Chapter_2_Police_Station.md), Scene 8). Matches
+the Ranger 870's own description ("a rugged 12-gauge shotgun... manual pump") closely, including
+the pump-action detail. [`Locations/Police_Station.md`](../Locations/Police_Station.md) now names
+it specifically and links here (the locked script prose in `Scripts/Chapter_2_Police_Station.md`
+still just says "the shotgun," left as-is per the project's "preserve existing material unless a
+rewrite is requested" rule).
