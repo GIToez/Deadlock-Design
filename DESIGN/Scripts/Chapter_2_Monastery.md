@@ -199,9 +199,9 @@ Down through the newly-opened seal: generations-old warning inscriptions, sealed
 Figures move ahead in the dark — calm, deliberate, faint mineral streaking visible along exposed
 skin.
 
-*Combat: the Cave-Touched (pack encounter) — infected changed by direct proximity to Black Vein in
-the wider cave network, reached through Vanguard's illicit tunnel connection, rather than a bite or
-a Vanguard facility.*
+*Combat: [the Cave-Touched](../Creatures/The_Cave_Touched.md) (pack encounter) — infected changed
+by direct proximity to Black Vein in the wider cave network, reached through Vanguard's illicit
+tunnel connection, rather than a bite or a Vanguard facility.*
 
 Once the last one goes down, Jim keeps moving rather than examining them too closely.
 

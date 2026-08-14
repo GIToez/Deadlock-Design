@@ -30,10 +30,22 @@ post, still points the way: **CIVIC COMPLEX — POLICE — FIRE — COURTS — 2
 A row of patrol cars sits abandoned along the curb, doors open, overhead lights long since drained
 of charge. A dropped riot shield lies face-down in a puddle, cracked straight through.
 
-> **JIM:** *"...Should've been the safest part of town."*
-
 *SFX: rain on chain-link and sheet metal; a radio antenna somewhere clicking rhythmically against
 a pole in the wind; distant, occasional gunfire — old, not current, more echo than event.*
+
+### Crest-count branch (per [`Characters/Jim_Mercer.md`](../Characters/Jim_Mercer.md))
+
+**0 crests (Survival):**
+
+> **JIM:** *"...Should've been the safest part of town."*
+
+**1–2 crests (Suspicion / Pattern):**
+
+> **JIM:** *"...Let's see what this one's version looks like."*
+
+**3+ crests (Anger and past it):**
+
+Jim doesn't say anything. He just keeps walking toward the building.
 
 ---
 
@@ -805,7 +817,10 @@ Jim scans the list. Stops on one line.
 
 > **JIM:** *"...T. Okonkwo."*
 
-The same name from the whiteboard's SURVIVORS column. Flagged months before tonight.
+The same name from the whiteboard's SURVIVORS column. Flagged months before tonight. This is the
+list Cole spent months trying to reach — the twelve names on his own wall are all here, cross-
+referenced, dated, exactly as thorough as he suspected. He never made it this far. Jim did, using
+the card Cole hid for exactly this reason, and there's nobody left to tell.
 
 ---
 

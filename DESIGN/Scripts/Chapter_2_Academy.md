@@ -22,7 +22,15 @@ banners still hang along the fence. Emergency lights glow steadily rather than f
 basketball scoreboard, visible through a gymnasium window, sits frozen mid-game — **HOME 41,
 VISITOR 38, 4TH QUARTER.**
 
+### Crest-count branch (per [`Characters/Jim_Mercer.md`](../Characters/Jim_Mercer.md))
+
+**0–2 crests (Survival / Suspicion / Pattern):**
+
 > **JIM:** *"...This one almost looks okay."*
+
+**3+ crests (Anger and past it):**
+
+Jim doesn't say it out loud. He just knows, already, that it won't stay that way.
 
 Then he gets closer, and it doesn't.
 

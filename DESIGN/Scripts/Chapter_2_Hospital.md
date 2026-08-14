@@ -33,7 +33,15 @@ He's almost at the entrance when it cycles again, clearer.
 
 Jim stops for a second. He's not police.
 
+### Crest-count branch (per [`Characters/Jim_Mercer.md`](../Characters/Jim_Mercer.md))
+
+**0–2 crests (Survival / Suspicion / Pattern):**
+
 > **JIM:** *"...Yeah. I know."*
+
+**3+ crests (Anger and past it):**
+
+He doesn't answer the recording at all anymore.
 
 He keeps walking toward the Ambulance Bay.
 
@@ -256,6 +264,14 @@ a reception desk with a dead phone system still lit up with unanswered lines bli
 
 > An early intake chart notes a cluster of industrial-trauma admissions, all listing the same
 > employer: **Steelgate Refinery.**
+
+### Optional — two nurses' shift-change notes, stapled together
+
+*Interaction prompt: [READ NOTES]*
+
+The handwriting changes partway down the page — one nurse logging a patient as stable at the end
+of her shift, the next logging the same patient, an hour later, as already gone. Neither note
+mentions the other. Whatever happened in between isn't written down anywhere Jim can find.
 
 Jim sets everything back down.
 

@@ -25,7 +25,19 @@ still audibly running on old backup power, a low mechanical groan under everythi
 
 It cycles again as Jim gets closer. Nobody's coming.
 
+### Crest-count branch (per [`Characters/Jim_Mercer.md`](../Characters/Jim_Mercer.md))
+
+**0–1 crests (Survival / Suspicion):**
+
 > **JIM:** *"Yeah. I got that the first time."*
+
+**2–3 crests (Pattern / Anger):**
+
+> **JIM:** *"Nobody's coming to any of these."*
+
+**4+ crests (Resolve / Acceptance):**
+
+Jim doesn't react to the recording at all. It's just noise now.
 
 ---
 
@@ -99,6 +111,15 @@ A clipboard hangs beside the phone, a nurse's handwriting recording her own call
 > *"12:07 AM — Asked why. No answer given."*
 
 The log ends there. Jim sets the clipboard back down slowly.
+
+The wall phone itself is still connected — not dead, just unanswered. Jim picks it up out of habit
+more than hope. A crossed line bleeds through, someone else's call on a shared trunk line, too
+faint and too brief to place.
+
+> **VOICE (PHONE, DISTANT):** *"—can't hold the west corridor much longer, we need—"*
+
+The line goes dead before whoever it was finishes the sentence. Jim doesn't know who that was, or
+where, or whether "the west corridor" means anything he'll ever find out. He hangs up.
 
 Movement from the gurney — what's restrained there is long past needing restraints.
 

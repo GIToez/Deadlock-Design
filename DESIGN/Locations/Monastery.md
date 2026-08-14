@@ -632,15 +632,11 @@ flowchart TD
 
 ## Creatures Encountered
 
-- **The Cave-Touched** (resolved 2026-08-14) — this district's standard-tier new creature, per
-  [`CANON.md`](../CANON.md) → "Creature Distribution System": infected who wandered into the wider
-  cave network and were changed by direct proximity to exposed Black Vein rather than a Vanguard
-  facility or a bite — faint mineral-streaked skin, unusually calm and settled movement, a lesser,
-  earlier echo of what centuries of the same exposure eventually made of The Penitent. Encountered
-  in a small group approaching the Old Seal / Crypt Depths, reached through Vanguard's own illicit
-  tunnel connection to the wider network. Once encountered here, standard-tier Cave-Touched can
-  begin appearing as a roaming hazard elsewhere in Ravenwood, same as every other district's
-  creature.
+- **[The Cave-Touched](../Creatures/The_Cave_Touched.md)** — this district's standard-tier new
+  creature, per [`CANON.md`](../CANON.md) → "Creature Distribution System": infected who wandered
+  into the wider cave network and were changed by direct proximity to exposed Black Vein rather
+  than a Vanguard facility or a bite. Encountered in a small group approaching the Old Seal / Crypt
+  Depths, reached through Vanguard's own illicit tunnel connection to the wider network.
 - **[The Penitent](../Creatures/The_Penitent.md)** — the district's boss, in the Old Seal / Crypt
   Depths, beyond the Cave-Touched approach.
 
@@ -753,9 +749,8 @@ fifth, drains the basin, and descends the revealed staircase — beginning Chapt
   and Academy.
 - ~~Whether this district has a standard-tier new creature distinct from its boss.~~ **Resolved
   (2026-08-14):** the district's boss is [The Penitent](../Creatures/The_Penitent.md), and its
-  standard-tier creature is the Cave-Touched (see "Creatures Encountered," above) — no dedicated
-  `Creatures/` file yet, unlike the other four districts' own new creatures; a future pass should
-  give it one if it needs more mechanical detail than described inline here.
+  standard-tier creature is [The Cave-Touched](../Creatures/The_Cave_Touched.md), now with its own
+  full `Creatures/` file matching the other four districts' own new creatures.
 - Whether Brother Cormac deserves his own dedicated `Characters/` file (matching Aaron Cole's
   treatment) rather than being described only within this location file — not done here, consistent
   with how Fitch, Ashford, the Police Station's Chief, and the Hospital's Liaison were also left

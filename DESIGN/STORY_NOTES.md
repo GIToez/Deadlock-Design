@@ -2169,6 +2169,50 @@ Police Station and Hospital already covered") left over from when the districts 
 sequence — these now correctly say "any of the remaining districts in any order," consistent with
 the game's actual open-order design.
 
+## Direction Log (continued) — second follow-up pass: remaining four items (2026-08-14)
+
+> The four items still open after the previous follow-up pass (Cave-Touched creature file, crest-
+> count conditionals, more messiness beats, storytelling-table audit) are now done.
+
+**1. [`Creatures/The_Cave_Touched.md`](Creatures/The_Cave_Touched.md) created.** Full write-up
+matching the other four districts' own new creatures (concept, origin, appearance, behavior,
+gameplay role, story significance, open design gaps) — previously just an inline description in
+[`Locations/Monastery.md`](Locations/Monastery.md). Updated that file and
+[`Scripts/Chapter_2_Monastery.md`](Scripts/Chapter_2_Monastery.md) to link to it.
+
+**2. Explicit crest-count dialogue conditionals added** to the four scripts that didn't already
+have one (only the Monastery's Sealed Passage and the Hospital's Richard Dalton beat were
+conditional before this pass). Each of Police Station, Hospital, Foundry, and Academy now branches
+Jim's very first reaction on arrival by crest count, per
+[`Characters/Jim_Mercer.md`](Characters/Jim_Mercer.md)'s 0–5 breakdown — low crest count gets a
+line, mid gets a shorter/dryer one, high crest count gets silence. This is deliberately a light
+touch (one branch point per script, at the entry scene) rather than rewriting every line
+dynamically — a fuller pass would need to thread crest-count branches through many more moments,
+but this establishes the pattern at the one place every playthrough is guaranteed to pass through
+regardless of district order.
+
+**3. Three more "deliberate messiness" beats added**, on top of the Police Station's garbled radio
+transmission from the previous pass: (a) Police Station's Vanguard Liaison Office scene now makes
+explicit that Jim is answering a question ([Aaron Cole's](Characters/Aaron_Cole.md) own) that its
+asker died without ever getting to answer himself; (b) the Foundry Clinic's wall phone now picks up
+a crossed line — a stranger's voice, mid-sentence, from an unspecified "west corridor," cut off
+before Jim can learn anything useful — a transmission that never resolves into anything; (c) the
+Hospital's Administration Office now has two nurses' shift-change notes that quietly disagree about
+the same patient's condition, with nothing explaining the gap. Combined with the Academy's existing
+1968-vs-mining-activity contradiction, the chapter now has multiple flavors of "discovered, not
+engineered" messiness rather than one.
+
+**4. Per-district storytelling-material table audited** against the actual scripts:
+Police Station's documents are almost entirely reports/radio/procedure (logs, recordings, protocol
+binders, a missing-persons list); Hospital's are predominantly medical (surgical logs, patient
+charts, nurse's notes, morgue records) with a couple of justified institutional exceptions
+(Vanguard's own containment paperwork, which is a real plot thread there too); Foundry's are
+machinery/worker-belongings/records (personal locker notes, shipment manifests, research contracts,
+survey maps); Academy's are human-remnants/personal-notes (yearbooks, a teacher's notebook, family
+photos, PA recordings); Monastery's are architecture/old-texts/ritual-objects (a mural, a prayer
+book, statues, ancient inscriptions), with one Vanguard memorandum as a similarly justified
+exception. The table holds up well — no changes needed beyond confirming it.
+
 ## Still-Open Questions
 
 - **Exact cause/mechanism of the Black Vein outbreak** — the *attribution* (Vanguard BioSystems /
@@ -2357,21 +2401,18 @@ or the five districts — none of those chapters have named characters yet.
   [`Locations/Monastery.md`](Locations/Monastery.md)). All five rewrites trimmed Jim's dialogue and
   removed the old self-aware "same shape as X, different building" lines the narrative review
   flagged.
-  **Follow-up work status:** items (1) `Items/Key_Items/` audit, (2) dialogue/pacing pass, and (3)
-  final consistency pass across all five `Locations/` files are now done — see "follow-up pass:
-  items audit, dialogue trim, final consistency check," above. **Still not done:** (4) give the
-  Cave-Touched a proper `Creatures/` file if the Monastery's own bestiary needs more than the
-  current inline description; (5) a deeper, scene-by-scene audit of Jim's crest-count arc against
-  [`Characters/Jim_Mercer.md`](Characters/Jim_Mercer.md)'s 0–5 breakdown — the dialogue pass cut
-  redundant lines and weighted the cuts toward later-feeling districts, but didn't write explicit
-  crest-count conditionals into the scripts themselves (only the Monastery's Sealed Passage has
-  one, since that gate is mechanical, not just tonal); (6) more "deliberate messiness" beats beyond
-  the one added to the Police Station — the review asked for a few instances across the whole
-  chapter, and only one new one plus one pre-existing one (the Academy's 1968 contradiction) are
-  confirmed in place; (7) the per-district storytelling-material table (Police =
-  reports/radio/procedure, Hospital = bodies/treatment spaces, Foundry = machinery/belongings,
-  Academy = human remnants/personal notes, Monastery = architecture/murals/old texts) held up on a
-  spot-check during the rewrite but hasn't been formally audited document-by-document.
+  **Follow-up work status: all seven originally-tracked items are now done** — see "follow-up
+  pass: items audit, dialogue trim, final consistency check" and "second follow-up pass: remaining
+  four items," both above, for (1) the `Items/Key_Items/` audit, (2) the dialogue/pacing pass, (3)
+  the final consistency pass across all five `Locations/` files, (4) the Cave-Touched's own
+  `Creatures/` file, (5) explicit crest-count dialogue conditionals (one per script, at each
+  district's entry scene — not a full dynamic rewrite of every line, but the pattern is now
+  established), (6) three additional "deliberate messiness" beats, and (7) the storytelling-
+  material table audit. **Genuinely still open, not yet attempted:** a fuller pass threading
+  crest-count branches through more than just each script's opening scene, if that level of
+  dynamic dialogue ends up worth the implementation cost; and whether any of the "messiness" beats
+  added should eventually pay off later in the game (Chapter 3) or stay permanently unresolved,
+  consistent with this project's general preference for the latter.
 - **Creature Distribution System (locked 2026-08-14).** Per the project owner's direction: every
   district has Shamblers themed to that location (police uniforms, hospital gowns, work coveralls,
   shelter clothing, monastic robes), every district's main location has one boss-tier encounter
